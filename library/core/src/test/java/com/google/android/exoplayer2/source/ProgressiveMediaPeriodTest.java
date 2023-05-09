@@ -13,23 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source;
+package com.readwise.android.exoplayer2.source;
 
-import static com.google.android.exoplayer2.robolectric.RobolectricUtil.runMainLooperUntil;
+import static com.readwise.android.exoplayer2.robolectric.RobolectricUtil.runMainLooperUntil;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.net.Uri;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.analytics.PlayerId;
-import com.google.android.exoplayer2.drm.DrmSessionEventListener;
-import com.google.android.exoplayer2.drm.DrmSessionManager;
-import com.google.android.exoplayer2.extractor.mp4.Mp4Extractor;
-import com.google.android.exoplayer2.source.MediaSource.MediaPeriodId;
-import com.google.android.exoplayer2.upstream.AssetDataSource;
-import com.google.android.exoplayer2.upstream.DefaultAllocator;
-import com.google.android.exoplayer2.upstream.DefaultLoadErrorHandlingPolicy;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.analytics.PlayerId;
+import com.readwise.android.exoplayer2.drm.DrmSessionEventListener;
+import com.readwise.android.exoplayer2.drm.DrmSessionManager;
+import com.readwise.android.exoplayer2.extractor.mp4.Mp4Extractor;
+import com.readwise.android.exoplayer2.source.MediaSource.MediaPeriodId;
+import com.readwise.android.exoplayer2.upstream.AssetDataSource;
+import com.readwise.android.exoplayer2.upstream.DefaultAllocator;
+import com.readwise.android.exoplayer2.upstream.DefaultLoadErrorHandlingPolicy;
 import java.util.concurrent.TimeoutException;
 import java.util.concurrent.atomic.AtomicBoolean;
 import org.junit.Test;

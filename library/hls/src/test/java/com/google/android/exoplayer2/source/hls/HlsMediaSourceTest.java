@@ -13,25 +13,25 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.hls;
+package com.readwise.android.exoplayer2.source.hls;
 
-import static com.google.android.exoplayer2.robolectric.RobolectricUtil.runMainLooperUntil;
+import static com.readwise.android.exoplayer2.robolectric.RobolectricUtil.runMainLooperUntil;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.net.Uri;
 import android.os.SystemClock;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.ParserException;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.analytics.PlayerId;
-import com.google.android.exoplayer2.source.MediaSource;
-import com.google.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist;
-import com.google.android.exoplayer2.source.hls.playlist.HlsPlaylistParser;
-import com.google.android.exoplayer2.testutil.FakeDataSet;
-import com.google.android.exoplayer2.testutil.FakeDataSource;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.ParserException;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.analytics.PlayerId;
+import com.readwise.android.exoplayer2.source.MediaSource;
+import com.readwise.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist;
+import com.readwise.android.exoplayer2.source.hls.playlist.HlsPlaylistParser;
+import com.readwise.android.exoplayer2.testutil.FakeDataSet;
+import com.readwise.android.exoplayer2.testutil.FakeDataSource;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.util.ArrayList;

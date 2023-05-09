@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.text.webvtt;
+package com.readwise.android.exoplayer2.text.webvtt;
 
-import static com.google.android.exoplayer2.testutil.truth.SpannedSubject.assertThat;
+import static com.readwise.android.exoplayer2.testutil.truth.SpannedSubject.assertThat;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.graphics.Color;

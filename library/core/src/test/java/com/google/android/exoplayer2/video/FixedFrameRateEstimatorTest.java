@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.video;
+package com.readwise.android.exoplayer2.video;
 
-import static com.google.android.exoplayer2.video.FixedFrameRateEstimator.CONSECUTIVE_MATCHING_FRAME_DURATIONS_FOR_SYNC;
-import static com.google.android.exoplayer2.video.FixedFrameRateEstimator.MAX_MATCHING_FRAME_DIFFERENCE_NS;
+import static com.readwise.android.exoplayer2.video.FixedFrameRateEstimator.CONSECUTIVE_MATCHING_FRAME_DURATIONS_FOR_SYNC;
+import static com.readwise.android.exoplayer2.video.FixedFrameRateEstimator.MAX_MATCHING_FRAME_DIFFERENCE_NS;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.C;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

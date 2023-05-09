@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.mediacodec;
+package com.readwise.android.exoplayer2.mediacodec;
 
 import android.media.MediaCodec;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.decoder.DecoderException;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.decoder.DecoderException;
+import com.readwise.android.exoplayer2.util.Util;
 
 /** Thrown when a failure occurs in a {@link MediaCodec} decoder. */
 public class MediaCodecDecoderException extends DecoderException {

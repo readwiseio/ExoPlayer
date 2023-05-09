@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.testutil;
+package com.readwise.android.exoplayer2.testutil;
 
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.drm.DrmSessionManagerProvider;
-import com.google.android.exoplayer2.source.MediaSource;
-import com.google.android.exoplayer2.source.MediaSourceFactory;
-import com.google.android.exoplayer2.source.ads.AdPlaybackState;
-import com.google.android.exoplayer2.testutil.FakeTimeline.TimelineWindowDefinition;
-import com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.drm.DrmSessionManagerProvider;
+import com.readwise.android.exoplayer2.source.MediaSource;
+import com.readwise.android.exoplayer2.source.MediaSourceFactory;
+import com.readwise.android.exoplayer2.source.ads.AdPlaybackState;
+import com.readwise.android.exoplayer2.testutil.FakeTimeline.TimelineWindowDefinition;
+import com.readwise.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 
 /** Fake {@link MediaSourceFactory} that creates a {@link FakeMediaSource}. */

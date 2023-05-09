@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.metadata</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.metadata</a></div>
 <h2 title="Interface MetadataDecoder" class="title">Interface MetadataDecoder</h2>
 </div>
 <div class="contentContainer">
@@ -122,7 +122,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Known Implementing Classes:</dt>
-<dd><code><a href="dvbsi/AppInfoTableDecoder.html" title="class in com.google.android.exoplayer2.metadata.dvbsi">AppInfoTableDecoder</a></code>, <code><a href="emsg/EventMessageDecoder.html" title="class in com.google.android.exoplayer2.metadata.emsg">EventMessageDecoder</a></code>, <code><a href="icy/IcyDecoder.html" title="class in com.google.android.exoplayer2.metadata.icy">IcyDecoder</a></code>, <code><a href="id3/Id3Decoder.html" title="class in com.google.android.exoplayer2.metadata.id3">Id3Decoder</a></code>, <code><a href="SimpleMetadataDecoder.html" title="class in com.google.android.exoplayer2.metadata">SimpleMetadataDecoder</a></code>, <code><a href="scte35/SpliceInfoDecoder.html" title="class in com.google.android.exoplayer2.metadata.scte35">SpliceInfoDecoder</a></code></dd>
+<dd><code><a href="dvbsi/AppInfoTableDecoder.html" title="class in com.readwise.android.exoplayer2.metadata.dvbsi">AppInfoTableDecoder</a></code>, <code><a href="emsg/EventMessageDecoder.html" title="class in com.readwise.android.exoplayer2.metadata.emsg">EventMessageDecoder</a></code>, <code><a href="icy/IcyDecoder.html" title="class in com.readwise.android.exoplayer2.metadata.icy">IcyDecoder</a></code>, <code><a href="id3/Id3Decoder.html" title="class in com.readwise.android.exoplayer2.metadata.id3">Id3Decoder</a></code>, <code><a href="SimpleMetadataDecoder.html" title="class in com.readwise.android.exoplayer2.metadata">SimpleMetadataDecoder</a></code>, <code><a href="scte35/SpliceInfoDecoder.html" title="class in com.readwise.android.exoplayer2.metadata.scte35">SpliceInfoDecoder</a></code></dd>
 </dl>
 <hr>
 <pre>public interface <span class="typeNameLabel">MetadataDecoder</span></pre>
@@ -148,10 +148,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <th class="colLast" scope="col">Description</th>
 </tr>
 <tr id="i0" class="altColor">
-<td class="colFirst"><code><a href="Metadata.html" title="class in com.google.android.exoplayer2.metadata">Metadata</a></code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#decode(com.google.android.exoplayer2.metadata.MetadataInputBuffer)">decode</a></span>&#8203;(<a href="MetadataInputBuffer.html" title="class in com.google.android.exoplayer2.metadata">MetadataInputBuffer</a>&nbsp;inputBuffer)</code></th>
+<td class="colFirst"><code><a href="Metadata.html" title="class in com.readwise.android.exoplayer2.metadata">Metadata</a></code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#decode(com.readwise.android.exoplayer2.metadata.MetadataInputBuffer)">decode</a></span>&#8203;(<a href="MetadataInputBuffer.html" title="class in com.readwise.android.exoplayer2.metadata">MetadataInputBuffer</a>&nbsp;inputBuffer)</code></th>
 <td class="colLast">
-<div class="block">Decodes a <a href="Metadata.html" title="class in com.google.android.exoplayer2.metadata"><code>Metadata</code></a> element from the provided input buffer.</div>
+<div class="block">Decodes a <a href="Metadata.html" title="class in com.readwise.android.exoplayer2.metadata"><code>Metadata</code></a> element from the provided input buffer.</div>
 </td>
 </tr>
 </table>
@@ -171,15 +171,15 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="decode(com.google.android.exoplayer2.metadata.MetadataInputBuffer)">
+<a id="decode(com.readwise.android.exoplayer2.metadata.MetadataInputBuffer)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>decode</h4>
 <pre class="methodSignature">@Nullable
-<a href="Metadata.html" title="class in com.google.android.exoplayer2.metadata">Metadata</a>&nbsp;decode&#8203;(<a href="MetadataInputBuffer.html" title="class in com.google.android.exoplayer2.metadata">MetadataInputBuffer</a>&nbsp;inputBuffer)</pre>
-<div class="block">Decodes a <a href="Metadata.html" title="class in com.google.android.exoplayer2.metadata"><code>Metadata</code></a> element from the provided input buffer.
+<a href="Metadata.html" title="class in com.readwise.android.exoplayer2.metadata">Metadata</a>&nbsp;decode&#8203;(<a href="MetadataInputBuffer.html" title="class in com.readwise.android.exoplayer2.metadata">MetadataInputBuffer</a>&nbsp;inputBuffer)</pre>
+<div class="block">Decodes a <a href="Metadata.html" title="class in com.readwise.android.exoplayer2.metadata"><code>Metadata</code></a> element from the provided input buffer.
 
  <p>Respects <a href="https://developer.android.com/reference/java/nio/Buffer.html#limit()" title="class or interface in java.nio" class="externalLink"><code>Buffer.limit()</code></a> of <code>inputBuffer.data</code>, but assumes <a href="https://developer.android.com/reference/java/nio/Buffer.html?is-external=true#position()" title="class or interface in java.nio" class="externalLink"><code>Buffer.position()</code></a> and <a href="https://developer.android.com/reference/java/nio/ByteBuffer.html?is-external=true#arrayOffset()" title="class or interface in java.nio" class="externalLink"><code>ByteBuffer.arrayOffset()</code></a> are both zero and <a href="https://developer.android.com/reference/java/nio/ByteBuffer.html?is-external=true#hasArray()" title="class or interface in java.nio" class="externalLink" target="_top"><code>ByteBuffer.hasArray()</code></a> is true.</div>
 <dl>

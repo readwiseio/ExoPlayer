@@ -13,20 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.rtsp;
+package com.readwise.android.exoplayer2.source.rtsp;
 
-import static com.google.android.exoplayer2.source.rtsp.RtspMessageUtil.convertMessageToByteArray;
-import static com.google.android.exoplayer2.source.rtsp.RtspMessageUtil.serializeResponse;
+import static com.readwise.android.exoplayer2.source.rtsp.RtspMessageUtil.convertMessageToByteArray;
+import static com.readwise.android.exoplayer2.source.rtsp.RtspMessageUtil.serializeResponse;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.net.Uri;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.robolectric.RobolectricUtil;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.robolectric.RobolectricUtil;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.LinkedListMultimap;
 import com.google.common.collect.Multimap;
 import com.google.common.primitives.Bytes;
+import com.readwise.android.exoplayer2.source.rtsp.RtspHeaders;
+import com.readwise.android.exoplayer2.source.rtsp.RtspMessageChannel;
+import com.readwise.android.exoplayer2.source.rtsp.RtspResponse;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.InetAddress;

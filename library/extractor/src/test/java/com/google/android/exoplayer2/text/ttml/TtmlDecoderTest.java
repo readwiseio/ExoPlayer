@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.text.ttml;
+package com.readwise.android.exoplayer2.text.ttml;
 
-import static com.google.android.exoplayer2.testutil.truth.SpannedSubject.assertThat;
+import static com.readwise.android.exoplayer2.testutil.truth.SpannedSubject.assertThat;
 import static com.google.common.truth.Truth.assertThat;
 import static com.google.common.truth.Truth.assertWithMessage;
 
@@ -23,14 +23,14 @@ import android.text.Layout;
 import android.text.Spanned;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.testutil.TestUtil;
-import com.google.android.exoplayer2.text.Cue;
-import com.google.android.exoplayer2.text.Subtitle;
-import com.google.android.exoplayer2.text.SubtitleDecoderException;
-import com.google.android.exoplayer2.text.span.TextAnnotation;
-import com.google.android.exoplayer2.text.span.TextEmphasisSpan;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.ColorParser;
+import com.readwise.android.exoplayer2.testutil.TestUtil;
+import com.readwise.android.exoplayer2.text.Cue;
+import com.readwise.android.exoplayer2.text.Subtitle;
+import com.readwise.android.exoplayer2.text.SubtitleDecoderException;
+import com.readwise.android.exoplayer2.text.span.TextAnnotation;
+import com.readwise.android.exoplayer2.text.span.TextEmphasisSpan;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.ColorParser;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;

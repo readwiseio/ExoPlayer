@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
 import static androidx.annotation.VisibleForTesting.PROTECTED;
 
@@ -28,29 +28,29 @@ import androidx.annotation.IntRange;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.analytics.AnalyticsCollector;
-import com.google.android.exoplayer2.analytics.AnalyticsListener;
-import com.google.android.exoplayer2.audio.AudioAttributes;
-import com.google.android.exoplayer2.audio.AuxEffectInfo;
-import com.google.android.exoplayer2.decoder.DecoderCounters;
-import com.google.android.exoplayer2.extractor.ExtractorsFactory;
-import com.google.android.exoplayer2.source.DefaultMediaSourceFactory;
-import com.google.android.exoplayer2.source.MediaSource;
-import com.google.android.exoplayer2.source.ShuffleOrder;
-import com.google.android.exoplayer2.source.TrackGroupArray;
-import com.google.android.exoplayer2.text.CueGroup;
-import com.google.android.exoplayer2.trackselection.TrackSelectionArray;
-import com.google.android.exoplayer2.trackselection.TrackSelectionParameters;
-import com.google.android.exoplayer2.trackselection.TrackSelector;
-import com.google.android.exoplayer2.upstream.BandwidthMeter;
-import com.google.android.exoplayer2.util.Clock;
-import com.google.android.exoplayer2.util.ConditionVariable;
-import com.google.android.exoplayer2.util.Effect;
-import com.google.android.exoplayer2.util.PriorityTaskManager;
-import com.google.android.exoplayer2.util.Size;
-import com.google.android.exoplayer2.video.VideoFrameMetadataListener;
-import com.google.android.exoplayer2.video.VideoSize;
-import com.google.android.exoplayer2.video.spherical.CameraMotionListener;
+import com.readwise.android.exoplayer2.analytics.AnalyticsCollector;
+import com.readwise.android.exoplayer2.analytics.AnalyticsListener;
+import com.readwise.android.exoplayer2.audio.AudioAttributes;
+import com.readwise.android.exoplayer2.audio.AuxEffectInfo;
+import com.readwise.android.exoplayer2.decoder.DecoderCounters;
+import com.readwise.android.exoplayer2.extractor.ExtractorsFactory;
+import com.readwise.android.exoplayer2.source.DefaultMediaSourceFactory;
+import com.readwise.android.exoplayer2.source.MediaSource;
+import com.readwise.android.exoplayer2.source.ShuffleOrder;
+import com.readwise.android.exoplayer2.source.TrackGroupArray;
+import com.readwise.android.exoplayer2.text.CueGroup;
+import com.readwise.android.exoplayer2.trackselection.TrackSelectionArray;
+import com.readwise.android.exoplayer2.trackselection.TrackSelectionParameters;
+import com.readwise.android.exoplayer2.trackselection.TrackSelector;
+import com.readwise.android.exoplayer2.upstream.BandwidthMeter;
+import com.readwise.android.exoplayer2.util.Clock;
+import com.readwise.android.exoplayer2.util.ConditionVariable;
+import com.readwise.android.exoplayer2.util.Effect;
+import com.readwise.android.exoplayer2.util.PriorityTaskManager;
+import com.readwise.android.exoplayer2.util.Size;
+import com.readwise.android.exoplayer2.video.VideoFrameMetadataListener;
+import com.readwise.android.exoplayer2.video.VideoSize;
+import com.readwise.android.exoplayer2.video.spherical.CameraMotionListener;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.util.List;
 

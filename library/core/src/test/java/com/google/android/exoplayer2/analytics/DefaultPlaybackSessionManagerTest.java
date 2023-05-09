@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.analytics;
+package com.readwise.android.exoplayer2.analytics;
 
 import static com.google.common.truth.Truth.assertThat;
 import static org.mockito.ArgumentMatchers.any;
@@ -28,14 +28,14 @@ import static org.mockito.Mockito.verifyNoMoreInteractions;
 
 import androidx.annotation.Nullable;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.analytics.AnalyticsListener.EventTime;
-import com.google.android.exoplayer2.source.MediaSource.MediaPeriodId;
-import com.google.android.exoplayer2.source.ads.AdPlaybackState;
-import com.google.android.exoplayer2.testutil.FakeTimeline;
-import com.google.android.exoplayer2.testutil.FakeTimeline.TimelineWindowDefinition;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.analytics.AnalyticsListener.EventTime;
+import com.readwise.android.exoplayer2.source.MediaSource.MediaPeriodId;
+import com.readwise.android.exoplayer2.source.ads.AdPlaybackState;
+import com.readwise.android.exoplayer2.testutil.FakeTimeline;
+import com.readwise.android.exoplayer2.testutil.FakeTimeline.TimelineWindowDefinition;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

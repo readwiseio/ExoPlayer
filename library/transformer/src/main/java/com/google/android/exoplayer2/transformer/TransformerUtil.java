@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.transformer;
+package com.readwise.android.exoplayer2.transformer;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.effect.GlEffect;
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.metadata.mp4.SlowMotionData;
-import com.google.android.exoplayer2.util.Effect;
-import com.google.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.effect.GlEffect;
+import com.readwise.android.exoplayer2.metadata.Metadata;
+import com.readwise.android.exoplayer2.metadata.mp4.SlowMotionData;
+import com.readwise.android.exoplayer2.util.Effect;
+import com.readwise.android.exoplayer2.util.MimeTypes;
 import com.google.common.collect.ImmutableList;
 
 /** Utility methods for Transformer. */

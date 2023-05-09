@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.rtmp;
+package com.readwise.android.exoplayer2.ext.rtmp;
 
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static com.readwise.android.exoplayer2.util.Util.castNonNull;
 
 import android.net.Uri;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ExoPlayerLibraryInfo;
-import com.google.android.exoplayer2.upstream.BaseDataSource;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.upstream.TransferListener;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ExoPlayerLibraryInfo;
+import com.readwise.android.exoplayer2.upstream.BaseDataSource;
+import com.readwise.android.exoplayer2.upstream.DataSource;
+import com.readwise.android.exoplayer2.upstream.DataSpec;
+import com.readwise.android.exoplayer2.upstream.TransferListener;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import io.antmedia.rtmp_client.RtmpClient;
 import io.antmedia.rtmp_client.RtmpClient.RtmpIOException;

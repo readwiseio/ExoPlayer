@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.analytics;
+package com.readwise.android.exoplayer2.analytics;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
 
 import android.media.metrics.LogSessionId;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.util.Util;
 
 /** Identifier for a player instance. */
 public final class PlayerId {

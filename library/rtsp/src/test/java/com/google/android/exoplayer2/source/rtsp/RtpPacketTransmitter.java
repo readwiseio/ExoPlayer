@@ -13,12 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.rtsp;
+package com.readwise.android.exoplayer2.source.rtsp;
 
-import com.google.android.exoplayer2.source.rtsp.RtspMessageChannel.InterleavedBinaryDataListener;
-import com.google.android.exoplayer2.util.Clock;
-import com.google.android.exoplayer2.util.HandlerWrapper;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.source.rtsp.RtspMessageChannel;
+import com.readwise.android.exoplayer2.source.rtsp.RtspMessageChannel.InterleavedBinaryDataListener;
+import com.readwise.android.exoplayer2.util.Clock;
+import com.readwise.android.exoplayer2.util.HandlerWrapper;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 
 /** Transmits media RTP packets periodically. */

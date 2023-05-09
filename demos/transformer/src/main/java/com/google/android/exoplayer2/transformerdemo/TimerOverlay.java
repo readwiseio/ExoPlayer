@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.transformerdemo;
+package com.readwise.android.exoplayer2.transformerdemo;
 
 import android.graphics.Color;
 import android.opengl.Matrix;
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.style.ForegroundColorSpan;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.effect.OverlaySettings;
-import com.google.android.exoplayer2.effect.TextOverlay;
-import com.google.android.exoplayer2.effect.TextureOverlay;
-import com.google.android.exoplayer2.util.GlUtil;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.effect.OverlaySettings;
+import com.readwise.android.exoplayer2.effect.TextOverlay;
+import com.readwise.android.exoplayer2.effect.TextureOverlay;
+import com.readwise.android.exoplayer2.util.GlUtil;
 import java.util.Locale;
 
 /**

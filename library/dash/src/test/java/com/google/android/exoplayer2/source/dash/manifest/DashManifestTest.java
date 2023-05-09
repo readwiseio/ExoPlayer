@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.dash.manifest;
+package com.readwise.android.exoplayer2.source.dash.manifest;
 
 import static com.google.common.truth.Truth.assertThat;
 
 import android.net.Uri;
 import androidx.annotation.Nullable;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.offline.StreamKey;
-import com.google.android.exoplayer2.source.dash.manifest.SegmentBase.SingleSegmentBase;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.offline.StreamKey;
+import com.readwise.android.exoplayer2.source.dash.manifest.SegmentBase.SingleSegmentBase;
 import com.google.common.collect.ImmutableList;
 import java.util.Arrays;
 import java.util.Collections;

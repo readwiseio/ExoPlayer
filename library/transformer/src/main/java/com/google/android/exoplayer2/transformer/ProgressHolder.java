@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.transformer;
+package com.readwise.android.exoplayer2.transformer;
 
 import androidx.annotation.IntRange;
 

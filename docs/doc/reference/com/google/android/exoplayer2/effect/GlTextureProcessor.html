@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.effect</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.effect</a></div>
 <h2 title="Interface GlTextureProcessor" class="title">Interface GlTextureProcessor</h2>
 </div>
 <div class="contentContainer">
@@ -122,19 +122,19 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Known Implementing Classes:</dt>
-<dd><code><a href="SingleFrameGlTextureProcessor.html" title="class in com.google.android.exoplayer2.effect">SingleFrameGlTextureProcessor</a></code></dd>
+<dd><code><a href="SingleFrameGlTextureProcessor.html" title="class in com.readwise.android.exoplayer2.effect">SingleFrameGlTextureProcessor</a></code></dd>
 </dl>
 <hr>
 <pre>public interface <span class="typeNameLabel">GlTextureProcessor</span></pre>
 <div class="block">Processes frames from one OpenGL 2D texture to another.
 
- <p>The <code>GlTextureProcessor</code> consumes input frames it accepts via <a href="#queueInputFrame(com.google.android.exoplayer2.effect.TextureInfo,long)"><code>queueInputFrame(TextureInfo, long)</code></a> and surrenders each texture back to the caller via its
- <a href="GlTextureProcessor.InputListener.html#onInputFrameProcessed(com.google.android.exoplayer2.effect.TextureInfo)">listener</a> once the texture's
+ <p>The <code>GlTextureProcessor</code> consumes input frames it accepts via <a href="#queueInputFrame(com.readwise.android.exoplayer2.effect.TextureInfo,long)"><code>queueInputFrame(TextureInfo, long)</code></a> and surrenders each texture back to the caller via its
+ <a href="GlTextureProcessor.InputListener.html#onInputFrameProcessed(com.readwise.android.exoplayer2.effect.TextureInfo)">listener</a> once the texture's
  contents have been processed.
 
  <p>The <code>GlTextureProcessor</code> produces output frames asynchronously and notifies its owner
- when they are available via its <a href="GlTextureProcessor.OutputListener.html#onOutputFrameAvailable(com.google.android.exoplayer2.effect.TextureInfo,long)">listener</a>. The <code>GlTextureProcessor</code> instance's owner must surrender the texture back
- to the <code>GlTextureProcessor</code> via <a href="#releaseOutputFrame(com.google.android.exoplayer2.effect.TextureInfo)"><code>releaseOutputFrame(TextureInfo)</code></a> when it has
+ when they are available via its <a href="GlTextureProcessor.OutputListener.html#onOutputFrameAvailable(com.readwise.android.exoplayer2.effect.TextureInfo,long)">listener</a>. The <code>GlTextureProcessor</code> instance's owner must surrender the texture back
+ to the <code>GlTextureProcessor</code> via <a href="#releaseOutputFrame(com.readwise.android.exoplayer2.effect.TextureInfo)"><code>releaseOutputFrame(TextureInfo)</code></a> when it has
  finished processing it.
 
  <p><code>GlTextureProcessor</code> implementations can choose to produce output frames before
@@ -168,21 +168,21 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static interface&nbsp;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="GlTextureProcessor.ErrorListener.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor.ErrorListener</a></span></code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="GlTextureProcessor.ErrorListener.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor.ErrorListener</a></span></code></th>
 <td class="colLast">
 <div class="block">Listener for frame processing errors.</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>static interface&nbsp;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="GlTextureProcessor.InputListener.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor.InputListener</a></span></code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="GlTextureProcessor.InputListener.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor.InputListener</a></span></code></th>
 <td class="colLast">
 <div class="block">Listener for input-related frame processing events.</div>
 </td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static interface&nbsp;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="GlTextureProcessor.OutputListener.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor.OutputListener</a></span></code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="GlTextureProcessor.OutputListener.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor.OutputListener</a></span></code></th>
 <td class="colLast">
 <div class="block">Listener for output-related frame processing events.</div>
 </td>
@@ -207,7 +207,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#queueInputFrame(com.google.android.exoplayer2.effect.TextureInfo,long)">queueInputFrame</a></span>&#8203;(<a href="TextureInfo.html" title="class in com.google.android.exoplayer2.effect">TextureInfo</a>&nbsp;inputTexture,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#queueInputFrame(com.readwise.android.exoplayer2.effect.TextureInfo,long)">queueInputFrame</a></span>&#8203;(<a href="TextureInfo.html" title="class in com.readwise.android.exoplayer2.effect">TextureInfo</a>&nbsp;inputTexture,
                long&nbsp;presentationTimeUs)</code></th>
 <td class="colLast">
 <div class="block">Processes an input frame if possible.</div>
@@ -222,7 +222,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#releaseOutputFrame(com.google.android.exoplayer2.effect.TextureInfo)">releaseOutputFrame</a></span>&#8203;(<a href="TextureInfo.html" title="class in com.google.android.exoplayer2.effect">TextureInfo</a>&nbsp;outputTexture)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#releaseOutputFrame(com.readwise.android.exoplayer2.effect.TextureInfo)">releaseOutputFrame</a></span>&#8203;(<a href="TextureInfo.html" title="class in com.readwise.android.exoplayer2.effect">TextureInfo</a>&nbsp;outputTexture)</code></th>
 <td class="colLast">
 <div class="block">Notifies the texture processor that the frame on the given output texture is no longer used and
  can be overwritten.</div>
@@ -230,23 +230,23 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i3" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setErrorListener(com.google.android.exoplayer2.effect.GlTextureProcessor.ErrorListener)">setErrorListener</a></span>&#8203;(<a href="GlTextureProcessor.ErrorListener.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor.ErrorListener</a>&nbsp;errorListener)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setErrorListener(com.readwise.android.exoplayer2.effect.GlTextureProcessor.ErrorListener)">setErrorListener</a></span>&#8203;(<a href="GlTextureProcessor.ErrorListener.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor.ErrorListener</a>&nbsp;errorListener)</code></th>
 <td class="colLast">
-<div class="block">Sets the <a href="GlTextureProcessor.ErrorListener.html" title="interface in com.google.android.exoplayer2.effect"><code>GlTextureProcessor.ErrorListener</code></a>.</div>
+<div class="block">Sets the <a href="GlTextureProcessor.ErrorListener.html" title="interface in com.readwise.android.exoplayer2.effect"><code>GlTextureProcessor.ErrorListener</code></a>.</div>
 </td>
 </tr>
 <tr id="i4" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setInputListener(com.google.android.exoplayer2.effect.GlTextureProcessor.InputListener)">setInputListener</a></span>&#8203;(<a href="GlTextureProcessor.InputListener.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor.InputListener</a>&nbsp;inputListener)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setInputListener(com.readwise.android.exoplayer2.effect.GlTextureProcessor.InputListener)">setInputListener</a></span>&#8203;(<a href="GlTextureProcessor.InputListener.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor.InputListener</a>&nbsp;inputListener)</code></th>
 <td class="colLast">
-<div class="block">Sets the <a href="GlTextureProcessor.InputListener.html" title="interface in com.google.android.exoplayer2.effect"><code>GlTextureProcessor.InputListener</code></a>.</div>
+<div class="block">Sets the <a href="GlTextureProcessor.InputListener.html" title="interface in com.readwise.android.exoplayer2.effect"><code>GlTextureProcessor.InputListener</code></a>.</div>
 </td>
 </tr>
 <tr id="i5" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setOutputListener(com.google.android.exoplayer2.effect.GlTextureProcessor.OutputListener)">setOutputListener</a></span>&#8203;(<a href="GlTextureProcessor.OutputListener.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor.OutputListener</a>&nbsp;outputListener)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setOutputListener(com.readwise.android.exoplayer2.effect.GlTextureProcessor.OutputListener)">setOutputListener</a></span>&#8203;(<a href="GlTextureProcessor.OutputListener.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor.OutputListener</a>&nbsp;outputListener)</code></th>
 <td class="colLast">
-<div class="block">Sets the <a href="GlTextureProcessor.OutputListener.html" title="interface in com.google.android.exoplayer2.effect"><code>GlTextureProcessor.OutputListener</code></a>.</div>
+<div class="block">Sets the <a href="GlTextureProcessor.OutputListener.html" title="interface in com.readwise.android.exoplayer2.effect"><code>GlTextureProcessor.OutputListener</code></a>.</div>
 </td>
 </tr>
 <tr id="i6" class="altColor">
@@ -274,64 +274,64 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="setInputListener(com.google.android.exoplayer2.effect.GlTextureProcessor.InputListener)">
+<a id="setInputListener(com.readwise.android.exoplayer2.effect.GlTextureProcessor.InputListener)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>setInputListener</h4>
-<pre class="methodSignature">void&nbsp;setInputListener&#8203;(<a href="GlTextureProcessor.InputListener.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor.InputListener</a>&nbsp;inputListener)</pre>
-<div class="block">Sets the <a href="GlTextureProcessor.InputListener.html" title="interface in com.google.android.exoplayer2.effect"><code>GlTextureProcessor.InputListener</code></a>.</div>
+<pre class="methodSignature">void&nbsp;setInputListener&#8203;(<a href="GlTextureProcessor.InputListener.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor.InputListener</a>&nbsp;inputListener)</pre>
+<div class="block">Sets the <a href="GlTextureProcessor.InputListener.html" title="interface in com.readwise.android.exoplayer2.effect"><code>GlTextureProcessor.InputListener</code></a>.</div>
 </li>
 </ul>
-<a id="setOutputListener(com.google.android.exoplayer2.effect.GlTextureProcessor.OutputListener)">
+<a id="setOutputListener(com.readwise.android.exoplayer2.effect.GlTextureProcessor.OutputListener)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>setOutputListener</h4>
-<pre class="methodSignature">void&nbsp;setOutputListener&#8203;(<a href="GlTextureProcessor.OutputListener.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor.OutputListener</a>&nbsp;outputListener)</pre>
-<div class="block">Sets the <a href="GlTextureProcessor.OutputListener.html" title="interface in com.google.android.exoplayer2.effect"><code>GlTextureProcessor.OutputListener</code></a>.</div>
+<pre class="methodSignature">void&nbsp;setOutputListener&#8203;(<a href="GlTextureProcessor.OutputListener.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor.OutputListener</a>&nbsp;outputListener)</pre>
+<div class="block">Sets the <a href="GlTextureProcessor.OutputListener.html" title="interface in com.readwise.android.exoplayer2.effect"><code>GlTextureProcessor.OutputListener</code></a>.</div>
 </li>
 </ul>
-<a id="setErrorListener(com.google.android.exoplayer2.effect.GlTextureProcessor.ErrorListener)">
+<a id="setErrorListener(com.readwise.android.exoplayer2.effect.GlTextureProcessor.ErrorListener)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>setErrorListener</h4>
-<pre class="methodSignature">void&nbsp;setErrorListener&#8203;(<a href="GlTextureProcessor.ErrorListener.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor.ErrorListener</a>&nbsp;errorListener)</pre>
-<div class="block">Sets the <a href="GlTextureProcessor.ErrorListener.html" title="interface in com.google.android.exoplayer2.effect"><code>GlTextureProcessor.ErrorListener</code></a>.</div>
+<pre class="methodSignature">void&nbsp;setErrorListener&#8203;(<a href="GlTextureProcessor.ErrorListener.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor.ErrorListener</a>&nbsp;errorListener)</pre>
+<div class="block">Sets the <a href="GlTextureProcessor.ErrorListener.html" title="interface in com.readwise.android.exoplayer2.effect"><code>GlTextureProcessor.ErrorListener</code></a>.</div>
 </li>
 </ul>
-<a id="queueInputFrame(com.google.android.exoplayer2.effect.TextureInfo,long)">
+<a id="queueInputFrame(com.readwise.android.exoplayer2.effect.TextureInfo,long)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>queueInputFrame</h4>
-<pre class="methodSignature">void&nbsp;queueInputFrame&#8203;(<a href="TextureInfo.html" title="class in com.google.android.exoplayer2.effect">TextureInfo</a>&nbsp;inputTexture,
+<pre class="methodSignature">void&nbsp;queueInputFrame&#8203;(<a href="TextureInfo.html" title="class in com.readwise.android.exoplayer2.effect">TextureInfo</a>&nbsp;inputTexture,
                      long&nbsp;presentationTimeUs)</pre>
 <div class="block">Processes an input frame if possible.
 
- <p>The <code>GlTextureProcessor</code> owns the accepted frame until it calls <a href="GlTextureProcessor.InputListener.html#onInputFrameProcessed(com.google.android.exoplayer2.effect.TextureInfo)"><code>GlTextureProcessor.InputListener.onInputFrameProcessed(TextureInfo)</code></a>. The caller should not overwrite or release
+ <p>The <code>GlTextureProcessor</code> owns the accepted frame until it calls <a href="GlTextureProcessor.InputListener.html#onInputFrameProcessed(com.readwise.android.exoplayer2.effect.TextureInfo)"><code>GlTextureProcessor.InputListener.onInputFrameProcessed(TextureInfo)</code></a>. The caller should not overwrite or release
  the texture before the <code>GlTextureProcessor</code> has finished processing it.
 
  <p>This method must only be called when the <code>GlTextureProcessor</code> can <a href="GlTextureProcessor.InputListener.html#onReadyToAcceptInputFrame()">accept an input frame</a>.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>inputTexture</code> - A <a href="TextureInfo.html" title="class in com.google.android.exoplayer2.effect"><code>TextureInfo</code></a> describing the texture containing the input frame.</dd>
+<dd><code>inputTexture</code> - A <a href="TextureInfo.html" title="class in com.readwise.android.exoplayer2.effect"><code>TextureInfo</code></a> describing the texture containing the input frame.</dd>
 <dd><code>presentationTimeUs</code> - The presentation timestamp of the input frame, in microseconds.</dd>
 </dl>
 </li>
 </ul>
-<a id="releaseOutputFrame(com.google.android.exoplayer2.effect.TextureInfo)">
+<a id="releaseOutputFrame(com.readwise.android.exoplayer2.effect.TextureInfo)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>releaseOutputFrame</h4>
-<pre class="methodSignature">void&nbsp;releaseOutputFrame&#8203;(<a href="TextureInfo.html" title="class in com.google.android.exoplayer2.effect">TextureInfo</a>&nbsp;outputTexture)</pre>
+<pre class="methodSignature">void&nbsp;releaseOutputFrame&#8203;(<a href="TextureInfo.html" title="class in com.readwise.android.exoplayer2.effect">TextureInfo</a>&nbsp;outputTexture)</pre>
 <div class="block">Notifies the texture processor that the frame on the given output texture is no longer used and
  can be overwritten.</div>
 </li>
@@ -358,11 +358,11 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <h4>release</h4>
 <pre class="methodSignature">void&nbsp;release()
-      throws <a href="../util/FrameProcessingException.html" title="class in com.google.android.exoplayer2.util">FrameProcessingException</a></pre>
+      throws <a href="../util/FrameProcessingException.html" title="class in com.readwise.android.exoplayer2.util">FrameProcessingException</a></pre>
 <div class="block">Releases all resources.</div>
 <dl>
 <dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="../util/FrameProcessingException.html" title="class in com.google.android.exoplayer2.util">FrameProcessingException</a></code> - If an error occurs while releasing resources.</dd>
+<dd><code><a href="../util/FrameProcessingException.html" title="class in com.readwise.android.exoplayer2.util">FrameProcessingException</a></code> - If an error occurs while releasing resources.</dd>
 </dl>
 </li>
 </ul>

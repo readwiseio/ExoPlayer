@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.text.ttml;
+package com.readwise.android.exoplayer2.text.ttml;
 
-import static com.google.android.exoplayer2.text.ttml.TextEmphasis.MARK_SHAPE_AUTO;
-import static com.google.android.exoplayer2.text.ttml.TextEmphasis.POSITION_OUTSIDE;
-import static com.google.android.exoplayer2.text.ttml.TextEmphasis.parse;
+import static com.readwise.android.exoplayer2.text.ttml.TextEmphasis.MARK_SHAPE_AUTO;
+import static com.readwise.android.exoplayer2.text.ttml.TextEmphasis.POSITION_OUTSIDE;
+import static com.readwise.android.exoplayer2.text.ttml.TextEmphasis.parse;
 import static com.google.common.truth.Truth.assertWithMessage;
 
 import androidx.annotation.Nullable;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.text.span.TextAnnotation;
-import com.google.android.exoplayer2.text.span.TextEmphasisSpan;
+import com.readwise.android.exoplayer2.text.span.TextAnnotation;
+import com.readwise.android.exoplayer2.text.span.TextEmphasisSpan;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

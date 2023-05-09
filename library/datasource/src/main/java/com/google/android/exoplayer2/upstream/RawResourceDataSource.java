@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.upstream;
+package com.readwise.android.exoplayer2.upstream;
 
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static com.readwise.android.exoplayer2.util.Util.castNonNull;
 import static java.lang.Math.min;
 
 import android.content.ContentResolver;
@@ -25,9 +25,9 @@ import android.content.res.Resources;
 import android.net.Uri;
 import android.text.TextUtils;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.PlaybackException;
-import com.google.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.PlaybackException;
+import com.readwise.android.exoplayer2.util.Assertions;
 import java.io.EOFException;
 import java.io.FileInputStream;
 import java.io.IOException;

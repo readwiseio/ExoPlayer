@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.ext.okhttp;
+package com.readwise.android.exoplayer2.ext.okhttp;
 
 import static com.google.common.truth.Truth.assertThat;
 import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.junit.Assert.assertThrows;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.upstream.HttpDataSource;
+import com.readwise.android.exoplayer2.upstream.DataSpec;
+import com.readwise.android.exoplayer2.upstream.HttpDataSource;
 import com.google.common.base.Charsets;
 import java.util.HashMap;
 import java.util.Map;

@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source;
+package com.readwise.android.exoplayer2.source;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.FormatHolder;
-import com.google.android.exoplayer2.SeekParameters;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
-import com.google.android.exoplayer2.source.ClippingMediaSource.IllegalClippingException;
-import com.google.android.exoplayer2.trackselection.ExoTrackSelection;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.FormatHolder;
+import com.readwise.android.exoplayer2.SeekParameters;
+import com.readwise.android.exoplayer2.decoder.DecoderInputBuffer;
+import com.readwise.android.exoplayer2.source.ClippingMediaSource.IllegalClippingException;
+import com.readwise.android.exoplayer2.trackselection.ExoTrackSelection;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.IOException;
 import org.checkerframework.checker.nullness.compatqual.NullableType;
 

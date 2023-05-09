@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.audio</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.audio</a></div>
 <h2 title="Interface AudioSink" class="title">Interface AudioSink</h2>
 </div>
 <div class="contentContainer">
@@ -122,19 +122,19 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Known Implementing Classes:</dt>
-<dd><code><a href="../testutil/CapturingAudioSink.html" title="class in com.google.android.exoplayer2.testutil">CapturingAudioSink</a></code>, <code><a href="DefaultAudioSink.html" title="class in com.google.android.exoplayer2.audio">DefaultAudioSink</a></code>, <code><a href="ForwardingAudioSink.html" title="class in com.google.android.exoplayer2.audio">ForwardingAudioSink</a></code></dd>
+<dd><code><a href="../testutil/CapturingAudioSink.html" title="class in com.readwise.android.exoplayer2.testutil">CapturingAudioSink</a></code>, <code><a href="DefaultAudioSink.html" title="class in com.readwise.android.exoplayer2.audio">DefaultAudioSink</a></code>, <code><a href="ForwardingAudioSink.html" title="class in com.readwise.android.exoplayer2.audio">ForwardingAudioSink</a></code></dd>
 </dl>
 <hr>
 <pre>public interface <span class="typeNameLabel">AudioSink</span></pre>
 <div class="block">A sink that consumes audio data.
 
- <p>Before starting playback, specify the input audio format by calling <a href="#configure(com.google.android.exoplayer2.Format,int,int%5B%5D)"><code>configure(Format,
+ <p>Before starting playback, specify the input audio format by calling <a href="#configure(com.readwise.android.exoplayer2.Format,int,int%5B%5D)"><code>configure(Format,
  int, int[])</code></a>.
 
  <p>Call <a href="#handleBuffer(java.nio.ByteBuffer,long,int)"><code>handleBuffer(ByteBuffer, long, int)</code></a> to write data, and <a href="#handleDiscontinuity()"><code>handleDiscontinuity()</code></a> when the data being fed is discontinuous. Call <a href="#play()"><code>play()</code></a> to start
  playing the written data.
 
- <p>Call <a href="#configure(com.google.android.exoplayer2.Format,int,int%5B%5D)"><code>configure(Format, int, int[])</code></a> whenever the input format changes. The sink will
+ <p>Call <a href="#configure(com.readwise.android.exoplayer2.Format,int,int%5B%5D)"><code>configure(Format, int, int[])</code></a> whenever the input format changes. The sink will
  be reinitialized on the next call to <a href="#handleBuffer(java.nio.ByteBuffer,long,int)"><code>handleBuffer(ByteBuffer, long, int)</code></a>.
 
  <p>Call <a href="#flush()"><code>flush()</code></a> to prepare the sink to receive audio data from a new playback position.
@@ -142,7 +142,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
  <p>Call <a href="#playToEndOfStream()"><code>playToEndOfStream()</code></a> repeatedly to play out all data when no more input buffers
  will be provided via <a href="#handleBuffer(java.nio.ByteBuffer,long,int)"><code>handleBuffer(ByteBuffer, long, int)</code></a> until the next <a href="#flush()"><code>flush()</code></a>. Call <a href="#reset()"><code>reset()</code></a> when the instance is no longer required.
 
- <p>The implementation may be backed by a platform <a href="https://developer.android.com/reference/android/media/AudioTrack.html" title="class or interface in android.media" class="externalLink"><code>AudioTrack</code></a>. In this case, <a href="#setAudioSessionId(int)"><code>setAudioSessionId(int)</code></a>, <a href="#setAudioAttributes(com.google.android.exoplayer2.audio.AudioAttributes)"><code>setAudioAttributes(AudioAttributes)</code></a>, <a href="#enableTunnelingV21()"><code>enableTunnelingV21()</code></a> and <a href="#disableTunneling()" target="_top"><code>disableTunneling()</code></a> may be called before writing data to the
+ <p>The implementation may be backed by a platform <a href="https://developer.android.com/reference/android/media/AudioTrack.html" title="class or interface in android.media" class="externalLink"><code>AudioTrack</code></a>. In this case, <a href="#setAudioSessionId(int)"><code>setAudioSessionId(int)</code></a>, <a href="#setAudioAttributes(com.readwise.android.exoplayer2.audio.AudioAttributes)"><code>setAudioAttributes(AudioAttributes)</code></a>, <a href="#enableTunnelingV21()"><code>enableTunnelingV21()</code></a> and <a href="#disableTunneling()" target="_top"><code>disableTunneling()</code></a> may be called before writing data to the
  sink. These methods may also be called after writing data to the sink, in which case it will be
  reinitialized as required. For implementations that are not based on platform <a href="https://developer.android.com/reference/android/media/AudioTrack.html" title="class or interface in android.media" class="externalLink" target="_top"><code>AudioTrack</code></a>s, calling methods relating to audio sessions, audio attributes, and tunneling may
  have no effect.</div>
@@ -168,42 +168,42 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static class&nbsp;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="AudioSink.ConfigurationException.html" title="class in com.google.android.exoplayer2.audio">AudioSink.ConfigurationException</a></span></code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="AudioSink.ConfigurationException.html" title="class in com.readwise.android.exoplayer2.audio">AudioSink.ConfigurationException</a></span></code></th>
 <td class="colLast">
 <div class="block">Thrown when a failure occurs configuring the sink.</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>static class&nbsp;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="AudioSink.InitializationException.html" title="class in com.google.android.exoplayer2.audio">AudioSink.InitializationException</a></span></code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="AudioSink.InitializationException.html" title="class in com.readwise.android.exoplayer2.audio">AudioSink.InitializationException</a></span></code></th>
 <td class="colLast">
 <div class="block">Thrown when a failure occurs initializing the sink.</div>
 </td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static interface&nbsp;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="AudioSink.Listener.html" title="interface in com.google.android.exoplayer2.audio">AudioSink.Listener</a></span></code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="AudioSink.Listener.html" title="interface in com.readwise.android.exoplayer2.audio">AudioSink.Listener</a></span></code></th>
 <td class="colLast">
 <div class="block">Listener for audio sink events.</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>static interface&nbsp;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="AudioSink.SinkFormatSupport.html" title="annotation in com.google.android.exoplayer2.audio">AudioSink.SinkFormatSupport</a></span></code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="AudioSink.SinkFormatSupport.html" title="annotation in com.readwise.android.exoplayer2.audio">AudioSink.SinkFormatSupport</a></span></code></th>
 <td class="colLast">
 <div class="block">The level of support the sink provides for a format.</div>
 </td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static class&nbsp;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="AudioSink.UnexpectedDiscontinuityException.html" title="class in com.google.android.exoplayer2.audio">AudioSink.UnexpectedDiscontinuityException</a></span></code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="AudioSink.UnexpectedDiscontinuityException.html" title="class in com.readwise.android.exoplayer2.audio">AudioSink.UnexpectedDiscontinuityException</a></span></code></th>
 <td class="colLast">
 <div class="block">Thrown when the sink encounters an unexpected timestamp discontinuity.</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>static class&nbsp;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="AudioSink.WriteException.html" title="class in com.google.android.exoplayer2.audio">AudioSink.WriteException</a></span></code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="AudioSink.WriteException.html" title="class in com.readwise.android.exoplayer2.audio">AudioSink.WriteException</a></span></code></th>
 <td class="colLast">
 <div class="block">Thrown when a failure occurs writing to the sink.</div>
 </td>
@@ -274,7 +274,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#configure(com.google.android.exoplayer2.Format,int,int%5B%5D)">configure</a></span>&#8203;(<a href="../Format.html" title="class in com.google.android.exoplayer2">Format</a>&nbsp;inputFormat,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#configure(com.readwise.android.exoplayer2.Format,int,int%5B%5D)">configure</a></span>&#8203;(<a href="../Format.html" title="class in com.readwise.android.exoplayer2">Format</a>&nbsp;inputFormat,
          int&nbsp;specifiedBufferSize,
          int[]&nbsp;outputChannels)</code></th>
 <td class="colLast">
@@ -310,7 +310,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </td>
 </tr>
 <tr id="i5" class="rowColor">
-<td class="colFirst"><code><a href="AudioAttributes.html" title="class in com.google.android.exoplayer2.audio">AudioAttributes</a></code></td>
+<td class="colFirst"><code><a href="AudioAttributes.html" title="class in com.readwise.android.exoplayer2.audio">AudioAttributes</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getAudioAttributes()">getAudioAttributes</a></span>()</code></th>
 <td class="colLast">
 <div class="block">Returns the audio attributes used for audio playback, or <code>null</code> if the sink does not use
@@ -325,17 +325,17 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </td>
 </tr>
 <tr id="i7" class="rowColor">
-<td class="colFirst"><code>@com.google.android.exoplayer2.audio.AudioSink.SinkFormatSupport int</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getFormatSupport(com.google.android.exoplayer2.Format)">getFormatSupport</a></span>&#8203;(<a href="../Format.html" title="class in com.google.android.exoplayer2">Format</a>&nbsp;format)</code></th>
+<td class="colFirst"><code>@com.readwise.android.exoplayer2.audio.AudioSink.SinkFormatSupport int</code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getFormatSupport(com.readwise.android.exoplayer2.Format)">getFormatSupport</a></span>&#8203;(<a href="../Format.html" title="class in com.readwise.android.exoplayer2">Format</a>&nbsp;format)</code></th>
 <td class="colLast">
-<div class="block">Returns the level of support that the sink provides for a given <a href="../Format.html" title="class in com.google.android.exoplayer2"><code>Format</code></a>.</div>
+<div class="block">Returns the level of support that the sink provides for a given <a href="../Format.html" title="class in com.readwise.android.exoplayer2"><code>Format</code></a>.</div>
 </td>
 </tr>
 <tr id="i8" class="altColor">
-<td class="colFirst"><code><a href="../PlaybackParameters.html" title="class in com.google.android.exoplayer2">PlaybackParameters</a></code></td>
+<td class="colFirst"><code><a href="../PlaybackParameters.html" title="class in com.readwise.android.exoplayer2">PlaybackParameters</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getPlaybackParameters()">getPlaybackParameters</a></span>()</code></th>
 <td class="colLast">
-<div class="block">Returns the active <a href="../PlaybackParameters.html" title="class in com.google.android.exoplayer2"><code>PlaybackParameters</code></a>.</div>
+<div class="block">Returns the active <a href="../PlaybackParameters.html" title="class in com.readwise.android.exoplayer2"><code>PlaybackParameters</code></a>.</div>
 </td>
 </tr>
 <tr id="i9" class="rowColor">
@@ -406,7 +406,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i18" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setAudioAttributes(com.google.android.exoplayer2.audio.AudioAttributes)">setAudioAttributes</a></span>&#8203;(<a href="AudioAttributes.html" title="class in com.google.android.exoplayer2.audio">AudioAttributes</a>&nbsp;audioAttributes)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setAudioAttributes(com.readwise.android.exoplayer2.audio.AudioAttributes)">setAudioAttributes</a></span>&#8203;(<a href="AudioAttributes.html" title="class in com.readwise.android.exoplayer2.audio">AudioAttributes</a>&nbsp;audioAttributes)</code></th>
 <td class="colLast">
 <div class="block">Sets attributes for audio playback.</div>
 </td>
@@ -420,14 +420,14 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i20" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setAuxEffectInfo(com.google.android.exoplayer2.audio.AuxEffectInfo)">setAuxEffectInfo</a></span>&#8203;(<a href="AuxEffectInfo.html" title="class in com.google.android.exoplayer2.audio">AuxEffectInfo</a>&nbsp;auxEffectInfo)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setAuxEffectInfo(com.readwise.android.exoplayer2.audio.AuxEffectInfo)">setAuxEffectInfo</a></span>&#8203;(<a href="AuxEffectInfo.html" title="class in com.readwise.android.exoplayer2.audio">AuxEffectInfo</a>&nbsp;auxEffectInfo)</code></th>
 <td class="colLast">
 <div class="block">Sets the auxiliary effect.</div>
 </td>
 </tr>
 <tr id="i21" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setListener(com.google.android.exoplayer2.audio.AudioSink.Listener)">setListener</a></span>&#8203;(<a href="AudioSink.Listener.html" title="interface in com.google.android.exoplayer2.audio">AudioSink.Listener</a>&nbsp;listener)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setListener(com.readwise.android.exoplayer2.audio.AudioSink.Listener)">setListener</a></span>&#8203;(<a href="AudioSink.Listener.html" title="interface in com.readwise.android.exoplayer2.audio">AudioSink.Listener</a>&nbsp;listener)</code></th>
 <td class="colLast">
 <div class="block">Sets the listener for sink events, which should be the audio renderer.</div>
 </td>
@@ -442,16 +442,16 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i23" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setPlaybackParameters(com.google.android.exoplayer2.PlaybackParameters)">setPlaybackParameters</a></span>&#8203;(<a href="../PlaybackParameters.html" title="class in com.google.android.exoplayer2">PlaybackParameters</a>&nbsp;playbackParameters)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setPlaybackParameters(com.readwise.android.exoplayer2.PlaybackParameters)">setPlaybackParameters</a></span>&#8203;(<a href="../PlaybackParameters.html" title="class in com.readwise.android.exoplayer2">PlaybackParameters</a>&nbsp;playbackParameters)</code></th>
 <td class="colLast">
 <div class="block">Attempts to set the playback parameters.</div>
 </td>
 </tr>
 <tr id="i24" class="altColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setPlayerId(com.google.android.exoplayer2.analytics.PlayerId)">setPlayerId</a></span>&#8203;(<a href="../analytics/PlayerId.html" title="class in com.google.android.exoplayer2.analytics">PlayerId</a>&nbsp;playerId)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setPlayerId(com.readwise.android.exoplayer2.analytics.PlayerId)">setPlayerId</a></span>&#8203;(<a href="../analytics/PlayerId.html" title="class in com.readwise.android.exoplayer2.analytics">PlayerId</a>&nbsp;playerId)</code></th>
 <td class="colLast">
-<div class="block">Sets the <a href="../analytics/PlayerId.html" title="class in com.google.android.exoplayer2.analytics"><code>PlayerId</code></a> of the player using this audio sink.</div>
+<div class="block">Sets the <a href="../analytics/PlayerId.html" title="class in com.readwise.android.exoplayer2.analytics"><code>PlayerId</code></a> of the player using this audio sink.</div>
 </td>
 </tr>
 <tr id="i25" class="rowColor">
@@ -477,9 +477,9 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i28" class="altColor">
 <td class="colFirst"><code>boolean</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#supportsFormat(com.google.android.exoplayer2.Format)">supportsFormat</a></span>&#8203;(<a href="../Format.html" title="class in com.google.android.exoplayer2">Format</a>&nbsp;format)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#supportsFormat(com.readwise.android.exoplayer2.Format)">supportsFormat</a></span>&#8203;(<a href="../Format.html" title="class in com.readwise.android.exoplayer2">Format</a>&nbsp;format)</code></th>
 <td class="colLast">
-<div class="block">Returns whether the sink supports a given <a href="../Format.html" title="class in com.google.android.exoplayer2"><code>Format</code></a>.</div>
+<div class="block">Returns whether the sink supports a given <a href="../Format.html" title="class in com.readwise.android.exoplayer2"><code>Format</code></a>.</div>
 </td>
 </tr>
 </table>
@@ -509,7 +509,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <div class="block">The sink supports the format directly, without the need for internal transcoding.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../../constant-values.html#com.google.android.exoplayer2.audio.AudioSink.SINK_FORMAT_SUPPORTED_DIRECTLY">Constant Field Values</a></dd>
+<dd><a href="../../../../../constant-values.html#com.readwise.android.exoplayer2.audio.AudioSink.SINK_FORMAT_SUPPORTED_DIRECTLY">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>
@@ -524,7 +524,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
  transcoding may result in lower quality and higher CPU load in some cases.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../../constant-values.html#com.google.android.exoplayer2.audio.AudioSink.SINK_FORMAT_SUPPORTED_WITH_TRANSCODING">Constant Field Values</a></dd>
+<dd><a href="../../../../../constant-values.html#com.readwise.android.exoplayer2.audio.AudioSink.SINK_FORMAT_SUPPORTED_WITH_TRANSCODING">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>
@@ -538,7 +538,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <div class="block">The sink does not support the format.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../../constant-values.html#com.google.android.exoplayer2.audio.AudioSink.SINK_FORMAT_UNSUPPORTED">Constant Field Values</a></dd>
+<dd><a href="../../../../../constant-values.html#com.readwise.android.exoplayer2.audio.AudioSink.SINK_FORMAT_UNSUPPORTED">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>
@@ -552,7 +552,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <div class="block">Returned by <a href="#getCurrentPositionUs(boolean)"><code>getCurrentPositionUs(boolean)</code></a> when the position is not set.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../../constant-values.html#com.google.android.exoplayer2.audio.AudioSink.CURRENT_POSITION_NOT_SET">Constant Field Values</a></dd>
+<dd><a href="../../../../../constant-values.html#com.readwise.android.exoplayer2.audio.AudioSink.CURRENT_POSITION_NOT_SET">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>
@@ -566,13 +566,13 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="setListener(com.google.android.exoplayer2.audio.AudioSink.Listener)">
+<a id="setListener(com.readwise.android.exoplayer2.audio.AudioSink.Listener)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>setListener</h4>
-<pre class="methodSignature">void&nbsp;setListener&#8203;(<a href="AudioSink.Listener.html" title="interface in com.google.android.exoplayer2.audio">AudioSink.Listener</a>&nbsp;listener)</pre>
+<pre class="methodSignature">void&nbsp;setListener&#8203;(<a href="AudioSink.Listener.html" title="interface in com.readwise.android.exoplayer2.audio">AudioSink.Listener</a>&nbsp;listener)</pre>
 <div class="block">Sets the listener for sink events, which should be the audio renderer.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -580,29 +580,29 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dl>
 </li>
 </ul>
-<a id="setPlayerId(com.google.android.exoplayer2.analytics.PlayerId)">
+<a id="setPlayerId(com.readwise.android.exoplayer2.analytics.PlayerId)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>setPlayerId</h4>
 <pre class="methodSignature">default&nbsp;void&nbsp;setPlayerId&#8203;(@Nullable
-                         <a href="../analytics/PlayerId.html" title="class in com.google.android.exoplayer2.analytics">PlayerId</a>&nbsp;playerId)</pre>
-<div class="block">Sets the <a href="../analytics/PlayerId.html" title="class in com.google.android.exoplayer2.analytics"><code>PlayerId</code></a> of the player using this audio sink.</div>
+                         <a href="../analytics/PlayerId.html" title="class in com.readwise.android.exoplayer2.analytics">PlayerId</a>&nbsp;playerId)</pre>
+<div class="block">Sets the <a href="../analytics/PlayerId.html" title="class in com.readwise.android.exoplayer2.analytics"><code>PlayerId</code></a> of the player using this audio sink.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>playerId</code> - The <a href="../analytics/PlayerId.html" title="class in com.google.android.exoplayer2.analytics"><code>PlayerId</code></a>, or null to clear a previously set id.</dd>
+<dd><code>playerId</code> - The <a href="../analytics/PlayerId.html" title="class in com.readwise.android.exoplayer2.analytics"><code>PlayerId</code></a>, or null to clear a previously set id.</dd>
 </dl>
 </li>
 </ul>
-<a id="supportsFormat(com.google.android.exoplayer2.Format)">
+<a id="supportsFormat(com.readwise.android.exoplayer2.Format)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>supportsFormat</h4>
-<pre class="methodSignature">boolean&nbsp;supportsFormat&#8203;(<a href="../Format.html" title="class in com.google.android.exoplayer2">Format</a>&nbsp;format)</pre>
-<div class="block">Returns whether the sink supports a given <a href="../Format.html" title="class in com.google.android.exoplayer2"><code>Format</code></a>.</div>
+<pre class="methodSignature">boolean&nbsp;supportsFormat&#8203;(<a href="../Format.html" title="class in com.readwise.android.exoplayer2">Format</a>&nbsp;format)</pre>
+<div class="block">Returns whether the sink supports a given <a href="../Format.html" title="class in com.readwise.android.exoplayer2"><code>Format</code></a>.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>format</code> - The format.</dd>
@@ -611,14 +611,14 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dl>
 </li>
 </ul>
-<a id="getFormatSupport(com.google.android.exoplayer2.Format)">
+<a id="getFormatSupport(com.readwise.android.exoplayer2.Format)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>getFormatSupport</h4>
-<pre class="methodSignature">@com.google.android.exoplayer2.audio.AudioSink.SinkFormatSupport int&nbsp;getFormatSupport&#8203;(<a href="../Format.html" title="class in com.google.android.exoplayer2">Format</a>&nbsp;format)</pre>
-<div class="block">Returns the level of support that the sink provides for a given <a href="../Format.html" title="class in com.google.android.exoplayer2"><code>Format</code></a>.</div>
+<pre class="methodSignature">@com.readwise.android.exoplayer2.audio.AudioSink.SinkFormatSupport int&nbsp;getFormatSupport&#8203;(<a href="../Format.html" title="class in com.readwise.android.exoplayer2">Format</a>&nbsp;format)</pre>
+<div class="block">Returns the level of support that the sink provides for a given <a href="../Format.html" title="class in com.readwise.android.exoplayer2"><code>Format</code></a>.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>format</code> - The format.</dd>
@@ -643,17 +643,17 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dl>
 </li>
 </ul>
-<a id="configure(com.google.android.exoplayer2.Format,int,int[])">
+<a id="configure(com.readwise.android.exoplayer2.Format,int,int[])">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>configure</h4>
-<pre class="methodSignature">void&nbsp;configure&#8203;(<a href="../Format.html" title="class in com.google.android.exoplayer2">Format</a>&nbsp;inputFormat,
+<pre class="methodSignature">void&nbsp;configure&#8203;(<a href="../Format.html" title="class in com.readwise.android.exoplayer2">Format</a>&nbsp;inputFormat,
                int&nbsp;specifiedBufferSize,
                @Nullable
                int[]&nbsp;outputChannels)
-        throws <a href="AudioSink.ConfigurationException.html" title="class in com.google.android.exoplayer2.audio">AudioSink.ConfigurationException</a></pre>
+        throws <a href="AudioSink.ConfigurationException.html" title="class in com.readwise.android.exoplayer2.audio">AudioSink.ConfigurationException</a></pre>
 <div class="block">Configures (or reconfigures) the sink.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -666,7 +666,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
      channel to map to output channel <code>i</code> when preprocessing input buffers. After the map
      is applied the audio data will have <code>outputChannels.length</code> channels.</dd>
 <dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="AudioSink.ConfigurationException.html" title="class in com.google.android.exoplayer2.audio">AudioSink.ConfigurationException</a></code> - If an error occurs configuring the sink.</dd>
+<dd><code><a href="AudioSink.ConfigurationException.html" title="class in com.readwise.android.exoplayer2.audio">AudioSink.ConfigurationException</a></code> - If an error occurs configuring the sink.</dd>
 </dl>
 </li>
 </ul>
@@ -699,8 +699,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <pre class="methodSignature">boolean&nbsp;handleBuffer&#8203;(<a href="https://developer.android.com/reference/java/nio/ByteBuffer.html" title="class or interface in java.nio" class="externalLink" target="_top">ByteBuffer</a>&nbsp;buffer,
                      long&nbsp;presentationTimeUs,
                      int&nbsp;encodedAccessUnitCount)
-              throws <a href="AudioSink.InitializationException.html" title="class in com.google.android.exoplayer2.audio">AudioSink.InitializationException</a>,
-                     <a href="AudioSink.WriteException.html" title="class in com.google.android.exoplayer2.audio">AudioSink.WriteException</a></pre>
+              throws <a href="AudioSink.InitializationException.html" title="class in com.readwise.android.exoplayer2.audio">AudioSink.InitializationException</a>,
+                     <a href="AudioSink.WriteException.html" title="class in com.readwise.android.exoplayer2.audio">AudioSink.WriteException</a></pre>
 <div class="block">Attempts to process data from a <a href="https://developer.android.com/reference/java/nio/ByteBuffer.html" title="class or interface in java.nio" class="externalLink" target="_top"><code>ByteBuffer</code></a>, starting from its current position and
  ending at its limit (exclusive). The position of the <a href="https://developer.android.com/reference/java/nio/ByteBuffer.html" title="class or interface in java.nio" class="externalLink" target="_top"><code>ByteBuffer</code></a> is advanced by the
  number of bytes that were handled. <a href="AudioSink.Listener.html#onPositionDiscontinuity()"><code>AudioSink.Listener.onPositionDiscontinuity()</code></a> will be called if
@@ -708,7 +708,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 
  <p>Returns whether the data was handled in full. If the data was not handled in full then the
  same <a href="https://developer.android.com/reference/java/nio/ByteBuffer.html" title="class or interface in java.nio" class="externalLink" target="_top"><code>ByteBuffer</code></a> must be provided to subsequent calls until it has been fully consumed,
- except in the case of an intervening call to <a href="#flush()"><code>flush()</code></a> (or to <a href="#configure(com.google.android.exoplayer2.Format,int,int%5B%5D)"><code>configure(Format,
+ except in the case of an intervening call to <a href="#flush()"><code>flush()</code></a> (or to <a href="#configure(com.readwise.android.exoplayer2.Format,int,int%5B%5D)"><code>configure(Format,
  int, int[])</code></a> that causes the sink to be flushed).</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -720,8 +720,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>Whether the buffer was handled fully.</dd>
 <dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="AudioSink.InitializationException.html" title="class in com.google.android.exoplayer2.audio">AudioSink.InitializationException</a></code> - If an error occurs initializing the sink.</dd>
-<dd><code><a href="AudioSink.WriteException.html" title="class in com.google.android.exoplayer2.audio">AudioSink.WriteException</a></code> - If an error occurs writing the audio data.</dd>
+<dd><code><a href="AudioSink.InitializationException.html" title="class in com.readwise.android.exoplayer2.audio">AudioSink.InitializationException</a></code> - If an error occurs initializing the sink.</dd>
+<dd><code><a href="AudioSink.WriteException.html" title="class in com.readwise.android.exoplayer2.audio">AudioSink.WriteException</a></code> - If an error occurs writing the audio data.</dd>
 </dl>
 </li>
 </ul>
@@ -732,11 +732,11 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <h4>playToEndOfStream</h4>
 <pre class="methodSignature">void&nbsp;playToEndOfStream()
-                throws <a href="AudioSink.WriteException.html" title="class in com.google.android.exoplayer2.audio">AudioSink.WriteException</a></pre>
+                throws <a href="AudioSink.WriteException.html" title="class in com.readwise.android.exoplayer2.audio">AudioSink.WriteException</a></pre>
 <div class="block">Processes any remaining data. <a href="#isEnded()"><code>isEnded()</code></a> will return <code>true</code> when no data remains.</div>
 <dl>
 <dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="AudioSink.WriteException.html" title="class in com.google.android.exoplayer2.audio">AudioSink.WriteException</a></code> - If an error occurs draining data to the sink.</dd>
+<dd><code><a href="AudioSink.WriteException.html" title="class in com.readwise.android.exoplayer2.audio">AudioSink.WriteException</a></code> - If an error occurs draining data to the sink.</dd>
 </dl>
 </li>
 </ul>
@@ -760,13 +760,13 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <div class="block">Returns whether the sink has data pending that has not been consumed yet.</div>
 </li>
 </ul>
-<a id="setPlaybackParameters(com.google.android.exoplayer2.PlaybackParameters)">
+<a id="setPlaybackParameters(com.readwise.android.exoplayer2.PlaybackParameters)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>setPlaybackParameters</h4>
-<pre class="methodSignature">void&nbsp;setPlaybackParameters&#8203;(<a href="../PlaybackParameters.html" title="class in com.google.android.exoplayer2">PlaybackParameters</a>&nbsp;playbackParameters)</pre>
+<pre class="methodSignature">void&nbsp;setPlaybackParameters&#8203;(<a href="../PlaybackParameters.html" title="class in com.readwise.android.exoplayer2">PlaybackParameters</a>&nbsp;playbackParameters)</pre>
 <div class="block">Attempts to set the playback parameters. The audio sink may override these parameters if they
  are not supported.</div>
 <dl>
@@ -781,8 +781,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <ul class="blockList">
 <li class="blockList">
 <h4>getPlaybackParameters</h4>
-<pre class="methodSignature"><a href="../PlaybackParameters.html" title="class in com.google.android.exoplayer2">PlaybackParameters</a>&nbsp;getPlaybackParameters()</pre>
-<div class="block">Returns the active <a href="../PlaybackParameters.html" title="class in com.google.android.exoplayer2"><code>PlaybackParameters</code></a>.</div>
+<pre class="methodSignature"><a href="../PlaybackParameters.html" title="class in com.readwise.android.exoplayer2">PlaybackParameters</a>&nbsp;getPlaybackParameters()</pre>
+<div class="block">Returns the active <a href="../PlaybackParameters.html" title="class in com.readwise.android.exoplayer2"><code>PlaybackParameters</code></a>.</div>
 </li>
 </ul>
 <a id="setSkipSilenceEnabled(boolean)">
@@ -805,13 +805,13 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <div class="block">Returns whether silences are skipped in the audio stream.</div>
 </li>
 </ul>
-<a id="setAudioAttributes(com.google.android.exoplayer2.audio.AudioAttributes)">
+<a id="setAudioAttributes(com.readwise.android.exoplayer2.audio.AudioAttributes)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>setAudioAttributes</h4>
-<pre class="methodSignature">void&nbsp;setAudioAttributes&#8203;(<a href="AudioAttributes.html" title="class in com.google.android.exoplayer2.audio">AudioAttributes</a>&nbsp;audioAttributes)</pre>
+<pre class="methodSignature">void&nbsp;setAudioAttributes&#8203;(<a href="AudioAttributes.html" title="class in com.readwise.android.exoplayer2.audio">AudioAttributes</a>&nbsp;audioAttributes)</pre>
 <div class="block">Sets attributes for audio playback. If the attributes have changed and if the sink is not
  configured for use with tunneling, then it is reset and the audio session id is cleared.
 
@@ -831,7 +831,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <h4>getAudioAttributes</h4>
 <pre class="methodSignature">@Nullable
-<a href="AudioAttributes.html" title="class in com.google.android.exoplayer2.audio">AudioAttributes</a>&nbsp;getAudioAttributes()</pre>
+<a href="AudioAttributes.html" title="class in com.readwise.android.exoplayer2.audio">AudioAttributes</a>&nbsp;getAudioAttributes()</pre>
 <div class="block">Returns the audio attributes used for audio playback, or <code>null</code> if the sink does not use
  audio attributes.</div>
 </li>
@@ -846,13 +846,13 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <div class="block">Sets the audio session id.</div>
 </li>
 </ul>
-<a id="setAuxEffectInfo(com.google.android.exoplayer2.audio.AuxEffectInfo)">
+<a id="setAuxEffectInfo(com.readwise.android.exoplayer2.audio.AuxEffectInfo)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>setAuxEffectInfo</h4>
-<pre class="methodSignature">void&nbsp;setAuxEffectInfo&#8203;(<a href="AuxEffectInfo.html" title="class in com.google.android.exoplayer2.audio">AuxEffectInfo</a>&nbsp;auxEffectInfo)</pre>
+<pre class="methodSignature">void&nbsp;setAuxEffectInfo&#8203;(<a href="AuxEffectInfo.html" title="class in com.readwise.android.exoplayer2.audio">AuxEffectInfo</a>&nbsp;auxEffectInfo)</pre>
 <div class="block">Sets the auxiliary effect.</div>
 </li>
 </ul>

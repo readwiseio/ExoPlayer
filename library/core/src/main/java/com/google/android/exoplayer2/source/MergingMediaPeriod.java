@@ -13,23 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source;
+package com.readwise.android.exoplayer2.source;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
 import static java.lang.Math.max;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.FormatHolder;
-import com.google.android.exoplayer2.SeekParameters;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
-import com.google.android.exoplayer2.offline.StreamKey;
-import com.google.android.exoplayer2.source.chunk.Chunk;
-import com.google.android.exoplayer2.source.chunk.MediaChunk;
-import com.google.android.exoplayer2.source.chunk.MediaChunkIterator;
-import com.google.android.exoplayer2.trackselection.ExoTrackSelection;
-import com.google.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.FormatHolder;
+import com.readwise.android.exoplayer2.SeekParameters;
+import com.readwise.android.exoplayer2.decoder.DecoderInputBuffer;
+import com.readwise.android.exoplayer2.offline.StreamKey;
+import com.readwise.android.exoplayer2.source.chunk.Chunk;
+import com.readwise.android.exoplayer2.source.chunk.MediaChunk;
+import com.readwise.android.exoplayer2.source.chunk.MediaChunkIterator;
+import com.readwise.android.exoplayer2.trackselection.ExoTrackSelection;
+import com.readwise.android.exoplayer2.util.Assertions;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;

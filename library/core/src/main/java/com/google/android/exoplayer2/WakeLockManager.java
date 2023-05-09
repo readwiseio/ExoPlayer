@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.PowerManager;
 import android.os.PowerManager.WakeLock;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.Log;
 
 /**
  * Handles a {@link WakeLock}.

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.transformer.mh;
+package com.readwise.android.exoplayer2.transformer.mh;
 
 import static com.google.common.truth.Truth.assertThat;
 
@@ -22,16 +22,16 @@ import android.content.Context;
 import android.net.Uri;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.transformer.AndroidTestUtil;
-import com.google.android.exoplayer2.transformer.DefaultEncoderFactory;
-import com.google.android.exoplayer2.transformer.EditedMediaItem;
-import com.google.android.exoplayer2.transformer.ExportTestResult;
-import com.google.android.exoplayer2.transformer.TransformationRequest;
-import com.google.android.exoplayer2.transformer.Transformer;
-import com.google.android.exoplayer2.transformer.TransformerAndroidTestRunner;
-import com.google.android.exoplayer2.transformer.VideoEncoderSettings;
-import com.google.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.transformer.AndroidTestUtil;
+import com.readwise.android.exoplayer2.transformer.DefaultEncoderFactory;
+import com.readwise.android.exoplayer2.transformer.EditedMediaItem;
+import com.readwise.android.exoplayer2.transformer.ExportTestResult;
+import com.readwise.android.exoplayer2.transformer.TransformationRequest;
+import com.readwise.android.exoplayer2.transformer.Transformer;
+import com.readwise.android.exoplayer2.transformer.TransformerAndroidTestRunner;
+import com.readwise.android.exoplayer2.transformer.VideoEncoderSettings;
+import com.readwise.android.exoplayer2.util.MimeTypes;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

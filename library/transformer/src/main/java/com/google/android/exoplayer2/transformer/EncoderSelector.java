@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.transformer;
+package com.readwise.android.exoplayer2.transformer;
 
 import android.media.MediaCodec;
 import android.media.MediaCodecInfo;
-import com.google.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.MimeTypes;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Iterables;
 

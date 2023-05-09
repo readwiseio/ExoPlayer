@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.testutil;
+package com.readwise.android.exoplayer2.testutil;
 
 import static com.google.common.truth.Truth.assertWithMessage;
 import static java.lang.annotation.ElementType.TYPE_USE;
 
 import android.content.Context;
 import androidx.annotation.IntDef;
-import com.google.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Assertions;
 import com.google.common.base.StandardSystemProperty;
 import java.io.File;
 import java.io.FileNotFoundException;

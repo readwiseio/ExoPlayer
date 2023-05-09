@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source;
+package com.readwise.android.exoplayer2.source;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.analytics.PlayerId;
-import com.google.android.exoplayer2.upstream.Allocator;
-import com.google.android.exoplayer2.upstream.TransferListener;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.analytics.PlayerId;
+import com.readwise.android.exoplayer2.upstream.Allocator;
+import com.readwise.android.exoplayer2.upstream.TransferListener;
 
 /**
  * An abstract {@link MediaSource} wrapping a single child {@link MediaSource}.

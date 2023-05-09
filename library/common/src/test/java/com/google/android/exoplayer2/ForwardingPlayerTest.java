@@ -13,20 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
-import static com.google.android.exoplayer2.Player.EVENT_IS_PLAYING_CHANGED;
-import static com.google.android.exoplayer2.Player.EVENT_MEDIA_ITEM_TRANSITION;
-import static com.google.android.exoplayer2.Player.EVENT_TIMELINE_CHANGED;
+import static com.readwise.android.exoplayer2.Player.EVENT_IS_PLAYING_CHANGED;
+import static com.readwise.android.exoplayer2.Player.EVENT_MEDIA_ITEM_TRANSITION;
+import static com.readwise.android.exoplayer2.Player.EVENT_TIMELINE_CHANGED;
 import static com.google.common.truth.Truth.assertThat;
 import static org.mockito.ArgumentMatchers.same;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.testutil.StubPlayer;
-import com.google.android.exoplayer2.testutil.TestUtil;
-import com.google.android.exoplayer2.util.FlagSet;
+import com.readwise.android.exoplayer2.testutil.StubPlayer;
+import com.readwise.android.exoplayer2.testutil.TestUtil;
+import com.readwise.android.exoplayer2.util.FlagSet;
 import java.lang.reflect.Method;
 import java.util.HashSet;
 import java.util.List;

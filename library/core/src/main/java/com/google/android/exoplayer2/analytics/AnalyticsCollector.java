@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.analytics;
+package com.readwise.android.exoplayer2.analytics;
 
 import android.media.AudioTrack;
 import android.media.MediaCodec;
@@ -22,18 +22,18 @@ import android.os.Looper;
 import android.os.SystemClock;
 import android.view.Surface;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.audio.AudioSink;
-import com.google.android.exoplayer2.decoder.DecoderCounters;
-import com.google.android.exoplayer2.decoder.DecoderException;
-import com.google.android.exoplayer2.decoder.DecoderReuseEvaluation;
-import com.google.android.exoplayer2.drm.DrmSessionEventListener;
-import com.google.android.exoplayer2.source.MediaSource.MediaPeriodId;
-import com.google.android.exoplayer2.source.MediaSourceEventListener;
-import com.google.android.exoplayer2.upstream.BandwidthMeter;
-import com.google.android.exoplayer2.video.VideoDecoderOutputBufferRenderer;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.audio.AudioSink;
+import com.readwise.android.exoplayer2.decoder.DecoderCounters;
+import com.readwise.android.exoplayer2.decoder.DecoderException;
+import com.readwise.android.exoplayer2.decoder.DecoderReuseEvaluation;
+import com.readwise.android.exoplayer2.drm.DrmSessionEventListener;
+import com.readwise.android.exoplayer2.source.MediaSource.MediaPeriodId;
+import com.readwise.android.exoplayer2.source.MediaSourceEventListener;
+import com.readwise.android.exoplayer2.upstream.BandwidthMeter;
+import com.readwise.android.exoplayer2.video.VideoDecoderOutputBufferRenderer;
 import java.util.List;
 
 /**

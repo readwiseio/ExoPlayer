@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.upstream</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.upstream</a></div>
 <h2 title="Class BaseDataSource" class="title">Class BaseDataSource</h2>
 </div>
 <div class="contentContainer">
@@ -121,7 +121,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li><a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">java.lang.Object</a></li>
 <li>
 <ul class="inheritance">
-<li>com.google.android.exoplayer2.upstream.BaseDataSource</li>
+<li>com.readwise.android.exoplayer2.upstream.BaseDataSource</li>
 </ul>
 </li>
 </ul>
@@ -130,19 +130,19 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Implemented Interfaces:</dt>
-<dd><code><a href="DataReader.html" title="interface in com.google.android.exoplayer2.upstream">DataReader</a></code>, <code><a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a></code></dd>
+<dd><code><a href="DataReader.html" title="interface in com.readwise.android.exoplayer2.upstream">DataReader</a></code>, <code><a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a></code></dd>
 </dl>
 <dl>
 <dt>Direct Known Subclasses:</dt>
-<dd><code><a href="AssetDataSource.html" title="class in com.google.android.exoplayer2.upstream">AssetDataSource</a></code>, <code><a href="ByteArrayDataSource.html" title="class in com.google.android.exoplayer2.upstream">ByteArrayDataSource</a></code>, <code><a href="ContentDataSource.html" title="class in com.google.android.exoplayer2.upstream">ContentDataSource</a></code>, <code><a href="../ext/cronet/CronetDataSource.html" title="class in com.google.android.exoplayer2.ext.cronet">CronetDataSource</a></code>, <code><a href="DataSchemeDataSource.html" title="class in com.google.android.exoplayer2.upstream">DataSchemeDataSource</a></code>, <code><a href="DefaultHttpDataSource.html" title="class in com.google.android.exoplayer2.upstream">DefaultHttpDataSource</a></code>, <code><a href="../testutil/FakeDataSource.html" title="class in com.google.android.exoplayer2.testutil">FakeDataSource</a></code>, <code><a href="FileDataSource.html" title="class in com.google.android.exoplayer2.upstream">FileDataSource</a></code>, <code><a href="../ext/okhttp/OkHttpDataSource.html" title="class in com.google.android.exoplayer2.ext.okhttp">OkHttpDataSource</a></code>, <code><a href="RawResourceDataSource.html" title="class in com.google.android.exoplayer2.upstream">RawResourceDataSource</a></code>, <code><a href="../ext/rtmp/RtmpDataSource.html" title="class in com.google.android.exoplayer2.ext.rtmp">RtmpDataSource</a></code>, <code><a href="UdpDataSource.html" title="class in com.google.android.exoplayer2.upstream">UdpDataSource</a></code></dd>
+<dd><code><a href="AssetDataSource.html" title="class in com.readwise.android.exoplayer2.upstream">AssetDataSource</a></code>, <code><a href="ByteArrayDataSource.html" title="class in com.readwise.android.exoplayer2.upstream">ByteArrayDataSource</a></code>, <code><a href="ContentDataSource.html" title="class in com.readwise.android.exoplayer2.upstream">ContentDataSource</a></code>, <code><a href="../ext/cronet/CronetDataSource.html" title="class in com.readwise.android.exoplayer2.ext.cronet">CronetDataSource</a></code>, <code><a href="DataSchemeDataSource.html" title="class in com.readwise.android.exoplayer2.upstream">DataSchemeDataSource</a></code>, <code><a href="DefaultHttpDataSource.html" title="class in com.readwise.android.exoplayer2.upstream">DefaultHttpDataSource</a></code>, <code><a href="../testutil/FakeDataSource.html" title="class in com.readwise.android.exoplayer2.testutil">FakeDataSource</a></code>, <code><a href="FileDataSource.html" title="class in com.readwise.android.exoplayer2.upstream">FileDataSource</a></code>, <code><a href="../ext/okhttp/OkHttpDataSource.html" title="class in com.readwise.android.exoplayer2.ext.okhttp">OkHttpDataSource</a></code>, <code><a href="RawResourceDataSource.html" title="class in com.readwise.android.exoplayer2.upstream">RawResourceDataSource</a></code>, <code><a href="../ext/rtmp/RtmpDataSource.html" title="class in com.readwise.android.exoplayer2.ext.rtmp">RtmpDataSource</a></code>, <code><a href="UdpDataSource.html" title="class in com.readwise.android.exoplayer2.upstream">UdpDataSource</a></code></dd>
 </dl>
 <hr>
 <pre>public abstract class <span class="typeNameLabel">BaseDataSource</span>
 extends <a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">Object</a>
-implements <a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a></pre>
-<div class="block">Base <a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream"><code>DataSource</code></a> implementation to keep a list of <a href="TransferListener.html" title="interface in com.google.android.exoplayer2.upstream"><code>TransferListener</code></a>s.
+implements <a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a></pre>
+<div class="block">Base <a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream"><code>DataSource</code></a> implementation to keep a list of <a href="TransferListener.html" title="interface in com.readwise.android.exoplayer2.upstream"><code>TransferListener</code></a>s.
 
- <p>Subclasses must call <a href="#transferInitializing(com.google.android.exoplayer2.upstream.DataSpec)"><code>transferInitializing(DataSpec)</code></a>, <a href="#transferStarted(com.google.android.exoplayer2.upstream.DataSpec)"><code>transferStarted(DataSpec)</code></a>, <a href="#bytesTransferred(int)"><code>bytesTransferred(int)</code></a>, and <a href="#transferEnded()"><code>transferEnded()</code></a> to
+ <p>Subclasses must call <a href="#transferInitializing(com.readwise.android.exoplayer2.upstream.DataSpec)"><code>transferInitializing(DataSpec)</code></a>, <a href="#transferStarted(com.readwise.android.exoplayer2.upstream.DataSpec)"><code>transferStarted(DataSpec)</code></a>, <a href="#bytesTransferred(int)"><code>bytesTransferred(int)</code></a>, and <a href="#transferEnded()"><code>transferEnded()</code></a> to
  inform listeners of data transfers.</div>
 </li>
 </ul>
@@ -158,11 +158,11 @@ implements <a href="DataSource.html" title="interface in com.google.android.exop
 </a>
 <h3>Nested Class Summary</h3>
 <ul class="blockList">
-<li class="blockList"><a id="nested.classes.inherited.from.class.com.google.android.exoplayer2.upstream.DataSource">
+<li class="blockList"><a id="nested.classes.inherited.from.class.com.readwise.android.exoplayer2.upstream.DataSource">
 <!--   -->
 </a>
-<h3>Nested classes/interfaces inherited from interface&nbsp;com.google.android.exoplayer2.upstream.<a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a></h3>
-<code><a href="DataSource.Factory.html" title="interface in com.google.android.exoplayer2.upstream">DataSource.Factory</a></code></li>
+<h3>Nested classes/interfaces inherited from interface&nbsp;com.readwise.android.exoplayer2.upstream.<a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a></h3>
+<code><a href="DataSource.Factory.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource.Factory</a></code></li>
 </ul>
 </li>
 </ul>
@@ -208,9 +208,9 @@ implements <a href="DataSource.html" title="interface in com.google.android.exop
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#addTransferListener(com.google.android.exoplayer2.upstream.TransferListener)">addTransferListener</a></span>&#8203;(<a href="TransferListener.html" title="interface in com.google.android.exoplayer2.upstream">TransferListener</a>&nbsp;transferListener)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#addTransferListener(com.readwise.android.exoplayer2.upstream.TransferListener)">addTransferListener</a></span>&#8203;(<a href="TransferListener.html" title="interface in com.readwise.android.exoplayer2.upstream">TransferListener</a>&nbsp;transferListener)</code></th>
 <td class="colLast">
-<div class="block">Adds a <a href="TransferListener.html" title="interface in com.google.android.exoplayer2.upstream"><code>TransferListener</code></a> to listen to data transfers.</div>
+<div class="block">Adds a <a href="TransferListener.html" title="interface in com.readwise.android.exoplayer2.upstream"><code>TransferListener</code></a> to listen to data transfers.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
@@ -229,16 +229,16 @@ implements <a href="DataSource.html" title="interface in com.google.android.exop
 </tr>
 <tr id="i3" class="rowColor">
 <td class="colFirst"><code>protected void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#transferInitializing(com.google.android.exoplayer2.upstream.DataSpec)">transferInitializing</a></span>&#8203;(<a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#transferInitializing(com.readwise.android.exoplayer2.upstream.DataSpec)">transferInitializing</a></span>&#8203;(<a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec)</code></th>
 <td class="colLast">
-<div class="block">Notifies listeners that data transfer for the specified <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream"><code>DataSpec</code></a> is being initialized.</div>
+<div class="block">Notifies listeners that data transfer for the specified <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream"><code>DataSpec</code></a> is being initialized.</div>
 </td>
 </tr>
 <tr id="i4" class="altColor">
 <td class="colFirst"><code>protected void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#transferStarted(com.google.android.exoplayer2.upstream.DataSpec)">transferStarted</a></span>&#8203;(<a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#transferStarted(com.readwise.android.exoplayer2.upstream.DataSpec)">transferStarted</a></span>&#8203;(<a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec)</code></th>
 <td class="colLast">
-<div class="block">Notifies listeners that data transfer for the specified <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream"><code>DataSpec</code></a> started.</div>
+<div class="block">Notifies listeners that data transfer for the specified <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream"><code>DataSpec</code></a> started.</div>
 </td>
 </tr>
 </table>
@@ -250,18 +250,18 @@ implements <a href="DataSource.html" title="interface in com.google.android.exop
 <code><a href="https://developer.android.com/reference/java/lang/Object.html#clone()" title="class or interface in java.lang" class="externalLink">clone</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#equals(java.lang.Object)" title="class or interface in java.lang" class="externalLink">equals</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#finalize()" title="class or interface in java.lang" class="externalLink">finalize</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#getClass()" title="class or interface in java.lang" class="externalLink">getClass</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#hashCode()" title="class or interface in java.lang" class="externalLink">hashCode</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#notify()" title="class or interface in java.lang" class="externalLink">notify</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#notifyAll()" title="class or interface in java.lang" class="externalLink">notifyAll</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#toString()" title="class or interface in java.lang" class="externalLink">toString</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#wait()" title="class or interface in java.lang" class="externalLink">wait</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#wait(long)" title="class or interface in java.lang" class="externalLink">wait</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#wait(long,int)" title="class or interface in java.lang" class="externalLink" target="_top">wait</a></code></li>
 </ul>
 <ul class="blockList">
-<li class="blockList"><a id="methods.inherited.from.class.com.google.android.exoplayer2.upstream.DataReader">
+<li class="blockList"><a id="methods.inherited.from.class.com.readwise.android.exoplayer2.upstream.DataReader">
 <!--   -->
 </a>
-<h3>Methods inherited from interface&nbsp;com.google.android.exoplayer2.upstream.<a href="DataReader.html" title="interface in com.google.android.exoplayer2.upstream">DataReader</a></h3>
+<h3>Methods inherited from interface&nbsp;com.readwise.android.exoplayer2.upstream.<a href="DataReader.html" title="interface in com.readwise.android.exoplayer2.upstream">DataReader</a></h3>
 <code><a href="DataReader.html#read(byte%5B%5D,int,int)">read</a></code></li>
 </ul>
 <ul class="blockList">
-<li class="blockList"><a id="methods.inherited.from.class.com.google.android.exoplayer2.upstream.DataSource">
+<li class="blockList"><a id="methods.inherited.from.class.com.readwise.android.exoplayer2.upstream.DataSource">
 <!--   -->
 </a>
-<h3>Methods inherited from interface&nbsp;com.google.android.exoplayer2.upstream.<a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a></h3>
-<code><a href="DataSource.html#close()">close</a>, <a href="DataSource.html#getResponseHeaders()">getResponseHeaders</a>, <a href="DataSource.html#getUri()">getUri</a>, <a href="DataSource.html#open(com.google.android.exoplayer2.upstream.DataSpec)">open</a></code></li>
+<h3>Methods inherited from interface&nbsp;com.readwise.android.exoplayer2.upstream.<a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a></h3>
+<code><a href="DataSource.html#close()">close</a>, <a href="DataSource.html#getResponseHeaders()">getResponseHeaders</a>, <a href="DataSource.html#getUri()">getUri</a>, <a href="DataSource.html#open(com.readwise.android.exoplayer2.upstream.DataSpec)">open</a></code></li>
 </ul>
 </li>
 </ul>
@@ -303,48 +303,48 @@ implements <a href="DataSource.html" title="interface in com.google.android.exop
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="addTransferListener(com.google.android.exoplayer2.upstream.TransferListener)">
+<a id="addTransferListener(com.readwise.android.exoplayer2.upstream.TransferListener)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>addTransferListener</h4>
-<pre class="methodSignature">public final&nbsp;void&nbsp;addTransferListener&#8203;(<a href="TransferListener.html" title="interface in com.google.android.exoplayer2.upstream">TransferListener</a>&nbsp;transferListener)</pre>
-<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="DataSource.html#addTransferListener(com.google.android.exoplayer2.upstream.TransferListener)">DataSource</a></code></span></div>
-<div class="block">Adds a <a href="TransferListener.html" title="interface in com.google.android.exoplayer2.upstream"><code>TransferListener</code></a> to listen to data transfers. This method is not thread-safe.</div>
+<pre class="methodSignature">public final&nbsp;void&nbsp;addTransferListener&#8203;(<a href="TransferListener.html" title="interface in com.readwise.android.exoplayer2.upstream">TransferListener</a>&nbsp;transferListener)</pre>
+<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="DataSource.html#addTransferListener(com.readwise.android.exoplayer2.upstream.TransferListener)">DataSource</a></code></span></div>
+<div class="block">Adds a <a href="TransferListener.html" title="interface in com.readwise.android.exoplayer2.upstream"><code>TransferListener</code></a> to listen to data transfers. This method is not thread-safe.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="DataSource.html#addTransferListener(com.google.android.exoplayer2.upstream.TransferListener)">addTransferListener</a></code>&nbsp;in interface&nbsp;<code><a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a></code></dd>
+<dd><code><a href="DataSource.html#addTransferListener(com.readwise.android.exoplayer2.upstream.TransferListener)">addTransferListener</a></code>&nbsp;in interface&nbsp;<code><a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>transferListener</code> - A <a href="TransferListener.html" title="interface in com.google.android.exoplayer2.upstream"><code>TransferListener</code></a>.</dd>
+<dd><code>transferListener</code> - A <a href="TransferListener.html" title="interface in com.readwise.android.exoplayer2.upstream"><code>TransferListener</code></a>.</dd>
 </dl>
 </li>
 </ul>
-<a id="transferInitializing(com.google.android.exoplayer2.upstream.DataSpec)">
+<a id="transferInitializing(com.readwise.android.exoplayer2.upstream.DataSpec)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>transferInitializing</h4>
-<pre class="methodSignature">protected final&nbsp;void&nbsp;transferInitializing&#8203;(<a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec)</pre>
-<div class="block">Notifies listeners that data transfer for the specified <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream"><code>DataSpec</code></a> is being initialized.</div>
+<pre class="methodSignature">protected final&nbsp;void&nbsp;transferInitializing&#8203;(<a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec)</pre>
+<div class="block">Notifies listeners that data transfer for the specified <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream"><code>DataSpec</code></a> is being initialized.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>dataSpec</code> - <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream"><code>DataSpec</code></a> describing the data for initializing transfer.</dd>
+<dd><code>dataSpec</code> - <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream"><code>DataSpec</code></a> describing the data for initializing transfer.</dd>
 </dl>
 </li>
 </ul>
-<a id="transferStarted(com.google.android.exoplayer2.upstream.DataSpec)">
+<a id="transferStarted(com.readwise.android.exoplayer2.upstream.DataSpec)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>transferStarted</h4>
-<pre class="methodSignature">protected final&nbsp;void&nbsp;transferStarted&#8203;(<a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec)</pre>
-<div class="block">Notifies listeners that data transfer for the specified <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream"><code>DataSpec</code></a> started.</div>
+<pre class="methodSignature">protected final&nbsp;void&nbsp;transferStarted&#8203;(<a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec)</pre>
+<div class="block">Notifies listeners that data transfer for the specified <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream"><code>DataSpec</code></a> started.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>dataSpec</code> - <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream"><code>DataSpec</code></a> describing the data being transferred.</dd>
+<dd><code>dataSpec</code> - <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream"><code>DataSpec</code></a> describing the data being transferred.</dd>
 </dl>
 </li>
 </ul>

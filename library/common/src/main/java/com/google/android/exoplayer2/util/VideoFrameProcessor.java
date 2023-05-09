@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.util;
+package com.readwise.android.exoplayer2.util;
 
 import static java.lang.annotation.ElementType.TYPE_USE;
 
@@ -23,7 +23,7 @@ import android.opengl.EGLExt;
 import android.view.Surface;
 import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.video.ColorInfo;
+import com.readwise.android.exoplayer2.video.ColorInfo;
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

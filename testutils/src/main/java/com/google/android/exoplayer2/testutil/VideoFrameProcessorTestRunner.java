@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.testutil;
+package com.readwise.android.exoplayer2.testutil;
 
 import static androidx.test.core.app.ApplicationProvider.getApplicationContext;
-import static com.google.android.exoplayer2.testutil.BitmapPixelTestUtil.createArgb8888BitmapFromRgba8888Image;
-import static com.google.android.exoplayer2.testutil.BitmapPixelTestUtil.maybeSaveTestBitmap;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkStateNotNull;
-import static com.google.android.exoplayer2.util.VideoFrameProcessor.INPUT_TYPE_BITMAP;
-import static com.google.android.exoplayer2.util.VideoFrameProcessor.INPUT_TYPE_SURFACE;
+import static com.readwise.android.exoplayer2.testutil.BitmapPixelTestUtil.createArgb8888BitmapFromRgba8888Image;
+import static com.readwise.android.exoplayer2.testutil.BitmapPixelTestUtil.maybeSaveTestBitmap;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkStateNotNull;
+import static com.readwise.android.exoplayer2.util.VideoFrameProcessor.INPUT_TYPE_BITMAP;
+import static com.readwise.android.exoplayer2.util.VideoFrameProcessor.INPUT_TYPE_SURFACE;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.annotation.SuppressLint;
@@ -33,13 +33,13 @@ import android.media.MediaFormat;
 import android.view.Surface;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.util.DebugViewProvider;
-import com.google.android.exoplayer2.util.Effect;
-import com.google.android.exoplayer2.util.FrameInfo;
-import com.google.android.exoplayer2.util.SurfaceInfo;
-import com.google.android.exoplayer2.util.VideoFrameProcessingException;
-import com.google.android.exoplayer2.util.VideoFrameProcessor;
-import com.google.android.exoplayer2.video.ColorInfo;
+import com.readwise.android.exoplayer2.util.DebugViewProvider;
+import com.readwise.android.exoplayer2.util.Effect;
+import com.readwise.android.exoplayer2.util.FrameInfo;
+import com.readwise.android.exoplayer2.util.SurfaceInfo;
+import com.readwise.android.exoplayer2.util.VideoFrameProcessingException;
+import com.readwise.android.exoplayer2.util.VideoFrameProcessor;
+import com.readwise.android.exoplayer2.video.ColorInfo;
 import com.google.common.collect.ImmutableList;
 import com.google.common.util.concurrent.MoreExecutors;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;

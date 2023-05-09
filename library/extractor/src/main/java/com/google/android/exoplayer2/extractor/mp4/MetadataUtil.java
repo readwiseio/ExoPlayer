@@ -13,24 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.extractor.mp4;
+package com.readwise.android.exoplayer2.extractor.mp4;
 
 import static java.lang.Math.min;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.extractor.GaplessInfoHolder;
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.metadata.id3.ApicFrame;
-import com.google.android.exoplayer2.metadata.id3.CommentFrame;
-import com.google.android.exoplayer2.metadata.id3.Id3Frame;
-import com.google.android.exoplayer2.metadata.id3.InternalFrame;
-import com.google.android.exoplayer2.metadata.id3.TextInformationFrame;
-import com.google.android.exoplayer2.metadata.mp4.MdtaMetadataEntry;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.ParsableByteArray;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.extractor.GaplessInfoHolder;
+import com.readwise.android.exoplayer2.metadata.Metadata;
+import com.readwise.android.exoplayer2.metadata.id3.ApicFrame;
+import com.readwise.android.exoplayer2.metadata.id3.CommentFrame;
+import com.readwise.android.exoplayer2.metadata.id3.Id3Frame;
+import com.readwise.android.exoplayer2.metadata.id3.InternalFrame;
+import com.readwise.android.exoplayer2.metadata.id3.TextInformationFrame;
+import com.readwise.android.exoplayer2.metadata.mp4.MdtaMetadataEntry;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.ParsableByteArray;
 import com.google.common.collect.ImmutableList;
 import org.checkerframework.checker.nullness.compatqual.NullableType;
 

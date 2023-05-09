@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.trackselection;
+package com.readwise.android.exoplayer2.trackselection;
 
 import androidx.annotation.Nullable;
 import java.util.Arrays;

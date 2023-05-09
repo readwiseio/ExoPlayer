@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.source.hls.playlist</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.source.hls.playlist</a></div>
 <h2 title="Class HlsMediaPlaylist.SegmentBase" class="title">Class HlsMediaPlaylist.SegmentBase</h2>
 </div>
 <div class="contentContainer">
@@ -121,7 +121,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li><a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">java.lang.Object</a></li>
 <li>
 <ul class="inheritance">
-<li>com.google.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.SegmentBase</li>
+<li>com.readwise.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.SegmentBase</li>
 </ul>
 </li>
 </ul>
@@ -134,17 +134,17 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dl>
 <dl>
 <dt>Direct Known Subclasses:</dt>
-<dd><code><a href="HlsMediaPlaylist.Part.html" title="class in com.google.android.exoplayer2.source.hls.playlist">HlsMediaPlaylist.Part</a></code>, <code><a href="HlsMediaPlaylist.Segment.html" title="class in com.google.android.exoplayer2.source.hls.playlist">HlsMediaPlaylist.Segment</a></code></dd>
+<dd><code><a href="HlsMediaPlaylist.Part.html" title="class in com.readwise.android.exoplayer2.source.hls.playlist">HlsMediaPlaylist.Part</a></code>, <code><a href="HlsMediaPlaylist.Segment.html" title="class in com.readwise.android.exoplayer2.source.hls.playlist">HlsMediaPlaylist.Segment</a></code></dd>
 </dl>
 <dl>
 <dt>Enclosing class:</dt>
-<dd><a href="HlsMediaPlaylist.html" title="class in com.google.android.exoplayer2.source.hls.playlist">HlsMediaPlaylist</a></dd>
+<dd><a href="HlsMediaPlaylist.html" title="class in com.readwise.android.exoplayer2.source.hls.playlist">HlsMediaPlaylist</a></dd>
 </dl>
 <hr>
 <pre>public static class <span class="typeNameLabel">HlsMediaPlaylist.SegmentBase</span>
 extends <a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">Object</a>
 implements <a href="https://developer.android.com/reference/java/lang/Comparable.html" title="class or interface in java.lang" class="externalLink">Comparable</a>&lt;<a href="https://developer.android.com/reference/java/lang/Long.html?is-external=true" title="class or interface in java.lang" class="externalLink" target="_top">Long</a>&gt;</pre>
-<div class="block">The base for a <a href="HlsMediaPlaylist.Segment.html" title="class in com.google.android.exoplayer2.source.hls.playlist"><code>HlsMediaPlaylist.Segment</code></a> or a <a href="HlsMediaPlaylist.Part.html" title="class in com.google.android.exoplayer2.source.hls.playlist"><code>HlsMediaPlaylist.Part</code></a> required for playback.</div>
+<div class="block">The base for a <a href="HlsMediaPlaylist.Segment.html" title="class in com.readwise.android.exoplayer2.source.hls.playlist"><code>HlsMediaPlaylist.Segment</code></a> or a <a href="HlsMediaPlaylist.Part.html" title="class in com.readwise.android.exoplayer2.source.hls.playlist"><code>HlsMediaPlaylist.Part</code></a> required for playback.</div>
 </li>
 </ul>
 </div>
@@ -183,7 +183,7 @@ implements <a href="https://developer.android.com/reference/java/lang/Comparable
 </td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code><a href="../../../drm/DrmInitData.html" title="class in com.google.android.exoplayer2.drm">DrmInitData</a></code></td>
+<td class="colFirst"><code><a href="../../../drm/DrmInitData.html" title="class in com.readwise.android.exoplayer2.drm">DrmInitData</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#drmInitData">drmInitData</a></span></code></th>
 <td class="colLast">
 <div class="block">DRM initialization data for sample decryption, or null if the segment does not use CDM-DRM
@@ -221,7 +221,7 @@ implements <a href="https://developer.android.com/reference/java/lang/Comparable
 </td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code><a href="HlsMediaPlaylist.Segment.html" title="class in com.google.android.exoplayer2.source.hls.playlist">HlsMediaPlaylist.Segment</a></code></td>
+<td class="colFirst"><code><a href="HlsMediaPlaylist.Segment.html" title="class in com.readwise.android.exoplayer2.source.hls.playlist">HlsMediaPlaylist.Segment</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#initializationSegment">initializationSegment</a></span></code></th>
 <td class="colLast">
 <div class="block">The media initialization section for this segment, as defined by #EXT-X-MAP.</div>
@@ -312,7 +312,7 @@ implements <a href="https://developer.android.com/reference/java/lang/Comparable
 <li class="blockList">
 <h4>initializationSegment</h4>
 <pre>@Nullable
-public final&nbsp;<a href="HlsMediaPlaylist.Segment.html" title="class in com.google.android.exoplayer2.source.hls.playlist">HlsMediaPlaylist.Segment</a> initializationSegment</pre>
+public final&nbsp;<a href="HlsMediaPlaylist.Segment.html" title="class in com.readwise.android.exoplayer2.source.hls.playlist">HlsMediaPlaylist.Segment</a> initializationSegment</pre>
 <div class="block">The media initialization section for this segment, as defined by #EXT-X-MAP. May be null if
  the media playlist does not define a media initialization section for this segment. The same
  instance is used for all segments that share an EXT-X-MAP tag.</div>
@@ -355,7 +355,7 @@ public final&nbsp;<a href="HlsMediaPlaylist.Segment.html" title="class in com.go
 <li class="blockList">
 <h4>drmInitData</h4>
 <pre>@Nullable
-public final&nbsp;<a href="../../../drm/DrmInitData.html" title="class in com.google.android.exoplayer2.drm">DrmInitData</a> drmInitData</pre>
+public final&nbsp;<a href="../../../drm/DrmInitData.html" title="class in com.readwise.android.exoplayer2.drm">DrmInitData</a> drmInitData</pre>
 <div class="block">DRM initialization data for sample decryption, or null if the segment does not use CDM-DRM
  protection.</div>
 </li>

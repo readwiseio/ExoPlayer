@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.util;
+package com.readwise.android.exoplayer2.util;
 
 import android.opengl.EGL14;
 import android.opengl.EGLContext;
@@ -22,15 +22,15 @@ import android.opengl.EGLDisplay;
 import android.opengl.EGLSurface;
 import androidx.annotation.IntRange;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.util.GlUtil.GlException;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.util.GlUtil.GlException;
 
 // TODO(271433904): Expand this class to cover more methods in GlUtil.
 /** Provider to customize the creation and maintenance of GL objects. */
 public interface GlObjectsProvider {
   /**
    * @deprecated Please use {@code DefaultGlObjectsProvider} in {@code
-   *     com.google.android.exoplayer2.effect}.
+   *     com.readwise.android.exoplayer2.effect}.
    */
   @Deprecated
   GlObjectsProvider DEFAULT =

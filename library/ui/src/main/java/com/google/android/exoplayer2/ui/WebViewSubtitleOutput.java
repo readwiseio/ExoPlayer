@@ -14,10 +14,10 @@
  * limitations under the License.
  *
  */
-package com.google.android.exoplayer2.ui;
+package com.readwise.android.exoplayer2.ui;
 
-import static com.google.android.exoplayer2.ui.SubtitleView.DEFAULT_BOTTOM_PADDING_FRACTION;
-import static com.google.android.exoplayer2.ui.SubtitleView.DEFAULT_TEXT_SIZE_FRACTION;
+import static com.readwise.android.exoplayer2.ui.SubtitleView.DEFAULT_BOTTOM_PADDING_FRACTION;
+import static com.readwise.android.exoplayer2.ui.SubtitleView.DEFAULT_TEXT_SIZE_FRACTION;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -29,9 +29,9 @@ import android.view.MotionEvent;
 import android.webkit.WebView;
 import android.widget.FrameLayout;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.text.Cue;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.text.Cue;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.base.Charsets;
 import java.util.ArrayList;
 import java.util.Collections;

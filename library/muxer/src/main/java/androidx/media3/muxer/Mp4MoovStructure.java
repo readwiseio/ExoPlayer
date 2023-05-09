@@ -19,9 +19,9 @@ import static androidx.media3.muxer.Mp4Utils.MVHD_TIMEBASE;
 import static java.lang.Math.max;
 
 import android.media.MediaCodec.BufferInfo;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
 import java.nio.ByteBuffer;

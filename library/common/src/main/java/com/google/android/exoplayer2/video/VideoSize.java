@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.video;
+package com.readwise.android.exoplayer2.video;
 
 import android.os.Bundle;
 import androidx.annotation.FloatRange;
 import androidx.annotation.IntRange;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.Bundleable;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.Bundleable;
+import com.readwise.android.exoplayer2.util.Util;
 
 /** Represents the video size. */
 public final class VideoSize implements Bundleable {

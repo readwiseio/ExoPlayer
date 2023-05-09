@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.hls;
+package com.readwise.android.exoplayer2.source.hls;
 
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.fail;
@@ -21,11 +21,11 @@ import static org.junit.Assert.fail;
 import android.net.Uri;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist;
-import com.google.android.exoplayer2.source.hls.playlist.HlsPlaylistParser;
-import com.google.android.exoplayer2.testutil.TestUtil;
-import com.google.android.exoplayer2.upstream.DataSpec;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist;
+import com.readwise.android.exoplayer2.source.hls.playlist.HlsPlaylistParser;
+import com.readwise.android.exoplayer2.testutil.TestUtil;
+import com.readwise.android.exoplayer2.upstream.DataSpec;
 import com.google.common.collect.Iterables;
 import java.io.IOException;
 import java.util.ArrayList;

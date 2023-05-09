@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.extractor.mp4;
+package com.readwise.android.exoplayer2.extractor.mp4;
 
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.extractor.ExtractorInput;
-import com.google.android.exoplayer2.util.ParsableByteArray;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.extractor.ExtractorInput;
+import com.readwise.android.exoplayer2.util.ParsableByteArray;
 import java.io.IOException;
 
 /**

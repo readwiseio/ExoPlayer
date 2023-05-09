@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.testutil;
+package com.readwise.android.exoplayer2.testutil;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
 
 import android.os.Build;
 import android.os.Handler;
@@ -24,8 +24,8 @@ import android.os.Looper;
 import android.os.SystemClock;
 import androidx.annotation.GuardedBy;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.util.Clock;
-import com.google.android.exoplayer2.util.HandlerWrapper;
+import com.readwise.android.exoplayer2.util.Clock;
+import com.readwise.android.exoplayer2.util.HandlerWrapper;
 import com.google.common.collect.ComparisonChain;
 import com.google.common.collect.Ordering;
 import java.util.ArrayList;

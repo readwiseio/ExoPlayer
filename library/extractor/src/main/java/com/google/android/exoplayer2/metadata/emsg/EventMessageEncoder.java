@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.metadata.emsg;
+package com.readwise.android.exoplayer2.metadata.emsg;
 
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.gldemo;
+package com.readwise.android.exoplayer2.gldemo;
 
 import android.content.Context;
 import android.graphics.SurfaceTexture;
@@ -24,14 +24,14 @@ import android.opengl.GLSurfaceView;
 import android.os.Handler;
 import android.view.Surface;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ExoPlayer;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.GlUtil;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.TimedValueQueue;
-import com.google.android.exoplayer2.video.VideoFrameMetadataListener;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ExoPlayer;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.GlUtil;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.TimedValueQueue;
+import com.readwise.android.exoplayer2.video.VideoFrameMetadataListener;
 import java.util.concurrent.atomic.AtomicBoolean;
 import javax.microedition.khronos.egl.EGL10;
 import javax.microedition.khronos.egl.EGLConfig;

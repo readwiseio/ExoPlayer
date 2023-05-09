@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
 import static com.google.common.primitives.Longs.max;
 import static java.lang.Math.abs;
 import static java.lang.Math.max;
 
 import android.os.SystemClock;
-import com.google.android.exoplayer2.MediaItem.LiveConfiguration;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.MediaItem.LiveConfiguration;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 
 /**

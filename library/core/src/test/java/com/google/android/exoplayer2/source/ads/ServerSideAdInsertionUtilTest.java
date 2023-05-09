@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.ads;
+package com.readwise.android.exoplayer2.source.ads;
 
-import static com.google.android.exoplayer2.source.ads.ServerSideAdInsertionUtil.addAdGroupToAdPlaybackState;
-import static com.google.android.exoplayer2.source.ads.ServerSideAdInsertionUtil.getAdCountInGroup;
-import static com.google.android.exoplayer2.source.ads.ServerSideAdInsertionUtil.getMediaPeriodPositionUsForAd;
-import static com.google.android.exoplayer2.source.ads.ServerSideAdInsertionUtil.getMediaPeriodPositionUsForContent;
-import static com.google.android.exoplayer2.source.ads.ServerSideAdInsertionUtil.getStreamPositionUsForAd;
-import static com.google.android.exoplayer2.source.ads.ServerSideAdInsertionUtil.getStreamPositionUsForContent;
+import static com.readwise.android.exoplayer2.source.ads.ServerSideAdInsertionUtil.addAdGroupToAdPlaybackState;
+import static com.readwise.android.exoplayer2.source.ads.ServerSideAdInsertionUtil.getAdCountInGroup;
+import static com.readwise.android.exoplayer2.source.ads.ServerSideAdInsertionUtil.getMediaPeriodPositionUsForAd;
+import static com.readwise.android.exoplayer2.source.ads.ServerSideAdInsertionUtil.getMediaPeriodPositionUsForContent;
+import static com.readwise.android.exoplayer2.source.ads.ServerSideAdInsertionUtil.getStreamPositionUsForAd;
+import static com.readwise.android.exoplayer2.source.ads.ServerSideAdInsertionUtil.getStreamPositionUsForContent;
 import static com.google.common.truth.Truth.assertThat;
 import static java.util.Arrays.stream;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.C;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

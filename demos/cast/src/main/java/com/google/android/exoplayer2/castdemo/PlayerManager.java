@@ -13,23 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.castdemo;
+package com.readwise.android.exoplayer2.castdemo;
 
 import android.content.Context;
 import android.view.KeyEvent;
 import androidx.core.content.res.ResourcesCompat;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ExoPlayer;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Player.DiscontinuityReason;
-import com.google.android.exoplayer2.Player.TimelineChangeReason;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.Tracks;
-import com.google.android.exoplayer2.ext.cast.CastPlayer;
-import com.google.android.exoplayer2.ext.cast.SessionAvailabilityListener;
-import com.google.android.exoplayer2.ui.StyledPlayerControlView;
-import com.google.android.exoplayer2.ui.StyledPlayerView;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ExoPlayer;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.Player.DiscontinuityReason;
+import com.readwise.android.exoplayer2.Player.TimelineChangeReason;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.Tracks;
+import com.readwise.android.exoplayer2.ext.cast.CastPlayer;
+import com.readwise.android.exoplayer2.ext.cast.SessionAvailabilityListener;
+import com.readwise.android.exoplayer2.ui.StyledPlayerControlView;
+import com.readwise.android.exoplayer2.ui.StyledPlayerView;
 import com.google.android.gms.cast.framework.CastContext;
 import java.util.ArrayList;
 

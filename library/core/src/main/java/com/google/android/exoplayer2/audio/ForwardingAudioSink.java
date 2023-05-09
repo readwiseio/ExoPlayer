@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.audio;
+package com.readwise.android.exoplayer2.audio;
 
 import android.media.AudioDeviceInfo;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.PlaybackParameters;
-import com.google.android.exoplayer2.analytics.PlayerId;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.PlaybackParameters;
+import com.readwise.android.exoplayer2.analytics.PlayerId;
 import java.nio.ByteBuffer;
 
 /** An overridable {@link AudioSink} implementation forwarding all methods to another sink. */

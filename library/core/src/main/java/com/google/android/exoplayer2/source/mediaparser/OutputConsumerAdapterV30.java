@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.mediaparser;
+package com.readwise.android.exoplayer2.source.mediaparser;
 
 import static android.media.MediaParser.PARSER_NAME_AC3;
 import static android.media.MediaParser.PARSER_NAME_AC4;
@@ -40,25 +40,25 @@ import android.media.MediaParser.TrackData;
 import android.util.Pair;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.C.SelectionFlags;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.drm.DrmInitData;
-import com.google.android.exoplayer2.drm.DrmInitData.SchemeData;
-import com.google.android.exoplayer2.extractor.ChunkIndex;
-import com.google.android.exoplayer2.extractor.DummyExtractorOutput;
-import com.google.android.exoplayer2.extractor.ExtractorOutput;
-import com.google.android.exoplayer2.extractor.SeekMap;
-import com.google.android.exoplayer2.extractor.SeekPoint;
-import com.google.android.exoplayer2.extractor.TrackOutput;
-import com.google.android.exoplayer2.extractor.TrackOutput.CryptoData;
-import com.google.android.exoplayer2.upstream.DataReader;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.MediaFormatUtil;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.TimestampAdjuster;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.C.SelectionFlags;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.drm.DrmInitData;
+import com.readwise.android.exoplayer2.drm.DrmInitData.SchemeData;
+import com.readwise.android.exoplayer2.extractor.ChunkIndex;
+import com.readwise.android.exoplayer2.extractor.DummyExtractorOutput;
+import com.readwise.android.exoplayer2.extractor.ExtractorOutput;
+import com.readwise.android.exoplayer2.extractor.SeekMap;
+import com.readwise.android.exoplayer2.extractor.SeekPoint;
+import com.readwise.android.exoplayer2.extractor.TrackOutput;
+import com.readwise.android.exoplayer2.extractor.TrackOutput.CryptoData;
+import com.readwise.android.exoplayer2.upstream.DataReader;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.MediaFormatUtil;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.TimestampAdjuster;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import java.io.IOException;
 import java.nio.ByteBuffer;

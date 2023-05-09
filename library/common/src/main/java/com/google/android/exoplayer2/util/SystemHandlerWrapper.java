@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.util;
+package com.readwise.android.exoplayer2.util;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
 
 import android.os.Handler;
 import android.os.Looper;

@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.extractor.ogg;
+package com.readwise.android.exoplayer2.extractor.ogg;
 
-import static com.google.android.exoplayer2.extractor.ExtractorUtil.skipFullyQuietly;
+import static com.readwise.android.exoplayer2.extractor.ExtractorUtil.skipFullyQuietly;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ParserException;
-import com.google.android.exoplayer2.extractor.ExtractorInput;
-import com.google.android.exoplayer2.extractor.SeekMap;
-import com.google.android.exoplayer2.extractor.SeekPoint;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ParserException;
+import com.readwise.android.exoplayer2.extractor.ExtractorInput;
+import com.readwise.android.exoplayer2.extractor.SeekMap;
+import com.readwise.android.exoplayer2.extractor.SeekPoint;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.EOFException;
 import java.io.IOException;
 

@@ -14,11 +14,13 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.source.rtsp;
+package com.readwise.android.exoplayer2.source.rtsp;
 
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
+import com.readwise.android.exoplayer2.source.rtsp.RtpPacket;
+import com.readwise.android.exoplayer2.source.rtsp.RtpPacketReorderingQueue;
 import java.util.ArrayList;
 import java.util.List;
 import org.junit.Test;

@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.rtsp;
+package com.readwise.android.exoplayer2.source.rtsp;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkStateNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkStateNotNull;
 import static com.google.common.truth.Truth.assertThat;
 import static java.lang.Math.min;
 
@@ -25,24 +25,30 @@ import android.net.Uri;
 import androidx.annotation.Nullable;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ExoPlayer;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.PlaybackException;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Player.Listener;
-import com.google.android.exoplayer2.robolectric.PlaybackOutput;
-import com.google.android.exoplayer2.robolectric.RobolectricUtil;
-import com.google.android.exoplayer2.robolectric.ShadowMediaCodecConfig;
-import com.google.android.exoplayer2.robolectric.TestPlayerRunHelper;
-import com.google.android.exoplayer2.testutil.CapturingRenderersFactory;
-import com.google.android.exoplayer2.testutil.DumpFileAsserts;
-import com.google.android.exoplayer2.testutil.FakeClock;
-import com.google.android.exoplayer2.upstream.BaseDataSource;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.util.Clock;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ExoPlayer;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.PlaybackException;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.Player.Listener;
+import com.readwise.android.exoplayer2.robolectric.PlaybackOutput;
+import com.readwise.android.exoplayer2.robolectric.RobolectricUtil;
+import com.readwise.android.exoplayer2.robolectric.ShadowMediaCodecConfig;
+import com.readwise.android.exoplayer2.robolectric.TestPlayerRunHelper;
+import com.readwise.android.exoplayer2.testutil.CapturingRenderersFactory;
+import com.readwise.android.exoplayer2.testutil.DumpFileAsserts;
+import com.readwise.android.exoplayer2.testutil.FakeClock;
+import com.readwise.android.exoplayer2.upstream.BaseDataSource;
+import com.readwise.android.exoplayer2.upstream.DataSpec;
+import com.readwise.android.exoplayer2.util.Clock;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
+import com.readwise.android.exoplayer2.source.rtsp.RtpDataChannel;
+import com.readwise.android.exoplayer2.source.rtsp.RtspHeaders;
+import com.readwise.android.exoplayer2.source.rtsp.RtspMediaSource;
+import com.readwise.android.exoplayer2.source.rtsp.RtspMessageChannel;
+import com.readwise.android.exoplayer2.source.rtsp.RtspResponse;
+import com.readwise.android.exoplayer2.source.rtsp.UdpDataSourceRtpDataChannelFactory;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;

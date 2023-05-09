@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.playbacktests.gts;
+package com.readwise.android.exoplayer2.playbacktests.gts;
 
-import static com.google.android.exoplayer2.playbacktests.gts.GtsTestUtil.shouldSkipWidevineTest;
+import static com.readwise.android.exoplayer2.playbacktests.gts.GtsTestUtil.shouldSkipWidevineTest;
 import static com.google.common.truth.Truth.assertThat;
 import static com.google.common.truth.Truth.assertWithMessage;
 import static org.junit.Assert.fail;
@@ -28,19 +28,19 @@ import android.util.Pair;
 import androidx.annotation.Nullable;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.rule.ActivityTestRule;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.drm.DrmSession.DrmSessionException;
-import com.google.android.exoplayer2.drm.DrmSessionEventListener;
-import com.google.android.exoplayer2.drm.OfflineLicenseHelper;
-import com.google.android.exoplayer2.source.dash.DashUtil;
-import com.google.android.exoplayer2.source.dash.manifest.DashManifest;
-import com.google.android.exoplayer2.testutil.ActionSchedule;
-import com.google.android.exoplayer2.testutil.HostActivity;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.DefaultHttpDataSource;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.drm.DrmSession.DrmSessionException;
+import com.readwise.android.exoplayer2.drm.DrmSessionEventListener;
+import com.readwise.android.exoplayer2.drm.OfflineLicenseHelper;
+import com.readwise.android.exoplayer2.source.dash.DashUtil;
+import com.readwise.android.exoplayer2.source.dash.manifest.DashManifest;
+import com.readwise.android.exoplayer2.testutil.ActionSchedule;
+import com.readwise.android.exoplayer2.testutil.HostActivity;
+import com.readwise.android.exoplayer2.upstream.DataSource;
+import com.readwise.android.exoplayer2.upstream.DefaultHttpDataSource;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.IOException;
 import org.junit.After;
 import org.junit.Before;

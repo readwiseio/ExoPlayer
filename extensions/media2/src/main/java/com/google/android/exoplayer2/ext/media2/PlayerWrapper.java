@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.media2;
+package com.readwise.android.exoplayer2.ext.media2;
 
-import static com.google.android.exoplayer2.Player.COMMAND_GET_AUDIO_ATTRIBUTES;
-import static com.google.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM;
-import static com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_MEDIA_ITEM;
-import static com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT;
-import static com.google.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS;
-import static com.google.android.exoplayer2.Player.COMMAND_SET_REPEAT_MODE;
-import static com.google.android.exoplayer2.Player.COMMAND_SET_SHUFFLE_MODE;
-import static com.google.android.exoplayer2.util.Util.postOrRun;
+import static com.readwise.android.exoplayer2.Player.COMMAND_GET_AUDIO_ATTRIBUTES;
+import static com.readwise.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM;
+import static com.readwise.android.exoplayer2.Player.COMMAND_SEEK_TO_MEDIA_ITEM;
+import static com.readwise.android.exoplayer2.Player.COMMAND_SEEK_TO_NEXT;
+import static com.readwise.android.exoplayer2.Player.COMMAND_SEEK_TO_PREVIOUS;
+import static com.readwise.android.exoplayer2.Player.COMMAND_SET_REPEAT_MODE;
+import static com.readwise.android.exoplayer2.Player.COMMAND_SET_SHUFFLE_MODE;
+import static com.readwise.android.exoplayer2.util.Util.postOrRun;
 
 import android.os.Handler;
 import androidx.annotation.IntRange;
@@ -31,16 +31,16 @@ import androidx.media.AudioAttributesCompat;
 import androidx.media2.common.CallbackMediaItem;
 import androidx.media2.common.MediaMetadata;
 import androidx.media2.common.SessionPlayer;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.PlaybackException;
-import com.google.android.exoplayer2.PlaybackParameters;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.audio.AudioAttributes;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.PlaybackException;
+import com.readwise.android.exoplayer2.PlaybackParameters;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.audio.AudioAttributes;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;

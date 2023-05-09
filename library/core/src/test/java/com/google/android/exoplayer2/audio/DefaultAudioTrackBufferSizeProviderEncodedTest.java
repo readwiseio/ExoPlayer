@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.audio;
+package com.readwise.android.exoplayer2.audio;
 
-import static com.google.android.exoplayer2.C.MICROS_PER_SECOND;
-import static com.google.android.exoplayer2.audio.DefaultAudioSink.OUTPUT_MODE_PASSTHROUGH;
-import static com.google.android.exoplayer2.audio.DefaultAudioTrackBufferSizeProvider.getMaximumEncodedRateBytesPerSecond;
+import static com.readwise.android.exoplayer2.C.MICROS_PER_SECOND;
+import static com.readwise.android.exoplayer2.audio.DefaultAudioSink.OUTPUT_MODE_PASSTHROUGH;
+import static com.readwise.android.exoplayer2.audio.DefaultAudioTrackBufferSizeProvider.getMaximumEncodedRateBytesPerSecond;
 import static com.google.common.truth.Truth.assertThat;
 
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
 import com.google.common.collect.ImmutableList;
 import org.junit.Test;
 import org.junit.runner.RunWith;

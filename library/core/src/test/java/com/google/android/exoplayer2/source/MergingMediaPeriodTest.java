@@ -13,26 +13,26 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source;
+package com.readwise.android.exoplayer2.source;
 
-import static com.google.android.exoplayer2.source.SampleStream.FLAG_REQUIRE_FORMAT;
-import static com.google.android.exoplayer2.testutil.FakeSampleStream.FakeSampleStreamItem.END_OF_STREAM_ITEM;
-import static com.google.android.exoplayer2.testutil.FakeSampleStream.FakeSampleStreamItem.oneByteSample;
+import static com.readwise.android.exoplayer2.source.SampleStream.FLAG_REQUIRE_FORMAT;
+import static com.readwise.android.exoplayer2.testutil.FakeSampleStream.FakeSampleStreamItem.END_OF_STREAM_ITEM;
+import static com.readwise.android.exoplayer2.testutil.FakeSampleStream.FakeSampleStreamItem.oneByteSample;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.FormatHolder;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
-import com.google.android.exoplayer2.drm.DrmSessionEventListener;
-import com.google.android.exoplayer2.drm.DrmSessionManager;
-import com.google.android.exoplayer2.source.MediaSource.MediaPeriodId;
-import com.google.android.exoplayer2.source.MediaSourceEventListener.EventDispatcher;
-import com.google.android.exoplayer2.testutil.FakeMediaPeriod;
-import com.google.android.exoplayer2.trackselection.ExoTrackSelection;
-import com.google.android.exoplayer2.trackselection.FixedTrackSelection;
-import com.google.android.exoplayer2.upstream.DefaultAllocator;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.FormatHolder;
+import com.readwise.android.exoplayer2.decoder.DecoderInputBuffer;
+import com.readwise.android.exoplayer2.drm.DrmSessionEventListener;
+import com.readwise.android.exoplayer2.drm.DrmSessionManager;
+import com.readwise.android.exoplayer2.source.MediaSource.MediaPeriodId;
+import com.readwise.android.exoplayer2.source.MediaSourceEventListener.EventDispatcher;
+import com.readwise.android.exoplayer2.testutil.FakeMediaPeriod;
+import com.readwise.android.exoplayer2.trackselection.ExoTrackSelection;
+import com.readwise.android.exoplayer2.trackselection.FixedTrackSelection;
+import com.readwise.android.exoplayer2.upstream.DefaultAllocator;
 import com.google.common.collect.ImmutableList;
 import java.util.Arrays;
 import java.util.concurrent.CountDownLatch;

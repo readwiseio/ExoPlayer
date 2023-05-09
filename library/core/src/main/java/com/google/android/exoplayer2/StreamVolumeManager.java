@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -22,9 +22,9 @@ import android.content.IntentFilter;
 import android.media.AudioManager;
 import android.os.Handler;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.Util;
 
 /** A manager that wraps {@link AudioManager} to control/listen audio stream volume. */
 /* package */ final class StreamVolumeManager {

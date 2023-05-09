@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  */
-package com.google.android.exoplayer2.text.ttml;
+package com.readwise.android.exoplayer2.text.ttml;
 
 import android.text.Spanned;
 

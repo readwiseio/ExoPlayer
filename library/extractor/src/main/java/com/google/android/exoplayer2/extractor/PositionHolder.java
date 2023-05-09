@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.extractor;
+package com.readwise.android.exoplayer2.extractor;
 
 /** Holds a position in the stream. */
 public final class PositionHolder {

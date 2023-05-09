@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.playbacktests.gts;
+package com.readwise.android.exoplayer2.playbacktests.gts;
 
 import android.media.MediaCodecInfo.AudioCapabilities;
 import android.media.MediaCodecInfo.CodecCapabilities;
@@ -22,11 +22,11 @@ import android.media.MediaCodecInfo.VideoCapabilities;
 import androidx.annotation.Nullable;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.platform.app.InstrumentationRegistry;
-import com.google.android.exoplayer2.mediacodec.MediaCodecInfo;
-import com.google.android.exoplayer2.mediacodec.MediaCodecUtil;
-import com.google.android.exoplayer2.mediacodec.MediaCodecUtil.DecoderQueryException;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.mediacodec.MediaCodecInfo;
+import com.readwise.android.exoplayer2.mediacodec.MediaCodecUtil;
+import com.readwise.android.exoplayer2.mediacodec.MediaCodecUtil.DecoderQueryException;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.Util;
 import java.util.Arrays;
 import java.util.List;
 import org.junit.Before;

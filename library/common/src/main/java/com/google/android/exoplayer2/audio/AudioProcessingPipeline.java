@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.audio;
+package com.readwise.android.exoplayer2.audio;
 
-import static com.google.android.exoplayer2.audio.AudioProcessor.EMPTY_BUFFER;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.audio.AudioProcessor.EMPTY_BUFFER;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.audio.AudioProcessor.AudioFormat;
+import com.readwise.android.exoplayer2.audio.AudioProcessor.AudioFormat;
 import com.google.common.collect.ImmutableList;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.nio.ByteBuffer;

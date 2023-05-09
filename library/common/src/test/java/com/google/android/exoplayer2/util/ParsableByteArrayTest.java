@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.util;
+package com.readwise.android.exoplayer2.util;
 
-import static com.google.android.exoplayer2.testutil.TestUtil.createByteArray;
+import static com.readwise.android.exoplayer2.testutil.TestUtil.createByteArray;
 import static com.google.common.truth.Truth.assertThat;
 import static java.nio.charset.Charset.forName;
 import static org.junit.Assert.fail;

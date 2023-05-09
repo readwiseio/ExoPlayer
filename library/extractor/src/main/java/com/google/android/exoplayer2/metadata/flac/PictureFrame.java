@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.metadata.flac;
+package com.readwise.android.exoplayer2.metadata.flac;
 
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static com.readwise.android.exoplayer2.util.Util.castNonNull;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.MediaMetadata;
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.util.ParsableByteArray;
+import com.readwise.android.exoplayer2.MediaMetadata;
+import com.readwise.android.exoplayer2.metadata.Metadata;
+import com.readwise.android.exoplayer2.util.ParsableByteArray;
 import com.google.common.base.Charsets;
 import java.util.Arrays;
 

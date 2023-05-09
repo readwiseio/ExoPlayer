@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.offline;
+package com.readwise.android.exoplayer2.offline;
 
-import static com.google.android.exoplayer2.offline.Download.STOP_REASON_NONE;
+import static com.readwise.android.exoplayer2.offline.Download.STOP_REASON_NONE;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -27,13 +27,13 @@ import android.os.IBinder;
 import android.os.Looper;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
-import com.google.android.exoplayer2.scheduler.Requirements;
-import com.google.android.exoplayer2.scheduler.Requirements.RequirementFlags;
-import com.google.android.exoplayer2.scheduler.Scheduler;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.NotificationUtil;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.scheduler.Requirements;
+import com.readwise.android.exoplayer2.scheduler.Requirements.RequirementFlags;
+import com.readwise.android.exoplayer2.scheduler.Scheduler;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.NotificationUtil;
+import com.readwise.android.exoplayer2.util.Util;
 import java.util.HashMap;
 import java.util.List;
 import org.checkerframework.checker.nullness.qual.MonotonicNonNull;

@@ -13,21 +13,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.rtsp.reader;
+package com.readwise.android.exoplayer2.source.rtsp.reader;
 
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.source.rtsp.RtpPacket;
-import com.google.android.exoplayer2.source.rtsp.RtpPayloadFormat;
-import com.google.android.exoplayer2.testutil.FakeExtractorOutput;
-import com.google.android.exoplayer2.testutil.FakeTrackOutput;
-import com.google.android.exoplayer2.testutil.TestUtil;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.ParsableByteArray;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.source.rtsp.RtpPacket;
+import com.readwise.android.exoplayer2.source.rtsp.RtpPayloadFormat;
+import com.readwise.android.exoplayer2.testutil.FakeExtractorOutput;
+import com.readwise.android.exoplayer2.testutil.FakeTrackOutput;
+import com.readwise.android.exoplayer2.testutil.TestUtil;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.ParsableByteArray;
 import com.google.common.collect.ImmutableMap;
+import com.readwise.android.exoplayer2.source.rtsp.reader.RtpPcmReader;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

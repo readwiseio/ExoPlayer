@@ -13,22 +13,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.extractor.flv;
+package com.readwise.android.exoplayer2.extractor.flv;
 
 import static java.lang.Math.max;
 import static java.lang.annotation.ElementType.TYPE_USE;
 
 import androidx.annotation.IntDef;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.extractor.Extractor;
-import com.google.android.exoplayer2.extractor.ExtractorInput;
-import com.google.android.exoplayer2.extractor.ExtractorOutput;
-import com.google.android.exoplayer2.extractor.ExtractorsFactory;
-import com.google.android.exoplayer2.extractor.IndexSeekMap;
-import com.google.android.exoplayer2.extractor.PositionHolder;
-import com.google.android.exoplayer2.extractor.SeekMap;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.ParsableByteArray;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.extractor.Extractor;
+import com.readwise.android.exoplayer2.extractor.ExtractorInput;
+import com.readwise.android.exoplayer2.extractor.ExtractorOutput;
+import com.readwise.android.exoplayer2.extractor.ExtractorsFactory;
+import com.readwise.android.exoplayer2.extractor.IndexSeekMap;
+import com.readwise.android.exoplayer2.extractor.PositionHolder;
+import com.readwise.android.exoplayer2.extractor.SeekMap;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.ParsableByteArray;
 import java.io.IOException;
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;

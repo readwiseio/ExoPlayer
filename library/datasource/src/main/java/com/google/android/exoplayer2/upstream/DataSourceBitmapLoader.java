@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.upstream;
+package com.readwise.android.exoplayer2.upstream;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkStateNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkArgument;
+import static com.readwise.android.exoplayer2.util.Assertions.checkStateNotNull;
 
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.util.BitmapLoader;
+import com.readwise.android.exoplayer2.util.BitmapLoader;
 import com.google.common.base.Supplier;
 import com.google.common.base.Suppliers;
 import com.google.common.util.concurrent.ListenableFuture;

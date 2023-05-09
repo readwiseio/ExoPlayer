@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source;
+package com.readwise.android.exoplayer2.source;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.util.Assertions.checkArgument;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
 import static java.lang.Math.min;
 
 import android.util.SparseArray;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.util.Consumer;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.util.Consumer;
 
 /**
  * Stores value objects associated with spans of integer keys.

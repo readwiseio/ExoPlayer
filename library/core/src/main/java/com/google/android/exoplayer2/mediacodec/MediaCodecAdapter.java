@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.mediacodec;
+package com.readwise.android.exoplayer2.mediacodec;
 
 import android.media.MediaCodec;
 import android.media.MediaCrypto;
@@ -24,9 +24,9 @@ import android.os.PersistableBundle;
 import android.view.Surface;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.decoder.CryptoInfo;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.decoder.CryptoInfo;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 

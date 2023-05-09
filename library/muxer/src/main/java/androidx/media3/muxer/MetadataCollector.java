@@ -15,7 +15,7 @@
  */
 package androidx.media3.muxer;
 
-import static com.google.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
 
 import java.nio.ByteBuffer;
 import java.util.LinkedHashMap;

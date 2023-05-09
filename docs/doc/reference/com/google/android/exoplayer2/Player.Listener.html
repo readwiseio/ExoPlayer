@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2</a></div>
 <h2 title="Interface Player.Listener" class="title">Interface Player.Listener</h2>
 </div>
 <div class="contentContainer">
@@ -122,25 +122,25 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Known Subinterfaces:</dt>
-<dd><code><a href="analytics/AnalyticsCollector.html" title="interface in com.google.android.exoplayer2.analytics">AnalyticsCollector</a></code></dd>
+<dd><code><a href="analytics/AnalyticsCollector.html" title="interface in com.readwise.android.exoplayer2.analytics">AnalyticsCollector</a></code></dd>
 </dl>
 <dl>
 <dt>All Known Implementing Classes:</dt>
-<dd><code><a href="analytics/DefaultAnalyticsCollector.html" title="class in com.google.android.exoplayer2.analytics">DefaultAnalyticsCollector</a></code>, <code><a href="testutil/ExoPlayerTestRunner.html" title="class in com.google.android.exoplayer2.testutil">ExoPlayerTestRunner</a></code></dd>
+<dd><code><a href="analytics/DefaultAnalyticsCollector.html" title="class in com.readwise.android.exoplayer2.analytics">DefaultAnalyticsCollector</a></code>, <code><a href="testutil/ExoPlayerTestRunner.html" title="class in com.readwise.android.exoplayer2.testutil">ExoPlayerTestRunner</a></code></dd>
 </dl>
 <dl>
 <dt>Enclosing interface:</dt>
-<dd><a href="Player.html" title="interface in com.google.android.exoplayer2">Player</a></dd>
+<dd><a href="Player.html" title="interface in com.readwise.android.exoplayer2">Player</a></dd>
 </dl>
 <hr>
 <pre>public static interface <span class="typeNameLabel">Player.Listener</span></pre>
-<div class="block">Listener for changes in a <a href="Player.html" title="interface in com.google.android.exoplayer2"><code>Player</code></a>.
+<div class="block">Listener for changes in a <a href="Player.html" title="interface in com.readwise.android.exoplayer2"><code>Player</code></a>.
 
  <p>All methods have no-op default implementations to allow selective overrides.
 
- <p>If the return value of a <a href="Player.html" title="interface in com.google.android.exoplayer2"><code>Player</code></a> getter changes due to a change in <a href="#onAvailableCommandsChanged(com.google.android.exoplayer2.Player.Commands)">command availability</a>, the corresponding listener
- method(s) will be invoked. If the return value of a <a href="Player.html" title="interface in com.google.android.exoplayer2"><code>Player</code></a> getter does not change
- because the corresponding command is <a href="#onAvailableCommandsChanged(com.google.android.exoplayer2.Player.Commands)">not
+ <p>If the return value of a <a href="Player.html" title="interface in com.readwise.android.exoplayer2"><code>Player</code></a> getter changes due to a change in <a href="#onAvailableCommandsChanged(com.readwise.android.exoplayer2.Player.Commands)">command availability</a>, the corresponding listener
+ method(s) will be invoked. If the return value of a <a href="Player.html" title="interface in com.readwise.android.exoplayer2"><code>Player</code></a> getter does not change
+ because the corresponding command is <a href="#onAvailableCommandsChanged(com.readwise.android.exoplayer2.Player.Commands)">not
  available</a>, the corresponding listener method will not be invoked.</div>
 </li>
 </ul>
@@ -164,7 +164,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onAudioAttributesChanged(com.google.android.exoplayer2.audio.AudioAttributes)">onAudioAttributesChanged</a></span>&#8203;(<a href="audio/AudioAttributes.html" title="class in com.google.android.exoplayer2.audio">AudioAttributes</a>&nbsp;audioAttributes)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onAudioAttributesChanged(com.readwise.android.exoplayer2.audio.AudioAttributes)">onAudioAttributesChanged</a></span>&#8203;(<a href="audio/AudioAttributes.html" title="class in com.readwise.android.exoplayer2.audio">AudioAttributes</a>&nbsp;audioAttributes)</code></th>
 <td class="colLast">
 <div class="block">Called when the value of <a href="Player.html#getAudioAttributes()"><code>Player.getAudioAttributes()</code></a> changes.</div>
 </td>
@@ -178,31 +178,31 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onAvailableCommandsChanged(com.google.android.exoplayer2.Player.Commands)">onAvailableCommandsChanged</a></span>&#8203;(<a href="Player.Commands.html" title="class in com.google.android.exoplayer2">Player.Commands</a>&nbsp;availableCommands)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onAvailableCommandsChanged(com.readwise.android.exoplayer2.Player.Commands)">onAvailableCommandsChanged</a></span>&#8203;(<a href="Player.Commands.html" title="class in com.readwise.android.exoplayer2">Player.Commands</a>&nbsp;availableCommands)</code></th>
 <td class="colLast">
-<div class="block">Called when the value returned from <a href="Player.html#isCommandAvailable(@com.google.android.exoplayer2.Player.Commandint)"><code>Player.isCommandAvailable(int)</code></a> changes for at least one
- <a href="Player.Command.html" title="annotation in com.google.android.exoplayer2"><code>Player.Command</code></a>.</div>
+<div class="block">Called when the value returned from <a href="Player.html#isCommandAvailable(@com.readwise.android.exoplayer2.Player.Commandint)"><code>Player.isCommandAvailable(int)</code></a> changes for at least one
+ <a href="Player.Command.html" title="annotation in com.readwise.android.exoplayer2"><code>Player.Command</code></a>.</div>
 </td>
 </tr>
 <tr id="i3" class="rowColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onCues(com.google.android.exoplayer2.text.CueGroup)">onCues</a></span>&#8203;(<a href="text/CueGroup.html" title="class in com.google.android.exoplayer2.text">CueGroup</a>&nbsp;cueGroup)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onCues(com.readwise.android.exoplayer2.text.CueGroup)">onCues</a></span>&#8203;(<a href="text/CueGroup.html" title="class in com.readwise.android.exoplayer2.text">CueGroup</a>&nbsp;cueGroup)</code></th>
 <td class="colLast">
 <div class="block">Called when the value of <a href="Player.html#getCurrentCues()"><code>Player.getCurrentCues()</code></a> changes.</div>
 </td>
 </tr>
 <tr id="i4" class="altColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onCues(java.util.List)">onCues</a></span>&#8203;(<a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="text/Cue.html" title="class in com.google.android.exoplayer2.text" target="_top">Cue</a>&gt;&nbsp;cues)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onCues(java.util.List)">onCues</a></span>&#8203;(<a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="text/Cue.html" title="class in com.readwise.android.exoplayer2.text" target="_top">Cue</a>&gt;&nbsp;cues)</code></th>
 <td class="colLast">
 <div class="block"><span class="deprecatedLabel">Deprecated.</span>
-<div class="deprecationComment">Use <a href="#onCues(com.google.android.exoplayer2.text.CueGroup)"><code>onCues(CueGroup)</code></a> instead.</div>
+<div class="deprecationComment">Use <a href="#onCues(com.readwise.android.exoplayer2.text.CueGroup)"><code>onCues(CueGroup)</code></a> instead.</div>
 </div>
 </td>
 </tr>
 <tr id="i5" class="rowColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onDeviceInfoChanged(com.google.android.exoplayer2.DeviceInfo)">onDeviceInfoChanged</a></span>&#8203;(<a href="DeviceInfo.html" title="class in com.google.android.exoplayer2">DeviceInfo</a>&nbsp;deviceInfo)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onDeviceInfoChanged(com.readwise.android.exoplayer2.DeviceInfo)">onDeviceInfoChanged</a></span>&#8203;(<a href="DeviceInfo.html" title="class in com.readwise.android.exoplayer2">DeviceInfo</a>&nbsp;deviceInfo)</code></th>
 <td class="colLast">
 <div class="block">Called when the device information changes</div>
 </td>
@@ -217,8 +217,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i7" class="rowColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)">onEvents</a></span>&#8203;(<a href="Player.html" title="interface in com.google.android.exoplayer2">Player</a>&nbsp;player,
-        <a href="Player.Events.html" title="class in com.google.android.exoplayer2">Player.Events</a>&nbsp;events)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)">onEvents</a></span>&#8203;(<a href="Player.html" title="interface in com.readwise.android.exoplayer2">Player</a>&nbsp;player,
+        <a href="Player.Events.html" title="class in com.readwise.android.exoplayer2">Player.Events</a>&nbsp;events)</code></th>
 <td class="colLast">
 <div class="block">Called when one or more player states changed.</div>
 </td>
@@ -255,8 +255,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i12" class="altColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onMediaItemTransition(com.google.android.exoplayer2.MediaItem,@com.google.android.exoplayer2.Player.MediaItemTransitionReasonint)">onMediaItemTransition</a></span>&#8203;(<a href="MediaItem.html" title="class in com.google.android.exoplayer2">MediaItem</a>&nbsp;mediaItem,
-                     @com.google.android.exoplayer2.Player.MediaItemTransitionReason int&nbsp;reason)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onMediaItemTransition(com.readwise.android.exoplayer2.MediaItem,@com.readwise.android.exoplayer2.Player.MediaItemTransitionReasonint)">onMediaItemTransition</a></span>&#8203;(<a href="MediaItem.html" title="class in com.readwise.android.exoplayer2">MediaItem</a>&nbsp;mediaItem,
+                     @com.readwise.android.exoplayer2.Player.MediaItemTransitionReason int&nbsp;reason)</code></th>
 <td class="colLast">
 <div class="block">Called when playback transitions to a media item or starts repeating a media item according
  to the current <a href="Player.html#getRepeatMode()"><code>repeat mode</code></a>.</div>
@@ -264,92 +264,92 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i13" class="rowColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onMediaMetadataChanged(com.google.android.exoplayer2.MediaMetadata)">onMediaMetadataChanged</a></span>&#8203;(<a href="MediaMetadata.html" title="class in com.google.android.exoplayer2">MediaMetadata</a>&nbsp;mediaMetadata)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onMediaMetadataChanged(com.readwise.android.exoplayer2.MediaMetadata)">onMediaMetadataChanged</a></span>&#8203;(<a href="MediaMetadata.html" title="class in com.readwise.android.exoplayer2">MediaMetadata</a>&nbsp;mediaMetadata)</code></th>
 <td class="colLast">
 <div class="block">Called when the value of <a href="Player.html#getMediaMetadata()"><code>Player.getMediaMetadata()</code></a> changes.</div>
 </td>
 </tr>
 <tr id="i14" class="altColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onMetadata(com.google.android.exoplayer2.metadata.Metadata)">onMetadata</a></span>&#8203;(<a href="metadata/Metadata.html" title="class in com.google.android.exoplayer2.metadata">Metadata</a>&nbsp;metadata)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onMetadata(com.readwise.android.exoplayer2.metadata.Metadata)">onMetadata</a></span>&#8203;(<a href="metadata/Metadata.html" title="class in com.readwise.android.exoplayer2.metadata">Metadata</a>&nbsp;metadata)</code></th>
 <td class="colLast">
 <div class="block">Called when there is metadata associated with the current playback time.</div>
 </td>
 </tr>
 <tr id="i15" class="rowColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onPlaybackParametersChanged(com.google.android.exoplayer2.PlaybackParameters)">onPlaybackParametersChanged</a></span>&#8203;(<a href="PlaybackParameters.html" title="class in com.google.android.exoplayer2">PlaybackParameters</a>&nbsp;playbackParameters)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onPlaybackParametersChanged(com.readwise.android.exoplayer2.PlaybackParameters)">onPlaybackParametersChanged</a></span>&#8203;(<a href="PlaybackParameters.html" title="class in com.readwise.android.exoplayer2">PlaybackParameters</a>&nbsp;playbackParameters)</code></th>
 <td class="colLast">
 <div class="block">Called when the value of <a href="Player.html#getPlaybackParameters()"><code>Player.getPlaybackParameters()</code></a> changes.</div>
 </td>
 </tr>
 <tr id="i16" class="altColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onPlaybackStateChanged(@com.google.android.exoplayer2.Player.Stateint)">onPlaybackStateChanged</a></span>&#8203;(@com.google.android.exoplayer2.Player.State int&nbsp;playbackState)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onPlaybackStateChanged(@com.readwise.android.exoplayer2.Player.Stateint)">onPlaybackStateChanged</a></span>&#8203;(@com.readwise.android.exoplayer2.Player.State int&nbsp;playbackState)</code></th>
 <td class="colLast">
 <div class="block">Called when the value returned from <a href="Player.html#getPlaybackState()"><code>Player.getPlaybackState()</code></a> changes.</div>
 </td>
 </tr>
 <tr id="i17" class="rowColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onPlaybackSuppressionReasonChanged(@com.google.android.exoplayer2.Player.PlaybackSuppressionReasonint)">onPlaybackSuppressionReasonChanged</a></span>&#8203;(@com.google.android.exoplayer2.Player.PlaybackSuppressionReason int&nbsp;playbackSuppressionReason)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onPlaybackSuppressionReasonChanged(@com.readwise.android.exoplayer2.Player.PlaybackSuppressionReasonint)">onPlaybackSuppressionReasonChanged</a></span>&#8203;(@com.readwise.android.exoplayer2.Player.PlaybackSuppressionReason int&nbsp;playbackSuppressionReason)</code></th>
 <td class="colLast">
 <div class="block">Called when the value returned from <a href="Player.html#getPlaybackSuppressionReason()"><code>Player.getPlaybackSuppressionReason()</code></a> changes.</div>
 </td>
 </tr>
 <tr id="i18" class="altColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onPlayerError(com.google.android.exoplayer2.PlaybackException)">onPlayerError</a></span>&#8203;(<a href="PlaybackException.html" title="class in com.google.android.exoplayer2">PlaybackException</a>&nbsp;error)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onPlayerError(com.readwise.android.exoplayer2.PlaybackException)">onPlayerError</a></span>&#8203;(<a href="PlaybackException.html" title="class in com.readwise.android.exoplayer2">PlaybackException</a>&nbsp;error)</code></th>
 <td class="colLast">
 <div class="block">Called when an error occurs.</div>
 </td>
 </tr>
 <tr id="i19" class="rowColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onPlayerErrorChanged(com.google.android.exoplayer2.PlaybackException)">onPlayerErrorChanged</a></span>&#8203;(<a href="PlaybackException.html" title="class in com.google.android.exoplayer2">PlaybackException</a>&nbsp;error)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onPlayerErrorChanged(com.readwise.android.exoplayer2.PlaybackException)">onPlayerErrorChanged</a></span>&#8203;(<a href="PlaybackException.html" title="class in com.readwise.android.exoplayer2">PlaybackException</a>&nbsp;error)</code></th>
 <td class="colLast">
-<div class="block">Called when the <a href="PlaybackException.html" title="class in com.google.android.exoplayer2"><code>PlaybackException</code></a> returned by <a href="Player.html#getPlayerError()"><code>Player.getPlayerError()</code></a> changes.</div>
+<div class="block">Called when the <a href="PlaybackException.html" title="class in com.readwise.android.exoplayer2"><code>PlaybackException</code></a> returned by <a href="Player.html#getPlayerError()"><code>Player.getPlayerError()</code></a> changes.</div>
 </td>
 </tr>
 <tr id="i20" class="altColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onPlayerStateChanged(boolean,@com.google.android.exoplayer2.Player.Stateint)">onPlayerStateChanged</a></span>&#8203;(boolean&nbsp;playWhenReady,
-                    @com.google.android.exoplayer2.Player.State int&nbsp;playbackState)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onPlayerStateChanged(boolean,@com.readwise.android.exoplayer2.Player.Stateint)">onPlayerStateChanged</a></span>&#8203;(boolean&nbsp;playWhenReady,
+                    @com.readwise.android.exoplayer2.Player.State int&nbsp;playbackState)</code></th>
 <td class="colLast">
 <div class="block"><span class="deprecatedLabel">Deprecated.</span>
-<div class="deprecationComment">Use <a href="#onPlaybackStateChanged(@com.google.android.exoplayer2.Player.Stateint)"><code>onPlaybackStateChanged(int)</code></a> and <a href="#onPlayWhenReadyChanged(boolean,@com.google.android.exoplayer2.Player.PlayWhenReadyChangeReasonint)"><code>onPlayWhenReadyChanged(boolean, int)</code></a> instead.</div>
+<div class="deprecationComment">Use <a href="#onPlaybackStateChanged(@com.readwise.android.exoplayer2.Player.Stateint)"><code>onPlaybackStateChanged(int)</code></a> and <a href="#onPlayWhenReadyChanged(boolean,@com.readwise.android.exoplayer2.Player.PlayWhenReadyChangeReasonint)"><code>onPlayWhenReadyChanged(boolean, int)</code></a> instead.</div>
 </div>
 </td>
 </tr>
 <tr id="i21" class="rowColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onPlaylistMetadataChanged(com.google.android.exoplayer2.MediaMetadata)">onPlaylistMetadataChanged</a></span>&#8203;(<a href="MediaMetadata.html" title="class in com.google.android.exoplayer2">MediaMetadata</a>&nbsp;mediaMetadata)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onPlaylistMetadataChanged(com.readwise.android.exoplayer2.MediaMetadata)">onPlaylistMetadataChanged</a></span>&#8203;(<a href="MediaMetadata.html" title="class in com.readwise.android.exoplayer2">MediaMetadata</a>&nbsp;mediaMetadata)</code></th>
 <td class="colLast">
 <div class="block">Called when the value of <a href="Player.html#getPlaylistMetadata()"><code>Player.getPlaylistMetadata()</code></a> changes.</div>
 </td>
 </tr>
 <tr id="i22" class="altColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onPlayWhenReadyChanged(boolean,@com.google.android.exoplayer2.Player.PlayWhenReadyChangeReasonint)">onPlayWhenReadyChanged</a></span>&#8203;(boolean&nbsp;playWhenReady,
-                      @com.google.android.exoplayer2.Player.PlayWhenReadyChangeReason int&nbsp;reason)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onPlayWhenReadyChanged(boolean,@com.readwise.android.exoplayer2.Player.PlayWhenReadyChangeReasonint)">onPlayWhenReadyChanged</a></span>&#8203;(boolean&nbsp;playWhenReady,
+                      @com.readwise.android.exoplayer2.Player.PlayWhenReadyChangeReason int&nbsp;reason)</code></th>
 <td class="colLast">
 <div class="block">Called when the value returned from <a href="Player.html#getPlayWhenReady()"><code>Player.getPlayWhenReady()</code></a> changes.</div>
 </td>
 </tr>
 <tr id="i23" class="rowColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onPositionDiscontinuity(@com.google.android.exoplayer2.Player.DiscontinuityReasonint)">onPositionDiscontinuity</a></span>&#8203;(@com.google.android.exoplayer2.Player.DiscontinuityReason int&nbsp;reason)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onPositionDiscontinuity(@com.readwise.android.exoplayer2.Player.DiscontinuityReasonint)">onPositionDiscontinuity</a></span>&#8203;(@com.readwise.android.exoplayer2.Player.DiscontinuityReason int&nbsp;reason)</code></th>
 <td class="colLast">
 <div class="block"><span class="deprecatedLabel">Deprecated.</span>
-<div class="deprecationComment">Use <a href="#onPositionDiscontinuity(com.google.android.exoplayer2.Player.PositionInfo,com.google.android.exoplayer2.Player.PositionInfo,@com.google.android.exoplayer2.Player.DiscontinuityReasonint)"><code>onPositionDiscontinuity(PositionInfo, PositionInfo, int)</code></a> instead.</div>
+<div class="deprecationComment">Use <a href="#onPositionDiscontinuity(com.readwise.android.exoplayer2.Player.PositionInfo,com.readwise.android.exoplayer2.Player.PositionInfo,@com.readwise.android.exoplayer2.Player.DiscontinuityReasonint)"><code>onPositionDiscontinuity(PositionInfo, PositionInfo, int)</code></a> instead.</div>
 </div>
 </td>
 </tr>
 <tr id="i24" class="altColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onPositionDiscontinuity(com.google.android.exoplayer2.Player.PositionInfo,com.google.android.exoplayer2.Player.PositionInfo,@com.google.android.exoplayer2.Player.DiscontinuityReasonint)">onPositionDiscontinuity</a></span>&#8203;(<a href="Player.PositionInfo.html" title="class in com.google.android.exoplayer2">Player.PositionInfo</a>&nbsp;oldPosition,
-                       <a href="Player.PositionInfo.html" title="class in com.google.android.exoplayer2">Player.PositionInfo</a>&nbsp;newPosition,
-                       @com.google.android.exoplayer2.Player.DiscontinuityReason int&nbsp;reason)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onPositionDiscontinuity(com.readwise.android.exoplayer2.Player.PositionInfo,com.readwise.android.exoplayer2.Player.PositionInfo,@com.readwise.android.exoplayer2.Player.DiscontinuityReasonint)">onPositionDiscontinuity</a></span>&#8203;(<a href="Player.PositionInfo.html" title="class in com.readwise.android.exoplayer2">Player.PositionInfo</a>&nbsp;oldPosition,
+                       <a href="Player.PositionInfo.html" title="class in com.readwise.android.exoplayer2">Player.PositionInfo</a>&nbsp;newPosition,
+                       @com.readwise.android.exoplayer2.Player.DiscontinuityReason int&nbsp;reason)</code></th>
 <td class="colLast">
 <div class="block">Called when a position discontinuity occurs.</div>
 </td>
@@ -364,7 +364,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i26" class="altColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onRepeatModeChanged(@com.google.android.exoplayer2.Player.RepeatModeint)">onRepeatModeChanged</a></span>&#8203;(@com.google.android.exoplayer2.Player.RepeatMode int&nbsp;repeatMode)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onRepeatModeChanged(@com.readwise.android.exoplayer2.Player.RepeatModeint)">onRepeatModeChanged</a></span>&#8203;(@com.readwise.android.exoplayer2.Player.RepeatMode int&nbsp;repeatMode)</code></th>
 <td class="colLast">
 <div class="block">Called when the value of <a href="Player.html#getRepeatMode()"><code>Player.getRepeatMode()</code></a> changes.</div>
 </td>
@@ -417,29 +417,29 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i33" class="rowColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onTimelineChanged(com.google.android.exoplayer2.Timeline,@com.google.android.exoplayer2.Player.TimelineChangeReasonint)">onTimelineChanged</a></span>&#8203;(<a href="Timeline.html" title="class in com.google.android.exoplayer2">Timeline</a>&nbsp;timeline,
-                 @com.google.android.exoplayer2.Player.TimelineChangeReason int&nbsp;reason)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onTimelineChanged(com.readwise.android.exoplayer2.Timeline,@com.readwise.android.exoplayer2.Player.TimelineChangeReasonint)">onTimelineChanged</a></span>&#8203;(<a href="Timeline.html" title="class in com.readwise.android.exoplayer2">Timeline</a>&nbsp;timeline,
+                 @com.readwise.android.exoplayer2.Player.TimelineChangeReason int&nbsp;reason)</code></th>
 <td class="colLast">
 <div class="block">Called when the value of <a href="Player.html#getCurrentTimeline()"><code>Player.getCurrentTimeline()</code></a> changes.</div>
 </td>
 </tr>
 <tr id="i34" class="altColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onTracksChanged(com.google.android.exoplayer2.Tracks)">onTracksChanged</a></span>&#8203;(<a href="Tracks.html" title="class in com.google.android.exoplayer2">Tracks</a>&nbsp;tracks)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onTracksChanged(com.readwise.android.exoplayer2.Tracks)">onTracksChanged</a></span>&#8203;(<a href="Tracks.html" title="class in com.readwise.android.exoplayer2">Tracks</a>&nbsp;tracks)</code></th>
 <td class="colLast">
 <div class="block">Called when the value of <a href="Player.html#getCurrentTracks()"><code>Player.getCurrentTracks()</code></a> changes.</div>
 </td>
 </tr>
 <tr id="i35" class="rowColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onTrackSelectionParametersChanged(com.google.android.exoplayer2.trackselection.TrackSelectionParameters)">onTrackSelectionParametersChanged</a></span>&#8203;(<a href="trackselection/TrackSelectionParameters.html" title="class in com.google.android.exoplayer2.trackselection">TrackSelectionParameters</a>&nbsp;parameters)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onTrackSelectionParametersChanged(com.readwise.android.exoplayer2.trackselection.TrackSelectionParameters)">onTrackSelectionParametersChanged</a></span>&#8203;(<a href="trackselection/TrackSelectionParameters.html" title="class in com.readwise.android.exoplayer2.trackselection">TrackSelectionParameters</a>&nbsp;parameters)</code></th>
 <td class="colLast">
 <div class="block">Called when the value returned from <a href="Player.html#getTrackSelectionParameters()"><code>Player.getTrackSelectionParameters()</code></a> changes.</div>
 </td>
 </tr>
 <tr id="i36" class="altColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onVideoSizeChanged(com.google.android.exoplayer2.video.VideoSize)">onVideoSizeChanged</a></span>&#8203;(<a href="video/VideoSize.html" title="class in com.google.android.exoplayer2.video">VideoSize</a>&nbsp;videoSize)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onVideoSizeChanged(com.readwise.android.exoplayer2.video.VideoSize)">onVideoSizeChanged</a></span>&#8203;(<a href="video/VideoSize.html" title="class in com.readwise.android.exoplayer2.video">VideoSize</a>&nbsp;videoSize)</code></th>
 <td class="colLast">
 <div class="block">Called each time there's a change in the size of the video being rendered.</div>
 </td>
@@ -468,14 +468,14 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)">
+<a id="onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onEvents</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onEvents&#8203;(<a href="Player.html" title="interface in com.google.android.exoplayer2">Player</a>&nbsp;player,
-                      <a href="Player.Events.html" title="class in com.google.android.exoplayer2">Player.Events</a>&nbsp;events)</pre>
+<pre class="methodSignature">default&nbsp;void&nbsp;onEvents&#8203;(<a href="Player.html" title="interface in com.readwise.android.exoplayer2">Player</a>&nbsp;player,
+                      <a href="Player.Events.html" title="class in com.readwise.android.exoplayer2">Player.Events</a>&nbsp;events)</pre>
 <div class="block">Called when one or more player states changed.
 
  <p>State changes and events that happen within one <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration are
@@ -485,85 +485,85 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 
  <ul>
    <li>They intend to trigger the same logic for multiple events (e.g. when updating a UI for
-       both <a href="#onPlaybackStateChanged(@com.google.android.exoplayer2.Player.Stateint)"><code>onPlaybackStateChanged(int)</code></a> and <a href="#onPlayWhenReadyChanged(boolean,@com.google.android.exoplayer2.Player.PlayWhenReadyChangeReasonint)"><code>onPlayWhenReadyChanged(boolean,
+       both <a href="#onPlaybackStateChanged(@com.readwise.android.exoplayer2.Player.Stateint)"><code>onPlaybackStateChanged(int)</code></a> and <a href="#onPlayWhenReadyChanged(boolean,@com.readwise.android.exoplayer2.Player.PlayWhenReadyChangeReasonint)"><code>onPlayWhenReadyChanged(boolean,
        int)</code></a>).
-   <li>They need access to the <a href="Player.html" title="interface in com.google.android.exoplayer2"><code>Player</code></a> object to trigger further events (e.g. to call
-       <a href="Player.html#seekTo(long)"><code>Player.seekTo(long)</code></a> after a <a href="#onMediaItemTransition(com.google.android.exoplayer2.MediaItem,@com.google.android.exoplayer2.Player.MediaItemTransitionReasonint)"><code>onMediaItemTransition(MediaItem, int)</code></a>).
-   <li>They intend to use multiple state values together or in combination with <a href="Player.html" title="interface in com.google.android.exoplayer2"><code>Player</code></a>
+   <li>They need access to the <a href="Player.html" title="interface in com.readwise.android.exoplayer2"><code>Player</code></a> object to trigger further events (e.g. to call
+       <a href="Player.html#seekTo(long)"><code>Player.seekTo(long)</code></a> after a <a href="#onMediaItemTransition(com.readwise.android.exoplayer2.MediaItem,@com.readwise.android.exoplayer2.Player.MediaItemTransitionReasonint)"><code>onMediaItemTransition(MediaItem, int)</code></a>).
+   <li>They intend to use multiple state values together or in combination with <a href="Player.html" title="interface in com.readwise.android.exoplayer2"><code>Player</code></a>
        getter methods. For example using <a href="Player.html#getCurrentMediaItemIndex()"><code>Player.getCurrentMediaItemIndex()</code></a> with the <code>
-       timeline</code> provided in <a href="#onTimelineChanged(com.google.android.exoplayer2.Timeline,@com.google.android.exoplayer2.Player.TimelineChangeReasonint)"><code>onTimelineChanged(Timeline, int)</code></a> is only safe from
+       timeline</code> provided in <a href="#onTimelineChanged(com.readwise.android.exoplayer2.Timeline,@com.readwise.android.exoplayer2.Player.TimelineChangeReasonint)"><code>onTimelineChanged(Timeline, int)</code></a> is only safe from
        within this method.
-   <li>They are interested in events that logically happened together (e.g <a href="#onPlaybackStateChanged(@com.google.android.exoplayer2.Player.Stateint)"><code>onPlaybackStateChanged(int)</code></a> to <a href="Player.html#STATE_BUFFERING"><code>Player.STATE_BUFFERING</code></a> because of <a href="#onMediaItemTransition(com.google.android.exoplayer2.MediaItem,@com.google.android.exoplayer2.Player.MediaItemTransitionReasonint)"><code>onMediaItemTransition(MediaItem, int)</code></a>).
+   <li>They are interested in events that logically happened together (e.g <a href="#onPlaybackStateChanged(@com.readwise.android.exoplayer2.Player.Stateint)"><code>onPlaybackStateChanged(int)</code></a> to <a href="Player.html#STATE_BUFFERING"><code>Player.STATE_BUFFERING</code></a> because of <a href="#onMediaItemTransition(com.readwise.android.exoplayer2.MediaItem,@com.readwise.android.exoplayer2.Player.MediaItemTransitionReasonint)"><code>onMediaItemTransition(MediaItem, int)</code></a>).
  </ul></div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>player</code> - The <a href="Player.html" title="interface in com.google.android.exoplayer2"><code>Player</code></a> whose state changed. Use the getters to obtain the latest
+<dd><code>player</code> - The <a href="Player.html" title="interface in com.readwise.android.exoplayer2"><code>Player</code></a> whose state changed. Use the getters to obtain the latest
      states.</dd>
-<dd><code>events</code> - The <a href="Player.Events.html" title="class in com.google.android.exoplayer2"><code>Player.Events</code></a> that happened in this iteration, indicating which player
+<dd><code>events</code> - The <a href="Player.Events.html" title="class in com.readwise.android.exoplayer2"><code>Player.Events</code></a> that happened in this iteration, indicating which player
      states changed.</dd>
 </dl>
 </li>
 </ul>
-<a id="onTimelineChanged(com.google.android.exoplayer2.Timeline,@com.google.android.exoplayer2.Player.TimelineChangeReasonint)">
+<a id="onTimelineChanged(com.readwise.android.exoplayer2.Timeline,@com.readwise.android.exoplayer2.Player.TimelineChangeReasonint)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onTimelineChanged</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onTimelineChanged&#8203;(<a href="Timeline.html" title="class in com.google.android.exoplayer2">Timeline</a>&nbsp;timeline,
-                               <a href="Player.TimelineChangeReason.html" title="annotation in com.google.android.exoplayer2">@TimelineChangeReason</a>
-                               @com.google.android.exoplayer2.Player.TimelineChangeReason int&nbsp;reason)</pre>
+<pre class="methodSignature">default&nbsp;void&nbsp;onTimelineChanged&#8203;(<a href="Timeline.html" title="class in com.readwise.android.exoplayer2">Timeline</a>&nbsp;timeline,
+                               <a href="Player.TimelineChangeReason.html" title="annotation in com.readwise.android.exoplayer2">@TimelineChangeReason</a>
+                               @com.readwise.android.exoplayer2.Player.TimelineChangeReason int&nbsp;reason)</pre>
 <div class="block">Called when the value of <a href="Player.html#getCurrentTimeline()"><code>Player.getCurrentTimeline()</code></a> changes.
 
- <p>Note that the current <a href="MediaItem.html" title="class in com.google.android.exoplayer2"><code>MediaItem</code></a> or playback position may change as a result of a
+ <p>Note that the current <a href="MediaItem.html" title="class in com.readwise.android.exoplayer2"><code>MediaItem</code></a> or playback position may change as a result of a
  timeline change. If playback can't continue smoothly because of this timeline change, a
- separate <a href="#onPositionDiscontinuity(com.google.android.exoplayer2.Player.PositionInfo,com.google.android.exoplayer2.Player.PositionInfo,@com.google.android.exoplayer2.Player.DiscontinuityReasonint)"><code>onPositionDiscontinuity(PositionInfo, PositionInfo, int)</code></a> callback will be
+ separate <a href="#onPositionDiscontinuity(com.readwise.android.exoplayer2.Player.PositionInfo,com.readwise.android.exoplayer2.Player.PositionInfo,@com.readwise.android.exoplayer2.Player.DiscontinuityReasonint)"><code>onPositionDiscontinuity(PositionInfo, PositionInfo, int)</code></a> callback will be
  triggered.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>timeline</code> - The latest timeline. Never null, but may be empty.</dd>
-<dd><code>reason</code> - The <a href="Player.TimelineChangeReason.html" title="annotation in com.google.android.exoplayer2"><code>Player.TimelineChangeReason</code></a> responsible for this timeline change.</dd>
+<dd><code>reason</code> - The <a href="Player.TimelineChangeReason.html" title="annotation in com.readwise.android.exoplayer2"><code>Player.TimelineChangeReason</code></a> responsible for this timeline change.</dd>
 </dl>
 </li>
 </ul>
-<a id="onMediaItemTransition(com.google.android.exoplayer2.MediaItem,@com.google.android.exoplayer2.Player.MediaItemTransitionReasonint)">
+<a id="onMediaItemTransition(com.readwise.android.exoplayer2.MediaItem,@com.readwise.android.exoplayer2.Player.MediaItemTransitionReasonint)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onMediaItemTransition</h4>
 <pre class="methodSignature">default&nbsp;void&nbsp;onMediaItemTransition&#8203;(@Nullable
-                                   <a href="MediaItem.html" title="class in com.google.android.exoplayer2">MediaItem</a>&nbsp;mediaItem,
-                                   <a href="Player.MediaItemTransitionReason.html" title="annotation in com.google.android.exoplayer2">@MediaItemTransitionReason</a>
-                                   @com.google.android.exoplayer2.Player.MediaItemTransitionReason int&nbsp;reason)</pre>
+                                   <a href="MediaItem.html" title="class in com.readwise.android.exoplayer2">MediaItem</a>&nbsp;mediaItem,
+                                   <a href="Player.MediaItemTransitionReason.html" title="annotation in com.readwise.android.exoplayer2">@MediaItemTransitionReason</a>
+                                   @com.readwise.android.exoplayer2.Player.MediaItemTransitionReason int&nbsp;reason)</pre>
 <div class="block">Called when playback transitions to a media item or starts repeating a media item according
  to the current <a href="Player.html#getRepeatMode()"><code>repeat mode</code></a>.
 
  <p>Note that this callback is also called when the value of <a href="Player.html#getCurrentTimeline()"><code>Player.getCurrentTimeline()</code></a>
  becomes non-empty or empty.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>mediaItem</code> - The <a href="MediaItem.html" title="class in com.google.android.exoplayer2"><code>MediaItem</code></a>. May be null if the playlist becomes empty.</dd>
+<dd><code>mediaItem</code> - The <a href="MediaItem.html" title="class in com.readwise.android.exoplayer2"><code>MediaItem</code></a>. May be null if the playlist becomes empty.</dd>
 <dd><code>reason</code> - The reason for the transition.</dd>
 </dl>
 </li>
 </ul>
-<a id="onTracksChanged(com.google.android.exoplayer2.Tracks)">
+<a id="onTracksChanged(com.readwise.android.exoplayer2.Tracks)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onTracksChanged</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onTracksChanged&#8203;(<a href="Tracks.html" title="class in com.google.android.exoplayer2">Tracks</a>&nbsp;tracks)</pre>
+<pre class="methodSignature">default&nbsp;void&nbsp;onTracksChanged&#8203;(<a href="Tracks.html" title="class in com.readwise.android.exoplayer2">Tracks</a>&nbsp;tracks)</pre>
 <div class="block">Called when the value of <a href="Player.html#getCurrentTracks()"><code>Player.getCurrentTracks()</code></a> changes.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -571,35 +571,35 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dl>
 </li>
 </ul>
-<a id="onMediaMetadataChanged(com.google.android.exoplayer2.MediaMetadata)">
+<a id="onMediaMetadataChanged(com.readwise.android.exoplayer2.MediaMetadata)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onMediaMetadataChanged</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onMediaMetadataChanged&#8203;(<a href="MediaMetadata.html" title="class in com.google.android.exoplayer2">MediaMetadata</a>&nbsp;mediaMetadata)</pre>
+<pre class="methodSignature">default&nbsp;void&nbsp;onMediaMetadataChanged&#8203;(<a href="MediaMetadata.html" title="class in com.readwise.android.exoplayer2">MediaMetadata</a>&nbsp;mediaMetadata)</pre>
 <div class="block">Called when the value of <a href="Player.html#getMediaMetadata()"><code>Player.getMediaMetadata()</code></a> changes.
 
  <p>This method may be called multiple times in quick succession.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>mediaMetadata</code> - The combined <a href="MediaMetadata.html" title="class in com.google.android.exoplayer2"><code>MediaMetadata</code></a>.</dd>
+<dd><code>mediaMetadata</code> - The combined <a href="MediaMetadata.html" title="class in com.readwise.android.exoplayer2"><code>MediaMetadata</code></a>.</dd>
 </dl>
 </li>
 </ul>
-<a id="onPlaylistMetadataChanged(com.google.android.exoplayer2.MediaMetadata)">
+<a id="onPlaylistMetadataChanged(com.readwise.android.exoplayer2.MediaMetadata)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onPlaylistMetadataChanged</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onPlaylistMetadataChanged&#8203;(<a href="MediaMetadata.html" title="class in com.google.android.exoplayer2">MediaMetadata</a>&nbsp;mediaMetadata)</pre>
+<pre class="methodSignature">default&nbsp;void&nbsp;onPlaylistMetadataChanged&#8203;(<a href="MediaMetadata.html" title="class in com.readwise.android.exoplayer2">MediaMetadata</a>&nbsp;mediaMetadata)</pre>
 <div class="block">Called when the value of <a href="Player.html#getPlaylistMetadata()"><code>Player.getPlaylistMetadata()</code></a> changes.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 </li>
 </ul>
@@ -612,7 +612,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <pre class="methodSignature">default&nbsp;void&nbsp;onIsLoadingChanged&#8203;(boolean&nbsp;isLoading)</pre>
 <div class="block">Called when the player starts or stops loading the source.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -633,42 +633,42 @@ default&nbsp;void&nbsp;onLoadingChanged&#8203;(boolean&nbsp;isLoading)</pre>
 </div>
 </li>
 </ul>
-<a id="onAvailableCommandsChanged(com.google.android.exoplayer2.Player.Commands)">
+<a id="onAvailableCommandsChanged(com.readwise.android.exoplayer2.Player.Commands)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onAvailableCommandsChanged</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onAvailableCommandsChanged&#8203;(<a href="Player.Commands.html" title="class in com.google.android.exoplayer2">Player.Commands</a>&nbsp;availableCommands)</pre>
-<div class="block">Called when the value returned from <a href="Player.html#isCommandAvailable(@com.google.android.exoplayer2.Player.Commandint)"><code>Player.isCommandAvailable(int)</code></a> changes for at least one
- <a href="Player.Command.html" title="annotation in com.google.android.exoplayer2"><code>Player.Command</code></a>.
+<pre class="methodSignature">default&nbsp;void&nbsp;onAvailableCommandsChanged&#8203;(<a href="Player.Commands.html" title="class in com.readwise.android.exoplayer2">Player.Commands</a>&nbsp;availableCommands)</pre>
+<div class="block">Called when the value returned from <a href="Player.html#isCommandAvailable(@com.readwise.android.exoplayer2.Player.Commandint)"><code>Player.isCommandAvailable(int)</code></a> changes for at least one
+ <a href="Player.Command.html" title="annotation in com.readwise.android.exoplayer2"><code>Player.Command</code></a>.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>availableCommands</code> - The available <a href="Player.Commands.html" title="class in com.google.android.exoplayer2"><code>Player.Commands</code></a>.</dd>
+<dd><code>availableCommands</code> - The available <a href="Player.Commands.html" title="class in com.readwise.android.exoplayer2"><code>Player.Commands</code></a>.</dd>
 </dl>
 </li>
 </ul>
-<a id="onTrackSelectionParametersChanged(com.google.android.exoplayer2.trackselection.TrackSelectionParameters)">
+<a id="onTrackSelectionParametersChanged(com.readwise.android.exoplayer2.trackselection.TrackSelectionParameters)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onTrackSelectionParametersChanged</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onTrackSelectionParametersChanged&#8203;(<a href="trackselection/TrackSelectionParameters.html" title="class in com.google.android.exoplayer2.trackselection">TrackSelectionParameters</a>&nbsp;parameters)</pre>
+<pre class="methodSignature">default&nbsp;void&nbsp;onTrackSelectionParametersChanged&#8203;(<a href="trackselection/TrackSelectionParameters.html" title="class in com.readwise.android.exoplayer2.trackselection">TrackSelectionParameters</a>&nbsp;parameters)</pre>
 <div class="block">Called when the value returned from <a href="Player.html#getTrackSelectionParameters()"><code>Player.getTrackSelectionParameters()</code></a> changes.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>parameters</code> - The new <a href="trackselection/TrackSelectionParameters.html" title="class in com.google.android.exoplayer2.trackselection"><code>TrackSelectionParameters</code></a>.</dd>
+<dd><code>parameters</code> - The new <a href="trackselection/TrackSelectionParameters.html" title="class in com.readwise.android.exoplayer2.trackselection"><code>TrackSelectionParameters</code></a>.</dd>
 </dl>
 </li>
 </ul>
-<a id="onPlayerStateChanged(boolean,@com.google.android.exoplayer2.Player.Stateint)">
+<a id="onPlayerStateChanged(boolean,@com.readwise.android.exoplayer2.Player.Stateint)">
 <!--   -->
 </a>
 <ul class="blockList">
@@ -676,66 +676,66 @@ default&nbsp;void&nbsp;onLoadingChanged&#8203;(boolean&nbsp;isLoading)</pre>
 <h4>onPlayerStateChanged</h4>
 <pre class="methodSignature"><a href="https://developer.android.com/reference/java/lang/Deprecated.html" title="class or interface in java.lang" class="externalLink" target="_top">@Deprecated</a>
 default&nbsp;void&nbsp;onPlayerStateChanged&#8203;(boolean&nbsp;playWhenReady,
-                                  <a href="Player.State.html" title="annotation in com.google.android.exoplayer2">@State</a>
-                                  @com.google.android.exoplayer2.Player.State int&nbsp;playbackState)</pre>
+                                  <a href="Player.State.html" title="annotation in com.readwise.android.exoplayer2">@State</a>
+                                  @com.readwise.android.exoplayer2.Player.State int&nbsp;playbackState)</pre>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span>
-<div class="deprecationComment">Use <a href="#onPlaybackStateChanged(@com.google.android.exoplayer2.Player.Stateint)"><code>onPlaybackStateChanged(int)</code></a> and <a href="#onPlayWhenReadyChanged(boolean,@com.google.android.exoplayer2.Player.PlayWhenReadyChangeReasonint)"><code>onPlayWhenReadyChanged(boolean, int)</code></a> instead.</div>
+<div class="deprecationComment">Use <a href="#onPlaybackStateChanged(@com.readwise.android.exoplayer2.Player.Stateint)"><code>onPlaybackStateChanged(int)</code></a> and <a href="#onPlayWhenReadyChanged(boolean,@com.readwise.android.exoplayer2.Player.PlayWhenReadyChangeReasonint)"><code>onPlayWhenReadyChanged(boolean, int)</code></a> instead.</div>
 </div>
 </li>
 </ul>
-<a id="onPlaybackStateChanged(@com.google.android.exoplayer2.Player.Stateint)">
+<a id="onPlaybackStateChanged(@com.readwise.android.exoplayer2.Player.Stateint)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onPlaybackStateChanged</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onPlaybackStateChanged&#8203;(<a href="Player.State.html" title="annotation in com.google.android.exoplayer2">@State</a>
-                                    @com.google.android.exoplayer2.Player.State int&nbsp;playbackState)</pre>
+<pre class="methodSignature">default&nbsp;void&nbsp;onPlaybackStateChanged&#8203;(<a href="Player.State.html" title="annotation in com.readwise.android.exoplayer2">@State</a>
+                                    @com.readwise.android.exoplayer2.Player.State int&nbsp;playbackState)</pre>
 <div class="block">Called when the value returned from <a href="Player.html#getPlaybackState()"><code>Player.getPlaybackState()</code></a> changes.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>playbackState</code> - The new playback <a href="Player.State.html" title="annotation in com.google.android.exoplayer2"><code>Player.State</code></a>.</dd>
+<dd><code>playbackState</code> - The new playback <a href="Player.State.html" title="annotation in com.readwise.android.exoplayer2"><code>Player.State</code></a>.</dd>
 </dl>
 </li>
 </ul>
-<a id="onPlayWhenReadyChanged(boolean,@com.google.android.exoplayer2.Player.PlayWhenReadyChangeReasonint)">
+<a id="onPlayWhenReadyChanged(boolean,@com.readwise.android.exoplayer2.Player.PlayWhenReadyChangeReasonint)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onPlayWhenReadyChanged</h4>
 <pre class="methodSignature">default&nbsp;void&nbsp;onPlayWhenReadyChanged&#8203;(boolean&nbsp;playWhenReady,
-                                    <a href="Player.PlayWhenReadyChangeReason.html" title="annotation in com.google.android.exoplayer2">@PlayWhenReadyChangeReason</a>
-                                    @com.google.android.exoplayer2.Player.PlayWhenReadyChangeReason int&nbsp;reason)</pre>
+                                    <a href="Player.PlayWhenReadyChangeReason.html" title="annotation in com.readwise.android.exoplayer2">@PlayWhenReadyChangeReason</a>
+                                    @com.readwise.android.exoplayer2.Player.PlayWhenReadyChangeReason int&nbsp;reason)</pre>
 <div class="block">Called when the value returned from <a href="Player.html#getPlayWhenReady()"><code>Player.getPlayWhenReady()</code></a> changes.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>playWhenReady</code> - Whether playback will proceed when ready.</dd>
-<dd><code>reason</code> - The <a href="Player.PlayWhenReadyChangeReason.html" title="annotation in com.google.android.exoplayer2"><code>Player.PlayWhenReadyChangeReason</code></a> for the change.</dd>
+<dd><code>reason</code> - The <a href="Player.PlayWhenReadyChangeReason.html" title="annotation in com.readwise.android.exoplayer2"><code>Player.PlayWhenReadyChangeReason</code></a> for the change.</dd>
 </dl>
 </li>
 </ul>
-<a id="onPlaybackSuppressionReasonChanged(@com.google.android.exoplayer2.Player.PlaybackSuppressionReasonint)">
+<a id="onPlaybackSuppressionReasonChanged(@com.readwise.android.exoplayer2.Player.PlaybackSuppressionReasonint)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onPlaybackSuppressionReasonChanged</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onPlaybackSuppressionReasonChanged&#8203;(<a href="Player.PlaybackSuppressionReason.html" title="annotation in com.google.android.exoplayer2">@PlaybackSuppressionReason</a>
-                                                @com.google.android.exoplayer2.Player.PlaybackSuppressionReason int&nbsp;playbackSuppressionReason)</pre>
+<pre class="methodSignature">default&nbsp;void&nbsp;onPlaybackSuppressionReasonChanged&#8203;(<a href="Player.PlaybackSuppressionReason.html" title="annotation in com.readwise.android.exoplayer2">@PlaybackSuppressionReason</a>
+                                                @com.readwise.android.exoplayer2.Player.PlaybackSuppressionReason int&nbsp;playbackSuppressionReason)</pre>
 <div class="block">Called when the value returned from <a href="Player.html#getPlaybackSuppressionReason()"><code>Player.getPlaybackSuppressionReason()</code></a> changes.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>playbackSuppressionReason</code> - The current <a href="Player.PlaybackSuppressionReason.html" title="annotation in com.google.android.exoplayer2"><code>Player.PlaybackSuppressionReason</code></a>.</dd>
+<dd><code>playbackSuppressionReason</code> - The current <a href="Player.PlaybackSuppressionReason.html" title="annotation in com.readwise.android.exoplayer2"><code>Player.PlaybackSuppressionReason</code></a>.</dd>
 </dl>
 </li>
 </ul>
@@ -748,7 +748,7 @@ default&nbsp;void&nbsp;onPlayerStateChanged&#8203;(boolean&nbsp;playWhenReady,
 <pre class="methodSignature">default&nbsp;void&nbsp;onIsPlayingChanged&#8203;(boolean&nbsp;isPlaying)</pre>
 <div class="block">Called when the value of <a href="Player.html#isPlaying()"><code>Player.isPlaying()</code></a> changes.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -756,21 +756,21 @@ default&nbsp;void&nbsp;onPlayerStateChanged&#8203;(boolean&nbsp;playWhenReady,
 </dl>
 </li>
 </ul>
-<a id="onRepeatModeChanged(@com.google.android.exoplayer2.Player.RepeatModeint)">
+<a id="onRepeatModeChanged(@com.readwise.android.exoplayer2.Player.RepeatModeint)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onRepeatModeChanged</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onRepeatModeChanged&#8203;(<a href="Player.RepeatMode.html" title="annotation in com.google.android.exoplayer2">@RepeatMode</a>
-                                 @com.google.android.exoplayer2.Player.RepeatMode int&nbsp;repeatMode)</pre>
+<pre class="methodSignature">default&nbsp;void&nbsp;onRepeatModeChanged&#8203;(<a href="Player.RepeatMode.html" title="annotation in com.readwise.android.exoplayer2">@RepeatMode</a>
+                                 @com.readwise.android.exoplayer2.Player.RepeatMode int&nbsp;repeatMode)</pre>
 <div class="block">Called when the value of <a href="Player.html#getRepeatMode()"><code>Player.getRepeatMode()</code></a> changes.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>repeatMode</code> - The <a href="Player.RepeatMode.html" title="annotation in com.google.android.exoplayer2"><code>Player.RepeatMode</code></a> used for playback.</dd>
+<dd><code>repeatMode</code> - The <a href="Player.RepeatMode.html" title="annotation in com.readwise.android.exoplayer2"><code>Player.RepeatMode</code></a> used for playback.</dd>
 </dl>
 </li>
 </ul>
@@ -783,28 +783,28 @@ default&nbsp;void&nbsp;onPlayerStateChanged&#8203;(boolean&nbsp;playWhenReady,
 <pre class="methodSignature">default&nbsp;void&nbsp;onShuffleModeEnabledChanged&#8203;(boolean&nbsp;shuffleModeEnabled)</pre>
 <div class="block">Called when the value of <a href="Player.html#getShuffleModeEnabled()"><code>Player.getShuffleModeEnabled()</code></a> changes.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>shuffleModeEnabled</code> - Whether shuffling of <a href="MediaItem.html" title="class in com.google.android.exoplayer2">media items</a> is enabled.</dd>
+<dd><code>shuffleModeEnabled</code> - Whether shuffling of <a href="MediaItem.html" title="class in com.readwise.android.exoplayer2">media items</a> is enabled.</dd>
 </dl>
 </li>
 </ul>
-<a id="onPlayerError(com.google.android.exoplayer2.PlaybackException)">
+<a id="onPlayerError(com.readwise.android.exoplayer2.PlaybackException)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onPlayerError</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onPlayerError&#8203;(<a href="PlaybackException.html" title="class in com.google.android.exoplayer2">PlaybackException</a>&nbsp;error)</pre>
+<pre class="methodSignature">default&nbsp;void&nbsp;onPlayerError&#8203;(<a href="PlaybackException.html" title="class in com.readwise.android.exoplayer2">PlaybackException</a>&nbsp;error)</pre>
 <div class="block">Called when an error occurs. The playback state will transition to <a href="Player.html#STATE_IDLE"><code>Player.STATE_IDLE</code></a>
  immediately after this method is called. The player instance can still be used, and <a href="Player.html#release()"><code>Player.release()</code></a> must still be called on the player should it no longer be required.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.
 
- <p>Implementations of Player may pass an instance of a subclass of <a href="PlaybackException.html" title="class in com.google.android.exoplayer2"><code>PlaybackException</code></a>
+ <p>Implementations of Player may pass an instance of a subclass of <a href="PlaybackException.html" title="class in com.readwise.android.exoplayer2"><code>PlaybackException</code></a>
  to this method in order to include more information about the error.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -812,20 +812,20 @@ default&nbsp;void&nbsp;onPlayerStateChanged&#8203;(boolean&nbsp;playWhenReady,
 </dl>
 </li>
 </ul>
-<a id="onPlayerErrorChanged(com.google.android.exoplayer2.PlaybackException)">
+<a id="onPlayerErrorChanged(com.readwise.android.exoplayer2.PlaybackException)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onPlayerErrorChanged</h4>
 <pre class="methodSignature">default&nbsp;void&nbsp;onPlayerErrorChanged&#8203;(@Nullable
-                                  <a href="PlaybackException.html" title="class in com.google.android.exoplayer2">PlaybackException</a>&nbsp;error)</pre>
-<div class="block">Called when the <a href="PlaybackException.html" title="class in com.google.android.exoplayer2"><code>PlaybackException</code></a> returned by <a href="Player.html#getPlayerError()"><code>Player.getPlayerError()</code></a> changes.
+                                  <a href="PlaybackException.html" title="class in com.readwise.android.exoplayer2">PlaybackException</a>&nbsp;error)</pre>
+<div class="block">Called when the <a href="PlaybackException.html" title="class in com.readwise.android.exoplayer2"><code>PlaybackException</code></a> returned by <a href="Player.html#getPlayerError()"><code>Player.getPlayerError()</code></a> changes.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.
 
- <p>Implementations of Player may pass an instance of a subclass of <a href="PlaybackException.html" title="class in com.google.android.exoplayer2"><code>PlaybackException</code></a>
+ <p>Implementations of Player may pass an instance of a subclass of <a href="PlaybackException.html" title="class in com.readwise.android.exoplayer2"><code>PlaybackException</code></a>
  to this method in order to include more information about the error.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -833,59 +833,59 @@ default&nbsp;void&nbsp;onPlayerStateChanged&#8203;(boolean&nbsp;playWhenReady,
 </dl>
 </li>
 </ul>
-<a id="onPositionDiscontinuity(@com.google.android.exoplayer2.Player.DiscontinuityReasonint)">
+<a id="onPositionDiscontinuity(@com.readwise.android.exoplayer2.Player.DiscontinuityReasonint)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onPositionDiscontinuity</h4>
 <pre class="methodSignature"><a href="https://developer.android.com/reference/java/lang/Deprecated.html" title="class or interface in java.lang" class="externalLink" target="_top">@Deprecated</a>
-default&nbsp;void&nbsp;onPositionDiscontinuity&#8203;(<a href="Player.DiscontinuityReason.html" title="annotation in com.google.android.exoplayer2">@DiscontinuityReason</a>
-                                     @com.google.android.exoplayer2.Player.DiscontinuityReason int&nbsp;reason)</pre>
+default&nbsp;void&nbsp;onPositionDiscontinuity&#8203;(<a href="Player.DiscontinuityReason.html" title="annotation in com.readwise.android.exoplayer2">@DiscontinuityReason</a>
+                                     @com.readwise.android.exoplayer2.Player.DiscontinuityReason int&nbsp;reason)</pre>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span>
-<div class="deprecationComment">Use <a href="#onPositionDiscontinuity(com.google.android.exoplayer2.Player.PositionInfo,com.google.android.exoplayer2.Player.PositionInfo,@com.google.android.exoplayer2.Player.DiscontinuityReasonint)"><code>onPositionDiscontinuity(PositionInfo, PositionInfo, int)</code></a> instead.</div>
+<div class="deprecationComment">Use <a href="#onPositionDiscontinuity(com.readwise.android.exoplayer2.Player.PositionInfo,com.readwise.android.exoplayer2.Player.PositionInfo,@com.readwise.android.exoplayer2.Player.DiscontinuityReasonint)"><code>onPositionDiscontinuity(PositionInfo, PositionInfo, int)</code></a> instead.</div>
 </div>
 </li>
 </ul>
-<a id="onPositionDiscontinuity(com.google.android.exoplayer2.Player.PositionInfo,com.google.android.exoplayer2.Player.PositionInfo,@com.google.android.exoplayer2.Player.DiscontinuityReasonint)">
+<a id="onPositionDiscontinuity(com.readwise.android.exoplayer2.Player.PositionInfo,com.readwise.android.exoplayer2.Player.PositionInfo,@com.readwise.android.exoplayer2.Player.DiscontinuityReasonint)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onPositionDiscontinuity</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onPositionDiscontinuity&#8203;(<a href="Player.PositionInfo.html" title="class in com.google.android.exoplayer2">Player.PositionInfo</a>&nbsp;oldPosition,
-                                     <a href="Player.PositionInfo.html" title="class in com.google.android.exoplayer2">Player.PositionInfo</a>&nbsp;newPosition,
-                                     <a href="Player.DiscontinuityReason.html" title="annotation in com.google.android.exoplayer2">@DiscontinuityReason</a>
-                                     @com.google.android.exoplayer2.Player.DiscontinuityReason int&nbsp;reason)</pre>
+<pre class="methodSignature">default&nbsp;void&nbsp;onPositionDiscontinuity&#8203;(<a href="Player.PositionInfo.html" title="class in com.readwise.android.exoplayer2">Player.PositionInfo</a>&nbsp;oldPosition,
+                                     <a href="Player.PositionInfo.html" title="class in com.readwise.android.exoplayer2">Player.PositionInfo</a>&nbsp;newPosition,
+                                     <a href="Player.DiscontinuityReason.html" title="annotation in com.readwise.android.exoplayer2">@DiscontinuityReason</a>
+                                     @com.readwise.android.exoplayer2.Player.DiscontinuityReason int&nbsp;reason)</pre>
 <div class="block">Called when a position discontinuity occurs.
 
  <p>A position discontinuity occurs when the playing period changes, the playback position
  jumps within the period currently being played, or when the playing period has been skipped
  or removed.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>oldPosition</code> - The position before the discontinuity.</dd>
 <dd><code>newPosition</code> - The position after the discontinuity.</dd>
-<dd><code>reason</code> - The <a href="Player.DiscontinuityReason.html" title="annotation in com.google.android.exoplayer2"><code>Player.DiscontinuityReason</code></a> responsible for the discontinuity.</dd>
+<dd><code>reason</code> - The <a href="Player.DiscontinuityReason.html" title="annotation in com.readwise.android.exoplayer2"><code>Player.DiscontinuityReason</code></a> responsible for the discontinuity.</dd>
 </dl>
 </li>
 </ul>
-<a id="onPlaybackParametersChanged(com.google.android.exoplayer2.PlaybackParameters)">
+<a id="onPlaybackParametersChanged(com.readwise.android.exoplayer2.PlaybackParameters)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onPlaybackParametersChanged</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onPlaybackParametersChanged&#8203;(<a href="PlaybackParameters.html" title="class in com.google.android.exoplayer2">PlaybackParameters</a>&nbsp;playbackParameters)</pre>
+<pre class="methodSignature">default&nbsp;void&nbsp;onPlaybackParametersChanged&#8203;(<a href="PlaybackParameters.html" title="class in com.readwise.android.exoplayer2">PlaybackParameters</a>&nbsp;playbackParameters)</pre>
 <div class="block">Called when the value of <a href="Player.html#getPlaybackParameters()"><code>Player.getPlaybackParameters()</code></a> changes. The playback parameters
- may change due to a call to <a href="Player.html#setPlaybackParameters(com.google.android.exoplayer2.PlaybackParameters)"><code>Player.setPlaybackParameters(PlaybackParameters)</code></a>, or the player
+ may change due to a call to <a href="Player.html#setPlaybackParameters(com.readwise.android.exoplayer2.PlaybackParameters)"><code>Player.setPlaybackParameters(PlaybackParameters)</code></a>, or the player
  itself may change them (for example, if audio playback switches to passthrough or offload
  mode, where speed adjustment is no longer possible).
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -902,7 +902,7 @@ default&nbsp;void&nbsp;onPositionDiscontinuity&#8203;(<a href="Player.Discontinu
 <pre class="methodSignature">default&nbsp;void&nbsp;onSeekBackIncrementChanged&#8203;(long&nbsp;seekBackIncrementMs)</pre>
 <div class="block">Called when the value of <a href="Player.html#getSeekBackIncrement()"><code>Player.getSeekBackIncrement()</code></a> changes.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -919,7 +919,7 @@ default&nbsp;void&nbsp;onPositionDiscontinuity&#8203;(<a href="Player.Discontinu
 <pre class="methodSignature">default&nbsp;void&nbsp;onSeekForwardIncrementChanged&#8203;(long&nbsp;seekForwardIncrementMs)</pre>
 <div class="block">Called when the value of <a href="Player.html#getSeekForwardIncrement()"><code>Player.getSeekForwardIncrement()</code></a> changes.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -936,7 +936,7 @@ default&nbsp;void&nbsp;onPositionDiscontinuity&#8203;(<a href="Player.Discontinu
 <pre class="methodSignature">default&nbsp;void&nbsp;onMaxSeekToPreviousPositionChanged&#8203;(long&nbsp;maxSeekToPreviousPositionMs)</pre>
 <div class="block">Called when the value of <a href="Player.html#getMaxSeekToPreviousPosition()"><code>Player.getMaxSeekToPreviousPosition()</code></a> changes.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -954,7 +954,7 @@ default&nbsp;void&nbsp;onPositionDiscontinuity&#8203;(<a href="Player.Discontinu
 <pre class="methodSignature"><a href="https://developer.android.com/reference/java/lang/Deprecated.html" title="class or interface in java.lang" class="externalLink" target="_top">@Deprecated</a>
 default&nbsp;void&nbsp;onSeekProcessed()</pre>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span>
-<div class="deprecationComment">Seeks are processed without delay. Listen to <a href="#onPositionDiscontinuity(com.google.android.exoplayer2.Player.PositionInfo,com.google.android.exoplayer2.Player.PositionInfo,@com.google.android.exoplayer2.Player.DiscontinuityReasonint)"><code>onPositionDiscontinuity(PositionInfo, PositionInfo, int)</code></a> with reason <a href="Player.html#DISCONTINUITY_REASON_SEEK"><code>Player.DISCONTINUITY_REASON_SEEK</code></a> instead.</div>
+<div class="deprecationComment">Seeks are processed without delay. Listen to <a href="#onPositionDiscontinuity(com.readwise.android.exoplayer2.Player.PositionInfo,com.readwise.android.exoplayer2.Player.PositionInfo,@com.readwise.android.exoplayer2.Player.DiscontinuityReasonint)"><code>onPositionDiscontinuity(PositionInfo, PositionInfo, int)</code></a> with reason <a href="Player.html#DISCONTINUITY_REASON_SEEK"><code>Player.DISCONTINUITY_REASON_SEEK</code></a> instead.</div>
 </div>
 </li>
 </ul>
@@ -967,7 +967,7 @@ default&nbsp;void&nbsp;onSeekProcessed()</pre>
 <pre class="methodSignature">default&nbsp;void&nbsp;onAudioSessionIdChanged&#8203;(int&nbsp;audioSessionId)</pre>
 <div class="block">Called when the audio session ID changes.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -975,16 +975,16 @@ default&nbsp;void&nbsp;onSeekProcessed()</pre>
 </dl>
 </li>
 </ul>
-<a id="onAudioAttributesChanged(com.google.android.exoplayer2.audio.AudioAttributes)">
+<a id="onAudioAttributesChanged(com.readwise.android.exoplayer2.audio.AudioAttributes)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onAudioAttributesChanged</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onAudioAttributesChanged&#8203;(<a href="audio/AudioAttributes.html" title="class in com.google.android.exoplayer2.audio">AudioAttributes</a>&nbsp;audioAttributes)</pre>
+<pre class="methodSignature">default&nbsp;void&nbsp;onAudioAttributesChanged&#8203;(<a href="audio/AudioAttributes.html" title="class in com.readwise.android.exoplayer2.audio">AudioAttributes</a>&nbsp;audioAttributes)</pre>
 <div class="block">Called when the value of <a href="Player.html#getAudioAttributes()"><code>Player.getAudioAttributes()</code></a> changes.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -1001,7 +1001,7 @@ default&nbsp;void&nbsp;onSeekProcessed()</pre>
 <pre class="methodSignature">default&nbsp;void&nbsp;onVolumeChanged&#8203;(float&nbsp;volume)</pre>
 <div class="block">Called when the value of <a href="Player.html#getVolume()"><code>Player.getVolume()</code></a> changes.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -1018,7 +1018,7 @@ default&nbsp;void&nbsp;onSeekProcessed()</pre>
 <pre class="methodSignature">default&nbsp;void&nbsp;onSkipSilenceEnabledChanged&#8203;(boolean&nbsp;skipSilenceEnabled)</pre>
 <div class="block">Called when skipping silences is enabled or disabled in the audio stream.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -1026,20 +1026,20 @@ default&nbsp;void&nbsp;onSeekProcessed()</pre>
 </dl>
 </li>
 </ul>
-<a id="onDeviceInfoChanged(com.google.android.exoplayer2.DeviceInfo)">
+<a id="onDeviceInfoChanged(com.readwise.android.exoplayer2.DeviceInfo)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onDeviceInfoChanged</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onDeviceInfoChanged&#8203;(<a href="DeviceInfo.html" title="class in com.google.android.exoplayer2">DeviceInfo</a>&nbsp;deviceInfo)</pre>
+<pre class="methodSignature">default&nbsp;void&nbsp;onDeviceInfoChanged&#8203;(<a href="DeviceInfo.html" title="class in com.readwise.android.exoplayer2">DeviceInfo</a>&nbsp;deviceInfo)</pre>
 <div class="block">Called when the device information changes
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>deviceInfo</code> - The new <a href="DeviceInfo.html" title="class in com.google.android.exoplayer2"><code>DeviceInfo</code></a>.</dd>
+<dd><code>deviceInfo</code> - The new <a href="DeviceInfo.html" title="class in com.readwise.android.exoplayer2"><code>DeviceInfo</code></a>.</dd>
 </dl>
 </li>
 </ul>
@@ -1053,7 +1053,7 @@ default&nbsp;void&nbsp;onSeekProcessed()</pre>
                                    boolean&nbsp;muted)</pre>
 <div class="block">Called when the value of <a href="Player.html#getDeviceVolume()"><code>Player.getDeviceVolume()</code></a> or <a href="Player.html#isDeviceMuted()"><code>Player.isDeviceMuted()</code></a> changes.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -1062,16 +1062,16 @@ default&nbsp;void&nbsp;onSeekProcessed()</pre>
 </dl>
 </li>
 </ul>
-<a id="onVideoSizeChanged(com.google.android.exoplayer2.video.VideoSize)">
+<a id="onVideoSizeChanged(com.readwise.android.exoplayer2.video.VideoSize)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onVideoSizeChanged</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onVideoSizeChanged&#8203;(<a href="video/VideoSize.html" title="class in com.google.android.exoplayer2.video">VideoSize</a>&nbsp;videoSize)</pre>
+<pre class="methodSignature">default&nbsp;void&nbsp;onVideoSizeChanged&#8203;(<a href="video/VideoSize.html" title="class in com.readwise.android.exoplayer2.video">VideoSize</a>&nbsp;videoSize)</pre>
 <div class="block">Called each time there's a change in the size of the video being rendered.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -1090,7 +1090,7 @@ default&nbsp;void&nbsp;onSeekProcessed()</pre>
 <div class="block">Called each time there's a change in the size of the surface onto which the video is being
  rendered.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -1111,7 +1111,7 @@ default&nbsp;void&nbsp;onSeekProcessed()</pre>
 <div class="block">Called when a frame is rendered for the first time since setting the surface, or since the
  renderer was reset, or since the stream being rendered was changed.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 </li>
 </ul>
@@ -1122,45 +1122,45 @@ default&nbsp;void&nbsp;onSeekProcessed()</pre>
 <li class="blockList">
 <h4>onCues</h4>
 <pre class="methodSignature"><a href="https://developer.android.com/reference/java/lang/Deprecated.html" title="class or interface in java.lang" class="externalLink" target="_top">@Deprecated</a>
-default&nbsp;void&nbsp;onCues&#8203;(<a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="text/Cue.html" title="class in com.google.android.exoplayer2.text" target="_top">Cue</a>&gt;&nbsp;cues)</pre>
+default&nbsp;void&nbsp;onCues&#8203;(<a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="text/Cue.html" title="class in com.readwise.android.exoplayer2.text" target="_top">Cue</a>&gt;&nbsp;cues)</pre>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span>
-<div class="deprecationComment">Use <a href="#onCues(com.google.android.exoplayer2.text.CueGroup)"><code>onCues(CueGroup)</code></a> instead.</div>
+<div class="deprecationComment">Use <a href="#onCues(com.readwise.android.exoplayer2.text.CueGroup)"><code>onCues(CueGroup)</code></a> instead.</div>
 </div>
 <div class="block">Called when the value of <a href="Player.html#getCurrentCues()"><code>Player.getCurrentCues()</code></a> changes.
 
- <p>Both this method and <a href="#onCues(com.google.android.exoplayer2.text.CueGroup)"><code>onCues(CueGroup)</code></a> are called when there is a change in the
+ <p>Both this method and <a href="#onCues(com.readwise.android.exoplayer2.text.CueGroup)"><code>onCues(CueGroup)</code></a> are called when there is a change in the
  cues. You should only implement one or the other.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 </li>
 </ul>
-<a id="onCues(com.google.android.exoplayer2.text.CueGroup)">
+<a id="onCues(com.readwise.android.exoplayer2.text.CueGroup)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onCues</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onCues&#8203;(<a href="text/CueGroup.html" title="class in com.google.android.exoplayer2.text">CueGroup</a>&nbsp;cueGroup)</pre>
+<pre class="methodSignature">default&nbsp;void&nbsp;onCues&#8203;(<a href="text/CueGroup.html" title="class in com.readwise.android.exoplayer2.text">CueGroup</a>&nbsp;cueGroup)</pre>
 <div class="block">Called when the value of <a href="Player.html#getCurrentCues()"><code>Player.getCurrentCues()</code></a> changes.
 
  <p>Both this method and <a href="#onCues(java.util.List)"><code>onCues(List)</code></a> are called when there is a change in the cues.
  You should only implement one or the other.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 </li>
 </ul>
-<a id="onMetadata(com.google.android.exoplayer2.metadata.Metadata)">
+<a id="onMetadata(com.readwise.android.exoplayer2.metadata.Metadata)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>onMetadata</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onMetadata&#8203;(<a href="metadata/Metadata.html" title="class in com.google.android.exoplayer2.metadata">Metadata</a>&nbsp;metadata)</pre>
+<pre class="methodSignature">default&nbsp;void&nbsp;onMetadata&#8203;(<a href="metadata/Metadata.html" title="class in com.readwise.android.exoplayer2.metadata">Metadata</a>&nbsp;metadata)</pre>
 <div class="block">Called when there is metadata associated with the current playback time.
 
- <p><a href="#onEvents(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
+ <p><a href="#onEvents(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.Player.Events)"><code>onEvents(Player, Events)</code></a> will also be called to report this event along with
  other events that happen in the same <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top"><code>Looper</code></a> message queue iteration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>

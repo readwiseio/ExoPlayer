@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.media2;
+package com.readwise.android.exoplayer2.ext.media2;
 
 import android.Manifest;
 import android.content.ComponentName;
@@ -35,7 +35,7 @@ import androidx.media2.session.MediaSession.ControllerInfo;
 import androidx.media2.session.SessionCommand;
 import androidx.media2.session.SessionCommandGroup;
 import androidx.media2.session.SessionResult;
-import com.google.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Assertions;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.util.ArrayList;
 import java.util.List;

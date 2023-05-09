@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.dash;
+package com.readwise.android.exoplayer2.source.dash;
 
-import static com.google.android.exoplayer2.source.dash.manifest.BaseUrl.DEFAULT_DVB_PRIORITY;
-import static com.google.android.exoplayer2.source.dash.manifest.BaseUrl.DEFAULT_WEIGHT;
-import static com.google.android.exoplayer2.upstream.DefaultLoadErrorHandlingPolicy.DEFAULT_LOCATION_EXCLUSION_MS;
+import static com.readwise.android.exoplayer2.source.dash.manifest.BaseUrl.DEFAULT_DVB_PRIORITY;
+import static com.readwise.android.exoplayer2.source.dash.manifest.BaseUrl.DEFAULT_WEIGHT;
+import static com.readwise.android.exoplayer2.upstream.DefaultLoadErrorHandlingPolicy.DEFAULT_LOCATION_EXCLUSION_MS;
 import static com.google.common.truth.Truth.assertThat;
 import static org.mockito.ArgumentMatchers.anyInt;
 import static org.mockito.Mockito.mock;
@@ -26,7 +26,7 @@ import static org.mockito.Mockito.verifyNoMoreInteractions;
 import static org.mockito.Mockito.when;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.source.dash.manifest.BaseUrl;
+import com.readwise.android.exoplayer2.source.dash.manifest.BaseUrl;
 import com.google.common.collect.ImmutableList;
 import java.time.Duration;
 import java.util.List;

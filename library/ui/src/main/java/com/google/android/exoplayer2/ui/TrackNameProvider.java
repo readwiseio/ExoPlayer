@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ui;
+package com.readwise.android.exoplayer2.ui;
 
-import com.google.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.Format;
 
 /** Converts {@link Format}s to user readable track names. */
 public interface TrackNameProvider {

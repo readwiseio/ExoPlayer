@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.transformer;
+package com.readwise.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.util.MimeTypes.VIDEO_H264;
+import static com.readwise.android.exoplayer2.util.MimeTypes.VIDEO_H264;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.media.MediaCodecInfo;
@@ -24,8 +24,8 @@ import android.media.MediaFormat;
 import android.util.Size;
 import androidx.annotation.Nullable;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.video.ColorInfo;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.video.ColorInfo;
 import com.google.common.collect.ImmutableList;
 import org.junit.After;
 import org.junit.Before;
@@ -40,7 +40,7 @@ import org.robolectric.shadows.ShadowMediaCodecList;
  * Unit test for {@link EncoderUtil}.
  *
  * <p>See {@link
- * com.google.android.exoplayer2.mediacodec.MediaCodecUtil#maxH264DecodableFrameSize()} for
+ * com.readwise.android.exoplayer2.mediacodec.MediaCodecUtil#maxH264DecodableFrameSize()} for
  * information on how MediaCodec determines frame sizes.
  */
 @RunWith(AndroidJUnit4.class)

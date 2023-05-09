@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
 import android.util.Pair;
-import com.google.android.exoplayer2.source.ShuffleOrder;
-import com.google.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.source.ShuffleOrder;
+import com.readwise.android.exoplayer2.util.Assertions;
 
 /** Abstract base class for the concatenation of one or more {@link Timeline}s. */
 public abstract class AbstractConcatenatedTimeline extends Timeline {

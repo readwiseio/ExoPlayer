@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.audio;
+package com.readwise.android.exoplayer2.audio;
 
-import static com.google.android.exoplayer2.util.Util.getBytesFromHexString;
+import static com.readwise.android.exoplayer2.util.Util.getBytesFromHexString;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.C;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.util.List;

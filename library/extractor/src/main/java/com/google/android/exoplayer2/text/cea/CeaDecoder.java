@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.text.cea;
+package com.readwise.android.exoplayer2.text.cea;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.text.Subtitle;
-import com.google.android.exoplayer2.text.SubtitleDecoder;
-import com.google.android.exoplayer2.text.SubtitleDecoderException;
-import com.google.android.exoplayer2.text.SubtitleInputBuffer;
-import com.google.android.exoplayer2.text.SubtitleOutputBuffer;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.text.Subtitle;
+import com.readwise.android.exoplayer2.text.SubtitleDecoder;
+import com.readwise.android.exoplayer2.text.SubtitleDecoderException;
+import com.readwise.android.exoplayer2.text.SubtitleInputBuffer;
+import com.readwise.android.exoplayer2.text.SubtitleOutputBuffer;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Util;
 import java.util.ArrayDeque;
 import java.util.PriorityQueue;
 

@@ -13,20 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.extractor.mp4;
+package com.readwise.android.exoplayer2.extractor.mp4;
 
-import static com.google.android.exoplayer2.extractor.Extractor.RESULT_SEEK;
+import static com.readwise.android.exoplayer2.extractor.Extractor.RESULT_SEEK;
 import static java.lang.annotation.ElementType.TYPE_USE;
 
 import androidx.annotation.IntDef;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ParserException;
-import com.google.android.exoplayer2.extractor.Extractor;
-import com.google.android.exoplayer2.extractor.ExtractorInput;
-import com.google.android.exoplayer2.extractor.PositionHolder;
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.metadata.mp4.SlowMotionData;
-import com.google.android.exoplayer2.util.ParsableByteArray;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ParserException;
+import com.readwise.android.exoplayer2.extractor.Extractor;
+import com.readwise.android.exoplayer2.extractor.ExtractorInput;
+import com.readwise.android.exoplayer2.extractor.PositionHolder;
+import com.readwise.android.exoplayer2.metadata.Metadata;
+import com.readwise.android.exoplayer2.metadata.mp4.SlowMotionData;
+import com.readwise.android.exoplayer2.util.ParsableByteArray;
 import com.google.common.base.Splitter;
 import java.io.IOException;
 import java.lang.annotation.Documented;

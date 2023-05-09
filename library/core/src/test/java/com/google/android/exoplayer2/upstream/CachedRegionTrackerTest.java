@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.upstream;
+package com.readwise.android.exoplayer2.upstream;
 
 import static com.google.common.truth.Truth.assertThat;
 import static org.mockito.ArgumentMatchers.any;
@@ -22,10 +22,10 @@ import static org.mockito.Mockito.when;
 
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.extractor.ChunkIndex;
-import com.google.android.exoplayer2.upstream.cache.Cache;
-import com.google.android.exoplayer2.upstream.cache.CacheSpan;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.extractor.ChunkIndex;
+import com.readwise.android.exoplayer2.upstream.cache.Cache;
+import com.readwise.android.exoplayer2.upstream.cache.CacheSpan;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;

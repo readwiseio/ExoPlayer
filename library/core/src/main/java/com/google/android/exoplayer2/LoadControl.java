@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
-import com.google.android.exoplayer2.source.MediaPeriod;
-import com.google.android.exoplayer2.source.MediaPeriodId;
-import com.google.android.exoplayer2.source.TrackGroup;
-import com.google.android.exoplayer2.source.TrackGroupArray;
-import com.google.android.exoplayer2.trackselection.ExoTrackSelection;
-import com.google.android.exoplayer2.upstream.Allocator;
+import com.readwise.android.exoplayer2.source.MediaPeriod;
+import com.readwise.android.exoplayer2.source.MediaPeriodId;
+import com.readwise.android.exoplayer2.source.TrackGroup;
+import com.readwise.android.exoplayer2.source.TrackGroupArray;
+import com.readwise.android.exoplayer2.trackselection.ExoTrackSelection;
+import com.readwise.android.exoplayer2.upstream.Allocator;
 
 /** Controls buffering of media. */
 public interface LoadControl {

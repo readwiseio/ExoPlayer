@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.scheduler</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.scheduler</a></div>
 <h2 title="Interface Scheduler" class="title">Interface Scheduler</h2>
 </div>
 <div class="contentContainer">
@@ -122,11 +122,11 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Known Implementing Classes:</dt>
-<dd><code><a href="PlatformScheduler.html" title="class in com.google.android.exoplayer2.scheduler">PlatformScheduler</a></code>, <code><a href="../ext/workmanager/WorkManagerScheduler.html" title="class in com.google.android.exoplayer2.ext.workmanager">WorkManagerScheduler</a></code></dd>
+<dd><code><a href="PlatformScheduler.html" title="class in com.readwise.android.exoplayer2.scheduler">PlatformScheduler</a></code>, <code><a href="../ext/workmanager/WorkManagerScheduler.html" title="class in com.readwise.android.exoplayer2.ext.workmanager">WorkManagerScheduler</a></code></dd>
 </dl>
 <hr>
 <pre>public interface <span class="typeNameLabel">Scheduler</span></pre>
-<div class="block">Schedules a service to be started in the foreground when some <a href="Requirements.html" title="class in com.google.android.exoplayer2.scheduler"><code>Requirements</code></a> are met.</div>
+<div class="block">Schedules a service to be started in the foreground when some <a href="Requirements.html" title="class in com.readwise.android.exoplayer2.scheduler"><code>Requirements</code></a> are met.</div>
 </li>
 </ul>
 </div>
@@ -155,19 +155,19 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </td>
 </tr>
 <tr id="i1" class="rowColor">
-<td class="colFirst"><code><a href="Requirements.html" title="class in com.google.android.exoplayer2.scheduler">Requirements</a></code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getSupportedRequirements(com.google.android.exoplayer2.scheduler.Requirements)">getSupportedRequirements</a></span>&#8203;(<a href="Requirements.html" title="class in com.google.android.exoplayer2.scheduler">Requirements</a>&nbsp;requirements)</code></th>
+<td class="colFirst"><code><a href="Requirements.html" title="class in com.readwise.android.exoplayer2.scheduler">Requirements</a></code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getSupportedRequirements(com.readwise.android.exoplayer2.scheduler.Requirements)">getSupportedRequirements</a></span>&#8203;(<a href="Requirements.html" title="class in com.readwise.android.exoplayer2.scheduler">Requirements</a>&nbsp;requirements)</code></th>
 <td class="colLast">
-<div class="block">Checks whether this <a href="Scheduler.html" title="interface in com.google.android.exoplayer2.scheduler"><code>Scheduler</code></a> supports the provided <a href="Requirements.html" title="class in com.google.android.exoplayer2.scheduler"><code>Requirements</code></a>.</div>
+<div class="block">Checks whether this <a href="Scheduler.html" title="interface in com.readwise.android.exoplayer2.scheduler"><code>Scheduler</code></a> supports the provided <a href="Requirements.html" title="class in com.readwise.android.exoplayer2.scheduler"><code>Requirements</code></a>.</div>
 </td>
 </tr>
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>boolean</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#schedule(com.google.android.exoplayer2.scheduler.Requirements,java.lang.String,java.lang.String)">schedule</a></span>&#8203;(<a href="Requirements.html" title="class in com.google.android.exoplayer2.scheduler">Requirements</a>&nbsp;requirements,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#schedule(com.readwise.android.exoplayer2.scheduler.Requirements,java.lang.String,java.lang.String)">schedule</a></span>&#8203;(<a href="Requirements.html" title="class in com.readwise.android.exoplayer2.scheduler">Requirements</a>&nbsp;requirements,
         <a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;servicePackage,
         <a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;serviceAction)</code></th>
 <td class="colLast">
-<div class="block">Schedules a service to be started in the foreground when some <a href="Requirements.html" title="class in com.google.android.exoplayer2.scheduler"><code>Requirements</code></a> are met.</div>
+<div class="block">Schedules a service to be started in the foreground when some <a href="Requirements.html" title="class in com.readwise.android.exoplayer2.scheduler"><code>Requirements</code></a> are met.</div>
 </td>
 </tr>
 </table>
@@ -187,16 +187,16 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="schedule(com.google.android.exoplayer2.scheduler.Requirements,java.lang.String,java.lang.String)">
+<a id="schedule(com.readwise.android.exoplayer2.scheduler.Requirements,java.lang.String,java.lang.String)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>schedule</h4>
-<pre class="methodSignature">boolean&nbsp;schedule&#8203;(<a href="Requirements.html" title="class in com.google.android.exoplayer2.scheduler">Requirements</a>&nbsp;requirements,
+<pre class="methodSignature">boolean&nbsp;schedule&#8203;(<a href="Requirements.html" title="class in com.readwise.android.exoplayer2.scheduler">Requirements</a>&nbsp;requirements,
                  <a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;servicePackage,
                  <a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;serviceAction)</pre>
-<div class="block">Schedules a service to be started in the foreground when some <a href="Requirements.html" title="class in com.google.android.exoplayer2.scheduler"><code>Requirements</code></a> are met.
+<div class="block">Schedules a service to be started in the foreground when some <a href="Requirements.html" title="class in com.readwise.android.exoplayer2.scheduler"><code>Requirements</code></a> are met.
  Anything that was previously scheduled will be canceled.
 
  <p>The service to be started must be declared in the manifest of <code>servicePackage</code> with an
@@ -227,15 +227,15 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dl>
 </li>
 </ul>
-<a id="getSupportedRequirements(com.google.android.exoplayer2.scheduler.Requirements)">
+<a id="getSupportedRequirements(com.readwise.android.exoplayer2.scheduler.Requirements)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>getSupportedRequirements</h4>
-<pre class="methodSignature"><a href="Requirements.html" title="class in com.google.android.exoplayer2.scheduler">Requirements</a>&nbsp;getSupportedRequirements&#8203;(<a href="Requirements.html" title="class in com.google.android.exoplayer2.scheduler">Requirements</a>&nbsp;requirements)</pre>
-<div class="block">Checks whether this <a href="Scheduler.html" title="interface in com.google.android.exoplayer2.scheduler"><code>Scheduler</code></a> supports the provided <a href="Requirements.html" title="class in com.google.android.exoplayer2.scheduler"><code>Requirements</code></a>. If all of the
- requirements are supported then the same <a href="Requirements.html" title="class in com.google.android.exoplayer2.scheduler"><code>Requirements</code></a> instance is returned. If not then
+<pre class="methodSignature"><a href="Requirements.html" title="class in com.readwise.android.exoplayer2.scheduler">Requirements</a>&nbsp;getSupportedRequirements&#8203;(<a href="Requirements.html" title="class in com.readwise.android.exoplayer2.scheduler">Requirements</a>&nbsp;requirements)</pre>
+<div class="block">Checks whether this <a href="Scheduler.html" title="interface in com.readwise.android.exoplayer2.scheduler"><code>Scheduler</code></a> supports the provided <a href="Requirements.html" title="class in com.readwise.android.exoplayer2.scheduler"><code>Requirements</code></a>. If all of the
+ requirements are supported then the same <a href="Requirements.html" title="class in com.readwise.android.exoplayer2.scheduler"><code>Requirements</code></a> instance is returned. If not then
  a new instance is returned containing the subset of the requirements that are supported.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>

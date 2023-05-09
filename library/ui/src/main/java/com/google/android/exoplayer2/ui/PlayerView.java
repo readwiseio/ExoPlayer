@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ui;
+package com.readwise.android.exoplayer2.ui;
 
-import static com.google.android.exoplayer2.Player.COMMAND_GET_TEXT;
-import static com.google.android.exoplayer2.Player.COMMAND_SET_VIDEO_SURFACE;
-import static com.google.android.exoplayer2.util.Util.getDrawable;
+import static com.readwise.android.exoplayer2.Player.COMMAND_GET_TEXT;
+import static com.readwise.android.exoplayer2.Player.COMMAND_SET_VIDEO_SURFACE;
+import static com.readwise.android.exoplayer2.util.Util.getDrawable;
 import static java.lang.annotation.ElementType.TYPE_USE;
 
 import android.annotation.SuppressLint;
@@ -47,21 +47,21 @@ import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.core.content.ContextCompat;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.MediaMetadata;
-import com.google.android.exoplayer2.PlaybackException;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Player.DiscontinuityReason;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.Timeline.Period;
-import com.google.android.exoplayer2.Tracks;
-import com.google.android.exoplayer2.text.CueGroup;
-import com.google.android.exoplayer2.ui.AspectRatioFrameLayout.ResizeMode;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.ErrorMessageProvider;
-import com.google.android.exoplayer2.util.RepeatModeUtil;
-import com.google.android.exoplayer2.util.Util;
-import com.google.android.exoplayer2.video.VideoSize;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.MediaMetadata;
+import com.readwise.android.exoplayer2.PlaybackException;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.Player.DiscontinuityReason;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.Timeline.Period;
+import com.readwise.android.exoplayer2.Tracks;
+import com.readwise.android.exoplayer2.text.CueGroup;
+import com.readwise.android.exoplayer2.ui.AspectRatioFrameLayout.ResizeMode;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.ErrorMessageProvider;
+import com.readwise.android.exoplayer2.util.RepeatModeUtil;
+import com.readwise.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.video.VideoSize;
 import com.google.common.collect.ImmutableList;
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;
@@ -425,7 +425,7 @@ public class PlayerView extends FrameLayout implements AdViewProvider {
           try {
             Class<?> clazz =
                 Class.forName(
-                    "com.google.android.exoplayer2.video.spherical.SphericalGLSurfaceView");
+                    "com.readwise.android.exoplayer2.video.spherical.SphericalGLSurfaceView");
             surfaceView = (View) clazz.getConstructor(Context.class).newInstance(context);
           } catch (Exception e) {
             throw new IllegalStateException(
@@ -436,7 +436,7 @@ public class PlayerView extends FrameLayout implements AdViewProvider {
         case SURFACE_TYPE_VIDEO_DECODER_GL_SURFACE_VIEW:
           try {
             Class<?> clazz =
-                Class.forName("com.google.android.exoplayer2.video.VideoDecoderGLSurfaceView");
+                Class.forName("com.readwise.android.exoplayer2.video.VideoDecoderGLSurfaceView");
             surfaceView = (View) clazz.getConstructor(Context.class).newInstance(context);
           } catch (Exception e) {
             throw new IllegalStateException(

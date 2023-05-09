@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.extractor.jpeg;
+package com.readwise.android.exoplayer2.extractor.jpeg;
 
-import com.google.android.exoplayer2.testutil.ExtractorAsserts;
+import com.readwise.android.exoplayer2.testutil.ExtractorAsserts;
 import com.google.common.collect.ImmutableList;
 import org.junit.Test;
 import org.junit.runner.RunWith;

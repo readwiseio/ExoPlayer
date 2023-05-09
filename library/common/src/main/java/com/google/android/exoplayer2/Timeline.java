@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
-import static com.google.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_UNAVAILABLE;
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_UNAVAILABLE;
+import static com.readwise.android.exoplayer2.util.Assertions.checkArgument;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
 import static java.lang.Math.max;
 import static java.lang.Math.min;
 
@@ -27,10 +27,10 @@ import android.os.IBinder;
 import android.os.SystemClock;
 import android.util.Pair;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.source.ads.AdPlaybackState;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.BundleUtil;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.source.ads.AdPlaybackState;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.BundleUtil;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import com.google.errorprone.annotations.InlineMe;
@@ -163,7 +163,7 @@ public abstract class Timeline implements Bundleable {
 
     private static final MediaItem PLACEHOLDER_MEDIA_ITEM =
         new MediaItem.Builder()
-            .setMediaId("com.google.android.exoplayer2.Timeline")
+            .setMediaId("com.readwise.android.exoplayer2.Timeline")
             .setUri(Uri.EMPTY)
             .build();
 

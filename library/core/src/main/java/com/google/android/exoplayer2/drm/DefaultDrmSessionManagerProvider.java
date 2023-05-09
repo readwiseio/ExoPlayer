@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.drm;
+package com.readwise.android.exoplayer2.drm;
 
-import static com.google.android.exoplayer2.drm.DefaultDrmSessionManager.MODE_PLAYBACK;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.drm.DefaultDrmSessionManager.MODE_PLAYBACK;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
 
 import androidx.annotation.GuardedBy;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.DefaultHttpDataSource;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.upstream.DataSource;
+import com.readwise.android.exoplayer2.upstream.DefaultHttpDataSource;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.primitives.Ints;
 import java.util.Map;
 import org.checkerframework.checker.nullness.qual.MonotonicNonNull;

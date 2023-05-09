@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.hls;
+package com.readwise.android.exoplayer2.source.hls;
 
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.FormatHolder;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
-import com.google.android.exoplayer2.source.SampleStream;
-import com.google.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.FormatHolder;
+import com.readwise.android.exoplayer2.decoder.DecoderInputBuffer;
+import com.readwise.android.exoplayer2.source.SampleStream;
+import com.readwise.android.exoplayer2.util.Assertions;
 import java.io.IOException;
 
 /** {@link SampleStream} for a particular sample queue in HLS. */

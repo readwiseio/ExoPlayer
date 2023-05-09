@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.util;
+package com.readwise.android.exoplayer2.util;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
+import static com.readwise.android.exoplayer2.util.Assertions.checkArgument;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.C;
 
 /** Immutable class for describing width and height dimensions in pixels. */
 public final class Size {

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.media2;
+package com.readwise.android.exoplayer2.ext.media2;
 
 import static androidx.media2.common.MediaMetadata.METADATA_KEY_DISPLAY_TITLE;
 import static androidx.media2.common.MediaMetadata.METADATA_KEY_MEDIA_ID;
@@ -25,10 +25,10 @@ import androidx.annotation.Nullable;
 import androidx.media2.common.CallbackMediaItem;
 import androidx.media2.common.FileMediaItem;
 import androidx.media2.common.UriMediaItem;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.MediaMetadata;
-import com.google.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.MediaMetadata;
+import com.readwise.android.exoplayer2.util.Assertions;
 
 /**
  * Default implementation of {@link MediaItemConverter}.

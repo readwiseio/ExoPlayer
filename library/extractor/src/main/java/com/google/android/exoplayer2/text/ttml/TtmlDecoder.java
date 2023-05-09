@@ -13,24 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.text.ttml;
+package com.readwise.android.exoplayer2.text.ttml;
 
 import static java.lang.Math.max;
 import static java.lang.Math.min;
 
 import android.text.Layout;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.text.Cue;
-import com.google.android.exoplayer2.text.SimpleSubtitleDecoder;
-import com.google.android.exoplayer2.text.Subtitle;
-import com.google.android.exoplayer2.text.SubtitleDecoderException;
-import com.google.android.exoplayer2.text.span.TextAnnotation;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.ColorParser;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.Util;
-import com.google.android.exoplayer2.util.XmlPullParserUtil;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.text.Cue;
+import com.readwise.android.exoplayer2.text.SimpleSubtitleDecoder;
+import com.readwise.android.exoplayer2.text.Subtitle;
+import com.readwise.android.exoplayer2.text.SubtitleDecoderException;
+import com.readwise.android.exoplayer2.text.span.TextAnnotation;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.ColorParser;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.util.XmlPullParserUtil;
 import com.google.common.base.Ascii;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

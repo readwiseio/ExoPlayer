@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.metadata</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.metadata</a></div>
 <h2 title="Class MetadataRenderer" class="title">Class MetadataRenderer</h2>
 </div>
 <div class="contentContainer">
@@ -121,10 +121,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li><a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">java.lang.Object</a></li>
 <li>
 <ul class="inheritance">
-<li><a href="../BaseRenderer.html" title="class in com.google.android.exoplayer2">com.google.android.exoplayer2.BaseRenderer</a></li>
+<li><a href="../BaseRenderer.html" title="class in com.readwise.android.exoplayer2">com.readwise.android.exoplayer2.BaseRenderer</a></li>
 <li>
 <ul class="inheritance">
-<li>com.google.android.exoplayer2.metadata.MetadataRenderer</li>
+<li>com.readwise.android.exoplayer2.metadata.MetadataRenderer</li>
 </ul>
 </li>
 </ul>
@@ -135,15 +135,15 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Implemented Interfaces:</dt>
-<dd><code><a href="https://developer.android.com/reference/android/os/Handler.Callback.html" title="class or interface in android.os" class="externalLink">Handler.Callback</a></code>, <code><a href="../PlayerMessage.Target.html" title="interface in com.google.android.exoplayer2">PlayerMessage.Target</a></code>, <code><a href="../Renderer.html" title="interface in com.google.android.exoplayer2">Renderer</a></code>, <code><a href="../RendererCapabilities.html" title="interface in com.google.android.exoplayer2" target="_top">RendererCapabilities</a></code></dd>
+<dd><code><a href="https://developer.android.com/reference/android/os/Handler.Callback.html" title="class or interface in android.os" class="externalLink">Handler.Callback</a></code>, <code><a href="../PlayerMessage.Target.html" title="interface in com.readwise.android.exoplayer2">PlayerMessage.Target</a></code>, <code><a href="../Renderer.html" title="interface in com.readwise.android.exoplayer2">Renderer</a></code>, <code><a href="../RendererCapabilities.html" title="interface in com.readwise.android.exoplayer2" target="_top">RendererCapabilities</a></code></dd>
 </dl>
 <hr>
 <pre>public final class <span class="typeNameLabel">MetadataRenderer</span>
-extends <a href="../BaseRenderer.html" title="class in com.google.android.exoplayer2">BaseRenderer</a>
+extends <a href="../BaseRenderer.html" title="class in com.readwise.android.exoplayer2">BaseRenderer</a>
 implements <a href="https://developer.android.com/reference/android/os/Handler.Callback.html" title="class or interface in android.os" class="externalLink" target="_top">Handler.Callback</a></pre>
 <div class="block">A renderer for metadata.
 
- <p>The renderer can be configured to render metadata as soon as they are available using <a href="#%3Cinit%3E(com.google.android.exoplayer2.metadata.MetadataOutput,android.os.Looper,com.google.android.exoplayer2.metadata.MetadataDecoderFactory,boolean)"><code>MetadataRenderer(MetadataOutput, Looper, MetadataDecoderFactory, boolean)</code></a>.</div>
+ <p>The renderer can be configured to render metadata as soon as they are available using <a href="#%3Cinit%3E(com.readwise.android.exoplayer2.metadata.MetadataOutput,android.os.Looper,com.readwise.android.exoplayer2.metadata.MetadataDecoderFactory,boolean)"><code>MetadataRenderer(MetadataOutput, Looper, MetadataDecoderFactory, boolean)</code></a>.</div>
 </li>
 </ul>
 </div>
@@ -158,18 +158,18 @@ implements <a href="https://developer.android.com/reference/android/os/Handler.C
 </a>
 <h3>Nested Class Summary</h3>
 <ul class="blockList">
-<li class="blockList"><a id="nested.classes.inherited.from.class.com.google.android.exoplayer2.Renderer">
+<li class="blockList"><a id="nested.classes.inherited.from.class.com.readwise.android.exoplayer2.Renderer">
 <!--   -->
 </a>
-<h3>Nested classes/interfaces inherited from interface&nbsp;com.google.android.exoplayer2.<a href="../Renderer.html" title="interface in com.google.android.exoplayer2">Renderer</a></h3>
-<code><a href="../Renderer.MessageType.html" title="annotation in com.google.android.exoplayer2">Renderer.MessageType</a>, <a href="../Renderer.State.html" title="annotation in com.google.android.exoplayer2">Renderer.State</a>, <a href="../Renderer.WakeupListener.html" title="interface in com.google.android.exoplayer2">Renderer.WakeupListener</a></code></li>
+<h3>Nested classes/interfaces inherited from interface&nbsp;com.readwise.android.exoplayer2.<a href="../Renderer.html" title="interface in com.readwise.android.exoplayer2">Renderer</a></h3>
+<code><a href="../Renderer.MessageType.html" title="annotation in com.readwise.android.exoplayer2">Renderer.MessageType</a>, <a href="../Renderer.State.html" title="annotation in com.readwise.android.exoplayer2">Renderer.State</a>, <a href="../Renderer.WakeupListener.html" title="interface in com.readwise.android.exoplayer2">Renderer.WakeupListener</a></code></li>
 </ul>
 <ul class="blockList">
-<li class="blockList"><a id="nested.classes.inherited.from.class.com.google.android.exoplayer2.RendererCapabilities">
+<li class="blockList"><a id="nested.classes.inherited.from.class.com.readwise.android.exoplayer2.RendererCapabilities">
 <!--   -->
 </a>
-<h3>Nested classes/interfaces inherited from interface&nbsp;com.google.android.exoplayer2.<a href="../RendererCapabilities.html" title="interface in com.google.android.exoplayer2">RendererCapabilities</a></h3>
-<code><a href="../RendererCapabilities.AdaptiveSupport.html" title="annotation in com.google.android.exoplayer2">RendererCapabilities.AdaptiveSupport</a>, <a href="../RendererCapabilities.Capabilities.html" title="annotation in com.google.android.exoplayer2">RendererCapabilities.Capabilities</a>, <a href="../RendererCapabilities.DecoderSupport.html" title="annotation in com.google.android.exoplayer2">RendererCapabilities.DecoderSupport</a>, <a href="../RendererCapabilities.FormatSupport.html" title="annotation in com.google.android.exoplayer2">RendererCapabilities.FormatSupport</a>, <a href="../RendererCapabilities.HardwareAccelerationSupport.html" title="annotation in com.google.android.exoplayer2">RendererCapabilities.HardwareAccelerationSupport</a>, <a href="../RendererCapabilities.TunnelingSupport.html" title="annotation in com.google.android.exoplayer2">RendererCapabilities.TunnelingSupport</a></code></li>
+<h3>Nested classes/interfaces inherited from interface&nbsp;com.readwise.android.exoplayer2.<a href="../RendererCapabilities.html" title="interface in com.readwise.android.exoplayer2">RendererCapabilities</a></h3>
+<code><a href="../RendererCapabilities.AdaptiveSupport.html" title="annotation in com.readwise.android.exoplayer2">RendererCapabilities.AdaptiveSupport</a>, <a href="../RendererCapabilities.Capabilities.html" title="annotation in com.readwise.android.exoplayer2">RendererCapabilities.Capabilities</a>, <a href="../RendererCapabilities.DecoderSupport.html" title="annotation in com.readwise.android.exoplayer2">RendererCapabilities.DecoderSupport</a>, <a href="../RendererCapabilities.FormatSupport.html" title="annotation in com.readwise.android.exoplayer2">RendererCapabilities.FormatSupport</a>, <a href="../RendererCapabilities.HardwareAccelerationSupport.html" title="annotation in com.readwise.android.exoplayer2">RendererCapabilities.HardwareAccelerationSupport</a>, <a href="../RendererCapabilities.TunnelingSupport.html" title="annotation in com.readwise.android.exoplayer2">RendererCapabilities.TunnelingSupport</a></code></li>
 </ul>
 </li>
 </ul>
@@ -182,17 +182,17 @@ implements <a href="https://developer.android.com/reference/android/os/Handler.C
 </a>
 <h3>Field Summary</h3>
 <ul class="blockList">
-<li class="blockList"><a id="fields.inherited.from.class.com.google.android.exoplayer2.Renderer">
+<li class="blockList"><a id="fields.inherited.from.class.com.readwise.android.exoplayer2.Renderer">
 <!--   -->
 </a>
-<h3>Fields inherited from interface&nbsp;com.google.android.exoplayer2.<a href="../Renderer.html" title="interface in com.google.android.exoplayer2">Renderer</a></h3>
+<h3>Fields inherited from interface&nbsp;com.readwise.android.exoplayer2.<a href="../Renderer.html" title="interface in com.readwise.android.exoplayer2">Renderer</a></h3>
 <code><a href="../Renderer.html#MSG_CUSTOM_BASE">MSG_CUSTOM_BASE</a>, <a href="../Renderer.html#MSG_SET_AUDIO_ATTRIBUTES">MSG_SET_AUDIO_ATTRIBUTES</a>, <a href="../Renderer.html#MSG_SET_AUDIO_SESSION_ID">MSG_SET_AUDIO_SESSION_ID</a>, <a href="../Renderer.html#MSG_SET_AUX_EFFECT_INFO">MSG_SET_AUX_EFFECT_INFO</a>, <a href="../Renderer.html#MSG_SET_CAMERA_MOTION_LISTENER">MSG_SET_CAMERA_MOTION_LISTENER</a>, <a href="../Renderer.html#MSG_SET_CHANGE_FRAME_RATE_STRATEGY">MSG_SET_CHANGE_FRAME_RATE_STRATEGY</a>, <a href="../Renderer.html#MSG_SET_PREFERRED_AUDIO_DEVICE">MSG_SET_PREFERRED_AUDIO_DEVICE</a>, <a href="../Renderer.html#MSG_SET_SCALING_MODE">MSG_SET_SCALING_MODE</a>, <a href="../Renderer.html#MSG_SET_SKIP_SILENCE_ENABLED">MSG_SET_SKIP_SILENCE_ENABLED</a>, <a href="../Renderer.html#MSG_SET_VIDEO_FRAME_METADATA_LISTENER">MSG_SET_VIDEO_FRAME_METADATA_LISTENER</a>, <a href="../Renderer.html#MSG_SET_VIDEO_OUTPUT">MSG_SET_VIDEO_OUTPUT</a>, <a href="../Renderer.html#MSG_SET_VOLUME">MSG_SET_VOLUME</a>, <a href="../Renderer.html#MSG_SET_WAKEUP_LISTENER">MSG_SET_WAKEUP_LISTENER</a>, <a href="../Renderer.html#STATE_DISABLED">STATE_DISABLED</a>, <a href="../Renderer.html#STATE_ENABLED">STATE_ENABLED</a>, <a href="../Renderer.html#STATE_STARTED">STATE_STARTED</a></code></li>
 </ul>
 <ul class="blockList">
-<li class="blockList"><a id="fields.inherited.from.class.com.google.android.exoplayer2.RendererCapabilities">
+<li class="blockList"><a id="fields.inherited.from.class.com.readwise.android.exoplayer2.RendererCapabilities">
 <!--   -->
 </a>
-<h3>Fields inherited from interface&nbsp;com.google.android.exoplayer2.<a href="../RendererCapabilities.html" title="interface in com.google.android.exoplayer2">RendererCapabilities</a></h3>
+<h3>Fields inherited from interface&nbsp;com.readwise.android.exoplayer2.<a href="../RendererCapabilities.html" title="interface in com.readwise.android.exoplayer2">RendererCapabilities</a></h3>
 <code><a href="../RendererCapabilities.html#ADAPTIVE_NOT_SEAMLESS">ADAPTIVE_NOT_SEAMLESS</a>, <a href="../RendererCapabilities.html#ADAPTIVE_NOT_SUPPORTED">ADAPTIVE_NOT_SUPPORTED</a>, <a href="../RendererCapabilities.html#ADAPTIVE_SEAMLESS">ADAPTIVE_SEAMLESS</a>, <a href="../RendererCapabilities.html#ADAPTIVE_SUPPORT_MASK">ADAPTIVE_SUPPORT_MASK</a>, <a href="../RendererCapabilities.html#DECODER_SUPPORT_FALLBACK">DECODER_SUPPORT_FALLBACK</a>, <a href="../RendererCapabilities.html#DECODER_SUPPORT_FALLBACK_MIMETYPE">DECODER_SUPPORT_FALLBACK_MIMETYPE</a>, <a href="../RendererCapabilities.html#DECODER_SUPPORT_PRIMARY">DECODER_SUPPORT_PRIMARY</a>, <a href="../RendererCapabilities.html#FORMAT_EXCEEDS_CAPABILITIES">FORMAT_EXCEEDS_CAPABILITIES</a>, <a href="../RendererCapabilities.html#FORMAT_HANDLED">FORMAT_HANDLED</a>, <a href="../RendererCapabilities.html#FORMAT_SUPPORT_MASK">FORMAT_SUPPORT_MASK</a>, <a href="../RendererCapabilities.html#FORMAT_UNSUPPORTED_DRM">FORMAT_UNSUPPORTED_DRM</a>, <a href="../RendererCapabilities.html#FORMAT_UNSUPPORTED_SUBTYPE">FORMAT_UNSUPPORTED_SUBTYPE</a>, <a href="../RendererCapabilities.html#FORMAT_UNSUPPORTED_TYPE">FORMAT_UNSUPPORTED_TYPE</a>, <a href="../RendererCapabilities.html#HARDWARE_ACCELERATION_NOT_SUPPORTED">HARDWARE_ACCELERATION_NOT_SUPPORTED</a>, <a href="../RendererCapabilities.html#HARDWARE_ACCELERATION_SUPPORT_MASK">HARDWARE_ACCELERATION_SUPPORT_MASK</a>, <a href="../RendererCapabilities.html#HARDWARE_ACCELERATION_SUPPORTED">HARDWARE_ACCELERATION_SUPPORTED</a>, <a href="../RendererCapabilities.html#MODE_SUPPORT_MASK">MODE_SUPPORT_MASK</a>, <a href="../RendererCapabilities.html#TUNNELING_NOT_SUPPORTED">TUNNELING_NOT_SUPPORTED</a>, <a href="../RendererCapabilities.html#TUNNELING_SUPPORT_MASK">TUNNELING_SUPPORT_MASK</a>, <a href="../RendererCapabilities.html#TUNNELING_SUPPORTED">TUNNELING_SUPPORTED</a></code></li>
 </ul>
 </li>
@@ -212,24 +212,24 @@ implements <a href="https://developer.android.com/reference/android/os/Handler.C
 <th class="colLast" scope="col">Description</th>
 </tr>
 <tr class="altColor">
-<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(com.google.android.exoplayer2.metadata.MetadataOutput,android.os.Looper)">MetadataRenderer</a></span>&#8203;(<a href="MetadataOutput.html" title="interface in com.google.android.exoplayer2.metadata">MetadataOutput</a>&nbsp;output,
+<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(com.readwise.android.exoplayer2.metadata.MetadataOutput,android.os.Looper)">MetadataRenderer</a></span>&#8203;(<a href="MetadataOutput.html" title="interface in com.readwise.android.exoplayer2.metadata">MetadataOutput</a>&nbsp;output,
                 <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top">Looper</a>&nbsp;outputLooper)</code></th>
 <td class="colLast">
-<div class="block">Creates an instance that uses <a href="MetadataDecoderFactory.html#DEFAULT"><code>MetadataDecoderFactory.DEFAULT</code></a> to create <a href="MetadataDecoder.html" title="interface in com.google.android.exoplayer2.metadata"><code>MetadataDecoder</code></a> instances.</div>
+<div class="block">Creates an instance that uses <a href="MetadataDecoderFactory.html#DEFAULT"><code>MetadataDecoderFactory.DEFAULT</code></a> to create <a href="MetadataDecoder.html" title="interface in com.readwise.android.exoplayer2.metadata"><code>MetadataDecoder</code></a> instances.</div>
 </td>
 </tr>
 <tr class="rowColor">
-<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(com.google.android.exoplayer2.metadata.MetadataOutput,android.os.Looper,com.google.android.exoplayer2.metadata.MetadataDecoderFactory)">MetadataRenderer</a></span>&#8203;(<a href="MetadataOutput.html" title="interface in com.google.android.exoplayer2.metadata">MetadataOutput</a>&nbsp;output,
+<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(com.readwise.android.exoplayer2.metadata.MetadataOutput,android.os.Looper,com.readwise.android.exoplayer2.metadata.MetadataDecoderFactory)">MetadataRenderer</a></span>&#8203;(<a href="MetadataOutput.html" title="interface in com.readwise.android.exoplayer2.metadata">MetadataOutput</a>&nbsp;output,
                 <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top">Looper</a>&nbsp;outputLooper,
-                <a href="MetadataDecoderFactory.html" title="interface in com.google.android.exoplayer2.metadata">MetadataDecoderFactory</a>&nbsp;decoderFactory)</code></th>
+                <a href="MetadataDecoderFactory.html" title="interface in com.readwise.android.exoplayer2.metadata">MetadataDecoderFactory</a>&nbsp;decoderFactory)</code></th>
 <td class="colLast">
 <div class="block">Creates an instance.</div>
 </td>
 </tr>
 <tr class="altColor">
-<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(com.google.android.exoplayer2.metadata.MetadataOutput,android.os.Looper,com.google.android.exoplayer2.metadata.MetadataDecoderFactory,boolean)">MetadataRenderer</a></span>&#8203;(<a href="MetadataOutput.html" title="interface in com.google.android.exoplayer2.metadata">MetadataOutput</a>&nbsp;output,
+<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(com.readwise.android.exoplayer2.metadata.MetadataOutput,android.os.Looper,com.readwise.android.exoplayer2.metadata.MetadataDecoderFactory,boolean)">MetadataRenderer</a></span>&#8203;(<a href="MetadataOutput.html" title="interface in com.readwise.android.exoplayer2.metadata">MetadataOutput</a>&nbsp;output,
                 <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top">Looper</a>&nbsp;outputLooper,
-                <a href="MetadataDecoderFactory.html" title="interface in com.google.android.exoplayer2.metadata">MetadataDecoderFactory</a>&nbsp;decoderFactory,
+                <a href="MetadataDecoderFactory.html" title="interface in com.readwise.android.exoplayer2.metadata">MetadataDecoderFactory</a>&nbsp;decoderFactory,
                 boolean&nbsp;outputMetadataEarly)</code></th>
 <td class="colLast">
 <div class="block">Creates an instance.</div>
@@ -269,7 +269,7 @@ implements <a href="https://developer.android.com/reference/android/os/Handler.C
 <td class="colFirst"><code>boolean</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#isEnded()">isEnded</a></span>()</code></th>
 <td class="colLast">
-<div class="block">Whether the renderer is ready for the <a href="../ExoPlayer.html" title="interface in com.google.android.exoplayer2"><code>ExoPlayer</code></a> instance to transition to <a href="../Player.html#STATE_ENDED"><code>Player.STATE_ENDED</code></a>.</div>
+<div class="block">Whether the renderer is ready for the <a href="../ExoPlayer.html" title="interface in com.readwise.android.exoplayer2"><code>ExoPlayer</code></a> instance to transition to <a href="../Player.html#STATE_ENDED"><code>Player.STATE_ENDED</code></a>.</div>
 </td>
 </tr>
 <tr id="i3" class="rowColor">
@@ -296,7 +296,7 @@ implements <a href="https://developer.android.com/reference/android/os/Handler.C
 </tr>
 <tr id="i6" class="altColor">
 <td class="colFirst"><code>protected void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onStreamChanged(com.google.android.exoplayer2.Format%5B%5D,long,long)">onStreamChanged</a></span>&#8203;(<a href="../Format.html" title="class in com.google.android.exoplayer2">Format</a>[]&nbsp;formats,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onStreamChanged(com.readwise.android.exoplayer2.Format%5B%5D,long,long)">onStreamChanged</a></span>&#8203;(<a href="../Format.html" title="class in com.readwise.android.exoplayer2">Format</a>[]&nbsp;formats,
                long&nbsp;startPositionUs,
                long&nbsp;offsetUs)</code></th>
 <td class="colLast">
@@ -308,23 +308,23 @@ implements <a href="https://developer.android.com/reference/android/os/Handler.C
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#render(long,long)">render</a></span>&#8203;(long&nbsp;positionUs,
       long&nbsp;elapsedRealtimeUs)</code></th>
 <td class="colLast">
-<div class="block">Incrementally renders the <a href="../source/SampleStream.html" title="interface in com.google.android.exoplayer2.source"><code>SampleStream</code></a>.</div>
+<div class="block">Incrementally renders the <a href="../source/SampleStream.html" title="interface in com.readwise.android.exoplayer2.source"><code>SampleStream</code></a>.</div>
 </td>
 </tr>
 <tr id="i8" class="altColor">
-<td class="colFirst"><code>@com.google.android.exoplayer2.RendererCapabilities.Capabilities int</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#supportsFormat(com.google.android.exoplayer2.Format)">supportsFormat</a></span>&#8203;(<a href="../Format.html" title="class in com.google.android.exoplayer2">Format</a>&nbsp;format)</code></th>
+<td class="colFirst"><code>@com.readwise.android.exoplayer2.RendererCapabilities.Capabilities int</code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#supportsFormat(com.readwise.android.exoplayer2.Format)">supportsFormat</a></span>&#8203;(<a href="../Format.html" title="class in com.readwise.android.exoplayer2">Format</a>&nbsp;format)</code></th>
 <td class="colLast">
-<div class="block">Returns the extent to which the <a href="../Renderer.html" title="interface in com.google.android.exoplayer2"><code>Renderer</code></a> supports a given format.</div>
+<div class="block">Returns the extent to which the <a href="../Renderer.html" title="interface in com.readwise.android.exoplayer2"><code>Renderer</code></a> supports a given format.</div>
 </td>
 </tr>
 </table>
 <ul class="blockList">
-<li class="blockList"><a id="methods.inherited.from.class.com.google.android.exoplayer2.BaseRenderer">
+<li class="blockList"><a id="methods.inherited.from.class.com.readwise.android.exoplayer2.BaseRenderer">
 <!--   -->
 </a>
-<h3>Methods inherited from class&nbsp;com.google.android.exoplayer2.<a href="../BaseRenderer.html" title="class in com.google.android.exoplayer2">BaseRenderer</a></h3>
-<code><a href="../BaseRenderer.html#createRendererException(java.lang.Throwable,com.google.android.exoplayer2.Format,@com.google.android.exoplayer2.PlaybackException.ErrorCodeint)">createRendererException</a>, <a href="../BaseRenderer.html#createRendererException(java.lang.Throwable,com.google.android.exoplayer2.Format,boolean,@com.google.android.exoplayer2.PlaybackException.ErrorCodeint)">createRendererException</a>, <a href="../BaseRenderer.html#disable()">disable</a>, <a href="../BaseRenderer.html#enable(com.google.android.exoplayer2.RendererConfiguration,com.google.android.exoplayer2.Format%5B%5D,com.google.android.exoplayer2.source.SampleStream,long,boolean,boolean,long,long)">enable</a>, <a href="../BaseRenderer.html#getCapabilities()">getCapabilities</a>, <a href="../BaseRenderer.html#getConfiguration()">getConfiguration</a>, <a href="../BaseRenderer.html#getFormatHolder()">getFormatHolder</a>, <a href="../BaseRenderer.html#getIndex()">getIndex</a>, <a href="../BaseRenderer.html#getLastResetPositionUs()">getLastResetPositionUs</a>, <a href="../BaseRenderer.html#getMediaClock()">getMediaClock</a>, <a href="../BaseRenderer.html#getPlayerId()">getPlayerId</a>, <a href="../BaseRenderer.html#getReadingPositionUs()">getReadingPositionUs</a>, <a href="../BaseRenderer.html#getState()">getState</a>, <a href="../BaseRenderer.html#getStream()">getStream</a>, <a href="../BaseRenderer.html#getStreamFormats()">getStreamFormats</a>, <a href="../BaseRenderer.html#getTrackType()">getTrackType</a>, <a href="../BaseRenderer.html#handleMessage(@com.google.android.exoplayer2.Renderer.MessageTypeint,java.lang.Object)">handleMessage</a>, <a href="../BaseRenderer.html#hasReadStreamToEnd()">hasReadStreamToEnd</a>, <a href="../BaseRenderer.html#init(int,com.google.android.exoplayer2.analytics.PlayerId)">init</a>, <a href="../BaseRenderer.html#isCurrentStreamFinal()">isCurrentStreamFinal</a>, <a href="../BaseRenderer.html#isSourceReady()">isSourceReady</a>, <a href="../BaseRenderer.html#maybeThrowStreamError()">maybeThrowStreamError</a>, <a href="../BaseRenderer.html#onEnabled(boolean,boolean)">onEnabled</a>, <a href="../BaseRenderer.html#onReset()">onReset</a>, <a href="../BaseRenderer.html#onStarted()">onStarted</a>, <a href="../BaseRenderer.html#onStopped()">onStopped</a>, <a href="../BaseRenderer.html#readSource(com.google.android.exoplayer2.FormatHolder,com.google.android.exoplayer2.decoder.DecoderInputBuffer,@com.google.android.exoplayer2.source.SampleStream.ReadFlagsint)">readSource</a>, <a href="../BaseRenderer.html#replaceStream(com.google.android.exoplayer2.Format%5B%5D,com.google.android.exoplayer2.source.SampleStream,long,long)">replaceStream</a>, <a href="../BaseRenderer.html#reset()">reset</a>, <a href="../BaseRenderer.html#resetPosition(long)">resetPosition</a>, <a href="../BaseRenderer.html#setCurrentStreamFinal()">setCurrentStreamFinal</a>, <a href="../BaseRenderer.html#skipSource(long)">skipSource</a>, <a href="../BaseRenderer.html#start()">start</a>, <a href="../BaseRenderer.html#stop()">stop</a>, <a href="../BaseRenderer.html#supportsMixedMimeTypeAdaptation()">supportsMixedMimeTypeAdaptation</a></code></li>
+<h3>Methods inherited from class&nbsp;com.readwise.android.exoplayer2.<a href="../BaseRenderer.html" title="class in com.readwise.android.exoplayer2">BaseRenderer</a></h3>
+<code><a href="../BaseRenderer.html#createRendererException(java.lang.Throwable,com.readwise.android.exoplayer2.Format,@com.readwise.android.exoplayer2.PlaybackException.ErrorCodeint)">createRendererException</a>, <a href="../BaseRenderer.html#createRendererException(java.lang.Throwable,com.readwise.android.exoplayer2.Format,boolean,@com.readwise.android.exoplayer2.PlaybackException.ErrorCodeint)">createRendererException</a>, <a href="../BaseRenderer.html#disable()">disable</a>, <a href="../BaseRenderer.html#enable(com.readwise.android.exoplayer2.RendererConfiguration,com.readwise.android.exoplayer2.Format%5B%5D,com.readwise.android.exoplayer2.source.SampleStream,long,boolean,boolean,long,long)">enable</a>, <a href="../BaseRenderer.html#getCapabilities()">getCapabilities</a>, <a href="../BaseRenderer.html#getConfiguration()">getConfiguration</a>, <a href="../BaseRenderer.html#getFormatHolder()">getFormatHolder</a>, <a href="../BaseRenderer.html#getIndex()">getIndex</a>, <a href="../BaseRenderer.html#getLastResetPositionUs()">getLastResetPositionUs</a>, <a href="../BaseRenderer.html#getMediaClock()">getMediaClock</a>, <a href="../BaseRenderer.html#getPlayerId()">getPlayerId</a>, <a href="../BaseRenderer.html#getReadingPositionUs()">getReadingPositionUs</a>, <a href="../BaseRenderer.html#getState()">getState</a>, <a href="../BaseRenderer.html#getStream()">getStream</a>, <a href="../BaseRenderer.html#getStreamFormats()">getStreamFormats</a>, <a href="../BaseRenderer.html#getTrackType()">getTrackType</a>, <a href="../BaseRenderer.html#handleMessage(@com.readwise.android.exoplayer2.Renderer.MessageTypeint,java.lang.Object)">handleMessage</a>, <a href="../BaseRenderer.html#hasReadStreamToEnd()">hasReadStreamToEnd</a>, <a href="../BaseRenderer.html#init(int,com.readwise.android.exoplayer2.analytics.PlayerId)">init</a>, <a href="../BaseRenderer.html#isCurrentStreamFinal()">isCurrentStreamFinal</a>, <a href="../BaseRenderer.html#isSourceReady()">isSourceReady</a>, <a href="../BaseRenderer.html#maybeThrowStreamError()">maybeThrowStreamError</a>, <a href="../BaseRenderer.html#onEnabled(boolean,boolean)">onEnabled</a>, <a href="../BaseRenderer.html#onReset()">onReset</a>, <a href="../BaseRenderer.html#onStarted()">onStarted</a>, <a href="../BaseRenderer.html#onStopped()">onStopped</a>, <a href="../BaseRenderer.html#readSource(com.readwise.android.exoplayer2.FormatHolder,com.readwise.android.exoplayer2.decoder.DecoderInputBuffer,@com.readwise.android.exoplayer2.source.SampleStream.ReadFlagsint)">readSource</a>, <a href="../BaseRenderer.html#replaceStream(com.readwise.android.exoplayer2.Format%5B%5D,com.readwise.android.exoplayer2.source.SampleStream,long,long)">replaceStream</a>, <a href="../BaseRenderer.html#reset()">reset</a>, <a href="../BaseRenderer.html#resetPosition(long)">resetPosition</a>, <a href="../BaseRenderer.html#setCurrentStreamFinal()">setCurrentStreamFinal</a>, <a href="../BaseRenderer.html#skipSource(long)">skipSource</a>, <a href="../BaseRenderer.html#start()">start</a>, <a href="../BaseRenderer.html#stop()">stop</a>, <a href="../BaseRenderer.html#supportsMixedMimeTypeAdaptation()">supportsMixedMimeTypeAdaptation</a></code></li>
 </ul>
 <ul class="blockList">
 <li class="blockList"><a id="methods.inherited.from.class.java.lang.Object">
@@ -334,10 +334,10 @@ implements <a href="https://developer.android.com/reference/android/os/Handler.C
 <code><a href="https://developer.android.com/reference/java/lang/Object.html#clone()" title="class or interface in java.lang" class="externalLink">clone</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#equals(java.lang.Object)" title="class or interface in java.lang" class="externalLink">equals</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#finalize()" title="class or interface in java.lang" class="externalLink">finalize</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#getClass()" title="class or interface in java.lang" class="externalLink">getClass</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#hashCode()" title="class or interface in java.lang" class="externalLink">hashCode</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#notify()" title="class or interface in java.lang" class="externalLink">notify</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#notifyAll()" title="class or interface in java.lang" class="externalLink">notifyAll</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#toString()" title="class or interface in java.lang" class="externalLink">toString</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#wait()" title="class or interface in java.lang" class="externalLink">wait</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#wait(long)" title="class or interface in java.lang" class="externalLink">wait</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#wait(long,int)" title="class or interface in java.lang" class="externalLink" target="_top">wait</a></code></li>
 </ul>
 <ul class="blockList">
-<li class="blockList"><a id="methods.inherited.from.class.com.google.android.exoplayer2.Renderer">
+<li class="blockList"><a id="methods.inherited.from.class.com.readwise.android.exoplayer2.Renderer">
 <!--   -->
 </a>
-<h3>Methods inherited from interface&nbsp;com.google.android.exoplayer2.<a href="../Renderer.html" title="interface in com.google.android.exoplayer2">Renderer</a></h3>
+<h3>Methods inherited from interface&nbsp;com.readwise.android.exoplayer2.<a href="../Renderer.html" title="interface in com.readwise.android.exoplayer2">Renderer</a></h3>
 <code><a href="../Renderer.html#setPlaybackSpeed(float,float)">setPlaybackSpeed</a></code></li>
 </ul>
 </li>
@@ -356,16 +356,16 @@ implements <a href="https://developer.android.com/reference/android/os/Handler.C
 <!--   -->
 </a>
 <h3>Constructor Detail</h3>
-<a id="&lt;init&gt;(com.google.android.exoplayer2.metadata.MetadataOutput,android.os.Looper)">
+<a id="&lt;init&gt;(com.readwise.android.exoplayer2.metadata.MetadataOutput,android.os.Looper)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>MetadataRenderer</h4>
-<pre>public&nbsp;MetadataRenderer&#8203;(<a href="MetadataOutput.html" title="interface in com.google.android.exoplayer2.metadata">MetadataOutput</a>&nbsp;output,
+<pre>public&nbsp;MetadataRenderer&#8203;(<a href="MetadataOutput.html" title="interface in com.readwise.android.exoplayer2.metadata">MetadataOutput</a>&nbsp;output,
                         @Nullable
                         <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top">Looper</a>&nbsp;outputLooper)</pre>
-<div class="block">Creates an instance that uses <a href="MetadataDecoderFactory.html#DEFAULT"><code>MetadataDecoderFactory.DEFAULT</code></a> to create <a href="MetadataDecoder.html" title="interface in com.google.android.exoplayer2.metadata"><code>MetadataDecoder</code></a> instances.</div>
+<div class="block">Creates an instance that uses <a href="MetadataDecoderFactory.html#DEFAULT"><code>MetadataDecoderFactory.DEFAULT</code></a> to create <a href="MetadataDecoder.html" title="interface in com.readwise.android.exoplayer2.metadata"><code>MetadataDecoder</code></a> instances.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>output</code> - The output.</dd>
@@ -376,16 +376,16 @@ implements <a href="https://developer.android.com/reference/android/os/Handler.C
 </dl>
 </li>
 </ul>
-<a id="&lt;init&gt;(com.google.android.exoplayer2.metadata.MetadataOutput,android.os.Looper,com.google.android.exoplayer2.metadata.MetadataDecoderFactory)">
+<a id="&lt;init&gt;(com.readwise.android.exoplayer2.metadata.MetadataOutput,android.os.Looper,com.readwise.android.exoplayer2.metadata.MetadataDecoderFactory)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>MetadataRenderer</h4>
-<pre>public&nbsp;MetadataRenderer&#8203;(<a href="MetadataOutput.html" title="interface in com.google.android.exoplayer2.metadata">MetadataOutput</a>&nbsp;output,
+<pre>public&nbsp;MetadataRenderer&#8203;(<a href="MetadataOutput.html" title="interface in com.readwise.android.exoplayer2.metadata">MetadataOutput</a>&nbsp;output,
                         @Nullable
                         <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top">Looper</a>&nbsp;outputLooper,
-                        <a href="MetadataDecoderFactory.html" title="interface in com.google.android.exoplayer2.metadata">MetadataDecoderFactory</a>&nbsp;decoderFactory)</pre>
+                        <a href="MetadataDecoderFactory.html" title="interface in com.readwise.android.exoplayer2.metadata">MetadataDecoderFactory</a>&nbsp;decoderFactory)</pre>
 <div class="block">Creates an instance.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -394,20 +394,20 @@ implements <a href="https://developer.android.com/reference/android/os/Handler.C
      If the output makes use of standard Android UI components, then this should normally be the
      looper associated with the application's main thread, which can be obtained using <a href="https://developer.android.com/reference/android/content/ContextWrapper.html#getMainLooper()" title="class or interface in android.content" class="externalLink" target="_top"><code>ContextWrapper.getMainLooper()</code></a>. Null may be passed if the output should be called
      directly on the player's internal rendering thread.</dd>
-<dd><code>decoderFactory</code> - A factory from which to obtain <a href="MetadataDecoder.html" title="interface in com.google.android.exoplayer2.metadata"><code>MetadataDecoder</code></a> instances.</dd>
+<dd><code>decoderFactory</code> - A factory from which to obtain <a href="MetadataDecoder.html" title="interface in com.readwise.android.exoplayer2.metadata"><code>MetadataDecoder</code></a> instances.</dd>
 </dl>
 </li>
 </ul>
-<a id="&lt;init&gt;(com.google.android.exoplayer2.metadata.MetadataOutput,android.os.Looper,com.google.android.exoplayer2.metadata.MetadataDecoderFactory,boolean)">
+<a id="&lt;init&gt;(com.readwise.android.exoplayer2.metadata.MetadataOutput,android.os.Looper,com.readwise.android.exoplayer2.metadata.MetadataDecoderFactory,boolean)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>MetadataRenderer</h4>
-<pre>public&nbsp;MetadataRenderer&#8203;(<a href="MetadataOutput.html" title="interface in com.google.android.exoplayer2.metadata">MetadataOutput</a>&nbsp;output,
+<pre>public&nbsp;MetadataRenderer&#8203;(<a href="MetadataOutput.html" title="interface in com.readwise.android.exoplayer2.metadata">MetadataOutput</a>&nbsp;output,
                         @Nullable
                         <a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top">Looper</a>&nbsp;outputLooper,
-                        <a href="MetadataDecoderFactory.html" title="interface in com.google.android.exoplayer2.metadata">MetadataDecoderFactory</a>&nbsp;decoderFactory,
+                        <a href="MetadataDecoderFactory.html" title="interface in com.readwise.android.exoplayer2.metadata">MetadataDecoderFactory</a>&nbsp;decoderFactory,
                         boolean&nbsp;outputMetadataEarly)</pre>
 <div class="block">Creates an instance.</div>
 <dl>
@@ -417,7 +417,7 @@ implements <a href="https://developer.android.com/reference/android/os/Handler.C
      If the output makes use of standard Android UI components, then this should normally be the
      looper associated with the application's main thread, which can be obtained using <a href="https://developer.android.com/reference/android/content/ContextWrapper.html#getMainLooper()" title="class or interface in android.content" class="externalLink" target="_top"><code>ContextWrapper.getMainLooper()</code></a>. Null may be passed if the output should be called
      directly on the player's internal rendering thread.</dd>
-<dd><code>decoderFactory</code> - A factory from which to obtain <a href="MetadataDecoder.html" title="interface in com.google.android.exoplayer2.metadata"><code>MetadataDecoder</code></a> instances.</dd>
+<dd><code>decoderFactory</code> - A factory from which to obtain <a href="MetadataDecoder.html" title="interface in com.readwise.android.exoplayer2.metadata"><code>MetadataDecoder</code></a> instances.</dd>
 <dd><code>outputMetadataEarly</code> - Whether the renderer outputs metadata early. When <code>true</code>,
      <a href="#render(long,long)"><code>render(long, long)</code></a> will output metadata as soon as they are available to the renderer,
      otherwise <a href="#render(long,long)"><code>render(long, long)</code></a> will output metadata in sync with the rendering position.</dd>
@@ -446,43 +446,43 @@ implements <a href="https://developer.android.com/reference/android/os/Handler.C
  renderer's (un-obfuscated) class name.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="../Renderer.html#getName()">getName</a></code>&nbsp;in interface&nbsp;<code><a href="../Renderer.html" title="interface in com.google.android.exoplayer2">Renderer</a></code></dd>
+<dd><code><a href="../Renderer.html#getName()">getName</a></code>&nbsp;in interface&nbsp;<code><a href="../Renderer.html" title="interface in com.readwise.android.exoplayer2">Renderer</a></code></dd>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="../RendererCapabilities.html#getName()">getName</a></code>&nbsp;in interface&nbsp;<code><a href="../RendererCapabilities.html" title="interface in com.google.android.exoplayer2">RendererCapabilities</a></code></dd>
+<dd><code><a href="../RendererCapabilities.html#getName()">getName</a></code>&nbsp;in interface&nbsp;<code><a href="../RendererCapabilities.html" title="interface in com.readwise.android.exoplayer2">RendererCapabilities</a></code></dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>The name of this renderer.</dd>
 </dl>
 </li>
 </ul>
-<a id="supportsFormat(com.google.android.exoplayer2.Format)">
+<a id="supportsFormat(com.readwise.android.exoplayer2.Format)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>supportsFormat</h4>
-<pre class="methodSignature">public&nbsp;@com.google.android.exoplayer2.RendererCapabilities.Capabilities int&nbsp;supportsFormat&#8203;(<a href="../Format.html" title="class in com.google.android.exoplayer2">Format</a>&nbsp;format)</pre>
-<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../RendererCapabilities.html#supportsFormat(com.google.android.exoplayer2.Format)">RendererCapabilities</a></code></span></div>
-<div class="block">Returns the extent to which the <a href="../Renderer.html" title="interface in com.google.android.exoplayer2"><code>Renderer</code></a> supports a given format.</div>
+<pre class="methodSignature">public&nbsp;@com.readwise.android.exoplayer2.RendererCapabilities.Capabilities int&nbsp;supportsFormat&#8203;(<a href="../Format.html" title="class in com.readwise.android.exoplayer2">Format</a>&nbsp;format)</pre>
+<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../RendererCapabilities.html#supportsFormat(com.readwise.android.exoplayer2.Format)">RendererCapabilities</a></code></span></div>
+<div class="block">Returns the extent to which the <a href="../Renderer.html" title="interface in com.readwise.android.exoplayer2"><code>Renderer</code></a> supports a given format.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="../RendererCapabilities.html#supportsFormat(com.google.android.exoplayer2.Format)">supportsFormat</a></code>&nbsp;in interface&nbsp;<code><a href="../RendererCapabilities.html" title="interface in com.google.android.exoplayer2">RendererCapabilities</a></code></dd>
+<dd><code><a href="../RendererCapabilities.html#supportsFormat(com.readwise.android.exoplayer2.Format)">supportsFormat</a></code>&nbsp;in interface&nbsp;<code><a href="../RendererCapabilities.html" title="interface in com.readwise.android.exoplayer2">RendererCapabilities</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>format</code> - The format.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>The <a href="../RendererCapabilities.Capabilities.html" title="annotation in com.google.android.exoplayer2"><code>RendererCapabilities.Capabilities</code></a> for this format.</dd>
+<dd>The <a href="../RendererCapabilities.Capabilities.html" title="annotation in com.readwise.android.exoplayer2"><code>RendererCapabilities.Capabilities</code></a> for this format.</dd>
 </dl>
 </li>
 </ul>
-<a id="onStreamChanged(com.google.android.exoplayer2.Format[],long,long)">
+<a id="onStreamChanged(com.readwise.android.exoplayer2.Format[],long,long)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onStreamChanged</h4>
-<pre class="methodSignature">protected&nbsp;void&nbsp;onStreamChanged&#8203;(<a href="../Format.html" title="class in com.google.android.exoplayer2">Format</a>[]&nbsp;formats,
+<pre class="methodSignature">protected&nbsp;void&nbsp;onStreamChanged&#8203;(<a href="../Format.html" title="class in com.readwise.android.exoplayer2">Format</a>[]&nbsp;formats,
                                long&nbsp;startPositionUs,
                                long&nbsp;offsetUs)</pre>
-<div class="block"><span class="descfrmTypeLabel">Description copied from class:&nbsp;<code><a href="../BaseRenderer.html#onStreamChanged(com.google.android.exoplayer2.Format%5B%5D,long,long)">BaseRenderer</a></code></span></div>
+<div class="block"><span class="descfrmTypeLabel">Description copied from class:&nbsp;<code><a href="../BaseRenderer.html#onStreamChanged(com.readwise.android.exoplayer2.Format%5B%5D,long,long)">BaseRenderer</a></code></span></div>
 <div class="block">Called when the renderer's stream has changed. This occurs when the renderer is enabled after
  <a href="../BaseRenderer.html#onEnabled(boolean,boolean)"><code>BaseRenderer.onEnabled(boolean, boolean)</code></a> has been called, and also when the stream has been
  replaced whilst the renderer is enabled or started.
@@ -490,11 +490,11 @@ implements <a href="https://developer.android.com/reference/android/os/Handler.C
  <p>The default implementation is a no-op.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Overrides:</span></dt>
-<dd><code><a href="../BaseRenderer.html#onStreamChanged(com.google.android.exoplayer2.Format%5B%5D,long,long)">onStreamChanged</a></code>&nbsp;in class&nbsp;<code><a href="../BaseRenderer.html" title="class in com.google.android.exoplayer2">BaseRenderer</a></code></dd>
+<dd><code><a href="../BaseRenderer.html#onStreamChanged(com.readwise.android.exoplayer2.Format%5B%5D,long,long)">onStreamChanged</a></code>&nbsp;in class&nbsp;<code><a href="../BaseRenderer.html" title="class in com.readwise.android.exoplayer2">BaseRenderer</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>formats</code> - The enabled formats.</dd>
 <dd><code>startPositionUs</code> - The start position of the new stream in renderer time (microseconds).</dd>
-<dd><code>offsetUs</code> - The offset that will be added to the timestamps of buffers read via <a href="../BaseRenderer.html#readSource(com.google.android.exoplayer2.FormatHolder,com.google.android.exoplayer2.decoder.DecoderInputBuffer,@com.google.android.exoplayer2.source.SampleStream.ReadFlagsint)"><code>BaseRenderer.readSource(com.google.android.exoplayer2.FormatHolder, com.google.android.exoplayer2.decoder.DecoderInputBuffer, @com.google.android.exoplayer2.source.SampleStream.ReadFlags int)</code></a> so that decoder input buffers have monotonically increasing timestamps.</dd>
+<dd><code>offsetUs</code> - The offset that will be added to the timestamps of buffers read via <a href="../BaseRenderer.html#readSource(com.readwise.android.exoplayer2.FormatHolder,com.readwise.android.exoplayer2.decoder.DecoderInputBuffer,@com.readwise.android.exoplayer2.source.SampleStream.ReadFlagsint)"><code>BaseRenderer.readSource(com.readwise.android.exoplayer2.FormatHolder, com.readwise.android.exoplayer2.decoder.DecoderInputBuffer, @com.readwise.android.exoplayer2.source.SampleStream.ReadFlags int)</code></a> so that decoder input buffers have monotonically increasing timestamps.</dd>
 </dl>
 </li>
 </ul>
@@ -507,16 +507,16 @@ implements <a href="https://developer.android.com/reference/android/os/Handler.C
 <pre class="methodSignature">protected&nbsp;void&nbsp;onPositionReset&#8203;(long&nbsp;positionUs,
                                boolean&nbsp;joining)</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from class:&nbsp;<code><a href="../BaseRenderer.html#onPositionReset(long,boolean)">BaseRenderer</a></code></span></div>
-<div class="block">Called when the position is reset. This occurs when the renderer is enabled after <a href="../BaseRenderer.html#onStreamChanged(com.google.android.exoplayer2.Format%5B%5D,long,long)"><code>BaseRenderer.onStreamChanged(Format[], long, long)</code></a> has been called, and also when a position discontinuity
+<div class="block">Called when the position is reset. This occurs when the renderer is enabled after <a href="../BaseRenderer.html#onStreamChanged(com.readwise.android.exoplayer2.Format%5B%5D,long,long)"><code>BaseRenderer.onStreamChanged(Format[], long, long)</code></a> has been called, and also when a position discontinuity
  is encountered.
 
- <p>After a position reset, the renderer's <a href="../source/SampleStream.html" title="interface in com.google.android.exoplayer2.source"><code>SampleStream</code></a> is guaranteed to provide samples
+ <p>After a position reset, the renderer's <a href="../source/SampleStream.html" title="interface in com.readwise.android.exoplayer2.source"><code>SampleStream</code></a> is guaranteed to provide samples
  starting from a key frame.
 
  <p>The default implementation is a no-op.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Overrides:</span></dt>
-<dd><code><a href="../BaseRenderer.html#onPositionReset(long,boolean)">onPositionReset</a></code>&nbsp;in class&nbsp;<code><a href="../BaseRenderer.html" title="class in com.google.android.exoplayer2">BaseRenderer</a></code></dd>
+<dd><code><a href="../BaseRenderer.html#onPositionReset(long,boolean)">onPositionReset</a></code>&nbsp;in class&nbsp;<code><a href="../BaseRenderer.html" title="class in com.readwise.android.exoplayer2">BaseRenderer</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>positionUs</code> - The new playback position in microseconds.</dd>
 <dd><code>joining</code> - Whether this renderer is being enabled to join an ongoing playback.</dd>
@@ -532,16 +532,16 @@ implements <a href="https://developer.android.com/reference/android/os/Handler.C
 <pre class="methodSignature">public&nbsp;void&nbsp;render&#8203;(long&nbsp;positionUs,
                    long&nbsp;elapsedRealtimeUs)</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../Renderer.html#render(long,long)">Renderer</a></code></span></div>
-<div class="block">Incrementally renders the <a href="../source/SampleStream.html" title="interface in com.google.android.exoplayer2.source"><code>SampleStream</code></a>.
+<div class="block">Incrementally renders the <a href="../source/SampleStream.html" title="interface in com.readwise.android.exoplayer2.source"><code>SampleStream</code></a>.
 
  <p>If the renderer is in the <a href="../Renderer.html#STATE_ENABLED"><code>Renderer.STATE_ENABLED</code></a> state then each call to this method will do
- work toward being ready to render the <a href="../source/SampleStream.html" title="interface in com.google.android.exoplayer2.source"><code>SampleStream</code></a> when the renderer is started. If the
+ work toward being ready to render the <a href="../source/SampleStream.html" title="interface in com.readwise.android.exoplayer2.source"><code>SampleStream</code></a> when the renderer is started. If the
  renderer is in the <a href="../Renderer.html#STATE_STARTED"><code>Renderer.STATE_STARTED</code></a> state then calls to this method will render the
- <a href="../source/SampleStream.html" title="interface in com.google.android.exoplayer2.source"><code>SampleStream</code></a> in sync with the specified media positions.
+ <a href="../source/SampleStream.html" title="interface in com.readwise.android.exoplayer2.source"><code>SampleStream</code></a> in sync with the specified media positions.
 
  <p>The renderer may also render the very start of the media at the current position (e.g. the
  first frame of a video stream) while still in the <a href="../Renderer.html#STATE_ENABLED"><code>Renderer.STATE_ENABLED</code></a> state, unless it's the
- initial start of the media after calling <a href="../Renderer.html#enable(com.google.android.exoplayer2.RendererConfiguration,com.google.android.exoplayer2.Format%5B%5D,com.google.android.exoplayer2.source.SampleStream,long,boolean,boolean,long,long)"><code>Renderer.enable(RendererConfiguration, Format[],
+ initial start of the media after calling <a href="../Renderer.html#enable(com.readwise.android.exoplayer2.RendererConfiguration,com.readwise.android.exoplayer2.Format%5B%5D,com.readwise.android.exoplayer2.source.SampleStream,long,boolean,boolean,long,long)"><code>Renderer.enable(RendererConfiguration, Format[],
  SampleStream, long, boolean, boolean, long, long)</code></a> with <code>mayRenderStartOfStream</code> set to
  <code>false</code>.
 
@@ -551,7 +551,7 @@ implements <a href="https://developer.android.com/reference/android/os/Handler.C
  <p>This method may be called when the renderer is in the following states: <a href="../Renderer.html#STATE_ENABLED"><code>Renderer.STATE_ENABLED</code></a>, <a href="../Renderer.html#STATE_STARTED"><code>Renderer.STATE_STARTED</code></a>.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="../Renderer.html#render(long,long)">render</a></code>&nbsp;in interface&nbsp;<code><a href="../Renderer.html" title="interface in com.google.android.exoplayer2">Renderer</a></code></dd>
+<dd><code><a href="../Renderer.html#render(long,long)">render</a></code>&nbsp;in interface&nbsp;<code><a href="../Renderer.html" title="interface in com.readwise.android.exoplayer2">Renderer</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>positionUs</code> - The current media time in microseconds, measured at the start of the current
      iteration of the rendering loop.</dd>
@@ -573,7 +573,7 @@ implements <a href="https://developer.android.com/reference/android/os/Handler.C
  <p>The default implementation is a no-op.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Overrides:</span></dt>
-<dd><code><a href="../BaseRenderer.html#onDisabled()">onDisabled</a></code>&nbsp;in class&nbsp;<code><a href="../BaseRenderer.html" title="class in com.google.android.exoplayer2">BaseRenderer</a></code></dd>
+<dd><code><a href="../BaseRenderer.html#onDisabled()">onDisabled</a></code>&nbsp;in class&nbsp;<code><a href="../BaseRenderer.html" title="class in com.readwise.android.exoplayer2">BaseRenderer</a></code></dd>
 </dl>
 </li>
 </ul>
@@ -585,13 +585,13 @@ implements <a href="https://developer.android.com/reference/android/os/Handler.C
 <h4>isEnded</h4>
 <pre class="methodSignature">public&nbsp;boolean&nbsp;isEnded()</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../Renderer.html#isEnded()">Renderer</a></code></span></div>
-<div class="block">Whether the renderer is ready for the <a href="../ExoPlayer.html" title="interface in com.google.android.exoplayer2"><code>ExoPlayer</code></a> instance to transition to <a href="../Player.html#STATE_ENDED"><code>Player.STATE_ENDED</code></a>. The player will make this transition as soon as <code>true</code> is returned
+<div class="block">Whether the renderer is ready for the <a href="../ExoPlayer.html" title="interface in com.readwise.android.exoplayer2"><code>ExoPlayer</code></a> instance to transition to <a href="../Player.html#STATE_ENDED"><code>Player.STATE_ENDED</code></a>. The player will make this transition as soon as <code>true</code> is returned
  by all of its renderers.
 
  <p>This method may be called when the renderer is in the following states: <a href="../Renderer.html#STATE_ENABLED"><code>Renderer.STATE_ENABLED</code></a>, <a href="../Renderer.html#STATE_STARTED"><code>Renderer.STATE_STARTED</code></a>.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="../Renderer.html#isEnded()">isEnded</a></code>&nbsp;in interface&nbsp;<code><a href="../Renderer.html" title="interface in com.google.android.exoplayer2">Renderer</a></code></dd>
+<dd><code><a href="../Renderer.html#isEnded()">isEnded</a></code>&nbsp;in interface&nbsp;<code><a href="../Renderer.html" title="interface in com.readwise.android.exoplayer2">Renderer</a></code></dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>Whether the renderer is ready for the player to transition to the ended state.</dd>
 </dl>
@@ -617,7 +617,7 @@ implements <a href="https://developer.android.com/reference/android/os/Handler.C
  <p>This method may be called when the renderer is in the following states: <a href="../Renderer.html#STATE_ENABLED"><code>Renderer.STATE_ENABLED</code></a>, <a href="../Renderer.html#STATE_STARTED"><code>Renderer.STATE_STARTED</code></a>.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="../Renderer.html#isReady()">isReady</a></code>&nbsp;in interface&nbsp;<code><a href="../Renderer.html" title="interface in com.google.android.exoplayer2">Renderer</a></code></dd>
+<dd><code><a href="../Renderer.html#isReady()">isReady</a></code>&nbsp;in interface&nbsp;<code><a href="../Renderer.html" title="interface in com.readwise.android.exoplayer2">Renderer</a></code></dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>Whether the renderer is ready to render media.</dd>
 </dl>

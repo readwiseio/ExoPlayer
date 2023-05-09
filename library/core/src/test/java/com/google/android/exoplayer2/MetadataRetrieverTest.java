@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
-import static com.google.android.exoplayer2.MetadataRetriever.retrieveMetadata;
-import static com.google.android.exoplayer2.metadata.mp4.MdtaMetadataEntry.KEY_ANDROID_CAPTURE_FPS;
+import static com.readwise.android.exoplayer2.MetadataRetriever.retrieveMetadata;
+import static com.readwise.android.exoplayer2.metadata.mp4.MdtaMetadataEntry.KEY_ANDROID_CAPTURE_FPS;
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
 
@@ -25,13 +25,13 @@ import android.content.Context;
 import android.net.Uri;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.metadata.mp4.MdtaMetadataEntry;
-import com.google.android.exoplayer2.metadata.mp4.MotionPhotoMetadata;
-import com.google.android.exoplayer2.metadata.mp4.SlowMotionData;
-import com.google.android.exoplayer2.metadata.mp4.SmtaMetadataEntry;
-import com.google.android.exoplayer2.source.TrackGroupArray;
-import com.google.android.exoplayer2.testutil.FakeClock;
-import com.google.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.metadata.mp4.MdtaMetadataEntry;
+import com.readwise.android.exoplayer2.metadata.mp4.MotionPhotoMetadata;
+import com.readwise.android.exoplayer2.metadata.mp4.SlowMotionData;
+import com.readwise.android.exoplayer2.metadata.mp4.SmtaMetadataEntry;
+import com.readwise.android.exoplayer2.source.TrackGroupArray;
+import com.readwise.android.exoplayer2.testutil.FakeClock;
+import com.readwise.android.exoplayer2.util.MimeTypes;
 import com.google.common.util.concurrent.ListenableFuture;
 import java.util.ArrayList;
 import java.util.List;

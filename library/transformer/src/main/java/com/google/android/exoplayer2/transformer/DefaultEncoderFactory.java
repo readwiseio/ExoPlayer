@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.transformer;
+package com.readwise.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
-import static com.google.android.exoplayer2.util.Assertions.checkStateNotNull;
-import static com.google.android.exoplayer2.util.MediaFormatUtil.createMediaFormatFromFormat;
+import static com.readwise.android.exoplayer2.util.Assertions.checkArgument;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.util.Assertions.checkStateNotNull;
+import static com.readwise.android.exoplayer2.util.MediaFormatUtil.createMediaFormatFromFormat;
 import static java.lang.Math.abs;
 import static java.lang.Math.floor;
 import static java.lang.Math.round;
@@ -31,10 +31,10 @@ import android.media.MediaFormat;
 import android.util.Pair;
 import android.util.Size;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Util;
-import com.google.android.exoplayer2.video.ColorInfo;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.video.ColorInfo;
 import com.google.common.collect.ImmutableList;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.util.ArrayList;

@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
-import com.google.android.exoplayer2.source.MediaSource;
+import com.readwise.android.exoplayer2.source.MediaSource;
 
 /** A holder of information about a {@link MediaSource}. */
 /* package */ interface MediaSourceInfoHolder {

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.effect;
+package com.readwise.android.exoplayer2.effect;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
+import static com.readwise.android.exoplayer2.util.Assertions.checkArgument;
 
 import android.opengl.Matrix;
 import androidx.annotation.FloatRange;
-import com.google.android.exoplayer2.util.GlUtil;
+import com.readwise.android.exoplayer2.util.GlUtil;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.util.Arrays;
 

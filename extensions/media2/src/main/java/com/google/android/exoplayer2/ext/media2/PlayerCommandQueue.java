@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.media2;
+package com.readwise.android.exoplayer2.ext.media2;
 
-import static com.google.android.exoplayer2.util.Util.postOrRun;
+import static com.readwise.android.exoplayer2.util.Util.postOrRun;
 import static java.lang.annotation.ElementType.TYPE_USE;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 
@@ -28,7 +28,7 @@ import androidx.media2.common.MediaItem;
 import androidx.media2.common.MediaMetadata;
 import androidx.media2.common.SessionPlayer;
 import androidx.media2.common.SessionPlayer.PlayerResult;
-import com.google.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.Log;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.SettableFuture;
 import java.lang.annotation.Documented;

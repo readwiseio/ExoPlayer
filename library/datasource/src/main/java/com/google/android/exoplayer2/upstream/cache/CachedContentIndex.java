@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.upstream.cache;
+package com.readwise.android.exoplayer2.upstream.cache;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.util.Util.castNonNull;
 import static java.lang.Math.min;
 
 import android.annotation.SuppressLint;
@@ -31,12 +31,12 @@ import android.util.SparseBooleanArray;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 import androidx.annotation.WorkerThread;
-import com.google.android.exoplayer2.database.DatabaseIOException;
-import com.google.android.exoplayer2.database.DatabaseProvider;
-import com.google.android.exoplayer2.database.VersionTable;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.AtomicFile;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.database.DatabaseIOException;
+import com.readwise.android.exoplayer2.database.DatabaseProvider;
+import com.readwise.android.exoplayer2.database.VersionTable;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.AtomicFile;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableSet;
 import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;

@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.trackselection;
+package com.readwise.android.exoplayer2.trackselection;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.BundleableUtil.toBundleArrayList;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.BundleableUtil.toBundleArrayList;
 import static com.google.common.base.MoreObjects.firstNonNull;
 
 import android.content.Context;
@@ -26,12 +26,12 @@ import android.os.Looper;
 import android.view.accessibility.CaptioningManager;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.Bundleable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.source.TrackGroup;
-import com.google.android.exoplayer2.util.BundleableUtil;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.Bundleable;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.source.TrackGroup;
+import com.readwise.android.exoplayer2.util.BundleableUtil;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.ImmutableSet;

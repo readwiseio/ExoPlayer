@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.ima;
+package com.readwise.android.exoplayer2.ext.ima;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.util.Assertions.checkArgument;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
 
 import android.net.Uri;
 import android.text.TextUtils;
@@ -25,8 +25,8 @@ import androidx.annotation.Nullable;
 import com.google.ads.interactivemedia.v3.api.ImaSdkFactory;
 import com.google.ads.interactivemedia.v3.api.StreamRequest;
 import com.google.ads.interactivemedia.v3.api.StreamRequest.StreamFormat;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.C.ContentType;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.C.ContentType;
 import com.google.common.collect.ImmutableMap;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.util.HashMap;
@@ -34,7 +34,7 @@ import java.util.Map;
 
 /**
  * Builder for URI for IMA DAI streams. The resulting URI can be used to build a {@link
- * com.google.android.exoplayer2.MediaItem#fromUri(Uri) media item} that can be played by the {@link
+ * com.readwise.android.exoplayer2.MediaItem#fromUri(Uri) media item} that can be played by the {@link
  * ImaServerSideAdInsertionMediaSource}.
  */
 public final class ImaServerSideAdInsertionUriBuilder {

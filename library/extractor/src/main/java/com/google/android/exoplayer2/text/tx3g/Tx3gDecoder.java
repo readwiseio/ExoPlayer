@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.text.tx3g;
+package com.readwise.android.exoplayer2.text.tx3g;
 
-import static com.google.android.exoplayer2.text.Cue.ANCHOR_TYPE_START;
-import static com.google.android.exoplayer2.text.Cue.LINE_TYPE_FRACTION;
+import static com.readwise.android.exoplayer2.text.Cue.ANCHOR_TYPE_START;
+import static com.readwise.android.exoplayer2.text.Cue.LINE_TYPE_FRACTION;
 
 import android.graphics.Color;
 import android.graphics.Typeface;
@@ -27,14 +27,14 @@ import android.text.style.StyleSpan;
 import android.text.style.TypefaceSpan;
 import android.text.style.UnderlineSpan;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.text.Cue;
-import com.google.android.exoplayer2.text.SimpleSubtitleDecoder;
-import com.google.android.exoplayer2.text.Subtitle;
-import com.google.android.exoplayer2.text.SubtitleDecoderException;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.ParsableByteArray;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.text.Cue;
+import com.readwise.android.exoplayer2.text.SimpleSubtitleDecoder;
+import com.readwise.android.exoplayer2.text.Subtitle;
+import com.readwise.android.exoplayer2.text.SubtitleDecoderException;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.ParsableByteArray;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.base.Charsets;
 import java.nio.charset.Charset;
 import java.util.List;

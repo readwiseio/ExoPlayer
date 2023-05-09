@@ -13,36 +13,36 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.chunk;
+package com.readwise.android.exoplayer2.source.chunk;
 
-import static com.google.android.exoplayer2.source.mediaparser.MediaParserUtil.PARAMETER_EAGERLY_EXPOSE_TRACK_TYPE;
-import static com.google.android.exoplayer2.source.mediaparser.MediaParserUtil.PARAMETER_EXPOSE_CAPTION_FORMATS;
-import static com.google.android.exoplayer2.source.mediaparser.MediaParserUtil.PARAMETER_EXPOSE_CHUNK_INDEX_AS_MEDIA_FORMAT;
-import static com.google.android.exoplayer2.source.mediaparser.MediaParserUtil.PARAMETER_EXPOSE_DUMMY_SEEK_MAP;
-import static com.google.android.exoplayer2.source.mediaparser.MediaParserUtil.PARAMETER_INCLUDE_SUPPLEMENTAL_DATA;
-import static com.google.android.exoplayer2.source.mediaparser.MediaParserUtil.PARAMETER_IN_BAND_CRYPTO_INFO;
-import static com.google.android.exoplayer2.source.mediaparser.MediaParserUtil.PARAMETER_OVERRIDE_IN_BAND_CAPTION_DECLARATIONS;
+import static com.readwise.android.exoplayer2.source.mediaparser.MediaParserUtil.PARAMETER_EAGERLY_EXPOSE_TRACK_TYPE;
+import static com.readwise.android.exoplayer2.source.mediaparser.MediaParserUtil.PARAMETER_EXPOSE_CAPTION_FORMATS;
+import static com.readwise.android.exoplayer2.source.mediaparser.MediaParserUtil.PARAMETER_EXPOSE_CHUNK_INDEX_AS_MEDIA_FORMAT;
+import static com.readwise.android.exoplayer2.source.mediaparser.MediaParserUtil.PARAMETER_EXPOSE_DUMMY_SEEK_MAP;
+import static com.readwise.android.exoplayer2.source.mediaparser.MediaParserUtil.PARAMETER_INCLUDE_SUPPLEMENTAL_DATA;
+import static com.readwise.android.exoplayer2.source.mediaparser.MediaParserUtil.PARAMETER_IN_BAND_CRYPTO_INFO;
+import static com.readwise.android.exoplayer2.source.mediaparser.MediaParserUtil.PARAMETER_OVERRIDE_IN_BAND_CAPTION_DECLARATIONS;
 
 import android.annotation.SuppressLint;
 import android.media.MediaFormat;
 import android.media.MediaParser;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.analytics.PlayerId;
-import com.google.android.exoplayer2.extractor.ChunkIndex;
-import com.google.android.exoplayer2.extractor.DummyTrackOutput;
-import com.google.android.exoplayer2.extractor.ExtractorInput;
-import com.google.android.exoplayer2.extractor.ExtractorOutput;
-import com.google.android.exoplayer2.extractor.SeekMap;
-import com.google.android.exoplayer2.extractor.TrackOutput;
-import com.google.android.exoplayer2.source.mediaparser.InputReaderAdapterV30;
-import com.google.android.exoplayer2.source.mediaparser.MediaParserUtil;
-import com.google.android.exoplayer2.source.mediaparser.OutputConsumerAdapterV30;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.analytics.PlayerId;
+import com.readwise.android.exoplayer2.extractor.ChunkIndex;
+import com.readwise.android.exoplayer2.extractor.DummyTrackOutput;
+import com.readwise.android.exoplayer2.extractor.ExtractorInput;
+import com.readwise.android.exoplayer2.extractor.ExtractorOutput;
+import com.readwise.android.exoplayer2.extractor.SeekMap;
+import com.readwise.android.exoplayer2.extractor.TrackOutput;
+import com.readwise.android.exoplayer2.source.mediaparser.InputReaderAdapterV30;
+import com.readwise.android.exoplayer2.source.mediaparser.MediaParserUtil;
+import com.readwise.android.exoplayer2.source.mediaparser.OutputConsumerAdapterV30;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;

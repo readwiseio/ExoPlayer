@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.audio;
+package com.readwise.android.exoplayer2.audio;
 
-import static com.google.android.exoplayer2.C.FORMAT_HANDLED;
-import static com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_NOT_SEAMLESS;
-import static com.google.android.exoplayer2.RendererCapabilities.DECODER_SUPPORT_PRIMARY;
-import static com.google.android.exoplayer2.RendererCapabilities.TUNNELING_NOT_SUPPORTED;
-import static com.google.android.exoplayer2.RendererCapabilities.TUNNELING_SUPPORTED;
-import static com.google.android.exoplayer2.testutil.FakeSampleStream.FakeSampleStreamItem.END_OF_STREAM_ITEM;
-import static com.google.android.exoplayer2.testutil.FakeSampleStream.FakeSampleStreamItem.oneByteSample;
+import static com.readwise.android.exoplayer2.C.FORMAT_HANDLED;
+import static com.readwise.android.exoplayer2.RendererCapabilities.ADAPTIVE_NOT_SEAMLESS;
+import static com.readwise.android.exoplayer2.RendererCapabilities.DECODER_SUPPORT_PRIMARY;
+import static com.readwise.android.exoplayer2.RendererCapabilities.TUNNELING_NOT_SUPPORTED;
+import static com.readwise.android.exoplayer2.RendererCapabilities.TUNNELING_SUPPORTED;
+import static com.readwise.android.exoplayer2.testutil.FakeSampleStream.FakeSampleStreamItem.END_OF_STREAM_ITEM;
+import static com.readwise.android.exoplayer2.testutil.FakeSampleStream.FakeSampleStreamItem.oneByteSample;
 import static com.google.common.truth.Truth.assertThat;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyInt;
@@ -33,20 +33,20 @@ import static org.mockito.Mockito.when;
 
 import androidx.annotation.Nullable;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.RendererConfiguration;
-import com.google.android.exoplayer2.analytics.PlayerId;
-import com.google.android.exoplayer2.decoder.CryptoConfig;
-import com.google.android.exoplayer2.decoder.DecoderException;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
-import com.google.android.exoplayer2.decoder.SimpleDecoder;
-import com.google.android.exoplayer2.decoder.SimpleDecoderOutputBuffer;
-import com.google.android.exoplayer2.drm.DrmSessionEventListener;
-import com.google.android.exoplayer2.drm.DrmSessionManager;
-import com.google.android.exoplayer2.testutil.FakeSampleStream;
-import com.google.android.exoplayer2.upstream.DefaultAllocator;
-import com.google.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.RendererConfiguration;
+import com.readwise.android.exoplayer2.analytics.PlayerId;
+import com.readwise.android.exoplayer2.decoder.CryptoConfig;
+import com.readwise.android.exoplayer2.decoder.DecoderException;
+import com.readwise.android.exoplayer2.decoder.DecoderInputBuffer;
+import com.readwise.android.exoplayer2.decoder.SimpleDecoder;
+import com.readwise.android.exoplayer2.decoder.SimpleDecoderOutputBuffer;
+import com.readwise.android.exoplayer2.drm.DrmSessionEventListener;
+import com.readwise.android.exoplayer2.drm.DrmSessionManager;
+import com.readwise.android.exoplayer2.testutil.FakeSampleStream;
+import com.readwise.android.exoplayer2.upstream.DefaultAllocator;
+import com.readwise.android.exoplayer2.util.MimeTypes;
 import com.google.common.collect.ImmutableList;
 import org.junit.Before;
 import org.junit.Test;

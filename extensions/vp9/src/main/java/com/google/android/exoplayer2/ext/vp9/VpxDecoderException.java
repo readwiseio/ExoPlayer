@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.vp9;
+package com.readwise.android.exoplayer2.ext.vp9;
 
-import com.google.android.exoplayer2.decoder.DecoderException;
+import com.readwise.android.exoplayer2.decoder.DecoderException;
 
 /** Thrown when a libvpx decoder error occurs. */
 public final class VpxDecoderException extends DecoderException {

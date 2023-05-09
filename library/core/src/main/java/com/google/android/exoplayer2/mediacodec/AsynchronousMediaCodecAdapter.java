@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.mediacodec;
+package com.readwise.android.exoplayer2.mediacodec;
 
 import static java.lang.annotation.ElementType.TYPE_USE;
 
@@ -30,9 +30,9 @@ import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.decoder.CryptoInfo;
-import com.google.android.exoplayer2.util.TraceUtil;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.decoder.CryptoInfo;
+import com.readwise.android.exoplayer2.util.TraceUtil;
 import com.google.common.base.Supplier;
 import java.io.IOException;
 import java.lang.annotation.Documented;

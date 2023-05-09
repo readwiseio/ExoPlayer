@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.flac;
+package com.readwise.android.exoplayer2.ext.flac;
 
 import static org.junit.Assert.fail;
 
@@ -23,20 +23,20 @@ import android.os.Looper;
 import androidx.annotation.Nullable;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.ExoPlayer;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.PlaybackException;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Renderer;
-import com.google.android.exoplayer2.RenderersFactory;
-import com.google.android.exoplayer2.audio.AudioSink;
-import com.google.android.exoplayer2.audio.DefaultAudioSink;
-import com.google.android.exoplayer2.extractor.mkv.MatroskaExtractor;
-import com.google.android.exoplayer2.source.MediaSource;
-import com.google.android.exoplayer2.source.ProgressiveMediaSource;
-import com.google.android.exoplayer2.testutil.CapturingAudioSink;
-import com.google.android.exoplayer2.testutil.DumpFileAsserts;
-import com.google.android.exoplayer2.upstream.DefaultDataSource;
+import com.readwise.android.exoplayer2.ExoPlayer;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.PlaybackException;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.Renderer;
+import com.readwise.android.exoplayer2.RenderersFactory;
+import com.readwise.android.exoplayer2.audio.AudioSink;
+import com.readwise.android.exoplayer2.audio.DefaultAudioSink;
+import com.readwise.android.exoplayer2.extractor.mkv.MatroskaExtractor;
+import com.readwise.android.exoplayer2.source.MediaSource;
+import com.readwise.android.exoplayer2.source.ProgressiveMediaSource;
+import com.readwise.android.exoplayer2.testutil.CapturingAudioSink;
+import com.readwise.android.exoplayer2.testutil.DumpFileAsserts;
+import com.readwise.android.exoplayer2.upstream.DefaultDataSource;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

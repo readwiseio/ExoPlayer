@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.ima;
+package com.readwise.android.exoplayer2.ext.ima;
 
-import static com.google.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_AVAILABLE;
-import static com.google.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_PLAYED;
-import static com.google.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_UNAVAILABLE;
-import static com.google.android.exoplayer2.source.ads.ServerSideAdInsertionUtil.addAdGroupToAdPlaybackState;
-import static com.google.android.exoplayer2.source.ads.ServerSideAdInsertionUtil.getMediaPeriodPositionUsForContent;
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
-import static com.google.android.exoplayer2.util.Util.msToUs;
-import static com.google.android.exoplayer2.util.Util.sum;
+import static com.readwise.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_AVAILABLE;
+import static com.readwise.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_PLAYED;
+import static com.readwise.android.exoplayer2.source.ads.AdPlaybackState.AD_STATE_UNAVAILABLE;
+import static com.readwise.android.exoplayer2.source.ads.ServerSideAdInsertionUtil.addAdGroupToAdPlaybackState;
+import static com.readwise.android.exoplayer2.source.ads.ServerSideAdInsertionUtil.getMediaPeriodPositionUsForContent;
+import static com.readwise.android.exoplayer2.util.Assertions.checkArgument;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.util.Util.msToUs;
+import static com.readwise.android.exoplayer2.util.Util.sum;
 import static java.lang.Math.max;
 import static java.lang.Math.min;
 
@@ -52,17 +52,17 @@ import com.google.ads.interactivemedia.v3.api.ImaSdkSettings;
 import com.google.ads.interactivemedia.v3.api.UiElement;
 import com.google.ads.interactivemedia.v3.api.player.VideoAdPlayer;
 import com.google.ads.interactivemedia.v3.api.player.VideoProgressUpdate;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.source.ads.AdPlaybackState;
-import com.google.android.exoplayer2.source.ads.AdPlaybackState.AdGroup;
-import com.google.android.exoplayer2.ui.AdOverlayInfo;
-import com.google.android.exoplayer2.ui.AdViewProvider;
-import com.google.android.exoplayer2.upstream.DataSchemeDataSource;
-import com.google.android.exoplayer2.upstream.DataSourceUtil;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.source.ads.AdPlaybackState;
+import com.readwise.android.exoplayer2.source.ads.AdPlaybackState.AdGroup;
+import com.readwise.android.exoplayer2.ui.AdOverlayInfo;
+import com.readwise.android.exoplayer2.ui.AdViewProvider;
+import com.readwise.android.exoplayer2.upstream.DataSchemeDataSource;
+import com.readwise.android.exoplayer2.upstream.DataSourceUtil;
+import com.readwise.android.exoplayer2.upstream.DataSpec;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.math.DoubleMath;

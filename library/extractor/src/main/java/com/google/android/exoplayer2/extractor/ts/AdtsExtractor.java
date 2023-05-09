@@ -13,29 +13,29 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.extractor.ts;
+package com.readwise.android.exoplayer2.extractor.ts;
 
-import static com.google.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR;
-import static com.google.android.exoplayer2.metadata.id3.Id3Decoder.ID3_HEADER_LENGTH;
-import static com.google.android.exoplayer2.metadata.id3.Id3Decoder.ID3_TAG;
+import static com.readwise.android.exoplayer2.extractor.ts.TsPayloadReader.FLAG_DATA_ALIGNMENT_INDICATOR;
+import static com.readwise.android.exoplayer2.metadata.id3.Id3Decoder.ID3_HEADER_LENGTH;
+import static com.readwise.android.exoplayer2.metadata.id3.Id3Decoder.ID3_TAG;
 import static java.lang.annotation.ElementType.TYPE_USE;
 
 import androidx.annotation.IntDef;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ParserException;
-import com.google.android.exoplayer2.PlaybackException;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.extractor.ConstantBitrateSeekMap;
-import com.google.android.exoplayer2.extractor.Extractor;
-import com.google.android.exoplayer2.extractor.ExtractorInput;
-import com.google.android.exoplayer2.extractor.ExtractorOutput;
-import com.google.android.exoplayer2.extractor.ExtractorsFactory;
-import com.google.android.exoplayer2.extractor.PositionHolder;
-import com.google.android.exoplayer2.extractor.SeekMap;
-import com.google.android.exoplayer2.extractor.ts.TsPayloadReader.TrackIdGenerator;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.ParsableBitArray;
-import com.google.android.exoplayer2.util.ParsableByteArray;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ParserException;
+import com.readwise.android.exoplayer2.PlaybackException;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.extractor.ConstantBitrateSeekMap;
+import com.readwise.android.exoplayer2.extractor.Extractor;
+import com.readwise.android.exoplayer2.extractor.ExtractorInput;
+import com.readwise.android.exoplayer2.extractor.ExtractorOutput;
+import com.readwise.android.exoplayer2.extractor.ExtractorsFactory;
+import com.readwise.android.exoplayer2.extractor.PositionHolder;
+import com.readwise.android.exoplayer2.extractor.SeekMap;
+import com.readwise.android.exoplayer2.extractor.ts.TsPayloadReader.TrackIdGenerator;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.ParsableBitArray;
+import com.readwise.android.exoplayer2.util.ParsableByteArray;
 import java.io.EOFException;
 import java.io.IOException;
 import java.lang.annotation.Documented;

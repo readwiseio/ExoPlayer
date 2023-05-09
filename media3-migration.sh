@@ -15,91 +15,91 @@
 ##
 shopt -s extglob
 
-PACKAGE_MAPPINGS='com.google.android.exoplayer2 com.google.android.exoplayer2
-com.google.android.exoplayer2.analytics com.google.android.exoplayer2.analytics
-com.google.android.exoplayer2.audio com.google.android.exoplayer2.audio
-com.google.android.exoplayer2.castdemo com.google.android.exoplayer2.castdemo
-com.google.android.exoplayer2.database com.google.android.exoplayer2.database
-com.google.android.exoplayer2.decoder com.google.android.exoplayer2.decoder
-com.google.android.exoplayer2.demo com.google.android.exoplayer2.demo
-com.google.android.exoplayer2.drm com.google.android.exoplayer2.drm
-com.google.android.exoplayer2.effect com.google.android.exoplayer2.effect
-com.google.android.exoplayer2.ext.av1 com.google.android.exoplayer2.ext.av1
-com.google.android.exoplayer2.ext.cast com.google.android.exoplayer2.ext.cast
-com.google.android.exoplayer2.ext.cronet com.google.android.exoplayer2.ext.cronet
-com.google.android.exoplayer2.ext.ffmpeg com.google.android.exoplayer2.ext.ffmpeg
-com.google.android.exoplayer2.ext.flac com.google.android.exoplayer2.ext.flac
-com.google.android.exoplayer2.ext.ima com.google.android.exoplayer2.ext.ima
-com.google.android.exoplayer2.ext.leanback com.google.android.exoplayer2.ext.leanback
-com.google.android.exoplayer2.ext.okhttp com.google.android.exoplayer2.ext.okhttp
-com.google.android.exoplayer2.ext.opus com.google.android.exoplayer2.ext.opus
-com.google.android.exoplayer2.ext.rtmp com.google.android.exoplayer2.ext.rtmp
-com.google.android.exoplayer2.ext.vp9 com.google.android.exoplayer2.ext.vp9
-com.google.android.exoplayer2.ext.workmanager com.google.android.exoplayer2.ext.workmanager
-com.google.android.exoplayer2.extractor com.google.android.exoplayer2.extractor
-com.google.android.exoplayer2.gldemo com.google.android.exoplayer2.gldemo
-com.google.android.exoplayer2.mediacodec com.google.android.exoplayer2.mediacodec
-com.google.android.exoplayer2.metadata com.google.android.exoplayer2.metadata
-com.google.android.exoplayer2.offline com.google.android.exoplayer2.offline
-com.google.android.exoplayer2.playbacktests com.google.android.exoplayer2.playbacktests
-com.google.android.exoplayer2.robolectric com.google.android.exoplayer2.robolectric
-com.google.android.exoplayer2.scheduler com.google.android.exoplayer2.scheduler
-com.google.android.exoplayer2.source com.google.android.exoplayer2.source
-com.google.android.exoplayer2.source.dash com.google.android.exoplayer2.source.dash
-com.google.android.exoplayer2.source.hls com.google.android.exoplayer2.source.hls
-com.google.android.exoplayer2.source.rtsp com.google.android.exoplayer2.source.rtsp
-com.google.android.exoplayer2.source.smoothstreaming com.google.android.exoplayer2.source.smoothstreaming
-com.google.android.exoplayer2.surfacedemo com.google.android.exoplayer2.surfacedemo
-com.google.android.exoplayer2.testdata com.google.android.exoplayer2.testdata
-com.google.android.exoplayer2.testutil com.google.android.exoplayer2.testutil
-com.google.android.exoplayer2.text com.google.android.exoplayer2.text
-com.google.android.exoplayer2.trackselection com.google.android.exoplayer2.trackselection
-com.google.android.exoplayer2.transformer com.google.android.exoplayer2.transformer
-com.google.android.exoplayer2.transformerdemo com.google.android.exoplayer2.transformerdemo
-com.google.android.exoplayer2.ui com.google.android.exoplayer2.ui
-com.google.android.exoplayer2.upstream com.google.android.exoplayer2.upstream
-com.google.android.exoplayer2.upstream.cache com.google.android.exoplayer2.upstream.cache
-com.google.android.exoplayer2.upstream.crypto com.google.android.exoplayer2.upstream.crypto
-com.google.android.exoplayer2.util com.google.android.exoplayer2.util
-com.google.android.exoplayer2.util com.google.android.exoplayer2.util
-com.google.android.exoplayer2.video com.google.android.exoplayer2.video'
+PACKAGE_MAPPINGS='com.readwise.android.exoplayer2 com.readwise.android.exoplayer2
+com.readwise.android.exoplayer2.analytics com.readwise.android.exoplayer2.analytics
+com.readwise.android.exoplayer2.audio com.readwise.android.exoplayer2.audio
+com.readwise.android.exoplayer2.castdemo com.readwise.android.exoplayer2.castdemo
+com.readwise.android.exoplayer2.database com.readwise.android.exoplayer2.database
+com.readwise.android.exoplayer2.decoder com.readwise.android.exoplayer2.decoder
+com.readwise.android.exoplayer2.demo com.readwise.android.exoplayer2.demo
+com.readwise.android.exoplayer2.drm com.readwise.android.exoplayer2.drm
+com.readwise.android.exoplayer2.effect com.readwise.android.exoplayer2.effect
+com.readwise.android.exoplayer2.ext.av1 com.readwise.android.exoplayer2.ext.av1
+com.readwise.android.exoplayer2.ext.cast com.readwise.android.exoplayer2.ext.cast
+com.readwise.android.exoplayer2.ext.cronet com.readwise.android.exoplayer2.ext.cronet
+com.readwise.android.exoplayer2.ext.ffmpeg com.readwise.android.exoplayer2.ext.ffmpeg
+com.readwise.android.exoplayer2.ext.flac com.readwise.android.exoplayer2.ext.flac
+com.readwise.android.exoplayer2.ext.ima com.readwise.android.exoplayer2.ext.ima
+com.readwise.android.exoplayer2.ext.leanback com.readwise.android.exoplayer2.ext.leanback
+com.readwise.android.exoplayer2.ext.okhttp com.readwise.android.exoplayer2.ext.okhttp
+com.readwise.android.exoplayer2.ext.opus com.readwise.android.exoplayer2.ext.opus
+com.readwise.android.exoplayer2.ext.rtmp com.readwise.android.exoplayer2.ext.rtmp
+com.readwise.android.exoplayer2.ext.vp9 com.readwise.android.exoplayer2.ext.vp9
+com.readwise.android.exoplayer2.ext.workmanager com.readwise.android.exoplayer2.ext.workmanager
+com.readwise.android.exoplayer2.extractor com.readwise.android.exoplayer2.extractor
+com.readwise.android.exoplayer2.gldemo com.readwise.android.exoplayer2.gldemo
+com.readwise.android.exoplayer2.mediacodec com.readwise.android.exoplayer2.mediacodec
+com.readwise.android.exoplayer2.metadata com.readwise.android.exoplayer2.metadata
+com.readwise.android.exoplayer2.offline com.readwise.android.exoplayer2.offline
+com.readwise.android.exoplayer2.playbacktests com.readwise.android.exoplayer2.playbacktests
+com.readwise.android.exoplayer2.robolectric com.readwise.android.exoplayer2.robolectric
+com.readwise.android.exoplayer2.scheduler com.readwise.android.exoplayer2.scheduler
+com.readwise.android.exoplayer2.source com.readwise.android.exoplayer2.source
+com.readwise.android.exoplayer2.source.dash com.readwise.android.exoplayer2.source.dash
+com.readwise.android.exoplayer2.source.hls com.readwise.android.exoplayer2.source.hls
+com.readwise.android.exoplayer2.source.rtsp com.readwise.android.exoplayer2.source.rtsp
+com.readwise.android.exoplayer2.source.smoothstreaming com.readwise.android.exoplayer2.source.smoothstreaming
+com.readwise.android.exoplayer2.surfacedemo com.readwise.android.exoplayer2.surfacedemo
+com.readwise.android.exoplayer2.testdata com.readwise.android.exoplayer2.testdata
+com.readwise.android.exoplayer2.testutil com.readwise.android.exoplayer2.testutil
+com.readwise.android.exoplayer2.text com.readwise.android.exoplayer2.text
+com.readwise.android.exoplayer2.trackselection com.readwise.android.exoplayer2.trackselection
+com.readwise.android.exoplayer2.transformer com.readwise.android.exoplayer2.transformer
+com.readwise.android.exoplayer2.transformerdemo com.readwise.android.exoplayer2.transformerdemo
+com.readwise.android.exoplayer2.ui com.readwise.android.exoplayer2.ui
+com.readwise.android.exoplayer2.upstream com.readwise.android.exoplayer2.upstream
+com.readwise.android.exoplayer2.upstream.cache com.readwise.android.exoplayer2.upstream.cache
+com.readwise.android.exoplayer2.upstream.crypto com.readwise.android.exoplayer2.upstream.crypto
+com.readwise.android.exoplayer2.util com.readwise.android.exoplayer2.util
+com.readwise.android.exoplayer2.util com.readwise.android.exoplayer2.util
+com.readwise.android.exoplayer2.video com.readwise.android.exoplayer2.video'
 
-CLASS_RENAMINGS='com.google.android.exoplayer2.ui.StyledPlayerView com.google.android.exoplayer2.ui.PlayerView
+CLASS_RENAMINGS='com.readwise.android.exoplayer2.ui.StyledPlayerView com.readwise.android.exoplayer2.ui.PlayerView
 StyledPlayerView PlayerView
-com.google.android.exoplayer2.ui.StyledPlayerControlView com.google.android.exoplayer2.ui.PlayerControlView
+com.readwise.android.exoplayer2.ui.StyledPlayerControlView com.readwise.android.exoplayer2.ui.PlayerControlView
 StyledPlayerControlView PlayerControlView
-com.google.android.exoplayer2.ExoPlayerLibraryInfo androidx.media3.common.MediaLibraryInfo
+com.readwise.android.exoplayer2.ExoPlayerLibraryInfo androidx.media3.common.MediaLibraryInfo
 ExoPlayerLibraryInfo MediaLibraryInfo
-com.google.android.exoplayer2.SimpleExoPlayer com.google.android.exoplayer2.ExoPlayer
+com.readwise.android.exoplayer2.SimpleExoPlayer com.readwise.android.exoplayer2.ExoPlayer
 SimpleExoPlayer ExoPlayer'
 
-CLASS_MAPPINGS='com.google.android.exoplayer2.text.span androidx.media3.common.text HorizontalTextInVerticalContextSpan LanguageFeatureSpan RubySpan SpanUtil TextAnnotation TextEmphasisSpan
-com.google.android.exoplayer2.text androidx.media3.common.text CueGroup Cue
-com.google.android.exoplayer2.text com.google.android.exoplayer2.text ExoplayerCuesDecoder SubtitleDecoderFactory TextOutput TextRenderer
-com.google.android.exoplayer2.upstream.crypto com.google.android.exoplayer2.upstream AesCipherDataSource AesCipherDataSink AesFlushingCipher
-com.google.android.exoplayer2.util com.google.android.exoplayer2.util AtomicFile Assertions BitmapLoader BundleableUtil BundleUtil Clock ClosedSource CodecSpecificDataUtil ColorParser ConditionVariable Consumer CopyOnWriteMultiset EGLSurfaceTexture GlProgram GlUtil HandlerWrapper LibraryLoader ListenerSet Log LongArray MediaFormatUtil NalUnitUtil NetworkTypeObserver NonNullApi NotificationUtil ParsableBitArray ParsableByteArray ParsableNalUnitBitArray RepeatModeUtil RunnableFutureTask Size SystemClock SystemHandlerWrapper TimedValueQueue TimestampAdjuster TraceUtil UnknownNull UnstableApi UriUtil Util XmlPullParserUtil
-com.google.android.exoplayer2.util androidx.media3.common DebugViewProvider Effect ErrorMessageProvider FlagSet FileTypes FrameInfo GlObjectsProvider GlTextureInfo VideoFrameProcessingException VideoFrameProcessor MimeTypes PriorityTaskManager SurfaceInfo
-com.google.android.exoplayer2.metadata androidx.media3.common Metadata
-com.google.android.exoplayer2.metadata com.google.android.exoplayer2.metadata MetadataDecoderFactory MetadataOutput MetadataRenderer
-com.google.android.exoplayer2.audio androidx.media3.common AudioAttributes AuxEffectInfo
-com.google.android.exoplayer2.audio com.google.android.exoplayer2.audio AudioProcessingPipeline AudioProcessor AudioProcessorChain
-com.google.android.exoplayer2.ui androidx.media3.common AdOverlayInfo AdViewProvider
-com.google.android.exoplayer2.source.ads androidx.media3.common AdPlaybackState
-com.google.android.exoplayer2.source androidx.media3.common MediaPeriodId TrackGroup
-com.google.android.exoplayer2.offline androidx.media3.common StreamKey
-com.google.android.exoplayer2.ui com.google.android.exoplayer2.offline DownloadNotificationHelper
-com.google.android.exoplayer2.trackselection androidx.media3.common TrackSelectionParameters TrackSelectionOverride
-com.google.android.exoplayer2.video androidx.media3.common ColorInfo VideoSize
-com.google.android.exoplayer2.upstream androidx.media3.common DataReader
-com.google.android.exoplayer2.upstream com.google.android.exoplayer2.upstream Allocation Allocator BandwidthMeter CachedRegionTracker DefaultAllocator DefaultBandwidthMeter DefaultLoadErrorHandlingPolicy Loader LoaderErrorThrower ParsingLoadable SlidingPercentile TimeToFirstByteEstimator
-com.google.android.exoplayer2.audio com.google.android.exoplayer2.extractor AacUtil Ac3Util Ac4Util DtsUtil MpegAudioUtil OpusUtil WavUtil
-com.google.android.exoplayer2.util com.google.android.exoplayer2.extractor NalUnitUtil ParsableNalUnitBitArray
-com.google.android.exoplayer2.video com.google.android.exoplayer2.extractor AvcConfig DolbyVisionConfig HevcConfig
-com.google.android.exoplayer2.decoder com.google.android.exoplayer2 DecoderCounters DecoderReuseEvaluation
-com.google.android.exoplayer2.util com.google.android.exoplayer2 MediaClock StandaloneMediaClock
-com.google.android.exoplayer2 com.google.android.exoplayer2 FormatHolder PlayerMessage
-com.google.android.exoplayer2 androidx.media3.common BasePlayer BundleListRetriever Bundleable ControlDispatcher C DefaultControlDispatcher DeviceInfo ErrorMessageProvider ExoPlayerLibraryInfo Format ForwardingPlayer HeartRating IllegalSeekPositionException LegacyMediaPlayerWrapper MediaItem MediaMetadata ParserException PercentageRating PlaybackException PlaybackParameters Player PositionInfo Rating SimpleBasePlayer StarRating ThumbRating Timeline Tracks
-com.google.android.exoplayer2.drm androidx.media3.common DrmInitData'
+CLASS_MAPPINGS='com.readwise.android.exoplayer2.text.span androidx.media3.common.text HorizontalTextInVerticalContextSpan LanguageFeatureSpan RubySpan SpanUtil TextAnnotation TextEmphasisSpan
+com.readwise.android.exoplayer2.text androidx.media3.common.text CueGroup Cue
+com.readwise.android.exoplayer2.text com.readwise.android.exoplayer2.text ExoplayerCuesDecoder SubtitleDecoderFactory TextOutput TextRenderer
+com.readwise.android.exoplayer2.upstream.crypto com.readwise.android.exoplayer2.upstream AesCipherDataSource AesCipherDataSink AesFlushingCipher
+com.readwise.android.exoplayer2.util com.readwise.android.exoplayer2.util AtomicFile Assertions BitmapLoader BundleableUtil BundleUtil Clock ClosedSource CodecSpecificDataUtil ColorParser ConditionVariable Consumer CopyOnWriteMultiset EGLSurfaceTexture GlProgram GlUtil HandlerWrapper LibraryLoader ListenerSet Log LongArray MediaFormatUtil NalUnitUtil NetworkTypeObserver NonNullApi NotificationUtil ParsableBitArray ParsableByteArray ParsableNalUnitBitArray RepeatModeUtil RunnableFutureTask Size SystemClock SystemHandlerWrapper TimedValueQueue TimestampAdjuster TraceUtil UnknownNull UnstableApi UriUtil Util XmlPullParserUtil
+com.readwise.android.exoplayer2.util androidx.media3.common DebugViewProvider Effect ErrorMessageProvider FlagSet FileTypes FrameInfo GlObjectsProvider GlTextureInfo VideoFrameProcessingException VideoFrameProcessor MimeTypes PriorityTaskManager SurfaceInfo
+com.readwise.android.exoplayer2.metadata androidx.media3.common Metadata
+com.readwise.android.exoplayer2.metadata com.readwise.android.exoplayer2.metadata MetadataDecoderFactory MetadataOutput MetadataRenderer
+com.readwise.android.exoplayer2.audio androidx.media3.common AudioAttributes AuxEffectInfo
+com.readwise.android.exoplayer2.audio com.readwise.android.exoplayer2.audio AudioProcessingPipeline AudioProcessor AudioProcessorChain
+com.readwise.android.exoplayer2.ui androidx.media3.common AdOverlayInfo AdViewProvider
+com.readwise.android.exoplayer2.source.ads androidx.media3.common AdPlaybackState
+com.readwise.android.exoplayer2.source androidx.media3.common MediaPeriodId TrackGroup
+com.readwise.android.exoplayer2.offline androidx.media3.common StreamKey
+com.readwise.android.exoplayer2.ui com.readwise.android.exoplayer2.offline DownloadNotificationHelper
+com.readwise.android.exoplayer2.trackselection androidx.media3.common TrackSelectionParameters TrackSelectionOverride
+com.readwise.android.exoplayer2.video androidx.media3.common ColorInfo VideoSize
+com.readwise.android.exoplayer2.upstream androidx.media3.common DataReader
+com.readwise.android.exoplayer2.upstream com.readwise.android.exoplayer2.upstream Allocation Allocator BandwidthMeter CachedRegionTracker DefaultAllocator DefaultBandwidthMeter DefaultLoadErrorHandlingPolicy Loader LoaderErrorThrower ParsingLoadable SlidingPercentile TimeToFirstByteEstimator
+com.readwise.android.exoplayer2.audio com.readwise.android.exoplayer2.extractor AacUtil Ac3Util Ac4Util DtsUtil MpegAudioUtil OpusUtil WavUtil
+com.readwise.android.exoplayer2.util com.readwise.android.exoplayer2.extractor NalUnitUtil ParsableNalUnitBitArray
+com.readwise.android.exoplayer2.video com.readwise.android.exoplayer2.extractor AvcConfig DolbyVisionConfig HevcConfig
+com.readwise.android.exoplayer2.decoder com.readwise.android.exoplayer2 DecoderCounters DecoderReuseEvaluation
+com.readwise.android.exoplayer2.util com.readwise.android.exoplayer2 MediaClock StandaloneMediaClock
+com.readwise.android.exoplayer2 com.readwise.android.exoplayer2 FormatHolder PlayerMessage
+com.readwise.android.exoplayer2 androidx.media3.common BasePlayer BundleListRetriever Bundleable ControlDispatcher C DefaultControlDispatcher DeviceInfo ErrorMessageProvider ExoPlayerLibraryInfo Format ForwardingPlayer HeartRating IllegalSeekPositionException LegacyMediaPlayerWrapper MediaItem MediaMetadata ParserException PercentageRating PlaybackException PlaybackParameters Player PositionInfo Rating SimpleBasePlayer StarRating ThumbRating Timeline Tracks
+com.readwise.android.exoplayer2.drm androidx.media3.common DrmInitData'
 
 DEPENDENCY_MAPPINGS='exoplayer media3-exoplayer
 exoplayer-common media3-common

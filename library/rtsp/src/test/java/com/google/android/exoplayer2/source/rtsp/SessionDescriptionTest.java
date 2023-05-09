@@ -14,22 +14,25 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.source.rtsp;
+package com.readwise.android.exoplayer2.source.rtsp;
 
-import static com.google.android.exoplayer2.source.rtsp.MediaDescription.MEDIA_TYPE_AUDIO;
-import static com.google.android.exoplayer2.source.rtsp.MediaDescription.MEDIA_TYPE_VIDEO;
-import static com.google.android.exoplayer2.source.rtsp.MediaDescription.RTP_AVP_PROFILE;
-import static com.google.android.exoplayer2.source.rtsp.SessionDescription.ATTR_CONTROL;
-import static com.google.android.exoplayer2.source.rtsp.SessionDescription.ATTR_FMTP;
-import static com.google.android.exoplayer2.source.rtsp.SessionDescription.ATTR_RANGE;
-import static com.google.android.exoplayer2.source.rtsp.SessionDescription.ATTR_RTPMAP;
-import static com.google.android.exoplayer2.source.rtsp.SessionDescription.ATTR_TOOL;
-import static com.google.android.exoplayer2.source.rtsp.SessionDescription.ATTR_TYPE;
+import static com.readwise.android.exoplayer2.source.rtsp.MediaDescription.MEDIA_TYPE_AUDIO;
+import static com.readwise.android.exoplayer2.source.rtsp.MediaDescription.MEDIA_TYPE_VIDEO;
+import static com.readwise.android.exoplayer2.source.rtsp.MediaDescription.RTP_AVP_PROFILE;
+import static com.readwise.android.exoplayer2.source.rtsp.SessionDescription.ATTR_CONTROL;
+import static com.readwise.android.exoplayer2.source.rtsp.SessionDescription.ATTR_FMTP;
+import static com.readwise.android.exoplayer2.source.rtsp.SessionDescription.ATTR_RANGE;
+import static com.readwise.android.exoplayer2.source.rtsp.SessionDescription.ATTR_RTPMAP;
+import static com.readwise.android.exoplayer2.source.rtsp.SessionDescription.ATTR_TOOL;
+import static com.readwise.android.exoplayer2.source.rtsp.SessionDescription.ATTR_TYPE;
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
 
 import android.net.Uri;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
+import com.readwise.android.exoplayer2.source.rtsp.MediaDescription;
+import com.readwise.android.exoplayer2.source.rtsp.SessionDescription;
+import com.readwise.android.exoplayer2.source.rtsp.SessionDescriptionParser;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

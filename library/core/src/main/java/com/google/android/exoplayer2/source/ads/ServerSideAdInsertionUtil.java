@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.ads;
+package com.readwise.android.exoplayer2.source.ads;
 
-import static com.google.android.exoplayer2.util.Util.sum;
+import static com.readwise.android.exoplayer2.util.Util.sum;
 import static java.lang.Math.max;
 
 import androidx.annotation.CheckResult;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.source.MediaPeriod;
-import com.google.android.exoplayer2.source.MediaPeriodId;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.source.MediaPeriod;
+import com.readwise.android.exoplayer2.source.MediaPeriodId;
+import com.readwise.android.exoplayer2.util.Util;
 
 /** A static utility class with methods to work with server-side inserted ads. */
 public final class ServerSideAdInsertionUtil {

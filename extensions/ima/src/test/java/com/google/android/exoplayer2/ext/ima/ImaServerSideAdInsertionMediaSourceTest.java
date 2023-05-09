@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.ima;
+package com.readwise.android.exoplayer2.ext.ima;
 
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ext.ima.ImaServerSideAdInsertionMediaSource.AdsLoader.State;
-import com.google.android.exoplayer2.source.ads.AdPlaybackState;
-import com.google.android.exoplayer2.source.ads.ServerSideAdInsertionUtil;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ext.ima.ImaServerSideAdInsertionMediaSource.AdsLoader.State;
+import com.readwise.android.exoplayer2.source.ads.AdPlaybackState;
+import com.readwise.android.exoplayer2.source.ads.ServerSideAdInsertionUtil;
 import com.google.common.collect.ImmutableMap;
 import org.junit.Test;
 import org.junit.runner.RunWith;

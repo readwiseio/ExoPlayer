@@ -13,23 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.dash;
+package com.readwise.android.exoplayer2.source.dash;
 
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.drm.DrmInitData;
-import com.google.android.exoplayer2.drm.DrmInitData.SchemeData;
-import com.google.android.exoplayer2.source.dash.manifest.AdaptationSet;
-import com.google.android.exoplayer2.source.dash.manifest.BaseUrl;
-import com.google.android.exoplayer2.source.dash.manifest.Period;
-import com.google.android.exoplayer2.source.dash.manifest.RangedUri;
-import com.google.android.exoplayer2.source.dash.manifest.Representation;
-import com.google.android.exoplayer2.source.dash.manifest.SegmentBase.SingleSegmentBase;
-import com.google.android.exoplayer2.upstream.PlaceholderDataSource;
-import com.google.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.drm.DrmInitData;
+import com.readwise.android.exoplayer2.drm.DrmInitData.SchemeData;
+import com.readwise.android.exoplayer2.source.dash.manifest.AdaptationSet;
+import com.readwise.android.exoplayer2.source.dash.manifest.BaseUrl;
+import com.readwise.android.exoplayer2.source.dash.manifest.Period;
+import com.readwise.android.exoplayer2.source.dash.manifest.RangedUri;
+import com.readwise.android.exoplayer2.source.dash.manifest.Representation;
+import com.readwise.android.exoplayer2.source.dash.manifest.SegmentBase.SingleSegmentBase;
+import com.readwise.android.exoplayer2.upstream.PlaceholderDataSource;
+import com.readwise.android.exoplayer2.util.MimeTypes;
 import com.google.common.collect.ImmutableList;
 import java.util.Arrays;
 import java.util.Collections;

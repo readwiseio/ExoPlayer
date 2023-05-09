@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.text.webvtt;
+package com.readwise.android.exoplayer2.text.webvtt;
 
-import static com.google.android.exoplayer2.text.webvtt.WebvttCssParser.parseNextToken;
+import static com.readwise.android.exoplayer2.text.webvtt.WebvttCssParser.parseNextToken;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.util.ParsableByteArray;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.util.ParsableByteArray;
+import com.readwise.android.exoplayer2.util.Util;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;

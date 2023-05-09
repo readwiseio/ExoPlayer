@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  */
-package com.google.android.exoplayer2.text.span;
+package com.readwise.android.exoplayer2.text.span;
 
 /**
  * A styling span for ruby text.

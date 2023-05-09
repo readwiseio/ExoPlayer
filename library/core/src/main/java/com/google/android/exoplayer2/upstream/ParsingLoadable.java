@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.upstream;
+package com.readwise.android.exoplayer2.upstream;
 
 import android.net.Uri;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ParserException;
-import com.google.android.exoplayer2.source.LoadEventInfo;
-import com.google.android.exoplayer2.upstream.Loader.Loadable;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ParserException;
+import com.readwise.android.exoplayer2.source.LoadEventInfo;
+import com.readwise.android.exoplayer2.upstream.Loader.Loadable;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;

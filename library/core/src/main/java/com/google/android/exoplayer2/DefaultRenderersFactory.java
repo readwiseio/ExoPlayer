@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
 import static java.lang.annotation.ElementType.TYPE_USE;
 
@@ -24,22 +24,22 @@ import android.os.Handler;
 import android.os.Looper;
 import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.audio.AudioRendererEventListener;
-import com.google.android.exoplayer2.audio.AudioSink;
-import com.google.android.exoplayer2.audio.DefaultAudioSink;
-import com.google.android.exoplayer2.audio.MediaCodecAudioRenderer;
-import com.google.android.exoplayer2.mediacodec.DefaultMediaCodecAdapterFactory;
-import com.google.android.exoplayer2.mediacodec.MediaCodecAdapter;
-import com.google.android.exoplayer2.mediacodec.MediaCodecSelector;
-import com.google.android.exoplayer2.metadata.MetadataOutput;
-import com.google.android.exoplayer2.metadata.MetadataRenderer;
-import com.google.android.exoplayer2.text.TextOutput;
-import com.google.android.exoplayer2.text.TextRenderer;
-import com.google.android.exoplayer2.trackselection.TrackSelector;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.video.MediaCodecVideoRenderer;
-import com.google.android.exoplayer2.video.VideoRendererEventListener;
-import com.google.android.exoplayer2.video.spherical.CameraMotionRenderer;
+import com.readwise.android.exoplayer2.audio.AudioRendererEventListener;
+import com.readwise.android.exoplayer2.audio.AudioSink;
+import com.readwise.android.exoplayer2.audio.DefaultAudioSink;
+import com.readwise.android.exoplayer2.audio.MediaCodecAudioRenderer;
+import com.readwise.android.exoplayer2.mediacodec.DefaultMediaCodecAdapterFactory;
+import com.readwise.android.exoplayer2.mediacodec.MediaCodecAdapter;
+import com.readwise.android.exoplayer2.mediacodec.MediaCodecSelector;
+import com.readwise.android.exoplayer2.metadata.MetadataOutput;
+import com.readwise.android.exoplayer2.metadata.MetadataRenderer;
+import com.readwise.android.exoplayer2.text.TextOutput;
+import com.readwise.android.exoplayer2.text.TextRenderer;
+import com.readwise.android.exoplayer2.trackselection.TrackSelector;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.video.MediaCodecVideoRenderer;
+import com.readwise.android.exoplayer2.video.VideoRendererEventListener;
+import com.readwise.android.exoplayer2.video.spherical.CameraMotionRenderer;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;
@@ -130,7 +130,7 @@ public class DefaultRenderersFactory implements RenderersFactory {
   }
 
   /**
-   * Enables {@link com.google.android.exoplayer2.mediacodec.MediaCodecRenderer} instances to
+   * Enables {@link com.readwise.android.exoplayer2.mediacodec.MediaCodecRenderer} instances to
    * operate their {@link MediaCodec} in asynchronous mode and perform asynchronous queueing.
    *
    * <p>This feature can be enabled only on devices with API versions &gt;= 23. For devices with
@@ -145,7 +145,7 @@ public class DefaultRenderersFactory implements RenderersFactory {
   }
 
   /**
-   * Disables {@link com.google.android.exoplayer2.mediacodec.MediaCodecRenderer} instances from
+   * Disables {@link com.readwise.android.exoplayer2.mediacodec.MediaCodecRenderer} instances from
    * operating their {@link MediaCodec} in asynchronous mode and perform asynchronous queueing.
    * {@link MediaCodec} instances will be operated synchronous mode.
    *
@@ -376,12 +376,12 @@ public class DefaultRenderersFactory implements RenderersFactory {
 
     try {
       // Full class names used for constructor args so the LINT rule triggers if any of them move.
-      Class<?> clazz = Class.forName("com.google.android.exoplayer2.ext.vp9.LibvpxVideoRenderer");
+      Class<?> clazz = Class.forName("com.readwise.android.exoplayer2.ext.vp9.LibvpxVideoRenderer");
       Constructor<?> constructor =
           clazz.getConstructor(
               long.class,
               android.os.Handler.class,
-              com.google.android.exoplayer2.video.VideoRendererEventListener.class,
+              com.readwise.android.exoplayer2.video.VideoRendererEventListener.class,
               int.class);
       Renderer renderer =
           (Renderer)
@@ -401,12 +401,12 @@ public class DefaultRenderersFactory implements RenderersFactory {
 
     try {
       // Full class names used for constructor args so the LINT rule triggers if any of them move.
-      Class<?> clazz = Class.forName("com.google.android.exoplayer2.ext.av1.Libgav1VideoRenderer");
+      Class<?> clazz = Class.forName("com.readwise.android.exoplayer2.ext.av1.Libgav1VideoRenderer");
       Constructor<?> constructor =
           clazz.getConstructor(
               long.class,
               android.os.Handler.class,
-              com.google.android.exoplayer2.video.VideoRendererEventListener.class,
+              com.readwise.android.exoplayer2.video.VideoRendererEventListener.class,
               int.class);
       Renderer renderer =
           (Renderer)
@@ -427,12 +427,12 @@ public class DefaultRenderersFactory implements RenderersFactory {
     try {
       // Full class names used for constructor args so the LINT rule triggers if any of them move.
       Class<?> clazz =
-          Class.forName("com.google.android.exoplayer2.ext.ffmpeg.FfmpegVideoRenderer");
+          Class.forName("com.readwise.android.exoplayer2.ext.ffmpeg.FfmpegVideoRenderer");
       Constructor<?> constructor =
           clazz.getConstructor(
               long.class,
               android.os.Handler.class,
-              com.google.android.exoplayer2.video.VideoRendererEventListener.class,
+              com.readwise.android.exoplayer2.video.VideoRendererEventListener.class,
               int.class);
       Renderer renderer =
           (Renderer)
@@ -494,7 +494,7 @@ public class DefaultRenderersFactory implements RenderersFactory {
     }
 
     try {
-      Class<?> clazz = Class.forName("com.google.android.exoplayer2.decoder.midi.MidiRenderer");
+      Class<?> clazz = Class.forName("com.readwise.android.exoplayer2.decoder.midi.MidiRenderer");
       Constructor<?> constructor = clazz.getConstructor();
       Renderer renderer = (Renderer) constructor.newInstance();
       out.add(extensionRendererIndex++, renderer);
@@ -508,12 +508,12 @@ public class DefaultRenderersFactory implements RenderersFactory {
 
     try {
       // Full class names used for constructor args so the LINT rule triggers if any of them move.
-      Class<?> clazz = Class.forName("com.google.android.exoplayer2.ext.opus.LibopusAudioRenderer");
+      Class<?> clazz = Class.forName("com.readwise.android.exoplayer2.ext.opus.LibopusAudioRenderer");
       Constructor<?> constructor =
           clazz.getConstructor(
               android.os.Handler.class,
-              com.google.android.exoplayer2.audio.AudioRendererEventListener.class,
-              com.google.android.exoplayer2.audio.AudioSink.class);
+              com.readwise.android.exoplayer2.audio.AudioRendererEventListener.class,
+              com.readwise.android.exoplayer2.audio.AudioSink.class);
       Renderer renderer =
           (Renderer) constructor.newInstance(eventHandler, eventListener, audioSink);
       out.add(extensionRendererIndex++, renderer);
@@ -527,12 +527,12 @@ public class DefaultRenderersFactory implements RenderersFactory {
 
     try {
       // Full class names used for constructor args so the LINT rule triggers if any of them move.
-      Class<?> clazz = Class.forName("com.google.android.exoplayer2.ext.flac.LibflacAudioRenderer");
+      Class<?> clazz = Class.forName("com.readwise.android.exoplayer2.ext.flac.LibflacAudioRenderer");
       Constructor<?> constructor =
           clazz.getConstructor(
               android.os.Handler.class,
-              com.google.android.exoplayer2.audio.AudioRendererEventListener.class,
-              com.google.android.exoplayer2.audio.AudioSink.class);
+              com.readwise.android.exoplayer2.audio.AudioRendererEventListener.class,
+              com.readwise.android.exoplayer2.audio.AudioSink.class);
       Renderer renderer =
           (Renderer) constructor.newInstance(eventHandler, eventListener, audioSink);
       out.add(extensionRendererIndex++, renderer);
@@ -547,12 +547,12 @@ public class DefaultRenderersFactory implements RenderersFactory {
     try {
       // Full class names used for constructor args so the LINT rule triggers if any of them move.
       Class<?> clazz =
-          Class.forName("com.google.android.exoplayer2.ext.ffmpeg.FfmpegAudioRenderer");
+          Class.forName("com.readwise.android.exoplayer2.ext.ffmpeg.FfmpegAudioRenderer");
       Constructor<?> constructor =
           clazz.getConstructor(
               android.os.Handler.class,
-              com.google.android.exoplayer2.audio.AudioRendererEventListener.class,
-              com.google.android.exoplayer2.audio.AudioSink.class);
+              com.readwise.android.exoplayer2.audio.AudioRendererEventListener.class,
+              com.readwise.android.exoplayer2.audio.AudioSink.class);
       Renderer renderer =
           (Renderer) constructor.newInstance(eventHandler, eventListener, audioSink);
       out.add(extensionRendererIndex++, renderer);
@@ -660,7 +660,7 @@ public class DefaultRenderersFactory implements RenderersFactory {
 
   /**
    * Returns the {@link MediaCodecAdapter.Factory} that will be used when creating {@link
-   * com.google.android.exoplayer2.mediacodec.MediaCodecRenderer} instances.
+   * com.readwise.android.exoplayer2.mediacodec.MediaCodecRenderer} instances.
    */
   protected MediaCodecAdapter.Factory getCodecAdapterFactory() {
     return codecAdapterFactory;

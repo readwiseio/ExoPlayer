@@ -13,22 +13,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.vp9;
+package com.readwise.android.exoplayer2.ext.vp9;
 
 import static androidx.annotation.VisibleForTesting.PACKAGE_PRIVATE;
 
 import android.view.Surface;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.decoder.CryptoConfig;
-import com.google.android.exoplayer2.decoder.CryptoException;
-import com.google.android.exoplayer2.decoder.CryptoInfo;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
-import com.google.android.exoplayer2.decoder.SimpleDecoder;
-import com.google.android.exoplayer2.decoder.VideoDecoderOutputBuffer;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.decoder.CryptoConfig;
+import com.readwise.android.exoplayer2.decoder.CryptoException;
+import com.readwise.android.exoplayer2.decoder.CryptoInfo;
+import com.readwise.android.exoplayer2.decoder.DecoderInputBuffer;
+import com.readwise.android.exoplayer2.decoder.SimpleDecoder;
+import com.readwise.android.exoplayer2.decoder.VideoDecoderOutputBuffer;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Util;
 import java.nio.ByteBuffer;
 
 /** Vpx decoder. */

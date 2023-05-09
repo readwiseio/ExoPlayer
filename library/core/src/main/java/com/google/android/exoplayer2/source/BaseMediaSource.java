@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source;
+package com.readwise.android.exoplayer2.source;
 
-import static com.google.android.exoplayer2.util.Assertions.checkStateNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkStateNotNull;
 
 import android.os.Handler;
 import android.os.Looper;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.analytics.PlayerId;
-import com.google.android.exoplayer2.drm.DrmSessionEventListener;
-import com.google.android.exoplayer2.upstream.TransferListener;
-import com.google.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.analytics.PlayerId;
+import com.readwise.android.exoplayer2.drm.DrmSessionEventListener;
+import com.readwise.android.exoplayer2.upstream.TransferListener;
+import com.readwise.android.exoplayer2.util.Assertions;
 import java.util.ArrayList;
 import java.util.HashSet;
 

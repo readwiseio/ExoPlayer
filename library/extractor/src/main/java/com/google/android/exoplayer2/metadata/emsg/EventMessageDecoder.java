@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.metadata.emsg;
+package com.readwise.android.exoplayer2.metadata.emsg;
 
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.metadata.MetadataInputBuffer;
-import com.google.android.exoplayer2.metadata.SimpleMetadataDecoder;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.ParsableByteArray;
+import com.readwise.android.exoplayer2.metadata.Metadata;
+import com.readwise.android.exoplayer2.metadata.MetadataInputBuffer;
+import com.readwise.android.exoplayer2.metadata.SimpleMetadataDecoder;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.ParsableByteArray;
 import java.nio.ByteBuffer;
 import java.util.Arrays;
 

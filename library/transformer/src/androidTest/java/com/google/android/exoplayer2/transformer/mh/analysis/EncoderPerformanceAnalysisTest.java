@@ -14,24 +14,24 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.transformer.mh.analysis;
+package com.readwise.android.exoplayer2.transformer.mh.analysis;
 
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MEDIA_CODEC_PRIORITY_NON_REALTIME;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MEDIA_CODEC_PRIORITY_REALTIME;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.recordTestSkipped;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MEDIA_CODEC_PRIORITY_NON_REALTIME;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MEDIA_CODEC_PRIORITY_REALTIME;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.recordTestSkipped;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
 
 import android.content.Context;
 import android.net.Uri;
 import androidx.test.core.app.ApplicationProvider;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.transformer.AndroidTestUtil;
-import com.google.android.exoplayer2.transformer.DefaultEncoderFactory;
-import com.google.android.exoplayer2.transformer.EditedMediaItem;
-import com.google.android.exoplayer2.transformer.Transformer;
-import com.google.android.exoplayer2.transformer.TransformerAndroidTestRunner;
-import com.google.android.exoplayer2.transformer.VideoEncoderSettings;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.transformer.AndroidTestUtil;
+import com.readwise.android.exoplayer2.transformer.DefaultEncoderFactory;
+import com.readwise.android.exoplayer2.transformer.EditedMediaItem;
+import com.readwise.android.exoplayer2.transformer.Transformer;
+import com.readwise.android.exoplayer2.transformer.TransformerAndroidTestRunner;
+import com.readwise.android.exoplayer2.transformer.VideoEncoderSettings;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import java.util.HashMap;
 import java.util.Map;

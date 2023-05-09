@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source;
+package com.readwise.android.exoplayer2.source;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Timeline;
 
 /**
  * Identifies a specific playback of a {@link Timeline.Period}.

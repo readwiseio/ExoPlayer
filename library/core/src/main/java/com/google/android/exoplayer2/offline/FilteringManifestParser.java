@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.offline;
+package com.readwise.android.exoplayer2.offline;
 
 import android.net.Uri;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.upstream.ParsingLoadable.Parser;
+import com.readwise.android.exoplayer2.upstream.ParsingLoadable.Parser;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;

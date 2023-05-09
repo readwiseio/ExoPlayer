@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.testutil;
+package com.readwise.android.exoplayer2.testutil;
 
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.annotation.Nullable;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.Timeline.Window;
-import com.google.android.exoplayer2.analytics.PlayerId;
-import com.google.android.exoplayer2.source.MediaSource;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.Timeline.Window;
+import com.readwise.android.exoplayer2.analytics.PlayerId;
+import com.readwise.android.exoplayer2.source.MediaSource;
 import java.util.concurrent.atomic.AtomicReference;
 import org.junit.Test;
 import org.junit.runner.RunWith;

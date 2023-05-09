@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ui;
+package com.readwise.android.exoplayer2.ui;
 
 import static androidx.core.app.NotificationCompat.FOREGROUND_SERVICE_IMMEDIATE;
 
@@ -27,11 +27,11 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.annotation.StringRes;
 import androidx.core.app.NotificationCompat;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.core.R;
-import com.google.android.exoplayer2.offline.Download;
-import com.google.android.exoplayer2.scheduler.Requirements;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.core.R;
+import com.readwise.android.exoplayer2.offline.Download;
+import com.readwise.android.exoplayer2.scheduler.Requirements;
+import com.readwise.android.exoplayer2.util.Util;
 import java.util.List;
 
 /** Helper for creating download notifications. */

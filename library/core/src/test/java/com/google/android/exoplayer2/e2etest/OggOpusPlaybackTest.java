@@ -13,26 +13,26 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.e2etest;
+package com.readwise.android.exoplayer2.e2etest;
 
 import android.content.Context;
 import androidx.annotation.Nullable;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.DefaultRenderersFactory;
-import com.google.android.exoplayer2.ExoPlayer;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.audio.AudioCapabilities;
-import com.google.android.exoplayer2.audio.AudioSink;
-import com.google.android.exoplayer2.audio.DefaultAudioSink;
-import com.google.android.exoplayer2.audio.ForwardingAudioSink;
-import com.google.android.exoplayer2.robolectric.ShadowMediaCodecConfig;
-import com.google.android.exoplayer2.robolectric.TestPlayerRunHelper;
-import com.google.android.exoplayer2.testutil.DumpFileAsserts;
-import com.google.android.exoplayer2.testutil.Dumper;
-import com.google.android.exoplayer2.testutil.FakeClock;
+import com.readwise.android.exoplayer2.DefaultRenderersFactory;
+import com.readwise.android.exoplayer2.ExoPlayer;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.audio.AudioCapabilities;
+import com.readwise.android.exoplayer2.audio.AudioSink;
+import com.readwise.android.exoplayer2.audio.DefaultAudioSink;
+import com.readwise.android.exoplayer2.audio.ForwardingAudioSink;
+import com.readwise.android.exoplayer2.robolectric.ShadowMediaCodecConfig;
+import com.readwise.android.exoplayer2.robolectric.TestPlayerRunHelper;
+import com.readwise.android.exoplayer2.testutil.DumpFileAsserts;
+import com.readwise.android.exoplayer2.testutil.Dumper;
+import com.readwise.android.exoplayer2.testutil.FakeClock;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
 import java.util.List;

@@ -14,27 +14,27 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
 
 import android.content.Context;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.Message;
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.analytics.PlayerId;
-import com.google.android.exoplayer2.extractor.DefaultExtractorsFactory;
-import com.google.android.exoplayer2.extractor.ExtractorsFactory;
-import com.google.android.exoplayer2.extractor.mp4.Mp4Extractor;
-import com.google.android.exoplayer2.source.DefaultMediaSourceFactory;
-import com.google.android.exoplayer2.source.MediaPeriod;
-import com.google.android.exoplayer2.source.MediaSource;
-import com.google.android.exoplayer2.source.TrackGroupArray;
-import com.google.android.exoplayer2.upstream.Allocator;
-import com.google.android.exoplayer2.upstream.DefaultAllocator;
-import com.google.android.exoplayer2.util.Clock;
-import com.google.android.exoplayer2.util.HandlerWrapper;
+import com.readwise.android.exoplayer2.analytics.PlayerId;
+import com.readwise.android.exoplayer2.extractor.DefaultExtractorsFactory;
+import com.readwise.android.exoplayer2.extractor.ExtractorsFactory;
+import com.readwise.android.exoplayer2.extractor.mp4.Mp4Extractor;
+import com.readwise.android.exoplayer2.source.DefaultMediaSourceFactory;
+import com.readwise.android.exoplayer2.source.MediaPeriod;
+import com.readwise.android.exoplayer2.source.MediaSource;
+import com.readwise.android.exoplayer2.source.TrackGroupArray;
+import com.readwise.android.exoplayer2.upstream.Allocator;
+import com.readwise.android.exoplayer2.upstream.DefaultAllocator;
+import com.readwise.android.exoplayer2.util.Clock;
+import com.readwise.android.exoplayer2.util.HandlerWrapper;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.SettableFuture;
 import org.checkerframework.checker.nullness.qual.MonotonicNonNull;

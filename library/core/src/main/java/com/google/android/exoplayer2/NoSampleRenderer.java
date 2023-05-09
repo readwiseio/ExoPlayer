@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.analytics.PlayerId;
-import com.google.android.exoplayer2.source.SampleStream;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.MediaClock;
+import com.readwise.android.exoplayer2.analytics.PlayerId;
+import com.readwise.android.exoplayer2.source.SampleStream;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.MediaClock;
 import java.io.IOException;
 import org.checkerframework.checker.nullness.qual.MonotonicNonNull;
 

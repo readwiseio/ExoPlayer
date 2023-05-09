@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.transformer;
+package com.readwise.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.transformer.AssetLoader.SUPPORTED_OUTPUT_TYPE_DECODED;
-import static com.google.android.exoplayer2.transformer.AssetLoader.SUPPORTED_OUTPUT_TYPE_ENCODED;
-import static com.google.android.exoplayer2.transformer.ExportException.ERROR_CODE_FAILED_RUNTIME_CHECK;
-import static com.google.android.exoplayer2.transformer.ExportException.ERROR_CODE_MUXING_FAILED;
-import static com.google.android.exoplayer2.transformer.Transformer.PROGRESS_STATE_AVAILABLE;
-import static com.google.android.exoplayer2.transformer.Transformer.PROGRESS_STATE_NOT_STARTED;
-import static com.google.android.exoplayer2.transformer.TransformerUtil.areVideoEffectsAllNoOp;
-import static com.google.android.exoplayer2.transformer.TransformerUtil.containsSlowMotionData;
-import static com.google.android.exoplayer2.transformer.TransformerUtil.getProcessedTrackType;
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
-import static com.google.android.exoplayer2.util.Assertions.checkStateNotNull;
+import static com.readwise.android.exoplayer2.transformer.AssetLoader.SUPPORTED_OUTPUT_TYPE_DECODED;
+import static com.readwise.android.exoplayer2.transformer.AssetLoader.SUPPORTED_OUTPUT_TYPE_ENCODED;
+import static com.readwise.android.exoplayer2.transformer.ExportException.ERROR_CODE_FAILED_RUNTIME_CHECK;
+import static com.readwise.android.exoplayer2.transformer.ExportException.ERROR_CODE_MUXING_FAILED;
+import static com.readwise.android.exoplayer2.transformer.Transformer.PROGRESS_STATE_AVAILABLE;
+import static com.readwise.android.exoplayer2.transformer.Transformer.PROGRESS_STATE_NOT_STARTED;
+import static com.readwise.android.exoplayer2.transformer.TransformerUtil.areVideoEffectsAllNoOp;
+import static com.readwise.android.exoplayer2.transformer.TransformerUtil.containsSlowMotionData;
+import static com.readwise.android.exoplayer2.transformer.TransformerUtil.getProcessedTrackType;
+import static com.readwise.android.exoplayer2.util.Assertions.checkArgument;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.util.Assertions.checkStateNotNull;
 import static java.lang.Math.max;
 import static java.lang.annotation.ElementType.TYPE_USE;
 
@@ -38,15 +38,15 @@ import android.os.Message;
 import android.util.Log;
 import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.effect.Presentation;
-import com.google.android.exoplayer2.util.Clock;
-import com.google.android.exoplayer2.util.ConditionVariable;
-import com.google.android.exoplayer2.util.DebugViewProvider;
-import com.google.android.exoplayer2.util.Effect;
-import com.google.android.exoplayer2.util.HandlerWrapper;
-import com.google.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.effect.Presentation;
+import com.readwise.android.exoplayer2.util.Clock;
+import com.readwise.android.exoplayer2.util.ConditionVariable;
+import com.readwise.android.exoplayer2.util.DebugViewProvider;
+import com.readwise.android.exoplayer2.util.Effect;
+import com.readwise.android.exoplayer2.util.HandlerWrapper;
+import com.readwise.android.exoplayer2.util.MimeTypes;
 import com.google.common.collect.ImmutableList;
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;

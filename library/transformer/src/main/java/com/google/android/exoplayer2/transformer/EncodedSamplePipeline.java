@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.transformer;
+package com.readwise.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.decoder.DecoderInputBuffer.BUFFER_REPLACEMENT_MODE_DIRECT;
+import static com.readwise.android.exoplayer2.decoder.DecoderInputBuffer.BUFFER_REPLACEMENT_MODE_DIRECT;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.decoder.DecoderInputBuffer;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.util.Queue;

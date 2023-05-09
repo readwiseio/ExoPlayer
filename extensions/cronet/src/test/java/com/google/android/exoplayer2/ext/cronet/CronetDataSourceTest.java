@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.cronet;
+package com.readwise.android.exoplayer2.ext.cronet;
 
 import static com.google.common.truth.Truth.assertThat;
 import static java.lang.Math.min;
@@ -36,14 +36,14 @@ import android.net.Uri;
 import android.os.ConditionVariable;
 import android.os.SystemClock;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.upstream.DefaultHttpDataSource;
-import com.google.android.exoplayer2.upstream.HttpDataSource;
-import com.google.android.exoplayer2.upstream.HttpDataSource.HttpDataSourceException;
-import com.google.android.exoplayer2.upstream.HttpDataSource.InvalidResponseCodeException;
-import com.google.android.exoplayer2.upstream.TransferListener;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.upstream.DataSpec;
+import com.readwise.android.exoplayer2.upstream.DefaultHttpDataSource;
+import com.readwise.android.exoplayer2.upstream.HttpDataSource;
+import com.readwise.android.exoplayer2.upstream.HttpDataSource.HttpDataSourceException;
+import com.readwise.android.exoplayer2.upstream.HttpDataSource.InvalidResponseCodeException;
+import com.readwise.android.exoplayer2.upstream.TransferListener;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.IOException;
 import java.io.InterruptedIOException;
 import java.net.SocketTimeoutException;

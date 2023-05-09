@@ -15,14 +15,14 @@
  *
  */
 
-package com.google.android.exoplayer2.effect;
+package com.readwise.android.exoplayer2.effect;
 
 import android.graphics.Bitmap;
 import android.graphics.SurfaceTexture;
 import android.view.Surface;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.util.FrameInfo;
-import com.google.android.exoplayer2.util.VideoFrameProcessor;
+import com.readwise.android.exoplayer2.util.FrameInfo;
+import com.readwise.android.exoplayer2.util.VideoFrameProcessor;
 
 /** A component that handles {@code DefaultVideoFrameProcessor}'s input. */
 /* package */ interface TextureManager extends GlShaderProgram.InputListener {

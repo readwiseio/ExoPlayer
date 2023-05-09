@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.transformer;
+package com.readwise.android.exoplayer2.transformer;
 
 import static androidx.test.core.app.ApplicationProvider.getApplicationContext;
-import static com.google.android.exoplayer2.transformer.ExportException.ERROR_CODE_ENCODING_FORMAT_UNSUPPORTED;
+import static com.readwise.android.exoplayer2.transformer.ExportException.ERROR_CODE_ENCODING_FORMAT_UNSUPPORTED;
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
 
@@ -25,8 +25,8 @@ import android.content.Context;
 import android.media.MediaCodecInfo;
 import android.media.MediaFormat;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.util.MimeTypes;
 import com.google.common.collect.ImmutableList;
 import org.junit.After;
 import org.junit.Before;

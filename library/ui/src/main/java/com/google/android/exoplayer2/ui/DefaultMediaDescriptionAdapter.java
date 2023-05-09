@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ui;
+package com.readwise.android.exoplayer2.ui;
 
-import static com.google.android.exoplayer2.Player.COMMAND_GET_METADATA;
+import static com.readwise.android.exoplayer2.Player.COMMAND_GET_METADATA;
 
 import android.app.PendingIntent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.text.TextUtils;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.ui.PlayerNotificationManager.BitmapCallback;
-import com.google.android.exoplayer2.ui.PlayerNotificationManager.MediaDescriptionAdapter;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.ui.PlayerNotificationManager.BitmapCallback;
+import com.readwise.android.exoplayer2.ui.PlayerNotificationManager.MediaDescriptionAdapter;
 
 /**
  * Default implementation of {@link MediaDescriptionAdapter}.

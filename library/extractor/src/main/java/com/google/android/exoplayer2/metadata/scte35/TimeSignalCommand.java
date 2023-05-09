@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.metadata.scte35;
+package com.readwise.android.exoplayer2.metadata.scte35;
 
 import android.os.Parcel;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.util.ParsableByteArray;
-import com.google.android.exoplayer2.util.TimestampAdjuster;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.util.ParsableByteArray;
+import com.readwise.android.exoplayer2.util.TimestampAdjuster;
 
 /** Represents a time signal command as defined in SCTE35, Section 9.3.4. */
 public final class TimeSignalCommand extends SpliceCommand {

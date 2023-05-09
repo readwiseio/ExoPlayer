@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.dash.offline;
+package com.readwise.android.exoplayer2.source.dash.offline;
 
 import android.net.Uri;
 import com.google.common.base.Charsets;

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.e2etest;
+package com.readwise.android.exoplayer2.e2etest;
 
 import android.content.Context;
 import android.graphics.SurfaceTexture;
@@ -21,19 +21,19 @@ import android.net.Uri;
 import android.view.Surface;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ExoPlayer;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.robolectric.PlaybackOutput;
-import com.google.android.exoplayer2.robolectric.ShadowMediaCodecConfig;
-import com.google.android.exoplayer2.robolectric.TestPlayerRunHelper;
-import com.google.android.exoplayer2.source.DefaultMediaSourceFactory;
-import com.google.android.exoplayer2.source.MediaSource;
-import com.google.android.exoplayer2.testutil.CapturingRenderersFactory;
-import com.google.android.exoplayer2.testutil.DumpFileAsserts;
-import com.google.android.exoplayer2.testutil.FakeClock;
-import com.google.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ExoPlayer;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.robolectric.PlaybackOutput;
+import com.readwise.android.exoplayer2.robolectric.ShadowMediaCodecConfig;
+import com.readwise.android.exoplayer2.robolectric.TestPlayerRunHelper;
+import com.readwise.android.exoplayer2.source.DefaultMediaSourceFactory;
+import com.readwise.android.exoplayer2.source.MediaSource;
+import com.readwise.android.exoplayer2.testutil.CapturingRenderersFactory;
+import com.readwise.android.exoplayer2.testutil.DumpFileAsserts;
+import com.readwise.android.exoplayer2.testutil.FakeClock;
+import com.readwise.android.exoplayer2.util.MimeTypes;
 import com.google.common.collect.ImmutableList;
 import org.junit.Rule;
 import org.junit.Test;

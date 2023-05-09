@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.text.webvtt;
+package com.readwise.android.exoplayer2.text.webvtt;
 
 import static java.lang.annotation.ElementType.TYPE_USE;
 
@@ -22,7 +22,7 @@ import android.text.TextUtils;
 import androidx.annotation.ColorInt;
 import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.text.span.TextAnnotation;
+import com.readwise.android.exoplayer2.text.span.TextAnnotation;
 import com.google.common.base.Ascii;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.lang.annotation.Documented;

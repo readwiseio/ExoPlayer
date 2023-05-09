@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.drm</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.drm</a></div>
 <h2 title="Interface MediaDrmCallback" class="title">Interface MediaDrmCallback</h2>
 </div>
 <div class="contentContainer">
@@ -122,11 +122,11 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Known Implementing Classes:</dt>
-<dd><code><a href="../testutil/FakeExoMediaDrm.LicenseServer.html" title="class in com.google.android.exoplayer2.testutil">FakeExoMediaDrm.LicenseServer</a></code>, <code><a href="HttpMediaDrmCallback.html" title="class in com.google.android.exoplayer2.drm">HttpMediaDrmCallback</a></code>, <code><a href="LocalMediaDrmCallback.html" title="class in com.google.android.exoplayer2.drm">LocalMediaDrmCallback</a></code></dd>
+<dd><code><a href="../testutil/FakeExoMediaDrm.LicenseServer.html" title="class in com.readwise.android.exoplayer2.testutil">FakeExoMediaDrm.LicenseServer</a></code>, <code><a href="HttpMediaDrmCallback.html" title="class in com.readwise.android.exoplayer2.drm">HttpMediaDrmCallback</a></code>, <code><a href="LocalMediaDrmCallback.html" title="class in com.readwise.android.exoplayer2.drm">LocalMediaDrmCallback</a></code></dd>
 </dl>
 <hr>
 <pre>public interface <span class="typeNameLabel">MediaDrmCallback</span></pre>
-<div class="block">Performs <a href="ExoMediaDrm.html" title="interface in com.google.android.exoplayer2.drm"><code>ExoMediaDrm</code></a> key and provisioning requests.</div>
+<div class="block">Performs <a href="ExoMediaDrm.html" title="interface in com.readwise.android.exoplayer2.drm"><code>ExoMediaDrm</code></a> key and provisioning requests.</div>
 </li>
 </ul>
 </div>
@@ -149,16 +149,16 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>byte[]</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#executeKeyRequest(java.util.UUID,com.google.android.exoplayer2.drm.ExoMediaDrm.KeyRequest)">executeKeyRequest</a></span>&#8203;(<a href="https://developer.android.com/reference/java/util/UUID.html" title="class or interface in java.util" class="externalLink" target="_top">UUID</a>&nbsp;uuid,
-                 <a href="ExoMediaDrm.KeyRequest.html" title="class in com.google.android.exoplayer2.drm">ExoMediaDrm.KeyRequest</a>&nbsp;request)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#executeKeyRequest(java.util.UUID,com.readwise.android.exoplayer2.drm.ExoMediaDrm.KeyRequest)">executeKeyRequest</a></span>&#8203;(<a href="https://developer.android.com/reference/java/util/UUID.html" title="class or interface in java.util" class="externalLink" target="_top">UUID</a>&nbsp;uuid,
+                 <a href="ExoMediaDrm.KeyRequest.html" title="class in com.readwise.android.exoplayer2.drm">ExoMediaDrm.KeyRequest</a>&nbsp;request)</code></th>
 <td class="colLast">
 <div class="block">Executes a key request.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>byte[]</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#executeProvisionRequest(java.util.UUID,com.google.android.exoplayer2.drm.ExoMediaDrm.ProvisionRequest)">executeProvisionRequest</a></span>&#8203;(<a href="https://developer.android.com/reference/java/util/UUID.html" title="class or interface in java.util" class="externalLink" target="_top">UUID</a>&nbsp;uuid,
-                       <a href="ExoMediaDrm.ProvisionRequest.html" title="class in com.google.android.exoplayer2.drm">ExoMediaDrm.ProvisionRequest</a>&nbsp;request)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#executeProvisionRequest(java.util.UUID,com.readwise.android.exoplayer2.drm.ExoMediaDrm.ProvisionRequest)">executeProvisionRequest</a></span>&#8203;(<a href="https://developer.android.com/reference/java/util/UUID.html" title="class or interface in java.util" class="externalLink" target="_top">UUID</a>&nbsp;uuid,
+                       <a href="ExoMediaDrm.ProvisionRequest.html" title="class in com.readwise.android.exoplayer2.drm">ExoMediaDrm.ProvisionRequest</a>&nbsp;request)</code></th>
 <td class="colLast">
 <div class="block">Executes a provisioning request.</div>
 </td>
@@ -180,15 +180,15 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="executeProvisionRequest(java.util.UUID,com.google.android.exoplayer2.drm.ExoMediaDrm.ProvisionRequest)">
+<a id="executeProvisionRequest(java.util.UUID,com.readwise.android.exoplayer2.drm.ExoMediaDrm.ProvisionRequest)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>executeProvisionRequest</h4>
 <pre class="methodSignature">byte[]&nbsp;executeProvisionRequest&#8203;(<a href="https://developer.android.com/reference/java/util/UUID.html" title="class or interface in java.util" class="externalLink" target="_top">UUID</a>&nbsp;uuid,
-                               <a href="ExoMediaDrm.ProvisionRequest.html" title="class in com.google.android.exoplayer2.drm">ExoMediaDrm.ProvisionRequest</a>&nbsp;request)
-                        throws <a href="MediaDrmCallbackException.html" title="class in com.google.android.exoplayer2.drm">MediaDrmCallbackException</a></pre>
+                               <a href="ExoMediaDrm.ProvisionRequest.html" title="class in com.readwise.android.exoplayer2.drm">ExoMediaDrm.ProvisionRequest</a>&nbsp;request)
+                        throws <a href="MediaDrmCallbackException.html" title="class in com.readwise.android.exoplayer2.drm">MediaDrmCallbackException</a></pre>
 <div class="block">Executes a provisioning request.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -197,19 +197,19 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>The response data.</dd>
 <dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="MediaDrmCallbackException.html" title="class in com.google.android.exoplayer2.drm">MediaDrmCallbackException</a></code> - If an error occurred executing the request.</dd>
+<dd><code><a href="MediaDrmCallbackException.html" title="class in com.readwise.android.exoplayer2.drm">MediaDrmCallbackException</a></code> - If an error occurred executing the request.</dd>
 </dl>
 </li>
 </ul>
-<a id="executeKeyRequest(java.util.UUID,com.google.android.exoplayer2.drm.ExoMediaDrm.KeyRequest)">
+<a id="executeKeyRequest(java.util.UUID,com.readwise.android.exoplayer2.drm.ExoMediaDrm.KeyRequest)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>executeKeyRequest</h4>
 <pre class="methodSignature">byte[]&nbsp;executeKeyRequest&#8203;(<a href="https://developer.android.com/reference/java/util/UUID.html" title="class or interface in java.util" class="externalLink" target="_top">UUID</a>&nbsp;uuid,
-                         <a href="ExoMediaDrm.KeyRequest.html" title="class in com.google.android.exoplayer2.drm">ExoMediaDrm.KeyRequest</a>&nbsp;request)
-                  throws <a href="MediaDrmCallbackException.html" title="class in com.google.android.exoplayer2.drm">MediaDrmCallbackException</a></pre>
+                         <a href="ExoMediaDrm.KeyRequest.html" title="class in com.readwise.android.exoplayer2.drm">ExoMediaDrm.KeyRequest</a>&nbsp;request)
+                  throws <a href="MediaDrmCallbackException.html" title="class in com.readwise.android.exoplayer2.drm">MediaDrmCallbackException</a></pre>
 <div class="block">Executes a key request.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -218,7 +218,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>The response data.</dd>
 <dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="MediaDrmCallbackException.html" title="class in com.google.android.exoplayer2.drm">MediaDrmCallbackException</a></code> - If an error occurred executing the request.</dd>
+<dd><code><a href="MediaDrmCallbackException.html" title="class in com.readwise.android.exoplayer2.drm">MediaDrmCallbackException</a></code> - If an error occurred executing the request.</dd>
 </dl>
 </li>
 </ul>

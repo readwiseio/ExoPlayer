@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.playbacktests.gts;
+package com.readwise.android.exoplayer2.playbacktests.gts;
 
 import static java.lang.Math.max;
 
@@ -23,19 +23,19 @@ import android.media.MediaFormat;
 import android.os.Handler;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.DefaultRenderersFactory;
-import com.google.android.exoplayer2.ExoPlaybackException;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.FormatHolder;
-import com.google.android.exoplayer2.Renderer;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
-import com.google.android.exoplayer2.decoder.DecoderReuseEvaluation;
-import com.google.android.exoplayer2.mediacodec.MediaCodecAdapter;
-import com.google.android.exoplayer2.mediacodec.MediaCodecInfo;
-import com.google.android.exoplayer2.mediacodec.MediaCodecSelector;
-import com.google.android.exoplayer2.video.MediaCodecVideoRenderer;
-import com.google.android.exoplayer2.video.VideoRendererEventListener;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.DefaultRenderersFactory;
+import com.readwise.android.exoplayer2.ExoPlaybackException;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.FormatHolder;
+import com.readwise.android.exoplayer2.Renderer;
+import com.readwise.android.exoplayer2.decoder.DecoderInputBuffer;
+import com.readwise.android.exoplayer2.decoder.DecoderReuseEvaluation;
+import com.readwise.android.exoplayer2.mediacodec.MediaCodecAdapter;
+import com.readwise.android.exoplayer2.mediacodec.MediaCodecInfo;
+import com.readwise.android.exoplayer2.mediacodec.MediaCodecSelector;
+import com.readwise.android.exoplayer2.video.MediaCodecVideoRenderer;
+import com.readwise.android.exoplayer2.video.VideoRendererEventListener;
 import java.nio.ByteBuffer;
 import java.util.ArrayDeque;
 import java.util.ArrayList;

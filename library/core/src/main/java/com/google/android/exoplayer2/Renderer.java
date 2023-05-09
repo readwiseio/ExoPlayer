@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
 import static java.lang.annotation.ElementType.TYPE_USE;
 
@@ -21,17 +21,17 @@ import android.media.MediaCodec;
 import android.view.Surface;
 import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.analytics.PlayerId;
-import com.google.android.exoplayer2.audio.AudioAttributes;
-import com.google.android.exoplayer2.audio.AuxEffectInfo;
-import com.google.android.exoplayer2.source.SampleStream;
-import com.google.android.exoplayer2.util.Effect;
-import com.google.android.exoplayer2.util.MediaClock;
-import com.google.android.exoplayer2.util.Size;
-import com.google.android.exoplayer2.util.Util;
-import com.google.android.exoplayer2.video.VideoDecoderOutputBufferRenderer;
-import com.google.android.exoplayer2.video.VideoFrameMetadataListener;
-import com.google.android.exoplayer2.video.spherical.CameraMotionListener;
+import com.readwise.android.exoplayer2.analytics.PlayerId;
+import com.readwise.android.exoplayer2.audio.AudioAttributes;
+import com.readwise.android.exoplayer2.audio.AuxEffectInfo;
+import com.readwise.android.exoplayer2.source.SampleStream;
+import com.readwise.android.exoplayer2.util.Effect;
+import com.readwise.android.exoplayer2.util.MediaClock;
+import com.readwise.android.exoplayer2.util.Size;
+import com.readwise.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.video.VideoDecoderOutputBufferRenderer;
+import com.readwise.android.exoplayer2.video.VideoFrameMetadataListener;
+import com.readwise.android.exoplayer2.video.spherical.CameraMotionListener;
 import java.io.IOException;
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;

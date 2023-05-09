@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.mediacodec</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.mediacodec</a></div>
 <h2 title="Interface MediaCodecSelector" class="title">Interface MediaCodecSelector</h2>
 </div>
 <div class="contentContainer">
@@ -144,10 +144,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <th class="colLast" scope="col">Description</th>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code>static <a href="MediaCodecSelector.html" title="interface in com.google.android.exoplayer2.mediacodec">MediaCodecSelector</a></code></td>
+<td class="colFirst"><code>static <a href="MediaCodecSelector.html" title="interface in com.readwise.android.exoplayer2.mediacodec">MediaCodecSelector</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#DEFAULT">DEFAULT</a></span></code></th>
 <td class="colLast">
-<div class="block">Default implementation of <a href="MediaCodecSelector.html" title="interface in com.google.android.exoplayer2.mediacodec"><code>MediaCodecSelector</code></a>, which returns the preferred decoder for
+<div class="block">Default implementation of <a href="MediaCodecSelector.html" title="interface in com.readwise.android.exoplayer2.mediacodec"><code>MediaCodecSelector</code></a>, which returns the preferred decoder for
  the given format.</div>
 </td>
 </tr>
@@ -170,7 +170,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <th class="colLast" scope="col">Description</th>
 </tr>
 <tr id="i0" class="altColor">
-<td class="colFirst"><code><a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="MediaCodecInfo.html" title="class in com.google.android.exoplayer2.mediacodec" target="_top">MediaCodecInfo</a>&gt;</code></td>
+<td class="colFirst"><code><a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="MediaCodecInfo.html" title="class in com.readwise.android.exoplayer2.mediacodec" target="_top">MediaCodecInfo</a>&gt;</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getDecoderInfos(java.lang.String,boolean,boolean)">getDecoderInfos</a></span>&#8203;(<a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;mimeType,
                boolean&nbsp;requiresSecureDecoder,
                boolean&nbsp;requiresTunnelingDecoder)</code></th>
@@ -201,8 +201,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <ul class="blockListLast">
 <li class="blockList">
 <h4>DEFAULT</h4>
-<pre>static final&nbsp;<a href="MediaCodecSelector.html" title="interface in com.google.android.exoplayer2.mediacodec">MediaCodecSelector</a> DEFAULT</pre>
-<div class="block">Default implementation of <a href="MediaCodecSelector.html" title="interface in com.google.android.exoplayer2.mediacodec"><code>MediaCodecSelector</code></a>, which returns the preferred decoder for
+<pre>static final&nbsp;<a href="MediaCodecSelector.html" title="interface in com.readwise.android.exoplayer2.mediacodec">MediaCodecSelector</a> DEFAULT</pre>
+<div class="block">Default implementation of <a href="MediaCodecSelector.html" title="interface in com.readwise.android.exoplayer2.mediacodec"><code>MediaCodecSelector</code></a>, which returns the preferred decoder for
  the given format.</div>
 </li>
 </ul>
@@ -222,10 +222,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <ul class="blockListLast">
 <li class="blockList">
 <h4>getDecoderInfos</h4>
-<pre class="methodSignature"><a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="MediaCodecInfo.html" title="class in com.google.android.exoplayer2.mediacodec">MediaCodecInfo</a>&gt;&nbsp;getDecoderInfos&#8203;(<a href="https://developer.android.com/reference/java/lang/String.html?is-external=true" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;mimeType,
+<pre class="methodSignature"><a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="MediaCodecInfo.html" title="class in com.readwise.android.exoplayer2.mediacodec">MediaCodecInfo</a>&gt;&nbsp;getDecoderInfos&#8203;(<a href="https://developer.android.com/reference/java/lang/String.html?is-external=true" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;mimeType,
                                      boolean&nbsp;requiresSecureDecoder,
                                      boolean&nbsp;requiresTunnelingDecoder)
-                              throws <a href="MediaCodecUtil.DecoderQueryException.html" title="class in com.google.android.exoplayer2.mediacodec">MediaCodecUtil.DecoderQueryException</a></pre>
+                              throws <a href="MediaCodecUtil.DecoderQueryException.html" title="class in com.readwise.android.exoplayer2.mediacodec">MediaCodecUtil.DecoderQueryException</a></pre>
 <div class="block">Returns a list of decoders that can decode media in the specified MIME type, in priority order.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -233,10 +233,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd><code>requiresSecureDecoder</code> - Whether a secure decoder is required.</dd>
 <dd><code>requiresTunnelingDecoder</code> - Whether a tunneling decoder is required.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>An unmodifiable list of <a href="MediaCodecInfo.html" title="class in com.google.android.exoplayer2.mediacodec"><code>MediaCodecInfo</code></a>s corresponding to decoders. May be
+<dd>An unmodifiable list of <a href="MediaCodecInfo.html" title="class in com.readwise.android.exoplayer2.mediacodec"><code>MediaCodecInfo</code></a>s corresponding to decoders. May be
      empty.</dd>
 <dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="MediaCodecUtil.DecoderQueryException.html" title="class in com.google.android.exoplayer2.mediacodec">MediaCodecUtil.DecoderQueryException</a></code> - Thrown if there was an error querying decoders.</dd>
+<dd><code><a href="MediaCodecUtil.DecoderQueryException.html" title="class in com.readwise.android.exoplayer2.mediacodec">MediaCodecUtil.DecoderQueryException</a></code> - Thrown if there was an error querying decoders.</dd>
 </dl>
 </li>
 </ul>

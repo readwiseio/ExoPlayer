@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.testutil;
+package com.readwise.android.exoplayer2.testutil;
 
-import com.google.android.exoplayer2.Renderer;
-import com.google.android.exoplayer2.util.MediaClock;
+import com.readwise.android.exoplayer2.Renderer;
+import com.readwise.android.exoplayer2.util.MediaClock;
 
 /** Fake abstract {@link Renderer} which is also a {@link MediaClock}. */
 public abstract class FakeMediaClockRenderer extends FakeRenderer implements MediaClock {

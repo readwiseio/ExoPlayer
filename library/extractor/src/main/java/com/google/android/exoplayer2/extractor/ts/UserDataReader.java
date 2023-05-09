@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.extractor.ts;
+package com.readwise.android.exoplayer2.extractor.ts;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.extractor.CeaUtil;
-import com.google.android.exoplayer2.extractor.ExtractorOutput;
-import com.google.android.exoplayer2.extractor.TrackOutput;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.ParsableByteArray;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.extractor.CeaUtil;
+import com.readwise.android.exoplayer2.extractor.ExtractorOutput;
+import com.readwise.android.exoplayer2.extractor.TrackOutput;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.ParsableByteArray;
 import java.util.List;
 
 /** Consumes user data, outputting contained CEA-608/708 messages to a {@link TrackOutput}. */

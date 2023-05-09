@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.media2;
+package com.readwise.android.exoplayer2.ext.media2;
 
 import android.content.Context;
 import android.net.Uri;
@@ -21,12 +21,12 @@ import android.os.Looper;
 import androidx.annotation.Nullable;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.platform.app.InstrumentationRegistry;
-import com.google.android.exoplayer2.ExoPlayer;
-import com.google.android.exoplayer2.source.DefaultMediaSourceFactory;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.upstream.DefaultDataSource;
-import com.google.android.exoplayer2.upstream.TransferListener;
+import com.readwise.android.exoplayer2.ExoPlayer;
+import com.readwise.android.exoplayer2.source.DefaultMediaSourceFactory;
+import com.readwise.android.exoplayer2.upstream.DataSource;
+import com.readwise.android.exoplayer2.upstream.DataSpec;
+import com.readwise.android.exoplayer2.upstream.DefaultDataSource;
+import com.readwise.android.exoplayer2.upstream.TransferListener;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;

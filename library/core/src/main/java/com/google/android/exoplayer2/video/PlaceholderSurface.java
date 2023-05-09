@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.video;
+package com.readwise.android.exoplayer2.video;
 
-import static com.google.android.exoplayer2.util.EGLSurfaceTexture.SECURE_MODE_NONE;
-import static com.google.android.exoplayer2.util.EGLSurfaceTexture.SECURE_MODE_PROTECTED_PBUFFER;
-import static com.google.android.exoplayer2.util.EGLSurfaceTexture.SECURE_MODE_SURFACELESS_CONTEXT;
+import static com.readwise.android.exoplayer2.util.EGLSurfaceTexture.SECURE_MODE_NONE;
+import static com.readwise.android.exoplayer2.util.EGLSurfaceTexture.SECURE_MODE_PROTECTED_PBUFFER;
+import static com.readwise.android.exoplayer2.util.EGLSurfaceTexture.SECURE_MODE_SURFACELESS_CONTEXT;
 
 import android.content.Context;
 import android.graphics.SurfaceTexture;
@@ -27,12 +27,12 @@ import android.os.Message;
 import android.view.Surface;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.EGLSurfaceTexture;
-import com.google.android.exoplayer2.util.EGLSurfaceTexture.SecureMode;
-import com.google.android.exoplayer2.util.GlUtil;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.EGLSurfaceTexture;
+import com.readwise.android.exoplayer2.util.EGLSurfaceTexture.SecureMode;
+import com.readwise.android.exoplayer2.util.GlUtil;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.Util;
 import org.checkerframework.checker.nullness.qual.MonotonicNonNull;
 
 /** A placeholder {@link Surface}. */

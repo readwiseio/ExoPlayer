@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.metadata.vorbis;
+package com.readwise.android.exoplayer2.metadata.vorbis;
 
 import android.os.Parcel;
 
 /** A vorbis comment, extracted from a FLAC or Ogg file. */
 @SuppressWarnings("deprecation") // Extending deprecated type for backwards compatibility.
-public final class VorbisComment extends com.google.android.exoplayer2.metadata.flac.VorbisComment {
+public final class VorbisComment extends com.readwise.android.exoplayer2.metadata.flac.VorbisComment {
 
   /**
    * @param key The key.

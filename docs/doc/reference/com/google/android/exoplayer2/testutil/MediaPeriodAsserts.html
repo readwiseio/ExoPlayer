@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.testutil</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.testutil</a></div>
 <h2 title="Class MediaPeriodAsserts" class="title">Class MediaPeriodAsserts</h2>
 </div>
 <div class="contentContainer">
@@ -121,7 +121,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li><a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">java.lang.Object</a></li>
 <li>
 <ul class="inheritance">
-<li>com.google.android.exoplayer2.testutil.MediaPeriodAsserts</li>
+<li>com.readwise.android.exoplayer2.testutil.MediaPeriodAsserts</li>
 </ul>
 </li>
 </ul>
@@ -131,7 +131,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <hr>
 <pre>public final class <span class="typeNameLabel">MediaPeriodAsserts</span>
 extends <a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">Object</a></pre>
-<div class="block">Assertion methods for <a href="../source/MediaPeriod.html" title="interface in com.google.android.exoplayer2.source"><code>MediaPeriod</code></a>.</div>
+<div class="block">Assertion methods for <a href="../source/MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source"><code>MediaPeriod</code></a>.</div>
 </li>
 </ul>
 </div>
@@ -154,9 +154,9 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static interface&nbsp;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="MediaPeriodAsserts.FilterableManifestMediaPeriodFactory.html" title="interface in com.google.android.exoplayer2.testutil">MediaPeriodAsserts.FilterableManifestMediaPeriodFactory</a>&lt;<a href="MediaPeriodAsserts.FilterableManifestMediaPeriodFactory.html" title="type parameter in MediaPeriodAsserts.FilterableManifestMediaPeriodFactory">T</a> extends <a href="../offline/FilterableManifest.html" title="interface in com.google.android.exoplayer2.offline">FilterableManifest</a>&lt;<a href="MediaPeriodAsserts.FilterableManifestMediaPeriodFactory.html" title="type parameter in MediaPeriodAsserts.FilterableManifestMediaPeriodFactory">T</a>&gt;&gt;</span></code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="MediaPeriodAsserts.FilterableManifestMediaPeriodFactory.html" title="interface in com.readwise.android.exoplayer2.testutil">MediaPeriodAsserts.FilterableManifestMediaPeriodFactory</a>&lt;<a href="MediaPeriodAsserts.FilterableManifestMediaPeriodFactory.html" title="type parameter in MediaPeriodAsserts.FilterableManifestMediaPeriodFactory">T</a> extends <a href="../offline/FilterableManifest.html" title="interface in com.readwise.android.exoplayer2.offline">FilterableManifest</a>&lt;<a href="MediaPeriodAsserts.FilterableManifestMediaPeriodFactory.html" title="type parameter in MediaPeriodAsserts.FilterableManifestMediaPeriodFactory">T</a>&gt;&gt;</span></code></th>
 <td class="colLast">
-<div class="block">Interface to create media periods for testing based on a <a href="../offline/FilterableManifest.html" title="interface in com.google.android.exoplayer2.offline"><code>FilterableManifest</code></a>.</div>
+<div class="block">Interface to create media periods for testing based on a <a href="../offline/FilterableManifest.html" title="interface in com.readwise.android.exoplayer2.offline"><code>FilterableManifest</code></a>.</div>
 </td>
 </tr>
 </table>
@@ -178,31 +178,31 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 <th class="colLast" scope="col">Description</th>
 </tr>
 <tr id="i0" class="altColor">
-<td class="colFirst"><code>static &lt;T extends <a href="../offline/FilterableManifest.html" title="interface in com.google.android.exoplayer2.offline">FilterableManifest</a>&lt;T&gt;&gt;<br>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#assertGetStreamKeysAndManifestFilterIntegration(com.google.android.exoplayer2.testutil.MediaPeriodAsserts.FilterableManifestMediaPeriodFactory,T)">assertGetStreamKeysAndManifestFilterIntegration</a></span>&#8203;(<a href="MediaPeriodAsserts.FilterableManifestMediaPeriodFactory.html" title="interface in com.google.android.exoplayer2.testutil">MediaPeriodAsserts.FilterableManifestMediaPeriodFactory</a>&lt;T&gt;&nbsp;mediaPeriodFactory,
+<td class="colFirst"><code>static &lt;T extends <a href="../offline/FilterableManifest.html" title="interface in com.readwise.android.exoplayer2.offline">FilterableManifest</a>&lt;T&gt;&gt;<br>void</code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#assertGetStreamKeysAndManifestFilterIntegration(com.readwise.android.exoplayer2.testutil.MediaPeriodAsserts.FilterableManifestMediaPeriodFactory,T)">assertGetStreamKeysAndManifestFilterIntegration</a></span>&#8203;(<a href="MediaPeriodAsserts.FilterableManifestMediaPeriodFactory.html" title="interface in com.readwise.android.exoplayer2.testutil">MediaPeriodAsserts.FilterableManifestMediaPeriodFactory</a>&lt;T&gt;&nbsp;mediaPeriodFactory,
                                                T&nbsp;manifest)</code></th>
 <td class="colLast">
 <div class="block">Asserts that the values returns by <a href="../source/MediaPeriod.html#getStreamKeys(java.util.List)"><code>MediaPeriod.getStreamKeys(List)</code></a> are compatible with
- a <a href="../offline/FilterableManifest.html" title="interface in com.google.android.exoplayer2.offline"><code>FilterableManifest</code></a> using these stream keys.</div>
+ a <a href="../offline/FilterableManifest.html" title="interface in com.readwise.android.exoplayer2.offline"><code>FilterableManifest</code></a> using these stream keys.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
-<td class="colFirst"><code>static &lt;T extends <a href="../offline/FilterableManifest.html" title="interface in com.google.android.exoplayer2.offline">FilterableManifest</a>&lt;T&gt;&gt;<br>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#assertGetStreamKeysAndManifestFilterIntegration(com.google.android.exoplayer2.testutil.MediaPeriodAsserts.FilterableManifestMediaPeriodFactory,T,int,java.lang.String)">assertGetStreamKeysAndManifestFilterIntegration</a></span>&#8203;(<a href="MediaPeriodAsserts.FilterableManifestMediaPeriodFactory.html" title="interface in com.google.android.exoplayer2.testutil">MediaPeriodAsserts.FilterableManifestMediaPeriodFactory</a>&lt;T&gt;&nbsp;mediaPeriodFactory,
+<td class="colFirst"><code>static &lt;T extends <a href="../offline/FilterableManifest.html" title="interface in com.readwise.android.exoplayer2.offline">FilterableManifest</a>&lt;T&gt;&gt;<br>void</code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#assertGetStreamKeysAndManifestFilterIntegration(com.readwise.android.exoplayer2.testutil.MediaPeriodAsserts.FilterableManifestMediaPeriodFactory,T,int,java.lang.String)">assertGetStreamKeysAndManifestFilterIntegration</a></span>&#8203;(<a href="MediaPeriodAsserts.FilterableManifestMediaPeriodFactory.html" title="interface in com.readwise.android.exoplayer2.testutil">MediaPeriodAsserts.FilterableManifestMediaPeriodFactory</a>&lt;T&gt;&nbsp;mediaPeriodFactory,
                                                T&nbsp;manifest,
                                                int&nbsp;periodIndex,
                                                <a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;ignoredMimeType)</code></th>
 <td class="colLast">
 <div class="block">Asserts that the values returns by <a href="../source/MediaPeriod.html#getStreamKeys(java.util.List)"><code>MediaPeriod.getStreamKeys(List)</code></a> are compatible with
- a <a href="../offline/FilterableManifest.html" title="interface in com.google.android.exoplayer2.offline"><code>FilterableManifest</code></a> using these stream keys.</div>
+ a <a href="../offline/FilterableManifest.html" title="interface in com.readwise.android.exoplayer2.offline"><code>FilterableManifest</code></a> using these stream keys.</div>
 </td>
 </tr>
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>static void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#assertTrackGroups(com.google.android.exoplayer2.source.MediaPeriod,com.google.android.exoplayer2.source.TrackGroupArray)">assertTrackGroups</a></span>&#8203;(<a href="../source/MediaPeriod.html" title="interface in com.google.android.exoplayer2.source">MediaPeriod</a>&nbsp;mediaPeriod,
-                 <a href="../source/TrackGroupArray.html" title="class in com.google.android.exoplayer2.source">TrackGroupArray</a>&nbsp;expectedGroups)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#assertTrackGroups(com.readwise.android.exoplayer2.source.MediaPeriod,com.readwise.android.exoplayer2.source.TrackGroupArray)">assertTrackGroups</a></span>&#8203;(<a href="../source/MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source">MediaPeriod</a>&nbsp;mediaPeriod,
+                 <a href="../source/TrackGroupArray.html" title="class in com.readwise.android.exoplayer2.source">TrackGroupArray</a>&nbsp;expectedGroups)</code></th>
 <td class="colLast">
-<div class="block">Prepares the <a href="../source/MediaPeriod.html" title="interface in com.google.android.exoplayer2.source"><code>MediaPeriod</code></a> and asserts that it provides the specified track groups.</div>
+<div class="block">Prepares the <a href="../source/MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source"><code>MediaPeriod</code></a> and asserts that it provides the specified track groups.</div>
 </td>
 </tr>
 </table>
@@ -229,59 +229,59 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="assertTrackGroups(com.google.android.exoplayer2.source.MediaPeriod,com.google.android.exoplayer2.source.TrackGroupArray)">
+<a id="assertTrackGroups(com.readwise.android.exoplayer2.source.MediaPeriod,com.readwise.android.exoplayer2.source.TrackGroupArray)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>assertTrackGroups</h4>
-<pre class="methodSignature">public static&nbsp;void&nbsp;assertTrackGroups&#8203;(<a href="../source/MediaPeriod.html" title="interface in com.google.android.exoplayer2.source">MediaPeriod</a>&nbsp;mediaPeriod,
-                                     <a href="../source/TrackGroupArray.html" title="class in com.google.android.exoplayer2.source">TrackGroupArray</a>&nbsp;expectedGroups)</pre>
-<div class="block">Prepares the <a href="../source/MediaPeriod.html" title="interface in com.google.android.exoplayer2.source"><code>MediaPeriod</code></a> and asserts that it provides the specified track groups.</div>
+<pre class="methodSignature">public static&nbsp;void&nbsp;assertTrackGroups&#8203;(<a href="../source/MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source">MediaPeriod</a>&nbsp;mediaPeriod,
+                                     <a href="../source/TrackGroupArray.html" title="class in com.readwise.android.exoplayer2.source">TrackGroupArray</a>&nbsp;expectedGroups)</pre>
+<div class="block">Prepares the <a href="../source/MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source"><code>MediaPeriod</code></a> and asserts that it provides the specified track groups.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>mediaPeriod</code> - The <a href="../source/MediaPeriod.html" title="interface in com.google.android.exoplayer2.source"><code>MediaPeriod</code></a> to test.</dd>
+<dd><code>mediaPeriod</code> - The <a href="../source/MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source"><code>MediaPeriod</code></a> to test.</dd>
 <dd><code>expectedGroups</code> - The expected track groups.</dd>
 </dl>
 </li>
 </ul>
-<a id="assertGetStreamKeysAndManifestFilterIntegration(com.google.android.exoplayer2.testutil.MediaPeriodAsserts.FilterableManifestMediaPeriodFactory,com.google.android.exoplayer2.offline.FilterableManifest)">
+<a id="assertGetStreamKeysAndManifestFilterIntegration(com.readwise.android.exoplayer2.testutil.MediaPeriodAsserts.FilterableManifestMediaPeriodFactory,com.readwise.android.exoplayer2.offline.FilterableManifest)">
 <!--   -->
-</a><a id="assertGetStreamKeysAndManifestFilterIntegration(com.google.android.exoplayer2.testutil.MediaPeriodAsserts.FilterableManifestMediaPeriodFactory,T)">
+</a><a id="assertGetStreamKeysAndManifestFilterIntegration(com.readwise.android.exoplayer2.testutil.MediaPeriodAsserts.FilterableManifestMediaPeriodFactory,T)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>assertGetStreamKeysAndManifestFilterIntegration</h4>
-<pre class="methodSignature">public static&nbsp;&lt;T extends <a href="../offline/FilterableManifest.html" title="interface in com.google.android.exoplayer2.offline">FilterableManifest</a>&lt;T&gt;&gt;&nbsp;void&nbsp;assertGetStreamKeysAndManifestFilterIntegration&#8203;(<a href="MediaPeriodAsserts.FilterableManifestMediaPeriodFactory.html" title="interface in com.google.android.exoplayer2.testutil">MediaPeriodAsserts.FilterableManifestMediaPeriodFactory</a>&lt;T&gt;&nbsp;mediaPeriodFactory,
+<pre class="methodSignature">public static&nbsp;&lt;T extends <a href="../offline/FilterableManifest.html" title="interface in com.readwise.android.exoplayer2.offline">FilterableManifest</a>&lt;T&gt;&gt;&nbsp;void&nbsp;assertGetStreamKeysAndManifestFilterIntegration&#8203;(<a href="MediaPeriodAsserts.FilterableManifestMediaPeriodFactory.html" title="interface in com.readwise.android.exoplayer2.testutil">MediaPeriodAsserts.FilterableManifestMediaPeriodFactory</a>&lt;T&gt;&nbsp;mediaPeriodFactory,
                                                                                                      T&nbsp;manifest)</pre>
 <div class="block">Asserts that the values returns by <a href="../source/MediaPeriod.html#getStreamKeys(java.util.List)"><code>MediaPeriod.getStreamKeys(List)</code></a> are compatible with
- a <a href="../offline/FilterableManifest.html" title="interface in com.google.android.exoplayer2.offline"><code>FilterableManifest</code></a> using these stream keys.</div>
+ a <a href="../offline/FilterableManifest.html" title="interface in com.readwise.android.exoplayer2.offline"><code>FilterableManifest</code></a> using these stream keys.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>mediaPeriodFactory</code> - A factory to create a <a href="../source/MediaPeriod.html" title="interface in com.google.android.exoplayer2.source"><code>MediaPeriod</code></a> based on a manifest.</dd>
+<dd><code>mediaPeriodFactory</code> - A factory to create a <a href="../source/MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source"><code>MediaPeriod</code></a> based on a manifest.</dd>
 <dd><code>manifest</code> - The manifest which is to be tested.</dd>
 </dl>
 </li>
 </ul>
-<a id="assertGetStreamKeysAndManifestFilterIntegration(com.google.android.exoplayer2.testutil.MediaPeriodAsserts.FilterableManifestMediaPeriodFactory,com.google.android.exoplayer2.offline.FilterableManifest,int,java.lang.String)">
+<a id="assertGetStreamKeysAndManifestFilterIntegration(com.readwise.android.exoplayer2.testutil.MediaPeriodAsserts.FilterableManifestMediaPeriodFactory,com.readwise.android.exoplayer2.offline.FilterableManifest,int,java.lang.String)">
 <!--   -->
-</a><a id="assertGetStreamKeysAndManifestFilterIntegration(com.google.android.exoplayer2.testutil.MediaPeriodAsserts.FilterableManifestMediaPeriodFactory,T,int,java.lang.String)">
+</a><a id="assertGetStreamKeysAndManifestFilterIntegration(com.readwise.android.exoplayer2.testutil.MediaPeriodAsserts.FilterableManifestMediaPeriodFactory,T,int,java.lang.String)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>assertGetStreamKeysAndManifestFilterIntegration</h4>
-<pre class="methodSignature">public static&nbsp;&lt;T extends <a href="../offline/FilterableManifest.html" title="interface in com.google.android.exoplayer2.offline">FilterableManifest</a>&lt;T&gt;&gt;&nbsp;void&nbsp;assertGetStreamKeysAndManifestFilterIntegration&#8203;(<a href="MediaPeriodAsserts.FilterableManifestMediaPeriodFactory.html" title="interface in com.google.android.exoplayer2.testutil">MediaPeriodAsserts.FilterableManifestMediaPeriodFactory</a>&lt;T&gt;&nbsp;mediaPeriodFactory,
+<pre class="methodSignature">public static&nbsp;&lt;T extends <a href="../offline/FilterableManifest.html" title="interface in com.readwise.android.exoplayer2.offline">FilterableManifest</a>&lt;T&gt;&gt;&nbsp;void&nbsp;assertGetStreamKeysAndManifestFilterIntegration&#8203;(<a href="MediaPeriodAsserts.FilterableManifestMediaPeriodFactory.html" title="interface in com.readwise.android.exoplayer2.testutil">MediaPeriodAsserts.FilterableManifestMediaPeriodFactory</a>&lt;T&gt;&nbsp;mediaPeriodFactory,
                                                                                                      T&nbsp;manifest,
                                                                                                      int&nbsp;periodIndex,
                                                                                                      @Nullable
                                                                                                      <a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;ignoredMimeType)</pre>
 <div class="block">Asserts that the values returns by <a href="../source/MediaPeriod.html#getStreamKeys(java.util.List)"><code>MediaPeriod.getStreamKeys(List)</code></a> are compatible with
- a <a href="../offline/FilterableManifest.html" title="interface in com.google.android.exoplayer2.offline"><code>FilterableManifest</code></a> using these stream keys.</div>
+ a <a href="../offline/FilterableManifest.html" title="interface in com.readwise.android.exoplayer2.offline"><code>FilterableManifest</code></a> using these stream keys.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>mediaPeriodFactory</code> - A factory to create a <a href="../source/MediaPeriod.html" title="interface in com.google.android.exoplayer2.source"><code>MediaPeriod</code></a> based on a manifest.</dd>
+<dd><code>mediaPeriodFactory</code> - A factory to create a <a href="../source/MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source"><code>MediaPeriod</code></a> based on a manifest.</dd>
 <dd><code>manifest</code> - The manifest which is to be tested.</dd>
 <dd><code>periodIndex</code> - The index of period in the manifest.</dd>
 <dd><code>ignoredMimeType</code> - Optional mime type whose existence in the filtered track groups is not

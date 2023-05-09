@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.upstream.experimental;
+package com.readwise.android.exoplayer2.upstream.experimental;
 
-import static com.google.android.exoplayer2.upstream.experimental.BandwidthEstimator.ESTIMATE_NOT_AVAILABLE;
+import static com.readwise.android.exoplayer2.upstream.experimental.BandwidthEstimator.ESTIMATE_NOT_AVAILABLE;
 
 /** A {@link BandwidthStatistic} that calculates estimates using an exponential weighted average. */
 public class ExponentialWeightedAverageStatistic implements BandwidthStatistic {

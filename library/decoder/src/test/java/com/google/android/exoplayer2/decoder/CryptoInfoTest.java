@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.decoder;
+package com.readwise.android.exoplayer2.decoder;
 
 import static com.google.common.truth.Truth.assertThat;
 

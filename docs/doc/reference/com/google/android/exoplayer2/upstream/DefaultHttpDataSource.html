@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.upstream</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.upstream</a></div>
 <h2 title="Class DefaultHttpDataSource" class="title">Class DefaultHttpDataSource</h2>
 </div>
 <div class="contentContainer">
@@ -121,10 +121,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li><a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">java.lang.Object</a></li>
 <li>
 <ul class="inheritance">
-<li><a href="BaseDataSource.html" title="class in com.google.android.exoplayer2.upstream">com.google.android.exoplayer2.upstream.BaseDataSource</a></li>
+<li><a href="BaseDataSource.html" title="class in com.readwise.android.exoplayer2.upstream">com.readwise.android.exoplayer2.upstream.BaseDataSource</a></li>
 <li>
 <ul class="inheritance">
-<li>com.google.android.exoplayer2.upstream.DefaultHttpDataSource</li>
+<li>com.readwise.android.exoplayer2.upstream.DefaultHttpDataSource</li>
 </ul>
 </li>
 </ul>
@@ -135,13 +135,13 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Implemented Interfaces:</dt>
-<dd><code><a href="DataReader.html" title="interface in com.google.android.exoplayer2.upstream">DataReader</a></code>, <code><a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a></code>, <code><a href="HttpDataSource.html" title="interface in com.google.android.exoplayer2.upstream">HttpDataSource</a></code></dd>
+<dd><code><a href="DataReader.html" title="interface in com.readwise.android.exoplayer2.upstream">DataReader</a></code>, <code><a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a></code>, <code><a href="HttpDataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">HttpDataSource</a></code></dd>
 </dl>
 <hr>
 <pre>public class <span class="typeNameLabel">DefaultHttpDataSource</span>
-extends <a href="BaseDataSource.html" title="class in com.google.android.exoplayer2.upstream">BaseDataSource</a>
-implements <a href="HttpDataSource.html" title="interface in com.google.android.exoplayer2.upstream">HttpDataSource</a></pre>
-<div class="block">An <a href="HttpDataSource.html" title="interface in com.google.android.exoplayer2.upstream"><code>HttpDataSource</code></a> that uses Android's <a href="https://developer.android.com/reference/java/net/HttpURLConnection.html" title="class or interface in java.net" class="externalLink" target="_top"><code>HttpURLConnection</code></a>.
+extends <a href="BaseDataSource.html" title="class in com.readwise.android.exoplayer2.upstream">BaseDataSource</a>
+implements <a href="HttpDataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">HttpDataSource</a></pre>
+<div class="block">An <a href="HttpDataSource.html" title="interface in com.readwise.android.exoplayer2.upstream"><code>HttpDataSource</code></a> that uses Android's <a href="https://developer.android.com/reference/java/net/HttpURLConnection.html" title="class or interface in java.net" class="externalLink" target="_top"><code>HttpURLConnection</code></a>.
 
  <p>By default this implementation will not follow cross-protocol redirects (i.e. redirects from
  HTTP to HTTPS or vice versa). Cross-protocol redirects can be enabled by passing <code>true</code> to
@@ -172,18 +172,18 @@ implements <a href="HttpDataSource.html" title="interface in com.google.android.
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static class&nbsp;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="DefaultHttpDataSource.Factory.html" title="class in com.google.android.exoplayer2.upstream">DefaultHttpDataSource.Factory</a></span></code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="DefaultHttpDataSource.Factory.html" title="class in com.readwise.android.exoplayer2.upstream">DefaultHttpDataSource.Factory</a></span></code></th>
 <td class="colLast">
-<div class="block"><a href="DataSource.Factory.html" title="interface in com.google.android.exoplayer2.upstream"><code>DataSource.Factory</code></a> for <a href="DefaultHttpDataSource.html" title="class in com.google.android.exoplayer2.upstream"><code>DefaultHttpDataSource</code></a> instances.</div>
+<div class="block"><a href="DataSource.Factory.html" title="interface in com.readwise.android.exoplayer2.upstream"><code>DataSource.Factory</code></a> for <a href="DefaultHttpDataSource.html" title="class in com.readwise.android.exoplayer2.upstream"><code>DefaultHttpDataSource</code></a> instances.</div>
 </td>
 </tr>
 </table>
 <ul class="blockList">
-<li class="blockList"><a id="nested.classes.inherited.from.class.com.google.android.exoplayer2.upstream.HttpDataSource">
+<li class="blockList"><a id="nested.classes.inherited.from.class.com.readwise.android.exoplayer2.upstream.HttpDataSource">
 <!--   -->
 </a>
-<h3>Nested classes/interfaces inherited from interface&nbsp;com.google.android.exoplayer2.upstream.<a href="HttpDataSource.html" title="interface in com.google.android.exoplayer2.upstream">HttpDataSource</a></h3>
-<code><a href="HttpDataSource.BaseFactory.html" title="class in com.google.android.exoplayer2.upstream">HttpDataSource.BaseFactory</a>, <a href="HttpDataSource.CleartextNotPermittedException.html" title="class in com.google.android.exoplayer2.upstream">HttpDataSource.CleartextNotPermittedException</a>, <a href="HttpDataSource.HttpDataSourceException.html" title="class in com.google.android.exoplayer2.upstream">HttpDataSource.HttpDataSourceException</a>, <a href="HttpDataSource.InvalidContentTypeException.html" title="class in com.google.android.exoplayer2.upstream">HttpDataSource.InvalidContentTypeException</a>, <a href="HttpDataSource.InvalidResponseCodeException.html" title="class in com.google.android.exoplayer2.upstream">HttpDataSource.InvalidResponseCodeException</a>, <a href="HttpDataSource.RequestProperties.html" title="class in com.google.android.exoplayer2.upstream">HttpDataSource.RequestProperties</a></code></li>
+<h3>Nested classes/interfaces inherited from interface&nbsp;com.readwise.android.exoplayer2.upstream.<a href="HttpDataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">HttpDataSource</a></h3>
+<code><a href="HttpDataSource.BaseFactory.html" title="class in com.readwise.android.exoplayer2.upstream">HttpDataSource.BaseFactory</a>, <a href="HttpDataSource.CleartextNotPermittedException.html" title="class in com.readwise.android.exoplayer2.upstream">HttpDataSource.CleartextNotPermittedException</a>, <a href="HttpDataSource.HttpDataSourceException.html" title="class in com.readwise.android.exoplayer2.upstream">HttpDataSource.HttpDataSourceException</a>, <a href="HttpDataSource.InvalidContentTypeException.html" title="class in com.readwise.android.exoplayer2.upstream">HttpDataSource.InvalidContentTypeException</a>, <a href="HttpDataSource.InvalidResponseCodeException.html" title="class in com.readwise.android.exoplayer2.upstream">HttpDataSource.InvalidResponseCodeException</a>, <a href="HttpDataSource.RequestProperties.html" title="class in com.readwise.android.exoplayer2.upstream">HttpDataSource.RequestProperties</a></code></li>
 </ul>
 </li>
 </ul>
@@ -218,10 +218,10 @@ implements <a href="HttpDataSource.html" title="interface in com.google.android.
 </tr>
 </table>
 <ul class="blockList">
-<li class="blockList"><a id="fields.inherited.from.class.com.google.android.exoplayer2.upstream.HttpDataSource">
+<li class="blockList"><a id="fields.inherited.from.class.com.readwise.android.exoplayer2.upstream.HttpDataSource">
 <!--   -->
 </a>
-<h3>Fields inherited from interface&nbsp;com.google.android.exoplayer2.upstream.<a href="HttpDataSource.html" title="interface in com.google.android.exoplayer2.upstream">HttpDataSource</a></h3>
+<h3>Fields inherited from interface&nbsp;com.readwise.android.exoplayer2.upstream.<a href="HttpDataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">HttpDataSource</a></h3>
 <code><a href="HttpDataSource.html#REJECT_PAYWALL_TYPES">REJECT_PAYWALL_TYPES</a></code></li>
 </ul>
 </li>
@@ -244,7 +244,7 @@ implements <a href="HttpDataSource.html" title="interface in com.google.android.
 <th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E()">DefaultHttpDataSource</a></span>()</code></th>
 <td class="colLast">
 <div class="block"><span class="deprecatedLabel">Deprecated.</span>
-<div class="deprecationComment">Use <a href="DefaultHttpDataSource.Factory.html" title="class in com.google.android.exoplayer2.upstream"><code>DefaultHttpDataSource.Factory</code></a> instead.</div>
+<div class="deprecationComment">Use <a href="DefaultHttpDataSource.Factory.html" title="class in com.readwise.android.exoplayer2.upstream"><code>DefaultHttpDataSource.Factory</code></a> instead.</div>
 </div>
 </td>
 </tr>
@@ -252,7 +252,7 @@ implements <a href="HttpDataSource.html" title="interface in com.google.android.
 <th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(java.lang.String)">DefaultHttpDataSource</a></span>&#8203;(<a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;userAgent)</code></th>
 <td class="colLast">
 <div class="block"><span class="deprecatedLabel">Deprecated.</span>
-<div class="deprecationComment">Use <a href="DefaultHttpDataSource.Factory.html" title="class in com.google.android.exoplayer2.upstream"><code>DefaultHttpDataSource.Factory</code></a> instead.</div>
+<div class="deprecationComment">Use <a href="DefaultHttpDataSource.Factory.html" title="class in com.readwise.android.exoplayer2.upstream"><code>DefaultHttpDataSource.Factory</code></a> instead.</div>
 </div>
 </td>
 </tr>
@@ -262,19 +262,19 @@ implements <a href="HttpDataSource.html" title="interface in com.google.android.
                      int&nbsp;readTimeoutMillis)</code></th>
 <td class="colLast">
 <div class="block"><span class="deprecatedLabel">Deprecated.</span>
-<div class="deprecationComment">Use <a href="DefaultHttpDataSource.Factory.html" title="class in com.google.android.exoplayer2.upstream"><code>DefaultHttpDataSource.Factory</code></a> instead.</div>
+<div class="deprecationComment">Use <a href="DefaultHttpDataSource.Factory.html" title="class in com.readwise.android.exoplayer2.upstream"><code>DefaultHttpDataSource.Factory</code></a> instead.</div>
 </div>
 </td>
 </tr>
 <tr class="rowColor">
-<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(java.lang.String,int,int,boolean,com.google.android.exoplayer2.upstream.HttpDataSource.RequestProperties)">DefaultHttpDataSource</a></span>&#8203;(<a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;userAgent,
+<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(java.lang.String,int,int,boolean,com.readwise.android.exoplayer2.upstream.HttpDataSource.RequestProperties)">DefaultHttpDataSource</a></span>&#8203;(<a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;userAgent,
                      int&nbsp;connectTimeoutMillis,
                      int&nbsp;readTimeoutMillis,
                      boolean&nbsp;allowCrossProtocolRedirects,
-                     <a href="HttpDataSource.RequestProperties.html" title="class in com.google.android.exoplayer2.upstream">HttpDataSource.RequestProperties</a>&nbsp;defaultRequestProperties)</code></th>
+                     <a href="HttpDataSource.RequestProperties.html" title="class in com.readwise.android.exoplayer2.upstream">HttpDataSource.RequestProperties</a>&nbsp;defaultRequestProperties)</code></th>
 <td class="colLast">
 <div class="block"><span class="deprecatedLabel">Deprecated.</span>
-<div class="deprecationComment">Use <a href="DefaultHttpDataSource.Factory.html" title="class in com.google.android.exoplayer2.upstream"><code>DefaultHttpDataSource.Factory</code></a> instead.</div>
+<div class="deprecationComment">Use <a href="DefaultHttpDataSource.Factory.html" title="class in com.readwise.android.exoplayer2.upstream"><code>DefaultHttpDataSource.Factory</code></a> instead.</div>
 </div>
 </td>
 </tr>
@@ -321,14 +321,14 @@ implements <a href="HttpDataSource.html" title="interface in com.google.android.
 <td class="colFirst"><code>int</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getResponseCode()">getResponseCode</a></span>()</code></th>
 <td class="colLast">
-<div class="block">When the source is open, returns the HTTP response status code associated with the last <a href="HttpDataSource.html#open(com.google.android.exoplayer2.upstream.DataSpec)"><code>HttpDataSource.open(com.google.android.exoplayer2.upstream.DataSpec)</code></a> call.</div>
+<div class="block">When the source is open, returns the HTTP response status code associated with the last <a href="HttpDataSource.html#open(com.readwise.android.exoplayer2.upstream.DataSpec)"><code>HttpDataSource.open(com.readwise.android.exoplayer2.upstream.DataSpec)</code></a> call.</div>
 </td>
 </tr>
 <tr id="i4" class="altColor">
 <td class="colFirst"><code><a href="https://developer.android.com/reference/java/util/Map.html" title="class or interface in java.util" class="externalLink">Map</a>&lt;<a href="https://developer.android.com/reference/java/lang/String.html?is-external=true" title="class or interface in java.lang" class="externalLink">String</a>,&#8203;<a href="https://developer.android.com/reference/java/util/List.html?is-external=true" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="https://developer.android.com/reference/java/lang/String.html?is-external=true" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&gt;&gt;</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getResponseHeaders()">getResponseHeaders</a></span>()</code></th>
 <td class="colLast">
-<div class="block">When the source is open, returns the response headers associated with the last <a href="DataSource.html#open(com.google.android.exoplayer2.upstream.DataSpec)"><code>DataSource.open(com.google.android.exoplayer2.upstream.DataSpec)</code></a>
+<div class="block">When the source is open, returns the response headers associated with the last <a href="DataSource.html#open(com.readwise.android.exoplayer2.upstream.DataSpec)"><code>DataSource.open(com.readwise.android.exoplayer2.upstream.DataSpec)</code></a>
  call.</div>
 </td>
 </tr>
@@ -341,7 +341,7 @@ implements <a href="HttpDataSource.html" title="interface in com.google.android.
 </tr>
 <tr id="i6" class="altColor">
 <td class="colFirst"><code>long</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#open(com.google.android.exoplayer2.upstream.DataSpec)">open</a></span>&#8203;(<a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#open(com.readwise.android.exoplayer2.upstream.DataSpec)">open</a></span>&#8203;(<a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec)</code></th>
 <td class="colLast">
 <div class="block">Opens the source to read the specified data.</div>
 </td>
@@ -375,11 +375,11 @@ implements <a href="HttpDataSource.html" title="interface in com.google.android.
 </tr>
 </table>
 <ul class="blockList">
-<li class="blockList"><a id="methods.inherited.from.class.com.google.android.exoplayer2.upstream.BaseDataSource">
+<li class="blockList"><a id="methods.inherited.from.class.com.readwise.android.exoplayer2.upstream.BaseDataSource">
 <!--   -->
 </a>
-<h3>Methods inherited from class&nbsp;com.google.android.exoplayer2.upstream.<a href="BaseDataSource.html" title="class in com.google.android.exoplayer2.upstream">BaseDataSource</a></h3>
-<code><a href="BaseDataSource.html#addTransferListener(com.google.android.exoplayer2.upstream.TransferListener)">addTransferListener</a>, <a href="BaseDataSource.html#bytesTransferred(int)">bytesTransferred</a>, <a href="BaseDataSource.html#transferEnded()">transferEnded</a>, <a href="BaseDataSource.html#transferInitializing(com.google.android.exoplayer2.upstream.DataSpec)">transferInitializing</a>, <a href="BaseDataSource.html#transferStarted(com.google.android.exoplayer2.upstream.DataSpec)">transferStarted</a></code></li>
+<h3>Methods inherited from class&nbsp;com.readwise.android.exoplayer2.upstream.<a href="BaseDataSource.html" title="class in com.readwise.android.exoplayer2.upstream">BaseDataSource</a></h3>
+<code><a href="BaseDataSource.html#addTransferListener(com.readwise.android.exoplayer2.upstream.TransferListener)">addTransferListener</a>, <a href="BaseDataSource.html#bytesTransferred(int)">bytesTransferred</a>, <a href="BaseDataSource.html#transferEnded()">transferEnded</a>, <a href="BaseDataSource.html#transferInitializing(com.readwise.android.exoplayer2.upstream.DataSpec)">transferInitializing</a>, <a href="BaseDataSource.html#transferStarted(com.readwise.android.exoplayer2.upstream.DataSpec)">transferStarted</a></code></li>
 </ul>
 <ul class="blockList">
 <li class="blockList"><a id="methods.inherited.from.class.java.lang.Object">
@@ -389,11 +389,11 @@ implements <a href="HttpDataSource.html" title="interface in com.google.android.
 <code><a href="https://developer.android.com/reference/java/lang/Object.html#clone()" title="class or interface in java.lang" class="externalLink">clone</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#equals(java.lang.Object)" title="class or interface in java.lang" class="externalLink">equals</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#finalize()" title="class or interface in java.lang" class="externalLink">finalize</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#getClass()" title="class or interface in java.lang" class="externalLink">getClass</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#hashCode()" title="class or interface in java.lang" class="externalLink">hashCode</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#notify()" title="class or interface in java.lang" class="externalLink">notify</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#notifyAll()" title="class or interface in java.lang" class="externalLink">notifyAll</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#toString()" title="class or interface in java.lang" class="externalLink">toString</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#wait()" title="class or interface in java.lang" class="externalLink">wait</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#wait(long)" title="class or interface in java.lang" class="externalLink">wait</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#wait(long,int)" title="class or interface in java.lang" class="externalLink" target="_top">wait</a></code></li>
 </ul>
 <ul class="blockList">
-<li class="blockList"><a id="methods.inherited.from.class.com.google.android.exoplayer2.upstream.DataSource">
+<li class="blockList"><a id="methods.inherited.from.class.com.readwise.android.exoplayer2.upstream.DataSource">
 <!--   -->
 </a>
-<h3>Methods inherited from interface&nbsp;com.google.android.exoplayer2.upstream.<a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a></h3>
-<code><a href="DataSource.html#addTransferListener(com.google.android.exoplayer2.upstream.TransferListener)">addTransferListener</a></code></li>
+<h3>Methods inherited from interface&nbsp;com.readwise.android.exoplayer2.upstream.<a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a></h3>
+<code><a href="DataSource.html#addTransferListener(com.readwise.android.exoplayer2.upstream.TransferListener)">addTransferListener</a></code></li>
 </ul>
 </li>
 </ul>
@@ -421,7 +421,7 @@ implements <a href="HttpDataSource.html" title="interface in com.google.android.
 <div class="block">The default connection timeout, in milliseconds.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../../constant-values.html#com.google.android.exoplayer2.upstream.DefaultHttpDataSource.DEFAULT_CONNECT_TIMEOUT_MILLIS">Constant Field Values</a></dd>
+<dd><a href="../../../../../constant-values.html#com.readwise.android.exoplayer2.upstream.DefaultHttpDataSource.DEFAULT_CONNECT_TIMEOUT_MILLIS">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>
@@ -435,7 +435,7 @@ implements <a href="HttpDataSource.html" title="interface in com.google.android.
 <div class="block">The default read timeout, in milliseconds.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../../constant-values.html#com.google.android.exoplayer2.upstream.DefaultHttpDataSource.DEFAULT_READ_TIMEOUT_MILLIS">Constant Field Values</a></dd>
+<dd><a href="../../../../../constant-values.html#com.readwise.android.exoplayer2.upstream.DefaultHttpDataSource.DEFAULT_READ_TIMEOUT_MILLIS">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>
@@ -458,7 +458,7 @@ implements <a href="HttpDataSource.html" title="interface in com.google.android.
 <pre><a href="https://developer.android.com/reference/java/lang/Deprecated.html" title="class or interface in java.lang" class="externalLink" target="_top">@Deprecated</a>
 public&nbsp;DefaultHttpDataSource()</pre>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span>
-<div class="deprecationComment">Use <a href="DefaultHttpDataSource.Factory.html" title="class in com.google.android.exoplayer2.upstream"><code>DefaultHttpDataSource.Factory</code></a> instead.</div>
+<div class="deprecationComment">Use <a href="DefaultHttpDataSource.Factory.html" title="class in com.readwise.android.exoplayer2.upstream"><code>DefaultHttpDataSource.Factory</code></a> instead.</div>
 </div>
 </li>
 </ul>
@@ -472,7 +472,7 @@ public&nbsp;DefaultHttpDataSource()</pre>
 public&nbsp;DefaultHttpDataSource&#8203;(@Nullable
                              <a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;userAgent)</pre>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span>
-<div class="deprecationComment">Use <a href="DefaultHttpDataSource.Factory.html" title="class in com.google.android.exoplayer2.upstream"><code>DefaultHttpDataSource.Factory</code></a> instead.</div>
+<div class="deprecationComment">Use <a href="DefaultHttpDataSource.Factory.html" title="class in com.readwise.android.exoplayer2.upstream"><code>DefaultHttpDataSource.Factory</code></a> instead.</div>
 </div>
 </li>
 </ul>
@@ -488,11 +488,11 @@ public&nbsp;DefaultHttpDataSource&#8203;(@Nullable
                              int&nbsp;connectTimeoutMillis,
                              int&nbsp;readTimeoutMillis)</pre>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span>
-<div class="deprecationComment">Use <a href="DefaultHttpDataSource.Factory.html" title="class in com.google.android.exoplayer2.upstream"><code>DefaultHttpDataSource.Factory</code></a> instead.</div>
+<div class="deprecationComment">Use <a href="DefaultHttpDataSource.Factory.html" title="class in com.readwise.android.exoplayer2.upstream"><code>DefaultHttpDataSource.Factory</code></a> instead.</div>
 </div>
 </li>
 </ul>
-<a id="&lt;init&gt;(java.lang.String,int,int,boolean,com.google.android.exoplayer2.upstream.HttpDataSource.RequestProperties)">
+<a id="&lt;init&gt;(java.lang.String,int,int,boolean,com.readwise.android.exoplayer2.upstream.HttpDataSource.RequestProperties)">
 <!--   -->
 </a>
 <ul class="blockListLast">
@@ -505,9 +505,9 @@ public&nbsp;DefaultHttpDataSource&#8203;(@Nullable
                              int&nbsp;readTimeoutMillis,
                              boolean&nbsp;allowCrossProtocolRedirects,
                              @Nullable
-                             <a href="HttpDataSource.RequestProperties.html" title="class in com.google.android.exoplayer2.upstream">HttpDataSource.RequestProperties</a>&nbsp;defaultRequestProperties)</pre>
+                             <a href="HttpDataSource.RequestProperties.html" title="class in com.readwise.android.exoplayer2.upstream">HttpDataSource.RequestProperties</a>&nbsp;defaultRequestProperties)</pre>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span>
-<div class="deprecationComment">Use <a href="DefaultHttpDataSource.Factory.html" title="class in com.google.android.exoplayer2.upstream"><code>DefaultHttpDataSource.Factory</code></a> instead.</div>
+<div class="deprecationComment">Use <a href="DefaultHttpDataSource.Factory.html" title="class in com.readwise.android.exoplayer2.upstream"><code>DefaultHttpDataSource.Factory</code></a> instead.</div>
 </div>
 </li>
 </ul>
@@ -546,12 +546,12 @@ public&nbsp;void&nbsp;setContentTypePredicate&#8203;(@Nullable
 public&nbsp;<a href="https://developer.android.com/reference/android/net/Uri.html" title="class or interface in android.net" class="externalLink" target="_top">Uri</a>&nbsp;getUri()</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="DataSource.html#getUri()">DataSource</a></code></span></div>
 <div class="block">When the source is open, returns the <a href="https://developer.android.com/reference/android/net/Uri.html" title="class or interface in android.net" class="externalLink" target="_top"><code>Uri</code></a> from which data is being read. The returned
- <a href="https://developer.android.com/reference/android/net/Uri.html" title="class or interface in android.net" class="externalLink"><code>Uri</code></a> will be identical to the one passed <a href="DataSource.html#open(com.google.android.exoplayer2.upstream.DataSpec)"><code>DataSource.open(DataSpec)</code></a> in the <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream" target="_top"><code>DataSpec</code></a>
+ <a href="https://developer.android.com/reference/android/net/Uri.html" title="class or interface in android.net" class="externalLink"><code>Uri</code></a> will be identical to the one passed <a href="DataSource.html#open(com.readwise.android.exoplayer2.upstream.DataSpec)"><code>DataSource.open(DataSpec)</code></a> in the <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream" target="_top"><code>DataSpec</code></a>
  unless redirection has occurred. If redirection has occurred, the <a href="https://developer.android.com/reference/android/net/Uri.html" title="class or interface in android.net" class="externalLink" target="_top"><code>Uri</code></a> after redirection
  is returned.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="DataSource.html#getUri()">getUri</a></code>&nbsp;in interface&nbsp;<code><a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a></code></dd>
+<dd><code><a href="DataSource.html#getUri()">getUri</a></code>&nbsp;in interface&nbsp;<code><a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a></code></dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>The <a href="https://developer.android.com/reference/android/net/Uri.html" title="class or interface in android.net" class="externalLink" target="_top"><code>Uri</code></a> from which data is being read, or null if the source is not open.</dd>
 </dl>
@@ -565,10 +565,10 @@ public&nbsp;<a href="https://developer.android.com/reference/android/net/Uri.htm
 <h4>getResponseCode</h4>
 <pre class="methodSignature">public&nbsp;int&nbsp;getResponseCode()</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="HttpDataSource.html#getResponseCode()">HttpDataSource</a></code></span></div>
-<div class="block">When the source is open, returns the HTTP response status code associated with the last <a href="HttpDataSource.html#open(com.google.android.exoplayer2.upstream.DataSpec)"><code>HttpDataSource.open(com.google.android.exoplayer2.upstream.DataSpec)</code></a> call. Otherwise, returns a negative value.</div>
+<div class="block">When the source is open, returns the HTTP response status code associated with the last <a href="HttpDataSource.html#open(com.readwise.android.exoplayer2.upstream.DataSpec)"><code>HttpDataSource.open(com.readwise.android.exoplayer2.upstream.DataSpec)</code></a> call. Otherwise, returns a negative value.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="HttpDataSource.html#getResponseCode()">getResponseCode</a></code>&nbsp;in interface&nbsp;<code><a href="HttpDataSource.html" title="interface in com.google.android.exoplayer2.upstream">HttpDataSource</a></code></dd>
+<dd><code><a href="HttpDataSource.html#getResponseCode()">getResponseCode</a></code>&nbsp;in interface&nbsp;<code><a href="HttpDataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">HttpDataSource</a></code></dd>
 </dl>
 </li>
 </ul>
@@ -580,15 +580,15 @@ public&nbsp;<a href="https://developer.android.com/reference/android/net/Uri.htm
 <h4>getResponseHeaders</h4>
 <pre class="methodSignature">public&nbsp;<a href="https://developer.android.com/reference/java/util/Map.html" title="class or interface in java.util" class="externalLink">Map</a>&lt;<a href="https://developer.android.com/reference/java/lang/String.html?is-external=true" title="class or interface in java.lang" class="externalLink">String</a>,&#8203;<a href="https://developer.android.com/reference/java/util/List.html?is-external=true" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="https://developer.android.com/reference/java/lang/String.html?is-external=true" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&gt;&gt;&nbsp;getResponseHeaders()</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="DataSource.html#getResponseHeaders()">DataSource</a></code></span></div>
-<div class="block">When the source is open, returns the response headers associated with the last <a href="DataSource.html#open(com.google.android.exoplayer2.upstream.DataSpec)"><code>DataSource.open(com.google.android.exoplayer2.upstream.DataSpec)</code></a>
+<div class="block">When the source is open, returns the response headers associated with the last <a href="DataSource.html#open(com.readwise.android.exoplayer2.upstream.DataSpec)"><code>DataSource.open(com.readwise.android.exoplayer2.upstream.DataSpec)</code></a>
  call. Otherwise, returns an empty map.
 
  <p>Key look-up in the returned map is case-insensitive.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="DataSource.html#getResponseHeaders()">getResponseHeaders</a></code>&nbsp;in interface&nbsp;<code><a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a></code></dd>
+<dd><code><a href="DataSource.html#getResponseHeaders()">getResponseHeaders</a></code>&nbsp;in interface&nbsp;<code><a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a></code></dd>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="HttpDataSource.html#getResponseHeaders()">getResponseHeaders</a></code>&nbsp;in interface&nbsp;<code><a href="HttpDataSource.html" title="interface in com.google.android.exoplayer2.upstream">HttpDataSource</a></code></dd>
+<dd><code><a href="HttpDataSource.html#getResponseHeaders()">getResponseHeaders</a></code>&nbsp;in interface&nbsp;<code><a href="HttpDataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">HttpDataSource</a></code></dd>
 </dl>
 </li>
 </ul>
@@ -604,12 +604,12 @@ public&nbsp;<a href="https://developer.android.com/reference/android/net/Uri.htm
 <div class="block">Sets the value of a request header. The value will be used for subsequent connections
  established by the source.
 
- <p>Note: If the same header is set as a default parameter in the <a href="HttpDataSource.Factory.html" title="interface in com.google.android.exoplayer2.upstream"><code>HttpDataSource.Factory</code></a>, then the
+ <p>Note: If the same header is set as a default parameter in the <a href="HttpDataSource.Factory.html" title="interface in com.readwise.android.exoplayer2.upstream"><code>HttpDataSource.Factory</code></a>, then the
  header value set with this method should be preferred when connecting with the data source. See
- <a href="HttpDataSource.html#open(com.google.android.exoplayer2.upstream.DataSpec)"><code>HttpDataSource.open(com.google.android.exoplayer2.upstream.DataSpec)</code></a>.</div>
+ <a href="HttpDataSource.html#open(com.readwise.android.exoplayer2.upstream.DataSpec)"><code>HttpDataSource.open(com.readwise.android.exoplayer2.upstream.DataSpec)</code></a>.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="HttpDataSource.html#setRequestProperty(java.lang.String,java.lang.String)">setRequestProperty</a></code>&nbsp;in interface&nbsp;<code><a href="HttpDataSource.html" title="interface in com.google.android.exoplayer2.upstream">HttpDataSource</a></code></dd>
+<dd><code><a href="HttpDataSource.html#setRequestProperty(java.lang.String,java.lang.String)">setRequestProperty</a></code>&nbsp;in interface&nbsp;<code><a href="HttpDataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">HttpDataSource</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>name</code> - The name of the header field.</dd>
 <dd><code>value</code> - The value of the field.</dd>
@@ -628,7 +628,7 @@ public&nbsp;<a href="https://developer.android.com/reference/android/net/Uri.htm
  established by the source.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="HttpDataSource.html#clearRequestProperty(java.lang.String)">clearRequestProperty</a></code>&nbsp;in interface&nbsp;<code><a href="HttpDataSource.html" title="interface in com.google.android.exoplayer2.upstream">HttpDataSource</a></code></dd>
+<dd><code><a href="HttpDataSource.html#clearRequestProperty(java.lang.String)">clearRequestProperty</a></code>&nbsp;in interface&nbsp;<code><a href="HttpDataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">HttpDataSource</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>name</code> - The name of the header field.</dd>
 </dl>
@@ -645,24 +645,24 @@ public&nbsp;<a href="https://developer.android.com/reference/android/net/Uri.htm
 <div class="block">Clears all request headers that were set by <a href="HttpDataSource.html#setRequestProperty(java.lang.String,java.lang.String)"><code>HttpDataSource.setRequestProperty(String, String)</code></a>.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="HttpDataSource.html#clearAllRequestProperties()">clearAllRequestProperties</a></code>&nbsp;in interface&nbsp;<code><a href="HttpDataSource.html" title="interface in com.google.android.exoplayer2.upstream">HttpDataSource</a></code></dd>
+<dd><code><a href="HttpDataSource.html#clearAllRequestProperties()">clearAllRequestProperties</a></code>&nbsp;in interface&nbsp;<code><a href="HttpDataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">HttpDataSource</a></code></dd>
 </dl>
 </li>
 </ul>
-<a id="open(com.google.android.exoplayer2.upstream.DataSpec)">
+<a id="open(com.readwise.android.exoplayer2.upstream.DataSpec)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>open</h4>
-<pre class="methodSignature">public&nbsp;long&nbsp;open&#8203;(<a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec)
-          throws <a href="HttpDataSource.HttpDataSourceException.html" title="class in com.google.android.exoplayer2.upstream">HttpDataSource.HttpDataSourceException</a></pre>
+<pre class="methodSignature">public&nbsp;long&nbsp;open&#8203;(<a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec)
+          throws <a href="HttpDataSource.HttpDataSourceException.html" title="class in com.readwise.android.exoplayer2.upstream">HttpDataSource.HttpDataSourceException</a></pre>
 <div class="block">Opens the source to read the specified data.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="DataSource.html#open(com.google.android.exoplayer2.upstream.DataSpec)">open</a></code>&nbsp;in interface&nbsp;<code><a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a></code></dd>
+<dd><code><a href="DataSource.html#open(com.readwise.android.exoplayer2.upstream.DataSpec)">open</a></code>&nbsp;in interface&nbsp;<code><a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a></code></dd>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="HttpDataSource.html#open(com.google.android.exoplayer2.upstream.DataSpec)">open</a></code>&nbsp;in interface&nbsp;<code><a href="HttpDataSource.html" title="interface in com.google.android.exoplayer2.upstream">HttpDataSource</a></code></dd>
+<dd><code><a href="HttpDataSource.html#open(com.readwise.android.exoplayer2.upstream.DataSpec)">open</a></code>&nbsp;in interface&nbsp;<code><a href="HttpDataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">HttpDataSource</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>dataSpec</code> - Defines the data to be read.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
@@ -672,7 +672,7 @@ public&nbsp;<a href="https://developer.android.com/reference/android/net/Uri.htm
      unresolved. For all other requests, the value returned will be equal to the request's
      <a href="DataSpec.html#length"><code>DataSpec.length</code></a>.</dd>
 <dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="HttpDataSource.HttpDataSourceException.html" title="class in com.google.android.exoplayer2.upstream">HttpDataSource.HttpDataSourceException</a></code></dd>
+<dd><code><a href="HttpDataSource.HttpDataSourceException.html" title="class in com.readwise.android.exoplayer2.upstream">HttpDataSource.HttpDataSourceException</a></code></dd>
 </dl>
 </li>
 </ul>
@@ -685,7 +685,7 @@ public&nbsp;<a href="https://developer.android.com/reference/android/net/Uri.htm
 <pre class="methodSignature">public&nbsp;int&nbsp;read&#8203;(byte[]&nbsp;buffer,
                 int&nbsp;offset,
                 int&nbsp;length)
-         throws <a href="HttpDataSource.HttpDataSourceException.html" title="class in com.google.android.exoplayer2.upstream">HttpDataSource.HttpDataSourceException</a></pre>
+         throws <a href="HttpDataSource.HttpDataSourceException.html" title="class in com.readwise.android.exoplayer2.upstream">HttpDataSource.HttpDataSourceException</a></pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="DataReader.html#read(byte%5B%5D,int,int)">DataReader</a></code></span></div>
 <div class="block">Reads up to <code>length</code> bytes of data from the input.
 
@@ -695,9 +695,9 @@ public&nbsp;<a href="https://developer.android.com/reference/android/net/Uri.htm
  bytes read is returned.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="DataReader.html#read(byte%5B%5D,int,int)">read</a></code>&nbsp;in interface&nbsp;<code><a href="DataReader.html" title="interface in com.google.android.exoplayer2.upstream">DataReader</a></code></dd>
+<dd><code><a href="DataReader.html#read(byte%5B%5D,int,int)">read</a></code>&nbsp;in interface&nbsp;<code><a href="DataReader.html" title="interface in com.readwise.android.exoplayer2.upstream">DataReader</a></code></dd>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="HttpDataSource.html#read(byte%5B%5D,int,int)">read</a></code>&nbsp;in interface&nbsp;<code><a href="HttpDataSource.html" title="interface in com.google.android.exoplayer2.upstream">HttpDataSource</a></code></dd>
+<dd><code><a href="HttpDataSource.html#read(byte%5B%5D,int,int)">read</a></code>&nbsp;in interface&nbsp;<code><a href="HttpDataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">HttpDataSource</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>buffer</code> - A target array into which data should be written.</dd>
 <dd><code>offset</code> - The offset into the target array at which to write.</dd>
@@ -707,7 +707,7 @@ public&nbsp;<a href="https://developer.android.com/reference/android/net/Uri.htm
      may be less than <code>length</code> because the end of the input (or available data) was
      reached, the method was interrupted, or the operation was aborted early for another reason.</dd>
 <dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="HttpDataSource.HttpDataSourceException.html" title="class in com.google.android.exoplayer2.upstream">HttpDataSource.HttpDataSourceException</a></code></dd>
+<dd><code><a href="HttpDataSource.HttpDataSourceException.html" title="class in com.readwise.android.exoplayer2.upstream">HttpDataSource.HttpDataSourceException</a></code></dd>
 </dl>
 </li>
 </ul>
@@ -718,16 +718,16 @@ public&nbsp;<a href="https://developer.android.com/reference/android/net/Uri.htm
 <li class="blockList">
 <h4>close</h4>
 <pre class="methodSignature">public&nbsp;void&nbsp;close()
-           throws <a href="HttpDataSource.HttpDataSourceException.html" title="class in com.google.android.exoplayer2.upstream">HttpDataSource.HttpDataSourceException</a></pre>
+           throws <a href="HttpDataSource.HttpDataSourceException.html" title="class in com.readwise.android.exoplayer2.upstream">HttpDataSource.HttpDataSourceException</a></pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="DataSource.html#close()">DataSource</a></code></span></div>
-<div class="block">Closes the source. This method must be called even if the corresponding call to <a href="DataSource.html#open(com.google.android.exoplayer2.upstream.DataSpec)"><code>DataSource.open(DataSpec)</code></a> threw an <a href="https://developer.android.com/reference/java/io/IOException.html" title="class or interface in java.io" class="externalLink" target="_top"><code>IOException</code></a>.</div>
+<div class="block">Closes the source. This method must be called even if the corresponding call to <a href="DataSource.html#open(com.readwise.android.exoplayer2.upstream.DataSpec)"><code>DataSource.open(DataSpec)</code></a> threw an <a href="https://developer.android.com/reference/java/io/IOException.html" title="class or interface in java.io" class="externalLink" target="_top"><code>IOException</code></a>.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="DataSource.html#close()">close</a></code>&nbsp;in interface&nbsp;<code><a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a></code></dd>
+<dd><code><a href="DataSource.html#close()">close</a></code>&nbsp;in interface&nbsp;<code><a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a></code></dd>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="HttpDataSource.html#close()">close</a></code>&nbsp;in interface&nbsp;<code><a href="HttpDataSource.html" title="interface in com.google.android.exoplayer2.upstream">HttpDataSource</a></code></dd>
+<dd><code><a href="HttpDataSource.html#close()">close</a></code>&nbsp;in interface&nbsp;<code><a href="HttpDataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">HttpDataSource</a></code></dd>
 <dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="HttpDataSource.HttpDataSourceException.html" title="class in com.google.android.exoplayer2.upstream">HttpDataSource.HttpDataSourceException</a></code></dd>
+<dd><code><a href="HttpDataSource.HttpDataSourceException.html" title="class in com.readwise.android.exoplayer2.upstream">HttpDataSource.HttpDataSourceException</a></code></dd>
 </dl>
 </li>
 </ul>

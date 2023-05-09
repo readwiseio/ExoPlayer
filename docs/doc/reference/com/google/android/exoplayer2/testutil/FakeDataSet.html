@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.testutil</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.testutil</a></div>
 <h2 title="Class FakeDataSet" class="title">Class FakeDataSet</h2>
 </div>
 <div class="contentContainer">
@@ -121,7 +121,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li><a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">java.lang.Object</a></li>
 <li>
 <ul class="inheritance">
-<li>com.google.android.exoplayer2.testutil.FakeDataSet</li>
+<li>com.readwise.android.exoplayer2.testutil.FakeDataSet</li>
 </ul>
 </li>
 </ul>
@@ -130,16 +130,16 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>Direct Known Subclasses:</dt>
-<dd><code><a href="FakeAdaptiveDataSet.html" title="class in com.google.android.exoplayer2.testutil">FakeAdaptiveDataSet</a></code></dd>
+<dd><code><a href="FakeAdaptiveDataSet.html" title="class in com.readwise.android.exoplayer2.testutil">FakeAdaptiveDataSet</a></code></dd>
 </dl>
 <hr>
 <pre>public class <span class="typeNameLabel">FakeDataSet</span>
 extends <a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">Object</a></pre>
-<div class="block">Collection of <a href="FakeDataSet.FakeData.html" title="class in com.google.android.exoplayer2.testutil"><code>FakeDataSet.FakeData</code></a> to be served by a <a href="FakeDataSource.html" title="class in com.google.android.exoplayer2.testutil"><code>FakeDataSource</code></a>.
+<div class="block">Collection of <a href="FakeDataSet.FakeData.html" title="class in com.readwise.android.exoplayer2.testutil"><code>FakeDataSet.FakeData</code></a> to be served by a <a href="FakeDataSource.html" title="class in com.readwise.android.exoplayer2.testutil"><code>FakeDataSource</code></a>.
 
  <p>Multiple fake data can be defined by <a href="#setData(android.net.Uri,byte%5B%5D)"><code>setData(Uri, byte[])</code></a> and <a href="#newData(android.net.Uri)"><code>newData(Uri)</code></a> methods. It's also possible to define a default data by <a href="#newDefaultData()"><code>newDefaultData()</code></a>.
 
- <p><a href="#newData(android.net.Uri)"><code>newData(Uri)</code></a> and <a href="#newDefaultData()"><code>newDefaultData()</code></a> return a <a href="FakeDataSet.FakeData.html" title="class in com.google.android.exoplayer2.testutil"><code>FakeDataSet.FakeData</code></a> instance which can be used to define specific results during <a href="FakeDataSource.html#read(byte%5B%5D,int,int)"><code>FakeDataSource.read(byte[], int, int)</code></a> calls.
+ <p><a href="#newData(android.net.Uri)"><code>newData(Uri)</code></a> and <a href="#newDefaultData()"><code>newDefaultData()</code></a> return a <a href="FakeDataSet.FakeData.html" title="class in com.readwise.android.exoplayer2.testutil"><code>FakeDataSet.FakeData</code></a> instance which can be used to define specific results during <a href="FakeDataSource.html#read(byte%5B%5D,int,int)"><code>FakeDataSource.read(byte[], int, int)</code></a> calls.
 
  <p>The data that will be read from the source can be constructed by calling <a href="FakeDataSet.FakeData.html#appendReadData(byte%5B%5D)"><code>FakeDataSet.FakeData.appendReadData(byte[])</code></a> Calls to <a href="FakeDataSource.html#read(byte%5B%5D,int,int)"><code>FakeDataSource.read(byte[], int, int)</code></a> will not
  span the boundaries between arrays passed to successive calls, and hence the boundaries control
@@ -192,9 +192,9 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static class&nbsp;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="FakeDataSet.FakeData.html" title="class in com.google.android.exoplayer2.testutil">FakeDataSet.FakeData</a></span></code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="FakeDataSet.FakeData.html" title="class in com.readwise.android.exoplayer2.testutil">FakeDataSet.FakeData</a></span></code></th>
 <td class="colLast">
-<div class="block">Container of fake data to be served by a <a href="FakeDataSource.html" title="class in com.google.android.exoplayer2.testutil"><code>FakeDataSource</code></a>.</div>
+<div class="block">Container of fake data to be served by a <a href="FakeDataSource.html" title="class in com.readwise.android.exoplayer2.testutil"><code>FakeDataSource</code></a>.</div>
 </td>
 </tr>
 </table>
@@ -237,49 +237,49 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 <th class="colLast" scope="col">Description</th>
 </tr>
 <tr id="i0" class="altColor">
-<td class="colFirst"><code><a href="https://developer.android.com/reference/java/util/ArrayList.html" title="class or interface in java.util" class="externalLink">ArrayList</a>&lt;<a href="FakeDataSet.FakeData.html" title="class in com.google.android.exoplayer2.testutil" target="_top">FakeDataSet.FakeData</a>&gt;</code></td>
+<td class="colFirst"><code><a href="https://developer.android.com/reference/java/util/ArrayList.html" title="class or interface in java.util" class="externalLink">ArrayList</a>&lt;<a href="FakeDataSet.FakeData.html" title="class in com.readwise.android.exoplayer2.testutil" target="_top">FakeDataSet.FakeData</a>&gt;</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getAllData()">getAllData</a></span>()</code></th>
 <td class="colLast">
 <div class="block">Returns a list of all data including <code>defaultData</code>.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
-<td class="colFirst"><code><a href="FakeDataSet.FakeData.html" title="class in com.google.android.exoplayer2.testutil">FakeDataSet.FakeData</a></code></td>
+<td class="colFirst"><code><a href="FakeDataSet.FakeData.html" title="class in com.readwise.android.exoplayer2.testutil">FakeDataSet.FakeData</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getData(android.net.Uri)">getData</a></span>&#8203;(<a href="https://developer.android.com/reference/android/net/Uri.html" title="class or interface in android.net" class="externalLink" target="_top">Uri</a>&nbsp;uri)</code></th>
 <td class="colLast">
 <div class="block">Returns the data for the given <code>uri</code>, or <code>defaultData</code> if no data is set.</div>
 </td>
 </tr>
 <tr id="i2" class="altColor">
-<td class="colFirst"><code><a href="FakeDataSet.FakeData.html" title="class in com.google.android.exoplayer2.testutil">FakeDataSet.FakeData</a></code></td>
+<td class="colFirst"><code><a href="FakeDataSet.FakeData.html" title="class in com.readwise.android.exoplayer2.testutil">FakeDataSet.FakeData</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getData(java.lang.String)">getData</a></span>&#8203;(<a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;uri)</code></th>
 <td class="colLast">
 <div class="block">Returns the data for the given <code>uri</code>, or <code>defaultData</code> if no data is set.</div>
 </td>
 </tr>
 <tr id="i3" class="rowColor">
-<td class="colFirst"><code><a href="FakeDataSet.FakeData.html" title="class in com.google.android.exoplayer2.testutil">FakeDataSet.FakeData</a></code></td>
+<td class="colFirst"><code><a href="FakeDataSet.FakeData.html" title="class in com.readwise.android.exoplayer2.testutil">FakeDataSet.FakeData</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#newData(android.net.Uri)">newData</a></span>&#8203;(<a href="https://developer.android.com/reference/android/net/Uri.html" title="class or interface in android.net" class="externalLink" target="_top">Uri</a>&nbsp;uri)</code></th>
 <td class="colLast">
-<div class="block">Returns a new <a href="FakeDataSet.FakeData.html" title="class in com.google.android.exoplayer2.testutil"><code>FakeDataSet.FakeData</code></a> with the given <code>uri</code>.</div>
+<div class="block">Returns a new <a href="FakeDataSet.FakeData.html" title="class in com.readwise.android.exoplayer2.testutil"><code>FakeDataSet.FakeData</code></a> with the given <code>uri</code>.</div>
 </td>
 </tr>
 <tr id="i4" class="altColor">
-<td class="colFirst"><code><a href="FakeDataSet.FakeData.html" title="class in com.google.android.exoplayer2.testutil">FakeDataSet.FakeData</a></code></td>
+<td class="colFirst"><code><a href="FakeDataSet.FakeData.html" title="class in com.readwise.android.exoplayer2.testutil">FakeDataSet.FakeData</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#newData(java.lang.String)">newData</a></span>&#8203;(<a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;uri)</code></th>
 <td class="colLast">
-<div class="block">Returns a new <a href="FakeDataSet.FakeData.html" title="class in com.google.android.exoplayer2.testutil"><code>FakeDataSet.FakeData</code></a> with the given <code>uri</code>.</div>
+<div class="block">Returns a new <a href="FakeDataSet.FakeData.html" title="class in com.readwise.android.exoplayer2.testutil"><code>FakeDataSet.FakeData</code></a> with the given <code>uri</code>.</div>
 </td>
 </tr>
 <tr id="i5" class="rowColor">
-<td class="colFirst"><code><a href="FakeDataSet.FakeData.html" title="class in com.google.android.exoplayer2.testutil">FakeDataSet.FakeData</a></code></td>
+<td class="colFirst"><code><a href="FakeDataSet.FakeData.html" title="class in com.readwise.android.exoplayer2.testutil">FakeDataSet.FakeData</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#newDefaultData()">newDefaultData</a></span>()</code></th>
 <td class="colLast">
 <div class="block">Sets the default data, overwrites if there is one already.</div>
 </td>
 </tr>
 <tr id="i6" class="altColor">
-<td class="colFirst"><code><a href="FakeDataSet.html" title="class in com.google.android.exoplayer2.testutil">FakeDataSet</a></code></td>
+<td class="colFirst"><code><a href="FakeDataSet.html" title="class in com.readwise.android.exoplayer2.testutil">FakeDataSet</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setData(android.net.Uri,byte%5B%5D)">setData</a></span>&#8203;(<a href="https://developer.android.com/reference/android/net/Uri.html" title="class or interface in android.net" class="externalLink" target="_top">Uri</a>&nbsp;uri,
        byte[]&nbsp;data)</code></th>
 <td class="colLast">
@@ -287,7 +287,7 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 </td>
 </tr>
 <tr id="i7" class="rowColor">
-<td class="colFirst"><code><a href="FakeDataSet.html" title="class in com.google.android.exoplayer2.testutil">FakeDataSet</a></code></td>
+<td class="colFirst"><code><a href="FakeDataSet.html" title="class in com.readwise.android.exoplayer2.testutil">FakeDataSet</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setData(java.lang.String,byte%5B%5D)">setData</a></span>&#8203;(<a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;uri,
        byte[]&nbsp;data)</code></th>
 <td class="colLast">
@@ -295,7 +295,7 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 </td>
 </tr>
 <tr id="i8" class="altColor">
-<td class="colFirst"><code><a href="FakeDataSet.html" title="class in com.google.android.exoplayer2.testutil">FakeDataSet</a></code></td>
+<td class="colFirst"><code><a href="FakeDataSet.html" title="class in com.readwise.android.exoplayer2.testutil">FakeDataSet</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setRandomData(android.net.Uri,int)">setRandomData</a></span>&#8203;(<a href="https://developer.android.com/reference/android/net/Uri.html" title="class or interface in android.net" class="externalLink" target="_top">Uri</a>&nbsp;uri,
              int&nbsp;length)</code></th>
 <td class="colLast">
@@ -303,7 +303,7 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 </td>
 </tr>
 <tr id="i9" class="rowColor">
-<td class="colFirst"><code><a href="FakeDataSet.html" title="class in com.google.android.exoplayer2.testutil">FakeDataSet</a></code></td>
+<td class="colFirst"><code><a href="FakeDataSet.html" title="class in com.readwise.android.exoplayer2.testutil">FakeDataSet</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setRandomData(java.lang.String,int)">setRandomData</a></span>&#8203;(<a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;uri,
              int&nbsp;length)</code></th>
 <td class="colLast">
@@ -359,7 +359,7 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 <ul class="blockList">
 <li class="blockList">
 <h4>newDefaultData</h4>
-<pre class="methodSignature">public&nbsp;<a href="FakeDataSet.FakeData.html" title="class in com.google.android.exoplayer2.testutil">FakeDataSet.FakeData</a>&nbsp;newDefaultData()</pre>
+<pre class="methodSignature">public&nbsp;<a href="FakeDataSet.FakeData.html" title="class in com.readwise.android.exoplayer2.testutil">FakeDataSet.FakeData</a>&nbsp;newDefaultData()</pre>
 <div class="block">Sets the default data, overwrites if there is one already.</div>
 </li>
 </ul>
@@ -369,7 +369,7 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 <ul class="blockList">
 <li class="blockList">
 <h4>setRandomData</h4>
-<pre class="methodSignature">public&nbsp;<a href="FakeDataSet.html" title="class in com.google.android.exoplayer2.testutil">FakeDataSet</a>&nbsp;setRandomData&#8203;(<a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;uri,
+<pre class="methodSignature">public&nbsp;<a href="FakeDataSet.html" title="class in com.readwise.android.exoplayer2.testutil">FakeDataSet</a>&nbsp;setRandomData&#8203;(<a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;uri,
                                  int&nbsp;length)</pre>
 <div class="block">Sets random data with the given <code>length</code> for the given <code>uri</code>.</div>
 </li>
@@ -380,7 +380,7 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 <ul class="blockList">
 <li class="blockList">
 <h4>setRandomData</h4>
-<pre class="methodSignature">public&nbsp;<a href="FakeDataSet.html" title="class in com.google.android.exoplayer2.testutil">FakeDataSet</a>&nbsp;setRandomData&#8203;(<a href="https://developer.android.com/reference/android/net/Uri.html" title="class or interface in android.net" class="externalLink" target="_top">Uri</a>&nbsp;uri,
+<pre class="methodSignature">public&nbsp;<a href="FakeDataSet.html" title="class in com.readwise.android.exoplayer2.testutil">FakeDataSet</a>&nbsp;setRandomData&#8203;(<a href="https://developer.android.com/reference/android/net/Uri.html" title="class or interface in android.net" class="externalLink" target="_top">Uri</a>&nbsp;uri,
                                  int&nbsp;length)</pre>
 <div class="block">Sets random data with the given <code>length</code> for the given <code>uri</code>.</div>
 </li>
@@ -391,7 +391,7 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 <ul class="blockList">
 <li class="blockList">
 <h4>setData</h4>
-<pre class="methodSignature">public&nbsp;<a href="FakeDataSet.html" title="class in com.google.android.exoplayer2.testutil">FakeDataSet</a>&nbsp;setData&#8203;(<a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;uri,
+<pre class="methodSignature">public&nbsp;<a href="FakeDataSet.html" title="class in com.readwise.android.exoplayer2.testutil">FakeDataSet</a>&nbsp;setData&#8203;(<a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;uri,
                            byte[]&nbsp;data)</pre>
 <div class="block">Sets the given <code>data</code> for the given <code>uri</code>.</div>
 </li>
@@ -402,7 +402,7 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 <ul class="blockList">
 <li class="blockList">
 <h4>setData</h4>
-<pre class="methodSignature">public&nbsp;<a href="FakeDataSet.html" title="class in com.google.android.exoplayer2.testutil">FakeDataSet</a>&nbsp;setData&#8203;(<a href="https://developer.android.com/reference/android/net/Uri.html" title="class or interface in android.net" class="externalLink" target="_top">Uri</a>&nbsp;uri,
+<pre class="methodSignature">public&nbsp;<a href="FakeDataSet.html" title="class in com.readwise.android.exoplayer2.testutil">FakeDataSet</a>&nbsp;setData&#8203;(<a href="https://developer.android.com/reference/android/net/Uri.html" title="class or interface in android.net" class="externalLink" target="_top">Uri</a>&nbsp;uri,
                            byte[]&nbsp;data)</pre>
 <div class="block">Sets the given <code>data</code> for the given <code>uri</code>.</div>
 </li>
@@ -413,8 +413,8 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 <ul class="blockList">
 <li class="blockList">
 <h4>newData</h4>
-<pre class="methodSignature">public&nbsp;<a href="FakeDataSet.FakeData.html" title="class in com.google.android.exoplayer2.testutil">FakeDataSet.FakeData</a>&nbsp;newData&#8203;(<a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;uri)</pre>
-<div class="block">Returns a new <a href="FakeDataSet.FakeData.html" title="class in com.google.android.exoplayer2.testutil"><code>FakeDataSet.FakeData</code></a> with the given <code>uri</code>.</div>
+<pre class="methodSignature">public&nbsp;<a href="FakeDataSet.FakeData.html" title="class in com.readwise.android.exoplayer2.testutil">FakeDataSet.FakeData</a>&nbsp;newData&#8203;(<a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;uri)</pre>
+<div class="block">Returns a new <a href="FakeDataSet.FakeData.html" title="class in com.readwise.android.exoplayer2.testutil"><code>FakeDataSet.FakeData</code></a> with the given <code>uri</code>.</div>
 </li>
 </ul>
 <a id="newData(android.net.Uri)">
@@ -423,8 +423,8 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 <ul class="blockList">
 <li class="blockList">
 <h4>newData</h4>
-<pre class="methodSignature">public&nbsp;<a href="FakeDataSet.FakeData.html" title="class in com.google.android.exoplayer2.testutil">FakeDataSet.FakeData</a>&nbsp;newData&#8203;(<a href="https://developer.android.com/reference/android/net/Uri.html" title="class or interface in android.net" class="externalLink" target="_top">Uri</a>&nbsp;uri)</pre>
-<div class="block">Returns a new <a href="FakeDataSet.FakeData.html" title="class in com.google.android.exoplayer2.testutil"><code>FakeDataSet.FakeData</code></a> with the given <code>uri</code>.</div>
+<pre class="methodSignature">public&nbsp;<a href="FakeDataSet.FakeData.html" title="class in com.readwise.android.exoplayer2.testutil">FakeDataSet.FakeData</a>&nbsp;newData&#8203;(<a href="https://developer.android.com/reference/android/net/Uri.html" title="class or interface in android.net" class="externalLink" target="_top">Uri</a>&nbsp;uri)</pre>
+<div class="block">Returns a new <a href="FakeDataSet.FakeData.html" title="class in com.readwise.android.exoplayer2.testutil"><code>FakeDataSet.FakeData</code></a> with the given <code>uri</code>.</div>
 </li>
 </ul>
 <a id="getData(java.lang.String)">
@@ -434,7 +434,7 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 <li class="blockList">
 <h4>getData</h4>
 <pre class="methodSignature">@Nullable
-public&nbsp;<a href="FakeDataSet.FakeData.html" title="class in com.google.android.exoplayer2.testutil">FakeDataSet.FakeData</a>&nbsp;getData&#8203;(<a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;uri)</pre>
+public&nbsp;<a href="FakeDataSet.FakeData.html" title="class in com.readwise.android.exoplayer2.testutil">FakeDataSet.FakeData</a>&nbsp;getData&#8203;(<a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;uri)</pre>
 <div class="block">Returns the data for the given <code>uri</code>, or <code>defaultData</code> if no data is set.</div>
 </li>
 </ul>
@@ -445,7 +445,7 @@ public&nbsp;<a href="FakeDataSet.FakeData.html" title="class in com.google.andro
 <li class="blockList">
 <h4>getData</h4>
 <pre class="methodSignature">@Nullable
-public&nbsp;<a href="FakeDataSet.FakeData.html" title="class in com.google.android.exoplayer2.testutil">FakeDataSet.FakeData</a>&nbsp;getData&#8203;(<a href="https://developer.android.com/reference/android/net/Uri.html" title="class or interface in android.net" class="externalLink" target="_top">Uri</a>&nbsp;uri)</pre>
+public&nbsp;<a href="FakeDataSet.FakeData.html" title="class in com.readwise.android.exoplayer2.testutil">FakeDataSet.FakeData</a>&nbsp;getData&#8203;(<a href="https://developer.android.com/reference/android/net/Uri.html" title="class or interface in android.net" class="externalLink" target="_top">Uri</a>&nbsp;uri)</pre>
 <div class="block">Returns the data for the given <code>uri</code>, or <code>defaultData</code> if no data is set.</div>
 </li>
 </ul>
@@ -455,7 +455,7 @@ public&nbsp;<a href="FakeDataSet.FakeData.html" title="class in com.google.andro
 <ul class="blockListLast">
 <li class="blockList">
 <h4>getAllData</h4>
-<pre class="methodSignature">public&nbsp;<a href="https://developer.android.com/reference/java/util/ArrayList.html" title="class or interface in java.util" class="externalLink">ArrayList</a>&lt;<a href="FakeDataSet.FakeData.html" title="class in com.google.android.exoplayer2.testutil" target="_top">FakeDataSet.FakeData</a>&gt;&nbsp;getAllData()</pre>
+<pre class="methodSignature">public&nbsp;<a href="https://developer.android.com/reference/java/util/ArrayList.html" title="class or interface in java.util" class="externalLink">ArrayList</a>&lt;<a href="FakeDataSet.FakeData.html" title="class in com.readwise.android.exoplayer2.testutil" target="_top">FakeDataSet.FakeData</a>&gt;&nbsp;getAllData()</pre>
 <div class="block">Returns a list of all data including <code>defaultData</code>.</div>
 </li>
 </ul>

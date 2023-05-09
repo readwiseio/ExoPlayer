@@ -13,20 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.text;
+package com.readwise.android.exoplayer2.text;
 
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.extractor.Extractor;
-import com.google.android.exoplayer2.testutil.FakeExtractorInput;
-import com.google.android.exoplayer2.testutil.FakeExtractorOutput;
-import com.google.android.exoplayer2.testutil.FakeTrackOutput;
-import com.google.android.exoplayer2.text.webvtt.WebvttDecoder;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.extractor.Extractor;
+import com.readwise.android.exoplayer2.testutil.FakeExtractorInput;
+import com.readwise.android.exoplayer2.testutil.FakeExtractorOutput;
+import com.readwise.android.exoplayer2.testutil.FakeTrackOutput;
+import com.readwise.android.exoplayer2.text.webvtt.WebvttDecoder;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.Util;
 import java.util.List;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.transformer;
+package com.readwise.android.exoplayer2.transformer;
 
 import android.annotation.SuppressLint;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.audio.AudioProcessor.AudioFormat;
-import com.google.android.exoplayer2.audio.AudioProcessor.UnhandledAudioFormatException;
-import com.google.android.exoplayer2.audio.ChannelMixingMatrix;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.audio.AudioProcessor.AudioFormat;
+import com.readwise.android.exoplayer2.audio.AudioProcessor.UnhandledAudioFormatException;
+import com.readwise.android.exoplayer2.audio.ChannelMixingMatrix;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.nio.ByteBuffer;
 

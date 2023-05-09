@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.extractor;
+package com.readwise.android.exoplayer2.extractor;
 
-import com.google.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.C;
 
 /** Receives stream level data extracted by an {@link Extractor}. */
 public interface ExtractorOutput {

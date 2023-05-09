@@ -13,29 +13,29 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.dash;
+package com.readwise.android.exoplayer2.source.dash;
 
-import static com.google.android.exoplayer2.util.Util.parseXsDateTime;
+import static com.readwise.android.exoplayer2.util.Util.parseXsDateTime;
 
 import android.os.Handler;
 import android.os.Message;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.FormatHolder;
-import com.google.android.exoplayer2.ParserException;
-import com.google.android.exoplayer2.extractor.TrackOutput;
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.metadata.MetadataInputBuffer;
-import com.google.android.exoplayer2.metadata.emsg.EventMessage;
-import com.google.android.exoplayer2.metadata.emsg.EventMessageDecoder;
-import com.google.android.exoplayer2.source.SampleQueue;
-import com.google.android.exoplayer2.source.chunk.Chunk;
-import com.google.android.exoplayer2.source.dash.manifest.DashManifest;
-import com.google.android.exoplayer2.upstream.Allocator;
-import com.google.android.exoplayer2.upstream.DataReader;
-import com.google.android.exoplayer2.util.ParsableByteArray;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.FormatHolder;
+import com.readwise.android.exoplayer2.ParserException;
+import com.readwise.android.exoplayer2.extractor.TrackOutput;
+import com.readwise.android.exoplayer2.metadata.Metadata;
+import com.readwise.android.exoplayer2.metadata.MetadataInputBuffer;
+import com.readwise.android.exoplayer2.metadata.emsg.EventMessage;
+import com.readwise.android.exoplayer2.metadata.emsg.EventMessageDecoder;
+import com.readwise.android.exoplayer2.source.SampleQueue;
+import com.readwise.android.exoplayer2.source.chunk.Chunk;
+import com.readwise.android.exoplayer2.source.dash.manifest.DashManifest;
+import com.readwise.android.exoplayer2.upstream.Allocator;
+import com.readwise.android.exoplayer2.upstream.DataReader;
+import com.readwise.android.exoplayer2.util.ParsableByteArray;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.IOException;
 import java.util.Iterator;
 import java.util.Map;

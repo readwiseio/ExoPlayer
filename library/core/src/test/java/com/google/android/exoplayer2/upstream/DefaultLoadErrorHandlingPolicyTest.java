@@ -13,24 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.upstream;
+package com.readwise.android.exoplayer2.upstream;
 
-import static com.google.android.exoplayer2.upstream.DefaultLoadErrorHandlingPolicy.DEFAULT_LOCATION_EXCLUSION_MS;
-import static com.google.android.exoplayer2.upstream.DefaultLoadErrorHandlingPolicy.DEFAULT_TRACK_EXCLUSION_MS;
-import static com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy.FALLBACK_TYPE_LOCATION;
-import static com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy.FALLBACK_TYPE_TRACK;
+import static com.readwise.android.exoplayer2.upstream.DefaultLoadErrorHandlingPolicy.DEFAULT_LOCATION_EXCLUSION_MS;
+import static com.readwise.android.exoplayer2.upstream.DefaultLoadErrorHandlingPolicy.DEFAULT_TRACK_EXCLUSION_MS;
+import static com.readwise.android.exoplayer2.upstream.LoadErrorHandlingPolicy.FALLBACK_TYPE_LOCATION;
+import static com.readwise.android.exoplayer2.upstream.LoadErrorHandlingPolicy.FALLBACK_TYPE_TRACK;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.net.Uri;
 import androidx.annotation.Nullable;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ParserException;
-import com.google.android.exoplayer2.source.LoadEventInfo;
-import com.google.android.exoplayer2.source.MediaLoadData;
-import com.google.android.exoplayer2.upstream.HttpDataSource.InvalidResponseCodeException;
-import com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy.LoadErrorInfo;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ParserException;
+import com.readwise.android.exoplayer2.source.LoadEventInfo;
+import com.readwise.android.exoplayer2.source.MediaLoadData;
+import com.readwise.android.exoplayer2.upstream.HttpDataSource.InvalidResponseCodeException;
+import com.readwise.android.exoplayer2.upstream.LoadErrorHandlingPolicy.LoadErrorInfo;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.IOException;
 import java.util.Collections;
 import org.junit.Test;

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.offline;
+package com.readwise.android.exoplayer2.offline;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;

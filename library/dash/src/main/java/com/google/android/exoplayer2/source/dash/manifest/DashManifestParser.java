@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.dash.manifest;
+package com.readwise.android.exoplayer2.source.dash.manifest;
 
-import static com.google.android.exoplayer2.source.dash.manifest.BaseUrl.DEFAULT_DVB_PRIORITY;
-import static com.google.android.exoplayer2.source.dash.manifest.BaseUrl.DEFAULT_WEIGHT;
-import static com.google.android.exoplayer2.source.dash.manifest.BaseUrl.PRIORITY_UNSET;
+import static com.readwise.android.exoplayer2.source.dash.manifest.BaseUrl.DEFAULT_DVB_PRIORITY;
+import static com.readwise.android.exoplayer2.source.dash.manifest.BaseUrl.DEFAULT_WEIGHT;
+import static com.readwise.android.exoplayer2.source.dash.manifest.BaseUrl.PRIORITY_UNSET;
 
 import android.net.Uri;
 import android.text.TextUtils;
@@ -25,24 +25,24 @@ import android.util.Base64;
 import android.util.Pair;
 import android.util.Xml;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.ParserException;
-import com.google.android.exoplayer2.drm.DrmInitData;
-import com.google.android.exoplayer2.drm.DrmInitData.SchemeData;
-import com.google.android.exoplayer2.extractor.mp4.PsshAtomUtil;
-import com.google.android.exoplayer2.metadata.emsg.EventMessage;
-import com.google.android.exoplayer2.source.dash.manifest.SegmentBase.SegmentList;
-import com.google.android.exoplayer2.source.dash.manifest.SegmentBase.SegmentTemplate;
-import com.google.android.exoplayer2.source.dash.manifest.SegmentBase.SegmentTimelineElement;
-import com.google.android.exoplayer2.source.dash.manifest.SegmentBase.SingleSegmentBase;
-import com.google.android.exoplayer2.upstream.ParsingLoadable;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.UriUtil;
-import com.google.android.exoplayer2.util.Util;
-import com.google.android.exoplayer2.util.XmlPullParserUtil;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.ParserException;
+import com.readwise.android.exoplayer2.drm.DrmInitData;
+import com.readwise.android.exoplayer2.drm.DrmInitData.SchemeData;
+import com.readwise.android.exoplayer2.extractor.mp4.PsshAtomUtil;
+import com.readwise.android.exoplayer2.metadata.emsg.EventMessage;
+import com.readwise.android.exoplayer2.source.dash.manifest.SegmentBase.SegmentList;
+import com.readwise.android.exoplayer2.source.dash.manifest.SegmentBase.SegmentTemplate;
+import com.readwise.android.exoplayer2.source.dash.manifest.SegmentBase.SegmentTimelineElement;
+import com.readwise.android.exoplayer2.source.dash.manifest.SegmentBase.SingleSegmentBase;
+import com.readwise.android.exoplayer2.upstream.ParsingLoadable;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.UriUtil;
+import com.readwise.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.util.XmlPullParserUtil;
 import com.google.common.base.Ascii;
 import com.google.common.base.Charsets;
 import com.google.common.collect.ImmutableList;

@@ -13,27 +13,27 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.trackselection;
+package com.readwise.android.exoplayer2.trackselection;
 
-import static com.google.android.exoplayer2.util.MimeTypes.AUDIO_AAC;
+import static com.readwise.android.exoplayer2.util.MimeTypes.AUDIO_AAC;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.util.Pair;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ExoPlaybackException;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.RendererCapabilities;
-import com.google.android.exoplayer2.RendererCapabilities.AdaptiveSupport;
-import com.google.android.exoplayer2.RendererCapabilities.Capabilities;
-import com.google.android.exoplayer2.RendererConfiguration;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.source.MediaSource.MediaPeriodId;
-import com.google.android.exoplayer2.source.TrackGroup;
-import com.google.android.exoplayer2.source.TrackGroupArray;
-import com.google.android.exoplayer2.testutil.FakeTimeline;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ExoPlaybackException;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.RendererCapabilities;
+import com.readwise.android.exoplayer2.RendererCapabilities.AdaptiveSupport;
+import com.readwise.android.exoplayer2.RendererCapabilities.Capabilities;
+import com.readwise.android.exoplayer2.RendererConfiguration;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.source.MediaSource.MediaPeriodId;
+import com.readwise.android.exoplayer2.source.TrackGroup;
+import com.readwise.android.exoplayer2.source.TrackGroupArray;
+import com.readwise.android.exoplayer2.testutil.FakeTimeline;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.Util;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;

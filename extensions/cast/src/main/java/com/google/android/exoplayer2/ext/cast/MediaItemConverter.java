@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.cast;
+package com.readwise.android.exoplayer2.ext.cast;
 
-import com.google.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.MediaItem;
 import com.google.android.gms.cast.MediaQueueItem;
 
 /** Converts between {@link MediaItem} and the Cast SDK's {@link MediaQueueItem}. */

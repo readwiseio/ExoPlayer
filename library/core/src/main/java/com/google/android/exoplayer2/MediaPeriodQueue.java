@@ -13,24 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
 import static java.lang.Math.max;
 
 import android.os.Handler;
 import android.util.Pair;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.Player.RepeatMode;
-import com.google.android.exoplayer2.analytics.AnalyticsCollector;
-import com.google.android.exoplayer2.source.MediaPeriod;
-import com.google.android.exoplayer2.source.MediaSource.MediaPeriodId;
-import com.google.android.exoplayer2.source.ads.AdPlaybackState;
-import com.google.android.exoplayer2.trackselection.TrackSelector;
-import com.google.android.exoplayer2.trackselection.TrackSelectorResult;
-import com.google.android.exoplayer2.upstream.Allocator;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.HandlerWrapper;
+import com.readwise.android.exoplayer2.Player.RepeatMode;
+import com.readwise.android.exoplayer2.analytics.AnalyticsCollector;
+import com.readwise.android.exoplayer2.source.MediaPeriod;
+import com.readwise.android.exoplayer2.source.MediaSource.MediaPeriodId;
+import com.readwise.android.exoplayer2.source.ads.AdPlaybackState;
+import com.readwise.android.exoplayer2.trackselection.TrackSelector;
+import com.readwise.android.exoplayer2.trackselection.TrackSelectorResult;
+import com.readwise.android.exoplayer2.upstream.Allocator;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.HandlerWrapper;
 import com.google.common.collect.ImmutableList;
 
 /**

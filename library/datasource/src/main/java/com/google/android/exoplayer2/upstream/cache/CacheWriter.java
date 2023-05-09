@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.upstream.cache;
+package com.readwise.android.exoplayer2.upstream.cache;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.upstream.DataSourceUtil;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.util.PriorityTaskManager;
-import com.google.android.exoplayer2.util.PriorityTaskManager.PriorityTooLowException;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.upstream.DataSourceUtil;
+import com.readwise.android.exoplayer2.upstream.DataSpec;
+import com.readwise.android.exoplayer2.util.PriorityTaskManager;
+import com.readwise.android.exoplayer2.util.PriorityTaskManager.PriorityTooLowException;
 import java.io.IOException;
 import java.io.InterruptedIOException;
 

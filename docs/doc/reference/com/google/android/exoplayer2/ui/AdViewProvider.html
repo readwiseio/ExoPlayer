@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.ui</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.ui</a></div>
 <h2 title="Interface AdViewProvider" class="title">Interface AdViewProvider</h2>
 </div>
 <div class="contentContainer">
@@ -122,7 +122,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Known Implementing Classes:</dt>
-<dd><code><a href="PlayerView.html" title="class in com.google.android.exoplayer2.ui">PlayerView</a></code>, <code><a href="StyledPlayerView.html" title="class in com.google.android.exoplayer2.ui">StyledPlayerView</a></code></dd>
+<dd><code><a href="PlayerView.html" title="class in com.readwise.android.exoplayer2.ui">PlayerView</a></code>, <code><a href="StyledPlayerView.html" title="class in com.readwise.android.exoplayer2.ui">StyledPlayerView</a></code></dd>
 </dl>
 <hr>
 <pre>public interface <span class="typeNameLabel">AdViewProvider</span></pre>
@@ -148,10 +148,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <th class="colLast" scope="col">Description</th>
 </tr>
 <tr id="i0" class="altColor">
-<td class="colFirst"><code>default <a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="AdOverlayInfo.html" title="class in com.google.android.exoplayer2.ui" target="_top">AdOverlayInfo</a>&gt;</code></td>
+<td class="colFirst"><code>default <a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="AdOverlayInfo.html" title="class in com.readwise.android.exoplayer2.ui" target="_top">AdOverlayInfo</a>&gt;</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getAdOverlayInfos()">getAdOverlayInfos</a></span>()</code></th>
 <td class="colLast">
-<div class="block">Returns a list of <a href="AdOverlayInfo.html" title="class in com.google.android.exoplayer2.ui"><code>AdOverlayInfo</code></a> instances describing views that are on top of the ad
+<div class="block">Returns a list of <a href="AdOverlayInfo.html" title="class in com.readwise.android.exoplayer2.ui"><code>AdOverlayInfo</code></a> instances describing views that are on top of the ad
  view group, but that are essential for controlling playback and should be excluded from ad
  viewability measurements.</div>
 </td>
@@ -190,7 +190,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <pre class="methodSignature">@Nullable
 <a href="https://developer.android.com/reference/android/view/ViewGroup.html" title="class or interface in android.view" class="externalLink" target="_top">ViewGroup</a>&nbsp;getAdViewGroup()</pre>
 <div class="block">Returns the <a href="https://developer.android.com/reference/android/view/ViewGroup.html" title="class or interface in android.view" class="externalLink" target="_top"><code>ViewGroup</code></a> on top of the player that will show any ad UI, or <code>null</code> if
- playing audio-only ads. Any views on top of the returned view group must be described by <a href="AdOverlayInfo.html" title="class in com.google.android.exoplayer2.ui"><code>AdOverlayInfos</code></a> returned by <a href="#getAdOverlayInfos()"><code>getAdOverlayInfos()</code></a>, for accurate
+ playing audio-only ads. Any views on top of the returned view group must be described by <a href="AdOverlayInfo.html" title="class in com.readwise.android.exoplayer2.ui"><code>AdOverlayInfos</code></a> returned by <a href="#getAdOverlayInfos()"><code>getAdOverlayInfos()</code></a>, for accurate
  viewability measurement.</div>
 </li>
 </ul>
@@ -200,8 +200,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <ul class="blockListLast">
 <li class="blockList">
 <h4>getAdOverlayInfos</h4>
-<pre class="methodSignature">default&nbsp;<a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="AdOverlayInfo.html" title="class in com.google.android.exoplayer2.ui" target="_top">AdOverlayInfo</a>&gt;&nbsp;getAdOverlayInfos()</pre>
-<div class="block">Returns a list of <a href="AdOverlayInfo.html" title="class in com.google.android.exoplayer2.ui"><code>AdOverlayInfo</code></a> instances describing views that are on top of the ad
+<pre class="methodSignature">default&nbsp;<a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="AdOverlayInfo.html" title="class in com.readwise.android.exoplayer2.ui" target="_top">AdOverlayInfo</a>&gt;&nbsp;getAdOverlayInfos()</pre>
+<div class="block">Returns a list of <a href="AdOverlayInfo.html" title="class in com.readwise.android.exoplayer2.ui"><code>AdOverlayInfo</code></a> instances describing views that are on top of the ad
  view group, but that are essential for controlling playback and should be excluded from ad
  viewability measurements.
 

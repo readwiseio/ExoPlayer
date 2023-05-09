@@ -113,8 +113,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.upstream</a></div>
-<h2 title="Interface Loader.Callback" class="title">Interface Loader.Callback&lt;T extends <a href="Loader.Loadable.html" title="interface in com.google.android.exoplayer2.upstream">Loader.Loadable</a>&gt;</h2>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.upstream</a></div>
+<h2 title="Interface Loader.Callback" class="title">Interface Loader.Callback&lt;T extends <a href="Loader.Loadable.html" title="interface in com.readwise.android.exoplayer2.upstream">Loader.Loadable</a>&gt;</h2>
 </div>
 <div class="contentContainer">
 <div class="description">
@@ -122,15 +122,15 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Known Implementing Classes:</dt>
-<dd><code><a href="../source/chunk/ChunkSampleStream.html" title="class in com.google.android.exoplayer2.source.chunk">ChunkSampleStream</a></code>, <code><a href="../source/hls/playlist/DefaultHlsPlaylistTracker.html" title="class in com.google.android.exoplayer2.source.hls.playlist">DefaultHlsPlaylistTracker</a></code>, <code><a href="../source/smoothstreaming/SsMediaSource.html" title="class in com.google.android.exoplayer2.source.smoothstreaming">SsMediaSource</a></code></dd>
+<dd><code><a href="../source/chunk/ChunkSampleStream.html" title="class in com.readwise.android.exoplayer2.source.chunk">ChunkSampleStream</a></code>, <code><a href="../source/hls/playlist/DefaultHlsPlaylistTracker.html" title="class in com.readwise.android.exoplayer2.source.hls.playlist">DefaultHlsPlaylistTracker</a></code>, <code><a href="../source/smoothstreaming/SsMediaSource.html" title="class in com.readwise.android.exoplayer2.source.smoothstreaming">SsMediaSource</a></code></dd>
 </dl>
 <dl>
 <dt>Enclosing class:</dt>
-<dd><a href="Loader.html" title="class in com.google.android.exoplayer2.upstream">Loader</a></dd>
+<dd><a href="Loader.html" title="class in com.readwise.android.exoplayer2.upstream">Loader</a></dd>
 </dl>
 <hr>
-<pre>public static interface <span class="typeNameLabel">Loader.Callback&lt;T extends <a href="Loader.Loadable.html" title="interface in com.google.android.exoplayer2.upstream">Loader.Loadable</a>&gt;</span></pre>
-<div class="block">A callback to be notified of <a href="Loader.html" title="class in com.google.android.exoplayer2.upstream"><code>Loader</code></a> events.</div>
+<pre>public static interface <span class="typeNameLabel">Loader.Callback&lt;T extends <a href="Loader.Loadable.html" title="interface in com.readwise.android.exoplayer2.upstream">Loader.Loadable</a>&gt;</span></pre>
+<div class="block">A callback to be notified of <a href="Loader.html" title="class in com.readwise.android.exoplayer2.upstream"><code>Loader</code></a> events.</div>
 </li>
 </ul>
 </div>
@@ -171,7 +171,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </td>
 </tr>
 <tr id="i2" class="altColor">
-<td class="colFirst"><code><a href="Loader.LoadErrorAction.html" title="class in com.google.android.exoplayer2.upstream">Loader.LoadErrorAction</a></code></td>
+<td class="colFirst"><code><a href="Loader.LoadErrorAction.html" title="class in com.readwise.android.exoplayer2.upstream">Loader.LoadErrorAction</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onLoadError(T,long,long,java.io.IOException,int)">onLoadError</a></span>&#8203;(<a href="Loader.Callback.html" title="type parameter in Loader.Callback">T</a>&nbsp;loadable,
            long&nbsp;elapsedRealtimeMs,
            long&nbsp;loadDurationMs,
@@ -198,7 +198,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="onLoadCompleted(com.google.android.exoplayer2.upstream.Loader.Loadable,long,long)">
+<a id="onLoadCompleted(com.readwise.android.exoplayer2.upstream.Loader.Loadable,long,long)">
 <!--   -->
 </a><a id="onLoadCompleted(T,long,long)">
 <!--   -->
@@ -217,12 +217,12 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>loadable</code> - The loadable whose load has completed.</dd>
 <dd><code>elapsedRealtimeMs</code> - <a href="https://developer.android.com/reference/android/os/SystemClock.html#elapsedRealtime()" title="class or interface in android.os" class="externalLink" target="_top"><code>SystemClock.elapsedRealtime()</code></a> when the load ended.</dd>
-<dd><code>loadDurationMs</code> - The duration in milliseconds of the load since <a href="Loader.html#startLoading(T,com.google.android.exoplayer2.upstream.Loader.Callback,int)"><code>Loader.startLoading(T, com.google.android.exoplayer2.upstream.Loader.Callback&lt;T&gt;, int)</code></a>
+<dd><code>loadDurationMs</code> - The duration in milliseconds of the load since <a href="Loader.html#startLoading(T,com.readwise.android.exoplayer2.upstream.Loader.Callback,int)"><code>Loader.startLoading(T, com.readwise.android.exoplayer2.upstream.Loader.Callback&lt;T&gt;, int)</code></a>
      was called.</dd>
 </dl>
 </li>
 </ul>
-<a id="onLoadCanceled(com.google.android.exoplayer2.upstream.Loader.Loadable,long,long,boolean)">
+<a id="onLoadCanceled(com.readwise.android.exoplayer2.upstream.Loader.Loadable,long,long,boolean)">
 <!--   -->
 </a><a id="onLoadCanceled(T,long,long,boolean)">
 <!--   -->
@@ -236,21 +236,21 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
                     boolean&nbsp;released)</pre>
 <div class="block">Called when a load has been canceled.
 
- <p>Note: If the <a href="Loader.html" title="class in com.google.android.exoplayer2.upstream"><code>Loader</code></a> has not been released then there is guaranteed to be a memory
- barrier between <a href="Loader.Loadable.html#load()"><code>Loader.Loadable.load()</code></a> exiting and this callback being called. If the <a href="Loader.html" title="class in com.google.android.exoplayer2.upstream"><code>Loader</code></a> has been released then this callback may be called before <a href="Loader.Loadable.html#load()"><code>Loader.Loadable.load()</code></a>
+ <p>Note: If the <a href="Loader.html" title="class in com.readwise.android.exoplayer2.upstream"><code>Loader</code></a> has not been released then there is guaranteed to be a memory
+ barrier between <a href="Loader.Loadable.html#load()"><code>Loader.Loadable.load()</code></a> exiting and this callback being called. If the <a href="Loader.html" title="class in com.readwise.android.exoplayer2.upstream"><code>Loader</code></a> has been released then this callback may be called before <a href="Loader.Loadable.html#load()"><code>Loader.Loadable.load()</code></a>
  exits.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>loadable</code> - The loadable whose load has been canceled.</dd>
 <dd><code>elapsedRealtimeMs</code> - <a href="https://developer.android.com/reference/android/os/SystemClock.html#elapsedRealtime()" title="class or interface in android.os" class="externalLink" target="_top"><code>SystemClock.elapsedRealtime()</code></a> when the load was canceled.</dd>
-<dd><code>loadDurationMs</code> - The duration in milliseconds of the load since <a href="Loader.html#startLoading(T,com.google.android.exoplayer2.upstream.Loader.Callback,int)"><code>Loader.startLoading(T, com.google.android.exoplayer2.upstream.Loader.Callback&lt;T&gt;, int)</code></a>
+<dd><code>loadDurationMs</code> - The duration in milliseconds of the load since <a href="Loader.html#startLoading(T,com.readwise.android.exoplayer2.upstream.Loader.Callback,int)"><code>Loader.startLoading(T, com.readwise.android.exoplayer2.upstream.Loader.Callback&lt;T&gt;, int)</code></a>
      was called up to the point at which it was canceled.</dd>
-<dd><code>released</code> - True if the load was canceled because the <a href="Loader.html" title="class in com.google.android.exoplayer2.upstream"><code>Loader</code></a> was released. False
+<dd><code>released</code> - True if the load was canceled because the <a href="Loader.html" title="class in com.readwise.android.exoplayer2.upstream"><code>Loader</code></a> was released. False
      otherwise.</dd>
 </dl>
 </li>
 </ul>
-<a id="onLoadError(com.google.android.exoplayer2.upstream.Loader.Loadable,long,long,java.io.IOException,int)">
+<a id="onLoadError(com.readwise.android.exoplayer2.upstream.Loader.Loadable,long,long,java.io.IOException,int)">
 <!--   -->
 </a><a id="onLoadError(T,long,long,java.io.IOException,int)">
 <!--   -->
@@ -258,7 +258,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <ul class="blockListLast">
 <li class="blockList">
 <h4>onLoadError</h4>
-<pre class="methodSignature"><a href="Loader.LoadErrorAction.html" title="class in com.google.android.exoplayer2.upstream">Loader.LoadErrorAction</a>&nbsp;onLoadError&#8203;(<a href="Loader.Callback.html" title="type parameter in Loader.Callback">T</a>&nbsp;loadable,
+<pre class="methodSignature"><a href="Loader.LoadErrorAction.html" title="class in com.readwise.android.exoplayer2.upstream">Loader.LoadErrorAction</a>&nbsp;onLoadError&#8203;(<a href="Loader.Callback.html" title="type parameter in Loader.Callback">T</a>&nbsp;loadable,
                                    long&nbsp;elapsedRealtimeMs,
                                    long&nbsp;loadDurationMs,
                                    <a href="https://developer.android.com/reference/java/io/IOException.html" title="class or interface in java.io" class="externalLink" target="_top">IOException</a>&nbsp;error,
@@ -271,7 +271,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>loadable</code> - The loadable whose load has encountered an error.</dd>
 <dd><code>elapsedRealtimeMs</code> - <a href="https://developer.android.com/reference/android/os/SystemClock.html#elapsedRealtime()" title="class or interface in android.os" class="externalLink" target="_top"><code>SystemClock.elapsedRealtime()</code></a> when the error occurred.</dd>
-<dd><code>loadDurationMs</code> - The duration in milliseconds of the load since <a href="Loader.html#startLoading(T,com.google.android.exoplayer2.upstream.Loader.Callback,int)"><code>Loader.startLoading(T, com.google.android.exoplayer2.upstream.Loader.Callback&lt;T&gt;, int)</code></a>
+<dd><code>loadDurationMs</code> - The duration in milliseconds of the load since <a href="Loader.html#startLoading(T,com.readwise.android.exoplayer2.upstream.Loader.Callback,int)"><code>Loader.startLoading(T, com.readwise.android.exoplayer2.upstream.Loader.Callback&lt;T&gt;, int)</code></a>
      was called up to the point at which the error occurred.</dd>
 <dd><code>error</code> - The load error.</dd>
 <dd><code>errorCount</code> - The number of errors this load has encountered, including this one.</dd>

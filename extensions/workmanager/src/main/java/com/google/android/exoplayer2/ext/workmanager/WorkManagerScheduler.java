@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.workmanager;
+package com.readwise.android.exoplayer2.ext.workmanager;
 
 import android.content.Context;
 import android.content.Intent;
@@ -26,12 +26,12 @@ import androidx.work.OneTimeWorkRequest;
 import androidx.work.WorkManager;
 import androidx.work.Worker;
 import androidx.work.WorkerParameters;
-import com.google.android.exoplayer2.ExoPlayerLibraryInfo;
-import com.google.android.exoplayer2.scheduler.Requirements;
-import com.google.android.exoplayer2.scheduler.Scheduler;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.ExoPlayerLibraryInfo;
+import com.readwise.android.exoplayer2.scheduler.Requirements;
+import com.readwise.android.exoplayer2.scheduler.Scheduler;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.Util;
 
 /** A {@link Scheduler} that uses {@link WorkManager}. */
 public final class WorkManagerScheduler implements Scheduler {

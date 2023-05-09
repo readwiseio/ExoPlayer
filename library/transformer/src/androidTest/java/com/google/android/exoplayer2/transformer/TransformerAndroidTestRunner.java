@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.transformer;
+package com.readwise.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkArgument;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
 import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.junit.Assume.assumeTrue;
 
@@ -27,11 +27,11 @@ import android.net.NetworkInfo;
 import android.net.Uri;
 import androidx.annotation.Nullable;
 import androidx.test.platform.app.InstrumentationRegistry;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.SystemClock;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.SystemClock;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.base.Ascii;
 import com.google.common.collect.ImmutableList;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;

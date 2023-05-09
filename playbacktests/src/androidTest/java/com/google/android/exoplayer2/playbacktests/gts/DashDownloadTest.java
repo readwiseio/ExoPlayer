@@ -13,28 +13,28 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.playbacktests.gts;
+package com.readwise.android.exoplayer2.playbacktests.gts;
 
 import static com.google.common.truth.Truth.assertWithMessage;
 
 import android.net.Uri;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.rule.ActivityTestRule;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.database.StandaloneDatabaseProvider;
-import com.google.android.exoplayer2.offline.StreamKey;
-import com.google.android.exoplayer2.source.dash.DashUtil;
-import com.google.android.exoplayer2.source.dash.manifest.AdaptationSet;
-import com.google.android.exoplayer2.source.dash.manifest.DashManifest;
-import com.google.android.exoplayer2.source.dash.manifest.Representation;
-import com.google.android.exoplayer2.source.dash.offline.DashDownloader;
-import com.google.android.exoplayer2.testutil.HostActivity;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.DefaultHttpDataSource;
-import com.google.android.exoplayer2.upstream.cache.CacheDataSource;
-import com.google.android.exoplayer2.upstream.cache.NoOpCacheEvictor;
-import com.google.android.exoplayer2.upstream.cache.SimpleCache;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.database.StandaloneDatabaseProvider;
+import com.readwise.android.exoplayer2.offline.StreamKey;
+import com.readwise.android.exoplayer2.source.dash.DashUtil;
+import com.readwise.android.exoplayer2.source.dash.manifest.AdaptationSet;
+import com.readwise.android.exoplayer2.source.dash.manifest.DashManifest;
+import com.readwise.android.exoplayer2.source.dash.manifest.Representation;
+import com.readwise.android.exoplayer2.source.dash.offline.DashDownloader;
+import com.readwise.android.exoplayer2.testutil.HostActivity;
+import com.readwise.android.exoplayer2.upstream.DataSource;
+import com.readwise.android.exoplayer2.upstream.DefaultHttpDataSource;
+import com.readwise.android.exoplayer2.upstream.cache.CacheDataSource;
+import com.readwise.android.exoplayer2.upstream.cache.NoOpCacheEvictor;
+import com.readwise.android.exoplayer2.upstream.cache.SimpleCache;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;

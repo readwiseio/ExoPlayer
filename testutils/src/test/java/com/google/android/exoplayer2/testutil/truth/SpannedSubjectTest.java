@@ -14,10 +14,10 @@
  * limitations under the License.
  *
  */
-package com.google.android.exoplayer2.testutil.truth;
+package com.readwise.android.exoplayer2.testutil.truth;
 
-import static com.google.android.exoplayer2.testutil.truth.SpannedSubject.assertThat;
-import static com.google.android.exoplayer2.testutil.truth.SpannedSubject.spanned;
+import static com.readwise.android.exoplayer2.testutil.truth.SpannedSubject.assertThat;
+import static com.readwise.android.exoplayer2.testutil.truth.SpannedSubject.spanned;
 import static com.google.common.truth.ExpectFailure.assertThat;
 import static com.google.common.truth.ExpectFailure.expectFailureAbout;
 
@@ -37,13 +37,13 @@ import android.text.style.StyleSpan;
 import android.text.style.TypefaceSpan;
 import android.text.style.UnderlineSpan;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.testutil.truth.SpannedSubject.AndSpanFlags;
-import com.google.android.exoplayer2.testutil.truth.SpannedSubject.WithSpanFlags;
-import com.google.android.exoplayer2.text.span.HorizontalTextInVerticalContextSpan;
-import com.google.android.exoplayer2.text.span.RubySpan;
-import com.google.android.exoplayer2.text.span.TextAnnotation;
-import com.google.android.exoplayer2.text.span.TextEmphasisSpan;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.testutil.truth.SpannedSubject.AndSpanFlags;
+import com.readwise.android.exoplayer2.testutil.truth.SpannedSubject.WithSpanFlags;
+import com.readwise.android.exoplayer2.text.span.HorizontalTextInVerticalContextSpan;
+import com.readwise.android.exoplayer2.text.span.RubySpan;
+import com.readwise.android.exoplayer2.text.span.TextAnnotation;
+import com.readwise.android.exoplayer2.text.span.TextEmphasisSpan;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.truth.ExpectFailure;
 import org.junit.Test;
 import org.junit.runner.RunWith;

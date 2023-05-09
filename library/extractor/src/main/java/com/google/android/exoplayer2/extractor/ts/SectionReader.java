@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.extractor.ts;
+package com.readwise.android.exoplayer2.extractor.ts;
 
 import static java.lang.Math.max;
 import static java.lang.Math.min;
 
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.extractor.ExtractorOutput;
-import com.google.android.exoplayer2.util.ParsableByteArray;
-import com.google.android.exoplayer2.util.TimestampAdjuster;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.extractor.ExtractorOutput;
+import com.readwise.android.exoplayer2.util.ParsableByteArray;
+import com.readwise.android.exoplayer2.util.TimestampAdjuster;
+import com.readwise.android.exoplayer2.util.Util;
 
 /**
  * Reads section data packets and feeds the whole sections to a given {@link SectionPayloadReader}.

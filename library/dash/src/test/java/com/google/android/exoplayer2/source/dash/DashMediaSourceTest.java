@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.dash;
+package com.readwise.android.exoplayer2.source.dash;
 
 import static com.google.common.truth.Truth.assertThat;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
@@ -22,21 +22,21 @@ import static org.junit.Assert.fail;
 import android.net.Uri;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.MediaItem.LiveConfiguration;
-import com.google.android.exoplayer2.ParserException;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.Timeline.Window;
-import com.google.android.exoplayer2.analytics.PlayerId;
-import com.google.android.exoplayer2.source.MediaSource;
-import com.google.android.exoplayer2.source.MediaSource.MediaSourceCaller;
-import com.google.android.exoplayer2.testutil.TestUtil;
-import com.google.android.exoplayer2.upstream.ByteArrayDataSource;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.FileDataSource;
-import com.google.android.exoplayer2.upstream.ParsingLoadable;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.MediaItem.LiveConfiguration;
+import com.readwise.android.exoplayer2.ParserException;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.Timeline.Window;
+import com.readwise.android.exoplayer2.analytics.PlayerId;
+import com.readwise.android.exoplayer2.source.MediaSource;
+import com.readwise.android.exoplayer2.source.MediaSource.MediaSourceCaller;
+import com.readwise.android.exoplayer2.testutil.TestUtil;
+import com.readwise.android.exoplayer2.upstream.ByteArrayDataSource;
+import com.readwise.android.exoplayer2.upstream.DataSource;
+import com.readwise.android.exoplayer2.upstream.FileDataSource;
+import com.readwise.android.exoplayer2.upstream.ParsingLoadable;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.util.concurrent.CountDownLatch;

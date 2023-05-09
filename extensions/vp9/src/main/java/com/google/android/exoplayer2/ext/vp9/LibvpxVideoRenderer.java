@@ -13,24 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.vp9;
+package com.readwise.android.exoplayer2.ext.vp9;
 
-import static com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.REUSE_RESULT_YES_WITHOUT_RECONFIGURATION;
+import static com.readwise.android.exoplayer2.decoder.DecoderReuseEvaluation.REUSE_RESULT_YES_WITHOUT_RECONFIGURATION;
 import static java.lang.Runtime.getRuntime;
 
 import android.os.Handler;
 import android.view.Surface;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.RendererCapabilities;
-import com.google.android.exoplayer2.decoder.CryptoConfig;
-import com.google.android.exoplayer2.decoder.DecoderReuseEvaluation;
-import com.google.android.exoplayer2.decoder.VideoDecoderOutputBuffer;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.TraceUtil;
-import com.google.android.exoplayer2.video.DecoderVideoRenderer;
-import com.google.android.exoplayer2.video.VideoRendererEventListener;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.RendererCapabilities;
+import com.readwise.android.exoplayer2.decoder.CryptoConfig;
+import com.readwise.android.exoplayer2.decoder.DecoderReuseEvaluation;
+import com.readwise.android.exoplayer2.decoder.VideoDecoderOutputBuffer;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.TraceUtil;
+import com.readwise.android.exoplayer2.video.DecoderVideoRenderer;
+import com.readwise.android.exoplayer2.video.VideoRendererEventListener;
 
 /** Decodes and renders video using the native VP9 decoder. */
 public class LibvpxVideoRenderer extends DecoderVideoRenderer {

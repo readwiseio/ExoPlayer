@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.smoothstreaming;
+package com.readwise.android.exoplayer2.source.smoothstreaming;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.source.chunk.ChunkSource;
-import com.google.android.exoplayer2.source.smoothstreaming.manifest.SsManifest;
-import com.google.android.exoplayer2.trackselection.ExoTrackSelection;
-import com.google.android.exoplayer2.upstream.LoaderErrorThrower;
-import com.google.android.exoplayer2.upstream.TransferListener;
+import com.readwise.android.exoplayer2.source.chunk.ChunkSource;
+import com.readwise.android.exoplayer2.source.smoothstreaming.manifest.SsManifest;
+import com.readwise.android.exoplayer2.trackselection.ExoTrackSelection;
+import com.readwise.android.exoplayer2.upstream.LoaderErrorThrower;
+import com.readwise.android.exoplayer2.upstream.TransferListener;
 
 /** A {@link ChunkSource} for SmoothStreaming. */
 public interface SsChunkSource extends ChunkSource {

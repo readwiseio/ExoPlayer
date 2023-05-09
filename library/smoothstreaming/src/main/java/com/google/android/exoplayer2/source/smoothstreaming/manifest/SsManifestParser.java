@@ -13,28 +13,28 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.smoothstreaming.manifest;
+package com.readwise.android.exoplayer2.source.smoothstreaming.manifest;
 
 import android.net.Uri;
 import android.text.TextUtils;
 import android.util.Base64;
 import android.util.Pair;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.ParserException;
-import com.google.android.exoplayer2.audio.AacUtil;
-import com.google.android.exoplayer2.drm.DrmInitData;
-import com.google.android.exoplayer2.drm.DrmInitData.SchemeData;
-import com.google.android.exoplayer2.extractor.mp4.PsshAtomUtil;
-import com.google.android.exoplayer2.extractor.mp4.TrackEncryptionBox;
-import com.google.android.exoplayer2.source.smoothstreaming.manifest.SsManifest.ProtectionElement;
-import com.google.android.exoplayer2.source.smoothstreaming.manifest.SsManifest.StreamElement;
-import com.google.android.exoplayer2.upstream.ParsingLoadable;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.CodecSpecificDataUtil;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.ParserException;
+import com.readwise.android.exoplayer2.audio.AacUtil;
+import com.readwise.android.exoplayer2.drm.DrmInitData;
+import com.readwise.android.exoplayer2.drm.DrmInitData.SchemeData;
+import com.readwise.android.exoplayer2.extractor.mp4.PsshAtomUtil;
+import com.readwise.android.exoplayer2.extractor.mp4.TrackEncryptionBox;
+import com.readwise.android.exoplayer2.source.smoothstreaming.manifest.SsManifest.ProtectionElement;
+import com.readwise.android.exoplayer2.source.smoothstreaming.manifest.SsManifest.StreamElement;
+import com.readwise.android.exoplayer2.upstream.ParsingLoadable;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.CodecSpecificDataUtil;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;

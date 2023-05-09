@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.upstream.experimental;
+package com.readwise.android.exoplayer2.upstream.experimental;
 
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
@@ -28,10 +28,10 @@ import static org.mockito.Mockito.when;
 import android.os.Handler;
 import android.os.Looper;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.testutil.FakeClock;
-import com.google.android.exoplayer2.testutil.FakeDataSource;
-import com.google.android.exoplayer2.upstream.BandwidthMeter;
-import com.google.android.exoplayer2.upstream.DataSource;
+import com.readwise.android.exoplayer2.testutil.FakeClock;
+import com.readwise.android.exoplayer2.testutil.FakeDataSource;
+import com.readwise.android.exoplayer2.upstream.BandwidthMeter;
+import com.readwise.android.exoplayer2.upstream.DataSource;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mockito;

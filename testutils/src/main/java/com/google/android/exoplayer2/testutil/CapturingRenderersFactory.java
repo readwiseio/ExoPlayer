@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.testutil;
+package com.readwise.android.exoplayer2.testutil;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
 
 import android.content.Context;
 import android.media.MediaCodec;
@@ -28,22 +28,22 @@ import android.util.SparseArray;
 import android.view.Surface;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.DefaultRenderersFactory;
-import com.google.android.exoplayer2.Renderer;
-import com.google.android.exoplayer2.RenderersFactory;
-import com.google.android.exoplayer2.audio.AudioCapabilities;
-import com.google.android.exoplayer2.audio.AudioRendererEventListener;
-import com.google.android.exoplayer2.audio.DefaultAudioSink;
-import com.google.android.exoplayer2.audio.MediaCodecAudioRenderer;
-import com.google.android.exoplayer2.decoder.CryptoInfo;
-import com.google.android.exoplayer2.mediacodec.MediaCodecAdapter;
-import com.google.android.exoplayer2.mediacodec.MediaCodecSelector;
-import com.google.android.exoplayer2.metadata.MetadataOutput;
-import com.google.android.exoplayer2.metadata.MetadataRenderer;
-import com.google.android.exoplayer2.text.TextOutput;
-import com.google.android.exoplayer2.text.TextRenderer;
-import com.google.android.exoplayer2.video.MediaCodecVideoRenderer;
-import com.google.android.exoplayer2.video.VideoRendererEventListener;
+import com.readwise.android.exoplayer2.DefaultRenderersFactory;
+import com.readwise.android.exoplayer2.Renderer;
+import com.readwise.android.exoplayer2.RenderersFactory;
+import com.readwise.android.exoplayer2.audio.AudioCapabilities;
+import com.readwise.android.exoplayer2.audio.AudioRendererEventListener;
+import com.readwise.android.exoplayer2.audio.DefaultAudioSink;
+import com.readwise.android.exoplayer2.audio.MediaCodecAudioRenderer;
+import com.readwise.android.exoplayer2.decoder.CryptoInfo;
+import com.readwise.android.exoplayer2.mediacodec.MediaCodecAdapter;
+import com.readwise.android.exoplayer2.mediacodec.MediaCodecSelector;
+import com.readwise.android.exoplayer2.metadata.MetadataOutput;
+import com.readwise.android.exoplayer2.metadata.MetadataRenderer;
+import com.readwise.android.exoplayer2.text.TextOutput;
+import com.readwise.android.exoplayer2.text.TextRenderer;
+import com.readwise.android.exoplayer2.video.MediaCodecVideoRenderer;
+import com.readwise.android.exoplayer2.video.VideoRendererEventListener;
 import com.google.common.collect.ImmutableList;
 import java.io.IOException;
 import java.nio.ByteBuffer;

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.testutil;
+package com.readwise.android.exoplayer2.testutil;
 
 import android.content.ContentProvider;
 import android.content.ContentResolver;
@@ -26,7 +26,7 @@ import android.os.ParcelFileDescriptor;
 import android.system.ErrnoException;
 import android.system.OsConstants;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -36,7 +36,7 @@ public final class AssetContentProvider extends ContentProvider
     implements ContentProvider.PipeDataWriter<Object> {
 
   private static final String AUTHORITY =
-      "com.google.android.exoplayer2.testutil.AssetContentProvider";
+      "com.readwise.android.exoplayer2.testutil.AssetContentProvider";
   private static final String PARAM_PIPE_MODE = "pipe-mode";
 
   public static Uri buildUri(String filePath, boolean pipeMode) {

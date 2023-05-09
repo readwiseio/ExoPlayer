@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.transformer;
+package com.readwise.android.exoplayer2.transformer;
 
 import static java.lang.annotation.ElementType.TYPE_USE;
 
@@ -22,7 +22,7 @@ import android.os.Looper;
 import androidx.annotation.IntDef;
 import androidx.annotation.IntRange;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.Format;
 import com.google.common.collect.ImmutableMap;
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;
@@ -167,7 +167,7 @@ public interface AssetLoader {
   /**
    * Return the used decoders' names.
    *
-   * @return The decoders' names keyed by {@linkplain com.google.android.exoplayer2.C.TrackType
+   * @return The decoders' names keyed by {@linkplain com.readwise.android.exoplayer2.C.TrackType
    *     track type}.
    */
   ImmutableMap<Integer, String> getDecoderNames();

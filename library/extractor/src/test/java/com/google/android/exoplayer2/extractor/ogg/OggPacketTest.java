@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.extractor.ogg;
+package com.readwise.android.exoplayer2.extractor.ogg;
 
-import static com.google.android.exoplayer2.testutil.TestUtil.getByteArray;
+import static com.readwise.android.exoplayer2.testutil.TestUtil.getByteArray;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.testutil.FakeExtractorInput;
-import com.google.android.exoplayer2.testutil.TestUtil;
-import com.google.android.exoplayer2.util.ParsableByteArray;
+import com.readwise.android.exoplayer2.testutil.FakeExtractorInput;
+import com.readwise.android.exoplayer2.testutil.TestUtil;
+import com.readwise.android.exoplayer2.util.ParsableByteArray;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Random;

@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.video.spherical;
+package com.readwise.android.exoplayer2.video.spherical;
 
 import static com.google.common.truth.Truth.assertThat;
 
 import android.opengl.Matrix;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.util.GlUtil;
+import com.readwise.android.exoplayer2.util.GlUtil;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

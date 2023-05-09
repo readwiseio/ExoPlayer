@@ -13,21 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
 import static java.lang.Math.max;
 
 import androidx.annotation.GuardedBy;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.analytics.PlayerId;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer.InsufficientCapacityException;
-import com.google.android.exoplayer2.source.SampleStream;
-import com.google.android.exoplayer2.source.SampleStream.ReadDataResult;
-import com.google.android.exoplayer2.source.SampleStream.ReadFlags;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.MediaClock;
+import com.readwise.android.exoplayer2.analytics.PlayerId;
+import com.readwise.android.exoplayer2.decoder.DecoderInputBuffer;
+import com.readwise.android.exoplayer2.decoder.DecoderInputBuffer.InsufficientCapacityException;
+import com.readwise.android.exoplayer2.source.SampleStream;
+import com.readwise.android.exoplayer2.source.SampleStream.ReadDataResult;
+import com.readwise.android.exoplayer2.source.SampleStream.ReadFlags;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.MediaClock;
 import java.io.IOException;
 import org.checkerframework.checker.nullness.qual.MonotonicNonNull;
 

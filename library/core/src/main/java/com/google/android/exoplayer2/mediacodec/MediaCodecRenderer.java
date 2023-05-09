@@ -13,21 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.mediacodec;
+package com.readwise.android.exoplayer2.mediacodec;
 
-import static com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_DRM_SESSION_CHANGED;
-import static com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_OPERATING_RATE_CHANGED;
-import static com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_REUSE_NOT_IMPLEMENTED;
-import static com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_WORKAROUND;
-import static com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.REUSE_RESULT_NO;
-import static com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.REUSE_RESULT_YES_WITHOUT_RECONFIGURATION;
-import static com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.REUSE_RESULT_YES_WITH_FLUSH;
-import static com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.REUSE_RESULT_YES_WITH_RECONFIGURATION;
-import static com.google.android.exoplayer2.source.SampleStream.FLAG_OMIT_SAMPLE_DATA;
-import static com.google.android.exoplayer2.source.SampleStream.FLAG_PEEK;
-import static com.google.android.exoplayer2.source.SampleStream.FLAG_REQUIRE_FORMAT;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_DRM_SESSION_CHANGED;
+import static com.readwise.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_OPERATING_RATE_CHANGED;
+import static com.readwise.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_REUSE_NOT_IMPLEMENTED;
+import static com.readwise.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_WORKAROUND;
+import static com.readwise.android.exoplayer2.decoder.DecoderReuseEvaluation.REUSE_RESULT_NO;
+import static com.readwise.android.exoplayer2.decoder.DecoderReuseEvaluation.REUSE_RESULT_YES_WITHOUT_RECONFIGURATION;
+import static com.readwise.android.exoplayer2.decoder.DecoderReuseEvaluation.REUSE_RESULT_YES_WITH_FLUSH;
+import static com.readwise.android.exoplayer2.decoder.DecoderReuseEvaluation.REUSE_RESULT_YES_WITH_RECONFIGURATION;
+import static com.readwise.android.exoplayer2.source.SampleStream.FLAG_OMIT_SAMPLE_DATA;
+import static com.readwise.android.exoplayer2.source.SampleStream.FLAG_PEEK;
+import static com.readwise.android.exoplayer2.source.SampleStream.FLAG_REQUIRE_FORMAT;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
 import static java.lang.Math.max;
 import static java.lang.annotation.ElementType.TYPE_USE;
 
@@ -47,35 +47,35 @@ import androidx.annotation.DoNotInline;
 import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.BaseRenderer;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ExoPlaybackException;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.FormatHolder;
-import com.google.android.exoplayer2.PlaybackException;
-import com.google.android.exoplayer2.analytics.PlayerId;
-import com.google.android.exoplayer2.audio.OggOpusAudioPacketizer;
-import com.google.android.exoplayer2.decoder.CryptoConfig;
-import com.google.android.exoplayer2.decoder.DecoderCounters;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer.InsufficientCapacityException;
-import com.google.android.exoplayer2.decoder.DecoderReuseEvaluation;
-import com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.DecoderDiscardReasons;
-import com.google.android.exoplayer2.drm.DrmSession;
-import com.google.android.exoplayer2.drm.DrmSession.DrmSessionException;
-import com.google.android.exoplayer2.drm.FrameworkCryptoConfig;
-import com.google.android.exoplayer2.mediacodec.MediaCodecUtil.DecoderQueryException;
-import com.google.android.exoplayer2.source.MediaPeriod;
-import com.google.android.exoplayer2.source.SampleStream;
-import com.google.android.exoplayer2.source.SampleStream.ReadDataResult;
-import com.google.android.exoplayer2.source.SampleStream.ReadFlags;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.NalUnitUtil;
-import com.google.android.exoplayer2.util.TimedValueQueue;
-import com.google.android.exoplayer2.util.TraceUtil;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.BaseRenderer;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ExoPlaybackException;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.FormatHolder;
+import com.readwise.android.exoplayer2.PlaybackException;
+import com.readwise.android.exoplayer2.analytics.PlayerId;
+import com.readwise.android.exoplayer2.audio.OggOpusAudioPacketizer;
+import com.readwise.android.exoplayer2.decoder.CryptoConfig;
+import com.readwise.android.exoplayer2.decoder.DecoderCounters;
+import com.readwise.android.exoplayer2.decoder.DecoderInputBuffer;
+import com.readwise.android.exoplayer2.decoder.DecoderInputBuffer.InsufficientCapacityException;
+import com.readwise.android.exoplayer2.decoder.DecoderReuseEvaluation;
+import com.readwise.android.exoplayer2.decoder.DecoderReuseEvaluation.DecoderDiscardReasons;
+import com.readwise.android.exoplayer2.drm.DrmSession;
+import com.readwise.android.exoplayer2.drm.DrmSession.DrmSessionException;
+import com.readwise.android.exoplayer2.drm.FrameworkCryptoConfig;
+import com.readwise.android.exoplayer2.mediacodec.MediaCodecUtil.DecoderQueryException;
+import com.readwise.android.exoplayer2.source.MediaPeriod;
+import com.readwise.android.exoplayer2.source.SampleStream;
+import com.readwise.android.exoplayer2.source.SampleStream.ReadDataResult;
+import com.readwise.android.exoplayer2.source.SampleStream.ReadFlags;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.NalUnitUtil;
+import com.readwise.android.exoplayer2.util.TimedValueQueue;
+import com.readwise.android.exoplayer2.util.TraceUtil;
+import com.readwise.android.exoplayer2.util.Util;
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -185,7 +185,7 @@ public abstract class MediaCodecRenderer extends BaseRenderer {
 
     private static String buildCustomDiagnosticInfo(int errorCode) {
       String sign = errorCode < 0 ? "neg_" : "";
-      return "com.google.android.exoplayer2.mediacodec.MediaCodecRenderer_"
+      return "com.readwise.android.exoplayer2.mediacodec.MediaCodecRenderer_"
           + sign
           + Math.abs(errorCode);
     }

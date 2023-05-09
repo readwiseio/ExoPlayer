@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.effect;
+package com.readwise.android.exoplayer2.effect;
 
 import androidx.annotation.GuardedBy;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.util.SystemClock;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.util.SystemClock;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.base.Joiner;
 import java.util.ArrayDeque;
 import java.util.Queue;

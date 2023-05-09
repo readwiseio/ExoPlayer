@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.extractor.flac;
+package com.readwise.android.exoplayer2.extractor.flac;
 
 import static java.lang.Math.max;
 
-import com.google.android.exoplayer2.extractor.BinarySearchSeeker;
-import com.google.android.exoplayer2.extractor.ExtractorInput;
-import com.google.android.exoplayer2.extractor.FlacFrameReader;
-import com.google.android.exoplayer2.extractor.FlacFrameReader.SampleNumberHolder;
-import com.google.android.exoplayer2.extractor.FlacStreamMetadata;
-import com.google.android.exoplayer2.extractor.SeekMap;
+import com.readwise.android.exoplayer2.extractor.BinarySearchSeeker;
+import com.readwise.android.exoplayer2.extractor.ExtractorInput;
+import com.readwise.android.exoplayer2.extractor.FlacFrameReader;
+import com.readwise.android.exoplayer2.extractor.FlacFrameReader.SampleNumberHolder;
+import com.readwise.android.exoplayer2.extractor.FlacStreamMetadata;
+import com.readwise.android.exoplayer2.extractor.SeekMap;
 import java.io.IOException;
 
 /**

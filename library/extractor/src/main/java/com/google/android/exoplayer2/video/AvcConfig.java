@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.video;
+package com.readwise.android.exoplayer2.video;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.ParserException;
-import com.google.android.exoplayer2.util.CodecSpecificDataUtil;
-import com.google.android.exoplayer2.util.NalUnitUtil;
-import com.google.android.exoplayer2.util.NalUnitUtil.SpsData;
-import com.google.android.exoplayer2.util.ParsableByteArray;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.ParserException;
+import com.readwise.android.exoplayer2.util.CodecSpecificDataUtil;
+import com.readwise.android.exoplayer2.util.NalUnitUtil;
+import com.readwise.android.exoplayer2.util.NalUnitUtil.SpsData;
+import com.readwise.android.exoplayer2.util.ParsableByteArray;
 import java.util.ArrayList;
 import java.util.List;
 

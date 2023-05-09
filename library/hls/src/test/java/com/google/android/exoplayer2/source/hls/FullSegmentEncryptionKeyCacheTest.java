@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  */
-package com.google.android.exoplayer2.source.hls;
+package com.readwise.android.exoplayer2.source.hls;
 
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.fail;

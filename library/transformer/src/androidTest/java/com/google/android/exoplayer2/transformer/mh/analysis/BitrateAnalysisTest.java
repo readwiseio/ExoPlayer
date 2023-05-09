@@ -13,40 +13,40 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.transformer.mh.analysis;
+package com.readwise.android.exoplayer2.transformer.mh.analysis;
 
 import static android.media.MediaCodecInfo.EncoderCapabilities.BITRATE_MODE_CBR;
 import static android.media.MediaCodecInfo.EncoderCapabilities.BITRATE_MODE_VBR;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_1280W_720H_30_SECOND_HIGHMOTION;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_1280W_720H_30_SECOND_ROOF_ONEPLUSNORD2;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_1280W_720H_32_SECOND_ROOF_REDMINOTE9;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_1280W_720H_5_SECOND_HIGHMOTION;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_1440W_1440H_31_SECOND_ROOF_SAMSUNGS20ULTRA5G;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_1440W_1440H_5_SECOND_HIGHMOTION;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_1920W_1080H_30_SECOND_HIGHMOTION;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_1920W_1080H_5_SECOND_HIGHMOTION;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_1920W_1080H_60_FPS_30_SECOND_ROOF_ONEPLUSNORD2;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_1920W_1080H_60_FPS_30_SECOND_ROOF_REDMINOTE9;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_2400W_1080H_34_SECOND_ROOF_SAMSUNGS20ULTRA5G;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_3840W_2160H_30_SECOND_ROOF_ONEPLUSNORD2;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_3840W_2160H_30_SECOND_ROOF_REDMINOTE9;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_3840W_2160H_32_SECOND_HIGHMOTION;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_3840W_2160H_5_SECOND_HIGHMOTION;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_640W_480H_31_SECOND_ROOF_SONYXPERIAXZ3;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_7680W_4320H_31_SECOND_ROOF_SAMSUNGS20ULTRA5G;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.skipAndLogIfFormatsUnsupported;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_1280W_720H_30_SECOND_HIGHMOTION;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_1280W_720H_30_SECOND_ROOF_ONEPLUSNORD2;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_1280W_720H_32_SECOND_ROOF_REDMINOTE9;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_1280W_720H_5_SECOND_HIGHMOTION;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_1440W_1440H_31_SECOND_ROOF_SAMSUNGS20ULTRA5G;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_1440W_1440H_5_SECOND_HIGHMOTION;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_1920W_1080H_30_SECOND_HIGHMOTION;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_1920W_1080H_5_SECOND_HIGHMOTION;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_1920W_1080H_60_FPS_30_SECOND_ROOF_ONEPLUSNORD2;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_1920W_1080H_60_FPS_30_SECOND_ROOF_REDMINOTE9;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_2400W_1080H_34_SECOND_ROOF_SAMSUNGS20ULTRA5G;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_3840W_2160H_30_SECOND_ROOF_ONEPLUSNORD2;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_3840W_2160H_30_SECOND_ROOF_REDMINOTE9;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_3840W_2160H_32_SECOND_HIGHMOTION;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_3840W_2160H_5_SECOND_HIGHMOTION;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_640W_480H_31_SECOND_ROOF_SONYXPERIAXZ3;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_7680W_4320H_31_SECOND_ROOF_SAMSUNGS20ULTRA5G;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.skipAndLogIfFormatsUnsupported;
 
 import android.content.Context;
 import android.net.Uri;
 import androidx.test.core.app.ApplicationProvider;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.transformer.AndroidTestUtil;
-import com.google.android.exoplayer2.transformer.DefaultEncoderFactory;
-import com.google.android.exoplayer2.transformer.EditedMediaItem;
-import com.google.android.exoplayer2.transformer.Transformer;
-import com.google.android.exoplayer2.transformer.TransformerAndroidTestRunner;
-import com.google.android.exoplayer2.transformer.VideoEncoderSettings;
-import com.google.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.transformer.AndroidTestUtil;
+import com.readwise.android.exoplayer2.transformer.DefaultEncoderFactory;
+import com.readwise.android.exoplayer2.transformer.EditedMediaItem;
+import com.readwise.android.exoplayer2.transformer.Transformer;
+import com.readwise.android.exoplayer2.transformer.TransformerAndroidTestRunner;
+import com.readwise.android.exoplayer2.transformer.VideoEncoderSettings;
+import com.readwise.android.exoplayer2.util.Assertions;
 import com.google.common.base.Splitter;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Iterables;

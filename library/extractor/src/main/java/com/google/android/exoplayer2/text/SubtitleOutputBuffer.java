@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.text;
+package com.readwise.android.exoplayer2.text;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.decoder.DecoderOutputBuffer;
-import com.google.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.decoder.DecoderOutputBuffer;
+import com.readwise.android.exoplayer2.util.Assertions;
 import java.util.List;
 
 /** Base class for {@link SubtitleDecoder} output buffers. */

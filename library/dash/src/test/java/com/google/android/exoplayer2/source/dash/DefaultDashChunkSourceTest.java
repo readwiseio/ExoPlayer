@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.dash;
+package com.readwise.android.exoplayer2.source.dash;
 
-import static com.google.android.exoplayer2.upstream.DefaultLoadErrorHandlingPolicy.DEFAULT_LOCATION_EXCLUSION_MS;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.upstream.DefaultLoadErrorHandlingPolicy.DEFAULT_LOCATION_EXCLUSION_MS;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.net.Uri;
@@ -24,29 +24,29 @@ import android.os.SystemClock;
 import androidx.annotation.Nullable;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.analytics.PlayerId;
-import com.google.android.exoplayer2.source.LoadEventInfo;
-import com.google.android.exoplayer2.source.MediaLoadData;
-import com.google.android.exoplayer2.source.TrackGroup;
-import com.google.android.exoplayer2.source.chunk.BundledChunkExtractor;
-import com.google.android.exoplayer2.source.chunk.Chunk;
-import com.google.android.exoplayer2.source.chunk.ChunkHolder;
-import com.google.android.exoplayer2.source.dash.manifest.DashManifest;
-import com.google.android.exoplayer2.source.dash.manifest.DashManifestParser;
-import com.google.android.exoplayer2.testutil.FakeDataSource;
-import com.google.android.exoplayer2.testutil.TestUtil;
-import com.google.android.exoplayer2.trackselection.AdaptiveTrackSelection;
-import com.google.android.exoplayer2.trackselection.FixedTrackSelection;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.upstream.DefaultBandwidthMeter;
-import com.google.android.exoplayer2.upstream.DefaultLoadErrorHandlingPolicy;
-import com.google.android.exoplayer2.upstream.HttpDataSource;
-import com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
-import com.google.android.exoplayer2.upstream.LoaderErrorThrower;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.analytics.PlayerId;
+import com.readwise.android.exoplayer2.source.LoadEventInfo;
+import com.readwise.android.exoplayer2.source.MediaLoadData;
+import com.readwise.android.exoplayer2.source.TrackGroup;
+import com.readwise.android.exoplayer2.source.chunk.BundledChunkExtractor;
+import com.readwise.android.exoplayer2.source.chunk.Chunk;
+import com.readwise.android.exoplayer2.source.chunk.ChunkHolder;
+import com.readwise.android.exoplayer2.source.dash.manifest.DashManifest;
+import com.readwise.android.exoplayer2.source.dash.manifest.DashManifestParser;
+import com.readwise.android.exoplayer2.testutil.FakeDataSource;
+import com.readwise.android.exoplayer2.testutil.TestUtil;
+import com.readwise.android.exoplayer2.trackselection.AdaptiveTrackSelection;
+import com.readwise.android.exoplayer2.trackselection.FixedTrackSelection;
+import com.readwise.android.exoplayer2.upstream.DataSpec;
+import com.readwise.android.exoplayer2.upstream.DefaultBandwidthMeter;
+import com.readwise.android.exoplayer2.upstream.DefaultLoadErrorHandlingPolicy;
+import com.readwise.android.exoplayer2.upstream.HttpDataSource;
+import com.readwise.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
+import com.readwise.android.exoplayer2.upstream.LoaderErrorThrower;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Lists;

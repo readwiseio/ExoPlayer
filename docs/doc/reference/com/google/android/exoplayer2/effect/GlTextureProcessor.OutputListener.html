@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.effect</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.effect</a></div>
 <h2 title="Interface GlTextureProcessor.OutputListener" class="title">Interface GlTextureProcessor.OutputListener</h2>
 </div>
 <div class="contentContainer">
@@ -122,7 +122,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>Enclosing interface:</dt>
-<dd><a href="GlTextureProcessor.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor</a></dd>
+<dd><a href="GlTextureProcessor.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor</a></dd>
 </dl>
 <hr>
 <pre>public static interface <span class="typeNameLabel">GlTextureProcessor.OutputListener</span></pre>
@@ -153,16 +153,16 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <td class="colFirst"><code>default void</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onCurrentOutputStreamEnded()">onCurrentOutputStreamEnded</a></span>()</code></th>
 <td class="colLast">
-<div class="block">Called when the <a href="GlTextureProcessor.html" title="interface in com.google.android.exoplayer2.effect"><code>GlTextureProcessor</code></a> will not produce further output frames belonging
+<div class="block">Called when the <a href="GlTextureProcessor.html" title="interface in com.readwise.android.exoplayer2.effect"><code>GlTextureProcessor</code></a> will not produce further output frames belonging
  to the current output stream.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onOutputFrameAvailable(com.google.android.exoplayer2.effect.TextureInfo,long)">onOutputFrameAvailable</a></span>&#8203;(<a href="TextureInfo.html" title="class in com.google.android.exoplayer2.effect">TextureInfo</a>&nbsp;outputTexture,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onOutputFrameAvailable(com.readwise.android.exoplayer2.effect.TextureInfo,long)">onOutputFrameAvailable</a></span>&#8203;(<a href="TextureInfo.html" title="class in com.readwise.android.exoplayer2.effect">TextureInfo</a>&nbsp;outputTexture,
                       long&nbsp;presentationTimeUs)</code></th>
 <td class="colLast">
-<div class="block">Called when the <a href="GlTextureProcessor.html" title="interface in com.google.android.exoplayer2.effect"><code>GlTextureProcessor</code></a> has produced an output frame.</div>
+<div class="block">Called when the <a href="GlTextureProcessor.html" title="interface in com.readwise.android.exoplayer2.effect"><code>GlTextureProcessor</code></a> has produced an output frame.</div>
 </td>
 </tr>
 </table>
@@ -182,22 +182,22 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="onOutputFrameAvailable(com.google.android.exoplayer2.effect.TextureInfo,long)">
+<a id="onOutputFrameAvailable(com.readwise.android.exoplayer2.effect.TextureInfo,long)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onOutputFrameAvailable</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onOutputFrameAvailable&#8203;(<a href="TextureInfo.html" title="class in com.google.android.exoplayer2.effect">TextureInfo</a>&nbsp;outputTexture,
+<pre class="methodSignature">default&nbsp;void&nbsp;onOutputFrameAvailable&#8203;(<a href="TextureInfo.html" title="class in com.readwise.android.exoplayer2.effect">TextureInfo</a>&nbsp;outputTexture,
                                     long&nbsp;presentationTimeUs)</pre>
-<div class="block">Called when the <a href="GlTextureProcessor.html" title="interface in com.google.android.exoplayer2.effect"><code>GlTextureProcessor</code></a> has produced an output frame.
+<div class="block">Called when the <a href="GlTextureProcessor.html" title="interface in com.readwise.android.exoplayer2.effect"><code>GlTextureProcessor</code></a> has produced an output frame.
 
- <p>After the listener's owner has processed the output frame, it must call <a href="GlTextureProcessor.html#releaseOutputFrame(com.google.android.exoplayer2.effect.TextureInfo)"><code>GlTextureProcessor.releaseOutputFrame(TextureInfo)</code></a>. The output frame should be released as soon as possible,
- as there is no guarantee that the <a href="GlTextureProcessor.html" title="interface in com.google.android.exoplayer2.effect"><code>GlTextureProcessor</code></a> will produce further output
+ <p>After the listener's owner has processed the output frame, it must call <a href="GlTextureProcessor.html#releaseOutputFrame(com.readwise.android.exoplayer2.effect.TextureInfo)"><code>GlTextureProcessor.releaseOutputFrame(TextureInfo)</code></a>. The output frame should be released as soon as possible,
+ as there is no guarantee that the <a href="GlTextureProcessor.html" title="interface in com.readwise.android.exoplayer2.effect"><code>GlTextureProcessor</code></a> will produce further output
  frames before this output frame is released.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>outputTexture</code> - A <a href="TextureInfo.html" title="class in com.google.android.exoplayer2.effect"><code>TextureInfo</code></a> describing the texture containing the output
+<dd><code>outputTexture</code> - A <a href="TextureInfo.html" title="class in com.readwise.android.exoplayer2.effect"><code>TextureInfo</code></a> describing the texture containing the output
      frame.</dd>
 <dd><code>presentationTimeUs</code> - The presentation timestamp of the output frame, in microseconds.</dd>
 </dl>
@@ -210,7 +210,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <h4>onCurrentOutputStreamEnded</h4>
 <pre class="methodSignature">default&nbsp;void&nbsp;onCurrentOutputStreamEnded()</pre>
-<div class="block">Called when the <a href="GlTextureProcessor.html" title="interface in com.google.android.exoplayer2.effect"><code>GlTextureProcessor</code></a> will not produce further output frames belonging
+<div class="block">Called when the <a href="GlTextureProcessor.html" title="interface in com.readwise.android.exoplayer2.effect"><code>GlTextureProcessor</code></a> will not produce further output frames belonging
  to the current output stream.</div>
 </li>
 </ul>

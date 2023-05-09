@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.video;
+package com.readwise.android.exoplayer2.video;
 
 import android.os.Bundle;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.Bundleable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.Bundleable;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.util.Arrays;
 import org.checkerframework.dataflow.qual.Pure;

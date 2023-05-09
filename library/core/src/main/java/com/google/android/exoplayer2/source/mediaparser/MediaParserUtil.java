@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.mediaparser;
+package com.readwise.android.exoplayer2.source.mediaparser;
 
 import android.media.MediaFormat;
 import android.media.MediaParser;
 import android.media.metrics.LogSessionId;
 import androidx.annotation.DoNotInline;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.analytics.PlayerId;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.analytics.PlayerId;
 
 /**
  * Miscellaneous constants and utility methods related to the {@link MediaParser} integration.

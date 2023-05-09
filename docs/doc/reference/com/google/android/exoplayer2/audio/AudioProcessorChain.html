@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.audio</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.audio</a></div>
 <h2 title="Interface AudioProcessorChain" class="title">Interface AudioProcessorChain</h2>
 </div>
 <div class="contentContainer">
@@ -122,11 +122,11 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Known Subinterfaces:</dt>
-<dd><code><a href="DefaultAudioSink.AudioProcessorChain.html" title="interface in com.google.android.exoplayer2.audio">DefaultAudioSink.AudioProcessorChain</a></code></dd>
+<dd><code><a href="DefaultAudioSink.AudioProcessorChain.html" title="interface in com.readwise.android.exoplayer2.audio">DefaultAudioSink.AudioProcessorChain</a></code></dd>
 </dl>
 <dl>
 <dt>All Known Implementing Classes:</dt>
-<dd><code><a href="DefaultAudioSink.DefaultAudioProcessorChain.html" title="class in com.google.android.exoplayer2.audio">DefaultAudioSink.DefaultAudioProcessorChain</a></code></dd>
+<dd><code><a href="DefaultAudioSink.DefaultAudioProcessorChain.html" title="class in com.readwise.android.exoplayer2.audio">DefaultAudioSink.DefaultAudioProcessorChain</a></code></dd>
 </dl>
 <hr>
 <pre>public interface <span class="typeNameLabel">AudioProcessorChain</span></pre>
@@ -155,8 +155,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <th class="colLast" scope="col">Description</th>
 </tr>
 <tr id="i0" class="altColor">
-<td class="colFirst"><code><a href="../PlaybackParameters.html" title="class in com.google.android.exoplayer2">PlaybackParameters</a></code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#applyPlaybackParameters(com.google.android.exoplayer2.PlaybackParameters)">applyPlaybackParameters</a></span>&#8203;(<a href="../PlaybackParameters.html" title="class in com.google.android.exoplayer2">PlaybackParameters</a>&nbsp;playbackParameters)</code></th>
+<td class="colFirst"><code><a href="../PlaybackParameters.html" title="class in com.readwise.android.exoplayer2">PlaybackParameters</a></code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#applyPlaybackParameters(com.readwise.android.exoplayer2.PlaybackParameters)">applyPlaybackParameters</a></span>&#8203;(<a href="../PlaybackParameters.html" title="class in com.readwise.android.exoplayer2">PlaybackParameters</a>&nbsp;playbackParameters)</code></th>
 <td class="colLast">
 <div class="block">Configures audio processors to apply the specified playback parameters immediately, returning
  the new playback parameters, which may differ from those passed in.</div>
@@ -171,7 +171,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </td>
 </tr>
 <tr id="i2" class="altColor">
-<td class="colFirst"><code><a href="AudioProcessor.html" title="interface in com.google.android.exoplayer2.audio">AudioProcessor</a>[]</code></td>
+<td class="colFirst"><code><a href="AudioProcessor.html" title="interface in com.readwise.android.exoplayer2.audio">AudioProcessor</a>[]</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getAudioProcessors()">getAudioProcessors</a></span>()</code></th>
 <td class="colLast">
 <div class="block">Returns the fixed chain of audio processors that will process audio.</div>
@@ -215,19 +215,19 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <ul class="blockList">
 <li class="blockList">
 <h4>getAudioProcessors</h4>
-<pre class="methodSignature"><a href="AudioProcessor.html" title="interface in com.google.android.exoplayer2.audio">AudioProcessor</a>[]&nbsp;getAudioProcessors()</pre>
+<pre class="methodSignature"><a href="AudioProcessor.html" title="interface in com.readwise.android.exoplayer2.audio">AudioProcessor</a>[]&nbsp;getAudioProcessors()</pre>
 <div class="block">Returns the fixed chain of audio processors that will process audio. This method is called once
  during initialization, but audio processors may change state to become active/inactive during
  playback.</div>
 </li>
 </ul>
-<a id="applyPlaybackParameters(com.google.android.exoplayer2.PlaybackParameters)">
+<a id="applyPlaybackParameters(com.readwise.android.exoplayer2.PlaybackParameters)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>applyPlaybackParameters</h4>
-<pre class="methodSignature"><a href="../PlaybackParameters.html" title="class in com.google.android.exoplayer2">PlaybackParameters</a>&nbsp;applyPlaybackParameters&#8203;(<a href="../PlaybackParameters.html" title="class in com.google.android.exoplayer2">PlaybackParameters</a>&nbsp;playbackParameters)</pre>
+<pre class="methodSignature"><a href="../PlaybackParameters.html" title="class in com.readwise.android.exoplayer2">PlaybackParameters</a>&nbsp;applyPlaybackParameters&#8203;(<a href="../PlaybackParameters.html" title="class in com.readwise.android.exoplayer2">PlaybackParameters</a>&nbsp;playbackParameters)</pre>
 <div class="block">Configures audio processors to apply the specified playback parameters immediately, returning
  the new playback parameters, which may differ from those passed in. Only called when processors
  have no input pending.</div>

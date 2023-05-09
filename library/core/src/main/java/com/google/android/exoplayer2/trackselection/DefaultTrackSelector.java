@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.trackselection;
+package com.readwise.android.exoplayer2.trackselection;
 
-import static com.google.android.exoplayer2.util.Assertions.checkStateNotNull;
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkStateNotNull;
+import static com.readwise.android.exoplayer2.util.Util.castNonNull;
 import static java.lang.annotation.ElementType.TYPE_USE;
 import static java.util.Collections.max;
 
@@ -37,27 +37,27 @@ import androidx.annotation.GuardedBy;
 import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.Bundleable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.C.FormatSupport;
-import com.google.android.exoplayer2.C.RoleFlags;
-import com.google.android.exoplayer2.ExoPlaybackException;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.Renderer;
-import com.google.android.exoplayer2.RendererCapabilities;
-import com.google.android.exoplayer2.RendererCapabilities.AdaptiveSupport;
-import com.google.android.exoplayer2.RendererCapabilities.Capabilities;
-import com.google.android.exoplayer2.RendererConfiguration;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.audio.AudioAttributes;
-import com.google.android.exoplayer2.source.MediaSource.MediaPeriodId;
-import com.google.android.exoplayer2.source.TrackGroup;
-import com.google.android.exoplayer2.source.TrackGroupArray;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.BundleableUtil;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.Bundleable;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.C.FormatSupport;
+import com.readwise.android.exoplayer2.C.RoleFlags;
+import com.readwise.android.exoplayer2.ExoPlaybackException;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.Renderer;
+import com.readwise.android.exoplayer2.RendererCapabilities;
+import com.readwise.android.exoplayer2.RendererCapabilities.AdaptiveSupport;
+import com.readwise.android.exoplayer2.RendererCapabilities.Capabilities;
+import com.readwise.android.exoplayer2.RendererConfiguration;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.audio.AudioAttributes;
+import com.readwise.android.exoplayer2.source.MediaSource.MediaPeriodId;
+import com.readwise.android.exoplayer2.source.TrackGroup;
+import com.readwise.android.exoplayer2.source.TrackGroupArray;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.BundleableUtil;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.base.Predicate;
 import com.google.common.collect.ComparisonChain;
 import com.google.common.collect.ImmutableList;

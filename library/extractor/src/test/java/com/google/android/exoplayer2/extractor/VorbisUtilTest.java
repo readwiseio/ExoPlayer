@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.extractor;
+package com.readwise.android.exoplayer2.extractor;
 
-import static com.google.android.exoplayer2.extractor.VorbisUtil.iLog;
-import static com.google.android.exoplayer2.extractor.VorbisUtil.verifyVorbisHeaderCapturePattern;
+import static com.readwise.android.exoplayer2.extractor.VorbisUtil.iLog;
+import static com.readwise.android.exoplayer2.extractor.VorbisUtil.verifyVorbisHeaderCapturePattern;
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.fail;
 
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.ParserException;
-import com.google.android.exoplayer2.testutil.TestUtil;
-import com.google.android.exoplayer2.util.ParsableByteArray;
+import com.readwise.android.exoplayer2.ParserException;
+import com.readwise.android.exoplayer2.testutil.TestUtil;
+import com.readwise.android.exoplayer2.util.ParsableByteArray;
 import java.io.IOException;
 import org.junit.Test;
 import org.junit.runner.RunWith;

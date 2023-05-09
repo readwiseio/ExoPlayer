@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.demo;
+package com.readwise.android.exoplayer2.demo;
 
 import android.app.Dialog;
 import android.content.DialogInterface;
@@ -31,13 +31,13 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Tracks;
-import com.google.android.exoplayer2.source.TrackGroup;
-import com.google.android.exoplayer2.trackselection.TrackSelectionOverride;
-import com.google.android.exoplayer2.trackselection.TrackSelectionParameters;
-import com.google.android.exoplayer2.ui.TrackSelectionView;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.Tracks;
+import com.readwise.android.exoplayer2.source.TrackGroup;
+import com.readwise.android.exoplayer2.trackselection.TrackSelectionOverride;
+import com.readwise.android.exoplayer2.trackselection.TrackSelectionParameters;
+import com.readwise.android.exoplayer2.ui.TrackSelectionView;
 import com.google.android.material.tabs.TabLayout;
 import com.google.common.collect.ImmutableList;
 import java.util.ArrayList;

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.upstream;
+package com.readwise.android.exoplayer2.upstream;
 
 import static android.net.NetworkInfo.State.CONNECTED;
 import static android.net.NetworkInfo.State.DISCONNECTED;
@@ -29,11 +29,11 @@ import android.telephony.TelephonyDisplayInfo;
 import android.telephony.TelephonyManager;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.testutil.FakeClock;
-import com.google.android.exoplayer2.testutil.FakeDataSource;
-import com.google.android.exoplayer2.util.NetworkTypeObserver;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.testutil.FakeClock;
+import com.readwise.android.exoplayer2.testutil.FakeDataSource;
+import com.readwise.android.exoplayer2.util.NetworkTypeObserver;
+import com.readwise.android.exoplayer2.util.Util;
 import java.util.Random;
 import org.junit.Before;
 import org.junit.Ignore;

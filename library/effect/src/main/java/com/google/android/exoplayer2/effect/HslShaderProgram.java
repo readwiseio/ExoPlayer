@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.effect;
+package com.readwise.android.exoplayer2.effect;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
+import static com.readwise.android.exoplayer2.util.Assertions.checkArgument;
 
 import android.content.Context;
 import android.opengl.GLES20;
-import com.google.android.exoplayer2.util.GlProgram;
-import com.google.android.exoplayer2.util.GlUtil;
-import com.google.android.exoplayer2.util.Size;
-import com.google.android.exoplayer2.util.VideoFrameProcessingException;
+import com.readwise.android.exoplayer2.util.GlProgram;
+import com.readwise.android.exoplayer2.util.GlUtil;
+import com.readwise.android.exoplayer2.util.Size;
+import com.readwise.android.exoplayer2.util.VideoFrameProcessingException;
 import java.io.IOException;
 
 /** Applies the {@link HslAdjustment} to each frame in the fragment shader. */

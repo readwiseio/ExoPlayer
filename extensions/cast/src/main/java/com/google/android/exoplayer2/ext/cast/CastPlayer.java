@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.cast;
+package com.readwise.android.exoplayer2.ext.cast;
 
 import static androidx.annotation.VisibleForTesting.PROTECTED;
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkArgument;
+import static com.readwise.android.exoplayer2.util.Util.castNonNull;
 import static java.lang.Math.min;
 
 import android.os.Looper;
@@ -28,27 +28,27 @@ import android.view.TextureView;
 import androidx.annotation.IntRange;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.BasePlayer;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.DeviceInfo;
-import com.google.android.exoplayer2.ExoPlayerLibraryInfo;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.MediaMetadata;
-import com.google.android.exoplayer2.PlaybackException;
-import com.google.android.exoplayer2.PlaybackParameters;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.Tracks;
-import com.google.android.exoplayer2.audio.AudioAttributes;
-import com.google.android.exoplayer2.source.TrackGroup;
-import com.google.android.exoplayer2.text.CueGroup;
-import com.google.android.exoplayer2.trackselection.TrackSelectionParameters;
-import com.google.android.exoplayer2.util.Clock;
-import com.google.android.exoplayer2.util.ListenerSet;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.Size;
-import com.google.android.exoplayer2.util.Util;
-import com.google.android.exoplayer2.video.VideoSize;
+import com.readwise.android.exoplayer2.BasePlayer;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.DeviceInfo;
+import com.readwise.android.exoplayer2.ExoPlayerLibraryInfo;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.MediaMetadata;
+import com.readwise.android.exoplayer2.PlaybackException;
+import com.readwise.android.exoplayer2.PlaybackParameters;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.Tracks;
+import com.readwise.android.exoplayer2.audio.AudioAttributes;
+import com.readwise.android.exoplayer2.source.TrackGroup;
+import com.readwise.android.exoplayer2.text.CueGroup;
+import com.readwise.android.exoplayer2.trackselection.TrackSelectionParameters;
+import com.readwise.android.exoplayer2.util.Clock;
+import com.readwise.android.exoplayer2.util.ListenerSet;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.Size;
+import com.readwise.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.video.VideoSize;
 import com.google.android.gms.cast.CastStatusCodes;
 import com.google.android.gms.cast.MediaInfo;
 import com.google.android.gms.cast.MediaQueueItem;

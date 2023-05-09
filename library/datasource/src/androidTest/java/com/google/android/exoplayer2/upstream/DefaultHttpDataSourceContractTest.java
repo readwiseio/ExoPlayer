@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.upstream;
+package com.readwise.android.exoplayer2.upstream;
 
 import android.net.Uri;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.testutil.DataSourceContractTest;
-import com.google.android.exoplayer2.testutil.HttpDataSourceTestEnv;
+import com.readwise.android.exoplayer2.testutil.DataSourceContractTest;
+import com.readwise.android.exoplayer2.testutil.HttpDataSourceTestEnv;
 import com.google.common.collect.ImmutableList;
 import org.junit.Rule;
 import org.junit.runner.RunWith;

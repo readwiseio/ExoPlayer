@@ -13,21 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.effect;
+package com.readwise.android.exoplayer2.effect;
 
-import static com.google.android.exoplayer2.util.Assertions.checkState;
-import static com.google.android.exoplayer2.util.Assertions.checkStateNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.util.Assertions.checkStateNotNull;
 
 import android.graphics.Bitmap;
 import android.graphics.SurfaceTexture;
 import android.view.Surface;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.effect.GlShaderProgram.InputListener;
-import com.google.android.exoplayer2.util.FrameInfo;
-import com.google.android.exoplayer2.util.GlTextureInfo;
-import com.google.android.exoplayer2.util.GlUtil;
-import com.google.android.exoplayer2.util.VideoFrameProcessingException;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.effect.GlShaderProgram.InputListener;
+import com.readwise.android.exoplayer2.util.FrameInfo;
+import com.readwise.android.exoplayer2.util.GlTextureInfo;
+import com.readwise.android.exoplayer2.util.GlUtil;
+import com.readwise.android.exoplayer2.util.VideoFrameProcessingException;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.atomic.AtomicInteger;

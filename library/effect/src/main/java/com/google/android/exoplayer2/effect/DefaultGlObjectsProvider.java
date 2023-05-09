@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.effect;
+package com.readwise.android.exoplayer2.effect;
 
 import android.opengl.EGL14;
 import android.opengl.EGLContext;
 import android.opengl.EGLDisplay;
 import android.opengl.EGLSurface;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.util.GlObjectsProvider;
-import com.google.android.exoplayer2.util.GlTextureInfo;
-import com.google.android.exoplayer2.util.GlUtil;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.util.GlObjectsProvider;
+import com.readwise.android.exoplayer2.util.GlTextureInfo;
+import com.readwise.android.exoplayer2.util.GlUtil;
 
 // TODO(b/261820382): Add tests for sharing context.
 /**

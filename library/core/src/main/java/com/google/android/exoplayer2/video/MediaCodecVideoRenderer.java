@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.video;
+package com.readwise.android.exoplayer2.video;
 
 import static android.view.Display.DEFAULT_DISPLAY;
-import static com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_MAX_INPUT_SIZE_EXCEEDED;
-import static com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_VIDEO_MAX_RESOLUTION_EXCEEDED;
-import static com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.REUSE_RESULT_NO;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
-import static com.google.android.exoplayer2.util.Assertions.checkStateNotNull;
+import static com.readwise.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_MAX_INPUT_SIZE_EXCEEDED;
+import static com.readwise.android.exoplayer2.decoder.DecoderReuseEvaluation.DISCARD_REASON_VIDEO_MAX_RESOLUTION_EXCEEDED;
+import static com.readwise.android.exoplayer2.decoder.DecoderReuseEvaluation.REUSE_RESULT_NO;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.util.Assertions.checkStateNotNull;
 import static java.lang.Math.max;
 import static java.lang.Math.min;
 
@@ -46,39 +46,39 @@ import androidx.annotation.CallSuper;
 import androidx.annotation.DoNotInline;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ExoPlaybackException;
-import com.google.android.exoplayer2.ExoPlayer;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.FormatHolder;
-import com.google.android.exoplayer2.PlaybackException;
-import com.google.android.exoplayer2.PlayerMessage.Target;
-import com.google.android.exoplayer2.RendererCapabilities;
-import com.google.android.exoplayer2.decoder.DecoderCounters;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
-import com.google.android.exoplayer2.decoder.DecoderReuseEvaluation;
-import com.google.android.exoplayer2.decoder.DecoderReuseEvaluation.DecoderDiscardReasons;
-import com.google.android.exoplayer2.drm.DrmInitData;
-import com.google.android.exoplayer2.mediacodec.MediaCodecAdapter;
-import com.google.android.exoplayer2.mediacodec.MediaCodecDecoderException;
-import com.google.android.exoplayer2.mediacodec.MediaCodecInfo;
-import com.google.android.exoplayer2.mediacodec.MediaCodecRenderer;
-import com.google.android.exoplayer2.mediacodec.MediaCodecSelector;
-import com.google.android.exoplayer2.mediacodec.MediaCodecUtil;
-import com.google.android.exoplayer2.mediacodec.MediaCodecUtil.DecoderQueryException;
-import com.google.android.exoplayer2.util.DebugViewProvider;
-import com.google.android.exoplayer2.util.Effect;
-import com.google.android.exoplayer2.util.FrameInfo;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.MediaFormatUtil;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Size;
-import com.google.android.exoplayer2.util.SurfaceInfo;
-import com.google.android.exoplayer2.util.TraceUtil;
-import com.google.android.exoplayer2.util.Util;
-import com.google.android.exoplayer2.util.VideoFrameProcessingException;
-import com.google.android.exoplayer2.util.VideoFrameProcessor;
-import com.google.android.exoplayer2.video.VideoRendererEventListener.EventDispatcher;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ExoPlaybackException;
+import com.readwise.android.exoplayer2.ExoPlayer;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.FormatHolder;
+import com.readwise.android.exoplayer2.PlaybackException;
+import com.readwise.android.exoplayer2.PlayerMessage.Target;
+import com.readwise.android.exoplayer2.RendererCapabilities;
+import com.readwise.android.exoplayer2.decoder.DecoderCounters;
+import com.readwise.android.exoplayer2.decoder.DecoderInputBuffer;
+import com.readwise.android.exoplayer2.decoder.DecoderReuseEvaluation;
+import com.readwise.android.exoplayer2.decoder.DecoderReuseEvaluation.DecoderDiscardReasons;
+import com.readwise.android.exoplayer2.drm.DrmInitData;
+import com.readwise.android.exoplayer2.mediacodec.MediaCodecAdapter;
+import com.readwise.android.exoplayer2.mediacodec.MediaCodecDecoderException;
+import com.readwise.android.exoplayer2.mediacodec.MediaCodecInfo;
+import com.readwise.android.exoplayer2.mediacodec.MediaCodecRenderer;
+import com.readwise.android.exoplayer2.mediacodec.MediaCodecSelector;
+import com.readwise.android.exoplayer2.mediacodec.MediaCodecUtil;
+import com.readwise.android.exoplayer2.mediacodec.MediaCodecUtil.DecoderQueryException;
+import com.readwise.android.exoplayer2.util.DebugViewProvider;
+import com.readwise.android.exoplayer2.util.Effect;
+import com.readwise.android.exoplayer2.util.FrameInfo;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.MediaFormatUtil;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.Size;
+import com.readwise.android.exoplayer2.util.SurfaceInfo;
+import com.readwise.android.exoplayer2.util.TraceUtil;
+import com.readwise.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.util.VideoFrameProcessingException;
+import com.readwise.android.exoplayer2.util.VideoFrameProcessor;
+import com.readwise.android.exoplayer2.video.VideoRendererEventListener.EventDispatcher;
 import com.google.common.collect.ImmutableList;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.lang.reflect.Constructor;
@@ -2357,7 +2357,7 @@ public class MediaCodecVideoRenderer extends MediaCodecRenderer {
             || buildScaleAndRotateTransformationMethod == null) {
           Class<?> scaleAndRotateTransformationBuilderClass =
               Class.forName(
-                  "com.google.android.exoplayer2.effect.ScaleAndRotateTransformation$Builder");
+                  "com.readwise.android.exoplayer2.effect.ScaleAndRotateTransformation$Builder");
           scaleAndRotateTransformationBuilderConstructor =
               scaleAndRotateTransformationBuilderClass.getConstructor();
           setRotationMethod =
@@ -2369,7 +2369,7 @@ public class MediaCodecVideoRenderer extends MediaCodecRenderer {
             || buildVideoFrameProcessorFactoryMethod == null) {
           Class<?> videoFrameProcessorFactoryBuilderClass =
               Class.forName(
-                  "com.google.android.exoplayer2.effect.DefaultVideoFrameProcessor$Factory$Builder");
+                  "com.readwise.android.exoplayer2.effect.DefaultVideoFrameProcessor$Factory$Builder");
           videoFrameProcessorFactoryBuilderConstructor =
               videoFrameProcessorFactoryBuilderClass.getConstructor();
           buildVideoFrameProcessorFactoryMethod =

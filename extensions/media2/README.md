@@ -38,7 +38,7 @@ collaborators. You can use a [MediaSession.SessionCallback][] to build a [MediaS
 ## Links
 
 * [Javadoc][]: Classes matching
-  `com.google.android.exoplayer2.ext.media2.*` belong to this module.
+  `com.readwise.android.exoplayer2.ext.media2.*` belong to this module.
 
 [Javadoc]: https://exoplayer.dev/doc/reference/index.html
 

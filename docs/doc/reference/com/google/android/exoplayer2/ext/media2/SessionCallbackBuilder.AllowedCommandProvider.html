@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.ext.media2</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.ext.media2</a></div>
 <h2 title="Interface SessionCallbackBuilder.AllowedCommandProvider" class="title">Interface SessionCallbackBuilder.AllowedCommandProvider</h2>
 </div>
 <div class="contentContainer">
@@ -122,11 +122,11 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Known Implementing Classes:</dt>
-<dd><code><a href="SessionCallbackBuilder.DefaultAllowedCommandProvider.html" title="class in com.google.android.exoplayer2.ext.media2">SessionCallbackBuilder.DefaultAllowedCommandProvider</a></code></dd>
+<dd><code><a href="SessionCallbackBuilder.DefaultAllowedCommandProvider.html" title="class in com.readwise.android.exoplayer2.ext.media2">SessionCallbackBuilder.DefaultAllowedCommandProvider</a></code></dd>
 </dl>
 <dl>
 <dt>Enclosing class:</dt>
-<dd><a href="SessionCallbackBuilder.html" title="class in com.google.android.exoplayer2.ext.media2">SessionCallbackBuilder</a></dd>
+<dd><a href="SessionCallbackBuilder.html" title="class in com.readwise.android.exoplayer2.ext.media2">SessionCallbackBuilder</a></dd>
 </dl>
 <hr>
 <pre>public static interface <span class="typeNameLabel">SessionCallbackBuilder.AllowedCommandProvider</span></pre>
@@ -212,7 +212,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
  <p>If it returns <code>true</code> to accept connection, then <a href="#getAllowedCommands(androidx.media2.session.MediaSession,androidx.media2.session.MediaSession.ControllerInfo,androidx.media2.session.SessionCommandGroup)"><code>getAllowedCommands(androidx.media2.session.MediaSession, androidx.media2.session.MediaSession.ControllerInfo, androidx.media2.session.SessionCommandGroup)</code></a> will be
  immediately followed to return initial allowed command.
 
- <p>Prefer use <a href="SessionCallbackBuilder.PostConnectCallback.html" title="interface in com.google.android.exoplayer2.ext.media2"><code>SessionCallbackBuilder.PostConnectCallback</code></a> for any extra initialization about controller,
+ <p>Prefer use <a href="SessionCallbackBuilder.PostConnectCallback.html" title="interface in com.readwise.android.exoplayer2.ext.media2"><code>SessionCallbackBuilder.PostConnectCallback</code></a> for any extra initialization about controller,
  where controller is connected and session can send commands to the controller.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -243,7 +243,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
  </ul>
 
  <p>The provided <code>baseAllowedSessionCommand</code> is built automatically based on the state
- of the <code>SessionPlayer</code>, <a href="SessionCallbackBuilder.RatingCallback.html" title="interface in com.google.android.exoplayer2.ext.media2"><code>SessionCallbackBuilder.RatingCallback</code></a>, <a href="SessionCallbackBuilder.MediaItemProvider.html" title="interface in com.google.android.exoplayer2.ext.media2"><code>SessionCallbackBuilder.MediaItemProvider</code></a>, <a href="SessionCallbackBuilder.CustomCommandProvider.html" title="interface in com.google.android.exoplayer2.ext.media2"><code>SessionCallbackBuilder.CustomCommandProvider</code></a>, and <a href="SessionCallbackBuilder.SkipCallback.html" title="interface in com.google.android.exoplayer2.ext.media2"><code>SessionCallbackBuilder.SkipCallback</code></a> so may be a useful starting point for any
+ of the <code>SessionPlayer</code>, <a href="SessionCallbackBuilder.RatingCallback.html" title="interface in com.readwise.android.exoplayer2.ext.media2"><code>SessionCallbackBuilder.RatingCallback</code></a>, <a href="SessionCallbackBuilder.MediaItemProvider.html" title="interface in com.readwise.android.exoplayer2.ext.media2"><code>SessionCallbackBuilder.MediaItemProvider</code></a>, <a href="SessionCallbackBuilder.CustomCommandProvider.html" title="interface in com.readwise.android.exoplayer2.ext.media2"><code>SessionCallbackBuilder.CustomCommandProvider</code></a>, and <a href="SessionCallbackBuilder.SkipCallback.html" title="interface in com.readwise.android.exoplayer2.ext.media2"><code>SessionCallbackBuilder.SkipCallback</code></a> so may be a useful starting point for any
  required customizations.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>

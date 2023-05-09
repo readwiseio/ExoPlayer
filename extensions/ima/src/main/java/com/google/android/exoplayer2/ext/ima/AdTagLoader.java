@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.ima;
+package com.readwise.android.exoplayer2.ext.ima;
 
-import static com.google.android.exoplayer2.Player.COMMAND_GET_VOLUME;
-import static com.google.android.exoplayer2.ext.ima.ImaUtil.BITRATE_UNSET;
-import static com.google.android.exoplayer2.ext.ima.ImaUtil.TIMEOUT_UNSET;
-import static com.google.android.exoplayer2.ext.ima.ImaUtil.getAdGroupTimesUsForCuePoints;
-import static com.google.android.exoplayer2.ext.ima.ImaUtil.getImaLooper;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
-import static com.google.android.exoplayer2.util.Util.msToUs;
+import static com.readwise.android.exoplayer2.Player.COMMAND_GET_VOLUME;
+import static com.readwise.android.exoplayer2.ext.ima.ImaUtil.BITRATE_UNSET;
+import static com.readwise.android.exoplayer2.ext.ima.ImaUtil.TIMEOUT_UNSET;
+import static com.readwise.android.exoplayer2.ext.ima.ImaUtil.getAdGroupTimesUsForCuePoints;
+import static com.readwise.android.exoplayer2.ext.ima.ImaUtil.getImaLooper;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.util.Util.msToUs;
 import static java.lang.Math.max;
 import static java.lang.annotation.ElementType.TYPE_USE;
 
@@ -53,19 +53,19 @@ import com.google.ads.interactivemedia.v3.api.player.ContentProgressProvider;
 import com.google.ads.interactivemedia.v3.api.player.VideoAdPlayer;
 import com.google.ads.interactivemedia.v3.api.player.VideoAdPlayer.VideoAdPlayerCallback;
 import com.google.ads.interactivemedia.v3.api.player.VideoProgressUpdate;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ExoPlayerLibraryInfo;
-import com.google.android.exoplayer2.PlaybackException;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.source.ads.AdPlaybackState;
-import com.google.android.exoplayer2.source.ads.AdsLoader.EventListener;
-import com.google.android.exoplayer2.source.ads.AdsMediaSource.AdLoadException;
-import com.google.android.exoplayer2.ui.AdOverlayInfo;
-import com.google.android.exoplayer2.ui.AdViewProvider;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ExoPlayerLibraryInfo;
+import com.readwise.android.exoplayer2.PlaybackException;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.source.ads.AdPlaybackState;
+import com.readwise.android.exoplayer2.source.ads.AdsLoader.EventListener;
+import com.readwise.android.exoplayer2.source.ads.AdsMediaSource.AdLoadException;
+import com.readwise.android.exoplayer2.ui.AdOverlayInfo;
+import com.readwise.android.exoplayer2.ui.AdViewProvider;
+import com.readwise.android.exoplayer2.upstream.DataSpec;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.BiMap;
 import com.google.common.collect.HashBiMap;
 import java.io.IOException;

@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.transformer.mh;
+package com.readwise.android.exoplayer2.transformer.mh;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.media.MediaFormat;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.testutil.DecodeOneFrameUtil;
-import com.google.android.exoplayer2.util.MediaFormatUtil;
-import com.google.android.exoplayer2.util.Util;
-import com.google.android.exoplayer2.video.ColorInfo;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.testutil.DecodeOneFrameUtil;
+import com.readwise.android.exoplayer2.util.MediaFormatUtil;
+import com.readwise.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.video.ColorInfo;
 import java.io.IOException;
 
 /** Utilities for accessing details of media files. */

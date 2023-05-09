@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.playbacktests.gts;
+package com.readwise.android.exoplayer2.playbacktests.gts;
 
-import static com.google.android.exoplayer2.playbacktests.gts.GtsTestUtil.shouldSkipWidevineTest;
+import static com.readwise.android.exoplayer2.playbacktests.gts.GtsTestUtil.shouldSkipWidevineTest;
 import static org.junit.Assume.assumeFalse;
 import static org.junit.Assume.assumeTrue;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.rule.ActivityTestRule;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.testutil.ActionSchedule;
-import com.google.android.exoplayer2.testutil.HostActivity;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.testutil.ActionSchedule;
+import com.readwise.android.exoplayer2.testutil.HostActivity;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.Util;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Rule;

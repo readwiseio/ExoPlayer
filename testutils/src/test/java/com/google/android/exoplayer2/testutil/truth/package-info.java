@@ -14,6 +14,6 @@
  * limitations under the License.
  */
 @NonNullApi
-package com.google.android.exoplayer2.testutil.truth;
+package com.readwise.android.exoplayer2.testutil.truth;
 
-import com.google.android.exoplayer2.util.NonNullApi;
+import com.readwise.android.exoplayer2.util.NonNullApi;

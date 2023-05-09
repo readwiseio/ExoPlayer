@@ -15,7 +15,7 @@
  */
 package androidx.media3.muxer;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
+import static com.readwise.android.exoplayer2.util.Assertions.checkArgument;
 
 import com.google.common.collect.ImmutableList;
 import java.nio.ByteBuffer;

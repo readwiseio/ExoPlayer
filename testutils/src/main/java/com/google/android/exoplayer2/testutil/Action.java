@@ -13,36 +13,36 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.testutil;
+package com.readwise.android.exoplayer2.testutil;
 
-import static com.google.android.exoplayer2.testutil.TestUtil.timelinesAreSame;
+import static com.readwise.android.exoplayer2.testutil.TestUtil.timelinesAreSame;
 
 import android.os.Looper;
 import android.view.Surface;
 import androidx.annotation.Nullable;
 import androidx.annotation.Size;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ExoPlaybackException;
-import com.google.android.exoplayer2.ExoPlayer;
-import com.google.android.exoplayer2.IllegalSeekPositionException;
-import com.google.android.exoplayer2.PlaybackParameters;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.PlayerMessage;
-import com.google.android.exoplayer2.PlayerMessage.Target;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.audio.AudioAttributes;
-import com.google.android.exoplayer2.source.MediaSource;
-import com.google.android.exoplayer2.source.ShuffleOrder;
-import com.google.android.exoplayer2.testutil.ActionSchedule.ActionNode;
-import com.google.android.exoplayer2.testutil.ActionSchedule.PlayerRunnable;
-import com.google.android.exoplayer2.testutil.ActionSchedule.PlayerTarget;
-import com.google.android.exoplayer2.trackselection.DefaultTrackSelector;
-import com.google.android.exoplayer2.trackselection.DefaultTrackSelector.Parameters;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.ConditionVariable;
-import com.google.android.exoplayer2.util.HandlerWrapper;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ExoPlaybackException;
+import com.readwise.android.exoplayer2.ExoPlayer;
+import com.readwise.android.exoplayer2.IllegalSeekPositionException;
+import com.readwise.android.exoplayer2.PlaybackParameters;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.PlayerMessage;
+import com.readwise.android.exoplayer2.PlayerMessage.Target;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.audio.AudioAttributes;
+import com.readwise.android.exoplayer2.source.MediaSource;
+import com.readwise.android.exoplayer2.source.ShuffleOrder;
+import com.readwise.android.exoplayer2.testutil.ActionSchedule.ActionNode;
+import com.readwise.android.exoplayer2.testutil.ActionSchedule.PlayerRunnable;
+import com.readwise.android.exoplayer2.testutil.ActionSchedule.PlayerTarget;
+import com.readwise.android.exoplayer2.trackselection.DefaultTrackSelector;
+import com.readwise.android.exoplayer2.trackselection.DefaultTrackSelector.Parameters;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.ConditionVariable;
+import com.readwise.android.exoplayer2.util.HandlerWrapper;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.Util;
 import java.util.Arrays;
 import java.util.List;
 

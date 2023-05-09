@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.testutil;
+package com.readwise.android.exoplayer2.testutil;
 
 import static com.google.common.truth.Truth.assertThat;
 
 import android.util.SparseArray;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.extractor.ExtractorOutput;
-import com.google.android.exoplayer2.extractor.SeekMap;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.extractor.ExtractorOutput;
+import com.readwise.android.exoplayer2.extractor.SeekMap;
 import org.checkerframework.checker.nullness.qual.MonotonicNonNull;
 
 /** A fake {@link ExtractorOutput}. */

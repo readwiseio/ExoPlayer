@@ -13,33 +13,33 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.dash;
+package com.readwise.android.exoplayer2.source.dash;
 
 import static org.mockito.Mockito.mock;
 
 import android.net.Uri;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.analytics.PlayerId;
-import com.google.android.exoplayer2.drm.DrmSessionEventListener;
-import com.google.android.exoplayer2.drm.DrmSessionManager;
-import com.google.android.exoplayer2.source.CompositeSequenceableLoaderFactory;
-import com.google.android.exoplayer2.source.MediaSource.MediaPeriodId;
-import com.google.android.exoplayer2.source.MediaSourceEventListener;
-import com.google.android.exoplayer2.source.TrackGroup;
-import com.google.android.exoplayer2.source.TrackGroupArray;
-import com.google.android.exoplayer2.source.dash.PlayerEmsgHandler.PlayerEmsgCallback;
-import com.google.android.exoplayer2.source.dash.manifest.AdaptationSet;
-import com.google.android.exoplayer2.source.dash.manifest.DashManifest;
-import com.google.android.exoplayer2.source.dash.manifest.DashManifestParser;
-import com.google.android.exoplayer2.testutil.MediaPeriodAsserts;
-import com.google.android.exoplayer2.testutil.TestUtil;
-import com.google.android.exoplayer2.upstream.Allocator;
-import com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
-import com.google.android.exoplayer2.upstream.LoaderErrorThrower;
-import com.google.android.exoplayer2.upstream.TransferListener;
-import com.google.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.analytics.PlayerId;
+import com.readwise.android.exoplayer2.drm.DrmSessionEventListener;
+import com.readwise.android.exoplayer2.drm.DrmSessionManager;
+import com.readwise.android.exoplayer2.source.CompositeSequenceableLoaderFactory;
+import com.readwise.android.exoplayer2.source.MediaSource.MediaPeriodId;
+import com.readwise.android.exoplayer2.source.MediaSourceEventListener;
+import com.readwise.android.exoplayer2.source.TrackGroup;
+import com.readwise.android.exoplayer2.source.TrackGroupArray;
+import com.readwise.android.exoplayer2.source.dash.PlayerEmsgHandler.PlayerEmsgCallback;
+import com.readwise.android.exoplayer2.source.dash.manifest.AdaptationSet;
+import com.readwise.android.exoplayer2.source.dash.manifest.DashManifest;
+import com.readwise.android.exoplayer2.source.dash.manifest.DashManifestParser;
+import com.readwise.android.exoplayer2.testutil.MediaPeriodAsserts;
+import com.readwise.android.exoplayer2.testutil.TestUtil;
+import com.readwise.android.exoplayer2.upstream.Allocator;
+import com.readwise.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
+import com.readwise.android.exoplayer2.upstream.LoaderErrorThrower;
+import com.readwise.android.exoplayer2.upstream.TransferListener;
+import com.readwise.android.exoplayer2.util.MimeTypes;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;

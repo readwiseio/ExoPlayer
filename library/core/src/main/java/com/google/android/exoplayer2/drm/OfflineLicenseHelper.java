@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.drm;
+package com.readwise.android.exoplayer2.drm;
 
 import android.media.MediaDrm;
 import android.os.ConditionVariable;
@@ -23,13 +23,13 @@ import android.os.Looper;
 import android.util.Pair;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.analytics.PlayerId;
-import com.google.android.exoplayer2.drm.DefaultDrmSessionManager.Mode;
-import com.google.android.exoplayer2.drm.DrmSession.DrmSessionException;
-import com.google.android.exoplayer2.source.MediaSource.MediaPeriodId;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.analytics.PlayerId;
+import com.readwise.android.exoplayer2.drm.DefaultDrmSessionManager.Mode;
+import com.readwise.android.exoplayer2.drm.DrmSession.DrmSessionException;
+import com.readwise.android.exoplayer2.source.MediaSource.MediaPeriodId;
+import com.readwise.android.exoplayer2.upstream.DataSource;
+import com.readwise.android.exoplayer2.util.Assertions;
 import com.google.common.util.concurrent.SettableFuture;
 import java.util.Map;
 import java.util.UUID;

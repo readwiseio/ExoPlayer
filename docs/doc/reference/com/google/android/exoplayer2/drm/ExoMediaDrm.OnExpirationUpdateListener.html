@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.drm</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.drm</a></div>
 <h2 title="Interface ExoMediaDrm.OnExpirationUpdateListener" class="title">Interface ExoMediaDrm.OnExpirationUpdateListener</h2>
 </div>
 <div class="contentContainer">
@@ -122,7 +122,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>Enclosing interface:</dt>
-<dd><a href="ExoMediaDrm.html" title="interface in com.google.android.exoplayer2.drm">ExoMediaDrm</a></dd>
+<dd><a href="ExoMediaDrm.html" title="interface in com.readwise.android.exoplayer2.drm">ExoMediaDrm</a></dd>
 </dl>
 <hr>
 <pre>public static interface <span class="typeNameLabel">ExoMediaDrm.OnExpirationUpdateListener</span></pre>
@@ -153,7 +153,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onExpirationUpdate(com.google.android.exoplayer2.drm.ExoMediaDrm,byte%5B%5D,long)">onExpirationUpdate</a></span>&#8203;(<a href="ExoMediaDrm.html" title="interface in com.google.android.exoplayer2.drm">ExoMediaDrm</a>&nbsp;mediaDrm,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onExpirationUpdate(com.readwise.android.exoplayer2.drm.ExoMediaDrm,byte%5B%5D,long)">onExpirationUpdate</a></span>&#8203;(<a href="ExoMediaDrm.html" title="interface in com.readwise.android.exoplayer2.drm">ExoMediaDrm</a>&nbsp;mediaDrm,
                   byte[]&nbsp;sessionId,
                   long&nbsp;expirationTimeMs)</code></th>
 <td class="colLast">
@@ -178,20 +178,20 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="onExpirationUpdate(com.google.android.exoplayer2.drm.ExoMediaDrm,byte[],long)">
+<a id="onExpirationUpdate(com.readwise.android.exoplayer2.drm.ExoMediaDrm,byte[],long)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>onExpirationUpdate</h4>
-<pre class="methodSignature">void&nbsp;onExpirationUpdate&#8203;(<a href="ExoMediaDrm.html" title="interface in com.google.android.exoplayer2.drm">ExoMediaDrm</a>&nbsp;mediaDrm,
+<pre class="methodSignature">void&nbsp;onExpirationUpdate&#8203;(<a href="ExoMediaDrm.html" title="interface in com.readwise.android.exoplayer2.drm">ExoMediaDrm</a>&nbsp;mediaDrm,
                         byte[]&nbsp;sessionId,
                         long&nbsp;expirationTimeMs)</pre>
 <div class="block">Called when a session expiration update occurs, to inform the app about the change in
  expiration time.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>mediaDrm</code> - The <a href="ExoMediaDrm.html" title="interface in com.google.android.exoplayer2.drm"><code>ExoMediaDrm</code></a> object on which the event occurred.</dd>
+<dd><code>mediaDrm</code> - The <a href="ExoMediaDrm.html" title="interface in com.readwise.android.exoplayer2.drm"><code>ExoMediaDrm</code></a> object on which the event occurred.</dd>
 <dd><code>sessionId</code> - The DRM session ID on which the event occurred</dd>
 <dd><code>expirationTimeMs</code> - The new expiration time for the keys in the session. The time is in
      milliseconds, relative to the Unix epoch. A time of 0 indicates that the keys never

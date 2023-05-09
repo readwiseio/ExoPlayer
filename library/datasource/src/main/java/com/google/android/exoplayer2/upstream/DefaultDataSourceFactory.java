@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.upstream;
+package com.readwise.android.exoplayer2.upstream;
 
 import android.content.Context;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.upstream.DataSource.Factory;
+import com.readwise.android.exoplayer2.upstream.DataSource.Factory;
 
 /**
  * @deprecated Use {@link DefaultDataSource.Factory} instead.

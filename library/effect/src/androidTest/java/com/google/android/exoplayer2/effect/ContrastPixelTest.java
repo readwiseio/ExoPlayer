@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.effect;
+package com.readwise.android.exoplayer2.effect;
 
 import static androidx.test.core.app.ApplicationProvider.getApplicationContext;
-import static com.google.android.exoplayer2.testutil.BitmapPixelTestUtil.MAXIMUM_AVERAGE_PIXEL_ABSOLUTE_DIFFERENCE;
-import static com.google.android.exoplayer2.testutil.BitmapPixelTestUtil.createArgb8888BitmapFromCurrentGlFramebuffer;
-import static com.google.android.exoplayer2.testutil.BitmapPixelTestUtil.createArgb8888BitmapWithSolidColor;
-import static com.google.android.exoplayer2.testutil.BitmapPixelTestUtil.createGlTextureFromBitmap;
-import static com.google.android.exoplayer2.testutil.BitmapPixelTestUtil.getBitmapAveragePixelAbsoluteDifferenceArgb8888;
-import static com.google.android.exoplayer2.testutil.BitmapPixelTestUtil.maybeSaveTestBitmap;
-import static com.google.android.exoplayer2.testutil.BitmapPixelTestUtil.readBitmap;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.testutil.BitmapPixelTestUtil.MAXIMUM_AVERAGE_PIXEL_ABSOLUTE_DIFFERENCE;
+import static com.readwise.android.exoplayer2.testutil.BitmapPixelTestUtil.createArgb8888BitmapFromCurrentGlFramebuffer;
+import static com.readwise.android.exoplayer2.testutil.BitmapPixelTestUtil.createArgb8888BitmapWithSolidColor;
+import static com.readwise.android.exoplayer2.testutil.BitmapPixelTestUtil.createGlTextureFromBitmap;
+import static com.readwise.android.exoplayer2.testutil.BitmapPixelTestUtil.getBitmapAveragePixelAbsoluteDifferenceArgb8888;
+import static com.readwise.android.exoplayer2.testutil.BitmapPixelTestUtil.maybeSaveTestBitmap;
+import static com.readwise.android.exoplayer2.testutil.BitmapPixelTestUtil.readBitmap;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.content.Context;
@@ -34,10 +34,10 @@ import android.opengl.EGLContext;
 import android.opengl.EGLDisplay;
 import android.opengl.EGLSurface;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.testutil.BitmapPixelTestUtil;
-import com.google.android.exoplayer2.util.GlUtil;
-import com.google.android.exoplayer2.util.Size;
-import com.google.android.exoplayer2.util.VideoFrameProcessingException;
+import com.readwise.android.exoplayer2.testutil.BitmapPixelTestUtil;
+import com.readwise.android.exoplayer2.util.GlUtil;
+import com.readwise.android.exoplayer2.util.Size;
+import com.readwise.android.exoplayer2.util.VideoFrameProcessingException;
 import org.checkerframework.checker.nullness.qual.MonotonicNonNull;
 import org.junit.After;
 import org.junit.Before;

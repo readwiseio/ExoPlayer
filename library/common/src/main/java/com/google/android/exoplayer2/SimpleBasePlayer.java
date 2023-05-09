@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
 import static androidx.annotation.VisibleForTesting.PROTECTED;
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Util.castNonNull;
-import static com.google.android.exoplayer2.util.Util.msToUs;
-import static com.google.android.exoplayer2.util.Util.usToMs;
+import static com.readwise.android.exoplayer2.util.Assertions.checkArgument;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Util.castNonNull;
+import static com.readwise.android.exoplayer2.util.Util.msToUs;
+import static com.readwise.android.exoplayer2.util.Util.usToMs;
 import static java.lang.Math.max;
 import static java.lang.Math.min;
 
@@ -36,17 +36,17 @@ import androidx.annotation.FloatRange;
 import androidx.annotation.IntRange;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.audio.AudioAttributes;
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.source.ads.AdPlaybackState;
-import com.google.android.exoplayer2.text.CueGroup;
-import com.google.android.exoplayer2.trackselection.TrackSelectionParameters;
-import com.google.android.exoplayer2.util.Clock;
-import com.google.android.exoplayer2.util.HandlerWrapper;
-import com.google.android.exoplayer2.util.ListenerSet;
-import com.google.android.exoplayer2.util.Size;
-import com.google.android.exoplayer2.util.Util;
-import com.google.android.exoplayer2.video.VideoSize;
+import com.readwise.android.exoplayer2.audio.AudioAttributes;
+import com.readwise.android.exoplayer2.metadata.Metadata;
+import com.readwise.android.exoplayer2.source.ads.AdPlaybackState;
+import com.readwise.android.exoplayer2.text.CueGroup;
+import com.readwise.android.exoplayer2.trackselection.TrackSelectionParameters;
+import com.readwise.android.exoplayer2.util.Clock;
+import com.readwise.android.exoplayer2.util.HandlerWrapper;
+import com.readwise.android.exoplayer2.util.ListenerSet;
+import com.readwise.android.exoplayer2.util.Size;
+import com.readwise.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.video.VideoSize;
 import com.google.common.base.Supplier;
 import com.google.common.collect.ImmutableList;
 import com.google.common.util.concurrent.Futures;

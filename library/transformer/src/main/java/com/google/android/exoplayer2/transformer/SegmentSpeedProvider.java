@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.transformer;
+package com.readwise.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.metadata.mp4.SlowMotionData.Segment.BY_START_THEN_END_THEN_DIVISOR;
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
+import static com.readwise.android.exoplayer2.metadata.mp4.SlowMotionData.Segment.BY_START_THEN_END_THEN_DIVISOR;
+import static com.readwise.android.exoplayer2.util.Assertions.checkArgument;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.metadata.mp4.SlowMotionData;
-import com.google.android.exoplayer2.metadata.mp4.SlowMotionData.Segment;
-import com.google.android.exoplayer2.metadata.mp4.SmtaMetadataEntry;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.metadata.Metadata;
+import com.readwise.android.exoplayer2.metadata.mp4.SlowMotionData;
+import com.readwise.android.exoplayer2.metadata.mp4.SlowMotionData.Segment;
+import com.readwise.android.exoplayer2.metadata.mp4.SmtaMetadataEntry;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableSortedMap;
 import java.util.ArrayList;

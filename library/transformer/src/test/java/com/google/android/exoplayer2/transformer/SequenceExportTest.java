@@ -14,27 +14,27 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.transformer;
+package com.readwise.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.transformer.TestUtil.ASSET_URI_PREFIX;
-import static com.google.android.exoplayer2.transformer.TestUtil.FILE_AUDIO_VIDEO;
-import static com.google.android.exoplayer2.transformer.TestUtil.FILE_AUDIO_VIDEO_INCREASING_TIMESTAMPS_15S;
-import static com.google.android.exoplayer2.transformer.TestUtil.createEncodersAndDecoders;
-import static com.google.android.exoplayer2.transformer.TestUtil.createTransformerBuilder;
-import static com.google.android.exoplayer2.transformer.TestUtil.getDumpFileName;
-import static com.google.android.exoplayer2.transformer.TestUtil.removeEncodersAndDecoders;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.transformer.TestUtil.ASSET_URI_PREFIX;
+import static com.readwise.android.exoplayer2.transformer.TestUtil.FILE_AUDIO_VIDEO;
+import static com.readwise.android.exoplayer2.transformer.TestUtil.FILE_AUDIO_VIDEO_INCREASING_TIMESTAMPS_15S;
+import static com.readwise.android.exoplayer2.transformer.TestUtil.createEncodersAndDecoders;
+import static com.readwise.android.exoplayer2.transformer.TestUtil.createTransformerBuilder;
+import static com.readwise.android.exoplayer2.transformer.TestUtil.getDumpFileName;
+import static com.readwise.android.exoplayer2.transformer.TestUtil.removeEncodersAndDecoders;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
 
 import android.content.Context;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.audio.SonicAudioProcessor;
-import com.google.android.exoplayer2.effect.RgbFilter;
-import com.google.android.exoplayer2.testutil.DumpFileAsserts;
-import com.google.android.exoplayer2.transformer.TestUtil.TestMuxerFactory.TestMuxerHolder;
-import com.google.android.exoplayer2.util.Effect;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.audio.SonicAudioProcessor;
+import com.readwise.android.exoplayer2.effect.RgbFilter;
+import com.readwise.android.exoplayer2.testutil.DumpFileAsserts;
+import com.readwise.android.exoplayer2.transformer.TestUtil.TestMuxerFactory.TestMuxerHolder;
+import com.readwise.android.exoplayer2.util.Effect;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import java.nio.file.Files;
 import java.nio.file.Paths;

@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.transformer;
+package com.readwise.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.util.Util.minValue;
+import static com.readwise.android.exoplayer2.util.Util.minValue;
 
 import android.util.SparseLongArray;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.PlaybackParameters;
-import com.google.android.exoplayer2.util.MediaClock;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.PlaybackParameters;
+import com.readwise.android.exoplayer2.util.MediaClock;
 
 /* package */ final class TransformerMediaClock implements MediaClock {
 

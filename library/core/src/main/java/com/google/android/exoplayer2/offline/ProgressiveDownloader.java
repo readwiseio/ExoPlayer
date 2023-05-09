@@ -13,21 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.offline;
+package com.readwise.android.exoplayer2.offline;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.upstream.cache.CacheDataSource;
-import com.google.android.exoplayer2.upstream.cache.CacheWriter;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.PriorityTaskManager;
-import com.google.android.exoplayer2.util.PriorityTaskManager.PriorityTooLowException;
-import com.google.android.exoplayer2.util.RunnableFutureTask;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.upstream.DataSpec;
+import com.readwise.android.exoplayer2.upstream.cache.CacheDataSource;
+import com.readwise.android.exoplayer2.upstream.cache.CacheWriter;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.PriorityTaskManager;
+import com.readwise.android.exoplayer2.util.PriorityTaskManager.PriorityTooLowException;
+import com.readwise.android.exoplayer2.util.RunnableFutureTask;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.IOException;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Executor;

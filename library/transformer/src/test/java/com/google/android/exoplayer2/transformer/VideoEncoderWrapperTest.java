@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.transformer;
+package com.readwise.android.exoplayer2.transformer;
 
 import static com.google.common.truth.Truth.assertThat;
 import static org.mockito.Mockito.mock;
@@ -24,14 +24,14 @@ import android.media.MediaFormat;
 import android.net.Uri;
 import android.os.Looper;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.util.Clock;
-import com.google.android.exoplayer2.util.ListenerSet;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.SurfaceInfo;
-import com.google.android.exoplayer2.video.ColorInfo;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.util.Clock;
+import com.readwise.android.exoplayer2.util.ListenerSet;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.SurfaceInfo;
+import com.readwise.android.exoplayer2.video.ColorInfo;
 import com.google.common.collect.ImmutableList;
 import org.junit.After;
 import org.junit.Before;

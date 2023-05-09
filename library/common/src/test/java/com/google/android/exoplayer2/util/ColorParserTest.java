@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.util;
+package com.readwise.android.exoplayer2.util;
 
 import static android.graphics.Color.BLACK;
 import static android.graphics.Color.RED;
 import static android.graphics.Color.WHITE;
 import static android.graphics.Color.argb;
 import static android.graphics.Color.parseColor;
-import static com.google.android.exoplayer2.util.ColorParser.parseTtmlColor;
+import static com.readwise.android.exoplayer2.util.ColorParser.parseTtmlColor;
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
 

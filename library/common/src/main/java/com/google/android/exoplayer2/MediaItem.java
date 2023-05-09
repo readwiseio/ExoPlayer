@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
 
 import android.net.Uri;
 import android.os.Bundle;
 import androidx.annotation.IntRange;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.offline.StreamKey;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.offline.StreamKey;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
@@ -517,8 +517,8 @@ public final class MediaItem implements Bundleable {
 
     /**
      * Sets the optional tag for custom attributes. The tag for the media source which will be
-     * published in the {@code com.google.android.exoplayer2.Timeline} of the source as {@code
-     * com.google.android.exoplayer2.Timeline.Window#tag}.
+     * published in the {@code com.readwise.android.exoplayer2.Timeline} of the source as {@code
+     * com.readwise.android.exoplayer2.Timeline.Window#tag}.
      *
      * <p>This method should only be called if {@link #setUri} is passed a non-null value.
      */
@@ -986,8 +986,8 @@ public final class MediaItem implements Bundleable {
 
     /**
      * Optional tag for custom attributes. The tag for the media source which will be published in
-     * the {@code com.google.android.exoplayer2.Timeline} of the source as {@code
-     * com.google.android.exoplayer2.Timeline.Window#tag}.
+     * the {@code com.readwise.android.exoplayer2.Timeline} of the source as {@code
+     * com.readwise.android.exoplayer2.Timeline.Window#tag}.
      */
     @Nullable public final Object tag;
 

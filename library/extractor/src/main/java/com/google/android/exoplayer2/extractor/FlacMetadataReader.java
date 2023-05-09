@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.extractor;
+package com.readwise.android.exoplayer2.extractor;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.ParserException;
-import com.google.android.exoplayer2.extractor.VorbisUtil.CommentHeader;
-import com.google.android.exoplayer2.extractor.flac.FlacConstants;
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.metadata.flac.PictureFrame;
-import com.google.android.exoplayer2.metadata.id3.Id3Decoder;
-import com.google.android.exoplayer2.util.ParsableBitArray;
-import com.google.android.exoplayer2.util.ParsableByteArray;
+import com.readwise.android.exoplayer2.ParserException;
+import com.readwise.android.exoplayer2.extractor.VorbisUtil.CommentHeader;
+import com.readwise.android.exoplayer2.extractor.flac.FlacConstants;
+import com.readwise.android.exoplayer2.metadata.Metadata;
+import com.readwise.android.exoplayer2.metadata.flac.PictureFrame;
+import com.readwise.android.exoplayer2.metadata.id3.Id3Decoder;
+import com.readwise.android.exoplayer2.util.ParsableBitArray;
+import com.readwise.android.exoplayer2.util.ParsableByteArray;
 import com.google.common.collect.ImmutableList;
 import java.io.IOException;
 import java.util.Arrays;

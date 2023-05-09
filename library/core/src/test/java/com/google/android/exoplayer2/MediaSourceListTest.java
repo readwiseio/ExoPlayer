@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertNotSame;
@@ -28,15 +28,15 @@ import static org.mockito.Mockito.when;
 import android.os.Looper;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.analytics.AnalyticsCollector;
-import com.google.android.exoplayer2.analytics.DefaultAnalyticsCollector;
-import com.google.android.exoplayer2.analytics.PlayerId;
-import com.google.android.exoplayer2.source.MediaSource;
-import com.google.android.exoplayer2.source.ShuffleOrder;
-import com.google.android.exoplayer2.testutil.FakeMediaSource;
-import com.google.android.exoplayer2.testutil.FakeShuffleOrder;
-import com.google.android.exoplayer2.util.Clock;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.analytics.AnalyticsCollector;
+import com.readwise.android.exoplayer2.analytics.DefaultAnalyticsCollector;
+import com.readwise.android.exoplayer2.analytics.PlayerId;
+import com.readwise.android.exoplayer2.source.MediaSource;
+import com.readwise.android.exoplayer2.source.ShuffleOrder;
+import com.readwise.android.exoplayer2.testutil.FakeMediaSource;
+import com.readwise.android.exoplayer2.testutil.FakeShuffleOrder;
+import com.readwise.android.exoplayer2.util.Clock;
+import com.readwise.android.exoplayer2.util.Util;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

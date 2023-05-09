@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.effect;
+package com.readwise.android.exoplayer2.effect;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.util.Assertions.checkArgument;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
 
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.opengl.GLES20;
 import android.opengl.GLUtils;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.util.GlUtil;
-import com.google.android.exoplayer2.util.Util;
-import com.google.android.exoplayer2.util.VideoFrameProcessingException;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.util.GlUtil;
+import com.readwise.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.util.VideoFrameProcessingException;
 
 /** Transforms the colors of a frame by applying the same color lookup table to each frame. */
 public class SingleColorLut implements ColorLut {

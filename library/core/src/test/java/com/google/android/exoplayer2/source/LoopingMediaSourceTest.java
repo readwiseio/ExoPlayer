@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source;
+package com.readwise.android.exoplayer2.source;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.testutil.FakeMediaSource;
-import com.google.android.exoplayer2.testutil.FakeTimeline;
-import com.google.android.exoplayer2.testutil.FakeTimeline.TimelineWindowDefinition;
-import com.google.android.exoplayer2.testutil.MediaSourceTestRunner;
-import com.google.android.exoplayer2.testutil.TimelineAsserts;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.testutil.FakeMediaSource;
+import com.readwise.android.exoplayer2.testutil.FakeTimeline;
+import com.readwise.android.exoplayer2.testutil.FakeTimeline.TimelineWindowDefinition;
+import com.readwise.android.exoplayer2.testutil.MediaSourceTestRunner;
+import com.readwise.android.exoplayer2.testutil.TimelineAsserts;
 import java.io.IOException;
 import org.junit.Before;
 import org.junit.Test;

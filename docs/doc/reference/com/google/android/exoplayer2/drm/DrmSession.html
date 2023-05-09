@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.drm</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.drm</a></div>
 <h2 title="Interface DrmSession" class="title">Interface DrmSession</h2>
 </div>
 <div class="contentContainer">
@@ -122,7 +122,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Known Implementing Classes:</dt>
-<dd><code><a href="ErrorStateDrmSession.html" title="class in com.google.android.exoplayer2.drm">ErrorStateDrmSession</a></code></dd>
+<dd><code><a href="ErrorStateDrmSession.html" title="class in com.readwise.android.exoplayer2.drm">ErrorStateDrmSession</a></code></dd>
 </dl>
 <hr>
 <pre>public interface <span class="typeNameLabel">DrmSession</span></pre>
@@ -149,14 +149,14 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static class&nbsp;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="DrmSession.DrmSessionException.html" title="class in com.google.android.exoplayer2.drm">DrmSession.DrmSessionException</a></span></code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="DrmSession.DrmSessionException.html" title="class in com.readwise.android.exoplayer2.drm">DrmSession.DrmSessionException</a></span></code></th>
 <td class="colLast">
 <div class="block">Wraps the throwable which is the cause of the error state.</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>static interface&nbsp;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="DrmSession.State.html" title="annotation in com.google.android.exoplayer2.drm">DrmSession.State</a></span></code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="DrmSession.State.html" title="annotation in com.readwise.android.exoplayer2.drm">DrmSession.State</a></span></code></th>
 <td class="colLast">
 <div class="block">The state of the DRM session.</div>
 </td>
@@ -234,21 +234,21 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#acquire(com.google.android.exoplayer2.drm.DrmSessionEventListener.EventDispatcher)">acquire</a></span>&#8203;(<a href="DrmSessionEventListener.EventDispatcher.html" title="class in com.google.android.exoplayer2.drm">DrmSessionEventListener.EventDispatcher</a>&nbsp;eventDispatcher)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#acquire(com.readwise.android.exoplayer2.drm.DrmSessionEventListener.EventDispatcher)">acquire</a></span>&#8203;(<a href="DrmSessionEventListener.EventDispatcher.html" title="class in com.readwise.android.exoplayer2.drm">DrmSessionEventListener.EventDispatcher</a>&nbsp;eventDispatcher)</code></th>
 <td class="colLast">
 <div class="block">Increments the reference count.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
-<td class="colFirst"><code><a href="../decoder/CryptoConfig.html" title="interface in com.google.android.exoplayer2.decoder">CryptoConfig</a></code></td>
+<td class="colFirst"><code><a href="../decoder/CryptoConfig.html" title="interface in com.readwise.android.exoplayer2.decoder">CryptoConfig</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getCryptoConfig()">getCryptoConfig</a></span>()</code></th>
 <td class="colLast">
-<div class="block">Returns a <a href="../decoder/CryptoConfig.html" title="interface in com.google.android.exoplayer2.decoder"><code>CryptoConfig</code></a> for the open session, or null if called before the session has
+<div class="block">Returns a <a href="../decoder/CryptoConfig.html" title="interface in com.readwise.android.exoplayer2.decoder"><code>CryptoConfig</code></a> for the open session, or null if called before the session has
  been opened or after it's been released.</div>
 </td>
 </tr>
 <tr id="i2" class="altColor">
-<td class="colFirst"><code><a href="DrmSession.DrmSessionException.html" title="class in com.google.android.exoplayer2.drm">DrmSession.DrmSessionException</a></code></td>
+<td class="colFirst"><code><a href="DrmSession.DrmSessionException.html" title="class in com.readwise.android.exoplayer2.drm">DrmSession.DrmSessionException</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getError()">getError</a></span>()</code></th>
 <td class="colLast">
 <div class="block">Returns the cause of the error state, or null if <a href="#getState()"><code>getState()</code></a> is not <a href="#STATE_ERROR"><code>STATE_ERROR</code></a>.</div>
@@ -270,7 +270,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </td>
 </tr>
 <tr id="i5" class="rowColor">
-<td class="colFirst"><code>@com.google.android.exoplayer2.drm.DrmSession.State int</code></td>
+<td class="colFirst"><code>@com.readwise.android.exoplayer2.drm.DrmSession.State int</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getState()">getState</a></span>()</code></th>
 <td class="colLast">
 <div class="block">Returns the current state of the session, which is one of <a href="#STATE_ERROR"><code>STATE_ERROR</code></a>, <a href="#STATE_RELEASED"><code>STATE_RELEASED</code></a>, <a href="#STATE_OPENING"><code>STATE_OPENING</code></a>, <a href="#STATE_OPENED"><code>STATE_OPENED</code></a> and <a href="#STATE_OPENED_WITH_KEYS"><code>STATE_OPENED_WITH_KEYS</code></a>.</div>
@@ -293,15 +293,15 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i8" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#release(com.google.android.exoplayer2.drm.DrmSessionEventListener.EventDispatcher)">release</a></span>&#8203;(<a href="DrmSessionEventListener.EventDispatcher.html" title="class in com.google.android.exoplayer2.drm">DrmSessionEventListener.EventDispatcher</a>&nbsp;eventDispatcher)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#release(com.readwise.android.exoplayer2.drm.DrmSessionEventListener.EventDispatcher)">release</a></span>&#8203;(<a href="DrmSessionEventListener.EventDispatcher.html" title="class in com.readwise.android.exoplayer2.drm">DrmSessionEventListener.EventDispatcher</a>&nbsp;eventDispatcher)</code></th>
 <td class="colLast">
 <div class="block">Decrements the reference count.</div>
 </td>
 </tr>
 <tr id="i9" class="rowColor">
 <td class="colFirst"><code>static void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#replaceSession(com.google.android.exoplayer2.drm.DrmSession,com.google.android.exoplayer2.drm.DrmSession)">replaceSession</a></span>&#8203;(<a href="DrmSession.html" title="interface in com.google.android.exoplayer2.drm">DrmSession</a>&nbsp;previousSession,
-              <a href="DrmSession.html" title="interface in com.google.android.exoplayer2.drm">DrmSession</a>&nbsp;newSession)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#replaceSession(com.readwise.android.exoplayer2.drm.DrmSession,com.readwise.android.exoplayer2.drm.DrmSession)">replaceSession</a></span>&#8203;(<a href="DrmSession.html" title="interface in com.readwise.android.exoplayer2.drm">DrmSession</a>&nbsp;previousSession,
+              <a href="DrmSession.html" title="interface in com.readwise.android.exoplayer2.drm">DrmSession</a>&nbsp;newSession)</code></th>
 <td class="colLast">
 <div class="block">Acquires <code>newSession</code> then releases <code>previousSession</code>.</div>
 </td>
@@ -340,7 +340,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <div class="block">The session has been released. This is a terminal state.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../../constant-values.html#com.google.android.exoplayer2.drm.DrmSession.STATE_RELEASED">Constant Field Values</a></dd>
+<dd><a href="../../../../../constant-values.html#com.readwise.android.exoplayer2.drm.DrmSession.STATE_RELEASED">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>
@@ -355,7 +355,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
  This is a terminal state.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../../constant-values.html#com.google.android.exoplayer2.drm.DrmSession.STATE_ERROR">Constant Field Values</a></dd>
+<dd><a href="../../../../../constant-values.html#com.readwise.android.exoplayer2.drm.DrmSession.STATE_ERROR">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>
@@ -369,7 +369,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <div class="block">The session is being opened.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../../constant-values.html#com.google.android.exoplayer2.drm.DrmSession.STATE_OPENING">Constant Field Values</a></dd>
+<dd><a href="../../../../../constant-values.html#com.readwise.android.exoplayer2.drm.DrmSession.STATE_OPENING">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>
@@ -383,7 +383,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <div class="block">The session is open, but does not have keys required for decryption.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../../constant-values.html#com.google.android.exoplayer2.drm.DrmSession.STATE_OPENED">Constant Field Values</a></dd>
+<dd><a href="../../../../../constant-values.html#com.readwise.android.exoplayer2.drm.DrmSession.STATE_OPENED">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>
@@ -397,7 +397,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <div class="block">The session is open and has keys required for decryption.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../../constant-values.html#com.google.android.exoplayer2.drm.DrmSession.STATE_OPENED_WITH_KEYS">Constant Field Values</a></dd>
+<dd><a href="../../../../../constant-values.html#com.readwise.android.exoplayer2.drm.DrmSession.STATE_OPENED_WITH_KEYS">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>
@@ -411,20 +411,20 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="replaceSession(com.google.android.exoplayer2.drm.DrmSession,com.google.android.exoplayer2.drm.DrmSession)">
+<a id="replaceSession(com.readwise.android.exoplayer2.drm.DrmSession,com.readwise.android.exoplayer2.drm.DrmSession)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>replaceSession</h4>
 <pre class="methodSignature">static&nbsp;void&nbsp;replaceSession&#8203;(@Nullable
-                           <a href="DrmSession.html" title="interface in com.google.android.exoplayer2.drm">DrmSession</a>&nbsp;previousSession,
+                           <a href="DrmSession.html" title="interface in com.readwise.android.exoplayer2.drm">DrmSession</a>&nbsp;previousSession,
                            @Nullable
-                           <a href="DrmSession.html" title="interface in com.google.android.exoplayer2.drm">DrmSession</a>&nbsp;newSession)</pre>
+                           <a href="DrmSession.html" title="interface in com.readwise.android.exoplayer2.drm">DrmSession</a>&nbsp;newSession)</pre>
 <div class="block">Acquires <code>newSession</code> then releases <code>previousSession</code>.
 
- <p>Invokes <code>newSession's</code> <a href="#acquire(com.google.android.exoplayer2.drm.DrmSessionEventListener.EventDispatcher)"><code>acquire(DrmSessionEventListener.EventDispatcher)</code></a> and
- <code>previousSession's</code> <a href="#release(com.google.android.exoplayer2.drm.DrmSessionEventListener.EventDispatcher)"><code>release(DrmSessionEventListener.EventDispatcher)</code></a> in that
+ <p>Invokes <code>newSession's</code> <a href="#acquire(com.readwise.android.exoplayer2.drm.DrmSessionEventListener.EventDispatcher)"><code>acquire(DrmSessionEventListener.EventDispatcher)</code></a> and
+ <code>previousSession's</code> <a href="#release(com.readwise.android.exoplayer2.drm.DrmSessionEventListener.EventDispatcher)"><code>release(DrmSessionEventListener.EventDispatcher)</code></a> in that
  order (passing <code>eventDispatcher = null</code>). Null arguments are ignored. Does nothing if
  <code>previousSession</code> and <code>newSession</code> are the same session.</div>
 </li>
@@ -435,8 +435,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <ul class="blockList">
 <li class="blockList">
 <h4>getState</h4>
-<pre class="methodSignature"><a href="DrmSession.State.html" title="annotation in com.google.android.exoplayer2.drm">@State</a>
-@com.google.android.exoplayer2.drm.DrmSession.State int&nbsp;getState()</pre>
+<pre class="methodSignature"><a href="DrmSession.State.html" title="annotation in com.readwise.android.exoplayer2.drm">@State</a>
+@com.readwise.android.exoplayer2.drm.DrmSession.State int&nbsp;getState()</pre>
 <div class="block">Returns the current state of the session, which is one of <a href="#STATE_ERROR"><code>STATE_ERROR</code></a>, <a href="#STATE_RELEASED"><code>STATE_RELEASED</code></a>, <a href="#STATE_OPENING"><code>STATE_OPENING</code></a>, <a href="#STATE_OPENED"><code>STATE_OPENED</code></a> and <a href="#STATE_OPENED_WITH_KEYS"><code>STATE_OPENED_WITH_KEYS</code></a>.</div>
 </li>
 </ul>
@@ -457,7 +457,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <h4>getError</h4>
 <pre class="methodSignature">@Nullable
-<a href="DrmSession.DrmSessionException.html" title="class in com.google.android.exoplayer2.drm">DrmSession.DrmSessionException</a>&nbsp;getError()</pre>
+<a href="DrmSession.DrmSessionException.html" title="class in com.readwise.android.exoplayer2.drm">DrmSession.DrmSessionException</a>&nbsp;getError()</pre>
 <div class="block">Returns the cause of the error state, or null if <a href="#getState()"><code>getState()</code></a> is not <a href="#STATE_ERROR"><code>STATE_ERROR</code></a>.</div>
 </li>
 </ul>
@@ -478,8 +478,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <h4>getCryptoConfig</h4>
 <pre class="methodSignature">@Nullable
-<a href="../decoder/CryptoConfig.html" title="interface in com.google.android.exoplayer2.decoder">CryptoConfig</a>&nbsp;getCryptoConfig()</pre>
-<div class="block">Returns a <a href="../decoder/CryptoConfig.html" title="interface in com.google.android.exoplayer2.decoder"><code>CryptoConfig</code></a> for the open session, or null if called before the session has
+<a href="../decoder/CryptoConfig.html" title="interface in com.readwise.android.exoplayer2.decoder">CryptoConfig</a>&nbsp;getCryptoConfig()</pre>
+<div class="block">Returns a <a href="../decoder/CryptoConfig.html" title="interface in com.readwise.android.exoplayer2.decoder"><code>CryptoConfig</code></a> for the open session, or null if called before the session has
  been opened or after it's been released.</div>
 </li>
 </ul>
@@ -531,39 +531,39 @@ byte[]&nbsp;getOfflineLicenseKeySetId()</pre>
  <p>The session must be in <a href="#getState()"><code>state</code></a> <a href="#STATE_OPENED"><code>STATE_OPENED</code></a> or <a href="#STATE_OPENED_WITH_KEYS"><code>STATE_OPENED_WITH_KEYS</code></a>.</div>
 </li>
 </ul>
-<a id="acquire(com.google.android.exoplayer2.drm.DrmSessionEventListener.EventDispatcher)">
+<a id="acquire(com.readwise.android.exoplayer2.drm.DrmSessionEventListener.EventDispatcher)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>acquire</h4>
 <pre class="methodSignature">void&nbsp;acquire&#8203;(@Nullable
-             <a href="DrmSessionEventListener.EventDispatcher.html" title="class in com.google.android.exoplayer2.drm">DrmSessionEventListener.EventDispatcher</a>&nbsp;eventDispatcher)</pre>
+             <a href="DrmSessionEventListener.EventDispatcher.html" title="class in com.readwise.android.exoplayer2.drm">DrmSessionEventListener.EventDispatcher</a>&nbsp;eventDispatcher)</pre>
 <div class="block">Increments the reference count. When the caller no longer needs to use the instance, it must
- call <a href="#release(com.google.android.exoplayer2.drm.DrmSessionEventListener.EventDispatcher)"><code>release(DrmSessionEventListener.EventDispatcher)</code></a> to decrement the reference
+ call <a href="#release(com.readwise.android.exoplayer2.drm.DrmSessionEventListener.EventDispatcher)"><code>release(DrmSessionEventListener.EventDispatcher)</code></a> to decrement the reference
  count.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>eventDispatcher</code> - The <a href="DrmSessionEventListener.EventDispatcher.html" title="class in com.google.android.exoplayer2.drm"><code>DrmSessionEventListener.EventDispatcher</code></a> used to route
+<dd><code>eventDispatcher</code> - The <a href="DrmSessionEventListener.EventDispatcher.html" title="class in com.readwise.android.exoplayer2.drm"><code>DrmSessionEventListener.EventDispatcher</code></a> used to route
      DRM-related events dispatched from this session, or null if no event handling is needed.</dd>
 </dl>
 </li>
 </ul>
-<a id="release(com.google.android.exoplayer2.drm.DrmSessionEventListener.EventDispatcher)">
+<a id="release(com.readwise.android.exoplayer2.drm.DrmSessionEventListener.EventDispatcher)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>release</h4>
 <pre class="methodSignature">void&nbsp;release&#8203;(@Nullable
-             <a href="DrmSessionEventListener.EventDispatcher.html" title="class in com.google.android.exoplayer2.drm">DrmSessionEventListener.EventDispatcher</a>&nbsp;eventDispatcher)</pre>
+             <a href="DrmSessionEventListener.EventDispatcher.html" title="class in com.readwise.android.exoplayer2.drm">DrmSessionEventListener.EventDispatcher</a>&nbsp;eventDispatcher)</pre>
 <div class="block">Decrements the reference count. If the reference count drops to 0 underlying resources are
  released, and the instance cannot be re-used.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>eventDispatcher</code> - The <a href="DrmSessionEventListener.EventDispatcher.html" title="class in com.google.android.exoplayer2.drm"><code>DrmSessionEventListener.EventDispatcher</code></a> to disconnect when
+<dd><code>eventDispatcher</code> - The <a href="DrmSessionEventListener.EventDispatcher.html" title="class in com.readwise.android.exoplayer2.drm"><code>DrmSessionEventListener.EventDispatcher</code></a> to disconnect when
      the session is released (the same instance (possibly null) that was passed by the caller to
-     <a href="#acquire(com.google.android.exoplayer2.drm.DrmSessionEventListener.EventDispatcher)"><code>acquire(DrmSessionEventListener.EventDispatcher)</code></a>).</dd>
+     <a href="#acquire(com.readwise.android.exoplayer2.drm.DrmSessionEventListener.EventDispatcher)"><code>acquire(DrmSessionEventListener.EventDispatcher)</code></a>).</dd>
 </dl>
 </li>
 </ul>

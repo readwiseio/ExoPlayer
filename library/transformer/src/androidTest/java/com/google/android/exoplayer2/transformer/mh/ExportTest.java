@@ -13,36 +13,36 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.transformer.mh;
+package com.readwise.android.exoplayer2.transformer.mh;
 
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_4K60_PORTRAIT_FORMAT;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_4K60_PORTRAIT_URI_STRING;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_BT2020_SDR;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_BT2020_SDR_FORMAT;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_SEF_URI_STRING;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_URI_STRING;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_WITH_INCREASING_TIMESTAMPS_FORMAT;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_WITH_INCREASING_TIMESTAMPS_URI_STRING;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_8K24_FORMAT;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_8K24_URI_STRING;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.recordTestSkipped;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_4K60_PORTRAIT_FORMAT;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_4K60_PORTRAIT_URI_STRING;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_BT2020_SDR;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_BT2020_SDR_FORMAT;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_SEF_URI_STRING;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_URI_STRING;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_WITH_INCREASING_TIMESTAMPS_FORMAT;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_WITH_INCREASING_TIMESTAMPS_URI_STRING;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_8K24_FORMAT;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_REMOTE_8K24_URI_STRING;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.recordTestSkipped;
 
 import android.content.Context;
 import android.net.Uri;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.effect.ScaleAndRotateTransformation;
-import com.google.android.exoplayer2.transformer.AndroidTestUtil;
-import com.google.android.exoplayer2.transformer.AndroidTestUtil.ForceEncodeEncoderFactory;
-import com.google.android.exoplayer2.transformer.DefaultEncoderFactory;
-import com.google.android.exoplayer2.transformer.EditedMediaItem;
-import com.google.android.exoplayer2.transformer.Effects;
-import com.google.android.exoplayer2.transformer.Transformer;
-import com.google.android.exoplayer2.transformer.TransformerAndroidTestRunner;
-import com.google.android.exoplayer2.transformer.VideoEncoderSettings;
-import com.google.android.exoplayer2.util.Effect;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.effect.ScaleAndRotateTransformation;
+import com.readwise.android.exoplayer2.transformer.AndroidTestUtil;
+import com.readwise.android.exoplayer2.transformer.AndroidTestUtil.ForceEncodeEncoderFactory;
+import com.readwise.android.exoplayer2.transformer.DefaultEncoderFactory;
+import com.readwise.android.exoplayer2.transformer.EditedMediaItem;
+import com.readwise.android.exoplayer2.transformer.Effects;
+import com.readwise.android.exoplayer2.transformer.Transformer;
+import com.readwise.android.exoplayer2.transformer.TransformerAndroidTestRunner;
+import com.readwise.android.exoplayer2.transformer.VideoEncoderSettings;
+import com.readwise.android.exoplayer2.util.Effect;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import org.junit.Test;
 import org.junit.runner.RunWith;

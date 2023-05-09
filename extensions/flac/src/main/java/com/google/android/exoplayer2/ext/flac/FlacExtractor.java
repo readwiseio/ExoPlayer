@@ -13,30 +13,30 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.flac;
+package com.readwise.android.exoplayer2.ext.flac;
 
-import static com.google.android.exoplayer2.util.Util.getPcmEncoding;
+import static com.readwise.android.exoplayer2.util.Util.getPcmEncoding;
 import static java.lang.annotation.ElementType.TYPE_USE;
 
 import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.ext.flac.FlacBinarySearchSeeker.OutputFrameHolder;
-import com.google.android.exoplayer2.extractor.Extractor;
-import com.google.android.exoplayer2.extractor.ExtractorInput;
-import com.google.android.exoplayer2.extractor.ExtractorOutput;
-import com.google.android.exoplayer2.extractor.ExtractorsFactory;
-import com.google.android.exoplayer2.extractor.FlacMetadataReader;
-import com.google.android.exoplayer2.extractor.FlacStreamMetadata;
-import com.google.android.exoplayer2.extractor.PositionHolder;
-import com.google.android.exoplayer2.extractor.SeekMap;
-import com.google.android.exoplayer2.extractor.SeekPoint;
-import com.google.android.exoplayer2.extractor.TrackOutput;
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.ParsableByteArray;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.ext.flac.FlacBinarySearchSeeker.OutputFrameHolder;
+import com.readwise.android.exoplayer2.extractor.Extractor;
+import com.readwise.android.exoplayer2.extractor.ExtractorInput;
+import com.readwise.android.exoplayer2.extractor.ExtractorOutput;
+import com.readwise.android.exoplayer2.extractor.ExtractorsFactory;
+import com.readwise.android.exoplayer2.extractor.FlacMetadataReader;
+import com.readwise.android.exoplayer2.extractor.FlacStreamMetadata;
+import com.readwise.android.exoplayer2.extractor.PositionHolder;
+import com.readwise.android.exoplayer2.extractor.SeekMap;
+import com.readwise.android.exoplayer2.extractor.SeekPoint;
+import com.readwise.android.exoplayer2.extractor.TrackOutput;
+import com.readwise.android.exoplayer2.metadata.Metadata;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.ParsableByteArray;
 import java.io.IOException;
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;
@@ -74,7 +74,7 @@ public final class FlacExtractor implements Extractor {
    * required.
    */
   public static final int FLAG_DISABLE_ID3_METADATA =
-      com.google.android.exoplayer2.extractor.flac.FlacExtractor.FLAG_DISABLE_ID3_METADATA;
+      com.readwise.android.exoplayer2.extractor.flac.FlacExtractor.FLAG_DISABLE_ID3_METADATA;
 
   private final ParsableByteArray outputBuffer;
   private final boolean id3MetadataDisabled;

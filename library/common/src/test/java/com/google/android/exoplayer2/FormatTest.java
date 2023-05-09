@@ -13,20 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
-import static com.google.android.exoplayer2.C.WIDEVINE_UUID;
-import static com.google.android.exoplayer2.util.MimeTypes.VIDEO_MP4;
-import static com.google.android.exoplayer2.util.MimeTypes.VIDEO_WEBM;
+import static com.readwise.android.exoplayer2.C.WIDEVINE_UUID;
+import static com.readwise.android.exoplayer2.util.MimeTypes.VIDEO_MP4;
+import static com.readwise.android.exoplayer2.util.MimeTypes.VIDEO_WEBM;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.os.Bundle;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.drm.DrmInitData;
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.testutil.FakeMetadataEntry;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.video.ColorInfo;
+import com.readwise.android.exoplayer2.drm.DrmInitData;
+import com.readwise.android.exoplayer2.metadata.Metadata;
+import com.readwise.android.exoplayer2.testutil.FakeMetadataEntry;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.video.ColorInfo;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;

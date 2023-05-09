@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.testutil;
+package com.readwise.android.exoplayer2.testutil;
 
-import static com.google.android.exoplayer2.testutil.WebServerDispatcher.Resource.GZIP_SUPPORT_DISABLED;
-import static com.google.android.exoplayer2.testutil.WebServerDispatcher.Resource.GZIP_SUPPORT_FORCED;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.testutil.WebServerDispatcher.Resource.GZIP_SUPPORT_DISABLED;
+import static com.readwise.android.exoplayer2.testutil.WebServerDispatcher.Resource.GZIP_SUPPORT_FORCED;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
 import static java.lang.Math.max;
 import static java.lang.Math.min;
 import static java.lang.annotation.ElementType.TYPE_USE;
@@ -26,7 +26,7 @@ import static java.lang.annotation.ElementType.TYPE_USE;
 import android.util.Pair;
 import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.base.Joiner;
 import com.google.common.base.Strings;
 import com.google.common.collect.ImmutableList;

@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.upstream</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.upstream</a></div>
 <h2 title="Interface TransferListener" class="title">Interface TransferListener</h2>
 </div>
 <div class="contentContainer">
@@ -122,7 +122,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Known Implementing Classes:</dt>
-<dd><code><a href="../testutil/DataSourceContractTest.FakeTransferListener.html" title="class in com.google.android.exoplayer2.testutil">DataSourceContractTest.FakeTransferListener</a></code>, <code><a href="DefaultBandwidthMeter.html" title="class in com.google.android.exoplayer2.upstream">DefaultBandwidthMeter</a></code></dd>
+<dd><code><a href="../testutil/DataSourceContractTest.FakeTransferListener.html" title="class in com.readwise.android.exoplayer2.testutil">DataSourceContractTest.FakeTransferListener</a></code>, <code><a href="DefaultBandwidthMeter.html" title="class in com.readwise.android.exoplayer2.upstream">DefaultBandwidthMeter</a></code></dd>
 </dl>
 <hr>
 <pre>public interface <span class="typeNameLabel">TransferListener</span></pre>
@@ -131,15 +131,15 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
  <p>A transfer usually progresses through multiple steps:
 
  <ol>
-   <li>Initializing the underlying resource (e.g. opening a HTTP connection). <a href="#onTransferInitializing(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean)"><code>onTransferInitializing(DataSource, DataSpec, boolean)</code></a> is called before the initialization
+   <li>Initializing the underlying resource (e.g. opening a HTTP connection). <a href="#onTransferInitializing(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean)"><code>onTransferInitializing(DataSource, DataSpec, boolean)</code></a> is called before the initialization
        starts.
-   <li>Starting the transfer after successfully initializing the resource. <a href="#onTransferStart(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean)"><code>onTransferStart(DataSource, DataSpec, boolean)</code></a> is called. Note that this only happens if
+   <li>Starting the transfer after successfully initializing the resource. <a href="#onTransferStart(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean)"><code>onTransferStart(DataSource, DataSpec, boolean)</code></a> is called. Note that this only happens if
        the initialization was successful.
-   <li>Transferring data. <a href="#onBytesTransferred(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean,int)"><code>onBytesTransferred(DataSource, DataSpec, boolean, int)</code></a> is
+   <li>Transferring data. <a href="#onBytesTransferred(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean,int)"><code>onBytesTransferred(DataSource, DataSpec, boolean, int)</code></a> is
        called frequently during the transfer to indicate progress.
-   <li>Closing the transfer and the underlying resource. <a href="#onTransferEnd(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean)"><code>onTransferEnd(DataSource,
-       DataSpec, boolean)</code></a> is called. Note that each <a href="#onTransferStart(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean)"><code>onTransferStart(DataSource, DataSpec,
-       boolean)</code></a> will have exactly one corresponding call to <a href="#onTransferEnd(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean)"><code>onTransferEnd(DataSource,
+   <li>Closing the transfer and the underlying resource. <a href="#onTransferEnd(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean)"><code>onTransferEnd(DataSource,
+       DataSpec, boolean)</code></a> is called. Note that each <a href="#onTransferStart(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean)"><code>onTransferStart(DataSource, DataSpec,
+       boolean)</code></a> will have exactly one corresponding call to <a href="#onTransferEnd(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean)"><code>onTransferEnd(DataSource,
        DataSpec, boolean)</code></a>.
  </ol></div>
 </li>
@@ -164,8 +164,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onBytesTransferred(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean,int)">onBytesTransferred</a></span>&#8203;(<a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
-                  <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onBytesTransferred(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean,int)">onBytesTransferred</a></span>&#8203;(<a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
+                  <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
                   boolean&nbsp;isNetwork,
                   int&nbsp;bytesTransferred)</code></th>
 <td class="colLast">
@@ -174,8 +174,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onTransferEnd(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean)">onTransferEnd</a></span>&#8203;(<a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
-             <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onTransferEnd(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean)">onTransferEnd</a></span>&#8203;(<a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
+             <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
              boolean&nbsp;isNetwork)</code></th>
 <td class="colLast">
 <div class="block">Called when a transfer ends.</div>
@@ -183,8 +183,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onTransferInitializing(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean)">onTransferInitializing</a></span>&#8203;(<a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
-                      <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onTransferInitializing(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean)">onTransferInitializing</a></span>&#8203;(<a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
+                      <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
                       boolean&nbsp;isNetwork)</code></th>
 <td class="colLast">
 <div class="block">Called when a transfer is being initialized.</div>
@@ -192,8 +192,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i3" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onTransferStart(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean)">onTransferStart</a></span>&#8203;(<a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
-               <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onTransferStart(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean)">onTransferStart</a></span>&#8203;(<a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
+               <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
                boolean&nbsp;isNetwork)</code></th>
 <td class="colLast">
 <div class="block">Called when a transfer starts.</div>
@@ -216,14 +216,14 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="onTransferInitializing(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean)">
+<a id="onTransferInitializing(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onTransferInitializing</h4>
-<pre class="methodSignature">void&nbsp;onTransferInitializing&#8203;(<a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
-                            <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
+<pre class="methodSignature">void&nbsp;onTransferInitializing&#8203;(<a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
+                            <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
                             boolean&nbsp;isNetwork)</pre>
 <div class="block">Called when a transfer is being initialized.</div>
 <dl>
@@ -234,14 +234,14 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dl>
 </li>
 </ul>
-<a id="onTransferStart(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean)">
+<a id="onTransferStart(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onTransferStart</h4>
-<pre class="methodSignature">void&nbsp;onTransferStart&#8203;(<a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
-                     <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
+<pre class="methodSignature">void&nbsp;onTransferStart&#8203;(<a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
+                     <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
                      boolean&nbsp;isNetwork)</pre>
 <div class="block">Called when a transfer starts.</div>
 <dl>
@@ -252,14 +252,14 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dl>
 </li>
 </ul>
-<a id="onBytesTransferred(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean,int)">
+<a id="onBytesTransferred(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean,int)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onBytesTransferred</h4>
-<pre class="methodSignature">void&nbsp;onBytesTransferred&#8203;(<a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
-                        <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
+<pre class="methodSignature">void&nbsp;onBytesTransferred&#8203;(<a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
+                        <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
                         boolean&nbsp;isNetwork,
                         int&nbsp;bytesTransferred)</pre>
 <div class="block">Called incrementally during a transfer.</div>
@@ -272,14 +272,14 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dl>
 </li>
 </ul>
-<a id="onTransferEnd(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean)">
+<a id="onTransferEnd(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>onTransferEnd</h4>
-<pre class="methodSignature">void&nbsp;onTransferEnd&#8203;(<a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
-                   <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
+<pre class="methodSignature">void&nbsp;onTransferEnd&#8203;(<a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
+                   <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
                    boolean&nbsp;isNetwork)</pre>
 <div class="block">Called when a transfer ends.</div>
 <dl>

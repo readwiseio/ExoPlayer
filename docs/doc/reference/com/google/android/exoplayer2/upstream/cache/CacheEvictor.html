@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.upstream.cache</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.upstream.cache</a></div>
 <h2 title="Interface CacheEvictor" class="title">Interface CacheEvictor</h2>
 </div>
 <div class="contentContainer">
@@ -122,16 +122,16 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Superinterfaces:</dt>
-<dd><code><a href="Cache.Listener.html" title="interface in com.google.android.exoplayer2.upstream.cache">Cache.Listener</a></code></dd>
+<dd><code><a href="Cache.Listener.html" title="interface in com.readwise.android.exoplayer2.upstream.cache">Cache.Listener</a></code></dd>
 </dl>
 <dl>
 <dt>All Known Implementing Classes:</dt>
-<dd><code><a href="LeastRecentlyUsedCacheEvictor.html" title="class in com.google.android.exoplayer2.upstream.cache">LeastRecentlyUsedCacheEvictor</a></code>, <code><a href="NoOpCacheEvictor.html" title="class in com.google.android.exoplayer2.upstream.cache">NoOpCacheEvictor</a></code></dd>
+<dd><code><a href="LeastRecentlyUsedCacheEvictor.html" title="class in com.readwise.android.exoplayer2.upstream.cache">LeastRecentlyUsedCacheEvictor</a></code>, <code><a href="NoOpCacheEvictor.html" title="class in com.readwise.android.exoplayer2.upstream.cache">NoOpCacheEvictor</a></code></dd>
 </dl>
 <hr>
 <pre>public interface <span class="typeNameLabel">CacheEvictor</span>
-extends <a href="Cache.Listener.html" title="interface in com.google.android.exoplayer2.upstream.cache">Cache.Listener</a></pre>
-<div class="block">Evicts data from a <a href="Cache.html" title="interface in com.google.android.exoplayer2.upstream.cache"><code>Cache</code></a>. Implementations should call <a href="Cache.html#removeSpan(com.google.android.exoplayer2.upstream.cache.CacheSpan)"><code>Cache.removeSpan(CacheSpan)</code></a>
+extends <a href="Cache.Listener.html" title="interface in com.readwise.android.exoplayer2.upstream.cache">Cache.Listener</a></pre>
+<div class="block">Evicts data from a <a href="Cache.html" title="interface in com.readwise.android.exoplayer2.upstream.cache"><code>Cache</code></a>. Implementations should call <a href="Cache.html#removeSpan(com.readwise.android.exoplayer2.upstream.cache.CacheSpan)"><code>Cache.removeSpan(CacheSpan)</code></a>
  to evict cache entries based on their eviction policies.</div>
 </li>
 </ul>
@@ -162,7 +162,7 @@ extends <a href="Cache.Listener.html" title="interface in com.google.android.exo
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onStartFile(com.google.android.exoplayer2.upstream.cache.Cache,java.lang.String,long,long)">onStartFile</a></span>&#8203;(<a href="Cache.html" title="interface in com.google.android.exoplayer2.upstream.cache">Cache</a>&nbsp;cache,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onStartFile(com.readwise.android.exoplayer2.upstream.cache.Cache,java.lang.String,long,long)">onStartFile</a></span>&#8203;(<a href="Cache.html" title="interface in com.readwise.android.exoplayer2.upstream.cache">Cache</a>&nbsp;cache,
            <a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;key,
            long&nbsp;position,
            long&nbsp;length)</code></th>
@@ -174,17 +174,17 @@ extends <a href="Cache.Listener.html" title="interface in com.google.android.exo
 <td class="colFirst"><code>boolean</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#requiresCacheSpanTouches()">requiresCacheSpanTouches</a></span>()</code></th>
 <td class="colLast">
-<div class="block">Returns whether the evictor requires the <a href="Cache.html" title="interface in com.google.android.exoplayer2.upstream.cache"><code>Cache</code></a> to touch <a href="CacheSpan.html" title="class in com.google.android.exoplayer2.upstream.cache"><code>CacheSpans</code></a>
+<div class="block">Returns whether the evictor requires the <a href="Cache.html" title="interface in com.readwise.android.exoplayer2.upstream.cache"><code>Cache</code></a> to touch <a href="CacheSpan.html" title="class in com.readwise.android.exoplayer2.upstream.cache"><code>CacheSpans</code></a>
  when it accesses them.</div>
 </td>
 </tr>
 </table>
 <ul class="blockList">
-<li class="blockList"><a id="methods.inherited.from.class.com.google.android.exoplayer2.upstream.cache.Cache.Listener">
+<li class="blockList"><a id="methods.inherited.from.class.com.readwise.android.exoplayer2.upstream.cache.Cache.Listener">
 <!--   -->
 </a>
-<h3>Methods inherited from interface&nbsp;com.google.android.exoplayer2.upstream.cache.<a href="Cache.Listener.html" title="interface in com.google.android.exoplayer2.upstream.cache">Cache.Listener</a></h3>
-<code><a href="Cache.Listener.html#onSpanAdded(com.google.android.exoplayer2.upstream.cache.Cache,com.google.android.exoplayer2.upstream.cache.CacheSpan)">onSpanAdded</a>, <a href="Cache.Listener.html#onSpanRemoved(com.google.android.exoplayer2.upstream.cache.Cache,com.google.android.exoplayer2.upstream.cache.CacheSpan)">onSpanRemoved</a>, <a href="Cache.Listener.html#onSpanTouched(com.google.android.exoplayer2.upstream.cache.Cache,com.google.android.exoplayer2.upstream.cache.CacheSpan,com.google.android.exoplayer2.upstream.cache.CacheSpan)">onSpanTouched</a></code></li>
+<h3>Methods inherited from interface&nbsp;com.readwise.android.exoplayer2.upstream.cache.<a href="Cache.Listener.html" title="interface in com.readwise.android.exoplayer2.upstream.cache">Cache.Listener</a></h3>
+<code><a href="Cache.Listener.html#onSpanAdded(com.readwise.android.exoplayer2.upstream.cache.Cache,com.readwise.android.exoplayer2.upstream.cache.CacheSpan)">onSpanAdded</a>, <a href="Cache.Listener.html#onSpanRemoved(com.readwise.android.exoplayer2.upstream.cache.Cache,com.readwise.android.exoplayer2.upstream.cache.CacheSpan)">onSpanRemoved</a>, <a href="Cache.Listener.html#onSpanTouched(com.readwise.android.exoplayer2.upstream.cache.Cache,com.readwise.android.exoplayer2.upstream.cache.CacheSpan,com.readwise.android.exoplayer2.upstream.cache.CacheSpan)">onSpanTouched</a></code></li>
 </ul>
 </li>
 </ul>
@@ -209,7 +209,7 @@ extends <a href="Cache.Listener.html" title="interface in com.google.android.exo
 <li class="blockList">
 <h4>requiresCacheSpanTouches</h4>
 <pre class="methodSignature">boolean&nbsp;requiresCacheSpanTouches()</pre>
-<div class="block">Returns whether the evictor requires the <a href="Cache.html" title="interface in com.google.android.exoplayer2.upstream.cache"><code>Cache</code></a> to touch <a href="CacheSpan.html" title="class in com.google.android.exoplayer2.upstream.cache"><code>CacheSpans</code></a>
+<div class="block">Returns whether the evictor requires the <a href="Cache.html" title="interface in com.readwise.android.exoplayer2.upstream.cache"><code>Cache</code></a> to touch <a href="CacheSpan.html" title="class in com.readwise.android.exoplayer2.upstream.cache"><code>CacheSpans</code></a>
  when it accesses them. Implementations that do not use <a href="CacheSpan.html#lastTouchTimestamp"><code>CacheSpan.lastTouchTimestamp</code></a>
  should return <code>false</code>.</div>
 </li>
@@ -224,13 +224,13 @@ extends <a href="Cache.Listener.html" title="interface in com.google.android.exo
 <div class="block">Called when cache has been initialized.</div>
 </li>
 </ul>
-<a id="onStartFile(com.google.android.exoplayer2.upstream.cache.Cache,java.lang.String,long,long)">
+<a id="onStartFile(com.readwise.android.exoplayer2.upstream.cache.Cache,java.lang.String,long,long)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>onStartFile</h4>
-<pre class="methodSignature">void&nbsp;onStartFile&#8203;(<a href="Cache.html" title="interface in com.google.android.exoplayer2.upstream.cache">Cache</a>&nbsp;cache,
+<pre class="methodSignature">void&nbsp;onStartFile&#8203;(<a href="Cache.html" title="interface in com.readwise.android.exoplayer2.upstream.cache">Cache</a>&nbsp;cache,
                  <a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;key,
                  long&nbsp;position,
                  long&nbsp;length)</pre>

@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  */
-package com.google.android.exoplayer2.ui;
+package com.readwise.android.exoplayer2.ui;
 
 import android.graphics.Typeface;
 import android.text.Html;
@@ -29,12 +29,12 @@ import android.text.style.TypefaceSpan;
 import android.text.style.UnderlineSpan;
 import android.util.SparseArray;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.text.span.HorizontalTextInVerticalContextSpan;
-import com.google.android.exoplayer2.text.span.RubySpan;
-import com.google.android.exoplayer2.text.span.TextAnnotation;
-import com.google.android.exoplayer2.text.span.TextEmphasisSpan;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.text.span.HorizontalTextInVerticalContextSpan;
+import com.readwise.android.exoplayer2.text.span.RubySpan;
+import com.readwise.android.exoplayer2.text.span.TextAnnotation;
+import com.readwise.android.exoplayer2.text.span.TextEmphasisSpan;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableMap;
 import java.util.ArrayList;
 import java.util.Collections;

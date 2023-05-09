@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.hls.playlist;
+package com.readwise.android.exoplayer2.source.hls.playlist;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.upstream.ParsingLoadable;
+import com.readwise.android.exoplayer2.upstream.ParsingLoadable;
 
 /** Factory for {@link HlsPlaylist} parsers. */
 public interface HlsPlaylistParserFactory {

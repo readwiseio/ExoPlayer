@@ -13,22 +13,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.video.spherical;
+package com.readwise.android.exoplayer2.video.spherical;
 
-import static com.google.android.exoplayer2.util.GlUtil.checkGlError;
+import static com.readwise.android.exoplayer2.util.GlUtil.checkGlError;
 
 import android.graphics.SurfaceTexture;
 import android.media.MediaFormat;
 import android.opengl.GLES20;
 import android.opengl.Matrix;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.GlUtil;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.TimedValueQueue;
-import com.google.android.exoplayer2.video.VideoFrameMetadataListener;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.GlUtil;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.TimedValueQueue;
+import com.readwise.android.exoplayer2.video.VideoFrameMetadataListener;
 import java.util.Arrays;
 import java.util.concurrent.atomic.AtomicBoolean;
 import org.checkerframework.checker.nullness.qual.MonotonicNonNull;

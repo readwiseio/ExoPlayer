@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source;
+package com.readwise.android.exoplayer2.source;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.C.DataType;
-import com.google.android.exoplayer2.C.SelectionReason;
-import com.google.android.exoplayer2.C.TrackType;
-import com.google.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.C.DataType;
+import com.readwise.android.exoplayer2.C.SelectionReason;
+import com.readwise.android.exoplayer2.C.TrackType;
+import com.readwise.android.exoplayer2.Format;
 
 /** Descriptor for data being loaded or selected by a {@link MediaSource}. */
 public final class MediaLoadData {

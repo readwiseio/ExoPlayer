@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.transformer;
+package com.readwise.android.exoplayer2.transformer;
 
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.audio.AudioProcessor.AudioFormat;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.audio.AudioProcessor.AudioFormat;
+import com.readwise.android.exoplayer2.util.Util;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.util.concurrent.atomic.AtomicLong;

@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.upstream.experimental;
+package com.readwise.android.exoplayer2.upstream.experimental;
 
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static com.readwise.android.exoplayer2.util.Util.castNonNull;
 
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.util.Clock;
+import com.readwise.android.exoplayer2.util.Clock;
 import java.util.ArrayDeque;
 import java.util.Deque;
 

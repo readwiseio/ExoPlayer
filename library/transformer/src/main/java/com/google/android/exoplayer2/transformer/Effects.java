@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.transformer;
+package com.readwise.android.exoplayer2.transformer;
 
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.audio.AudioProcessor;
-import com.google.android.exoplayer2.effect.DefaultVideoFrameProcessor;
-import com.google.android.exoplayer2.util.Effect;
-import com.google.android.exoplayer2.util.VideoFrameProcessor;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.audio.AudioProcessor;
+import com.readwise.android.exoplayer2.effect.DefaultVideoFrameProcessor;
+import com.readwise.android.exoplayer2.util.Effect;
+import com.readwise.android.exoplayer2.util.VideoFrameProcessor;
 import com.google.common.collect.ImmutableList;
 import java.util.List;
 

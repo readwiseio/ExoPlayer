@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.media2;
+package com.readwise.android.exoplayer2.ext.media2;
 
 import static androidx.media2.common.SessionPlayer.PLAYER_STATE_IDLE;
 import static androidx.media2.common.SessionPlayer.PLAYER_STATE_PAUSED;
 import static androidx.media2.common.SessionPlayer.PLAYER_STATE_PLAYING;
 import static androidx.media2.common.SessionPlayer.PlayerResult.RESULT_INFO_SKIPPED;
 import static androidx.media2.common.SessionPlayer.PlayerResult.RESULT_SUCCESS;
-import static com.google.android.exoplayer2.ext.media2.TestUtils.assertPlayerResult;
-import static com.google.android.exoplayer2.ext.media2.TestUtils.assertPlayerResultSuccess;
+import static com.readwise.android.exoplayer2.ext.media2.TestUtils.assertPlayerResult;
+import static com.readwise.android.exoplayer2.ext.media2.TestUtils.assertPlayerResultSuccess;
 import static com.google.common.truth.Truth.assertThat;
 import static com.google.common.truth.Truth.assertWithMessage;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
@@ -42,12 +42,12 @@ import androidx.test.filters.LargeTest;
 import androidx.test.filters.MediumTest;
 import androidx.test.filters.SmallTest;
 import androidx.test.platform.app.InstrumentationRegistry;
-import com.google.android.exoplayer2.ExoPlayer;
-import com.google.android.exoplayer2.ForwardingPlayer;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.ext.media2.test.R;
-import com.google.android.exoplayer2.upstream.RawResourceDataSource;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.ExoPlayer;
+import com.readwise.android.exoplayer2.ForwardingPlayer;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.ext.media2.test.R;
+import com.readwise.android.exoplayer2.upstream.RawResourceDataSource;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.util.concurrent.ListenableFuture;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -784,7 +784,7 @@ public class SessionPlayerConnectorTest {
       throws Exception {
     List<MediaItem> playlistToExoPlayer = TestUtils.createPlaylist(4);
     DefaultMediaItemConverter converter = new DefaultMediaItemConverter();
-    List<com.google.android.exoplayer2.MediaItem> exoMediaItems = new ArrayList<>();
+    List<com.readwise.android.exoplayer2.MediaItem> exoMediaItems = new ArrayList<>();
     for (MediaItem mediaItem : playlistToExoPlayer) {
       exoMediaItems.add(converter.convertToExoPlayerMediaItem(mediaItem));
     }
@@ -815,7 +815,7 @@ public class SessionPlayerConnectorTest {
     List<MediaItem> playlistToSessionPlayer = TestUtils.createPlaylist(2);
     List<MediaItem> playlistToExoPlayer = TestUtils.createPlaylist(4);
     DefaultMediaItemConverter converter = new DefaultMediaItemConverter();
-    List<com.google.android.exoplayer2.MediaItem> exoMediaItems = new ArrayList<>();
+    List<com.readwise.android.exoplayer2.MediaItem> exoMediaItems = new ArrayList<>();
     for (MediaItem mediaItem : playlistToExoPlayer) {
       exoMediaItems.add(converter.convertToExoPlayerMediaItem(mediaItem));
     }
@@ -1249,7 +1249,7 @@ public class SessionPlayerConnectorTest {
   public void getPlaylist_returnsPlaylistInUnderlyingPlayer() {
     List<MediaItem> playlistToExoPlayer = TestUtils.createPlaylist(4);
     DefaultMediaItemConverter converter = new DefaultMediaItemConverter();
-    List<com.google.android.exoplayer2.MediaItem> exoMediaItems = new ArrayList<>();
+    List<com.readwise.android.exoplayer2.MediaItem> exoMediaItems = new ArrayList<>();
     for (MediaItem mediaItem : playlistToExoPlayer) {
       exoMediaItems.add(converter.convertToExoPlayerMediaItem(mediaItem));
     }

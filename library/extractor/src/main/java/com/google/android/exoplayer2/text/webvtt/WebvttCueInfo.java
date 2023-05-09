@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.text.webvtt;
+package com.readwise.android.exoplayer2.text.webvtt;
 
-import com.google.android.exoplayer2.text.Cue;
+import com.readwise.android.exoplayer2.text.Cue;
 
 /** A representation of a WebVTT cue. */
 public final class WebvttCueInfo {

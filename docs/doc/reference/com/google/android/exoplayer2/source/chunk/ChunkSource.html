@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.source.chunk</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.source.chunk</a></div>
 <h2 title="Interface ChunkSource" class="title">Interface ChunkSource</h2>
 </div>
 <div class="contentContainer">
@@ -122,15 +122,15 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Known Subinterfaces:</dt>
-<dd><code><a href="../dash/DashChunkSource.html" title="interface in com.google.android.exoplayer2.source.dash">DashChunkSource</a></code>, <code><a href="../smoothstreaming/SsChunkSource.html" title="interface in com.google.android.exoplayer2.source.smoothstreaming">SsChunkSource</a></code></dd>
+<dd><code><a href="../dash/DashChunkSource.html" title="interface in com.readwise.android.exoplayer2.source.dash">DashChunkSource</a></code>, <code><a href="../smoothstreaming/SsChunkSource.html" title="interface in com.readwise.android.exoplayer2.source.smoothstreaming">SsChunkSource</a></code></dd>
 </dl>
 <dl>
 <dt>All Known Implementing Classes:</dt>
-<dd><code><a href="../dash/DefaultDashChunkSource.html" title="class in com.google.android.exoplayer2.source.dash">DefaultDashChunkSource</a></code>, <code><a href="../smoothstreaming/DefaultSsChunkSource.html" title="class in com.google.android.exoplayer2.source.smoothstreaming">DefaultSsChunkSource</a></code>, <code><a href="../../testutil/FakeChunkSource.html" title="class in com.google.android.exoplayer2.testutil">FakeChunkSource</a></code></dd>
+<dd><code><a href="../dash/DefaultDashChunkSource.html" title="class in com.readwise.android.exoplayer2.source.dash">DefaultDashChunkSource</a></code>, <code><a href="../smoothstreaming/DefaultSsChunkSource.html" title="class in com.readwise.android.exoplayer2.source.smoothstreaming">DefaultSsChunkSource</a></code>, <code><a href="../../testutil/FakeChunkSource.html" title="class in com.readwise.android.exoplayer2.testutil">FakeChunkSource</a></code></dd>
 </dl>
 <hr>
 <pre>public interface <span class="typeNameLabel">ChunkSource</span></pre>
-<div class="block">A provider of <a href="Chunk.html" title="class in com.google.android.exoplayer2.source.chunk"><code>Chunk</code></a>s for a <a href="ChunkSampleStream.html" title="class in com.google.android.exoplayer2.source.chunk"><code>ChunkSampleStream</code></a> to load.</div>
+<div class="block">A provider of <a href="Chunk.html" title="class in com.readwise.android.exoplayer2.source.chunk"><code>Chunk</code></a>s for a <a href="ChunkSampleStream.html" title="class in com.readwise.android.exoplayer2.source.chunk"><code>ChunkSampleStream</code></a> to load.</div>
 </li>
 </ul>
 </div>
@@ -153,18 +153,18 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>long</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getAdjustedSeekPositionUs(long,com.google.android.exoplayer2.SeekParameters)">getAdjustedSeekPositionUs</a></span>&#8203;(long&nbsp;positionUs,
-                         <a href="../../SeekParameters.html" title="class in com.google.android.exoplayer2">SeekParameters</a>&nbsp;seekParameters)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getAdjustedSeekPositionUs(long,com.readwise.android.exoplayer2.SeekParameters)">getAdjustedSeekPositionUs</a></span>&#8203;(long&nbsp;positionUs,
+                         <a href="../../SeekParameters.html" title="class in com.readwise.android.exoplayer2">SeekParameters</a>&nbsp;seekParameters)</code></th>
 <td class="colLast">
-<div class="block">Adjusts a seek position given the specified <a href="../../SeekParameters.html" title="class in com.google.android.exoplayer2"><code>SeekParameters</code></a>.</div>
+<div class="block">Adjusts a seek position given the specified <a href="../../SeekParameters.html" title="class in com.readwise.android.exoplayer2"><code>SeekParameters</code></a>.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getNextChunk(long,long,java.util.List,com.google.android.exoplayer2.source.chunk.ChunkHolder)">getNextChunk</a></span>&#8203;(long&nbsp;playbackPositionUs,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getNextChunk(long,long,java.util.List,com.readwise.android.exoplayer2.source.chunk.ChunkHolder)">getNextChunk</a></span>&#8203;(long&nbsp;playbackPositionUs,
             long&nbsp;loadPositionUs,
-            <a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;? extends <a href="MediaChunk.html" title="class in com.google.android.exoplayer2.source.chunk" target="_top">MediaChunk</a>&gt;&nbsp;queue,
-            <a href="ChunkHolder.html" title="class in com.google.android.exoplayer2.source.chunk">ChunkHolder</a>&nbsp;out)</code></th>
+            <a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;? extends <a href="MediaChunk.html" title="class in com.readwise.android.exoplayer2.source.chunk" target="_top">MediaChunk</a>&gt;&nbsp;queue,
+            <a href="ChunkHolder.html" title="class in com.readwise.android.exoplayer2.source.chunk">ChunkHolder</a>&nbsp;out)</code></th>
 <td class="colLast">
 <div class="block">Returns the next chunk to load.</div>
 </td>
@@ -172,9 +172,9 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>int</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getPreferredQueueSize(long,java.util.List)">getPreferredQueueSize</a></span>&#8203;(long&nbsp;playbackPositionUs,
-                     <a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;? extends <a href="MediaChunk.html" title="class in com.google.android.exoplayer2.source.chunk" target="_top">MediaChunk</a>&gt;&nbsp;queue)</code></th>
+                     <a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;? extends <a href="MediaChunk.html" title="class in com.readwise.android.exoplayer2.source.chunk" target="_top">MediaChunk</a>&gt;&nbsp;queue)</code></th>
 <td class="colLast">
-<div class="block">Evaluates whether <a href="MediaChunk.html" title="class in com.google.android.exoplayer2.source.chunk"><code>MediaChunk</code></a>s should be removed from the back of the queue.</div>
+<div class="block">Evaluates whether <a href="MediaChunk.html" title="class in com.readwise.android.exoplayer2.source.chunk"><code>MediaChunk</code></a>s should be removed from the back of the queue.</div>
 </td>
 </tr>
 <tr id="i3" class="rowColor">
@@ -187,20 +187,20 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i4" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onChunkLoadCompleted(com.google.android.exoplayer2.source.chunk.Chunk)">onChunkLoadCompleted</a></span>&#8203;(<a href="Chunk.html" title="class in com.google.android.exoplayer2.source.chunk">Chunk</a>&nbsp;chunk)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onChunkLoadCompleted(com.readwise.android.exoplayer2.source.chunk.Chunk)">onChunkLoadCompleted</a></span>&#8203;(<a href="Chunk.html" title="class in com.readwise.android.exoplayer2.source.chunk">Chunk</a>&nbsp;chunk)</code></th>
 <td class="colLast">
-<div class="block">Called when the <a href="ChunkSampleStream.html" title="class in com.google.android.exoplayer2.source.chunk"><code>ChunkSampleStream</code></a> has finished loading a chunk obtained from this
+<div class="block">Called when the <a href="ChunkSampleStream.html" title="class in com.readwise.android.exoplayer2.source.chunk"><code>ChunkSampleStream</code></a> has finished loading a chunk obtained from this
  source.</div>
 </td>
 </tr>
 <tr id="i5" class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onChunkLoadError(com.google.android.exoplayer2.source.chunk.Chunk,boolean,com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy.LoadErrorInfo,com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy)">onChunkLoadError</a></span>&#8203;(<a href="Chunk.html" title="class in com.google.android.exoplayer2.source.chunk">Chunk</a>&nbsp;chunk,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onChunkLoadError(com.readwise.android.exoplayer2.source.chunk.Chunk,boolean,com.readwise.android.exoplayer2.upstream.LoadErrorHandlingPolicy.LoadErrorInfo,com.readwise.android.exoplayer2.upstream.LoadErrorHandlingPolicy)">onChunkLoadError</a></span>&#8203;(<a href="Chunk.html" title="class in com.readwise.android.exoplayer2.source.chunk">Chunk</a>&nbsp;chunk,
                 boolean&nbsp;cancelable,
-                <a href="../../upstream/LoadErrorHandlingPolicy.LoadErrorInfo.html" title="class in com.google.android.exoplayer2.upstream">LoadErrorHandlingPolicy.LoadErrorInfo</a>&nbsp;loadErrorInfo,
-                <a href="../../upstream/LoadErrorHandlingPolicy.html" title="interface in com.google.android.exoplayer2.upstream">LoadErrorHandlingPolicy</a>&nbsp;loadErrorHandlingPolicy)</code></th>
+                <a href="../../upstream/LoadErrorHandlingPolicy.LoadErrorInfo.html" title="class in com.readwise.android.exoplayer2.upstream">LoadErrorHandlingPolicy.LoadErrorInfo</a>&nbsp;loadErrorInfo,
+                <a href="../../upstream/LoadErrorHandlingPolicy.html" title="interface in com.readwise.android.exoplayer2.upstream">LoadErrorHandlingPolicy</a>&nbsp;loadErrorHandlingPolicy)</code></th>
 <td class="colLast">
-<div class="block">Called when the <a href="ChunkSampleStream.html" title="class in com.google.android.exoplayer2.source.chunk"><code>ChunkSampleStream</code></a> encounters an error loading a chunk obtained from
+<div class="block">Called when the <a href="ChunkSampleStream.html" title="class in com.readwise.android.exoplayer2.source.chunk"><code>ChunkSampleStream</code></a> encounters an error loading a chunk obtained from
  this source.</div>
 </td>
 </tr>
@@ -213,9 +213,9 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i7" class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#shouldCancelLoad(long,com.google.android.exoplayer2.source.chunk.Chunk,java.util.List)">shouldCancelLoad</a></span>&#8203;(long&nbsp;playbackPositionUs,
-                <a href="Chunk.html" title="class in com.google.android.exoplayer2.source.chunk">Chunk</a>&nbsp;loadingChunk,
-                <a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;? extends <a href="MediaChunk.html" title="class in com.google.android.exoplayer2.source.chunk" target="_top">MediaChunk</a>&gt;&nbsp;queue)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#shouldCancelLoad(long,com.readwise.android.exoplayer2.source.chunk.Chunk,java.util.List)">shouldCancelLoad</a></span>&#8203;(long&nbsp;playbackPositionUs,
+                <a href="Chunk.html" title="class in com.readwise.android.exoplayer2.source.chunk">Chunk</a>&nbsp;loadingChunk,
+                <a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;? extends <a href="MediaChunk.html" title="class in com.readwise.android.exoplayer2.source.chunk" target="_top">MediaChunk</a>&gt;&nbsp;queue)</code></th>
 <td class="colLast">
 <div class="block">Returns whether an ongoing load of a chunk should be canceled.</div>
 </td>
@@ -237,15 +237,15 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="getAdjustedSeekPositionUs(long,com.google.android.exoplayer2.SeekParameters)">
+<a id="getAdjustedSeekPositionUs(long,com.readwise.android.exoplayer2.SeekParameters)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>getAdjustedSeekPositionUs</h4>
 <pre class="methodSignature">long&nbsp;getAdjustedSeekPositionUs&#8203;(long&nbsp;positionUs,
-                               <a href="../../SeekParameters.html" title="class in com.google.android.exoplayer2">SeekParameters</a>&nbsp;seekParameters)</pre>
-<div class="block">Adjusts a seek position given the specified <a href="../../SeekParameters.html" title="class in com.google.android.exoplayer2"><code>SeekParameters</code></a>. Chunk boundaries are used
+                               <a href="../../SeekParameters.html" title="class in com.readwise.android.exoplayer2">SeekParameters</a>&nbsp;seekParameters)</pre>
+<div class="block">Adjusts a seek position given the specified <a href="../../SeekParameters.html" title="class in com.readwise.android.exoplayer2"><code>SeekParameters</code></a>. Chunk boundaries are used
  as sync points.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -279,44 +279,44 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <h4>getPreferredQueueSize</h4>
 <pre class="methodSignature">int&nbsp;getPreferredQueueSize&#8203;(long&nbsp;playbackPositionUs,
-                          <a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;? extends <a href="MediaChunk.html" title="class in com.google.android.exoplayer2.source.chunk" target="_top">MediaChunk</a>&gt;&nbsp;queue)</pre>
-<div class="block">Evaluates whether <a href="MediaChunk.html" title="class in com.google.android.exoplayer2.source.chunk"><code>MediaChunk</code></a>s should be removed from the back of the queue.
+                          <a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;? extends <a href="MediaChunk.html" title="class in com.readwise.android.exoplayer2.source.chunk" target="_top">MediaChunk</a>&gt;&nbsp;queue)</pre>
+<div class="block">Evaluates whether <a href="MediaChunk.html" title="class in com.readwise.android.exoplayer2.source.chunk"><code>MediaChunk</code></a>s should be removed from the back of the queue.
 
- <p>Removing <a href="MediaChunk.html" title="class in com.google.android.exoplayer2.source.chunk"><code>MediaChunk</code></a>s from the back of the queue can be useful if they could be
+ <p>Removing <a href="MediaChunk.html" title="class in com.readwise.android.exoplayer2.source.chunk"><code>MediaChunk</code></a>s from the back of the queue can be useful if they could be
  replaced with chunks of a significantly higher quality (e.g. because the available bandwidth
  has substantially increased).
 
- <p>Will only be called if no <a href="MediaChunk.html" title="class in com.google.android.exoplayer2.source.chunk"><code>MediaChunk</code></a> in the queue is currently loading.</div>
+ <p>Will only be called if no <a href="MediaChunk.html" title="class in com.readwise.android.exoplayer2.source.chunk"><code>MediaChunk</code></a> in the queue is currently loading.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>playbackPositionUs</code> - The current playback position, in microseconds.</dd>
-<dd><code>queue</code> - The queue of buffered <a href="MediaChunk.html" title="class in com.google.android.exoplayer2.source.chunk"><code>MediaChunk</code></a>s.</dd>
+<dd><code>queue</code> - The queue of buffered <a href="MediaChunk.html" title="class in com.readwise.android.exoplayer2.source.chunk"><code>MediaChunk</code></a>s.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>The preferred queue size.</dd>
 </dl>
 </li>
 </ul>
-<a id="shouldCancelLoad(long,com.google.android.exoplayer2.source.chunk.Chunk,java.util.List)">
+<a id="shouldCancelLoad(long,com.readwise.android.exoplayer2.source.chunk.Chunk,java.util.List)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>shouldCancelLoad</h4>
 <pre class="methodSignature">boolean&nbsp;shouldCancelLoad&#8203;(long&nbsp;playbackPositionUs,
-                         <a href="Chunk.html" title="class in com.google.android.exoplayer2.source.chunk">Chunk</a>&nbsp;loadingChunk,
-                         <a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;? extends <a href="MediaChunk.html" title="class in com.google.android.exoplayer2.source.chunk" target="_top">MediaChunk</a>&gt;&nbsp;queue)</pre>
+                         <a href="Chunk.html" title="class in com.readwise.android.exoplayer2.source.chunk">Chunk</a>&nbsp;loadingChunk,
+                         <a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;? extends <a href="MediaChunk.html" title="class in com.readwise.android.exoplayer2.source.chunk" target="_top">MediaChunk</a>&gt;&nbsp;queue)</pre>
 <div class="block">Returns whether an ongoing load of a chunk should be canceled.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>playbackPositionUs</code> - The current playback position, in microseconds.</dd>
-<dd><code>loadingChunk</code> - The currently loading <a href="Chunk.html" title="class in com.google.android.exoplayer2.source.chunk"><code>Chunk</code></a>.</dd>
-<dd><code>queue</code> - The queue of buffered <a href="MediaChunk.html" title="class in com.google.android.exoplayer2.source.chunk"><code>MediaChunks</code></a>.</dd>
+<dd><code>loadingChunk</code> - The currently loading <a href="Chunk.html" title="class in com.readwise.android.exoplayer2.source.chunk"><code>Chunk</code></a>.</dd>
+<dd><code>queue</code> - The queue of buffered <a href="MediaChunk.html" title="class in com.readwise.android.exoplayer2.source.chunk"><code>MediaChunks</code></a>.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>Whether the ongoing load of <code>loadingChunk</code> should be canceled.</dd>
 </dl>
 </li>
 </ul>
-<a id="getNextChunk(long,long,java.util.List,com.google.android.exoplayer2.source.chunk.ChunkHolder)">
+<a id="getNextChunk(long,long,java.util.List,com.readwise.android.exoplayer2.source.chunk.ChunkHolder)">
 <!--   -->
 </a>
 <ul class="blockList">
@@ -324,13 +324,13 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <h4>getNextChunk</h4>
 <pre class="methodSignature">void&nbsp;getNextChunk&#8203;(long&nbsp;playbackPositionUs,
                   long&nbsp;loadPositionUs,
-                  <a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;? extends <a href="MediaChunk.html" title="class in com.google.android.exoplayer2.source.chunk" target="_top">MediaChunk</a>&gt;&nbsp;queue,
-                  <a href="ChunkHolder.html" title="class in com.google.android.exoplayer2.source.chunk">ChunkHolder</a>&nbsp;out)</pre>
+                  <a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;? extends <a href="MediaChunk.html" title="class in com.readwise.android.exoplayer2.source.chunk" target="_top">MediaChunk</a>&gt;&nbsp;queue,
+                  <a href="ChunkHolder.html" title="class in com.readwise.android.exoplayer2.source.chunk">ChunkHolder</a>&nbsp;out)</pre>
 <div class="block">Returns the next chunk to load.
 
  <p>If a chunk is available then <a href="ChunkHolder.html#chunk"><code>ChunkHolder.chunk</code></a> is set. If the end of the stream has
  been reached then <a href="ChunkHolder.html#endOfStream"><code>ChunkHolder.endOfStream</code></a> is set. If a chunk is not available but the
- end of the stream has not been reached, the <a href="ChunkHolder.html" title="class in com.google.android.exoplayer2.source.chunk"><code>ChunkHolder</code></a> is not modified.</div>
+ end of the stream has not been reached, the <a href="ChunkHolder.html" title="class in com.readwise.android.exoplayer2.source.chunk"><code>ChunkHolder</code></a> is not modified.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>playbackPositionUs</code> - The current playback position in microseconds. If playback of the
@@ -340,19 +340,19 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd><code>loadPositionUs</code> - The current load position in microseconds. If <code>queue</code> is empty,
      this is the starting position from which chunks should be provided. Else it's equal to
      <a href="Chunk.html#endTimeUs"><code>Chunk.endTimeUs</code></a> of the last chunk in the <code>queue</code>.</dd>
-<dd><code>queue</code> - The queue of buffered <a href="MediaChunk.html" title="class in com.google.android.exoplayer2.source.chunk"><code>MediaChunk</code></a>s.</dd>
+<dd><code>queue</code> - The queue of buffered <a href="MediaChunk.html" title="class in com.readwise.android.exoplayer2.source.chunk"><code>MediaChunk</code></a>s.</dd>
 <dd><code>out</code> - A holder to populate.</dd>
 </dl>
 </li>
 </ul>
-<a id="onChunkLoadCompleted(com.google.android.exoplayer2.source.chunk.Chunk)">
+<a id="onChunkLoadCompleted(com.readwise.android.exoplayer2.source.chunk.Chunk)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onChunkLoadCompleted</h4>
-<pre class="methodSignature">void&nbsp;onChunkLoadCompleted&#8203;(<a href="Chunk.html" title="class in com.google.android.exoplayer2.source.chunk">Chunk</a>&nbsp;chunk)</pre>
-<div class="block">Called when the <a href="ChunkSampleStream.html" title="class in com.google.android.exoplayer2.source.chunk"><code>ChunkSampleStream</code></a> has finished loading a chunk obtained from this
+<pre class="methodSignature">void&nbsp;onChunkLoadCompleted&#8203;(<a href="Chunk.html" title="class in com.readwise.android.exoplayer2.source.chunk">Chunk</a>&nbsp;chunk)</pre>
+<div class="block">Called when the <a href="ChunkSampleStream.html" title="class in com.readwise.android.exoplayer2.source.chunk"><code>ChunkSampleStream</code></a> has finished loading a chunk obtained from this
  source.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -360,17 +360,17 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dl>
 </li>
 </ul>
-<a id="onChunkLoadError(com.google.android.exoplayer2.source.chunk.Chunk,boolean,com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy.LoadErrorInfo,com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy)">
+<a id="onChunkLoadError(com.readwise.android.exoplayer2.source.chunk.Chunk,boolean,com.readwise.android.exoplayer2.upstream.LoadErrorHandlingPolicy.LoadErrorInfo,com.readwise.android.exoplayer2.upstream.LoadErrorHandlingPolicy)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onChunkLoadError</h4>
-<pre class="methodSignature">boolean&nbsp;onChunkLoadError&#8203;(<a href="Chunk.html" title="class in com.google.android.exoplayer2.source.chunk">Chunk</a>&nbsp;chunk,
+<pre class="methodSignature">boolean&nbsp;onChunkLoadError&#8203;(<a href="Chunk.html" title="class in com.readwise.android.exoplayer2.source.chunk">Chunk</a>&nbsp;chunk,
                          boolean&nbsp;cancelable,
-                         <a href="../../upstream/LoadErrorHandlingPolicy.LoadErrorInfo.html" title="class in com.google.android.exoplayer2.upstream">LoadErrorHandlingPolicy.LoadErrorInfo</a>&nbsp;loadErrorInfo,
-                         <a href="../../upstream/LoadErrorHandlingPolicy.html" title="interface in com.google.android.exoplayer2.upstream">LoadErrorHandlingPolicy</a>&nbsp;loadErrorHandlingPolicy)</pre>
-<div class="block">Called when the <a href="ChunkSampleStream.html" title="class in com.google.android.exoplayer2.source.chunk"><code>ChunkSampleStream</code></a> encounters an error loading a chunk obtained from
+                         <a href="../../upstream/LoadErrorHandlingPolicy.LoadErrorInfo.html" title="class in com.readwise.android.exoplayer2.upstream">LoadErrorHandlingPolicy.LoadErrorInfo</a>&nbsp;loadErrorInfo,
+                         <a href="../../upstream/LoadErrorHandlingPolicy.html" title="interface in com.readwise.android.exoplayer2.upstream">LoadErrorHandlingPolicy</a>&nbsp;loadErrorHandlingPolicy)</pre>
+<div class="block">Called when the <a href="ChunkSampleStream.html" title="class in com.readwise.android.exoplayer2.source.chunk"><code>ChunkSampleStream</code></a> encounters an error loading a chunk obtained from
  this source.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -381,7 +381,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
      handling the load error.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>Whether the load should be canceled so that a replacement chunk can be loaded instead.
-     Must be <code>false</code> if <code>cancelable</code> is <code>false</code>. If <code>true</code>, <a href="#getNextChunk(long,long,java.util.List,com.google.android.exoplayer2.source.chunk.ChunkHolder)"><code>getNextChunk(long, long, List, ChunkHolder)</code></a> will be called to obtain the replacement
+     Must be <code>false</code> if <code>cancelable</code> is <code>false</code>. If <code>true</code>, <a href="#getNextChunk(long,long,java.util.List,com.readwise.android.exoplayer2.source.chunk.ChunkHolder)"><code>getNextChunk(long, long, List, ChunkHolder)</code></a> will be called to obtain the replacement
      chunk.</dd>
 </dl>
 </li>

@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.database;
+package com.readwise.android.exoplayer2.database;
 
 import android.content.Context;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import com.google.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.Log;
 
 /**
  * An {@link SQLiteOpenHelper} that provides instances of a standalone database.

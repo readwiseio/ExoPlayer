@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.drm;
+package com.readwise.android.exoplayer2.drm;
 
-import static com.google.android.exoplayer2.util.Util.postOrRun;
+import static com.readwise.android.exoplayer2.util.Util.postOrRun;
 
 import android.os.Handler;
 import androidx.annotation.CheckResult;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.source.MediaSource.MediaPeriodId;
-import com.google.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.source.MediaSource.MediaPeriodId;
+import com.readwise.android.exoplayer2.util.Assertions;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /** Listener of {@link DrmSessionManager} events. */

@@ -13,20 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.smoothstreaming.offline;
+package com.readwise.android.exoplayer2.source.smoothstreaming.offline;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
 
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.offline.SegmentDownloader;
-import com.google.android.exoplayer2.source.smoothstreaming.manifest.SsManifest;
-import com.google.android.exoplayer2.source.smoothstreaming.manifest.SsManifest.StreamElement;
-import com.google.android.exoplayer2.source.smoothstreaming.manifest.SsManifestParser;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.upstream.ParsingLoadable.Parser;
-import com.google.android.exoplayer2.upstream.cache.CacheDataSource;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.offline.SegmentDownloader;
+import com.readwise.android.exoplayer2.source.smoothstreaming.manifest.SsManifest;
+import com.readwise.android.exoplayer2.source.smoothstreaming.manifest.SsManifest.StreamElement;
+import com.readwise.android.exoplayer2.source.smoothstreaming.manifest.SsManifestParser;
+import com.readwise.android.exoplayer2.upstream.DataSource;
+import com.readwise.android.exoplayer2.upstream.DataSpec;
+import com.readwise.android.exoplayer2.upstream.ParsingLoadable.Parser;
+import com.readwise.android.exoplayer2.upstream.cache.CacheDataSource;
+import com.readwise.android.exoplayer2.util.Util;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Executor;

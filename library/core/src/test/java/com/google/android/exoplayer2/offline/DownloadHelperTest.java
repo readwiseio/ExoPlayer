@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.offline;
+package com.readwise.android.exoplayer2.offline;
 
 import static androidx.test.core.app.ApplicationProvider.getApplicationContext;
 import static com.google.common.truth.Truth.assertThat;
@@ -21,30 +21,30 @@ import static java.util.concurrent.TimeUnit.MILLISECONDS;
 import static org.robolectric.shadows.ShadowLooper.shadowMainLooper;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.Renderer;
-import com.google.android.exoplayer2.RenderersFactory;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.offline.DownloadHelper.Callback;
-import com.google.android.exoplayer2.source.MediaPeriod;
-import com.google.android.exoplayer2.source.MediaSourceEventListener.EventDispatcher;
-import com.google.android.exoplayer2.source.TrackGroup;
-import com.google.android.exoplayer2.source.TrackGroupArray;
-import com.google.android.exoplayer2.testutil.FakeMediaPeriod;
-import com.google.android.exoplayer2.testutil.FakeMediaSource;
-import com.google.android.exoplayer2.testutil.FakeRenderer;
-import com.google.android.exoplayer2.testutil.FakeTimeline;
-import com.google.android.exoplayer2.testutil.FakeTimeline.TimelineWindowDefinition;
-import com.google.android.exoplayer2.testutil.TestUtil;
-import com.google.android.exoplayer2.trackselection.DefaultTrackSelector;
-import com.google.android.exoplayer2.trackselection.ExoTrackSelection;
-import com.google.android.exoplayer2.trackselection.MappingTrackSelector.MappedTrackInfo;
-import com.google.android.exoplayer2.trackselection.TrackSelectionOverride;
-import com.google.android.exoplayer2.trackselection.TrackSelectionParameters;
-import com.google.android.exoplayer2.upstream.Allocator;
-import com.google.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.Renderer;
+import com.readwise.android.exoplayer2.RenderersFactory;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.offline.DownloadHelper.Callback;
+import com.readwise.android.exoplayer2.source.MediaPeriod;
+import com.readwise.android.exoplayer2.source.MediaSourceEventListener.EventDispatcher;
+import com.readwise.android.exoplayer2.source.TrackGroup;
+import com.readwise.android.exoplayer2.source.TrackGroupArray;
+import com.readwise.android.exoplayer2.testutil.FakeMediaPeriod;
+import com.readwise.android.exoplayer2.testutil.FakeMediaSource;
+import com.readwise.android.exoplayer2.testutil.FakeRenderer;
+import com.readwise.android.exoplayer2.testutil.FakeTimeline;
+import com.readwise.android.exoplayer2.testutil.FakeTimeline.TimelineWindowDefinition;
+import com.readwise.android.exoplayer2.testutil.TestUtil;
+import com.readwise.android.exoplayer2.trackselection.DefaultTrackSelector;
+import com.readwise.android.exoplayer2.trackselection.ExoTrackSelection;
+import com.readwise.android.exoplayer2.trackselection.MappingTrackSelector.MappedTrackInfo;
+import com.readwise.android.exoplayer2.trackselection.TrackSelectionOverride;
+import com.readwise.android.exoplayer2.trackselection.TrackSelectionParameters;
+import com.readwise.android.exoplayer2.upstream.Allocator;
+import com.readwise.android.exoplayer2.util.MimeTypes;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;

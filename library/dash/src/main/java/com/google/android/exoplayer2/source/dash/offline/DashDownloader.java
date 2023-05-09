@@ -13,31 +13,31 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.dash.offline;
+package com.readwise.android.exoplayer2.source.dash.offline;
 
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static com.readwise.android.exoplayer2.util.Util.castNonNull;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.extractor.ChunkIndex;
-import com.google.android.exoplayer2.offline.DownloadException;
-import com.google.android.exoplayer2.offline.SegmentDownloader;
-import com.google.android.exoplayer2.source.dash.BaseUrlExclusionList;
-import com.google.android.exoplayer2.source.dash.DashSegmentIndex;
-import com.google.android.exoplayer2.source.dash.DashUtil;
-import com.google.android.exoplayer2.source.dash.DashWrappingSegmentIndex;
-import com.google.android.exoplayer2.source.dash.manifest.AdaptationSet;
-import com.google.android.exoplayer2.source.dash.manifest.DashManifest;
-import com.google.android.exoplayer2.source.dash.manifest.DashManifestParser;
-import com.google.android.exoplayer2.source.dash.manifest.Period;
-import com.google.android.exoplayer2.source.dash.manifest.RangedUri;
-import com.google.android.exoplayer2.source.dash.manifest.Representation;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.upstream.ParsingLoadable.Parser;
-import com.google.android.exoplayer2.upstream.cache.CacheDataSource;
-import com.google.android.exoplayer2.util.RunnableFutureTask;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.extractor.ChunkIndex;
+import com.readwise.android.exoplayer2.offline.DownloadException;
+import com.readwise.android.exoplayer2.offline.SegmentDownloader;
+import com.readwise.android.exoplayer2.source.dash.BaseUrlExclusionList;
+import com.readwise.android.exoplayer2.source.dash.DashSegmentIndex;
+import com.readwise.android.exoplayer2.source.dash.DashUtil;
+import com.readwise.android.exoplayer2.source.dash.DashWrappingSegmentIndex;
+import com.readwise.android.exoplayer2.source.dash.manifest.AdaptationSet;
+import com.readwise.android.exoplayer2.source.dash.manifest.DashManifest;
+import com.readwise.android.exoplayer2.source.dash.manifest.DashManifestParser;
+import com.readwise.android.exoplayer2.source.dash.manifest.Period;
+import com.readwise.android.exoplayer2.source.dash.manifest.RangedUri;
+import com.readwise.android.exoplayer2.source.dash.manifest.Representation;
+import com.readwise.android.exoplayer2.upstream.DataSource;
+import com.readwise.android.exoplayer2.upstream.DataSpec;
+import com.readwise.android.exoplayer2.upstream.ParsingLoadable.Parser;
+import com.readwise.android.exoplayer2.upstream.cache.CacheDataSource;
+import com.readwise.android.exoplayer2.util.RunnableFutureTask;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;

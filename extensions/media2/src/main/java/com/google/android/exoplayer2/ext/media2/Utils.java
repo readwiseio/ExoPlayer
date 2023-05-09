@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.media2;
+package com.readwise.android.exoplayer2.ext.media2;
 
 import android.annotation.SuppressLint;
 import androidx.media.AudioAttributesCompat;
 import androidx.media2.common.SessionPlayer;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.audio.AudioAttributes;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.audio.AudioAttributes;
 
 /** Utility methods for translating between the media2 and ExoPlayer APIs. */
 /* package */ final class Utils {

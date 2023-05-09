@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.chunk;
+package com.readwise.android.exoplayer2.source.chunk;
 
 import android.net.Uri;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.C.DataType;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.source.LoadEventInfo;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.upstream.Loader.Loadable;
-import com.google.android.exoplayer2.upstream.StatsDataSource;
-import com.google.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.C.DataType;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.source.LoadEventInfo;
+import com.readwise.android.exoplayer2.upstream.DataSource;
+import com.readwise.android.exoplayer2.upstream.DataSpec;
+import com.readwise.android.exoplayer2.upstream.Loader.Loadable;
+import com.readwise.android.exoplayer2.upstream.StatsDataSource;
+import com.readwise.android.exoplayer2.util.Assertions;
 import java.util.List;
 import java.util.Map;
 

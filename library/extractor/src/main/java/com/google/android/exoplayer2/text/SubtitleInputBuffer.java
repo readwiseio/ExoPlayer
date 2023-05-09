@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.text;
+package com.readwise.android.exoplayer2.text;
 
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.decoder.DecoderInputBuffer;
 
 /** A {@link DecoderInputBuffer} for a {@link SubtitleDecoder}. */
 public class SubtitleInputBuffer extends DecoderInputBuffer {

@@ -28,8 +28,8 @@ From the root directory, build and install the playback tests:
 Next, run the playback tests in the GTS package:
 ~~~
 adb shell am instrument -w -r -e debug false \
-  -e package com.google.android.exoplayer2.playbacktests.gts \
-  com.google.android.exoplayer2.playbacktests.test/androidx.test.runner.AndroidJUnitRunner
+  -e package com.readwise.android.exoplayer2.playbacktests.gts \
+  com.readwise.android.exoplayer2.playbacktests.test/androidx.test.runner.AndroidJUnitRunner
 ~~~
 {: .language-shell}
 Test results appear in STDOUT.

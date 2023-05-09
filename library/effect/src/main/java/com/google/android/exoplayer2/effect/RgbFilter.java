@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.effect;
+package com.readwise.android.exoplayer2.effect;
 
-import static com.google.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
 
 import android.content.Context;
-import com.google.android.exoplayer2.util.VideoFrameProcessingException;
+import com.readwise.android.exoplayer2.util.VideoFrameProcessingException;
 import org.checkerframework.checker.nullness.qual.MonotonicNonNull;
 
 /** Provides common color filters. */

@@ -13,36 +13,36 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.hls.playlist;
+package com.readwise.android.exoplayer2.source.hls.playlist;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.util.Util.castNonNull;
 
 import android.net.Uri;
 import android.text.TextUtils;
 import android.util.Base64;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.ParserException;
-import com.google.android.exoplayer2.drm.DrmInitData;
-import com.google.android.exoplayer2.drm.DrmInitData.SchemeData;
-import com.google.android.exoplayer2.extractor.mp4.PsshAtomUtil;
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.source.hls.HlsTrackMetadataEntry;
-import com.google.android.exoplayer2.source.hls.HlsTrackMetadataEntry.VariantInfo;
-import com.google.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Part;
-import com.google.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.RenditionReport;
-import com.google.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Segment;
-import com.google.android.exoplayer2.source.hls.playlist.HlsMultivariantPlaylist.Rendition;
-import com.google.android.exoplayer2.source.hls.playlist.HlsMultivariantPlaylist.Variant;
-import com.google.android.exoplayer2.upstream.ParsingLoadable;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.UriUtil;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.ParserException;
+import com.readwise.android.exoplayer2.drm.DrmInitData;
+import com.readwise.android.exoplayer2.drm.DrmInitData.SchemeData;
+import com.readwise.android.exoplayer2.extractor.mp4.PsshAtomUtil;
+import com.readwise.android.exoplayer2.metadata.Metadata;
+import com.readwise.android.exoplayer2.source.hls.HlsTrackMetadataEntry;
+import com.readwise.android.exoplayer2.source.hls.HlsTrackMetadataEntry.VariantInfo;
+import com.readwise.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Part;
+import com.readwise.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.RenditionReport;
+import com.readwise.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Segment;
+import com.readwise.android.exoplayer2.source.hls.playlist.HlsMultivariantPlaylist.Rendition;
+import com.readwise.android.exoplayer2.source.hls.playlist.HlsMultivariantPlaylist.Variant;
+import com.readwise.android.exoplayer2.upstream.ParsingLoadable;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.UriUtil;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.Iterables;
 import java.io.BufferedReader;
 import java.io.IOException;

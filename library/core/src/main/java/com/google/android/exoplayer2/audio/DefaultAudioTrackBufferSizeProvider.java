@@ -13,20 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.audio;
+package com.readwise.android.exoplayer2.audio;
 
-import static com.google.android.exoplayer2.audio.DefaultAudioSink.OUTPUT_MODE_OFFLOAD;
-import static com.google.android.exoplayer2.audio.DefaultAudioSink.OUTPUT_MODE_PASSTHROUGH;
-import static com.google.android.exoplayer2.audio.DefaultAudioSink.OUTPUT_MODE_PCM;
-import static com.google.android.exoplayer2.util.Util.constrainValue;
+import static com.readwise.android.exoplayer2.audio.DefaultAudioSink.OUTPUT_MODE_OFFLOAD;
+import static com.readwise.android.exoplayer2.audio.DefaultAudioSink.OUTPUT_MODE_PASSTHROUGH;
+import static com.readwise.android.exoplayer2.audio.DefaultAudioSink.OUTPUT_MODE_PCM;
+import static com.readwise.android.exoplayer2.util.Util.constrainValue;
 import static com.google.common.math.IntMath.divide;
 import static com.google.common.primitives.Ints.checkedCast;
 import static java.lang.Math.max;
 
 import android.media.AudioTrack;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.audio.DefaultAudioSink.OutputMode;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.audio.DefaultAudioSink.OutputMode;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.math.RoundingMode;
 

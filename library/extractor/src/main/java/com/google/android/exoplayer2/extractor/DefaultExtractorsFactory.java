@@ -13,37 +13,37 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.extractor;
+package com.readwise.android.exoplayer2.extractor;
 
-import static com.google.android.exoplayer2.util.FileTypes.inferFileTypeFromResponseHeaders;
-import static com.google.android.exoplayer2.util.FileTypes.inferFileTypeFromUri;
+import static com.readwise.android.exoplayer2.util.FileTypes.inferFileTypeFromResponseHeaders;
+import static com.readwise.android.exoplayer2.util.FileTypes.inferFileTypeFromUri;
 
 import android.net.Uri;
 import androidx.annotation.GuardedBy;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.PlaybackException;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.extractor.amr.AmrExtractor;
-import com.google.android.exoplayer2.extractor.avi.AviExtractor;
-import com.google.android.exoplayer2.extractor.flac.FlacExtractor;
-import com.google.android.exoplayer2.extractor.flv.FlvExtractor;
-import com.google.android.exoplayer2.extractor.jpeg.JpegExtractor;
-import com.google.android.exoplayer2.extractor.mkv.MatroskaExtractor;
-import com.google.android.exoplayer2.extractor.mp3.Mp3Extractor;
-import com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor;
-import com.google.android.exoplayer2.extractor.mp4.Mp4Extractor;
-import com.google.android.exoplayer2.extractor.ogg.OggExtractor;
-import com.google.android.exoplayer2.extractor.ts.Ac3Extractor;
-import com.google.android.exoplayer2.extractor.ts.Ac4Extractor;
-import com.google.android.exoplayer2.extractor.ts.AdtsExtractor;
-import com.google.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory;
-import com.google.android.exoplayer2.extractor.ts.PsExtractor;
-import com.google.android.exoplayer2.extractor.ts.TsExtractor;
-import com.google.android.exoplayer2.extractor.ts.TsPayloadReader;
-import com.google.android.exoplayer2.extractor.wav.WavExtractor;
-import com.google.android.exoplayer2.util.FileTypes;
-import com.google.android.exoplayer2.util.TimestampAdjuster;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.PlaybackException;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.extractor.amr.AmrExtractor;
+import com.readwise.android.exoplayer2.extractor.avi.AviExtractor;
+import com.readwise.android.exoplayer2.extractor.flac.FlacExtractor;
+import com.readwise.android.exoplayer2.extractor.flv.FlvExtractor;
+import com.readwise.android.exoplayer2.extractor.jpeg.JpegExtractor;
+import com.readwise.android.exoplayer2.extractor.mkv.MatroskaExtractor;
+import com.readwise.android.exoplayer2.extractor.mp3.Mp3Extractor;
+import com.readwise.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor;
+import com.readwise.android.exoplayer2.extractor.mp4.Mp4Extractor;
+import com.readwise.android.exoplayer2.extractor.ogg.OggExtractor;
+import com.readwise.android.exoplayer2.extractor.ts.Ac3Extractor;
+import com.readwise.android.exoplayer2.extractor.ts.Ac4Extractor;
+import com.readwise.android.exoplayer2.extractor.ts.AdtsExtractor;
+import com.readwise.android.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory;
+import com.readwise.android.exoplayer2.extractor.ts.PsExtractor;
+import com.readwise.android.exoplayer2.extractor.ts.TsExtractor;
+import com.readwise.android.exoplayer2.extractor.ts.TsPayloadReader;
+import com.readwise.android.exoplayer2.extractor.wav.WavExtractor;
+import com.readwise.android.exoplayer2.util.FileTypes;
+import com.readwise.android.exoplayer2.util.TimestampAdjuster;
 import com.google.common.collect.ImmutableList;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.lang.reflect.Constructor;
@@ -74,14 +74,14 @@ import java.util.concurrent.atomic.AtomicBoolean;
  *   <li>FLAC
  *       <ul>
  *         <li>If available, the FLAC extension's {@code
- *             com.google.android.exoplayer2.ext.flac.FlacExtractor} is used.
+ *             com.readwise.android.exoplayer2.ext.flac.FlacExtractor} is used.
  *         <li>Otherwise, the core {@link FlacExtractor} is used. Note that Android devices do not
  *             generally include a FLAC decoder before API 27. This can be worked around by using
  *             the FLAC extension or the FFmpeg extension.
  *       </ul>
  *   <li>JPEG ({@link JpegExtractor})
  *   <li>MIDI, if available, the MIDI extension's {@code
- *       com.google.android.exoplayer2.decoder.midi.MidiExtractor} is used.
+ *       com.readwise.android.exoplayer2.decoder.midi.MidiExtractor} is used.
  * </ul>
  */
 public final class DefaultExtractorsFactory implements ExtractorsFactory {
@@ -209,7 +209,7 @@ public final class DefaultExtractorsFactory implements ExtractorsFactory {
 
   /**
    * Sets flags for {@link FlacExtractor} instances created by the factory. The flags are also used
-   * by {@code com.google.android.exoplayer2.ext.flac.FlacExtractor} instances if the FLAC extension
+   * by {@code com.readwise.android.exoplayer2.ext.flac.FlacExtractor} instances if the FLAC extension
    * is being used.
    *
    * @see FlacExtractor#FlacExtractor(int)
@@ -466,7 +466,7 @@ public final class DefaultExtractorsFactory implements ExtractorsFactory {
 
   private static Constructor<? extends Extractor> getMidiExtractorConstructor()
       throws ClassNotFoundException, NoSuchMethodException {
-    return Class.forName("com.google.android.exoplayer2.decoder.midi.MidiExtractor")
+    return Class.forName("com.readwise.android.exoplayer2.decoder.midi.MidiExtractor")
         .asSubclass(Extractor.class)
         .getConstructor();
   }
@@ -480,11 +480,11 @@ public final class DefaultExtractorsFactory implements ExtractorsFactory {
     @SuppressWarnings("nullness:argument")
     boolean isFlacNativeLibraryAvailable =
         Boolean.TRUE.equals(
-            Class.forName("com.google.android.exoplayer2.ext.flac.FlacLibrary")
+            Class.forName("com.readwise.android.exoplayer2.ext.flac.FlacLibrary")
                 .getMethod("isAvailable")
                 .invoke(/* obj= */ null));
     if (isFlacNativeLibraryAvailable) {
-      return Class.forName("com.google.android.exoplayer2.ext.flac.FlacExtractor")
+      return Class.forName("com.readwise.android.exoplayer2.ext.flac.FlacExtractor")
           .asSubclass(Extractor.class)
           .getConstructor(int.class);
     }

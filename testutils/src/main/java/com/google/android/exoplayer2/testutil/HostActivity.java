@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.testutil;
+package com.readwise.android.exoplayer2.testutil;
 
 import static org.junit.Assert.fail;
 
@@ -31,9 +31,9 @@ import android.view.SurfaceView;
 import android.view.Window;
 import android.widget.FrameLayout;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.Util;
 import org.checkerframework.checker.nullness.qual.MonotonicNonNull;
 
 /** A host activity for performing playback tests. */

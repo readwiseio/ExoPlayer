@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.offline</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.offline</a></div>
 <h2 title="Interface DownloadIndex" class="title">Interface DownloadIndex</h2>
 </div>
 <div class="contentContainer">
@@ -122,16 +122,16 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Known Subinterfaces:</dt>
-<dd><code><a href="WritableDownloadIndex.html" title="interface in com.google.android.exoplayer2.offline">WritableDownloadIndex</a></code></dd>
+<dd><code><a href="WritableDownloadIndex.html" title="interface in com.readwise.android.exoplayer2.offline">WritableDownloadIndex</a></code></dd>
 </dl>
 <dl>
 <dt>All Known Implementing Classes:</dt>
-<dd><code><a href="DefaultDownloadIndex.html" title="class in com.google.android.exoplayer2.offline">DefaultDownloadIndex</a></code></dd>
+<dd><code><a href="DefaultDownloadIndex.html" title="class in com.readwise.android.exoplayer2.offline">DefaultDownloadIndex</a></code></dd>
 </dl>
 <hr>
 <pre>@WorkerThread
 public interface <span class="typeNameLabel">DownloadIndex</span></pre>
-<div class="block">An index of <a href="Download.html" title="class in com.google.android.exoplayer2.offline"><code>Downloads</code></a>.</div>
+<div class="block">An index of <a href="Download.html" title="class in com.readwise.android.exoplayer2.offline"><code>Downloads</code></a>.</div>
 </li>
 </ul>
 </div>
@@ -153,17 +153,17 @@ public interface <span class="typeNameLabel">DownloadIndex</span></pre>
 <th class="colLast" scope="col">Description</th>
 </tr>
 <tr id="i0" class="altColor">
-<td class="colFirst"><code><a href="Download.html" title="class in com.google.android.exoplayer2.offline">Download</a></code></td>
+<td class="colFirst"><code><a href="Download.html" title="class in com.readwise.android.exoplayer2.offline">Download</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getDownload(java.lang.String)">getDownload</a></span>&#8203;(<a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;id)</code></th>
 <td class="colLast">
-<div class="block">Returns the <a href="Download.html" title="class in com.google.android.exoplayer2.offline"><code>Download</code></a> with the given <code>id</code>, or null.</div>
+<div class="block">Returns the <a href="Download.html" title="class in com.readwise.android.exoplayer2.offline"><code>Download</code></a> with the given <code>id</code>, or null.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
-<td class="colFirst"><code><a href="DownloadCursor.html" title="interface in com.google.android.exoplayer2.offline">DownloadCursor</a></code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getDownloads(@com.google.android.exoplayer2.offline.Download.Stateint...)">getDownloads</a></span>&#8203;(@com.google.android.exoplayer2.offline.Download.State int...&nbsp;states)</code></th>
+<td class="colFirst"><code><a href="DownloadCursor.html" title="interface in com.readwise.android.exoplayer2.offline">DownloadCursor</a></code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getDownloads(@com.readwise.android.exoplayer2.offline.Download.Stateint...)">getDownloads</a></span>&#8203;(@com.readwise.android.exoplayer2.offline.Download.State int...&nbsp;states)</code></th>
 <td class="colLast">
-<div class="block">Returns a <a href="DownloadCursor.html" title="interface in com.google.android.exoplayer2.offline"><code>DownloadCursor</code></a> to <a href="Download.html" title="class in com.google.android.exoplayer2.offline"><code>Download</code></a>s with the given <code>states</code>.</div>
+<div class="block">Returns a <a href="DownloadCursor.html" title="interface in com.readwise.android.exoplayer2.offline"><code>DownloadCursor</code></a> to <a href="Download.html" title="class in com.readwise.android.exoplayer2.offline"><code>Download</code></a>s with the given <code>states</code>.</div>
 </td>
 </tr>
 </table>
@@ -190,39 +190,39 @@ public interface <span class="typeNameLabel">DownloadIndex</span></pre>
 <li class="blockList">
 <h4>getDownload</h4>
 <pre class="methodSignature">@Nullable
-<a href="Download.html" title="class in com.google.android.exoplayer2.offline">Download</a>&nbsp;getDownload&#8203;(<a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;id)
+<a href="Download.html" title="class in com.readwise.android.exoplayer2.offline">Download</a>&nbsp;getDownload&#8203;(<a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;id)
               throws <a href="https://developer.android.com/reference/java/io/IOException.html" title="class or interface in java.io" class="externalLink" target="_top">IOException</a></pre>
-<div class="block">Returns the <a href="Download.html" title="class in com.google.android.exoplayer2.offline"><code>Download</code></a> with the given <code>id</code>, or null.
+<div class="block">Returns the <a href="Download.html" title="class in com.readwise.android.exoplayer2.offline"><code>Download</code></a> with the given <code>id</code>, or null.
 
  <p>This method may be slow and shouldn't normally be called on the main thread.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>id</code> - ID of a <a href="Download.html" title="class in com.google.android.exoplayer2.offline"><code>Download</code></a>.</dd>
+<dd><code>id</code> - ID of a <a href="Download.html" title="class in com.readwise.android.exoplayer2.offline"><code>Download</code></a>.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>The <a href="Download.html" title="class in com.google.android.exoplayer2.offline"><code>Download</code></a> with the given <code>id</code>, or null if a download state with this
+<dd>The <a href="Download.html" title="class in com.readwise.android.exoplayer2.offline"><code>Download</code></a> with the given <code>id</code>, or null if a download state with this
      id doesn't exist.</dd>
 <dt><span class="throwsLabel">Throws:</span></dt>
 <dd><code><a href="https://developer.android.com/reference/java/io/IOException.html" title="class or interface in java.io" class="externalLink" target="_top">IOException</a></code> - If an error occurs reading the state.</dd>
 </dl>
 </li>
 </ul>
-<a id="getDownloads(@com.google.android.exoplayer2.offline.Download.Stateint...)">
+<a id="getDownloads(@com.readwise.android.exoplayer2.offline.Download.Stateint...)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>getDownloads</h4>
-<pre class="methodSignature"><a href="DownloadCursor.html" title="interface in com.google.android.exoplayer2.offline">DownloadCursor</a>&nbsp;getDownloads&#8203;(<a href="Download.State.html" title="annotation in com.google.android.exoplayer2.offline">@State</a>
-                            @com.google.android.exoplayer2.offline.Download.State int...&nbsp;states)
+<pre class="methodSignature"><a href="DownloadCursor.html" title="interface in com.readwise.android.exoplayer2.offline">DownloadCursor</a>&nbsp;getDownloads&#8203;(<a href="Download.State.html" title="annotation in com.readwise.android.exoplayer2.offline">@State</a>
+                            @com.readwise.android.exoplayer2.offline.Download.State int...&nbsp;states)
                      throws <a href="https://developer.android.com/reference/java/io/IOException.html" title="class or interface in java.io" class="externalLink" target="_top">IOException</a></pre>
-<div class="block">Returns a <a href="DownloadCursor.html" title="interface in com.google.android.exoplayer2.offline"><code>DownloadCursor</code></a> to <a href="Download.html" title="class in com.google.android.exoplayer2.offline"><code>Download</code></a>s with the given <code>states</code>.
+<div class="block">Returns a <a href="DownloadCursor.html" title="interface in com.readwise.android.exoplayer2.offline"><code>DownloadCursor</code></a> to <a href="Download.html" title="class in com.readwise.android.exoplayer2.offline"><code>Download</code></a>s with the given <code>states</code>.
 
  <p>This method may be slow and shouldn't normally be called on the main thread.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>states</code> - Returns only the <a href="Download.html" title="class in com.google.android.exoplayer2.offline"><code>Download</code></a>s with this states. If empty, returns all.</dd>
+<dd><code>states</code> - Returns only the <a href="Download.html" title="class in com.readwise.android.exoplayer2.offline"><code>Download</code></a>s with this states. If empty, returns all.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>A cursor to <a href="Download.html" title="class in com.google.android.exoplayer2.offline"><code>Download</code></a>s with the given <code>states</code>.</dd>
+<dd>A cursor to <a href="Download.html" title="class in com.readwise.android.exoplayer2.offline"><code>Download</code></a>s with the given <code>states</code>.</dd>
 <dt><span class="throwsLabel">Throws:</span></dt>
 <dd><code><a href="https://developer.android.com/reference/java/io/IOException.html" title="class or interface in java.io" class="externalLink" target="_top">IOException</a></code> - If an error occurs reading the state.</dd>
 </dl>

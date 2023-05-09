@@ -14,14 +14,14 @@
  * limitations under the License.
  *
  */
-package com.google.android.exoplayer2.text.ssa;
+package com.readwise.android.exoplayer2.text.ssa;
 
-import static com.google.android.exoplayer2.text.ssa.SsaDecoder.FORMAT_LINE_PREFIX;
+import static com.readwise.android.exoplayer2.text.ssa.SsaDecoder.FORMAT_LINE_PREFIX;
 
 import android.text.TextUtils;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.util.Assertions;
 import com.google.common.base.Ascii;
 
 /**

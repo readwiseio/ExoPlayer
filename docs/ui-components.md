@@ -32,7 +32,7 @@ like any other UI component. For example, a `StyledPlayerView` can be included
 with the following XML:
 
 ~~~
-<com.google.android.exoplayer2.ui.StyledPlayerView
+<com.readwise.android.exoplayer2.ui.StyledPlayerView
     android:id="@+id/player_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
@@ -36,21 +36,21 @@ import android.view.Surface;
 import androidx.annotation.Nullable;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.Player.Commands;
-import com.google.android.exoplayer2.Player.Listener;
-import com.google.android.exoplayer2.SimpleBasePlayer.State;
-import com.google.android.exoplayer2.audio.AudioAttributes;
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.source.TrackGroup;
-import com.google.android.exoplayer2.source.ads.AdPlaybackState;
-import com.google.android.exoplayer2.testutil.FakeMetadataEntry;
-import com.google.android.exoplayer2.testutil.TestUtil;
-import com.google.android.exoplayer2.text.Cue;
-import com.google.android.exoplayer2.text.CueGroup;
-import com.google.android.exoplayer2.trackselection.TrackSelectionParameters;
-import com.google.android.exoplayer2.util.FlagSet;
-import com.google.android.exoplayer2.util.Size;
-import com.google.android.exoplayer2.video.VideoSize;
+import com.readwise.android.exoplayer2.Player.Commands;
+import com.readwise.android.exoplayer2.Player.Listener;
+import com.readwise.android.exoplayer2.SimpleBasePlayer.State;
+import com.readwise.android.exoplayer2.audio.AudioAttributes;
+import com.readwise.android.exoplayer2.metadata.Metadata;
+import com.readwise.android.exoplayer2.source.TrackGroup;
+import com.readwise.android.exoplayer2.source.ads.AdPlaybackState;
+import com.readwise.android.exoplayer2.testutil.FakeMetadataEntry;
+import com.readwise.android.exoplayer2.testutil.TestUtil;
+import com.readwise.android.exoplayer2.text.Cue;
+import com.readwise.android.exoplayer2.text.CueGroup;
+import com.readwise.android.exoplayer2.trackselection.TrackSelectionParameters;
+import com.readwise.android.exoplayer2.util.FlagSet;
+import com.readwise.android.exoplayer2.util.Size;
+import com.readwise.android.exoplayer2.video.VideoSize;
 import com.google.common.collect.ImmutableList;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;

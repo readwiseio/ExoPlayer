@@ -13,29 +13,29 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.dash;
+package com.readwise.android.exoplayer2.source.dash;
 
 import android.net.Uri;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.extractor.ChunkIndex;
-import com.google.android.exoplayer2.extractor.Extractor;
-import com.google.android.exoplayer2.extractor.mkv.MatroskaExtractor;
-import com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor;
-import com.google.android.exoplayer2.source.chunk.BundledChunkExtractor;
-import com.google.android.exoplayer2.source.chunk.ChunkExtractor;
-import com.google.android.exoplayer2.source.chunk.InitializationChunk;
-import com.google.android.exoplayer2.source.dash.manifest.DashManifest;
-import com.google.android.exoplayer2.source.dash.manifest.DashManifestParser;
-import com.google.android.exoplayer2.source.dash.manifest.Period;
-import com.google.android.exoplayer2.source.dash.manifest.RangedUri;
-import com.google.android.exoplayer2.source.dash.manifest.Representation;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.upstream.ParsingLoadable;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.extractor.ChunkIndex;
+import com.readwise.android.exoplayer2.extractor.Extractor;
+import com.readwise.android.exoplayer2.extractor.mkv.MatroskaExtractor;
+import com.readwise.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor;
+import com.readwise.android.exoplayer2.source.chunk.BundledChunkExtractor;
+import com.readwise.android.exoplayer2.source.chunk.ChunkExtractor;
+import com.readwise.android.exoplayer2.source.chunk.InitializationChunk;
+import com.readwise.android.exoplayer2.source.dash.manifest.DashManifest;
+import com.readwise.android.exoplayer2.source.dash.manifest.DashManifestParser;
+import com.readwise.android.exoplayer2.source.dash.manifest.Period;
+import com.readwise.android.exoplayer2.source.dash.manifest.RangedUri;
+import com.readwise.android.exoplayer2.source.dash.manifest.Representation;
+import com.readwise.android.exoplayer2.upstream.DataSource;
+import com.readwise.android.exoplayer2.upstream.DataSpec;
+import com.readwise.android.exoplayer2.upstream.ParsingLoadable;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.MimeTypes;
 import java.io.IOException;
 import java.util.List;
 
@@ -124,7 +124,7 @@ public final class DashUtil {
    *
    * @param dataSource The source from which the data should be loaded.
    * @param trackType The type of the representation. Typically one of the {@link C
-   *     com.google.android.exoplayer2.C} {@code TRACK_TYPE_*} constants.
+   *     com.readwise.android.exoplayer2.C} {@code TRACK_TYPE_*} constants.
    * @param representation The representation which initialization chunk belongs to.
    * @param baseUrlIndex The index of the base URL to be picked from the {@link
    *     Representation#baseUrls list of base URLs}.
@@ -155,7 +155,7 @@ public final class DashUtil {
    *
    * @param dataSource The source from which the data should be loaded.
    * @param trackType The type of the representation. Typically one of the {@link C
-   *     com.google.android.exoplayer2.C} {@code TRACK_TYPE_*} constants.
+   *     com.readwise.android.exoplayer2.C} {@code TRACK_TYPE_*} constants.
    * @param representation The representation which initialization chunk belongs to.
    * @return the sample {@link Format} of the given representation.
    * @throws IOException Thrown when there is an error while loading.
@@ -172,7 +172,7 @@ public final class DashUtil {
    *
    * @param dataSource The source from which the data should be loaded.
    * @param trackType The type of the representation. Typically one of the {@link C
-   *     com.google.android.exoplayer2.C} {@code TRACK_TYPE_*} constants.
+   *     com.readwise.android.exoplayer2.C} {@code TRACK_TYPE_*} constants.
    * @param representation The representation which initialization chunk belongs to.
    * @param baseUrlIndex The index of the base URL with which to resolve the request URI.
    * @return The {@link ChunkIndex} of the given representation, or null if no initialization or
@@ -204,7 +204,7 @@ public final class DashUtil {
    *
    * @param dataSource The source from which the data should be loaded.
    * @param trackType The type of the representation. Typically one of the {@link C
-   *     com.google.android.exoplayer2.C} {@code TRACK_TYPE_*} constants.
+   *     com.readwise.android.exoplayer2.C} {@code TRACK_TYPE_*} constants.
    * @param representation The representation which initialization chunk belongs to.
    * @return The {@link ChunkIndex} of the given representation, or null if no initialization or
    *     index data exists.

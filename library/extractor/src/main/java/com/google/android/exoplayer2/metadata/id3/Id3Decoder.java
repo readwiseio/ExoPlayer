@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.metadata.id3;
+package com.readwise.android.exoplayer2.metadata.id3;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.metadata.MetadataInputBuffer;
-import com.google.android.exoplayer2.metadata.SimpleMetadataDecoder;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.ParsableBitArray;
-import com.google.android.exoplayer2.util.ParsableByteArray;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.metadata.Metadata;
+import com.readwise.android.exoplayer2.metadata.MetadataInputBuffer;
+import com.readwise.android.exoplayer2.metadata.SimpleMetadataDecoder;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.ParsableBitArray;
+import com.readwise.android.exoplayer2.util.ParsableByteArray;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.base.Ascii;
 import com.google.common.base.Charsets;
 import com.google.common.collect.ImmutableList;

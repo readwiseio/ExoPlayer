@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.upstream.cache;
+package com.readwise.android.exoplayer2.upstream.cache;
 
 import android.os.ConditionVariable;
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.database.DatabaseIOException;
-import com.google.android.exoplayer2.database.DatabaseProvider;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.database.DatabaseIOException;
+import com.readwise.android.exoplayer2.database.DatabaseProvider;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.File;
 import java.io.IOException;
 import java.security.SecureRandom;

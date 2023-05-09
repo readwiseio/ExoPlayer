@@ -14,4 +14,4 @@
  * limitations under the License.
  */
 @NonNullApi
-package com.google.android.exoplayer2.util;
+package com.readwise.android.exoplayer2.util;

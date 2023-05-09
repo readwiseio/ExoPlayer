@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.upstream.cache;
+package com.readwise.android.exoplayer2.upstream.cache;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.C;
 import java.io.File;
 
 /** Defines a span of data that may or may not be cached (as indicated by {@link #isCached}). */

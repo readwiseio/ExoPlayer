@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.transformer;
+package com.readwise.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP3_ASSET_URI_STRING;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_URI_STRING;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_WITH_INCREASING_TIMESTAMPS_320W_240H_15S_URI_STRING;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_WITH_INCREASING_TIMESTAMPS_URI_STRING;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.PNG_ASSET_URI_STRING;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP3_ASSET_URI_STRING;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_URI_STRING;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_WITH_INCREASING_TIMESTAMPS_320W_240H_15S_URI_STRING;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_WITH_INCREASING_TIMESTAMPS_URI_STRING;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.PNG_ASSET_URI_STRING;
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
 
@@ -27,17 +27,17 @@ import android.content.Context;
 import android.net.Uri;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.audio.AudioProcessor;
-import com.google.android.exoplayer2.audio.SonicAudioProcessor;
-import com.google.android.exoplayer2.effect.Contrast;
-import com.google.android.exoplayer2.effect.FrameCache;
-import com.google.android.exoplayer2.effect.Presentation;
-import com.google.android.exoplayer2.effect.RgbFilter;
-import com.google.android.exoplayer2.effect.TimestampWrapper;
-import com.google.android.exoplayer2.util.Effect;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.audio.AudioProcessor;
+import com.readwise.android.exoplayer2.audio.SonicAudioProcessor;
+import com.readwise.android.exoplayer2.effect.Contrast;
+import com.readwise.android.exoplayer2.effect.FrameCache;
+import com.readwise.android.exoplayer2.effect.Presentation;
+import com.readwise.android.exoplayer2.effect.RgbFilter;
+import com.readwise.android.exoplayer2.effect.TimestampWrapper;
+import com.readwise.android.exoplayer2.util.Effect;
 import com.google.common.collect.ImmutableList;
 import org.junit.Test;
 import org.junit.runner.RunWith;

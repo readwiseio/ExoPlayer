@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.audio;
+package com.readwise.android.exoplayer2.audio;
 
-import static com.google.android.exoplayer2.C.MICROS_PER_SECOND;
-import static com.google.android.exoplayer2.audio.DefaultAudioSink.OUTPUT_MODE_PCM;
+import static com.readwise.android.exoplayer2.C.MICROS_PER_SECOND;
+import static com.readwise.android.exoplayer2.audio.DefaultAudioSink.OUTPUT_MODE_PCM;
 import static com.google.common.truth.Truth.assertThat;
 import static java.lang.Math.ceil;
 
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableSet;
 import com.google.common.collect.Sets;

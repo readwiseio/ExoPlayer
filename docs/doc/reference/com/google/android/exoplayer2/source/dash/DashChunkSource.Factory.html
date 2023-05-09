@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.source.dash</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.source.dash</a></div>
 <h2 title="Interface DashChunkSource.Factory" class="title">Interface DashChunkSource.Factory</h2>
 </div>
 <div class="contentContainer">
@@ -122,15 +122,15 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Known Implementing Classes:</dt>
-<dd><code><a href="DefaultDashChunkSource.Factory.html" title="class in com.google.android.exoplayer2.source.dash">DefaultDashChunkSource.Factory</a></code></dd>
+<dd><code><a href="DefaultDashChunkSource.Factory.html" title="class in com.readwise.android.exoplayer2.source.dash">DefaultDashChunkSource.Factory</a></code></dd>
 </dl>
 <dl>
 <dt>Enclosing interface:</dt>
-<dd><a href="DashChunkSource.html" title="interface in com.google.android.exoplayer2.source.dash">DashChunkSource</a></dd>
+<dd><a href="DashChunkSource.html" title="interface in com.readwise.android.exoplayer2.source.dash">DashChunkSource</a></dd>
 </dl>
 <hr>
 <pre>public static interface <span class="typeNameLabel">DashChunkSource.Factory</span></pre>
-<div class="block">Factory for <a href="DashChunkSource.html" title="interface in com.google.android.exoplayer2.source.dash"><code>DashChunkSource</code></a>s.</div>
+<div class="block">Factory for <a href="DashChunkSource.html" title="interface in com.readwise.android.exoplayer2.source.dash"><code>DashChunkSource</code></a>s.</div>
 </li>
 </ul>
 </div>
@@ -152,20 +152,20 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <th class="colLast" scope="col">Description</th>
 </tr>
 <tr id="i0" class="altColor">
-<td class="colFirst"><code><a href="DashChunkSource.html" title="interface in com.google.android.exoplayer2.source.dash">DashChunkSource</a></code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#createDashChunkSource(com.google.android.exoplayer2.upstream.LoaderErrorThrower,com.google.android.exoplayer2.source.dash.manifest.DashManifest,com.google.android.exoplayer2.source.dash.BaseUrlExclusionList,int,int%5B%5D,com.google.android.exoplayer2.trackselection.ExoTrackSelection,@com.google.android.exoplayer2.C.TrackTypeint,long,boolean,java.util.List,com.google.android.exoplayer2.source.dash.PlayerEmsgHandler.PlayerTrackEmsgHandler,com.google.android.exoplayer2.upstream.TransferListener,com.google.android.exoplayer2.analytics.PlayerId)">createDashChunkSource</a></span>&#8203;(<a href="../../upstream/LoaderErrorThrower.html" title="interface in com.google.android.exoplayer2.upstream">LoaderErrorThrower</a>&nbsp;manifestLoaderErrorThrower,
-                     <a href="manifest/DashManifest.html" title="class in com.google.android.exoplayer2.source.dash.manifest">DashManifest</a>&nbsp;manifest,
-                     <a href="BaseUrlExclusionList.html" title="class in com.google.android.exoplayer2.source.dash">BaseUrlExclusionList</a>&nbsp;baseUrlExclusionList,
+<td class="colFirst"><code><a href="DashChunkSource.html" title="interface in com.readwise.android.exoplayer2.source.dash">DashChunkSource</a></code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#createDashChunkSource(com.readwise.android.exoplayer2.upstream.LoaderErrorThrower,com.readwise.android.exoplayer2.source.dash.manifest.DashManifest,com.readwise.android.exoplayer2.source.dash.BaseUrlExclusionList,int,int%5B%5D,com.readwise.android.exoplayer2.trackselection.ExoTrackSelection,@com.readwise.android.exoplayer2.C.TrackTypeint,long,boolean,java.util.List,com.readwise.android.exoplayer2.source.dash.PlayerEmsgHandler.PlayerTrackEmsgHandler,com.readwise.android.exoplayer2.upstream.TransferListener,com.readwise.android.exoplayer2.analytics.PlayerId)">createDashChunkSource</a></span>&#8203;(<a href="../../upstream/LoaderErrorThrower.html" title="interface in com.readwise.android.exoplayer2.upstream">LoaderErrorThrower</a>&nbsp;manifestLoaderErrorThrower,
+                     <a href="manifest/DashManifest.html" title="class in com.readwise.android.exoplayer2.source.dash.manifest">DashManifest</a>&nbsp;manifest,
+                     <a href="BaseUrlExclusionList.html" title="class in com.readwise.android.exoplayer2.source.dash">BaseUrlExclusionList</a>&nbsp;baseUrlExclusionList,
                      int&nbsp;periodIndex,
                      int[]&nbsp;adaptationSetIndices,
-                     <a href="../../trackselection/ExoTrackSelection.html" title="interface in com.google.android.exoplayer2.trackselection">ExoTrackSelection</a>&nbsp;trackSelection,
-                     @com.google.android.exoplayer2.C.TrackType int&nbsp;trackType,
+                     <a href="../../trackselection/ExoTrackSelection.html" title="interface in com.readwise.android.exoplayer2.trackselection">ExoTrackSelection</a>&nbsp;trackSelection,
+                     @com.readwise.android.exoplayer2.C.TrackType int&nbsp;trackType,
                      long&nbsp;elapsedRealtimeOffsetMs,
                      boolean&nbsp;enableEventMessageTrack,
-                     <a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="../../Format.html" title="class in com.google.android.exoplayer2" target="_top">Format</a>&gt;&nbsp;closedCaptionFormats,
-                     <a href="PlayerEmsgHandler.PlayerTrackEmsgHandler.html" title="class in com.google.android.exoplayer2.source.dash">PlayerEmsgHandler.PlayerTrackEmsgHandler</a>&nbsp;playerEmsgHandler,
-                     <a href="../../upstream/TransferListener.html" title="interface in com.google.android.exoplayer2.upstream">TransferListener</a>&nbsp;transferListener,
-                     <a href="../../analytics/PlayerId.html" title="class in com.google.android.exoplayer2.analytics">PlayerId</a>&nbsp;playerId)</code></th>
+                     <a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="../../Format.html" title="class in com.readwise.android.exoplayer2" target="_top">Format</a>&gt;&nbsp;closedCaptionFormats,
+                     <a href="PlayerEmsgHandler.PlayerTrackEmsgHandler.html" title="class in com.readwise.android.exoplayer2.source.dash">PlayerEmsgHandler.PlayerTrackEmsgHandler</a>&nbsp;playerEmsgHandler,
+                     <a href="../../upstream/TransferListener.html" title="interface in com.readwise.android.exoplayer2.upstream">TransferListener</a>&nbsp;transferListener,
+                     <a href="../../analytics/PlayerId.html" title="class in com.readwise.android.exoplayer2.analytics">PlayerId</a>&nbsp;playerId)</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 </table>
@@ -185,27 +185,27 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="createDashChunkSource(com.google.android.exoplayer2.upstream.LoaderErrorThrower,com.google.android.exoplayer2.source.dash.manifest.DashManifest,com.google.android.exoplayer2.source.dash.BaseUrlExclusionList,int,int[],com.google.android.exoplayer2.trackselection.ExoTrackSelection,@com.google.android.exoplayer2.C.TrackTypeint,long,boolean,java.util.List,com.google.android.exoplayer2.source.dash.PlayerEmsgHandler.PlayerTrackEmsgHandler,com.google.android.exoplayer2.upstream.TransferListener,com.google.android.exoplayer2.analytics.PlayerId)">
+<a id="createDashChunkSource(com.readwise.android.exoplayer2.upstream.LoaderErrorThrower,com.readwise.android.exoplayer2.source.dash.manifest.DashManifest,com.readwise.android.exoplayer2.source.dash.BaseUrlExclusionList,int,int[],com.readwise.android.exoplayer2.trackselection.ExoTrackSelection,@com.readwise.android.exoplayer2.C.TrackTypeint,long,boolean,java.util.List,com.readwise.android.exoplayer2.source.dash.PlayerEmsgHandler.PlayerTrackEmsgHandler,com.readwise.android.exoplayer2.upstream.TransferListener,com.readwise.android.exoplayer2.analytics.PlayerId)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>createDashChunkSource</h4>
-<pre class="methodSignature"><a href="DashChunkSource.html" title="interface in com.google.android.exoplayer2.source.dash">DashChunkSource</a>&nbsp;createDashChunkSource&#8203;(<a href="../../upstream/LoaderErrorThrower.html" title="interface in com.google.android.exoplayer2.upstream">LoaderErrorThrower</a>&nbsp;manifestLoaderErrorThrower,
-                                      <a href="manifest/DashManifest.html" title="class in com.google.android.exoplayer2.source.dash.manifest">DashManifest</a>&nbsp;manifest,
-                                      <a href="BaseUrlExclusionList.html" title="class in com.google.android.exoplayer2.source.dash">BaseUrlExclusionList</a>&nbsp;baseUrlExclusionList,
+<pre class="methodSignature"><a href="DashChunkSource.html" title="interface in com.readwise.android.exoplayer2.source.dash">DashChunkSource</a>&nbsp;createDashChunkSource&#8203;(<a href="../../upstream/LoaderErrorThrower.html" title="interface in com.readwise.android.exoplayer2.upstream">LoaderErrorThrower</a>&nbsp;manifestLoaderErrorThrower,
+                                      <a href="manifest/DashManifest.html" title="class in com.readwise.android.exoplayer2.source.dash.manifest">DashManifest</a>&nbsp;manifest,
+                                      <a href="BaseUrlExclusionList.html" title="class in com.readwise.android.exoplayer2.source.dash">BaseUrlExclusionList</a>&nbsp;baseUrlExclusionList,
                                       int&nbsp;periodIndex,
                                       int[]&nbsp;adaptationSetIndices,
-                                      <a href="../../trackselection/ExoTrackSelection.html" title="interface in com.google.android.exoplayer2.trackselection">ExoTrackSelection</a>&nbsp;trackSelection,
-                                      @com.google.android.exoplayer2.C.TrackType int&nbsp;trackType,
+                                      <a href="../../trackselection/ExoTrackSelection.html" title="interface in com.readwise.android.exoplayer2.trackselection">ExoTrackSelection</a>&nbsp;trackSelection,
+                                      @com.readwise.android.exoplayer2.C.TrackType int&nbsp;trackType,
                                       long&nbsp;elapsedRealtimeOffsetMs,
                                       boolean&nbsp;enableEventMessageTrack,
-                                      <a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="../../Format.html" title="class in com.google.android.exoplayer2" target="_top">Format</a>&gt;&nbsp;closedCaptionFormats,
+                                      <a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="../../Format.html" title="class in com.readwise.android.exoplayer2" target="_top">Format</a>&gt;&nbsp;closedCaptionFormats,
                                       @Nullable
-                                      <a href="PlayerEmsgHandler.PlayerTrackEmsgHandler.html" title="class in com.google.android.exoplayer2.source.dash">PlayerEmsgHandler.PlayerTrackEmsgHandler</a>&nbsp;playerEmsgHandler,
+                                      <a href="PlayerEmsgHandler.PlayerTrackEmsgHandler.html" title="class in com.readwise.android.exoplayer2.source.dash">PlayerEmsgHandler.PlayerTrackEmsgHandler</a>&nbsp;playerEmsgHandler,
                                       @Nullable
-                                      <a href="../../upstream/TransferListener.html" title="interface in com.google.android.exoplayer2.upstream">TransferListener</a>&nbsp;transferListener,
-                                      <a href="../../analytics/PlayerId.html" title="class in com.google.android.exoplayer2.analytics">PlayerId</a>&nbsp;playerId)</pre>
+                                      <a href="../../upstream/TransferListener.html" title="interface in com.readwise.android.exoplayer2.upstream">TransferListener</a>&nbsp;transferListener,
+                                      <a href="../../analytics/PlayerId.html" title="class in com.readwise.android.exoplayer2.analytics">PlayerId</a>&nbsp;playerId)</pre>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>manifestLoaderErrorThrower</code> - Throws errors affecting loading of manifests.</dd>
@@ -214,20 +214,20 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd><code>periodIndex</code> - The index of the corresponding period in the manifest.</dd>
 <dd><code>adaptationSetIndices</code> - The indices of the corresponding adaptation sets in the period.</dd>
 <dd><code>trackSelection</code> - The track selection.</dd>
-<dd><code>trackType</code> - The <a href="../../C.TrackType.html" title="annotation in com.google.android.exoplayer2"><code>track type</code></a>.</dd>
+<dd><code>trackType</code> - The <a href="../../C.TrackType.html" title="annotation in com.readwise.android.exoplayer2"><code>track type</code></a>.</dd>
 <dd><code>elapsedRealtimeOffsetMs</code> - If known, an estimate of the instantaneous difference between
      server-side unix time and <a href="https://developer.android.com/reference/android/os/SystemClock.html#elapsedRealtime()" title="class or interface in android.os" class="externalLink" target="_top"><code>SystemClock.elapsedRealtime()</code></a> in milliseconds,
      specified as the server's unix time minus the local elapsed time. Or <a href="../../C.html#TIME_UNSET"><code>C.TIME_UNSET</code></a>
      if unknown.</dd>
 <dd><code>enableEventMessageTrack</code> - Whether to output an event message track.</dd>
-<dd><code>closedCaptionFormats</code> - The <a href="../../Format.html" title="class in com.google.android.exoplayer2"><code>Formats</code></a> of closed caption tracks to be output.</dd>
+<dd><code>closedCaptionFormats</code> - The <a href="../../Format.html" title="class in com.readwise.android.exoplayer2"><code>Formats</code></a> of closed caption tracks to be output.</dd>
 <dd><code>playerEmsgHandler</code> - The track output to write emsg messages to, or null if emsgs
      shouldn't be written.</dd>
 <dd><code>transferListener</code> - The transfer listener which should be informed of any data transfers.
      May be null if no listener is available.</dd>
-<dd><code>playerId</code> - The <a href="../../analytics/PlayerId.html" title="class in com.google.android.exoplayer2.analytics"><code>PlayerId</code></a> of the player using this chunk source.</dd>
+<dd><code>playerId</code> - The <a href="../../analytics/PlayerId.html" title="class in com.readwise.android.exoplayer2.analytics"><code>PlayerId</code></a> of the player using this chunk source.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>The created <a href="DashChunkSource.html" title="interface in com.google.android.exoplayer2.source.dash"><code>DashChunkSource</code></a>.</dd>
+<dd>The created <a href="DashChunkSource.html" title="interface in com.readwise.android.exoplayer2.source.dash"><code>DashChunkSource</code></a>.</dd>
 </dl>
 </li>
 </ul>

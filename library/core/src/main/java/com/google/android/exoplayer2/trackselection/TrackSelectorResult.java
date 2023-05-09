@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.trackselection;
+package com.readwise.android.exoplayer2.trackselection;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.RendererConfiguration;
-import com.google.android.exoplayer2.Tracks;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.RendererConfiguration;
+import com.readwise.android.exoplayer2.Tracks;
+import com.readwise.android.exoplayer2.util.Util;
 import org.checkerframework.checker.nullness.compatqual.NullableType;
 
 /** The result of a {@link TrackSelector} operation. */

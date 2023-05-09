@@ -13,28 +13,28 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.trackselection;
+package com.readwise.android.exoplayer2.trackselection;
 
-import static com.google.android.exoplayer2.C.FORMAT_EXCEEDS_CAPABILITIES;
-import static com.google.android.exoplayer2.C.FORMAT_HANDLED;
-import static com.google.android.exoplayer2.C.FORMAT_UNSUPPORTED_DRM;
-import static com.google.android.exoplayer2.C.FORMAT_UNSUPPORTED_SUBTYPE;
-import static com.google.android.exoplayer2.C.FORMAT_UNSUPPORTED_TYPE;
-import static com.google.android.exoplayer2.C.TRACK_TYPE_AUDIO;
-import static com.google.android.exoplayer2.C.TRACK_TYPE_UNKNOWN;
-import static com.google.android.exoplayer2.C.TRACK_TYPE_VIDEO;
-import static com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_NOT_SUPPORTED;
-import static com.google.android.exoplayer2.RendererCapabilities.ADAPTIVE_SEAMLESS;
-import static com.google.android.exoplayer2.util.MimeTypes.AUDIO_AAC;
-import static com.google.android.exoplayer2.util.MimeTypes.AUDIO_OPUS;
-import static com.google.android.exoplayer2.util.MimeTypes.VIDEO_H264;
+import static com.readwise.android.exoplayer2.C.FORMAT_EXCEEDS_CAPABILITIES;
+import static com.readwise.android.exoplayer2.C.FORMAT_HANDLED;
+import static com.readwise.android.exoplayer2.C.FORMAT_UNSUPPORTED_DRM;
+import static com.readwise.android.exoplayer2.C.FORMAT_UNSUPPORTED_SUBTYPE;
+import static com.readwise.android.exoplayer2.C.FORMAT_UNSUPPORTED_TYPE;
+import static com.readwise.android.exoplayer2.C.TRACK_TYPE_AUDIO;
+import static com.readwise.android.exoplayer2.C.TRACK_TYPE_UNKNOWN;
+import static com.readwise.android.exoplayer2.C.TRACK_TYPE_VIDEO;
+import static com.readwise.android.exoplayer2.RendererCapabilities.ADAPTIVE_NOT_SUPPORTED;
+import static com.readwise.android.exoplayer2.RendererCapabilities.ADAPTIVE_SEAMLESS;
+import static com.readwise.android.exoplayer2.util.MimeTypes.AUDIO_AAC;
+import static com.readwise.android.exoplayer2.util.MimeTypes.AUDIO_OPUS;
+import static com.readwise.android.exoplayer2.util.MimeTypes.VIDEO_H264;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.Tracks;
-import com.google.android.exoplayer2.source.TrackGroup;
-import com.google.android.exoplayer2.source.TrackGroupArray;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.Tracks;
+import com.readwise.android.exoplayer2.source.TrackGroup;
+import com.readwise.android.exoplayer2.source.TrackGroupArray;
 import com.google.common.collect.ImmutableList;
 import java.util.List;
 import org.junit.Test;

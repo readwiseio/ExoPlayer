@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.decoder;
+package com.readwise.android.exoplayer2.decoder;
 
 /** Thrown when a non-platform component fails to decrypt data. */
 public class CryptoException extends Exception {

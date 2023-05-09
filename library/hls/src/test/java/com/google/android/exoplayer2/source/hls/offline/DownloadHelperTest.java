@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.hls.offline;
+package com.readwise.android.exoplayer2.source.hls.offline;
 
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.Renderer;
-import com.google.android.exoplayer2.offline.DownloadHelper;
-import com.google.android.exoplayer2.testutil.FakeDataSource;
-import com.google.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.Renderer;
+import com.readwise.android.exoplayer2.offline.DownloadHelper;
+import com.readwise.android.exoplayer2.testutil.FakeDataSource;
+import com.readwise.android.exoplayer2.util.MimeTypes;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

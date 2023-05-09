@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.smoothstreaming.manifest;
+package com.readwise.android.exoplayer2.source.smoothstreaming.manifest;
 
 import static com.google.common.truth.Truth.assertThat;
 
 import android.net.Uri;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.testutil.TestUtil;
+import com.readwise.android.exoplayer2.testutil.TestUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

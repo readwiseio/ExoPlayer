@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  */
-package com.google.android.exoplayer2.util;
+package com.readwise.android.exoplayer2.util;
 
 import androidx.annotation.GuardedBy;
 import androidx.annotation.Nullable;

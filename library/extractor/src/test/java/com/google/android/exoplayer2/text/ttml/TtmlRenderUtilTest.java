@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.text.ttml;
+package com.readwise.android.exoplayer2.text.ttml;
 
 import static android.graphics.Color.BLACK;
 import static android.graphics.Color.RED;
 import static android.graphics.Color.YELLOW;
-import static com.google.android.exoplayer2.text.ttml.TtmlRenderUtil.resolveStyle;
-import static com.google.android.exoplayer2.text.ttml.TtmlStyle.STYLE_BOLD;
-import static com.google.android.exoplayer2.text.ttml.TtmlStyle.STYLE_BOLD_ITALIC;
+import static com.readwise.android.exoplayer2.text.ttml.TtmlRenderUtil.resolveStyle;
+import static com.readwise.android.exoplayer2.text.ttml.TtmlStyle.STYLE_BOLD;
+import static com.readwise.android.exoplayer2.text.ttml.TtmlStyle.STYLE_BOLD_ITALIC;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.graphics.Color;

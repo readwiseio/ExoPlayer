@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.robolectric;
+package com.readwise.android.exoplayer2.robolectric;
 
 import android.media.MediaCodecInfo;
 import android.media.MediaFormat;
-import com.google.android.exoplayer2.mediacodec.MediaCodecUtil;
-import com.google.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.mediacodec.MediaCodecUtil;
+import com.readwise.android.exoplayer2.util.MimeTypes;
 import com.google.common.collect.ImmutableList;
 import com.google.common.primitives.Ints;
 import java.nio.ByteBuffer;

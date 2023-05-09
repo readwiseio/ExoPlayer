@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.offline</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.offline</a></div>
 <h2 title="Interface DownloadManager.Listener" class="title">Interface DownloadManager.Listener</h2>
 </div>
 <div class="contentContainer">
@@ -122,15 +122,15 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Known Implementing Classes:</dt>
-<dd><code><a href="../robolectric/TestDownloadManagerListener.html" title="class in com.google.android.exoplayer2.robolectric">TestDownloadManagerListener</a></code></dd>
+<dd><code><a href="../robolectric/TestDownloadManagerListener.html" title="class in com.readwise.android.exoplayer2.robolectric">TestDownloadManagerListener</a></code></dd>
 </dl>
 <dl>
 <dt>Enclosing class:</dt>
-<dd><a href="DownloadManager.html" title="class in com.google.android.exoplayer2.offline">DownloadManager</a></dd>
+<dd><a href="DownloadManager.html" title="class in com.readwise.android.exoplayer2.offline">DownloadManager</a></dd>
 </dl>
 <hr>
 <pre>public static interface <span class="typeNameLabel">DownloadManager.Listener</span></pre>
-<div class="block">Listener for <a href="DownloadManager.html" title="class in com.google.android.exoplayer2.offline"><code>DownloadManager</code></a> events.</div>
+<div class="block">Listener for <a href="DownloadManager.html" title="class in com.readwise.android.exoplayer2.offline"><code>DownloadManager</code></a> events.</div>
 </li>
 </ul>
 </div>
@@ -153,8 +153,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onDownloadChanged(com.google.android.exoplayer2.offline.DownloadManager,com.google.android.exoplayer2.offline.Download,java.lang.Exception)">onDownloadChanged</a></span>&#8203;(<a href="DownloadManager.html" title="class in com.google.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager,
-                 <a href="Download.html" title="class in com.google.android.exoplayer2.offline">Download</a>&nbsp;download,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onDownloadChanged(com.readwise.android.exoplayer2.offline.DownloadManager,com.readwise.android.exoplayer2.offline.Download,java.lang.Exception)">onDownloadChanged</a></span>&#8203;(<a href="DownloadManager.html" title="class in com.readwise.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager,
+                 <a href="Download.html" title="class in com.readwise.android.exoplayer2.offline">Download</a>&nbsp;download,
                  <a href="https://developer.android.com/reference/java/lang/Exception.html" title="class or interface in java.lang" class="externalLink" target="_top">Exception</a>&nbsp;finalException)</code></th>
 <td class="colLast">
 <div class="block">Called when the state of a download changes.</div>
@@ -162,15 +162,15 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onDownloadRemoved(com.google.android.exoplayer2.offline.DownloadManager,com.google.android.exoplayer2.offline.Download)">onDownloadRemoved</a></span>&#8203;(<a href="DownloadManager.html" title="class in com.google.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager,
-                 <a href="Download.html" title="class in com.google.android.exoplayer2.offline">Download</a>&nbsp;download)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onDownloadRemoved(com.readwise.android.exoplayer2.offline.DownloadManager,com.readwise.android.exoplayer2.offline.Download)">onDownloadRemoved</a></span>&#8203;(<a href="DownloadManager.html" title="class in com.readwise.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager,
+                 <a href="Download.html" title="class in com.readwise.android.exoplayer2.offline">Download</a>&nbsp;download)</code></th>
 <td class="colLast">
 <div class="block">Called when a download is removed.</div>
 </td>
 </tr>
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onDownloadsPausedChanged(com.google.android.exoplayer2.offline.DownloadManager,boolean)">onDownloadsPausedChanged</a></span>&#8203;(<a href="DownloadManager.html" title="class in com.google.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onDownloadsPausedChanged(com.readwise.android.exoplayer2.offline.DownloadManager,boolean)">onDownloadsPausedChanged</a></span>&#8203;(<a href="DownloadManager.html" title="class in com.readwise.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager,
                         boolean&nbsp;downloadsPaused)</code></th>
 <td class="colLast">
 <div class="block">Called when downloads are (<a href="DownloadManager.html#pauseDownloads()"><code>paused</code></a> or <a href="DownloadManager.html#resumeDownloads()"><code>resumed</code></a>.</div>
@@ -178,30 +178,30 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i3" class="rowColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onIdle(com.google.android.exoplayer2.offline.DownloadManager)">onIdle</a></span>&#8203;(<a href="DownloadManager.html" title="class in com.google.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onIdle(com.readwise.android.exoplayer2.offline.DownloadManager)">onIdle</a></span>&#8203;(<a href="DownloadManager.html" title="class in com.readwise.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager)</code></th>
 <td class="colLast">
 <div class="block">Called when there is no active download left.</div>
 </td>
 </tr>
 <tr id="i4" class="altColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onInitialized(com.google.android.exoplayer2.offline.DownloadManager)">onInitialized</a></span>&#8203;(<a href="DownloadManager.html" title="class in com.google.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onInitialized(com.readwise.android.exoplayer2.offline.DownloadManager)">onInitialized</a></span>&#8203;(<a href="DownloadManager.html" title="class in com.readwise.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager)</code></th>
 <td class="colLast">
 <div class="block">Called when all downloads have been restored.</div>
 </td>
 </tr>
 <tr id="i5" class="rowColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onRequirementsStateChanged(com.google.android.exoplayer2.offline.DownloadManager,com.google.android.exoplayer2.scheduler.Requirements,@com.google.android.exoplayer2.scheduler.Requirements.RequirementFlagsint)">onRequirementsStateChanged</a></span>&#8203;(<a href="DownloadManager.html" title="class in com.google.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager,
-                          <a href="../scheduler/Requirements.html" title="class in com.google.android.exoplayer2.scheduler">Requirements</a>&nbsp;requirements,
-                          @com.google.android.exoplayer2.scheduler.Requirements.RequirementFlags int&nbsp;notMetRequirements)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onRequirementsStateChanged(com.readwise.android.exoplayer2.offline.DownloadManager,com.readwise.android.exoplayer2.scheduler.Requirements,@com.readwise.android.exoplayer2.scheduler.Requirements.RequirementFlagsint)">onRequirementsStateChanged</a></span>&#8203;(<a href="DownloadManager.html" title="class in com.readwise.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager,
+                          <a href="../scheduler/Requirements.html" title="class in com.readwise.android.exoplayer2.scheduler">Requirements</a>&nbsp;requirements,
+                          @com.readwise.android.exoplayer2.scheduler.Requirements.RequirementFlags int&nbsp;notMetRequirements)</code></th>
 <td class="colLast">
 <div class="block">Called when the download requirements state changed.</div>
 </td>
 </tr>
 <tr id="i6" class="altColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onWaitingForRequirementsChanged(com.google.android.exoplayer2.offline.DownloadManager,boolean)">onWaitingForRequirementsChanged</a></span>&#8203;(<a href="DownloadManager.html" title="class in com.google.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onWaitingForRequirementsChanged(com.readwise.android.exoplayer2.offline.DownloadManager,boolean)">onWaitingForRequirementsChanged</a></span>&#8203;(<a href="DownloadManager.html" title="class in com.readwise.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager,
                                boolean&nbsp;waitingForRequirements)</code></th>
 <td class="colLast">
 <div class="block">Called when there is a change in whether this manager has one or more downloads that are not
@@ -225,13 +225,13 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="onInitialized(com.google.android.exoplayer2.offline.DownloadManager)">
+<a id="onInitialized(com.readwise.android.exoplayer2.offline.DownloadManager)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onInitialized</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onInitialized&#8203;(<a href="DownloadManager.html" title="class in com.google.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager)</pre>
+<pre class="methodSignature">default&nbsp;void&nbsp;onInitialized&#8203;(<a href="DownloadManager.html" title="class in com.readwise.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager)</pre>
 <div class="block">Called when all downloads have been restored.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -239,13 +239,13 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dl>
 </li>
 </ul>
-<a id="onDownloadsPausedChanged(com.google.android.exoplayer2.offline.DownloadManager,boolean)">
+<a id="onDownloadsPausedChanged(com.readwise.android.exoplayer2.offline.DownloadManager,boolean)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onDownloadsPausedChanged</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onDownloadsPausedChanged&#8203;(<a href="DownloadManager.html" title="class in com.google.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager,
+<pre class="methodSignature">default&nbsp;void&nbsp;onDownloadsPausedChanged&#8203;(<a href="DownloadManager.html" title="class in com.readwise.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager,
                                       boolean&nbsp;downloadsPaused)</pre>
 <div class="block">Called when downloads are (<a href="DownloadManager.html#pauseDownloads()"><code>paused</code></a> or <a href="DownloadManager.html#resumeDownloads()"><code>resumed</code></a>.</div>
 <dl>
@@ -255,14 +255,14 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dl>
 </li>
 </ul>
-<a id="onDownloadChanged(com.google.android.exoplayer2.offline.DownloadManager,com.google.android.exoplayer2.offline.Download,java.lang.Exception)">
+<a id="onDownloadChanged(com.readwise.android.exoplayer2.offline.DownloadManager,com.readwise.android.exoplayer2.offline.Download,java.lang.Exception)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onDownloadChanged</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onDownloadChanged&#8203;(<a href="DownloadManager.html" title="class in com.google.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager,
-                               <a href="Download.html" title="class in com.google.android.exoplayer2.offline">Download</a>&nbsp;download,
+<pre class="methodSignature">default&nbsp;void&nbsp;onDownloadChanged&#8203;(<a href="DownloadManager.html" title="class in com.readwise.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager,
+                               <a href="Download.html" title="class in com.readwise.android.exoplayer2.offline">Download</a>&nbsp;download,
                                @Nullable
                                <a href="https://developer.android.com/reference/java/lang/Exception.html" title="class or interface in java.lang" class="externalLink" target="_top">Exception</a>&nbsp;finalException)</pre>
 <div class="block">Called when the state of a download changes.</div>
@@ -275,14 +275,14 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dl>
 </li>
 </ul>
-<a id="onDownloadRemoved(com.google.android.exoplayer2.offline.DownloadManager,com.google.android.exoplayer2.offline.Download)">
+<a id="onDownloadRemoved(com.readwise.android.exoplayer2.offline.DownloadManager,com.readwise.android.exoplayer2.offline.Download)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onDownloadRemoved</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onDownloadRemoved&#8203;(<a href="DownloadManager.html" title="class in com.google.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager,
-                               <a href="Download.html" title="class in com.google.android.exoplayer2.offline">Download</a>&nbsp;download)</pre>
+<pre class="methodSignature">default&nbsp;void&nbsp;onDownloadRemoved&#8203;(<a href="DownloadManager.html" title="class in com.readwise.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager,
+                               <a href="Download.html" title="class in com.readwise.android.exoplayer2.offline">Download</a>&nbsp;download)</pre>
 <div class="block">Called when a download is removed.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -291,13 +291,13 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dl>
 </li>
 </ul>
-<a id="onIdle(com.google.android.exoplayer2.offline.DownloadManager)">
+<a id="onIdle(com.readwise.android.exoplayer2.offline.DownloadManager)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onIdle</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onIdle&#8203;(<a href="DownloadManager.html" title="class in com.google.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager)</pre>
+<pre class="methodSignature">default&nbsp;void&nbsp;onIdle&#8203;(<a href="DownloadManager.html" title="class in com.readwise.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager)</pre>
 <div class="block">Called when there is no active download left.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -305,33 +305,33 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dl>
 </li>
 </ul>
-<a id="onRequirementsStateChanged(com.google.android.exoplayer2.offline.DownloadManager,com.google.android.exoplayer2.scheduler.Requirements,@com.google.android.exoplayer2.scheduler.Requirements.RequirementFlagsint)">
+<a id="onRequirementsStateChanged(com.readwise.android.exoplayer2.offline.DownloadManager,com.readwise.android.exoplayer2.scheduler.Requirements,@com.readwise.android.exoplayer2.scheduler.Requirements.RequirementFlagsint)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onRequirementsStateChanged</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onRequirementsStateChanged&#8203;(<a href="DownloadManager.html" title="class in com.google.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager,
-                                        <a href="../scheduler/Requirements.html" title="class in com.google.android.exoplayer2.scheduler">Requirements</a>&nbsp;requirements,
-                                        <a href="../scheduler/Requirements.RequirementFlags.html" title="annotation in com.google.android.exoplayer2.scheduler">@RequirementFlags</a>
-                                        @com.google.android.exoplayer2.scheduler.Requirements.RequirementFlags int&nbsp;notMetRequirements)</pre>
+<pre class="methodSignature">default&nbsp;void&nbsp;onRequirementsStateChanged&#8203;(<a href="DownloadManager.html" title="class in com.readwise.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager,
+                                        <a href="../scheduler/Requirements.html" title="class in com.readwise.android.exoplayer2.scheduler">Requirements</a>&nbsp;requirements,
+                                        <a href="../scheduler/Requirements.RequirementFlags.html" title="annotation in com.readwise.android.exoplayer2.scheduler">@RequirementFlags</a>
+                                        @com.readwise.android.exoplayer2.scheduler.Requirements.RequirementFlags int&nbsp;notMetRequirements)</pre>
 <div class="block">Called when the download requirements state changed.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>downloadManager</code> - The reporting instance.</dd>
 <dd><code>requirements</code> - Requirements needed to be met to start downloads.</dd>
-<dd><code>notMetRequirements</code> - <a href="../scheduler/Requirements.RequirementFlags.html" title="annotation in com.google.android.exoplayer2.scheduler"><code>RequirementFlags</code></a> that are not
+<dd><code>notMetRequirements</code> - <a href="../scheduler/Requirements.RequirementFlags.html" title="annotation in com.readwise.android.exoplayer2.scheduler"><code>RequirementFlags</code></a> that are not
      met, or 0.</dd>
 </dl>
 </li>
 </ul>
-<a id="onWaitingForRequirementsChanged(com.google.android.exoplayer2.offline.DownloadManager,boolean)">
+<a id="onWaitingForRequirementsChanged(com.readwise.android.exoplayer2.offline.DownloadManager,boolean)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>onWaitingForRequirementsChanged</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onWaitingForRequirementsChanged&#8203;(<a href="DownloadManager.html" title="class in com.google.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager,
+<pre class="methodSignature">default&nbsp;void&nbsp;onWaitingForRequirementsChanged&#8203;(<a href="DownloadManager.html" title="class in com.readwise.android.exoplayer2.offline">DownloadManager</a>&nbsp;downloadManager,
                                              boolean&nbsp;waitingForRequirements)</pre>
 <div class="block">Called when there is a change in whether this manager has one or more downloads that are not
  progressing for the sole reason that the <a href="DownloadManager.html#getRequirements()"><code>Requirements</code></a> are not met.

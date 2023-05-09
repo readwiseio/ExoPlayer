@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
 import android.os.Handler;
-import com.google.android.exoplayer2.audio.AudioRendererEventListener;
-import com.google.android.exoplayer2.metadata.MetadataOutput;
-import com.google.android.exoplayer2.text.TextOutput;
-import com.google.android.exoplayer2.video.VideoRendererEventListener;
+import com.readwise.android.exoplayer2.audio.AudioRendererEventListener;
+import com.readwise.android.exoplayer2.metadata.MetadataOutput;
+import com.readwise.android.exoplayer2.text.TextOutput;
+import com.readwise.android.exoplayer2.video.VideoRendererEventListener;
 
 /** Builds {@link Renderer} instances for use by an {@link ExoPlayer}. */
 public interface RenderersFactory {

@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.text;
+package com.readwise.android.exoplayer2.text;
 
 import android.os.Bundle;
 import android.os.Parcel;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.BundleableUtil;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.BundleableUtil;
 import com.google.common.collect.ImmutableList;
 import java.util.ArrayList;
 

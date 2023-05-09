@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.transformerdemo;
+package com.readwise.android.exoplayer2.transformerdemo;
 
 import static android.Manifest.permission.READ_EXTERNAL_STORAGE;
 import static android.Manifest.permission.READ_MEDIA_VIDEO;
-import static com.google.android.exoplayer2.transformer.Transformer.PROGRESS_STATE_NOT_STARTED;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
-import static com.google.android.exoplayer2.util.Assertions.checkStateNotNull;
-import static com.google.android.exoplayer2.util.Util.SDK_INT;
+import static com.readwise.android.exoplayer2.transformer.Transformer.PROGRESS_STATE_NOT_STARTED;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.util.Assertions.checkStateNotNull;
+import static com.readwise.android.exoplayer2.util.Util.SDK_INT;
 
 import android.app.Activity;
 import android.content.Context;
@@ -49,48 +49,48 @@ import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ExoPlayer;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.audio.AudioProcessor;
-import com.google.android.exoplayer2.audio.SilenceSkippingAudioProcessor;
-import com.google.android.exoplayer2.audio.SonicAudioProcessor;
-import com.google.android.exoplayer2.effect.BitmapOverlay;
-import com.google.android.exoplayer2.effect.Contrast;
-import com.google.android.exoplayer2.effect.DrawableOverlay;
-import com.google.android.exoplayer2.effect.GlEffect;
-import com.google.android.exoplayer2.effect.GlShaderProgram;
-import com.google.android.exoplayer2.effect.HslAdjustment;
-import com.google.android.exoplayer2.effect.OverlayEffect;
-import com.google.android.exoplayer2.effect.OverlaySettings;
-import com.google.android.exoplayer2.effect.Presentation;
-import com.google.android.exoplayer2.effect.RgbAdjustment;
-import com.google.android.exoplayer2.effect.RgbFilter;
-import com.google.android.exoplayer2.effect.RgbMatrix;
-import com.google.android.exoplayer2.effect.ScaleAndRotateTransformation;
-import com.google.android.exoplayer2.effect.SingleColorLut;
-import com.google.android.exoplayer2.effect.TextOverlay;
-import com.google.android.exoplayer2.effect.TextureOverlay;
-import com.google.android.exoplayer2.transformer.Composition;
-import com.google.android.exoplayer2.transformer.DefaultEncoderFactory;
-import com.google.android.exoplayer2.transformer.DefaultMuxer;
-import com.google.android.exoplayer2.transformer.EditedMediaItem;
-import com.google.android.exoplayer2.transformer.EditedMediaItemSequence;
-import com.google.android.exoplayer2.transformer.Effects;
-import com.google.android.exoplayer2.transformer.ExportException;
-import com.google.android.exoplayer2.transformer.ExportResult;
-import com.google.android.exoplayer2.transformer.ProgressHolder;
-import com.google.android.exoplayer2.transformer.TransformationRequest;
-import com.google.android.exoplayer2.transformer.Transformer;
-import com.google.android.exoplayer2.ui.AspectRatioFrameLayout;
-import com.google.android.exoplayer2.ui.StyledPlayerView;
-import com.google.android.exoplayer2.upstream.DataSourceBitmapLoader;
-import com.google.android.exoplayer2.util.BitmapLoader;
-import com.google.android.exoplayer2.util.DebugTextViewHelper;
-import com.google.android.exoplayer2.util.DebugViewProvider;
-import com.google.android.exoplayer2.util.Effect;
-import com.google.android.exoplayer2.util.GlUtil;
-import com.google.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ExoPlayer;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.audio.AudioProcessor;
+import com.readwise.android.exoplayer2.audio.SilenceSkippingAudioProcessor;
+import com.readwise.android.exoplayer2.audio.SonicAudioProcessor;
+import com.readwise.android.exoplayer2.effect.BitmapOverlay;
+import com.readwise.android.exoplayer2.effect.Contrast;
+import com.readwise.android.exoplayer2.effect.DrawableOverlay;
+import com.readwise.android.exoplayer2.effect.GlEffect;
+import com.readwise.android.exoplayer2.effect.GlShaderProgram;
+import com.readwise.android.exoplayer2.effect.HslAdjustment;
+import com.readwise.android.exoplayer2.effect.OverlayEffect;
+import com.readwise.android.exoplayer2.effect.OverlaySettings;
+import com.readwise.android.exoplayer2.effect.Presentation;
+import com.readwise.android.exoplayer2.effect.RgbAdjustment;
+import com.readwise.android.exoplayer2.effect.RgbFilter;
+import com.readwise.android.exoplayer2.effect.RgbMatrix;
+import com.readwise.android.exoplayer2.effect.ScaleAndRotateTransformation;
+import com.readwise.android.exoplayer2.effect.SingleColorLut;
+import com.readwise.android.exoplayer2.effect.TextOverlay;
+import com.readwise.android.exoplayer2.effect.TextureOverlay;
+import com.readwise.android.exoplayer2.transformer.Composition;
+import com.readwise.android.exoplayer2.transformer.DefaultEncoderFactory;
+import com.readwise.android.exoplayer2.transformer.DefaultMuxer;
+import com.readwise.android.exoplayer2.transformer.EditedMediaItem;
+import com.readwise.android.exoplayer2.transformer.EditedMediaItemSequence;
+import com.readwise.android.exoplayer2.transformer.Effects;
+import com.readwise.android.exoplayer2.transformer.ExportException;
+import com.readwise.android.exoplayer2.transformer.ExportResult;
+import com.readwise.android.exoplayer2.transformer.ProgressHolder;
+import com.readwise.android.exoplayer2.transformer.TransformationRequest;
+import com.readwise.android.exoplayer2.transformer.Transformer;
+import com.readwise.android.exoplayer2.ui.AspectRatioFrameLayout;
+import com.readwise.android.exoplayer2.ui.StyledPlayerView;
+import com.readwise.android.exoplayer2.upstream.DataSourceBitmapLoader;
+import com.readwise.android.exoplayer2.util.BitmapLoader;
+import com.readwise.android.exoplayer2.util.DebugTextViewHelper;
+import com.readwise.android.exoplayer2.util.DebugViewProvider;
+import com.readwise.android.exoplayer2.util.Effect;
+import com.readwise.android.exoplayer2.util.GlUtil;
+import com.readwise.android.exoplayer2.util.Log;
 import com.google.android.material.card.MaterialCardView;
 import com.google.android.material.progressindicator.LinearProgressIndicator;
 import com.google.common.base.Stopwatch;
@@ -433,7 +433,7 @@ public final class TransformerActivity extends AppCompatActivity {
     if (selectedEffects[ConfigurationActivity.EDGE_DETECTOR_INDEX]) {
       try {
         Class<?> clazz =
-            Class.forName("com.google.android.exoplayer2.transformerdemo.MediaPipeProcessor");
+            Class.forName("com.readwise.android.exoplayer2.transformerdemo.MediaPipeProcessor");
         Constructor<?> constructor =
             clazz.getConstructor(
                 Context.class,

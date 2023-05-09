@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.extractor.mp3;
+package com.readwise.android.exoplayer2.extractor.mp3;
 
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.extractor.SeekMap;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.extractor.SeekMap;
 
 /**
  * {@link SeekMap} that provides the end position of audio data and also allows mapping from

@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.util;
+package com.readwise.android.exoplayer2.util;
 
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.ExoPlayerLibraryInfo;
+import com.readwise.android.exoplayer2.ExoPlayerLibraryInfo;
 
 /** Calls through to {@link android.os.Trace} methods on supported API levels. */
 public final class TraceUtil {

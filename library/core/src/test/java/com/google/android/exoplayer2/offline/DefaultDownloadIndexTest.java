@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.offline;
+package com.readwise.android.exoplayer2.offline;
 
-import static com.google.android.exoplayer2.offline.Download.FAILURE_REASON_NONE;
-import static com.google.android.exoplayer2.offline.Download.FAILURE_REASON_UNKNOWN;
-import static com.google.android.exoplayer2.offline.Download.STATE_DOWNLOADING;
-import static com.google.android.exoplayer2.offline.Download.STATE_STOPPED;
-import static com.google.android.exoplayer2.offline.Download.STOP_REASON_NONE;
+import static com.readwise.android.exoplayer2.offline.Download.FAILURE_REASON_NONE;
+import static com.readwise.android.exoplayer2.offline.Download.FAILURE_REASON_UNKNOWN;
+import static com.readwise.android.exoplayer2.offline.Download.STATE_DOWNLOADING;
+import static com.readwise.android.exoplayer2.offline.Download.STATE_STOPPED;
+import static com.readwise.android.exoplayer2.offline.Download.STOP_REASON_NONE;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.content.Context;
@@ -28,12 +28,12 @@ import android.net.Uri;
 import androidx.annotation.Nullable;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.database.DatabaseIOException;
-import com.google.android.exoplayer2.database.StandaloneDatabaseProvider;
-import com.google.android.exoplayer2.database.VersionTable;
-import com.google.android.exoplayer2.testutil.DownloadBuilder;
-import com.google.android.exoplayer2.testutil.TestUtil;
-import com.google.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.database.DatabaseIOException;
+import com.readwise.android.exoplayer2.database.StandaloneDatabaseProvider;
+import com.readwise.android.exoplayer2.database.VersionTable;
+import com.readwise.android.exoplayer2.testutil.DownloadBuilder;
+import com.readwise.android.exoplayer2.testutil.TestUtil;
+import com.readwise.android.exoplayer2.util.MimeTypes;
 import com.google.common.collect.ImmutableList;
 import java.io.File;
 import java.io.FileOutputStream;

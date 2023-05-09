@@ -13,40 +13,40 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source;
+package com.readwise.android.exoplayer2.source;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkStateNotNull;
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkStateNotNull;
+import static com.readwise.android.exoplayer2.util.Util.castNonNull;
 
 import android.content.Context;
 import android.net.Uri;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.drm.DrmSessionManagerProvider;
-import com.google.android.exoplayer2.extractor.DefaultExtractorsFactory;
-import com.google.android.exoplayer2.extractor.Extractor;
-import com.google.android.exoplayer2.extractor.ExtractorInput;
-import com.google.android.exoplayer2.extractor.ExtractorOutput;
-import com.google.android.exoplayer2.extractor.ExtractorsFactory;
-import com.google.android.exoplayer2.extractor.PositionHolder;
-import com.google.android.exoplayer2.extractor.SeekMap;
-import com.google.android.exoplayer2.extractor.TrackOutput;
-import com.google.android.exoplayer2.source.ads.AdsLoader;
-import com.google.android.exoplayer2.source.ads.AdsMediaSource;
-import com.google.android.exoplayer2.text.SubtitleDecoderFactory;
-import com.google.android.exoplayer2.text.SubtitleExtractor;
-import com.google.android.exoplayer2.ui.AdViewProvider;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.upstream.DefaultDataSource;
-import com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.drm.DrmSessionManagerProvider;
+import com.readwise.android.exoplayer2.extractor.DefaultExtractorsFactory;
+import com.readwise.android.exoplayer2.extractor.Extractor;
+import com.readwise.android.exoplayer2.extractor.ExtractorInput;
+import com.readwise.android.exoplayer2.extractor.ExtractorOutput;
+import com.readwise.android.exoplayer2.extractor.ExtractorsFactory;
+import com.readwise.android.exoplayer2.extractor.PositionHolder;
+import com.readwise.android.exoplayer2.extractor.SeekMap;
+import com.readwise.android.exoplayer2.extractor.TrackOutput;
+import com.readwise.android.exoplayer2.source.ads.AdsLoader;
+import com.readwise.android.exoplayer2.source.ads.AdsMediaSource;
+import com.readwise.android.exoplayer2.text.SubtitleDecoderFactory;
+import com.readwise.android.exoplayer2.text.SubtitleExtractor;
+import com.readwise.android.exoplayer2.ui.AdViewProvider;
+import com.readwise.android.exoplayer2.upstream.DataSource;
+import com.readwise.android.exoplayer2.upstream.DataSpec;
+import com.readwise.android.exoplayer2.upstream.DefaultDataSource;
+import com.readwise.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.base.Supplier;
 import com.google.common.collect.ImmutableList;
 import com.google.common.primitives.Ints;
@@ -632,26 +632,26 @@ public final class DefaultMediaSourceFactory implements MediaSourceFactory {
         switch (contentType) {
           case C.CONTENT_TYPE_DASH:
             clazz =
-                Class.forName("com.google.android.exoplayer2.source.dash.DashMediaSource$Factory")
+                Class.forName("com.readwise.android.exoplayer2.source.dash.DashMediaSource$Factory")
                     .asSubclass(MediaSource.Factory.class);
             mediaSourceFactorySupplier = () -> newInstance(clazz, dataSourceFactory);
             break;
           case C.CONTENT_TYPE_SS:
             clazz =
                 Class.forName(
-                        "com.google.android.exoplayer2.source.smoothstreaming.SsMediaSource$Factory")
+                        "com.readwise.android.exoplayer2.source.smoothstreaming.SsMediaSource$Factory")
                     .asSubclass(MediaSource.Factory.class);
             mediaSourceFactorySupplier = () -> newInstance(clazz, dataSourceFactory);
             break;
           case C.CONTENT_TYPE_HLS:
             clazz =
-                Class.forName("com.google.android.exoplayer2.source.hls.HlsMediaSource$Factory")
+                Class.forName("com.readwise.android.exoplayer2.source.hls.HlsMediaSource$Factory")
                     .asSubclass(MediaSource.Factory.class);
             mediaSourceFactorySupplier = () -> newInstance(clazz, dataSourceFactory);
             break;
           case C.CONTENT_TYPE_RTSP:
             clazz =
-                Class.forName("com.google.android.exoplayer2.source.rtsp.RtspMediaSource$Factory")
+                Class.forName("com.readwise.android.exoplayer2.source.rtsp.RtspMediaSource$Factory")
                     .asSubclass(MediaSource.Factory.class);
             mediaSourceFactorySupplier = () -> newInstance(clazz);
             break;

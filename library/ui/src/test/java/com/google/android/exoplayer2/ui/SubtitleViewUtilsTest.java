@@ -14,9 +14,9 @@
  * limitations under the License.
  *
  */
-package com.google.android.exoplayer2.ui;
+package com.readwise.android.exoplayer2.ui;
 
-import static com.google.android.exoplayer2.testutil.truth.SpannedSubject.assertThat;
+import static com.readwise.android.exoplayer2.testutil.truth.SpannedSubject.assertThat;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.graphics.Color;
@@ -27,11 +27,11 @@ import android.text.style.AbsoluteSizeSpan;
 import android.text.style.RelativeSizeSpan;
 import android.text.style.UnderlineSpan;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.text.Cue;
-import com.google.android.exoplayer2.text.span.HorizontalTextInVerticalContextSpan;
-import com.google.android.exoplayer2.text.span.RubySpan;
-import com.google.android.exoplayer2.text.span.TextAnnotation;
-import com.google.android.exoplayer2.text.span.TextEmphasisSpan;
+import com.readwise.android.exoplayer2.text.Cue;
+import com.readwise.android.exoplayer2.text.span.HorizontalTextInVerticalContextSpan;
+import com.readwise.android.exoplayer2.text.span.RubySpan;
+import com.readwise.android.exoplayer2.text.span.TextAnnotation;
+import com.readwise.android.exoplayer2.text.span.TextEmphasisSpan;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

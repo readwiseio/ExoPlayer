@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.upstream.cache;
+package com.readwise.android.exoplayer2.upstream.cache;
 
 /** Metadata associated with a cache file. */
 /* package */ final class CacheFileMetadata {

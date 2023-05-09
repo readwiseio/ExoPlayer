@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source;
+package com.readwise.android.exoplayer2.source;
 
 import static com.google.common.truth.Truth.assertThat;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
@@ -21,21 +21,21 @@ import static org.junit.Assert.fail;
 import static org.mockito.Mockito.mock;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.analytics.PlayerId;
-import com.google.android.exoplayer2.source.MediaSource.MediaPeriodId;
-import com.google.android.exoplayer2.source.MediaSource.MediaSourceCaller;
-import com.google.android.exoplayer2.source.ShuffleOrder.DefaultShuffleOrder;
-import com.google.android.exoplayer2.testutil.DummyMainThread;
-import com.google.android.exoplayer2.testutil.FakeMediaSource;
-import com.google.android.exoplayer2.testutil.FakeShuffleOrder;
-import com.google.android.exoplayer2.testutil.FakeTimeline;
-import com.google.android.exoplayer2.testutil.FakeTimeline.TimelineWindowDefinition;
-import com.google.android.exoplayer2.testutil.MediaSourceTestRunner;
-import com.google.android.exoplayer2.testutil.TimelineAsserts;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.analytics.PlayerId;
+import com.readwise.android.exoplayer2.source.MediaSource.MediaPeriodId;
+import com.readwise.android.exoplayer2.source.MediaSource.MediaSourceCaller;
+import com.readwise.android.exoplayer2.source.ShuffleOrder.DefaultShuffleOrder;
+import com.readwise.android.exoplayer2.testutil.DummyMainThread;
+import com.readwise.android.exoplayer2.testutil.FakeMediaSource;
+import com.readwise.android.exoplayer2.testutil.FakeShuffleOrder;
+import com.readwise.android.exoplayer2.testutil.FakeTimeline;
+import com.readwise.android.exoplayer2.testutil.FakeTimeline.TimelineWindowDefinition;
+import com.readwise.android.exoplayer2.testutil.MediaSourceTestRunner;
+import com.readwise.android.exoplayer2.testutil.TimelineAsserts;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;

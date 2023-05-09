@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.robolectric;
+package com.readwise.android.exoplayer2.robolectric;
 
 import android.media.AudioFormat;
 import android.media.MediaCrypto;
 import android.media.MediaFormat;
 import android.view.Surface;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.audio.MpegAudioUtil;
-import com.google.android.exoplayer2.testutil.TestUtil;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.audio.MpegAudioUtil;
+import com.readwise.android.exoplayer2.testutil.TestUtil;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;

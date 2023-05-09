@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.extractor.wav;
+package com.readwise.android.exoplayer2.extractor.wav;
 
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.extractor.SeekMap;
-import com.google.android.exoplayer2.extractor.SeekPoint;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.extractor.SeekMap;
+import com.readwise.android.exoplayer2.extractor.SeekPoint;
+import com.readwise.android.exoplayer2.util.Util;
 
 /* package */ final class WavSeekMap implements SeekMap {
 

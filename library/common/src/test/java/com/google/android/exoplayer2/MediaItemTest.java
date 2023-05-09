@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
@@ -21,9 +21,9 @@ import static org.junit.Assert.assertThrows;
 import android.net.Uri;
 import android.os.Bundle;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.MediaItem.RequestMetadata;
-import com.google.android.exoplayer2.offline.StreamKey;
-import com.google.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.MediaItem.RequestMetadata;
+import com.readwise.android.exoplayer2.offline.StreamKey;
+import com.readwise.android.exoplayer2.util.MimeTypes;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
 import java.util.ArrayList;

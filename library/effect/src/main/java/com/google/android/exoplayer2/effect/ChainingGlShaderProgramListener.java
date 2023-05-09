@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.effect;
+package com.readwise.android.exoplayer2.effect;
 
 import android.util.Pair;
 import androidx.annotation.GuardedBy;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.effect.GlShaderProgram.InputListener;
-import com.google.android.exoplayer2.effect.GlShaderProgram.OutputListener;
-import com.google.android.exoplayer2.util.GlTextureInfo;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.effect.GlShaderProgram.InputListener;
+import com.readwise.android.exoplayer2.effect.GlShaderProgram.OutputListener;
+import com.readwise.android.exoplayer2.util.GlTextureInfo;
 import java.util.ArrayDeque;
 import java.util.Queue;
 

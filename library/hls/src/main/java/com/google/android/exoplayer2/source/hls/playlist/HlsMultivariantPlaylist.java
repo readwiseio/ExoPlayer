@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.hls.playlist;
+package com.readwise.android.exoplayer2.source.hls.playlist;
 
 import android.net.Uri;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.drm.DrmInitData;
-import com.google.android.exoplayer2.offline.StreamKey;
-import com.google.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.drm.DrmInitData;
+import com.readwise.android.exoplayer2.offline.StreamKey;
+import com.readwise.android.exoplayer2.util.MimeTypes;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.analytics</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.analytics</a></div>
 <h2 title="Interface PlaybackSessionManager" class="title">Interface PlaybackSessionManager</h2>
 </div>
 <div class="contentContainer">
@@ -122,7 +122,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Known Implementing Classes:</dt>
-<dd><code><a href="DefaultPlaybackSessionManager.html" title="class in com.google.android.exoplayer2.analytics">DefaultPlaybackSessionManager</a></code></dd>
+<dd><code><a href="DefaultPlaybackSessionManager.html" title="class in com.readwise.android.exoplayer2.analytics">DefaultPlaybackSessionManager</a></code></dd>
 </dl>
 <hr>
 <pre>public interface <span class="typeNameLabel">PlaybackSessionManager</span></pre>
@@ -152,7 +152,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static interface&nbsp;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="PlaybackSessionManager.Listener.html" title="interface in com.google.android.exoplayer2.analytics">PlaybackSessionManager.Listener</a></span></code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="PlaybackSessionManager.Listener.html" title="interface in com.readwise.android.exoplayer2.analytics">PlaybackSessionManager.Listener</a></span></code></th>
 <td class="colLast">
 <div class="block">A listener for session updates.</div>
 </td>
@@ -177,7 +177,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>boolean</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#belongsToSession(com.google.android.exoplayer2.analytics.AnalyticsListener.EventTime,java.lang.String)">belongsToSession</a></span>&#8203;(<a href="AnalyticsListener.EventTime.html" title="class in com.google.android.exoplayer2.analytics">AnalyticsListener.EventTime</a>&nbsp;eventTime,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#belongsToSession(com.readwise.android.exoplayer2.analytics.AnalyticsListener.EventTime,java.lang.String)">belongsToSession</a></span>&#8203;(<a href="AnalyticsListener.EventTime.html" title="class in com.readwise.android.exoplayer2.analytics">AnalyticsListener.EventTime</a>&nbsp;eventTime,
                 <a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;sessionId)</code></th>
 <td class="colLast">
 <div class="block">Returns whether an event time belong to a session.</div>
@@ -185,9 +185,9 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#finishAllSessions(com.google.android.exoplayer2.analytics.AnalyticsListener.EventTime)">finishAllSessions</a></span>&#8203;(<a href="AnalyticsListener.EventTime.html" title="class in com.google.android.exoplayer2.analytics">AnalyticsListener.EventTime</a>&nbsp;eventTime)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#finishAllSessions(com.readwise.android.exoplayer2.analytics.AnalyticsListener.EventTime)">finishAllSessions</a></span>&#8203;(<a href="AnalyticsListener.EventTime.html" title="class in com.readwise.android.exoplayer2.analytics">AnalyticsListener.EventTime</a>&nbsp;eventTime)</code></th>
 <td class="colLast">
-<div class="block">Finishes all existing sessions and calls their respective <a href="PlaybackSessionManager.Listener.html#onSessionFinished(com.google.android.exoplayer2.analytics.AnalyticsListener.EventTime,java.lang.String,boolean)"><code>PlaybackSessionManager.Listener.onSessionFinished(EventTime, String, boolean)</code></a> callback.</div>
+<div class="block">Finishes all existing sessions and calls their respective <a href="PlaybackSessionManager.Listener.html#onSessionFinished(com.readwise.android.exoplayer2.analytics.AnalyticsListener.EventTime,java.lang.String,boolean)"><code>PlaybackSessionManager.Listener.onSessionFinished(EventTime, String, boolean)</code></a> callback.</div>
 </td>
 </tr>
 <tr id="i2" class="altColor">
@@ -200,39 +200,39 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i3" class="rowColor">
 <td class="colFirst"><code><a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a></code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getSessionForMediaPeriodId(com.google.android.exoplayer2.Timeline,com.google.android.exoplayer2.source.MediaSource.MediaPeriodId)">getSessionForMediaPeriodId</a></span>&#8203;(<a href="../Timeline.html" title="class in com.google.android.exoplayer2">Timeline</a>&nbsp;timeline,
-                          <a href="../source/MediaSource.MediaPeriodId.html" title="class in com.google.android.exoplayer2.source">MediaSource.MediaPeriodId</a>&nbsp;mediaPeriodId)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getSessionForMediaPeriodId(com.readwise.android.exoplayer2.Timeline,com.readwise.android.exoplayer2.source.MediaSource.MediaPeriodId)">getSessionForMediaPeriodId</a></span>&#8203;(<a href="../Timeline.html" title="class in com.readwise.android.exoplayer2">Timeline</a>&nbsp;timeline,
+                          <a href="../source/MediaSource.MediaPeriodId.html" title="class in com.readwise.android.exoplayer2.source">MediaSource.MediaPeriodId</a>&nbsp;mediaPeriodId)</code></th>
 <td class="colLast">
 <div class="block">Returns the session identifier for the given media period id.</div>
 </td>
 </tr>
 <tr id="i4" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setListener(com.google.android.exoplayer2.analytics.PlaybackSessionManager.Listener)">setListener</a></span>&#8203;(<a href="PlaybackSessionManager.Listener.html" title="interface in com.google.android.exoplayer2.analytics">PlaybackSessionManager.Listener</a>&nbsp;listener)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setListener(com.readwise.android.exoplayer2.analytics.PlaybackSessionManager.Listener)">setListener</a></span>&#8203;(<a href="PlaybackSessionManager.Listener.html" title="interface in com.readwise.android.exoplayer2.analytics">PlaybackSessionManager.Listener</a>&nbsp;listener)</code></th>
 <td class="colLast">
 <div class="block">Sets the listener to be notified of session updates.</div>
 </td>
 </tr>
 <tr id="i5" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#updateSessions(com.google.android.exoplayer2.analytics.AnalyticsListener.EventTime)">updateSessions</a></span>&#8203;(<a href="AnalyticsListener.EventTime.html" title="class in com.google.android.exoplayer2.analytics">AnalyticsListener.EventTime</a>&nbsp;eventTime)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#updateSessions(com.readwise.android.exoplayer2.analytics.AnalyticsListener.EventTime)">updateSessions</a></span>&#8203;(<a href="AnalyticsListener.EventTime.html" title="class in com.readwise.android.exoplayer2.analytics">AnalyticsListener.EventTime</a>&nbsp;eventTime)</code></th>
 <td class="colLast">
-<div class="block">Updates or creates sessions based on a player <a href="AnalyticsListener.EventTime.html" title="class in com.google.android.exoplayer2.analytics"><code>AnalyticsListener.EventTime</code></a>.</div>
+<div class="block">Updates or creates sessions based on a player <a href="AnalyticsListener.EventTime.html" title="class in com.readwise.android.exoplayer2.analytics"><code>AnalyticsListener.EventTime</code></a>.</div>
 </td>
 </tr>
 <tr id="i6" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#updateSessionsWithDiscontinuity(com.google.android.exoplayer2.analytics.AnalyticsListener.EventTime,@com.google.android.exoplayer2.Player.DiscontinuityReasonint)">updateSessionsWithDiscontinuity</a></span>&#8203;(<a href="AnalyticsListener.EventTime.html" title="class in com.google.android.exoplayer2.analytics">AnalyticsListener.EventTime</a>&nbsp;eventTime,
-                               @com.google.android.exoplayer2.Player.DiscontinuityReason int&nbsp;reason)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#updateSessionsWithDiscontinuity(com.readwise.android.exoplayer2.analytics.AnalyticsListener.EventTime,@com.readwise.android.exoplayer2.Player.DiscontinuityReasonint)">updateSessionsWithDiscontinuity</a></span>&#8203;(<a href="AnalyticsListener.EventTime.html" title="class in com.readwise.android.exoplayer2.analytics">AnalyticsListener.EventTime</a>&nbsp;eventTime,
+                               @com.readwise.android.exoplayer2.Player.DiscontinuityReason int&nbsp;reason)</code></th>
 <td class="colLast">
-<div class="block">Updates or creates sessions based on a position discontinuity at <a href="AnalyticsListener.EventTime.html" title="class in com.google.android.exoplayer2.analytics"><code>AnalyticsListener.EventTime</code></a>.</div>
+<div class="block">Updates or creates sessions based on a position discontinuity at <a href="AnalyticsListener.EventTime.html" title="class in com.readwise.android.exoplayer2.analytics"><code>AnalyticsListener.EventTime</code></a>.</div>
 </td>
 </tr>
 <tr id="i7" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#updateSessionsWithTimelineChange(com.google.android.exoplayer2.analytics.AnalyticsListener.EventTime)">updateSessionsWithTimelineChange</a></span>&#8203;(<a href="AnalyticsListener.EventTime.html" title="class in com.google.android.exoplayer2.analytics">AnalyticsListener.EventTime</a>&nbsp;eventTime)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#updateSessionsWithTimelineChange(com.readwise.android.exoplayer2.analytics.AnalyticsListener.EventTime)">updateSessionsWithTimelineChange</a></span>&#8203;(<a href="AnalyticsListener.EventTime.html" title="class in com.readwise.android.exoplayer2.analytics">AnalyticsListener.EventTime</a>&nbsp;eventTime)</code></th>
 <td class="colLast">
-<div class="block">Updates or creates sessions based on a <a href="../Timeline.html" title="class in com.google.android.exoplayer2"><code>Timeline</code></a> change at <a href="AnalyticsListener.EventTime.html" title="class in com.google.android.exoplayer2.analytics"><code>AnalyticsListener.EventTime</code></a>.</div>
+<div class="block">Updates or creates sessions based on a <a href="../Timeline.html" title="class in com.readwise.android.exoplayer2"><code>Timeline</code></a> change at <a href="AnalyticsListener.EventTime.html" title="class in com.readwise.android.exoplayer2.analytics"><code>AnalyticsListener.EventTime</code></a>.</div>
 </td>
 </tr>
 </table>
@@ -252,109 +252,109 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="setListener(com.google.android.exoplayer2.analytics.PlaybackSessionManager.Listener)">
+<a id="setListener(com.readwise.android.exoplayer2.analytics.PlaybackSessionManager.Listener)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>setListener</h4>
-<pre class="methodSignature">void&nbsp;setListener&#8203;(<a href="PlaybackSessionManager.Listener.html" title="interface in com.google.android.exoplayer2.analytics">PlaybackSessionManager.Listener</a>&nbsp;listener)</pre>
+<pre class="methodSignature">void&nbsp;setListener&#8203;(<a href="PlaybackSessionManager.Listener.html" title="interface in com.readwise.android.exoplayer2.analytics">PlaybackSessionManager.Listener</a>&nbsp;listener)</pre>
 <div class="block">Sets the listener to be notified of session updates. Must be called before the session manager
  is used.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>listener</code> - The <a href="PlaybackSessionManager.Listener.html" title="interface in com.google.android.exoplayer2.analytics"><code>PlaybackSessionManager.Listener</code></a> to be notified of session updates.</dd>
+<dd><code>listener</code> - The <a href="PlaybackSessionManager.Listener.html" title="interface in com.readwise.android.exoplayer2.analytics"><code>PlaybackSessionManager.Listener</code></a> to be notified of session updates.</dd>
 </dl>
 </li>
 </ul>
-<a id="getSessionForMediaPeriodId(com.google.android.exoplayer2.Timeline,com.google.android.exoplayer2.source.MediaSource.MediaPeriodId)">
+<a id="getSessionForMediaPeriodId(com.readwise.android.exoplayer2.Timeline,com.readwise.android.exoplayer2.source.MediaSource.MediaPeriodId)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>getSessionForMediaPeriodId</h4>
-<pre class="methodSignature"><a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink">String</a>&nbsp;getSessionForMediaPeriodId&#8203;(<a href="../Timeline.html" title="class in com.google.android.exoplayer2" target="_top">Timeline</a>&nbsp;timeline,
-                                  <a href="../source/MediaSource.MediaPeriodId.html" title="class in com.google.android.exoplayer2.source">MediaSource.MediaPeriodId</a>&nbsp;mediaPeriodId)</pre>
+<pre class="methodSignature"><a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink">String</a>&nbsp;getSessionForMediaPeriodId&#8203;(<a href="../Timeline.html" title="class in com.readwise.android.exoplayer2" target="_top">Timeline</a>&nbsp;timeline,
+                                  <a href="../source/MediaSource.MediaPeriodId.html" title="class in com.readwise.android.exoplayer2.source">MediaSource.MediaPeriodId</a>&nbsp;mediaPeriodId)</pre>
 <div class="block">Returns the session identifier for the given media period id.
 
  <p>Note that this will reserve a new session identifier if it doesn't exist yet, but will not
- call any <a href="PlaybackSessionManager.Listener.html" title="interface in com.google.android.exoplayer2.analytics"><code>PlaybackSessionManager.Listener</code></a> callbacks.</div>
+ call any <a href="PlaybackSessionManager.Listener.html" title="interface in com.readwise.android.exoplayer2.analytics"><code>PlaybackSessionManager.Listener</code></a> callbacks.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>timeline</code> - The timeline, <code>mediaPeriodId</code> is part of.</dd>
-<dd><code>mediaPeriodId</code> - A <a href="../source/MediaSource.MediaPeriodId.html" title="class in com.google.android.exoplayer2.source"><code>MediaSource.MediaPeriodId</code></a>.</dd>
+<dd><code>mediaPeriodId</code> - A <a href="../source/MediaSource.MediaPeriodId.html" title="class in com.readwise.android.exoplayer2.source"><code>MediaSource.MediaPeriodId</code></a>.</dd>
 </dl>
 </li>
 </ul>
-<a id="belongsToSession(com.google.android.exoplayer2.analytics.AnalyticsListener.EventTime,java.lang.String)">
+<a id="belongsToSession(com.readwise.android.exoplayer2.analytics.AnalyticsListener.EventTime,java.lang.String)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>belongsToSession</h4>
-<pre class="methodSignature">boolean&nbsp;belongsToSession&#8203;(<a href="AnalyticsListener.EventTime.html" title="class in com.google.android.exoplayer2.analytics">AnalyticsListener.EventTime</a>&nbsp;eventTime,
+<pre class="methodSignature">boolean&nbsp;belongsToSession&#8203;(<a href="AnalyticsListener.EventTime.html" title="class in com.readwise.android.exoplayer2.analytics">AnalyticsListener.EventTime</a>&nbsp;eventTime,
                          <a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;sessionId)</pre>
 <div class="block">Returns whether an event time belong to a session.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>eventTime</code> - The <a href="AnalyticsListener.EventTime.html" title="class in com.google.android.exoplayer2.analytics"><code>AnalyticsListener.EventTime</code></a>.</dd>
+<dd><code>eventTime</code> - The <a href="AnalyticsListener.EventTime.html" title="class in com.readwise.android.exoplayer2.analytics"><code>AnalyticsListener.EventTime</code></a>.</dd>
 <dd><code>sessionId</code> - A session identifier.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>Whether the event belongs to the specified session.</dd>
 </dl>
 </li>
 </ul>
-<a id="updateSessions(com.google.android.exoplayer2.analytics.AnalyticsListener.EventTime)">
+<a id="updateSessions(com.readwise.android.exoplayer2.analytics.AnalyticsListener.EventTime)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>updateSessions</h4>
-<pre class="methodSignature">void&nbsp;updateSessions&#8203;(<a href="AnalyticsListener.EventTime.html" title="class in com.google.android.exoplayer2.analytics">AnalyticsListener.EventTime</a>&nbsp;eventTime)</pre>
-<div class="block">Updates or creates sessions based on a player <a href="AnalyticsListener.EventTime.html" title="class in com.google.android.exoplayer2.analytics"><code>AnalyticsListener.EventTime</code></a>.
+<pre class="methodSignature">void&nbsp;updateSessions&#8203;(<a href="AnalyticsListener.EventTime.html" title="class in com.readwise.android.exoplayer2.analytics">AnalyticsListener.EventTime</a>&nbsp;eventTime)</pre>
+<div class="block">Updates or creates sessions based on a player <a href="AnalyticsListener.EventTime.html" title="class in com.readwise.android.exoplayer2.analytics"><code>AnalyticsListener.EventTime</code></a>.
 
- <p>Call <a href="#updateSessionsWithTimelineChange(com.google.android.exoplayer2.analytics.AnalyticsListener.EventTime)"><code>updateSessionsWithTimelineChange(EventTime)</code></a> or <a href="#updateSessionsWithDiscontinuity(com.google.android.exoplayer2.analytics.AnalyticsListener.EventTime,@com.google.android.exoplayer2.Player.DiscontinuityReasonint)"><code>updateSessionsWithDiscontinuity(EventTime, int)</code></a> if the event is a <a href="../Timeline.html" title="class in com.google.android.exoplayer2"><code>Timeline</code></a> change or
+ <p>Call <a href="#updateSessionsWithTimelineChange(com.readwise.android.exoplayer2.analytics.AnalyticsListener.EventTime)"><code>updateSessionsWithTimelineChange(EventTime)</code></a> or <a href="#updateSessionsWithDiscontinuity(com.readwise.android.exoplayer2.analytics.AnalyticsListener.EventTime,@com.readwise.android.exoplayer2.Player.DiscontinuityReasonint)"><code>updateSessionsWithDiscontinuity(EventTime, int)</code></a> if the event is a <a href="../Timeline.html" title="class in com.readwise.android.exoplayer2"><code>Timeline</code></a> change or
  a position discontinuity respectively.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>eventTime</code> - The <a href="AnalyticsListener.EventTime.html" title="class in com.google.android.exoplayer2.analytics"><code>AnalyticsListener.EventTime</code></a>.</dd>
+<dd><code>eventTime</code> - The <a href="AnalyticsListener.EventTime.html" title="class in com.readwise.android.exoplayer2.analytics"><code>AnalyticsListener.EventTime</code></a>.</dd>
 </dl>
 </li>
 </ul>
-<a id="updateSessionsWithTimelineChange(com.google.android.exoplayer2.analytics.AnalyticsListener.EventTime)">
+<a id="updateSessionsWithTimelineChange(com.readwise.android.exoplayer2.analytics.AnalyticsListener.EventTime)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>updateSessionsWithTimelineChange</h4>
-<pre class="methodSignature">void&nbsp;updateSessionsWithTimelineChange&#8203;(<a href="AnalyticsListener.EventTime.html" title="class in com.google.android.exoplayer2.analytics">AnalyticsListener.EventTime</a>&nbsp;eventTime)</pre>
-<div class="block">Updates or creates sessions based on a <a href="../Timeline.html" title="class in com.google.android.exoplayer2"><code>Timeline</code></a> change at <a href="AnalyticsListener.EventTime.html" title="class in com.google.android.exoplayer2.analytics"><code>AnalyticsListener.EventTime</code></a>.
+<pre class="methodSignature">void&nbsp;updateSessionsWithTimelineChange&#8203;(<a href="AnalyticsListener.EventTime.html" title="class in com.readwise.android.exoplayer2.analytics">AnalyticsListener.EventTime</a>&nbsp;eventTime)</pre>
+<div class="block">Updates or creates sessions based on a <a href="../Timeline.html" title="class in com.readwise.android.exoplayer2"><code>Timeline</code></a> change at <a href="AnalyticsListener.EventTime.html" title="class in com.readwise.android.exoplayer2.analytics"><code>AnalyticsListener.EventTime</code></a>.
 
- <p>Should be called instead of <a href="#updateSessions(com.google.android.exoplayer2.analytics.AnalyticsListener.EventTime)"><code>updateSessions(EventTime)</code></a> if a <a href="../Timeline.html" title="class in com.google.android.exoplayer2"><code>Timeline</code></a> change
+ <p>Should be called instead of <a href="#updateSessions(com.readwise.android.exoplayer2.analytics.AnalyticsListener.EventTime)"><code>updateSessions(EventTime)</code></a> if a <a href="../Timeline.html" title="class in com.readwise.android.exoplayer2"><code>Timeline</code></a> change
  occurred.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>eventTime</code> - The <a href="AnalyticsListener.EventTime.html" title="class in com.google.android.exoplayer2.analytics"><code>AnalyticsListener.EventTime</code></a> with the timeline change.</dd>
+<dd><code>eventTime</code> - The <a href="AnalyticsListener.EventTime.html" title="class in com.readwise.android.exoplayer2.analytics"><code>AnalyticsListener.EventTime</code></a> with the timeline change.</dd>
 </dl>
 </li>
 </ul>
-<a id="updateSessionsWithDiscontinuity(com.google.android.exoplayer2.analytics.AnalyticsListener.EventTime,@com.google.android.exoplayer2.Player.DiscontinuityReasonint)">
+<a id="updateSessionsWithDiscontinuity(com.readwise.android.exoplayer2.analytics.AnalyticsListener.EventTime,@com.readwise.android.exoplayer2.Player.DiscontinuityReasonint)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>updateSessionsWithDiscontinuity</h4>
-<pre class="methodSignature">void&nbsp;updateSessionsWithDiscontinuity&#8203;(<a href="AnalyticsListener.EventTime.html" title="class in com.google.android.exoplayer2.analytics">AnalyticsListener.EventTime</a>&nbsp;eventTime,
-                                     <a href="../Player.DiscontinuityReason.html" title="annotation in com.google.android.exoplayer2">@DiscontinuityReason</a>
-                                     @com.google.android.exoplayer2.Player.DiscontinuityReason int&nbsp;reason)</pre>
-<div class="block">Updates or creates sessions based on a position discontinuity at <a href="AnalyticsListener.EventTime.html" title="class in com.google.android.exoplayer2.analytics"><code>AnalyticsListener.EventTime</code></a>.
+<pre class="methodSignature">void&nbsp;updateSessionsWithDiscontinuity&#8203;(<a href="AnalyticsListener.EventTime.html" title="class in com.readwise.android.exoplayer2.analytics">AnalyticsListener.EventTime</a>&nbsp;eventTime,
+                                     <a href="../Player.DiscontinuityReason.html" title="annotation in com.readwise.android.exoplayer2">@DiscontinuityReason</a>
+                                     @com.readwise.android.exoplayer2.Player.DiscontinuityReason int&nbsp;reason)</pre>
+<div class="block">Updates or creates sessions based on a position discontinuity at <a href="AnalyticsListener.EventTime.html" title="class in com.readwise.android.exoplayer2.analytics"><code>AnalyticsListener.EventTime</code></a>.
 
- <p>Should be called instead of <a href="#updateSessions(com.google.android.exoplayer2.analytics.AnalyticsListener.EventTime)"><code>updateSessions(EventTime)</code></a> if a position discontinuity
+ <p>Should be called instead of <a href="#updateSessions(com.readwise.android.exoplayer2.analytics.AnalyticsListener.EventTime)"><code>updateSessions(EventTime)</code></a> if a position discontinuity
  occurred.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>eventTime</code> - The <a href="AnalyticsListener.EventTime.html" title="class in com.google.android.exoplayer2.analytics"><code>AnalyticsListener.EventTime</code></a> of the position discontinuity.</dd>
-<dd><code>reason</code> - The <a href="../Player.DiscontinuityReason.html" title="annotation in com.google.android.exoplayer2"><code>Player.DiscontinuityReason</code></a>.</dd>
+<dd><code>eventTime</code> - The <a href="AnalyticsListener.EventTime.html" title="class in com.readwise.android.exoplayer2.analytics"><code>AnalyticsListener.EventTime</code></a> of the position discontinuity.</dd>
+<dd><code>reason</code> - The <a href="../Player.DiscontinuityReason.html" title="annotation in com.readwise.android.exoplayer2"><code>Player.DiscontinuityReason</code></a>.</dd>
 </dl>
 </li>
 </ul>
@@ -370,14 +370,14 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
  null</code> if there no such session.</div>
 </li>
 </ul>
-<a id="finishAllSessions(com.google.android.exoplayer2.analytics.AnalyticsListener.EventTime)">
+<a id="finishAllSessions(com.readwise.android.exoplayer2.analytics.AnalyticsListener.EventTime)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>finishAllSessions</h4>
-<pre class="methodSignature">void&nbsp;finishAllSessions&#8203;(<a href="AnalyticsListener.EventTime.html" title="class in com.google.android.exoplayer2.analytics">AnalyticsListener.EventTime</a>&nbsp;eventTime)</pre>
-<div class="block">Finishes all existing sessions and calls their respective <a href="PlaybackSessionManager.Listener.html#onSessionFinished(com.google.android.exoplayer2.analytics.AnalyticsListener.EventTime,java.lang.String,boolean)"><code>PlaybackSessionManager.Listener.onSessionFinished(EventTime, String, boolean)</code></a> callback.</div>
+<pre class="methodSignature">void&nbsp;finishAllSessions&#8203;(<a href="AnalyticsListener.EventTime.html" title="class in com.readwise.android.exoplayer2.analytics">AnalyticsListener.EventTime</a>&nbsp;eventTime)</pre>
+<div class="block">Finishes all existing sessions and calls their respective <a href="PlaybackSessionManager.Listener.html#onSessionFinished(com.readwise.android.exoplayer2.analytics.AnalyticsListener.EventTime,java.lang.String,boolean)"><code>PlaybackSessionManager.Listener.onSessionFinished(EventTime, String, boolean)</code></a> callback.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>eventTime</code> - The event time at which sessions are finished.</dd>

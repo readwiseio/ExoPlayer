@@ -13,22 +13,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
-import static com.google.android.exoplayer2.testutil.FakeMultiPeriodLiveTimeline.AD_PERIOD_DURATION_MS;
-import static com.google.android.exoplayer2.testutil.FakeMultiPeriodLiveTimeline.PERIOD_DURATION_MS;
+import static com.readwise.android.exoplayer2.testutil.FakeMultiPeriodLiveTimeline.AD_PERIOD_DURATION_MS;
+import static com.readwise.android.exoplayer2.testutil.FakeMultiPeriodLiveTimeline.PERIOD_DURATION_MS;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.MediaItem.LiveConfiguration;
-import com.google.android.exoplayer2.source.ShuffleOrder.DefaultShuffleOrder;
-import com.google.android.exoplayer2.source.ads.AdPlaybackState;
-import com.google.android.exoplayer2.testutil.FakeMultiPeriodLiveTimeline;
-import com.google.android.exoplayer2.testutil.FakeTimeline;
-import com.google.android.exoplayer2.testutil.FakeTimeline.TimelineWindowDefinition;
-import com.google.android.exoplayer2.testutil.TimelineAsserts;
+import com.readwise.android.exoplayer2.MediaItem.LiveConfiguration;
+import com.readwise.android.exoplayer2.source.ShuffleOrder.DefaultShuffleOrder;
+import com.readwise.android.exoplayer2.source.ads.AdPlaybackState;
+import com.readwise.android.exoplayer2.testutil.FakeMultiPeriodLiveTimeline;
+import com.readwise.android.exoplayer2.testutil.FakeTimeline;
+import com.readwise.android.exoplayer2.testutil.FakeTimeline.TimelineWindowDefinition;
+import com.readwise.android.exoplayer2.testutil.TimelineAsserts;
 import com.google.common.collect.ImmutableList;
 import org.junit.Test;
 import org.junit.runner.RunWith;

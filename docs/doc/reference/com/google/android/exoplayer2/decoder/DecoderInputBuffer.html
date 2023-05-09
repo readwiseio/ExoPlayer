@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.decoder</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.decoder</a></div>
 <h2 title="Class DecoderInputBuffer" class="title">Class DecoderInputBuffer</h2>
 </div>
 <div class="contentContainer">
@@ -121,10 +121,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li><a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">java.lang.Object</a></li>
 <li>
 <ul class="inheritance">
-<li><a href="Buffer.html" title="class in com.google.android.exoplayer2.decoder">com.google.android.exoplayer2.decoder.Buffer</a></li>
+<li><a href="Buffer.html" title="class in com.readwise.android.exoplayer2.decoder">com.readwise.android.exoplayer2.decoder.Buffer</a></li>
 <li>
 <ul class="inheritance">
-<li>com.google.android.exoplayer2.decoder.DecoderInputBuffer</li>
+<li>com.readwise.android.exoplayer2.decoder.DecoderInputBuffer</li>
 </ul>
 </li>
 </ul>
@@ -135,11 +135,11 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>Direct Known Subclasses:</dt>
-<dd><code><a href="../metadata/MetadataInputBuffer.html" title="class in com.google.android.exoplayer2.metadata">MetadataInputBuffer</a></code>, <code><a href="../text/SubtitleInputBuffer.html" title="class in com.google.android.exoplayer2.text">SubtitleInputBuffer</a></code></dd>
+<dd><code><a href="../metadata/MetadataInputBuffer.html" title="class in com.readwise.android.exoplayer2.metadata">MetadataInputBuffer</a></code>, <code><a href="../text/SubtitleInputBuffer.html" title="class in com.readwise.android.exoplayer2.text">SubtitleInputBuffer</a></code></dd>
 </dl>
 <hr>
 <pre>public class <span class="typeNameLabel">DecoderInputBuffer</span>
-extends <a href="Buffer.html" title="class in com.google.android.exoplayer2.decoder">Buffer</a></pre>
+extends <a href="Buffer.html" title="class in com.readwise.android.exoplayer2.decoder">Buffer</a></pre>
 <div class="block">Holds input for a decoder.</div>
 </li>
 </ul>
@@ -163,16 +163,16 @@ extends <a href="Buffer.html" title="class in com.google.android.exoplayer2.deco
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static interface&nbsp;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="DecoderInputBuffer.BufferReplacementMode.html" title="annotation in com.google.android.exoplayer2.decoder">DecoderInputBuffer.BufferReplacementMode</a></span></code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="DecoderInputBuffer.BufferReplacementMode.html" title="annotation in com.readwise.android.exoplayer2.decoder">DecoderInputBuffer.BufferReplacementMode</a></span></code></th>
 <td class="colLast">
 <div class="block">The buffer replacement mode.</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>static class&nbsp;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="DecoderInputBuffer.InsufficientCapacityException.html" title="class in com.google.android.exoplayer2.decoder">DecoderInputBuffer.InsufficientCapacityException</a></span></code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="DecoderInputBuffer.InsufficientCapacityException.html" title="class in com.readwise.android.exoplayer2.decoder">DecoderInputBuffer.InsufficientCapacityException</a></span></code></th>
 <td class="colLast">
-<div class="block">Thrown when an attempt is made to write into a <a href="DecoderInputBuffer.html" title="class in com.google.android.exoplayer2.decoder"><code>DecoderInputBuffer</code></a> whose <a href="#bufferReplacementMode"><code>bufferReplacementMode</code></a> is <a href="#BUFFER_REPLACEMENT_MODE_DISABLED"><code>BUFFER_REPLACEMENT_MODE_DISABLED</code></a> and who <a href="#data"><code>data</code></a>
+<div class="block">Thrown when an attempt is made to write into a <a href="DecoderInputBuffer.html" title="class in com.readwise.android.exoplayer2.decoder"><code>DecoderInputBuffer</code></a> whose <a href="#bufferReplacementMode"><code>bufferReplacementMode</code></a> is <a href="#BUFFER_REPLACEMENT_MODE_DISABLED"><code>BUFFER_REPLACEMENT_MODE_DISABLED</code></a> and who <a href="#data"><code>data</code></a>
  capacity is smaller than required.</div>
 </td>
 </tr>
@@ -216,10 +216,10 @@ extends <a href="Buffer.html" title="class in com.google.android.exoplayer2.deco
 </td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code><a href="CryptoInfo.html" title="class in com.google.android.exoplayer2.decoder">CryptoInfo</a></code></td>
+<td class="colFirst"><code><a href="CryptoInfo.html" title="class in com.readwise.android.exoplayer2.decoder">CryptoInfo</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#cryptoInfo">cryptoInfo</a></span></code></th>
 <td class="colLast">
-<div class="block"><a href="CryptoInfo.html" title="class in com.google.android.exoplayer2.decoder"><code>CryptoInfo</code></a> for encrypted data.</div>
+<div class="block"><a href="CryptoInfo.html" title="class in com.readwise.android.exoplayer2.decoder"><code>CryptoInfo</code></a> for encrypted data.</div>
 </td>
 </tr>
 <tr class="altColor">
@@ -230,10 +230,10 @@ extends <a href="Buffer.html" title="class in com.google.android.exoplayer2.deco
 </td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code><a href="../Format.html" title="class in com.google.android.exoplayer2">Format</a></code></td>
+<td class="colFirst"><code><a href="../Format.html" title="class in com.readwise.android.exoplayer2">Format</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#format">format</a></span></code></th>
 <td class="colLast">
-<div class="block">The <a href="../Format.html" title="class in com.google.android.exoplayer2"><code>Format</code></a>.</div>
+<div class="block">The <a href="../Format.html" title="class in com.readwise.android.exoplayer2"><code>Format</code></a>.</div>
 </td>
 </tr>
 <tr class="altColor">
@@ -276,13 +276,13 @@ extends <a href="Buffer.html" title="class in com.google.android.exoplayer2.deco
 <th class="colLast" scope="col">Description</th>
 </tr>
 <tr class="altColor">
-<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(@com.google.android.exoplayer2.decoder.DecoderInputBuffer.BufferReplacementModeint)">DecoderInputBuffer</a></span>&#8203;(@com.google.android.exoplayer2.decoder.DecoderInputBuffer.BufferReplacementMode int&nbsp;bufferReplacementMode)</code></th>
+<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(@com.readwise.android.exoplayer2.decoder.DecoderInputBuffer.BufferReplacementModeint)">DecoderInputBuffer</a></span>&#8203;(@com.readwise.android.exoplayer2.decoder.DecoderInputBuffer.BufferReplacementMode int&nbsp;bufferReplacementMode)</code></th>
 <td class="colLast">
 <div class="block">Creates a new instance.</div>
 </td>
 </tr>
 <tr class="rowColor">
-<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(@com.google.android.exoplayer2.decoder.DecoderInputBuffer.BufferReplacementModeint,int)">DecoderInputBuffer</a></span>&#8203;(@com.google.android.exoplayer2.decoder.DecoderInputBuffer.BufferReplacementMode int&nbsp;bufferReplacementMode,
+<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(@com.readwise.android.exoplayer2.decoder.DecoderInputBuffer.BufferReplacementModeint,int)">DecoderInputBuffer</a></span>&#8203;(@com.readwise.android.exoplayer2.decoder.DecoderInputBuffer.BufferReplacementMode int&nbsp;bufferReplacementMode,
                   int&nbsp;paddingSize)</code></th>
 <td class="colLast">
 <div class="block">Creates a new instance.</div>
@@ -336,7 +336,7 @@ extends <a href="Buffer.html" title="class in com.google.android.exoplayer2.deco
 </td>
 </tr>
 <tr id="i4" class="altColor">
-<td class="colFirst"><code>static <a href="DecoderInputBuffer.html" title="class in com.google.android.exoplayer2.decoder">DecoderInputBuffer</a></code></td>
+<td class="colFirst"><code>static <a href="DecoderInputBuffer.html" title="class in com.readwise.android.exoplayer2.decoder">DecoderInputBuffer</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#newNoDataInstance()">newNoDataInstance</a></span>()</code></th>
 <td class="colLast">
 <div class="block">Returns a new instance that's not able to hold any data.</div>
@@ -352,11 +352,11 @@ extends <a href="Buffer.html" title="class in com.google.android.exoplayer2.deco
 </tr>
 </table>
 <ul class="blockList">
-<li class="blockList"><a id="methods.inherited.from.class.com.google.android.exoplayer2.decoder.Buffer">
+<li class="blockList"><a id="methods.inherited.from.class.com.readwise.android.exoplayer2.decoder.Buffer">
 <!--   -->
 </a>
-<h3>Methods inherited from class&nbsp;com.google.android.exoplayer2.decoder.<a href="Buffer.html" title="class in com.google.android.exoplayer2.decoder">Buffer</a></h3>
-<code><a href="Buffer.html#addFlag(@com.google.android.exoplayer2.C.BufferFlagsint)">addFlag</a>, <a href="Buffer.html#clearFlag(@com.google.android.exoplayer2.C.BufferFlagsint)">clearFlag</a>, <a href="Buffer.html#getFlag(@com.google.android.exoplayer2.C.BufferFlagsint)">getFlag</a>, <a href="Buffer.html#hasSupplementalData()">hasSupplementalData</a>, <a href="Buffer.html#isDecodeOnly()">isDecodeOnly</a>, <a href="Buffer.html#isEndOfStream()">isEndOfStream</a>, <a href="Buffer.html#isFirstSample()">isFirstSample</a>, <a href="Buffer.html#isKeyFrame()">isKeyFrame</a>, <a href="Buffer.html#setFlags(@com.google.android.exoplayer2.C.BufferFlagsint)">setFlags</a></code></li>
+<h3>Methods inherited from class&nbsp;com.readwise.android.exoplayer2.decoder.<a href="Buffer.html" title="class in com.readwise.android.exoplayer2.decoder">Buffer</a></h3>
+<code><a href="Buffer.html#addFlag(@com.readwise.android.exoplayer2.C.BufferFlagsint)">addFlag</a>, <a href="Buffer.html#clearFlag(@com.readwise.android.exoplayer2.C.BufferFlagsint)">clearFlag</a>, <a href="Buffer.html#getFlag(@com.readwise.android.exoplayer2.C.BufferFlagsint)">getFlag</a>, <a href="Buffer.html#hasSupplementalData()">hasSupplementalData</a>, <a href="Buffer.html#isDecodeOnly()">isDecodeOnly</a>, <a href="Buffer.html#isEndOfStream()">isEndOfStream</a>, <a href="Buffer.html#isFirstSample()">isFirstSample</a>, <a href="Buffer.html#isKeyFrame()">isKeyFrame</a>, <a href="Buffer.html#setFlags(@com.readwise.android.exoplayer2.C.BufferFlagsint)">setFlags</a></code></li>
 </ul>
 <ul class="blockList">
 <li class="blockList"><a id="methods.inherited.from.class.java.lang.Object">
@@ -391,7 +391,7 @@ extends <a href="Buffer.html" title="class in com.google.android.exoplayer2.deco
 <div class="block">Disallows buffer replacement.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../../constant-values.html#com.google.android.exoplayer2.decoder.DecoderInputBuffer.BUFFER_REPLACEMENT_MODE_DISABLED">Constant Field Values</a></dd>
+<dd><a href="../../../../../constant-values.html#com.readwise.android.exoplayer2.decoder.DecoderInputBuffer.BUFFER_REPLACEMENT_MODE_DISABLED">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>
@@ -405,7 +405,7 @@ extends <a href="Buffer.html" title="class in com.google.android.exoplayer2.deco
 <div class="block">Allows buffer replacement using <a href="https://developer.android.com/reference/java/nio/ByteBuffer.html#allocate(int)" title="class or interface in java.nio" class="externalLink" target="_top"><code>ByteBuffer.allocate(int)</code></a>.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../../constant-values.html#com.google.android.exoplayer2.decoder.DecoderInputBuffer.BUFFER_REPLACEMENT_MODE_NORMAL">Constant Field Values</a></dd>
+<dd><a href="../../../../../constant-values.html#com.readwise.android.exoplayer2.decoder.DecoderInputBuffer.BUFFER_REPLACEMENT_MODE_NORMAL">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>
@@ -419,7 +419,7 @@ extends <a href="Buffer.html" title="class in com.google.android.exoplayer2.deco
 <div class="block">Allows buffer replacement using <a href="https://developer.android.com/reference/java/nio/ByteBuffer.html#allocateDirect(int)" title="class or interface in java.nio" class="externalLink" target="_top"><code>ByteBuffer.allocateDirect(int)</code></a>.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../../constant-values.html#com.google.android.exoplayer2.decoder.DecoderInputBuffer.BUFFER_REPLACEMENT_MODE_DIRECT">Constant Field Values</a></dd>
+<dd><a href="../../../../../constant-values.html#com.readwise.android.exoplayer2.decoder.DecoderInputBuffer.BUFFER_REPLACEMENT_MODE_DIRECT">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>
@@ -430,8 +430,8 @@ extends <a href="Buffer.html" title="class in com.google.android.exoplayer2.deco
 <li class="blockList">
 <h4>format</h4>
 <pre>@Nullable
-public&nbsp;<a href="../Format.html" title="class in com.google.android.exoplayer2">Format</a> format</pre>
-<div class="block">The <a href="../Format.html" title="class in com.google.android.exoplayer2"><code>Format</code></a>.</div>
+public&nbsp;<a href="../Format.html" title="class in com.readwise.android.exoplayer2">Format</a> format</pre>
+<div class="block">The <a href="../Format.html" title="class in com.readwise.android.exoplayer2"><code>Format</code></a>.</div>
 </li>
 </ul>
 <a id="cryptoInfo">
@@ -440,8 +440,8 @@ public&nbsp;<a href="../Format.html" title="class in com.google.android.exoplaye
 <ul class="blockList">
 <li class="blockList">
 <h4>cryptoInfo</h4>
-<pre>public final&nbsp;<a href="CryptoInfo.html" title="class in com.google.android.exoplayer2.decoder">CryptoInfo</a> cryptoInfo</pre>
-<div class="block"><a href="CryptoInfo.html" title="class in com.google.android.exoplayer2.decoder"><code>CryptoInfo</code></a> for encrypted data.</div>
+<pre>public final&nbsp;<a href="CryptoInfo.html" title="class in com.readwise.android.exoplayer2.decoder">CryptoInfo</a> cryptoInfo</pre>
+<div class="block"><a href="CryptoInfo.html" title="class in com.readwise.android.exoplayer2.decoder"><code>CryptoInfo</code></a> for encrypted data.</div>
 </li>
 </ul>
 <a id="data">
@@ -498,32 +498,32 @@ public&nbsp;<a href="https://developer.android.com/reference/java/nio/ByteBuffer
 <!--   -->
 </a>
 <h3>Constructor Detail</h3>
-<a id="&lt;init&gt;(@com.google.android.exoplayer2.decoder.DecoderInputBuffer.BufferReplacementModeint)">
+<a id="&lt;init&gt;(@com.readwise.android.exoplayer2.decoder.DecoderInputBuffer.BufferReplacementModeint)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>DecoderInputBuffer</h4>
-<pre>public&nbsp;DecoderInputBuffer&#8203;(@com.google.android.exoplayer2.decoder.DecoderInputBuffer.BufferReplacementMode int&nbsp;bufferReplacementMode)</pre>
+<pre>public&nbsp;DecoderInputBuffer&#8203;(@com.readwise.android.exoplayer2.decoder.DecoderInputBuffer.BufferReplacementMode int&nbsp;bufferReplacementMode)</pre>
 <div class="block">Creates a new instance.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>bufferReplacementMode</code> - The <a href="DecoderInputBuffer.BufferReplacementMode.html" title="annotation in com.google.android.exoplayer2.decoder"><code>DecoderInputBuffer.BufferReplacementMode</code></a> replacement mode.</dd>
+<dd><code>bufferReplacementMode</code> - The <a href="DecoderInputBuffer.BufferReplacementMode.html" title="annotation in com.readwise.android.exoplayer2.decoder"><code>DecoderInputBuffer.BufferReplacementMode</code></a> replacement mode.</dd>
 </dl>
 </li>
 </ul>
-<a id="&lt;init&gt;(@com.google.android.exoplayer2.decoder.DecoderInputBuffer.BufferReplacementModeint,int)">
+<a id="&lt;init&gt;(@com.readwise.android.exoplayer2.decoder.DecoderInputBuffer.BufferReplacementModeint,int)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>DecoderInputBuffer</h4>
-<pre>public&nbsp;DecoderInputBuffer&#8203;(@com.google.android.exoplayer2.decoder.DecoderInputBuffer.BufferReplacementMode int&nbsp;bufferReplacementMode,
+<pre>public&nbsp;DecoderInputBuffer&#8203;(@com.readwise.android.exoplayer2.decoder.DecoderInputBuffer.BufferReplacementMode int&nbsp;bufferReplacementMode,
                           int&nbsp;paddingSize)</pre>
 <div class="block">Creates a new instance.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>bufferReplacementMode</code> - The <a href="DecoderInputBuffer.BufferReplacementMode.html" title="annotation in com.google.android.exoplayer2.decoder"><code>DecoderInputBuffer.BufferReplacementMode</code></a> replacement mode.</dd>
+<dd><code>bufferReplacementMode</code> - The <a href="DecoderInputBuffer.BufferReplacementMode.html" title="annotation in com.readwise.android.exoplayer2.decoder"><code>DecoderInputBuffer.BufferReplacementMode</code></a> replacement mode.</dd>
 <dd><code>paddingSize</code> - If non-zero, <a href="#ensureSpaceForWrite(int)"><code>ensureSpaceForWrite(int)</code></a> will ensure that the buffer
      is this number of bytes larger than the requested length. This can be useful for decoders
      that consume data in fixed size blocks, for efficiency. Setting the padding size to the
@@ -548,7 +548,7 @@ public&nbsp;<a href="https://developer.android.com/reference/java/nio/ByteBuffer
 <ul class="blockList">
 <li class="blockList">
 <h4>newNoDataInstance</h4>
-<pre class="methodSignature">public static&nbsp;<a href="DecoderInputBuffer.html" title="class in com.google.android.exoplayer2.decoder">DecoderInputBuffer</a>&nbsp;newNoDataInstance()</pre>
+<pre class="methodSignature">public static&nbsp;<a href="DecoderInputBuffer.html" title="class in com.readwise.android.exoplayer2.decoder">DecoderInputBuffer</a>&nbsp;newNoDataInstance()</pre>
 <div class="block">Returns a new instance that's not able to hold any data.</div>
 </li>
 </ul>
@@ -586,7 +586,7 @@ public&nbsp;void&nbsp;ensureSpaceForWrite&#8203;(int&nbsp;length)</pre>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>length</code> - The length of the write that must be accommodated, in bytes.</dd>
 <dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="DecoderInputBuffer.InsufficientCapacityException.html" title="class in com.google.android.exoplayer2.decoder">DecoderInputBuffer.InsufficientCapacityException</a></code> - If there is insufficient capacity to accommodate the
+<dd><code><a href="DecoderInputBuffer.InsufficientCapacityException.html" title="class in com.readwise.android.exoplayer2.decoder">DecoderInputBuffer.InsufficientCapacityException</a></code> - If there is insufficient capacity to accommodate the
      write and <a href="#bufferReplacementMode"><code>bufferReplacementMode</code></a> is <a href="#BUFFER_REPLACEMENT_MODE_DISABLED"><code>BUFFER_REPLACEMENT_MODE_DISABLED</code></a>.</dd>
 </dl>
 </li>
@@ -626,7 +626,7 @@ public&nbsp;void&nbsp;ensureSpaceForWrite&#8203;(int&nbsp;length)</pre>
 <div class="block">Clears the buffer.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Overrides:</span></dt>
-<dd><code><a href="Buffer.html#clear()">clear</a></code>&nbsp;in class&nbsp;<code><a href="Buffer.html" title="class in com.google.android.exoplayer2.decoder">Buffer</a></code></dd>
+<dd><code><a href="Buffer.html#clear()">clear</a></code>&nbsp;in class&nbsp;<code><a href="Buffer.html" title="class in com.readwise.android.exoplayer2.decoder">Buffer</a></code></dd>
 </dl>
 </li>
 </ul>

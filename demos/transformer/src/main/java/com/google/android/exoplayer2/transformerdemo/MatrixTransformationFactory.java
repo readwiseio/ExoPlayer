@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.transformerdemo;
+package com.readwise.android.exoplayer2.transformerdemo;
 
 import android.graphics.Matrix;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.effect.GlMatrixTransformation;
-import com.google.android.exoplayer2.effect.MatrixTransformation;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.effect.GlMatrixTransformation;
+import com.readwise.android.exoplayer2.effect.MatrixTransformation;
+import com.readwise.android.exoplayer2.util.Util;
 
 /**
  * Factory for {@link GlMatrixTransformation GlMatrixTransformations} and {@link

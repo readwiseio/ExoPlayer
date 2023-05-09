@@ -14,6 +14,6 @@
      limitations under the License.
 -->
 
-<manifest package="com.google.android.exoplayer2.decoder.test">
+<manifest package="com.readwise.android.exoplayer2.decoder.test">
   <uses-sdk/>
 </manifest>

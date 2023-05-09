@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.effect</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.effect</a></div>
 <h2 title="Interface GlTextureProcessor.InputListener" class="title">Interface GlTextureProcessor.InputListener</h2>
 </div>
 <div class="contentContainer">
@@ -122,7 +122,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>Enclosing interface:</dt>
-<dd><a href="GlTextureProcessor.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor</a></dd>
+<dd><a href="GlTextureProcessor.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor</a></dd>
 </dl>
 <hr>
 <pre>public static interface <span class="typeNameLabel">GlTextureProcessor.InputListener</span></pre>
@@ -151,16 +151,16 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onInputFrameProcessed(com.google.android.exoplayer2.effect.TextureInfo)">onInputFrameProcessed</a></span>&#8203;(<a href="TextureInfo.html" title="class in com.google.android.exoplayer2.effect">TextureInfo</a>&nbsp;inputTexture)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onInputFrameProcessed(com.readwise.android.exoplayer2.effect.TextureInfo)">onInputFrameProcessed</a></span>&#8203;(<a href="TextureInfo.html" title="class in com.readwise.android.exoplayer2.effect">TextureInfo</a>&nbsp;inputTexture)</code></th>
 <td class="colLast">
-<div class="block">Called when the <a href="GlTextureProcessor.html" title="interface in com.google.android.exoplayer2.effect"><code>GlTextureProcessor</code></a> has processed an input frame.</div>
+<div class="block">Called when the <a href="GlTextureProcessor.html" title="interface in com.readwise.android.exoplayer2.effect"><code>GlTextureProcessor</code></a> has processed an input frame.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>default void</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onReadyToAcceptInputFrame()">onReadyToAcceptInputFrame</a></span>()</code></th>
 <td class="colLast">
-<div class="block">Called when the <a href="GlTextureProcessor.html" title="interface in com.google.android.exoplayer2.effect"><code>GlTextureProcessor</code></a> is ready to accept another input frame.</div>
+<div class="block">Called when the <a href="GlTextureProcessor.html" title="interface in com.readwise.android.exoplayer2.effect"><code>GlTextureProcessor</code></a> is ready to accept another input frame.</div>
 </td>
 </tr>
 </table>
@@ -187,25 +187,25 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <h4>onReadyToAcceptInputFrame</h4>
 <pre class="methodSignature">default&nbsp;void&nbsp;onReadyToAcceptInputFrame()</pre>
-<div class="block">Called when the <a href="GlTextureProcessor.html" title="interface in com.google.android.exoplayer2.effect"><code>GlTextureProcessor</code></a> is ready to accept another input frame.
+<div class="block">Called when the <a href="GlTextureProcessor.html" title="interface in com.readwise.android.exoplayer2.effect"><code>GlTextureProcessor</code></a> is ready to accept another input frame.
 
- <p>For each time this method is called, <a href="GlTextureProcessor.html#queueInputFrame(com.google.android.exoplayer2.effect.TextureInfo,long)"><code>GlTextureProcessor.queueInputFrame(TextureInfo, long)</code></a> can be
+ <p>For each time this method is called, <a href="GlTextureProcessor.html#queueInputFrame(com.readwise.android.exoplayer2.effect.TextureInfo,long)"><code>GlTextureProcessor.queueInputFrame(TextureInfo, long)</code></a> can be
  called once.</div>
 </li>
 </ul>
-<a id="onInputFrameProcessed(com.google.android.exoplayer2.effect.TextureInfo)">
+<a id="onInputFrameProcessed(com.readwise.android.exoplayer2.effect.TextureInfo)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>onInputFrameProcessed</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onInputFrameProcessed&#8203;(<a href="TextureInfo.html" title="class in com.google.android.exoplayer2.effect">TextureInfo</a>&nbsp;inputTexture)</pre>
-<div class="block">Called when the <a href="GlTextureProcessor.html" title="interface in com.google.android.exoplayer2.effect"><code>GlTextureProcessor</code></a> has processed an input frame.
+<pre class="methodSignature">default&nbsp;void&nbsp;onInputFrameProcessed&#8203;(<a href="TextureInfo.html" title="class in com.readwise.android.exoplayer2.effect">TextureInfo</a>&nbsp;inputTexture)</pre>
+<div class="block">Called when the <a href="GlTextureProcessor.html" title="interface in com.readwise.android.exoplayer2.effect"><code>GlTextureProcessor</code></a> has processed an input frame.
 
- <p>The implementation shall not assume the <a href="GlTextureProcessor.html" title="interface in com.google.android.exoplayer2.effect"><code>GlTextureProcessor</code></a> is <a href="#onReadyToAcceptInputFrame()">ready to accept another input frame</a> when this method is called.</div>
+ <p>The implementation shall not assume the <a href="GlTextureProcessor.html" title="interface in com.readwise.android.exoplayer2.effect"><code>GlTextureProcessor</code></a> is <a href="#onReadyToAcceptInputFrame()">ready to accept another input frame</a> when this method is called.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>inputTexture</code> - The <a href="TextureInfo.html" title="class in com.google.android.exoplayer2.effect"><code>TextureInfo</code></a> that was used to <a href="GlTextureProcessor.html#queueInputFrame(com.google.android.exoplayer2.effect.TextureInfo,long)">queue</a> the input frame.</dd>
+<dd><code>inputTexture</code> - The <a href="TextureInfo.html" title="class in com.readwise.android.exoplayer2.effect"><code>TextureInfo</code></a> that was used to <a href="GlTextureProcessor.html#queueInputFrame(com.readwise.android.exoplayer2.effect.TextureInfo,long)">queue</a> the input frame.</dd>
 </dl>
 </li>
 </ul>

@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.smoothstreaming.manifest;
+package com.readwise.android.exoplayer2.source.smoothstreaming.manifest;
 
 import android.net.Uri;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.extractor.mp4.TrackEncryptionBox;
-import com.google.android.exoplayer2.offline.FilterableManifest;
-import com.google.android.exoplayer2.offline.StreamKey;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.UriUtil;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.extractor.mp4.TrackEncryptionBox;
+import com.readwise.android.exoplayer2.offline.FilterableManifest;
+import com.readwise.android.exoplayer2.offline.StreamKey;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.UriUtil;
+import com.readwise.android.exoplayer2.util.Util;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

@@ -16,4 +16,4 @@
 @NonNullApi
 package androidx.media3.muxer;
 
-import com.google.android.exoplayer2.util.NonNullApi;
+import com.readwise.android.exoplayer2.util.NonNullApi;

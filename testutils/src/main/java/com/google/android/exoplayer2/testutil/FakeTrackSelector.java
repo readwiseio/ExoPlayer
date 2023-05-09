@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.testutil;
+package com.readwise.android.exoplayer2.testutil;
 
 import androidx.test.core.app.ApplicationProvider;
-import com.google.android.exoplayer2.RendererCapabilities.AdaptiveSupport;
-import com.google.android.exoplayer2.RendererCapabilities.Capabilities;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.source.MediaSource.MediaPeriodId;
-import com.google.android.exoplayer2.source.TrackGroup;
-import com.google.android.exoplayer2.source.TrackGroupArray;
-import com.google.android.exoplayer2.trackselection.DefaultTrackSelector;
-import com.google.android.exoplayer2.trackselection.ExoTrackSelection;
-import com.google.android.exoplayer2.trackselection.MappingTrackSelector;
-import com.google.android.exoplayer2.upstream.BandwidthMeter;
+import com.readwise.android.exoplayer2.RendererCapabilities.AdaptiveSupport;
+import com.readwise.android.exoplayer2.RendererCapabilities.Capabilities;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.source.MediaSource.MediaPeriodId;
+import com.readwise.android.exoplayer2.source.TrackGroup;
+import com.readwise.android.exoplayer2.source.TrackGroupArray;
+import com.readwise.android.exoplayer2.trackselection.DefaultTrackSelector;
+import com.readwise.android.exoplayer2.trackselection.ExoTrackSelection;
+import com.readwise.android.exoplayer2.trackselection.MappingTrackSelector;
+import com.readwise.android.exoplayer2.upstream.BandwidthMeter;
 import java.util.ArrayList;
 import java.util.List;
 import org.checkerframework.checker.nullness.compatqual.NullableType;

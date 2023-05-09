@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.playbacktests.gts;
+package com.readwise.android.exoplayer2.playbacktests.gts;
 
-import static com.google.android.exoplayer2.C.WIDEVINE_UUID;
+import static com.readwise.android.exoplayer2.C.WIDEVINE_UUID;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.media.MediaDrm;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.util.Util;
 
 /** Utility methods for GTS tests. */
 public final class GtsTestUtil {

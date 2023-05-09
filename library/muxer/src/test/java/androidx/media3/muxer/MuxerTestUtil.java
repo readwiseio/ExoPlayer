@@ -18,7 +18,7 @@ package androidx.media3.muxer;
 import android.media.MediaCodec;
 import android.media.MediaCodec.BufferInfo;
 import android.util.Pair;
-import com.google.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.Format;
 import com.google.common.collect.ImmutableList;
 import com.google.common.io.BaseEncoding;
 import java.nio.ByteBuffer;

@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.media2;
+package com.readwise.android.exoplayer2.ext.media2;
 
-import static com.google.android.exoplayer2.ext.media2.TestUtils.assertPlayerResultSuccess;
+import static com.readwise.android.exoplayer2.ext.media2.TestUtils.assertPlayerResultSuccess;
 import static com.google.common.truth.Truth.assertThat;
 import static com.google.common.truth.Truth.assertWithMessage;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
@@ -40,8 +40,8 @@ import androidx.media2.session.SessionResult;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.LargeTest;
-import com.google.android.exoplayer2.ext.media2.test.R;
-import com.google.android.exoplayer2.upstream.RawResourceDataSource;
+import com.readwise.android.exoplayer2.ext.media2.test.R;
+import com.readwise.android.exoplayer2.upstream.RawResourceDataSource;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

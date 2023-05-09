@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.effect;
+package com.readwise.android.exoplayer2.effect;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
 
 import android.content.Context;
 import android.opengl.EGL14;
@@ -31,18 +31,18 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import androidx.annotation.GuardedBy;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.util.DebugViewProvider;
-import com.google.android.exoplayer2.util.GlObjectsProvider;
-import com.google.android.exoplayer2.util.GlTextureInfo;
-import com.google.android.exoplayer2.util.GlUtil;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.Size;
-import com.google.android.exoplayer2.util.SurfaceInfo;
-import com.google.android.exoplayer2.util.Util;
-import com.google.android.exoplayer2.util.VideoFrameProcessingException;
-import com.google.android.exoplayer2.util.VideoFrameProcessor;
-import com.google.android.exoplayer2.video.ColorInfo;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.util.DebugViewProvider;
+import com.readwise.android.exoplayer2.util.GlObjectsProvider;
+import com.readwise.android.exoplayer2.util.GlTextureInfo;
+import com.readwise.android.exoplayer2.util.GlUtil;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.Size;
+import com.readwise.android.exoplayer2.util.SurfaceInfo;
+import com.readwise.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.util.VideoFrameProcessingException;
+import com.readwise.android.exoplayer2.util.VideoFrameProcessor;
+import com.readwise.android.exoplayer2.video.ColorInfo;
 import com.google.common.collect.ImmutableList;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;

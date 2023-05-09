@@ -13,21 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.dash;
+package com.readwise.android.exoplayer2.source.dash;
 
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.FormatHolder;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
-import com.google.android.exoplayer2.metadata.MetadataInputBuffer;
-import com.google.android.exoplayer2.metadata.emsg.EventMessage;
-import com.google.android.exoplayer2.metadata.emsg.EventMessageEncoder;
-import com.google.android.exoplayer2.source.SampleStream;
-import com.google.android.exoplayer2.source.dash.manifest.EventStream;
-import com.google.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.FormatHolder;
+import com.readwise.android.exoplayer2.decoder.DecoderInputBuffer;
+import com.readwise.android.exoplayer2.metadata.MetadataInputBuffer;
+import com.readwise.android.exoplayer2.metadata.emsg.EventMessage;
+import com.readwise.android.exoplayer2.metadata.emsg.EventMessageEncoder;
+import com.readwise.android.exoplayer2.source.SampleStream;
+import com.readwise.android.exoplayer2.source.dash.manifest.EventStream;
+import com.readwise.android.exoplayer2.util.MimeTypes;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

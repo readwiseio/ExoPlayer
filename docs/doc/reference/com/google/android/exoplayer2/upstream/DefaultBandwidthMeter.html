@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.upstream</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.upstream</a></div>
 <h2 title="Class DefaultBandwidthMeter" class="title">Class DefaultBandwidthMeter</h2>
 </div>
 <div class="contentContainer">
@@ -121,7 +121,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li><a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">java.lang.Object</a></li>
 <li>
 <ul class="inheritance">
-<li>com.google.android.exoplayer2.upstream.DefaultBandwidthMeter</li>
+<li>com.readwise.android.exoplayer2.upstream.DefaultBandwidthMeter</li>
 </ul>
 </li>
 </ul>
@@ -130,18 +130,18 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Implemented Interfaces:</dt>
-<dd><code><a href="BandwidthMeter.html" title="interface in com.google.android.exoplayer2.upstream">BandwidthMeter</a></code>, <code><a href="TransferListener.html" title="interface in com.google.android.exoplayer2.upstream">TransferListener</a></code></dd>
+<dd><code><a href="BandwidthMeter.html" title="interface in com.readwise.android.exoplayer2.upstream">BandwidthMeter</a></code>, <code><a href="TransferListener.html" title="interface in com.readwise.android.exoplayer2.upstream">TransferListener</a></code></dd>
 </dl>
 <hr>
 <pre>public final class <span class="typeNameLabel">DefaultBandwidthMeter</span>
 extends <a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">Object</a>
-implements <a href="BandwidthMeter.html" title="interface in com.google.android.exoplayer2.upstream">BandwidthMeter</a>, <a href="TransferListener.html" title="interface in com.google.android.exoplayer2.upstream">TransferListener</a></pre>
+implements <a href="BandwidthMeter.html" title="interface in com.readwise.android.exoplayer2.upstream">BandwidthMeter</a>, <a href="TransferListener.html" title="interface in com.readwise.android.exoplayer2.upstream">TransferListener</a></pre>
 <div class="block">Estimates bandwidth by listening to data transfers.
 
- <p>The bandwidth estimate is calculated using a <a href="SlidingPercentile.html" title="class in com.google.android.exoplayer2.upstream"><code>SlidingPercentile</code></a> and is updated each
+ <p>The bandwidth estimate is calculated using a <a href="SlidingPercentile.html" title="class in com.readwise.android.exoplayer2.upstream"><code>SlidingPercentile</code></a> and is updated each
  time a transfer ends. The initial estimate is based on the current operator's network country
  code or the locale of the user, as well as the network connection type. This can be configured in
- the <a href="DefaultBandwidthMeter.Builder.html" title="class in com.google.android.exoplayer2.upstream"><code>DefaultBandwidthMeter.Builder</code></a>.</div>
+ the <a href="DefaultBandwidthMeter.Builder.html" title="class in com.readwise.android.exoplayer2.upstream"><code>DefaultBandwidthMeter.Builder</code></a>.</div>
 </li>
 </ul>
 </div>
@@ -164,18 +164,18 @@ implements <a href="BandwidthMeter.html" title="interface in com.google.android.
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static class&nbsp;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="DefaultBandwidthMeter.Builder.html" title="class in com.google.android.exoplayer2.upstream">DefaultBandwidthMeter.Builder</a></span></code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="DefaultBandwidthMeter.Builder.html" title="class in com.readwise.android.exoplayer2.upstream">DefaultBandwidthMeter.Builder</a></span></code></th>
 <td class="colLast">
 <div class="block">Builder for a bandwidth meter.</div>
 </td>
 </tr>
 </table>
 <ul class="blockList">
-<li class="blockList"><a id="nested.classes.inherited.from.class.com.google.android.exoplayer2.upstream.BandwidthMeter">
+<li class="blockList"><a id="nested.classes.inherited.from.class.com.readwise.android.exoplayer2.upstream.BandwidthMeter">
 <!--   -->
 </a>
-<h3>Nested classes/interfaces inherited from interface&nbsp;com.google.android.exoplayer2.upstream.<a href="BandwidthMeter.html" title="interface in com.google.android.exoplayer2.upstream">BandwidthMeter</a></h3>
-<code><a href="BandwidthMeter.EventListener.html" title="interface in com.google.android.exoplayer2.upstream">BandwidthMeter.EventListener</a></code></li>
+<h3>Nested classes/interfaces inherited from interface&nbsp;com.readwise.android.exoplayer2.upstream.<a href="BandwidthMeter.html" title="interface in com.readwise.android.exoplayer2.upstream">BandwidthMeter</a></h3>
+<code><a href="BandwidthMeter.EventListener.html" title="interface in com.readwise.android.exoplayer2.upstream">BandwidthMeter.EventListener</a></code></li>
 </ul>
 </li>
 </ul>
@@ -272,7 +272,7 @@ implements <a href="BandwidthMeter.html" title="interface in com.google.android.
 <th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E()">DefaultBandwidthMeter</a></span>()</code></th>
 <td class="colLast">
 <div class="block"><span class="deprecatedLabel">Deprecated.</span>
-<div class="deprecationComment">Use <a href="DefaultBandwidthMeter.Builder.html" title="class in com.google.android.exoplayer2.upstream"><code>DefaultBandwidthMeter.Builder</code></a> instead.</div>
+<div class="deprecationComment">Use <a href="DefaultBandwidthMeter.Builder.html" title="class in com.readwise.android.exoplayer2.upstream"><code>DefaultBandwidthMeter.Builder</code></a> instead.</div>
 </div>
 </td>
 </tr>
@@ -296,10 +296,10 @@ implements <a href="BandwidthMeter.html" title="interface in com.google.android.
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#addEventListener(android.os.Handler,com.google.android.exoplayer2.upstream.BandwidthMeter.EventListener)">addEventListener</a></span>&#8203;(<a href="https://developer.android.com/reference/android/os/Handler.html" title="class or interface in android.os" class="externalLink" target="_top">Handler</a>&nbsp;eventHandler,
-                <a href="BandwidthMeter.EventListener.html" title="interface in com.google.android.exoplayer2.upstream">BandwidthMeter.EventListener</a>&nbsp;eventListener)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#addEventListener(android.os.Handler,com.readwise.android.exoplayer2.upstream.BandwidthMeter.EventListener)">addEventListener</a></span>&#8203;(<a href="https://developer.android.com/reference/android/os/Handler.html" title="class or interface in android.os" class="externalLink" target="_top">Handler</a>&nbsp;eventHandler,
+                <a href="BandwidthMeter.EventListener.html" title="interface in com.readwise.android.exoplayer2.upstream">BandwidthMeter.EventListener</a>&nbsp;eventListener)</code></th>
 <td class="colLast">
-<div class="block">Adds an <a href="BandwidthMeter.EventListener.html" title="interface in com.google.android.exoplayer2.upstream"><code>BandwidthMeter.EventListener</code></a>.</div>
+<div class="block">Adds an <a href="BandwidthMeter.EventListener.html" title="interface in com.readwise.android.exoplayer2.upstream"><code>BandwidthMeter.EventListener</code></a>.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
@@ -310,24 +310,24 @@ implements <a href="BandwidthMeter.html" title="interface in com.google.android.
 </td>
 </tr>
 <tr id="i2" class="altColor">
-<td class="colFirst"><code>static <a href="DefaultBandwidthMeter.html" title="class in com.google.android.exoplayer2.upstream">DefaultBandwidthMeter</a></code></td>
+<td class="colFirst"><code>static <a href="DefaultBandwidthMeter.html" title="class in com.readwise.android.exoplayer2.upstream">DefaultBandwidthMeter</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getSingletonInstance(android.content.Context)">getSingletonInstance</a></span>&#8203;(<a href="https://developer.android.com/reference/android/content/Context.html" title="class or interface in android.content" class="externalLink" target="_top">Context</a>&nbsp;context)</code></th>
 <td class="colLast">
-<div class="block">Returns a singleton instance of a <a href="DefaultBandwidthMeter.html" title="class in com.google.android.exoplayer2.upstream"><code>DefaultBandwidthMeter</code></a> with default configuration.</div>
+<div class="block">Returns a singleton instance of a <a href="DefaultBandwidthMeter.html" title="class in com.readwise.android.exoplayer2.upstream"><code>DefaultBandwidthMeter</code></a> with default configuration.</div>
 </td>
 </tr>
 <tr id="i3" class="rowColor">
-<td class="colFirst"><code><a href="TransferListener.html" title="interface in com.google.android.exoplayer2.upstream">TransferListener</a></code></td>
+<td class="colFirst"><code><a href="TransferListener.html" title="interface in com.readwise.android.exoplayer2.upstream">TransferListener</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getTransferListener()">getTransferListener</a></span>()</code></th>
 <td class="colLast">
-<div class="block">Returns the <a href="TransferListener.html" title="interface in com.google.android.exoplayer2.upstream"><code>TransferListener</code></a> that this instance uses to gather bandwidth information
+<div class="block">Returns the <a href="TransferListener.html" title="interface in com.readwise.android.exoplayer2.upstream"><code>TransferListener</code></a> that this instance uses to gather bandwidth information
  from data transfers.</div>
 </td>
 </tr>
 <tr id="i4" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onBytesTransferred(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean,int)">onBytesTransferred</a></span>&#8203;(<a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
-                  <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onBytesTransferred(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean,int)">onBytesTransferred</a></span>&#8203;(<a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
+                  <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
                   boolean&nbsp;isNetwork,
                   int&nbsp;bytesTransferred)</code></th>
 <td class="colLast">
@@ -336,8 +336,8 @@ implements <a href="BandwidthMeter.html" title="interface in com.google.android.
 </tr>
 <tr id="i5" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onTransferEnd(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean)">onTransferEnd</a></span>&#8203;(<a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
-             <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onTransferEnd(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean)">onTransferEnd</a></span>&#8203;(<a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
+             <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
              boolean&nbsp;isNetwork)</code></th>
 <td class="colLast">
 <div class="block">Called when a transfer ends.</div>
@@ -345,8 +345,8 @@ implements <a href="BandwidthMeter.html" title="interface in com.google.android.
 </tr>
 <tr id="i6" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onTransferInitializing(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean)">onTransferInitializing</a></span>&#8203;(<a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
-                      <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onTransferInitializing(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean)">onTransferInitializing</a></span>&#8203;(<a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
+                      <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
                       boolean&nbsp;isNetwork)</code></th>
 <td class="colLast">
 <div class="block">Called when a transfer is being initialized.</div>
@@ -354,8 +354,8 @@ implements <a href="BandwidthMeter.html" title="interface in com.google.android.
 </tr>
 <tr id="i7" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onTransferStart(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean)">onTransferStart</a></span>&#8203;(<a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
-               <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onTransferStart(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean)">onTransferStart</a></span>&#8203;(<a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
+               <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
                boolean&nbsp;isNetwork)</code></th>
 <td class="colLast">
 <div class="block">Called when a transfer starts.</div>
@@ -363,14 +363,14 @@ implements <a href="BandwidthMeter.html" title="interface in com.google.android.
 </tr>
 <tr id="i8" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#removeEventListener(com.google.android.exoplayer2.upstream.BandwidthMeter.EventListener)">removeEventListener</a></span>&#8203;(<a href="BandwidthMeter.EventListener.html" title="interface in com.google.android.exoplayer2.upstream">BandwidthMeter.EventListener</a>&nbsp;eventListener)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#removeEventListener(com.readwise.android.exoplayer2.upstream.BandwidthMeter.EventListener)">removeEventListener</a></span>&#8203;(<a href="BandwidthMeter.EventListener.html" title="interface in com.readwise.android.exoplayer2.upstream">BandwidthMeter.EventListener</a>&nbsp;eventListener)</code></th>
 <td class="colLast">
-<div class="block">Removes an <a href="BandwidthMeter.EventListener.html" title="interface in com.google.android.exoplayer2.upstream"><code>BandwidthMeter.EventListener</code></a>.</div>
+<div class="block">Removes an <a href="BandwidthMeter.EventListener.html" title="interface in com.readwise.android.exoplayer2.upstream"><code>BandwidthMeter.EventListener</code></a>.</div>
 </td>
 </tr>
 <tr id="i9" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setNetworkTypeOverride(@com.google.android.exoplayer2.C.NetworkTypeint)">setNetworkTypeOverride</a></span>&#8203;(@com.google.android.exoplayer2.C.NetworkType int&nbsp;networkType)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setNetworkTypeOverride(@com.readwise.android.exoplayer2.C.NetworkTypeint)">setNetworkTypeOverride</a></span>&#8203;(@com.readwise.android.exoplayer2.C.NetworkType int&nbsp;networkType)</code></th>
 <td class="colLast">
 <div class="block">Overrides the network type.</div>
 </td>
@@ -384,10 +384,10 @@ implements <a href="BandwidthMeter.html" title="interface in com.google.android.
 <code><a href="https://developer.android.com/reference/java/lang/Object.html#clone()" title="class or interface in java.lang" class="externalLink">clone</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#equals(java.lang.Object)" title="class or interface in java.lang" class="externalLink">equals</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#finalize()" title="class or interface in java.lang" class="externalLink">finalize</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#getClass()" title="class or interface in java.lang" class="externalLink">getClass</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#hashCode()" title="class or interface in java.lang" class="externalLink">hashCode</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#notify()" title="class or interface in java.lang" class="externalLink">notify</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#notifyAll()" title="class or interface in java.lang" class="externalLink">notifyAll</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#toString()" title="class or interface in java.lang" class="externalLink">toString</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#wait()" title="class or interface in java.lang" class="externalLink">wait</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#wait(long)" title="class or interface in java.lang" class="externalLink">wait</a>, <a href="https://developer.android.com/reference/java/lang/Object.html?is-external=true#wait(long,int)" title="class or interface in java.lang" class="externalLink" target="_top">wait</a></code></li>
 </ul>
 <ul class="blockList">
-<li class="blockList"><a id="methods.inherited.from.class.com.google.android.exoplayer2.upstream.BandwidthMeter">
+<li class="blockList"><a id="methods.inherited.from.class.com.readwise.android.exoplayer2.upstream.BandwidthMeter">
 <!--   -->
 </a>
-<h3>Methods inherited from interface&nbsp;com.google.android.exoplayer2.upstream.<a href="BandwidthMeter.html" title="interface in com.google.android.exoplayer2.upstream">BandwidthMeter</a></h3>
+<h3>Methods inherited from interface&nbsp;com.readwise.android.exoplayer2.upstream.<a href="BandwidthMeter.html" title="interface in com.readwise.android.exoplayer2.upstream">BandwidthMeter</a></h3>
 <code><a href="BandwidthMeter.html#getTimeToFirstByteEstimateUs()">getTimeToFirstByteEstimateUs</a></code></li>
 </ul>
 </li>
@@ -477,7 +477,7 @@ implements <a href="BandwidthMeter.html" title="interface in com.google.android.
  determined, in bits per second.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../../constant-values.html#com.google.android.exoplayer2.upstream.DefaultBandwidthMeter.DEFAULT_INITIAL_BITRATE_ESTIMATE">Constant Field Values</a></dd>
+<dd><a href="../../../../../constant-values.html#com.readwise.android.exoplayer2.upstream.DefaultBandwidthMeter.DEFAULT_INITIAL_BITRATE_ESTIMATE">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>
@@ -491,7 +491,7 @@ implements <a href="BandwidthMeter.html" title="interface in com.google.android.
 <div class="block">Default maximum weight for the sliding window.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../../constant-values.html#com.google.android.exoplayer2.upstream.DefaultBandwidthMeter.DEFAULT_SLIDING_WINDOW_MAX_WEIGHT">Constant Field Values</a></dd>
+<dd><a href="../../../../../constant-values.html#com.readwise.android.exoplayer2.upstream.DefaultBandwidthMeter.DEFAULT_SLIDING_WINDOW_MAX_WEIGHT">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>
@@ -514,7 +514,7 @@ implements <a href="BandwidthMeter.html" title="interface in com.google.android.
 <pre><a href="https://developer.android.com/reference/java/lang/Deprecated.html" title="class or interface in java.lang" class="externalLink" target="_top">@Deprecated</a>
 public&nbsp;DefaultBandwidthMeter()</pre>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span>
-<div class="deprecationComment">Use <a href="DefaultBandwidthMeter.Builder.html" title="class in com.google.android.exoplayer2.upstream"><code>DefaultBandwidthMeter.Builder</code></a> instead.</div>
+<div class="deprecationComment">Use <a href="DefaultBandwidthMeter.Builder.html" title="class in com.readwise.android.exoplayer2.upstream"><code>DefaultBandwidthMeter.Builder</code></a> instead.</div>
 </div>
 </li>
 </ul>
@@ -534,8 +534,8 @@ public&nbsp;DefaultBandwidthMeter()</pre>
 <ul class="blockList">
 <li class="blockList">
 <h4>getSingletonInstance</h4>
-<pre class="methodSignature">public static&nbsp;<a href="DefaultBandwidthMeter.html" title="class in com.google.android.exoplayer2.upstream">DefaultBandwidthMeter</a>&nbsp;getSingletonInstance&#8203;(<a href="https://developer.android.com/reference/android/content/Context.html" title="class or interface in android.content" class="externalLink" target="_top">Context</a>&nbsp;context)</pre>
-<div class="block">Returns a singleton instance of a <a href="DefaultBandwidthMeter.html" title="class in com.google.android.exoplayer2.upstream"><code>DefaultBandwidthMeter</code></a> with default configuration.</div>
+<pre class="methodSignature">public static&nbsp;<a href="DefaultBandwidthMeter.html" title="class in com.readwise.android.exoplayer2.upstream">DefaultBandwidthMeter</a>&nbsp;getSingletonInstance&#8203;(<a href="https://developer.android.com/reference/android/content/Context.html" title="class or interface in android.content" class="externalLink" target="_top">Context</a>&nbsp;context)</pre>
+<div class="block">Returns a singleton instance of a <a href="DefaultBandwidthMeter.html" title="class in com.readwise.android.exoplayer2.upstream"><code>DefaultBandwidthMeter</code></a> with default configuration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>context</code> - A <a href="https://developer.android.com/reference/android/content/Context.html" title="class or interface in android.content" class="externalLink" target="_top"><code>Context</code></a>.</dd>
@@ -544,14 +544,14 @@ public&nbsp;DefaultBandwidthMeter()</pre>
 </dl>
 </li>
 </ul>
-<a id="setNetworkTypeOverride(@com.google.android.exoplayer2.C.NetworkTypeint)">
+<a id="setNetworkTypeOverride(@com.readwise.android.exoplayer2.C.NetworkTypeint)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>setNetworkTypeOverride</h4>
-<pre class="methodSignature">public&nbsp;void&nbsp;setNetworkTypeOverride&#8203;(<a href="../C.NetworkType.html" title="annotation in com.google.android.exoplayer2">@NetworkType</a>
-                                   @com.google.android.exoplayer2.C.NetworkType int&nbsp;networkType)</pre>
+<pre class="methodSignature">public&nbsp;void&nbsp;setNetworkTypeOverride&#8203;(<a href="../C.NetworkType.html" title="annotation in com.readwise.android.exoplayer2">@NetworkType</a>
+                                   @com.readwise.android.exoplayer2.C.NetworkType int&nbsp;networkType)</pre>
 <div class="block">Overrides the network type. Handled in the same way as if the meter had detected a change from
  the current network type to the specified network type internally.
 
@@ -573,7 +573,7 @@ public&nbsp;DefaultBandwidthMeter()</pre>
 <div class="block">Returns the estimated bitrate.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="BandwidthMeter.html#getBitrateEstimate()">getBitrateEstimate</a></code>&nbsp;in interface&nbsp;<code><a href="BandwidthMeter.html" title="interface in com.google.android.exoplayer2.upstream">BandwidthMeter</a></code></dd>
+<dd><code><a href="BandwidthMeter.html#getBitrateEstimate()">getBitrateEstimate</a></code>&nbsp;in interface&nbsp;<code><a href="BandwidthMeter.html" title="interface in com.readwise.android.exoplayer2.upstream">BandwidthMeter</a></code></dd>
 </dl>
 </li>
 </ul>
@@ -583,66 +583,66 @@ public&nbsp;DefaultBandwidthMeter()</pre>
 <ul class="blockList">
 <li class="blockList">
 <h4>getTransferListener</h4>
-<pre class="methodSignature">public&nbsp;<a href="TransferListener.html" title="interface in com.google.android.exoplayer2.upstream">TransferListener</a>&nbsp;getTransferListener()</pre>
+<pre class="methodSignature">public&nbsp;<a href="TransferListener.html" title="interface in com.readwise.android.exoplayer2.upstream">TransferListener</a>&nbsp;getTransferListener()</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="BandwidthMeter.html#getTransferListener()">BandwidthMeter</a></code></span></div>
-<div class="block">Returns the <a href="TransferListener.html" title="interface in com.google.android.exoplayer2.upstream"><code>TransferListener</code></a> that this instance uses to gather bandwidth information
+<div class="block">Returns the <a href="TransferListener.html" title="interface in com.readwise.android.exoplayer2.upstream"><code>TransferListener</code></a> that this instance uses to gather bandwidth information
  from data transfers. May be null if the implementation does not listen to data transfers.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="BandwidthMeter.html#getTransferListener()">getTransferListener</a></code>&nbsp;in interface&nbsp;<code><a href="BandwidthMeter.html" title="interface in com.google.android.exoplayer2.upstream">BandwidthMeter</a></code></dd>
+<dd><code><a href="BandwidthMeter.html#getTransferListener()">getTransferListener</a></code>&nbsp;in interface&nbsp;<code><a href="BandwidthMeter.html" title="interface in com.readwise.android.exoplayer2.upstream">BandwidthMeter</a></code></dd>
 </dl>
 </li>
 </ul>
-<a id="addEventListener(android.os.Handler,com.google.android.exoplayer2.upstream.BandwidthMeter.EventListener)">
+<a id="addEventListener(android.os.Handler,com.readwise.android.exoplayer2.upstream.BandwidthMeter.EventListener)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>addEventListener</h4>
 <pre class="methodSignature">public&nbsp;void&nbsp;addEventListener&#8203;(<a href="https://developer.android.com/reference/android/os/Handler.html" title="class or interface in android.os" class="externalLink" target="_top">Handler</a>&nbsp;eventHandler,
-                             <a href="BandwidthMeter.EventListener.html" title="interface in com.google.android.exoplayer2.upstream">BandwidthMeter.EventListener</a>&nbsp;eventListener)</pre>
-<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="BandwidthMeter.html#addEventListener(android.os.Handler,com.google.android.exoplayer2.upstream.BandwidthMeter.EventListener)">BandwidthMeter</a></code></span></div>
-<div class="block">Adds an <a href="BandwidthMeter.EventListener.html" title="interface in com.google.android.exoplayer2.upstream"><code>BandwidthMeter.EventListener</code></a>.</div>
+                             <a href="BandwidthMeter.EventListener.html" title="interface in com.readwise.android.exoplayer2.upstream">BandwidthMeter.EventListener</a>&nbsp;eventListener)</pre>
+<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="BandwidthMeter.html#addEventListener(android.os.Handler,com.readwise.android.exoplayer2.upstream.BandwidthMeter.EventListener)">BandwidthMeter</a></code></span></div>
+<div class="block">Adds an <a href="BandwidthMeter.EventListener.html" title="interface in com.readwise.android.exoplayer2.upstream"><code>BandwidthMeter.EventListener</code></a>.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="BandwidthMeter.html#addEventListener(android.os.Handler,com.google.android.exoplayer2.upstream.BandwidthMeter.EventListener)">addEventListener</a></code>&nbsp;in interface&nbsp;<code><a href="BandwidthMeter.html" title="interface in com.google.android.exoplayer2.upstream">BandwidthMeter</a></code></dd>
+<dd><code><a href="BandwidthMeter.html#addEventListener(android.os.Handler,com.readwise.android.exoplayer2.upstream.BandwidthMeter.EventListener)">addEventListener</a></code>&nbsp;in interface&nbsp;<code><a href="BandwidthMeter.html" title="interface in com.readwise.android.exoplayer2.upstream">BandwidthMeter</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>eventHandler</code> - A handler for events.</dd>
 <dd><code>eventListener</code> - A listener of events.</dd>
 </dl>
 </li>
 </ul>
-<a id="removeEventListener(com.google.android.exoplayer2.upstream.BandwidthMeter.EventListener)">
+<a id="removeEventListener(com.readwise.android.exoplayer2.upstream.BandwidthMeter.EventListener)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>removeEventListener</h4>
-<pre class="methodSignature">public&nbsp;void&nbsp;removeEventListener&#8203;(<a href="BandwidthMeter.EventListener.html" title="interface in com.google.android.exoplayer2.upstream">BandwidthMeter.EventListener</a>&nbsp;eventListener)</pre>
-<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="BandwidthMeter.html#removeEventListener(com.google.android.exoplayer2.upstream.BandwidthMeter.EventListener)">BandwidthMeter</a></code></span></div>
-<div class="block">Removes an <a href="BandwidthMeter.EventListener.html" title="interface in com.google.android.exoplayer2.upstream"><code>BandwidthMeter.EventListener</code></a>.</div>
+<pre class="methodSignature">public&nbsp;void&nbsp;removeEventListener&#8203;(<a href="BandwidthMeter.EventListener.html" title="interface in com.readwise.android.exoplayer2.upstream">BandwidthMeter.EventListener</a>&nbsp;eventListener)</pre>
+<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="BandwidthMeter.html#removeEventListener(com.readwise.android.exoplayer2.upstream.BandwidthMeter.EventListener)">BandwidthMeter</a></code></span></div>
+<div class="block">Removes an <a href="BandwidthMeter.EventListener.html" title="interface in com.readwise.android.exoplayer2.upstream"><code>BandwidthMeter.EventListener</code></a>.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="BandwidthMeter.html#removeEventListener(com.google.android.exoplayer2.upstream.BandwidthMeter.EventListener)">removeEventListener</a></code>&nbsp;in interface&nbsp;<code><a href="BandwidthMeter.html" title="interface in com.google.android.exoplayer2.upstream">BandwidthMeter</a></code></dd>
+<dd><code><a href="BandwidthMeter.html#removeEventListener(com.readwise.android.exoplayer2.upstream.BandwidthMeter.EventListener)">removeEventListener</a></code>&nbsp;in interface&nbsp;<code><a href="BandwidthMeter.html" title="interface in com.readwise.android.exoplayer2.upstream">BandwidthMeter</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>eventListener</code> - The listener to be removed.</dd>
 </dl>
 </li>
 </ul>
-<a id="onTransferInitializing(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean)">
+<a id="onTransferInitializing(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onTransferInitializing</h4>
-<pre class="methodSignature">public&nbsp;void&nbsp;onTransferInitializing&#8203;(<a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
-                                   <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
+<pre class="methodSignature">public&nbsp;void&nbsp;onTransferInitializing&#8203;(<a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
+                                   <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
                                    boolean&nbsp;isNetwork)</pre>
-<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="TransferListener.html#onTransferInitializing(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean)">TransferListener</a></code></span></div>
+<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="TransferListener.html#onTransferInitializing(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean)">TransferListener</a></code></span></div>
 <div class="block">Called when a transfer is being initialized.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="TransferListener.html#onTransferInitializing(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean)">onTransferInitializing</a></code>&nbsp;in interface&nbsp;<code><a href="TransferListener.html" title="interface in com.google.android.exoplayer2.upstream">TransferListener</a></code></dd>
+<dd><code><a href="TransferListener.html#onTransferInitializing(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean)">onTransferInitializing</a></code>&nbsp;in interface&nbsp;<code><a href="TransferListener.html" title="interface in com.readwise.android.exoplayer2.upstream">TransferListener</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>source</code> - The source performing the transfer.</dd>
 <dd><code>dataSpec</code> - Describes the data for which the transfer is initialized.</dd>
@@ -650,20 +650,20 @@ public&nbsp;DefaultBandwidthMeter()</pre>
 </dl>
 </li>
 </ul>
-<a id="onTransferStart(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean)">
+<a id="onTransferStart(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onTransferStart</h4>
-<pre class="methodSignature">public&nbsp;void&nbsp;onTransferStart&#8203;(<a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
-                            <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
+<pre class="methodSignature">public&nbsp;void&nbsp;onTransferStart&#8203;(<a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
+                            <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
                             boolean&nbsp;isNetwork)</pre>
-<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="TransferListener.html#onTransferStart(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean)">TransferListener</a></code></span></div>
+<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="TransferListener.html#onTransferStart(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean)">TransferListener</a></code></span></div>
 <div class="block">Called when a transfer starts.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="TransferListener.html#onTransferStart(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean)">onTransferStart</a></code>&nbsp;in interface&nbsp;<code><a href="TransferListener.html" title="interface in com.google.android.exoplayer2.upstream">TransferListener</a></code></dd>
+<dd><code><a href="TransferListener.html#onTransferStart(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean)">onTransferStart</a></code>&nbsp;in interface&nbsp;<code><a href="TransferListener.html" title="interface in com.readwise.android.exoplayer2.upstream">TransferListener</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>source</code> - The source performing the transfer.</dd>
 <dd><code>dataSpec</code> - Describes the data being transferred.</dd>
@@ -671,21 +671,21 @@ public&nbsp;DefaultBandwidthMeter()</pre>
 </dl>
 </li>
 </ul>
-<a id="onBytesTransferred(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean,int)">
+<a id="onBytesTransferred(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean,int)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onBytesTransferred</h4>
-<pre class="methodSignature">public&nbsp;void&nbsp;onBytesTransferred&#8203;(<a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
-                               <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
+<pre class="methodSignature">public&nbsp;void&nbsp;onBytesTransferred&#8203;(<a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
+                               <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
                                boolean&nbsp;isNetwork,
                                int&nbsp;bytesTransferred)</pre>
-<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="TransferListener.html#onBytesTransferred(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean,int)">TransferListener</a></code></span></div>
+<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="TransferListener.html#onBytesTransferred(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean,int)">TransferListener</a></code></span></div>
 <div class="block">Called incrementally during a transfer.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="TransferListener.html#onBytesTransferred(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean,int)">onBytesTransferred</a></code>&nbsp;in interface&nbsp;<code><a href="TransferListener.html" title="interface in com.google.android.exoplayer2.upstream">TransferListener</a></code></dd>
+<dd><code><a href="TransferListener.html#onBytesTransferred(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean,int)">onBytesTransferred</a></code>&nbsp;in interface&nbsp;<code><a href="TransferListener.html" title="interface in com.readwise.android.exoplayer2.upstream">TransferListener</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>source</code> - The source performing the transfer.</dd>
 <dd><code>dataSpec</code> - Describes the data being transferred.</dd>
@@ -694,20 +694,20 @@ public&nbsp;DefaultBandwidthMeter()</pre>
 </dl>
 </li>
 </ul>
-<a id="onTransferEnd(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean)">
+<a id="onTransferEnd(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>onTransferEnd</h4>
-<pre class="methodSignature">public&nbsp;void&nbsp;onTransferEnd&#8203;(<a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
-                          <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
+<pre class="methodSignature">public&nbsp;void&nbsp;onTransferEnd&#8203;(<a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream">DataSource</a>&nbsp;source,
+                          <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec,
                           boolean&nbsp;isNetwork)</pre>
-<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="TransferListener.html#onTransferEnd(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean)">TransferListener</a></code></span></div>
+<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="TransferListener.html#onTransferEnd(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean)">TransferListener</a></code></span></div>
 <div class="block">Called when a transfer ends.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="TransferListener.html#onTransferEnd(com.google.android.exoplayer2.upstream.DataSource,com.google.android.exoplayer2.upstream.DataSpec,boolean)">onTransferEnd</a></code>&nbsp;in interface&nbsp;<code><a href="TransferListener.html" title="interface in com.google.android.exoplayer2.upstream">TransferListener</a></code></dd>
+<dd><code><a href="TransferListener.html#onTransferEnd(com.readwise.android.exoplayer2.upstream.DataSource,com.readwise.android.exoplayer2.upstream.DataSpec,boolean)">onTransferEnd</a></code>&nbsp;in interface&nbsp;<code><a href="TransferListener.html" title="interface in com.readwise.android.exoplayer2.upstream">TransferListener</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>source</code> - The source performing the transfer.</dd>
 <dd><code>dataSpec</code> - Describes the data being transferred.</dd>

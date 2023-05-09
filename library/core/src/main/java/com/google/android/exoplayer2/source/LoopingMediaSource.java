@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source;
+package com.readwise.android.exoplayer2.source;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.AbstractConcatenatedTimeline;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ExoPlayer;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.source.ShuffleOrder.UnshuffledShuffleOrder;
-import com.google.android.exoplayer2.upstream.Allocator;
-import com.google.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.AbstractConcatenatedTimeline;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ExoPlayer;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.source.ShuffleOrder.UnshuffledShuffleOrder;
+import com.readwise.android.exoplayer2.upstream.Allocator;
+import com.readwise.android.exoplayer2.util.Assertions;
 import java.util.HashMap;
 import java.util.Map;
 

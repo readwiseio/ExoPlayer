@@ -381,18 +381,18 @@ particularly when playing DRM protected or high frame rate content, you can try
 [documentation for the latest ExoPlayer release]: https://developer.android.com/guide/topics/media/exoplayer/troubleshooting
 [Supported formats]: {{ site.baseurl }}/supported-formats.html
 [set on a `DefaultExtractorsFactory`]: {{ site.base_url }}/customization.html#customizing-extractor-flags
-[`setMp3ExtractorFlags`]: {{ site.exo_sdk }}/extractor/DefaultExtractorsFactory#setMp3ExtractorFlags(@com.google.android.exoplayer2.extractor.mp4.Mp4Extractor.Flagsint)
+[`setMp3ExtractorFlags`]: {{ site.exo_sdk }}/extractor/DefaultExtractorsFactory#setMp3ExtractorFlags(@com.readwise.android.exoplayer2.extractor.mp4.Mp4Extractor.Flagsint)
 [`FLAG_ENABLE_INDEX_SEEKING`]: {{ site.exo_sdk }}/extractor/mp3/Mp3Extractor.html#FLAG_ENABLE_INDEX_SEEKING
 [intra-frame coding]: https://en.wikipedia.org/wiki/Intra-frame_coding
 [pre-caching the data to disk]: https://exoplayer.dev/downloading-media.html
-[`ExoPlayer.setSeekParameters]: {{ site.exo_sdk }}/ExoPlayer.html#setSeekParameters(com.google.android.exoplayer2.SeekParameters)
+[`ExoPlayer.setSeekParameters]: {{ site.exo_sdk }}/ExoPlayer.html#setSeekParameters(com.readwise.android.exoplayer2.SeekParameters)
 [`FLAG_DETECT_ACCESS_UNITS`]: {{ site.exo_sdk }}/extractor/ts/DefaultTsPayloadReaderFactory.html#FLAG_DETECT_ACCESS_UNITS
 [`FLAG_ALLOW_NON_IDR_KEYFRAMES`]: {{ site.exo_sdk }}/extractor/ts/DefaultTsPayloadReaderFactory.html#FLAG_ALLOW_NON_IDR_KEYFRAMES
-[`setTsExtractorFlags`]: {{ site.exo_sdk }}/extractor/DefaultExtractorsFactory#setTsExtractorFlags(@com.google.android.exoplayer2.extractor.mp4.Mp4Extractor.Flagsint)
+[`setTsExtractorFlags`]: {{ site.exo_sdk }}/extractor/DefaultExtractorsFactory#setTsExtractorFlags(@com.readwise.android.exoplayer2.extractor.mp4.Mp4Extractor.Flagsint)
 [`Mp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS`]: {{ site.exo_sdk }}/extractor/mp4/Mp4Extractor.html#FLAG_WORKAROUND_IGNORE_EDIT_LISTS
 [`FragmentedMp4Extractor.FLAG_WORKAROUND_IGNORE_EDIT_LISTS`]: {{ site.exo_sdk }}/extractor/mp4/FragmentedMp4Extractor.html#FLAG_WORKAROUND_IGNORE_EDIT_LISTS
-[`setMp4ExtractorFlags`]: {{ site.exo_sdk }}/extractor/DefaultExtractorsFactory#setMp4ExtractorFlags(@com.google.android.exoplayer2.extractor.mp4.Mp4Extractor.Flagsint)
-[`setFragmentedMp4ExtractorFlags`]: {{ site.exo_sdk }}/extractor/DefaultExtractorsFactory#setFragmentedMp4ExtractorFlags(@com.google.android.exoplayer2.extractor.mp4.Mp4Extractor.Flagsint)
+[`setMp4ExtractorFlags`]: {{ site.exo_sdk }}/extractor/DefaultExtractorsFactory#setMp4ExtractorFlags(@com.readwise.android.exoplayer2.extractor.mp4.Mp4Extractor.Flagsint)
+[`setFragmentedMp4ExtractorFlags`]: {{ site.exo_sdk }}/extractor/DefaultExtractorsFactory#setFragmentedMp4ExtractorFlags(@com.readwise.android.exoplayer2.extractor.mp4.Mp4Extractor.Flagsint)
 [Wikipedia]: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 [wget]: https://www.gnu.org/software/wget/manual/wget.html
 [`DefaultHttpDataSource.Factory`]: {{ site.exo_sdk }}/upstream/DefaultHttpDataSource.Factory.html
@@ -400,7 +400,7 @@ particularly when playing DRM protected or high frame rate content, you can try
 [issue tracker]: https://github.com/google/ExoPlayer/issues
 [`isCurrentWindowLive`]: {{ site.exo_sdk }}/Player.html#isCurrentWindowLive()
 [`isCurrentWindowDynamic`]: {{ site.exo_sdk }}/Player.html#isCurrentWindowDynamic()
-[`setPlaybackParameters`]: {{ site.exo_sdk }}/Player.html#setPlaybackParameters(com.google.android.exoplayer2.PlaybackParameters)
+[`setPlaybackParameters`]: {{ site.exo_sdk }}/Player.html#setPlaybackParameters(com.readwise.android.exoplayer2.PlaybackParameters)
 [foreground service]: https://developer.android.com/guide/components/services.html#Foreground
 [`WifiLock`]: {{ site.android_sdk }}/android/net/wifi/WifiManager.WifiLock.html
 [`WakeLock`]: {{ site.android_sdk }}/android/os/PowerManager.WakeLock.html

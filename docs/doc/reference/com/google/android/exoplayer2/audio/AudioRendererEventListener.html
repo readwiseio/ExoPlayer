@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.audio</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.audio</a></div>
 <h2 title="Interface AudioRendererEventListener" class="title">Interface AudioRendererEventListener</h2>
 </div>
 <div class="contentContainer">
@@ -122,7 +122,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <hr>
 <pre>public interface <span class="typeNameLabel">AudioRendererEventListener</span></pre>
-<div class="block">Listener of audio <a href="../Renderer.html" title="interface in com.google.android.exoplayer2"><code>Renderer</code></a> events. All methods have no-op default implementations to
+<div class="block">Listener of audio <a href="../Renderer.html" title="interface in com.readwise.android.exoplayer2"><code>Renderer</code></a> events. All methods have no-op default implementations to
  allow selective overrides.</div>
 </li>
 </ul>
@@ -146,9 +146,9 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static class&nbsp;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="AudioRendererEventListener.EventDispatcher.html" title="class in com.google.android.exoplayer2.audio">AudioRendererEventListener.EventDispatcher</a></span></code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="AudioRendererEventListener.EventDispatcher.html" title="class in com.readwise.android.exoplayer2.audio">AudioRendererEventListener.EventDispatcher</a></span></code></th>
 <td class="colLast">
-<div class="block">Dispatches events to an <a href="AudioRendererEventListener.html" title="interface in com.google.android.exoplayer2.audio"><code>AudioRendererEventListener</code></a>.</div>
+<div class="block">Dispatches events to an <a href="AudioRendererEventListener.html" title="interface in com.readwise.android.exoplayer2.audio"><code>AudioRendererEventListener</code></a>.</div>
 </td>
 </tr>
 </table>
@@ -194,31 +194,31 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i3" class="rowColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onAudioDisabled(com.google.android.exoplayer2.decoder.DecoderCounters)">onAudioDisabled</a></span>&#8203;(<a href="../decoder/DecoderCounters.html" title="class in com.google.android.exoplayer2.decoder">DecoderCounters</a>&nbsp;counters)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onAudioDisabled(com.readwise.android.exoplayer2.decoder.DecoderCounters)">onAudioDisabled</a></span>&#8203;(<a href="../decoder/DecoderCounters.html" title="class in com.readwise.android.exoplayer2.decoder">DecoderCounters</a>&nbsp;counters)</code></th>
 <td class="colLast">
 <div class="block">Called when the renderer is disabled.</div>
 </td>
 </tr>
 <tr id="i4" class="altColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onAudioEnabled(com.google.android.exoplayer2.decoder.DecoderCounters)">onAudioEnabled</a></span>&#8203;(<a href="../decoder/DecoderCounters.html" title="class in com.google.android.exoplayer2.decoder">DecoderCounters</a>&nbsp;counters)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onAudioEnabled(com.readwise.android.exoplayer2.decoder.DecoderCounters)">onAudioEnabled</a></span>&#8203;(<a href="../decoder/DecoderCounters.html" title="class in com.readwise.android.exoplayer2.decoder">DecoderCounters</a>&nbsp;counters)</code></th>
 <td class="colLast">
 <div class="block">Called when the renderer is enabled.</div>
 </td>
 </tr>
 <tr id="i5" class="rowColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onAudioInputFormatChanged(com.google.android.exoplayer2.Format)">onAudioInputFormatChanged</a></span>&#8203;(<a href="../Format.html" title="class in com.google.android.exoplayer2">Format</a>&nbsp;format)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onAudioInputFormatChanged(com.readwise.android.exoplayer2.Format)">onAudioInputFormatChanged</a></span>&#8203;(<a href="../Format.html" title="class in com.readwise.android.exoplayer2">Format</a>&nbsp;format)</code></th>
 <td class="colLast">
 <div class="block"><span class="deprecatedLabel">Deprecated.</span>
-<div class="deprecationComment">Use <a href="#onAudioInputFormatChanged(com.google.android.exoplayer2.Format,com.google.android.exoplayer2.decoder.DecoderReuseEvaluation)"><code>onAudioInputFormatChanged(Format, DecoderReuseEvaluation)</code></a>.</div>
+<div class="deprecationComment">Use <a href="#onAudioInputFormatChanged(com.readwise.android.exoplayer2.Format,com.readwise.android.exoplayer2.decoder.DecoderReuseEvaluation)"><code>onAudioInputFormatChanged(Format, DecoderReuseEvaluation)</code></a>.</div>
 </div>
 </td>
 </tr>
 <tr id="i6" class="altColor">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onAudioInputFormatChanged(com.google.android.exoplayer2.Format,com.google.android.exoplayer2.decoder.DecoderReuseEvaluation)">onAudioInputFormatChanged</a></span>&#8203;(<a href="../Format.html" title="class in com.google.android.exoplayer2">Format</a>&nbsp;format,
-                         <a href="../decoder/DecoderReuseEvaluation.html" title="class in com.google.android.exoplayer2.decoder">DecoderReuseEvaluation</a>&nbsp;decoderReuseEvaluation)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onAudioInputFormatChanged(com.readwise.android.exoplayer2.Format,com.readwise.android.exoplayer2.decoder.DecoderReuseEvaluation)">onAudioInputFormatChanged</a></span>&#8203;(<a href="../Format.html" title="class in com.readwise.android.exoplayer2">Format</a>&nbsp;format,
+                         <a href="../decoder/DecoderReuseEvaluation.html" title="class in com.readwise.android.exoplayer2.decoder">DecoderReuseEvaluation</a>&nbsp;decoderReuseEvaluation)</code></th>
 <td class="colLast">
 <div class="block">Called when the format of the media being consumed by the renderer changes.</div>
 </td>
@@ -235,7 +235,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <td class="colFirst"><code>default void</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onAudioSinkError(java.lang.Exception)">onAudioSinkError</a></span>&#8203;(<a href="https://developer.android.com/reference/java/lang/Exception.html" title="class or interface in java.lang" class="externalLink" target="_top">Exception</a>&nbsp;audioSinkError)</code></th>
 <td class="colLast">
-<div class="block">Called when <a href="AudioSink.html" title="interface in com.google.android.exoplayer2.audio"><code>AudioSink</code></a> has encountered an error.</div>
+<div class="block">Called when <a href="AudioSink.html" title="interface in com.readwise.android.exoplayer2.audio"><code>AudioSink</code></a> has encountered an error.</div>
 </td>
 </tr>
 <tr id="i9" class="rowColor">
@@ -271,17 +271,17 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="onAudioEnabled(com.google.android.exoplayer2.decoder.DecoderCounters)">
+<a id="onAudioEnabled(com.readwise.android.exoplayer2.decoder.DecoderCounters)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onAudioEnabled</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onAudioEnabled&#8203;(<a href="../decoder/DecoderCounters.html" title="class in com.google.android.exoplayer2.decoder">DecoderCounters</a>&nbsp;counters)</pre>
+<pre class="methodSignature">default&nbsp;void&nbsp;onAudioEnabled&#8203;(<a href="../decoder/DecoderCounters.html" title="class in com.readwise.android.exoplayer2.decoder">DecoderCounters</a>&nbsp;counters)</pre>
 <div class="block">Called when the renderer is enabled.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>counters</code> - <a href="../decoder/DecoderCounters.html" title="class in com.google.android.exoplayer2.decoder"><code>DecoderCounters</code></a> that will be updated by the renderer for as long as it
+<dd><code>counters</code> - <a href="../decoder/DecoderCounters.html" title="class in com.readwise.android.exoplayer2.decoder"><code>DecoderCounters</code></a> that will be updated by the renderer for as long as it
      remains enabled.</dd>
 </dl>
 </li>
@@ -305,28 +305,28 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dl>
 </li>
 </ul>
-<a id="onAudioInputFormatChanged(com.google.android.exoplayer2.Format)">
+<a id="onAudioInputFormatChanged(com.readwise.android.exoplayer2.Format)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onAudioInputFormatChanged</h4>
 <pre class="methodSignature"><a href="https://developer.android.com/reference/java/lang/Deprecated.html" title="class or interface in java.lang" class="externalLink" target="_top">@Deprecated</a>
-default&nbsp;void&nbsp;onAudioInputFormatChanged&#8203;(<a href="../Format.html" title="class in com.google.android.exoplayer2">Format</a>&nbsp;format)</pre>
+default&nbsp;void&nbsp;onAudioInputFormatChanged&#8203;(<a href="../Format.html" title="class in com.readwise.android.exoplayer2">Format</a>&nbsp;format)</pre>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span>
-<div class="deprecationComment">Use <a href="#onAudioInputFormatChanged(com.google.android.exoplayer2.Format,com.google.android.exoplayer2.decoder.DecoderReuseEvaluation)"><code>onAudioInputFormatChanged(Format, DecoderReuseEvaluation)</code></a>.</div>
+<div class="deprecationComment">Use <a href="#onAudioInputFormatChanged(com.readwise.android.exoplayer2.Format,com.readwise.android.exoplayer2.decoder.DecoderReuseEvaluation)"><code>onAudioInputFormatChanged(Format, DecoderReuseEvaluation)</code></a>.</div>
 </div>
 </li>
 </ul>
-<a id="onAudioInputFormatChanged(com.google.android.exoplayer2.Format,com.google.android.exoplayer2.decoder.DecoderReuseEvaluation)">
+<a id="onAudioInputFormatChanged(com.readwise.android.exoplayer2.Format,com.readwise.android.exoplayer2.decoder.DecoderReuseEvaluation)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onAudioInputFormatChanged</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onAudioInputFormatChanged&#8203;(<a href="../Format.html" title="class in com.google.android.exoplayer2">Format</a>&nbsp;format,
+<pre class="methodSignature">default&nbsp;void&nbsp;onAudioInputFormatChanged&#8203;(<a href="../Format.html" title="class in com.readwise.android.exoplayer2">Format</a>&nbsp;format,
                                        @Nullable
-                                       <a href="../decoder/DecoderReuseEvaluation.html" title="class in com.google.android.exoplayer2.decoder">DecoderReuseEvaluation</a>&nbsp;decoderReuseEvaluation)</pre>
+                                       <a href="../decoder/DecoderReuseEvaluation.html" title="class in com.readwise.android.exoplayer2.decoder">DecoderReuseEvaluation</a>&nbsp;decoderReuseEvaluation)</pre>
 <div class="block">Called when the format of the media being consumed by the renderer changes.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -386,17 +386,17 @@ default&nbsp;void&nbsp;onAudioInputFormatChanged&#8203;(<a href="../Format.html"
 </dl>
 </li>
 </ul>
-<a id="onAudioDisabled(com.google.android.exoplayer2.decoder.DecoderCounters)">
+<a id="onAudioDisabled(com.readwise.android.exoplayer2.decoder.DecoderCounters)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onAudioDisabled</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onAudioDisabled&#8203;(<a href="../decoder/DecoderCounters.html" title="class in com.google.android.exoplayer2.decoder">DecoderCounters</a>&nbsp;counters)</pre>
+<pre class="methodSignature">default&nbsp;void&nbsp;onAudioDisabled&#8203;(<a href="../decoder/DecoderCounters.html" title="class in com.readwise.android.exoplayer2.decoder">DecoderCounters</a>&nbsp;counters)</pre>
 <div class="block">Called when the renderer is disabled.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>counters</code> - <a href="../decoder/DecoderCounters.html" title="class in com.google.android.exoplayer2.decoder"><code>DecoderCounters</code></a> that were updated by the renderer.</dd>
+<dd><code>counters</code> - <a href="../decoder/DecoderCounters.html" title="class in com.readwise.android.exoplayer2.decoder"><code>DecoderCounters</code></a> that were updated by the renderer.</dd>
 </dl>
 </li>
 </ul>
@@ -426,13 +426,13 @@ default&nbsp;void&nbsp;onAudioInputFormatChanged&#8203;(<a href="../Format.html"
  <p>This method being called does not indicate that playback has failed, or that it will fail.
  The player may be able to recover from the error. Hence applications should <em>not</em>
  implement this method to display a user visible error or initiate an application level retry.
- <a href="../Player.Listener.html#onPlayerError(com.google.android.exoplayer2.PlaybackException)"><code>Player.Listener.onPlayerError(com.google.android.exoplayer2.PlaybackException)</code></a> is the appropriate place to implement such behavior. This
+ <a href="../Player.Listener.html#onPlayerError(com.readwise.android.exoplayer2.PlaybackException)"><code>Player.Listener.onPlayerError(com.readwise.android.exoplayer2.PlaybackException)</code></a> is the appropriate place to implement such behavior. This
  method is called to provide the application with an opportunity to log the error if it wishes
  to do so.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>audioCodecError</code> - The error. Typically a <a href="https://developer.android.com/reference/android/media/MediaCodec.CodecException.html" title="class or interface in android.media" class="externalLink" target="_top"><code>MediaCodec.CodecException</code></a> if the renderer uses
-     <a href="https://developer.android.com/reference/android/media/MediaCodec.html" title="class or interface in android.media" class="externalLink"><code>MediaCodec</code></a>, or a <a href="../decoder/DecoderException.html" title="class in com.google.android.exoplayer2.decoder" target="_top"><code>DecoderException</code></a> if the renderer uses a software decoder.</dd>
+     <a href="https://developer.android.com/reference/android/media/MediaCodec.html" title="class or interface in android.media" class="externalLink"><code>MediaCodec</code></a>, or a <a href="../decoder/DecoderException.html" title="class in com.readwise.android.exoplayer2.decoder" target="_top"><code>DecoderException</code></a> if the renderer uses a software decoder.</dd>
 </dl>
 </li>
 </ul>
@@ -443,19 +443,19 @@ default&nbsp;void&nbsp;onAudioInputFormatChanged&#8203;(<a href="../Format.html"
 <li class="blockList">
 <h4>onAudioSinkError</h4>
 <pre class="methodSignature">default&nbsp;void&nbsp;onAudioSinkError&#8203;(<a href="https://developer.android.com/reference/java/lang/Exception.html" title="class or interface in java.lang" class="externalLink" target="_top">Exception</a>&nbsp;audioSinkError)</pre>
-<div class="block">Called when <a href="AudioSink.html" title="interface in com.google.android.exoplayer2.audio"><code>AudioSink</code></a> has encountered an error.
+<div class="block">Called when <a href="AudioSink.html" title="interface in com.readwise.android.exoplayer2.audio"><code>AudioSink</code></a> has encountered an error.
 
  <p>If the sink writes to a platform <a href="https://developer.android.com/reference/android/media/AudioTrack.html" title="class or interface in android.media" class="externalLink"><code>AudioTrack</code></a>, this will be called for all <a href="https://developer.android.com/reference/android/media/AudioTrack.html?is-external=true" title="class or interface in android.media" class="externalLink" target="_top"><code>AudioTrack</code></a> errors.
 
  <p>This method being called does not indicate that playback has failed, or that it will fail.
  The player may be able to recover from the error. Hence applications should <em>not</em>
  implement this method to display a user visible error or initiate an application level retry.
- <a href="../Player.Listener.html#onPlayerError(com.google.android.exoplayer2.PlaybackException)"><code>Player.Listener.onPlayerError(com.google.android.exoplayer2.PlaybackException)</code></a> is the appropriate place to implement such behavior. This
+ <a href="../Player.Listener.html#onPlayerError(com.readwise.android.exoplayer2.PlaybackException)"><code>Player.Listener.onPlayerError(com.readwise.android.exoplayer2.PlaybackException)</code></a> is the appropriate place to implement such behavior. This
  method is called to provide the application with an opportunity to log the error if it wishes
  to do so.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>audioSinkError</code> - The error that occurred. Typically an <a href="AudioSink.InitializationException.html" title="class in com.google.android.exoplayer2.audio"><code>AudioSink.InitializationException</code></a>, a <a href="AudioSink.WriteException.html" title="class in com.google.android.exoplayer2.audio"><code>AudioSink.WriteException</code></a>, or an <a href="AudioSink.UnexpectedDiscontinuityException.html" title="class in com.google.android.exoplayer2.audio"><code>AudioSink.UnexpectedDiscontinuityException</code></a>.</dd>
+<dd><code>audioSinkError</code> - The error that occurred. Typically an <a href="AudioSink.InitializationException.html" title="class in com.readwise.android.exoplayer2.audio"><code>AudioSink.InitializationException</code></a>, a <a href="AudioSink.WriteException.html" title="class in com.readwise.android.exoplayer2.audio"><code>AudioSink.WriteException</code></a>, or an <a href="AudioSink.UnexpectedDiscontinuityException.html" title="class in com.readwise.android.exoplayer2.audio"><code>AudioSink.UnexpectedDiscontinuityException</code></a>.</dd>
 </dl>
 </li>
 </ul>

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.mediacodec;
+package com.readwise.android.exoplayer2.mediacodec;
 
 import static androidx.annotation.VisibleForTesting.NONE;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Util.castNonNull;
 
 import android.media.MediaCodec;
 import android.os.Handler;
@@ -28,9 +28,9 @@ import androidx.annotation.GuardedBy;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.decoder.CryptoInfo;
-import com.google.android.exoplayer2.util.ConditionVariable;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.decoder.CryptoInfo;
+import com.readwise.android.exoplayer2.util.ConditionVariable;
+import com.readwise.android.exoplayer2.util.Util;
 import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.concurrent.atomic.AtomicReference;

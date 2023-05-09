@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.metadata.id3;
+package com.readwise.android.exoplayer2.metadata.id3;
 
-import com.google.android.exoplayer2.metadata.Metadata;
+import com.readwise.android.exoplayer2.metadata.Metadata;
 
 /** Base class for ID3 frames. */
 public abstract class Id3Frame implements Metadata.Entry {

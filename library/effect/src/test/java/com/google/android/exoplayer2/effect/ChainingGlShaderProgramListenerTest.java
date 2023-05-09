@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.effect;
+package com.readwise.android.exoplayer2.effect;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.util.GlTextureInfo;
-import com.google.android.exoplayer2.util.Util;
-import com.google.android.exoplayer2.util.VideoFrameProcessor;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.util.GlTextureInfo;
+import com.readwise.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.util.VideoFrameProcessor;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;

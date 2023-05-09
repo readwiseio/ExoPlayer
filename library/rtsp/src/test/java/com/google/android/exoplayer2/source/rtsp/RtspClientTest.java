@@ -13,19 +13,25 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.rtsp;
+package com.readwise.android.exoplayer2.source.rtsp;
 
 import static com.google.common.truth.Truth.assertThat;
 
 import android.net.Uri;
 import androidx.annotation.Nullable;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.robolectric.RobolectricUtil;
-import com.google.android.exoplayer2.source.rtsp.RtspClient.PlaybackEventListener;
-import com.google.android.exoplayer2.source.rtsp.RtspClient.SessionInfoListener;
-import com.google.android.exoplayer2.source.rtsp.RtspMediaSource.RtspPlaybackException;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.robolectric.RobolectricUtil;
+import com.readwise.android.exoplayer2.source.rtsp.RtspClient;
+import com.readwise.android.exoplayer2.source.rtsp.RtspClient.PlaybackEventListener;
+import com.readwise.android.exoplayer2.source.rtsp.RtspClient.SessionInfoListener;
+import com.readwise.android.exoplayer2.source.rtsp.RtspHeaders;
+import com.readwise.android.exoplayer2.source.rtsp.RtspMediaSource.RtspPlaybackException;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
+import com.readwise.android.exoplayer2.source.rtsp.RtspMediaTrack;
+import com.readwise.android.exoplayer2.source.rtsp.RtspResponse;
+import com.readwise.android.exoplayer2.source.rtsp.RtspSessionTiming;
+import com.readwise.android.exoplayer2.source.rtsp.RtspTrackTiming;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.Socket;

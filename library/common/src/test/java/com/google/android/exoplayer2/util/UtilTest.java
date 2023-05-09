@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.util;
+package com.readwise.android.exoplayer2.util;
 
-import static com.google.android.exoplayer2.util.Util.binarySearchCeil;
-import static com.google.android.exoplayer2.util.Util.binarySearchFloor;
-import static com.google.android.exoplayer2.util.Util.escapeFileName;
-import static com.google.android.exoplayer2.util.Util.getCodecsOfType;
-import static com.google.android.exoplayer2.util.Util.getStringForTime;
-import static com.google.android.exoplayer2.util.Util.gzip;
-import static com.google.android.exoplayer2.util.Util.maxValue;
-import static com.google.android.exoplayer2.util.Util.minValue;
-import static com.google.android.exoplayer2.util.Util.parseXsDateTime;
-import static com.google.android.exoplayer2.util.Util.parseXsDuration;
-import static com.google.android.exoplayer2.util.Util.unescapeFileName;
+import static com.readwise.android.exoplayer2.util.Util.binarySearchCeil;
+import static com.readwise.android.exoplayer2.util.Util.binarySearchFloor;
+import static com.readwise.android.exoplayer2.util.Util.escapeFileName;
+import static com.readwise.android.exoplayer2.util.Util.getCodecsOfType;
+import static com.readwise.android.exoplayer2.util.Util.getStringForTime;
+import static com.readwise.android.exoplayer2.util.Util.gzip;
+import static com.readwise.android.exoplayer2.util.Util.maxValue;
+import static com.readwise.android.exoplayer2.util.Util.minValue;
+import static com.readwise.android.exoplayer2.util.Util.parseXsDateTime;
+import static com.readwise.android.exoplayer2.util.Util.parseXsDuration;
+import static com.readwise.android.exoplayer2.util.Util.unescapeFileName;
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
 import static org.mockito.Mockito.mock;
@@ -44,8 +44,8 @@ import android.text.style.StrikethroughSpan;
 import android.text.style.UnderlineSpan;
 import android.util.SparseLongArray;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.testutil.TestUtil;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.testutil.TestUtil;
 import com.google.common.io.ByteStreams;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;

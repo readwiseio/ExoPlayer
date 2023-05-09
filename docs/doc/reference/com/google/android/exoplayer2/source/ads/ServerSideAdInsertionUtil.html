@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.source.ads</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.source.ads</a></div>
 <h2 title="Class ServerSideAdInsertionUtil" class="title">Class ServerSideAdInsertionUtil</h2>
 </div>
 <div class="contentContainer">
@@ -121,7 +121,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li><a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">java.lang.Object</a></li>
 <li>
 <ul class="inheritance">
-<li>com.google.android.exoplayer2.source.ads.ServerSideAdInsertionUtil</li>
+<li>com.readwise.android.exoplayer2.source.ads.ServerSideAdInsertionUtil</li>
 </ul>
 </li>
 </ul>
@@ -153,18 +153,18 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 <th class="colLast" scope="col">Description</th>
 </tr>
 <tr id="i0" class="altColor">
-<td class="colFirst"><code>static <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads">AdPlaybackState</a></code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#addAdGroupToAdPlaybackState(com.google.android.exoplayer2.source.ads.AdPlaybackState,long,long,long...)">addAdGroupToAdPlaybackState</a></span>&#8203;(<a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState,
+<td class="colFirst"><code>static <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads">AdPlaybackState</a></code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#addAdGroupToAdPlaybackState(com.readwise.android.exoplayer2.source.ads.AdPlaybackState,long,long,long...)">addAdGroupToAdPlaybackState</a></span>&#8203;(<a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState,
                            long&nbsp;fromPositionUs,
                            long&nbsp;contentResumeOffsetUs,
                            long...&nbsp;adDurationsUs)</code></th>
 <td class="colLast">
-<div class="block">Adds a new server-side inserted ad group to an <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads"><code>AdPlaybackState</code></a>.</div>
+<div class="block">Adds a new server-side inserted ad group to an <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads"><code>AdPlaybackState</code></a>.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>static int</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getAdCountInGroup(com.google.android.exoplayer2.source.ads.AdPlaybackState,int)">getAdCountInGroup</a></span>&#8203;(<a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getAdCountInGroup(com.readwise.android.exoplayer2.source.ads.AdPlaybackState,int)">getAdCountInGroup</a></span>&#8203;(<a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState,
                  int&nbsp;adGroupIndex)</code></th>
 <td class="colLast">
 <div class="block">Returns the number of ads in an ad group, treating an unknown number as zero ads.</div>
@@ -172,73 +172,73 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 </tr>
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>static long</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getMediaPeriodPositionUs(long,com.google.android.exoplayer2.source.MediaPeriodId,com.google.android.exoplayer2.source.ads.AdPlaybackState)">getMediaPeriodPositionUs</a></span>&#8203;(long&nbsp;positionUs,
-                        <a href="../MediaPeriodId.html" title="class in com.google.android.exoplayer2.source">MediaPeriodId</a>&nbsp;mediaPeriodId,
-                        <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getMediaPeriodPositionUs(long,com.readwise.android.exoplayer2.source.MediaPeriodId,com.readwise.android.exoplayer2.source.ads.AdPlaybackState)">getMediaPeriodPositionUs</a></span>&#8203;(long&nbsp;positionUs,
+                        <a href="../MediaPeriodId.html" title="class in com.readwise.android.exoplayer2.source">MediaPeriodId</a>&nbsp;mediaPeriodId,
+                        <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</code></th>
 <td class="colLast">
-<div class="block">Returns the position in a <a href="../MediaPeriod.html" title="interface in com.google.android.exoplayer2.source"><code>MediaPeriod</code></a> for a position in the underlying server-side
+<div class="block">Returns the position in a <a href="../MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source"><code>MediaPeriod</code></a> for a position in the underlying server-side
  inserted ads stream.</div>
 </td>
 </tr>
 <tr id="i3" class="rowColor">
 <td class="colFirst"><code>static long</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getMediaPeriodPositionUsForAd(long,int,int,com.google.android.exoplayer2.source.ads.AdPlaybackState)">getMediaPeriodPositionUsForAd</a></span>&#8203;(long&nbsp;positionUs,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getMediaPeriodPositionUsForAd(long,int,int,com.readwise.android.exoplayer2.source.ads.AdPlaybackState)">getMediaPeriodPositionUsForAd</a></span>&#8203;(long&nbsp;positionUs,
                              int&nbsp;adGroupIndex,
                              int&nbsp;adIndexInAdGroup,
-                             <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</code></th>
+                             <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</code></th>
 <td class="colLast">
-<div class="block">Returns the position in an ad <a href="../MediaPeriod.html" title="interface in com.google.android.exoplayer2.source"><code>MediaPeriod</code></a> for a position in the underlying server-side
+<div class="block">Returns the position in an ad <a href="../MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source"><code>MediaPeriod</code></a> for a position in the underlying server-side
  inserted ads stream.</div>
 </td>
 </tr>
 <tr id="i4" class="altColor">
 <td class="colFirst"><code>static long</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getMediaPeriodPositionUsForContent(long,int,com.google.android.exoplayer2.source.ads.AdPlaybackState)">getMediaPeriodPositionUsForContent</a></span>&#8203;(long&nbsp;positionUs,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getMediaPeriodPositionUsForContent(long,int,com.readwise.android.exoplayer2.source.ads.AdPlaybackState)">getMediaPeriodPositionUsForContent</a></span>&#8203;(long&nbsp;positionUs,
                                   int&nbsp;nextAdGroupIndex,
-                                  <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</code></th>
+                                  <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</code></th>
 <td class="colLast">
-<div class="block">Returns the position in a content <a href="../MediaPeriod.html" title="interface in com.google.android.exoplayer2.source"><code>MediaPeriod</code></a> for a position in the underlying
+<div class="block">Returns the position in a content <a href="../MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source"><code>MediaPeriod</code></a> for a position in the underlying
  server-side inserted ads stream.</div>
 </td>
 </tr>
 <tr id="i5" class="rowColor">
 <td class="colFirst"><code>static long</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getStreamPositionUs(long,com.google.android.exoplayer2.source.MediaPeriodId,com.google.android.exoplayer2.source.ads.AdPlaybackState)">getStreamPositionUs</a></span>&#8203;(long&nbsp;positionUs,
-                   <a href="../MediaPeriodId.html" title="class in com.google.android.exoplayer2.source">MediaPeriodId</a>&nbsp;mediaPeriodId,
-                   <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getStreamPositionUs(long,com.readwise.android.exoplayer2.source.MediaPeriodId,com.readwise.android.exoplayer2.source.ads.AdPlaybackState)">getStreamPositionUs</a></span>&#8203;(long&nbsp;positionUs,
+                   <a href="../MediaPeriodId.html" title="class in com.readwise.android.exoplayer2.source">MediaPeriodId</a>&nbsp;mediaPeriodId,
+                   <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</code></th>
 <td class="colLast">
 <div class="block">Returns the position in the underlying server-side inserted ads stream for a position in a
- <a href="../MediaPeriod.html" title="interface in com.google.android.exoplayer2.source"><code>MediaPeriod</code></a>.</div>
+ <a href="../MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source"><code>MediaPeriod</code></a>.</div>
 </td>
 </tr>
 <tr id="i6" class="altColor">
 <td class="colFirst"><code>static long</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getStreamPositionUs(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.source.ads.AdPlaybackState)">getStreamPositionUs</a></span>&#8203;(<a href="../../Player.html" title="interface in com.google.android.exoplayer2">Player</a>&nbsp;player,
-                   <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getStreamPositionUs(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.source.ads.AdPlaybackState)">getStreamPositionUs</a></span>&#8203;(<a href="../../Player.html" title="interface in com.readwise.android.exoplayer2">Player</a>&nbsp;player,
+                   <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</code></th>
 <td class="colLast">
 <div class="block">Returns the position in the underlying server-side inserted ads stream for the current playback
- position in the <a href="../../Player.html" title="interface in com.google.android.exoplayer2"><code>Player</code></a>.</div>
+ position in the <a href="../../Player.html" title="interface in com.readwise.android.exoplayer2"><code>Player</code></a>.</div>
 </td>
 </tr>
 <tr id="i7" class="rowColor">
 <td class="colFirst"><code>static long</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getStreamPositionUsForAd(long,int,int,com.google.android.exoplayer2.source.ads.AdPlaybackState)">getStreamPositionUsForAd</a></span>&#8203;(long&nbsp;positionUs,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getStreamPositionUsForAd(long,int,int,com.readwise.android.exoplayer2.source.ads.AdPlaybackState)">getStreamPositionUsForAd</a></span>&#8203;(long&nbsp;positionUs,
                         int&nbsp;adGroupIndex,
                         int&nbsp;adIndexInAdGroup,
-                        <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</code></th>
+                        <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</code></th>
 <td class="colLast">
 <div class="block">Returns the position in the underlying server-side inserted ads stream for a position in an ad
- <a href="../MediaPeriod.html" title="interface in com.google.android.exoplayer2.source"><code>MediaPeriod</code></a>.</div>
+ <a href="../MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source"><code>MediaPeriod</code></a>.</div>
 </td>
 </tr>
 <tr id="i8" class="altColor">
 <td class="colFirst"><code>static long</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getStreamPositionUsForContent(long,int,com.google.android.exoplayer2.source.ads.AdPlaybackState)">getStreamPositionUsForContent</a></span>&#8203;(long&nbsp;positionUs,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getStreamPositionUsForContent(long,int,com.readwise.android.exoplayer2.source.ads.AdPlaybackState)">getStreamPositionUsForContent</a></span>&#8203;(long&nbsp;positionUs,
                              int&nbsp;nextAdGroupIndex,
-                             <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</code></th>
+                             <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</code></th>
 <td class="colLast">
 <div class="block">Returns the position in the underlying server-side inserted ads stream for a position in a
- content <a href="../MediaPeriod.html" title="interface in com.google.android.exoplayer2.source"><code>MediaPeriod</code></a>.</div>
+ content <a href="../MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source"><code>MediaPeriod</code></a>.</div>
 </td>
 </tr>
 </table>
@@ -265,24 +265,24 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="addAdGroupToAdPlaybackState(com.google.android.exoplayer2.source.ads.AdPlaybackState,long,long,long...)">
+<a id="addAdGroupToAdPlaybackState(com.readwise.android.exoplayer2.source.ads.AdPlaybackState,long,long,long...)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>addAdGroupToAdPlaybackState</h4>
 <pre class="methodSignature">@CheckResult
-public static&nbsp;<a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;addAdGroupToAdPlaybackState&#8203;(<a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState,
+public static&nbsp;<a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;addAdGroupToAdPlaybackState&#8203;(<a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState,
                                                           long&nbsp;fromPositionUs,
                                                           long&nbsp;contentResumeOffsetUs,
                                                           long...&nbsp;adDurationsUs)</pre>
-<div class="block">Adds a new server-side inserted ad group to an <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads"><code>AdPlaybackState</code></a>.
+<div class="block">Adds a new server-side inserted ad group to an <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads"><code>AdPlaybackState</code></a>.
 
  <p>If the first ad with a non-zero duration is not the first ad in the group, all ads before
  that ad are marked as skipped.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>adPlaybackState</code> - The existing <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads"><code>AdPlaybackState</code></a>.</dd>
+<dd><code>adPlaybackState</code> - The existing <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads"><code>AdPlaybackState</code></a>.</dd>
 <dd><code>fromPositionUs</code> - The position in the underlying server-side inserted ads stream at which
      the ad group starts, in microseconds.</dd>
 <dd><code>contentResumeOffsetUs</code> - The timestamp offset which should be added to the content stream
@@ -291,74 +291,74 @@ public static&nbsp;<a href="AdPlaybackState.html" title="class in com.google.and
      stream timestamps after the ad group.</dd>
 <dd><code>adDurationsUs</code> - The durations of the ads to be added to the group, in microseconds.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>The updated <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads"><code>AdPlaybackState</code></a>.</dd>
+<dd>The updated <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads"><code>AdPlaybackState</code></a>.</dd>
 </dl>
 </li>
 </ul>
-<a id="getStreamPositionUs(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.source.ads.AdPlaybackState)">
+<a id="getStreamPositionUs(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.source.ads.AdPlaybackState)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>getStreamPositionUs</h4>
-<pre class="methodSignature">public static&nbsp;long&nbsp;getStreamPositionUs&#8203;(<a href="../../Player.html" title="interface in com.google.android.exoplayer2">Player</a>&nbsp;player,
-                                       <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</pre>
+<pre class="methodSignature">public static&nbsp;long&nbsp;getStreamPositionUs&#8203;(<a href="../../Player.html" title="interface in com.readwise.android.exoplayer2">Player</a>&nbsp;player,
+                                       <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</pre>
 <div class="block">Returns the position in the underlying server-side inserted ads stream for the current playback
- position in the <a href="../../Player.html" title="interface in com.google.android.exoplayer2"><code>Player</code></a>.</div>
+ position in the <a href="../../Player.html" title="interface in com.readwise.android.exoplayer2"><code>Player</code></a>.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>player</code> - The <a href="../../Player.html" title="interface in com.google.android.exoplayer2"><code>Player</code></a>.</dd>
-<dd><code>adPlaybackState</code> - The <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads"><code>AdPlaybackState</code></a> defining the ad groups.</dd>
+<dd><code>player</code> - The <a href="../../Player.html" title="interface in com.readwise.android.exoplayer2"><code>Player</code></a>.</dd>
+<dd><code>adPlaybackState</code> - The <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads"><code>AdPlaybackState</code></a> defining the ad groups.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>The position in the underlying server-side inserted ads stream, in microseconds, or
      <a href="../../C.html#TIME_UNSET"><code>C.TIME_UNSET</code></a> if it can't be determined.</dd>
 </dl>
 </li>
 </ul>
-<a id="getStreamPositionUs(long,com.google.android.exoplayer2.source.MediaPeriodId,com.google.android.exoplayer2.source.ads.AdPlaybackState)">
+<a id="getStreamPositionUs(long,com.readwise.android.exoplayer2.source.MediaPeriodId,com.readwise.android.exoplayer2.source.ads.AdPlaybackState)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>getStreamPositionUs</h4>
 <pre class="methodSignature">public static&nbsp;long&nbsp;getStreamPositionUs&#8203;(long&nbsp;positionUs,
-                                       <a href="../MediaPeriodId.html" title="class in com.google.android.exoplayer2.source">MediaPeriodId</a>&nbsp;mediaPeriodId,
-                                       <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</pre>
+                                       <a href="../MediaPeriodId.html" title="class in com.readwise.android.exoplayer2.source">MediaPeriodId</a>&nbsp;mediaPeriodId,
+                                       <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</pre>
 <div class="block">Returns the position in the underlying server-side inserted ads stream for a position in a
- <a href="../MediaPeriod.html" title="interface in com.google.android.exoplayer2.source"><code>MediaPeriod</code></a>.</div>
+ <a href="../MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source"><code>MediaPeriod</code></a>.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>positionUs</code> - The position in the <a href="../MediaPeriod.html" title="interface in com.google.android.exoplayer2.source"><code>MediaPeriod</code></a>, in microseconds.</dd>
-<dd><code>mediaPeriodId</code> - The <a href="../MediaPeriodId.html" title="class in com.google.android.exoplayer2.source"><code>MediaPeriodId</code></a> of the <a href="../MediaPeriod.html" title="interface in com.google.android.exoplayer2.source"><code>MediaPeriod</code></a>.</dd>
-<dd><code>adPlaybackState</code> - The <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads"><code>AdPlaybackState</code></a> defining the ad groups.</dd>
+<dd><code>positionUs</code> - The position in the <a href="../MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source"><code>MediaPeriod</code></a>, in microseconds.</dd>
+<dd><code>mediaPeriodId</code> - The <a href="../MediaPeriodId.html" title="class in com.readwise.android.exoplayer2.source"><code>MediaPeriodId</code></a> of the <a href="../MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source"><code>MediaPeriod</code></a>.</dd>
+<dd><code>adPlaybackState</code> - The <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads"><code>AdPlaybackState</code></a> defining the ad groups.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>The position in the underlying server-side inserted ads stream, in microseconds.</dd>
 </dl>
 </li>
 </ul>
-<a id="getMediaPeriodPositionUs(long,com.google.android.exoplayer2.source.MediaPeriodId,com.google.android.exoplayer2.source.ads.AdPlaybackState)">
+<a id="getMediaPeriodPositionUs(long,com.readwise.android.exoplayer2.source.MediaPeriodId,com.readwise.android.exoplayer2.source.ads.AdPlaybackState)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>getMediaPeriodPositionUs</h4>
 <pre class="methodSignature">public static&nbsp;long&nbsp;getMediaPeriodPositionUs&#8203;(long&nbsp;positionUs,
-                                            <a href="../MediaPeriodId.html" title="class in com.google.android.exoplayer2.source">MediaPeriodId</a>&nbsp;mediaPeriodId,
-                                            <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</pre>
-<div class="block">Returns the position in a <a href="../MediaPeriod.html" title="interface in com.google.android.exoplayer2.source"><code>MediaPeriod</code></a> for a position in the underlying server-side
+                                            <a href="../MediaPeriodId.html" title="class in com.readwise.android.exoplayer2.source">MediaPeriodId</a>&nbsp;mediaPeriodId,
+                                            <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</pre>
+<div class="block">Returns the position in a <a href="../MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source"><code>MediaPeriod</code></a> for a position in the underlying server-side
  inserted ads stream.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>positionUs</code> - The position in the underlying server-side inserted ads stream, in
      microseconds.</dd>
-<dd><code>mediaPeriodId</code> - The <a href="../MediaPeriodId.html" title="class in com.google.android.exoplayer2.source"><code>MediaPeriodId</code></a> of the <a href="../MediaPeriod.html" title="interface in com.google.android.exoplayer2.source"><code>MediaPeriod</code></a>.</dd>
-<dd><code>adPlaybackState</code> - The <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads"><code>AdPlaybackState</code></a> defining the ad groups.</dd>
+<dd><code>mediaPeriodId</code> - The <a href="../MediaPeriodId.html" title="class in com.readwise.android.exoplayer2.source"><code>MediaPeriodId</code></a> of the <a href="../MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source"><code>MediaPeriod</code></a>.</dd>
+<dd><code>adPlaybackState</code> - The <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads"><code>AdPlaybackState</code></a> defining the ad groups.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>The position in the <a href="../MediaPeriod.html" title="interface in com.google.android.exoplayer2.source"><code>MediaPeriod</code></a>, in microseconds.</dd>
+<dd>The position in the <a href="../MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source"><code>MediaPeriod</code></a>, in microseconds.</dd>
 </dl>
 </li>
 </ul>
-<a id="getStreamPositionUsForAd(long,int,int,com.google.android.exoplayer2.source.ads.AdPlaybackState)">
+<a id="getStreamPositionUsForAd(long,int,int,com.readwise.android.exoplayer2.source.ads.AdPlaybackState)">
 <!--   -->
 </a>
 <ul class="blockList">
@@ -367,21 +367,21 @@ public static&nbsp;<a href="AdPlaybackState.html" title="class in com.google.and
 <pre class="methodSignature">public static&nbsp;long&nbsp;getStreamPositionUsForAd&#8203;(long&nbsp;positionUs,
                                             int&nbsp;adGroupIndex,
                                             int&nbsp;adIndexInAdGroup,
-                                            <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</pre>
+                                            <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</pre>
 <div class="block">Returns the position in the underlying server-side inserted ads stream for a position in an ad
- <a href="../MediaPeriod.html" title="interface in com.google.android.exoplayer2.source"><code>MediaPeriod</code></a>.</div>
+ <a href="../MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source"><code>MediaPeriod</code></a>.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>positionUs</code> - The position in the ad <a href="../MediaPeriod.html" title="interface in com.google.android.exoplayer2.source"><code>MediaPeriod</code></a>, in microseconds.</dd>
+<dd><code>positionUs</code> - The position in the ad <a href="../MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source"><code>MediaPeriod</code></a>, in microseconds.</dd>
 <dd><code>adGroupIndex</code> - The ad group index of the ad.</dd>
 <dd><code>adIndexInAdGroup</code> - The index of the ad in the ad group.</dd>
-<dd><code>adPlaybackState</code> - The <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads"><code>AdPlaybackState</code></a> defining the ad groups.</dd>
+<dd><code>adPlaybackState</code> - The <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads"><code>AdPlaybackState</code></a> defining the ad groups.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>The position in the underlying server-side inserted ads stream, in microseconds.</dd>
 </dl>
 </li>
 </ul>
-<a id="getMediaPeriodPositionUsForAd(long,int,int,com.google.android.exoplayer2.source.ads.AdPlaybackState)">
+<a id="getMediaPeriodPositionUsForAd(long,int,int,com.readwise.android.exoplayer2.source.ads.AdPlaybackState)">
 <!--   -->
 </a>
 <ul class="blockList">
@@ -390,8 +390,8 @@ public static&nbsp;<a href="AdPlaybackState.html" title="class in com.google.and
 <pre class="methodSignature">public static&nbsp;long&nbsp;getMediaPeriodPositionUsForAd&#8203;(long&nbsp;positionUs,
                                                  int&nbsp;adGroupIndex,
                                                  int&nbsp;adIndexInAdGroup,
-                                                 <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</pre>
-<div class="block">Returns the position in an ad <a href="../MediaPeriod.html" title="interface in com.google.android.exoplayer2.source"><code>MediaPeriod</code></a> for a position in the underlying server-side
+                                                 <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</pre>
+<div class="block">Returns the position in an ad <a href="../MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source"><code>MediaPeriod</code></a> for a position in the underlying server-side
  inserted ads stream.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -399,13 +399,13 @@ public static&nbsp;<a href="AdPlaybackState.html" title="class in com.google.and
      microseconds.</dd>
 <dd><code>adGroupIndex</code> - The ad group index of the ad.</dd>
 <dd><code>adIndexInAdGroup</code> - The index of the ad in the ad group.</dd>
-<dd><code>adPlaybackState</code> - The <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads"><code>AdPlaybackState</code></a> defining the ad groups.</dd>
+<dd><code>adPlaybackState</code> - The <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads"><code>AdPlaybackState</code></a> defining the ad groups.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>The position in the ad <a href="../MediaPeriod.html" title="interface in com.google.android.exoplayer2.source"><code>MediaPeriod</code></a>, in microseconds.</dd>
+<dd>The position in the ad <a href="../MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source"><code>MediaPeriod</code></a>, in microseconds.</dd>
 </dl>
 </li>
 </ul>
-<a id="getStreamPositionUsForContent(long,int,com.google.android.exoplayer2.source.ads.AdPlaybackState)">
+<a id="getStreamPositionUsForContent(long,int,com.readwise.android.exoplayer2.source.ads.AdPlaybackState)">
 <!--   -->
 </a>
 <ul class="blockList">
@@ -413,22 +413,22 @@ public static&nbsp;<a href="AdPlaybackState.html" title="class in com.google.and
 <h4>getStreamPositionUsForContent</h4>
 <pre class="methodSignature">public static&nbsp;long&nbsp;getStreamPositionUsForContent&#8203;(long&nbsp;positionUs,
                                                  int&nbsp;nextAdGroupIndex,
-                                                 <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</pre>
+                                                 <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</pre>
 <div class="block">Returns the position in the underlying server-side inserted ads stream for a position in a
- content <a href="../MediaPeriod.html" title="interface in com.google.android.exoplayer2.source"><code>MediaPeriod</code></a>.</div>
+ content <a href="../MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source"><code>MediaPeriod</code></a>.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>positionUs</code> - The position in the content <a href="../MediaPeriod.html" title="interface in com.google.android.exoplayer2.source"><code>MediaPeriod</code></a>, in microseconds.</dd>
+<dd><code>positionUs</code> - The position in the content <a href="../MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source"><code>MediaPeriod</code></a>, in microseconds.</dd>
 <dd><code>nextAdGroupIndex</code> - The next ad group index after the content, or <a href="../../C.html#INDEX_UNSET"><code>C.INDEX_UNSET</code></a> if
      there is no following ad group. Ad groups from this index are not used to adjust the
      position.</dd>
-<dd><code>adPlaybackState</code> - The <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads"><code>AdPlaybackState</code></a> defining the ad groups.</dd>
+<dd><code>adPlaybackState</code> - The <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads"><code>AdPlaybackState</code></a> defining the ad groups.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>The position in the underlying server-side inserted ads stream, in microseconds.</dd>
 </dl>
 </li>
 </ul>
-<a id="getMediaPeriodPositionUsForContent(long,int,com.google.android.exoplayer2.source.ads.AdPlaybackState)">
+<a id="getMediaPeriodPositionUsForContent(long,int,com.readwise.android.exoplayer2.source.ads.AdPlaybackState)">
 <!--   -->
 </a>
 <ul class="blockList">
@@ -436,8 +436,8 @@ public static&nbsp;<a href="AdPlaybackState.html" title="class in com.google.and
 <h4>getMediaPeriodPositionUsForContent</h4>
 <pre class="methodSignature">public static&nbsp;long&nbsp;getMediaPeriodPositionUsForContent&#8203;(long&nbsp;positionUs,
                                                       int&nbsp;nextAdGroupIndex,
-                                                      <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</pre>
-<div class="block">Returns the position in a content <a href="../MediaPeriod.html" title="interface in com.google.android.exoplayer2.source"><code>MediaPeriod</code></a> for a position in the underlying
+                                                      <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState)</pre>
+<div class="block">Returns the position in a content <a href="../MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source"><code>MediaPeriod</code></a> for a position in the underlying
  server-side inserted ads stream.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -446,24 +446,24 @@ public static&nbsp;<a href="AdPlaybackState.html" title="class in com.google.and
 <dd><code>nextAdGroupIndex</code> - The next ad group index after the content, or <a href="../../C.html#INDEX_UNSET"><code>C.INDEX_UNSET</code></a> if
      there is no following ad group. Ad groups from this index are not used to adjust the
      position.</dd>
-<dd><code>adPlaybackState</code> - The <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads"><code>AdPlaybackState</code></a> defining the ad groups.</dd>
+<dd><code>adPlaybackState</code> - The <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads"><code>AdPlaybackState</code></a> defining the ad groups.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>The position in the content <a href="../MediaPeriod.html" title="interface in com.google.android.exoplayer2.source"><code>MediaPeriod</code></a>, in microseconds.</dd>
+<dd>The position in the content <a href="../MediaPeriod.html" title="interface in com.readwise.android.exoplayer2.source"><code>MediaPeriod</code></a>, in microseconds.</dd>
 </dl>
 </li>
 </ul>
-<a id="getAdCountInGroup(com.google.android.exoplayer2.source.ads.AdPlaybackState,int)">
+<a id="getAdCountInGroup(com.readwise.android.exoplayer2.source.ads.AdPlaybackState,int)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>getAdCountInGroup</h4>
-<pre class="methodSignature">public static&nbsp;int&nbsp;getAdCountInGroup&#8203;(<a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState,
+<pre class="methodSignature">public static&nbsp;int&nbsp;getAdCountInGroup&#8203;(<a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads">AdPlaybackState</a>&nbsp;adPlaybackState,
                                     int&nbsp;adGroupIndex)</pre>
 <div class="block">Returns the number of ads in an ad group, treating an unknown number as zero ads.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>adPlaybackState</code> - The <a href="AdPlaybackState.html" title="class in com.google.android.exoplayer2.source.ads"><code>AdPlaybackState</code></a>.</dd>
+<dd><code>adPlaybackState</code> - The <a href="AdPlaybackState.html" title="class in com.readwise.android.exoplayer2.source.ads"><code>AdPlaybackState</code></a>.</dd>
 <dd><code>adGroupIndex</code> - The index of the ad group.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>The number of ads in the ad group.</dd>

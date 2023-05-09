@@ -14,10 +14,10 @@
  * limitations under the License.
  *
  */
-package com.google.android.exoplayer2.text.ssa;
+package com.readwise.android.exoplayer2.text.ssa;
 
-import static com.google.android.exoplayer2.text.ssa.SsaDecoder.STYLE_LINE_PREFIX;
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
+import static com.readwise.android.exoplayer2.text.ssa.SsaDecoder.STYLE_LINE_PREFIX;
+import static com.readwise.android.exoplayer2.util.Assertions.checkArgument;
 import static java.lang.annotation.ElementType.TYPE_USE;
 import static java.lang.annotation.RetentionPolicy.SOURCE;
 
@@ -27,11 +27,11 @@ import android.text.TextUtils;
 import androidx.annotation.ColorInt;
 import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.text.Cue;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.text.Cue;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.base.Ascii;
 import com.google.common.primitives.Ints;
 import java.lang.annotation.Documented;

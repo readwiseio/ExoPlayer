@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.effect;
+package com.readwise.android.exoplayer2.effect;
 
-import com.google.android.exoplayer2.util.Size;
-import com.google.android.exoplayer2.util.VideoFrameProcessingException;
+import com.readwise.android.exoplayer2.util.Size;
+import com.readwise.android.exoplayer2.util.VideoFrameProcessingException;
 
 /** Creates overlays from OpenGL textures. */
 public abstract class TextureOverlay {

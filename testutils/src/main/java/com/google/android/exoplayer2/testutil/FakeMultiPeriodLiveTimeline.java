@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.testutil;
+package com.readwise.android.exoplayer2.testutil;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Util.msToUs;
-import static com.google.android.exoplayer2.util.Util.sum;
-import static com.google.android.exoplayer2.util.Util.usToMs;
+import static com.readwise.android.exoplayer2.util.Assertions.checkArgument;
+import static com.readwise.android.exoplayer2.util.Util.msToUs;
+import static com.readwise.android.exoplayer2.util.Util.sum;
+import static com.readwise.android.exoplayer2.util.Util.usToMs;
 
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.source.ads.AdPlaybackState;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.source.ads.AdPlaybackState;
 import com.google.common.collect.ImmutableList;
 import java.util.Arrays;
 

@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source;
+package com.readwise.android.exoplayer2.source;
 
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ExoPlayer;
-import com.google.android.exoplayer2.SeekParameters;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.offline.StreamKey;
-import com.google.android.exoplayer2.source.MediaSource.MediaSourceCaller;
-import com.google.android.exoplayer2.trackselection.ExoTrackSelection;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ExoPlayer;
+import com.readwise.android.exoplayer2.SeekParameters;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.offline.StreamKey;
+import com.readwise.android.exoplayer2.source.MediaSource.MediaSourceCaller;
+import com.readwise.android.exoplayer2.trackselection.ExoTrackSelection;
 import java.io.IOException;
 import java.util.Collections;
 import java.util.List;

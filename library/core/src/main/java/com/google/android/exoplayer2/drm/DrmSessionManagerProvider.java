@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.drm;
+package com.readwise.android.exoplayer2.drm;
 
-import com.google.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.MediaItem;
 
 /**
  * A provider to obtain a {@link DrmSessionManager} suitable for playing the content described by a

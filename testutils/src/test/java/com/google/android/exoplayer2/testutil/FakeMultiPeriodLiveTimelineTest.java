@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.testutil;
+package com.readwise.android.exoplayer2.testutil;
 
-import static com.google.android.exoplayer2.testutil.FakeMultiPeriodLiveTimeline.AD_PERIOD_DURATION_MS;
-import static com.google.android.exoplayer2.testutil.FakeMultiPeriodLiveTimeline.PERIOD_DURATION_MS;
-import static com.google.android.exoplayer2.util.Util.msToUs;
-import static com.google.android.exoplayer2.util.Util.sum;
-import static com.google.android.exoplayer2.util.Util.usToMs;
+import static com.readwise.android.exoplayer2.testutil.FakeMultiPeriodLiveTimeline.AD_PERIOD_DURATION_MS;
+import static com.readwise.android.exoplayer2.testutil.FakeMultiPeriodLiveTimeline.PERIOD_DURATION_MS;
+import static com.readwise.android.exoplayer2.util.Util.msToUs;
+import static com.readwise.android.exoplayer2.util.Util.sum;
+import static com.readwise.android.exoplayer2.util.Util.usToMs;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Timeline;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

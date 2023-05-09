@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.drm;
+package com.readwise.android.exoplayer2.drm;
 
 import android.util.Pair;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.C;
 import java.util.Map;
 
 /** Utility methods for Widevine. */

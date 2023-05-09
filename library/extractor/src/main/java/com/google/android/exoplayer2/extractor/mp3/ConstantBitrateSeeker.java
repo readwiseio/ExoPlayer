@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.extractor.mp3;
+package com.readwise.android.exoplayer2.extractor.mp3;
 
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.audio.MpegAudioUtil;
-import com.google.android.exoplayer2.extractor.ConstantBitrateSeekMap;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.audio.MpegAudioUtil;
+import com.readwise.android.exoplayer2.extractor.ConstantBitrateSeekMap;
 
 /**
  * MP3 seeker that doesn't rely on metadata and seeks assuming the source has a constant bitrate.

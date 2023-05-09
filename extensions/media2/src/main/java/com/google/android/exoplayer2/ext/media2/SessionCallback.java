@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.media2;
+package com.readwise.android.exoplayer2.ext.media2;
 
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 
@@ -28,16 +28,16 @@ import androidx.media2.session.MediaSession;
 import androidx.media2.session.SessionCommand;
 import androidx.media2.session.SessionCommandGroup;
 import androidx.media2.session.SessionResult;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ext.media2.SessionCallbackBuilder.AllowedCommandProvider;
-import com.google.android.exoplayer2.ext.media2.SessionCallbackBuilder.CustomCommandProvider;
-import com.google.android.exoplayer2.ext.media2.SessionCallbackBuilder.DisconnectedCallback;
-import com.google.android.exoplayer2.ext.media2.SessionCallbackBuilder.MediaItemProvider;
-import com.google.android.exoplayer2.ext.media2.SessionCallbackBuilder.PostConnectCallback;
-import com.google.android.exoplayer2.ext.media2.SessionCallbackBuilder.RatingCallback;
-import com.google.android.exoplayer2.ext.media2.SessionCallbackBuilder.SkipCallback;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ext.media2.SessionCallbackBuilder.AllowedCommandProvider;
+import com.readwise.android.exoplayer2.ext.media2.SessionCallbackBuilder.CustomCommandProvider;
+import com.readwise.android.exoplayer2.ext.media2.SessionCallbackBuilder.DisconnectedCallback;
+import com.readwise.android.exoplayer2.ext.media2.SessionCallbackBuilder.MediaItemProvider;
+import com.readwise.android.exoplayer2.ext.media2.SessionCallbackBuilder.PostConnectCallback;
+import com.readwise.android.exoplayer2.ext.media2.SessionCallbackBuilder.RatingCallback;
+import com.readwise.android.exoplayer2.ext.media2.SessionCallbackBuilder.SkipCallback;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Log;
 import com.google.common.util.concurrent.ListenableFuture;
 import java.util.Collections;
 import java.util.List;

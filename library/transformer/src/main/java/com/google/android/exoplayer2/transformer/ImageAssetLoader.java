@@ -14,29 +14,29 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.transformer;
+package com.readwise.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.transformer.ExportException.ERROR_CODE_IO_UNSPECIFIED;
-import static com.google.android.exoplayer2.transformer.ExportException.ERROR_CODE_UNSPECIFIED;
-import static com.google.android.exoplayer2.transformer.Transformer.PROGRESS_STATE_AVAILABLE;
-import static com.google.android.exoplayer2.transformer.Transformer.PROGRESS_STATE_NOT_STARTED;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.transformer.ExportException.ERROR_CODE_IO_UNSPECIFIED;
+import static com.readwise.android.exoplayer2.transformer.ExportException.ERROR_CODE_UNSPECIFIED;
+import static com.readwise.android.exoplayer2.transformer.Transformer.PROGRESS_STATE_AVAILABLE;
+import static com.readwise.android.exoplayer2.transformer.Transformer.PROGRESS_STATE_NOT_STARTED;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.os.Looper;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.DataSourceBitmapLoader;
-import com.google.android.exoplayer2.upstream.DefaultDataSource;
-import com.google.android.exoplayer2.util.BitmapLoader;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.video.ColorInfo;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.upstream.DataSource;
+import com.readwise.android.exoplayer2.upstream.DataSourceBitmapLoader;
+import com.readwise.android.exoplayer2.upstream.DefaultDataSource;
+import com.readwise.android.exoplayer2.util.BitmapLoader;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.video.ColorInfo;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;

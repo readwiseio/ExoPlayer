@@ -16,7 +16,7 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.google.android.exoplayer2.upstream.test">
+    package="com.readwise.android.exoplayer2.upstream.test">
 
   <uses-permission android:name="android.permission.INTERNET"/>
   <uses-sdk/>
@@ -27,12 +27,12 @@
       android:usesCleartextTraffic="true"
       tools:ignore="MissingApplicationIcon,HardcodedDebugMode">
     <provider
-      android:authorities="com.google.android.exoplayer2.testutil.AssetContentProvider"
-      android:name="com.google.android.exoplayer2.testutil.AssetContentProvider"/>
+      android:authorities="com.readwise.android.exoplayer2.testutil.AssetContentProvider"
+      android:name="com.readwise.android.exoplayer2.testutil.AssetContentProvider"/>
   </application>
 
   <instrumentation
-      android:targetPackage="com.google.android.exoplayer2.upstream.test"
+      android:targetpackage="com.readwise.android.exoplayer2.upstream.test"
       android:name="androidx.test.runner.AndroidJUnitRunner"/>
 
 </manifest>

@@ -13,25 +13,28 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.rtsp;
+package com.readwise.android.exoplayer2.source.rtsp;
 
-import static com.google.android.exoplayer2.source.rtsp.MediaDescription.MEDIA_TYPE_AUDIO;
-import static com.google.android.exoplayer2.source.rtsp.MediaDescription.MEDIA_TYPE_VIDEO;
-import static com.google.android.exoplayer2.source.rtsp.MediaDescription.RTP_AVP_PROFILE;
-import static com.google.android.exoplayer2.source.rtsp.SessionDescription.ATTR_CONTROL;
-import static com.google.android.exoplayer2.source.rtsp.SessionDescription.ATTR_FMTP;
-import static com.google.android.exoplayer2.source.rtsp.SessionDescription.ATTR_RTPMAP;
+import static com.readwise.android.exoplayer2.source.rtsp.MediaDescription.MEDIA_TYPE_AUDIO;
+import static com.readwise.android.exoplayer2.source.rtsp.MediaDescription.MEDIA_TYPE_VIDEO;
+import static com.readwise.android.exoplayer2.source.rtsp.MediaDescription.RTP_AVP_PROFILE;
+import static com.readwise.android.exoplayer2.source.rtsp.SessionDescription.ATTR_CONTROL;
+import static com.readwise.android.exoplayer2.source.rtsp.SessionDescription.ATTR_FMTP;
+import static com.readwise.android.exoplayer2.source.rtsp.SessionDescription.ATTR_RTPMAP;
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
 
 import android.net.Uri;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.audio.AacUtil;
-import com.google.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.audio.AacUtil;
+import com.readwise.android.exoplayer2.util.MimeTypes;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
+import com.readwise.android.exoplayer2.source.rtsp.MediaDescription;
+import com.readwise.android.exoplayer2.source.rtsp.RtpPayloadFormat;
+import com.readwise.android.exoplayer2.source.rtsp.RtspMediaTrack;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

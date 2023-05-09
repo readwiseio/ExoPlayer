@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.offline;
+package com.readwise.android.exoplayer2.offline;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
 
 import android.content.ContentValues;
 import android.database.Cursor;
@@ -27,14 +27,14 @@ import android.text.TextUtils;
 import androidx.annotation.GuardedBy;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.database.DatabaseIOException;
-import com.google.android.exoplayer2.database.DatabaseProvider;
-import com.google.android.exoplayer2.database.VersionTable;
-import com.google.android.exoplayer2.offline.Download.FailureReason;
-import com.google.android.exoplayer2.offline.Download.State;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.database.DatabaseIOException;
+import com.readwise.android.exoplayer2.database.DatabaseProvider;
+import com.readwise.android.exoplayer2.database.VersionTable;
+import com.readwise.android.exoplayer2.offline.Download.FailureReason;
+import com.readwise.android.exoplayer2.offline.Download.State;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.Util;
 import java.util.ArrayList;
 import java.util.List;
 

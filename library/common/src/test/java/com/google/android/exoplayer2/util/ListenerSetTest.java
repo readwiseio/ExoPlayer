@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.util;
+package com.readwise.android.exoplayer2.util;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.never;
@@ -24,7 +24,7 @@ import static org.mockito.Mockito.verifyNoMoreInteractions;
 
 import android.os.Looper;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.C;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InOrder;

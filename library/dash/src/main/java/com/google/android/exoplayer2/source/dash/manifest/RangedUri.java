@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.dash.manifest;
+package com.readwise.android.exoplayer2.source.dash.manifest;
 
 import android.net.Uri;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.util.UriUtil;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.util.UriUtil;
 
 /** Defines a range of data located at a reference uri. */
 public final class RangedUri {

@@ -19,7 +19,7 @@ player.addAnalyticsListener(new EventLogger());
 
 The easiest way to observe the log is using Android Studio's [logcat tab][]. You
 can select your app as debuggable process by the package name (
-`com.google.android.exoplayer2.demo` if using the demo app) and tell the logcat
+`com.readwise.android.exoplayer2.demo` if using the demo app) and tell the logcat
 tab to log only for that app by selecting 'show only selected application'. It's
 possible to further filter the logging with the expression
 `EventLogger|ExoPlayerImpl`, to get only logging from `EventLogger` and the

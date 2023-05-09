@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.chunk;
+package com.readwise.android.exoplayer2.source.chunk;
 
-import com.google.android.exoplayer2.upstream.DataSpec;
+import com.readwise.android.exoplayer2.upstream.DataSpec;
 import java.util.NoSuchElementException;
 
 /**

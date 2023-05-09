@@ -13,23 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.transformerdemo;
+package com.readwise.android.exoplayer2.transformerdemo;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
-import static com.google.android.exoplayer2.util.Assertions.checkStateNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkArgument;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.util.Assertions.checkStateNotNull;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 
 import android.content.Context;
 import android.opengl.EGL14;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.effect.GlShaderProgram;
-import com.google.android.exoplayer2.util.GlObjectsProvider;
-import com.google.android.exoplayer2.util.GlTextureInfo;
-import com.google.android.exoplayer2.util.LibraryLoader;
-import com.google.android.exoplayer2.util.Util;
-import com.google.android.exoplayer2.util.VideoFrameProcessingException;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.effect.GlShaderProgram;
+import com.readwise.android.exoplayer2.util.GlObjectsProvider;
+import com.readwise.android.exoplayer2.util.GlTextureInfo;
+import com.readwise.android.exoplayer2.util.LibraryLoader;
+import com.readwise.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.util.VideoFrameProcessingException;
 import com.google.common.util.concurrent.MoreExecutors;
 import com.google.mediapipe.components.FrameProcessor;
 import com.google.mediapipe.framework.AppTextureFrame;

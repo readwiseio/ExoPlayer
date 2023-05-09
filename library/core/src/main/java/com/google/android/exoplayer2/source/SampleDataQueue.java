@@ -13,23 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source;
+package com.readwise.android.exoplayer2.source;
 
 import static java.lang.Math.min;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.decoder.CryptoInfo;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer.InsufficientCapacityException;
-import com.google.android.exoplayer2.extractor.TrackOutput.CryptoData;
-import com.google.android.exoplayer2.source.SampleQueue.SampleExtrasHolder;
-import com.google.android.exoplayer2.upstream.Allocation;
-import com.google.android.exoplayer2.upstream.Allocator;
-import com.google.android.exoplayer2.upstream.DataReader;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.ParsableByteArray;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.decoder.CryptoInfo;
+import com.readwise.android.exoplayer2.decoder.DecoderInputBuffer;
+import com.readwise.android.exoplayer2.decoder.DecoderInputBuffer.InsufficientCapacityException;
+import com.readwise.android.exoplayer2.extractor.TrackOutput.CryptoData;
+import com.readwise.android.exoplayer2.source.SampleQueue.SampleExtrasHolder;
+import com.readwise.android.exoplayer2.upstream.Allocation;
+import com.readwise.android.exoplayer2.upstream.Allocator;
+import com.readwise.android.exoplayer2.upstream.DataReader;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.ParsableByteArray;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.EOFException;
 import java.io.IOException;
 import java.nio.ByteBuffer;

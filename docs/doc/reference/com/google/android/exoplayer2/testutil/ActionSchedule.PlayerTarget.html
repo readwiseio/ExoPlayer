@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.testutil</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.testutil</a></div>
 <h2 title="Class ActionSchedule.PlayerTarget" class="title">Class ActionSchedule.PlayerTarget</h2>
 </div>
 <div class="contentContainer">
@@ -121,7 +121,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li><a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">java.lang.Object</a></li>
 <li>
 <ul class="inheritance">
-<li>com.google.android.exoplayer2.testutil.ActionSchedule.PlayerTarget</li>
+<li>com.readwise.android.exoplayer2.testutil.ActionSchedule.PlayerTarget</li>
 </ul>
 </li>
 </ul>
@@ -130,20 +130,20 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Implemented Interfaces:</dt>
-<dd><code><a href="../PlayerMessage.Target.html" title="interface in com.google.android.exoplayer2">PlayerMessage.Target</a></code></dd>
+<dd><code><a href="../PlayerMessage.Target.html" title="interface in com.readwise.android.exoplayer2">PlayerMessage.Target</a></code></dd>
 </dl>
 <dl>
 <dt>Enclosing class:</dt>
-<dd><a href="ActionSchedule.html" title="class in com.google.android.exoplayer2.testutil">ActionSchedule</a></dd>
+<dd><a href="ActionSchedule.html" title="class in com.readwise.android.exoplayer2.testutil">ActionSchedule</a></dd>
 </dl>
 <hr>
 <pre>public abstract static class <span class="typeNameLabel">ActionSchedule.PlayerTarget</span>
 extends <a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">Object</a>
-implements <a href="../PlayerMessage.Target.html" title="interface in com.google.android.exoplayer2">PlayerMessage.Target</a></pre>
-<div class="block">Provides a wrapper for a <a href="../PlayerMessage.Target.html" title="interface in com.google.android.exoplayer2"><code>PlayerMessage.Target</code></a> which has access to the player when handling messages.
- Can be used with <a href="ActionSchedule.Builder.html#sendMessage(com.google.android.exoplayer2.PlayerMessage.Target,long)"><code>ActionSchedule.Builder.sendMessage(Target, long)</code></a>.
+implements <a href="../PlayerMessage.Target.html" title="interface in com.readwise.android.exoplayer2">PlayerMessage.Target</a></pre>
+<div class="block">Provides a wrapper for a <a href="../PlayerMessage.Target.html" title="interface in com.readwise.android.exoplayer2"><code>PlayerMessage.Target</code></a> which has access to the player when handling messages.
+ Can be used with <a href="ActionSchedule.Builder.html#sendMessage(com.readwise.android.exoplayer2.PlayerMessage.Target,long)"><code>ActionSchedule.Builder.sendMessage(Target, long)</code></a>.
 
- <p>The target can be passed to <a href="ActionSchedule.Builder.html#waitForMessage(com.google.android.exoplayer2.testutil.ActionSchedule.PlayerTarget)"><code>ActionSchedule.Builder.waitForMessage(PlayerTarget)</code></a> to
+ <p>The target can be passed to <a href="ActionSchedule.Builder.html#waitForMessage(com.readwise.android.exoplayer2.testutil.ActionSchedule.PlayerTarget)"><code>ActionSchedule.Builder.waitForMessage(PlayerTarget)</code></a> to
  wait for a message to arrive at the target.</div>
 </li>
 </ul>
@@ -167,7 +167,7 @@ implements <a href="../PlayerMessage.Target.html" title="interface in com.google
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static interface&nbsp;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="ActionSchedule.PlayerTarget.Callback.html" title="interface in com.google.android.exoplayer2.testutil">ActionSchedule.PlayerTarget.Callback</a></span></code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="ActionSchedule.PlayerTarget.Callback.html" title="interface in com.readwise.android.exoplayer2.testutil">ActionSchedule.PlayerTarget.Callback</a></span></code></th>
 <td class="colLast">
 <div class="block">Callback to be called when message arrives.</div>
 </td>
@@ -213,7 +213,7 @@ implements <a href="../PlayerMessage.Target.html" title="interface in com.google
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#handleMessage(@com.google.android.exoplayer2.Renderer.MessageTypeint,java.lang.Object)">handleMessage</a></span>&#8203;(@com.google.android.exoplayer2.Renderer.MessageType int&nbsp;messageType,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#handleMessage(@com.readwise.android.exoplayer2.Renderer.MessageTypeint,java.lang.Object)">handleMessage</a></span>&#8203;(@com.readwise.android.exoplayer2.Renderer.MessageType int&nbsp;messageType,
              <a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">Object</a>&nbsp;message)</code></th>
 <td class="colLast">
 <div class="block">Handles a message delivered to the target.</div>
@@ -221,7 +221,7 @@ implements <a href="../PlayerMessage.Target.html" title="interface in com.google
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>abstract void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#handleMessage(com.google.android.exoplayer2.ExoPlayer,int,java.lang.Object)">handleMessage</a></span>&#8203;(<a href="../ExoPlayer.html" title="interface in com.google.android.exoplayer2">ExoPlayer</a>&nbsp;player,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#handleMessage(com.readwise.android.exoplayer2.ExoPlayer,int,java.lang.Object)">handleMessage</a></span>&#8203;(<a href="../ExoPlayer.html" title="interface in com.readwise.android.exoplayer2">ExoPlayer</a>&nbsp;player,
              int&nbsp;messageType,
              <a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">Object</a>&nbsp;message)</code></th>
 <td class="colLast">
@@ -230,7 +230,7 @@ implements <a href="../PlayerMessage.Target.html" title="interface in com.google
 </tr>
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setCallback(com.google.android.exoplayer2.testutil.ActionSchedule.PlayerTarget.Callback)">setCallback</a></span>&#8203;(<a href="ActionSchedule.PlayerTarget.Callback.html" title="interface in com.google.android.exoplayer2.testutil">ActionSchedule.PlayerTarget.Callback</a>&nbsp;callback)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setCallback(com.readwise.android.exoplayer2.testutil.ActionSchedule.PlayerTarget.Callback)">setCallback</a></span>&#8203;(<a href="ActionSchedule.PlayerTarget.Callback.html" title="interface in com.readwise.android.exoplayer2.testutil">ActionSchedule.PlayerTarget.Callback</a>&nbsp;callback)</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 </table>
@@ -276,42 +276,42 @@ implements <a href="../PlayerMessage.Target.html" title="interface in com.google
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="setCallback(com.google.android.exoplayer2.testutil.ActionSchedule.PlayerTarget.Callback)">
+<a id="setCallback(com.readwise.android.exoplayer2.testutil.ActionSchedule.PlayerTarget.Callback)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>setCallback</h4>
-<pre class="methodSignature">public&nbsp;void&nbsp;setCallback&#8203;(<a href="ActionSchedule.PlayerTarget.Callback.html" title="interface in com.google.android.exoplayer2.testutil">ActionSchedule.PlayerTarget.Callback</a>&nbsp;callback)</pre>
+<pre class="methodSignature">public&nbsp;void&nbsp;setCallback&#8203;(<a href="ActionSchedule.PlayerTarget.Callback.html" title="interface in com.readwise.android.exoplayer2.testutil">ActionSchedule.PlayerTarget.Callback</a>&nbsp;callback)</pre>
 </li>
 </ul>
-<a id="handleMessage(com.google.android.exoplayer2.ExoPlayer,int,java.lang.Object)">
+<a id="handleMessage(com.readwise.android.exoplayer2.ExoPlayer,int,java.lang.Object)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>handleMessage</h4>
-<pre class="methodSignature">public abstract&nbsp;void&nbsp;handleMessage&#8203;(<a href="../ExoPlayer.html" title="interface in com.google.android.exoplayer2">ExoPlayer</a>&nbsp;player,
+<pre class="methodSignature">public abstract&nbsp;void&nbsp;handleMessage&#8203;(<a href="../ExoPlayer.html" title="interface in com.readwise.android.exoplayer2">ExoPlayer</a>&nbsp;player,
                                    int&nbsp;messageType,
                                    @Nullable
                                    <a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">Object</a>&nbsp;message)</pre>
 <div class="block">Handles the message send to the component and additionally provides access to the player.</div>
 </li>
 </ul>
-<a id="handleMessage(@com.google.android.exoplayer2.Renderer.MessageTypeint,java.lang.Object)">
+<a id="handleMessage(@com.readwise.android.exoplayer2.Renderer.MessageTypeint,java.lang.Object)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>handleMessage</h4>
-<pre class="methodSignature">public final&nbsp;void&nbsp;handleMessage&#8203;(@com.google.android.exoplayer2.Renderer.MessageType int&nbsp;messageType,
+<pre class="methodSignature">public final&nbsp;void&nbsp;handleMessage&#8203;(@com.readwise.android.exoplayer2.Renderer.MessageType int&nbsp;messageType,
                                 @Nullable
                                 <a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">Object</a>&nbsp;message)</pre>
-<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../PlayerMessage.Target.html#handleMessage(@com.google.android.exoplayer2.Renderer.MessageTypeint,java.lang.Object)">PlayerMessage.Target</a></code></span></div>
+<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../PlayerMessage.Target.html#handleMessage(@com.readwise.android.exoplayer2.Renderer.MessageTypeint,java.lang.Object)">PlayerMessage.Target</a></code></span></div>
 <div class="block">Handles a message delivered to the target.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="../PlayerMessage.Target.html#handleMessage(@com.google.android.exoplayer2.Renderer.MessageTypeint,java.lang.Object)">handleMessage</a></code>&nbsp;in interface&nbsp;<code><a href="../PlayerMessage.Target.html" title="interface in com.google.android.exoplayer2">PlayerMessage.Target</a></code></dd>
+<dd><code><a href="../PlayerMessage.Target.html#handleMessage(@com.readwise.android.exoplayer2.Renderer.MessageTypeint,java.lang.Object)">handleMessage</a></code>&nbsp;in interface&nbsp;<code><a href="../PlayerMessage.Target.html" title="interface in com.readwise.android.exoplayer2">PlayerMessage.Target</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>messageType</code> - The message type.</dd>
 <dd><code>message</code> - The message payload.</dd>

@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.dash;
+package com.readwise.android.exoplayer2.source.dash;
 
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static com.readwise.android.exoplayer2.util.Util.castNonNull;
 import static java.lang.Math.max;
 
 import android.os.SystemClock;
 import android.util.Pair;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.source.dash.manifest.BaseUrl;
+import com.readwise.android.exoplayer2.source.dash.manifest.BaseUrl;
 import com.google.common.collect.Iterables;
 import java.util.ArrayList;
 import java.util.Collections;

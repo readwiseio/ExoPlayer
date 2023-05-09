@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.util;
+package com.readwise.android.exoplayer2.util;
 
 import androidx.annotation.GuardedBy;
-import com.google.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.C;
 
 /**
  * Adjusts and offsets sample timestamps. MPEG-2 TS timestamps scaling and adjustment is supported,

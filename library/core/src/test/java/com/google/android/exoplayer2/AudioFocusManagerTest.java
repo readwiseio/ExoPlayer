@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
-import static com.google.android.exoplayer2.AudioFocusManager.PLAYER_COMMAND_DO_NOT_PLAY;
-import static com.google.android.exoplayer2.AudioFocusManager.PLAYER_COMMAND_PLAY_WHEN_READY;
-import static com.google.android.exoplayer2.AudioFocusManager.PLAYER_COMMAND_WAIT_FOR_CALLBACK;
+import static com.readwise.android.exoplayer2.AudioFocusManager.PLAYER_COMMAND_DO_NOT_PLAY;
+import static com.readwise.android.exoplayer2.AudioFocusManager.PLAYER_COMMAND_PLAY_WHEN_READY;
+import static com.readwise.android.exoplayer2.AudioFocusManager.PLAYER_COMMAND_WAIT_FOR_CALLBACK;
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.fail;
 import static org.robolectric.Shadows.shadowOf;
@@ -29,8 +29,8 @@ import android.os.Handler;
 import android.os.Looper;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.audio.AudioAttributes;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.audio.AudioAttributes;
+import com.readwise.android.exoplayer2.util.Util;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

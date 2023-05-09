@@ -13,27 +13,27 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.testutil;
+package com.readwise.android.exoplayer2.testutil;
 
 import android.net.Uri;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.SeekParameters;
-import com.google.android.exoplayer2.source.chunk.Chunk;
-import com.google.android.exoplayer2.source.chunk.ChunkHolder;
-import com.google.android.exoplayer2.source.chunk.ChunkSource;
-import com.google.android.exoplayer2.source.chunk.MediaChunk;
-import com.google.android.exoplayer2.source.chunk.MediaChunkIterator;
-import com.google.android.exoplayer2.source.chunk.SingleSampleMediaChunk;
-import com.google.android.exoplayer2.testutil.FakeDataSet.FakeData.Segment;
-import com.google.android.exoplayer2.trackselection.ExoTrackSelection;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
-import com.google.android.exoplayer2.upstream.TransferListener;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.SeekParameters;
+import com.readwise.android.exoplayer2.source.chunk.Chunk;
+import com.readwise.android.exoplayer2.source.chunk.ChunkHolder;
+import com.readwise.android.exoplayer2.source.chunk.ChunkSource;
+import com.readwise.android.exoplayer2.source.chunk.MediaChunk;
+import com.readwise.android.exoplayer2.source.chunk.MediaChunkIterator;
+import com.readwise.android.exoplayer2.source.chunk.SingleSampleMediaChunk;
+import com.readwise.android.exoplayer2.testutil.FakeDataSet.FakeData.Segment;
+import com.readwise.android.exoplayer2.trackselection.ExoTrackSelection;
+import com.readwise.android.exoplayer2.upstream.DataSource;
+import com.readwise.android.exoplayer2.upstream.DataSpec;
+import com.readwise.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
+import com.readwise.android.exoplayer2.upstream.TransferListener;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.MimeTypes;
 import java.util.List;
 
 /** Fake {@link ChunkSource} with adaptive media chunks of a given duration. */

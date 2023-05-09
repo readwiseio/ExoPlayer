@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.testutil</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.testutil</a></div>
 <h2 title="Class FakeClock" class="title">Class FakeClock</h2>
 </div>
 <div class="contentContainer">
@@ -121,7 +121,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li><a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">java.lang.Object</a></li>
 <li>
 <ul class="inheritance">
-<li>com.google.android.exoplayer2.testutil.FakeClock</li>
+<li>com.readwise.android.exoplayer2.testutil.FakeClock</li>
 </ul>
 </li>
 </ul>
@@ -130,13 +130,13 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Implemented Interfaces:</dt>
-<dd><code><a href="../util/Clock.html" title="interface in com.google.android.exoplayer2.util">Clock</a></code></dd>
+<dd><code><a href="../util/Clock.html" title="interface in com.readwise.android.exoplayer2.util">Clock</a></code></dd>
 </dl>
 <hr>
 <pre>public class <span class="typeNameLabel">FakeClock</span>
 extends <a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">Object</a>
-implements <a href="../util/Clock.html" title="interface in com.google.android.exoplayer2.util">Clock</a></pre>
-<div class="block">Fake <a href="../util/Clock.html" title="interface in com.google.android.exoplayer2.util"><code>Clock</code></a> implementation that allows to <a href="#advanceTime(long)"><code>advance the time</code></a>
+implements <a href="../util/Clock.html" title="interface in com.readwise.android.exoplayer2.util">Clock</a></pre>
+<div class="block">Fake <a href="../util/Clock.html" title="interface in com.readwise.android.exoplayer2.util"><code>Clock</code></a> implementation that allows to <a href="#advanceTime(long)"><code>advance the time</code></a>
  manually to trigger pending timed messages.
 
  <p>All timed messages sent by a <a href="#createHandler(android.os.Looper,android.os.Handler.Callback)"><code>Handler</code></a> created from
@@ -169,7 +169,7 @@ implements <a href="../util/Clock.html" title="interface in com.google.android.e
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>protected class&nbsp;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="FakeClock.HandlerMessage.html" title="class in com.google.android.exoplayer2.testutil">FakeClock.HandlerMessage</a></span></code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="FakeClock.HandlerMessage.html" title="class in com.readwise.android.exoplayer2.testutil">FakeClock.HandlerMessage</a></span></code></th>
 <td class="colLast">
 <div class="block">Message data saved to send messages or execute runnables at a later time on a Handler.</div>
 </td>
@@ -186,10 +186,10 @@ implements <a href="../util/Clock.html" title="interface in com.google.android.e
 </a>
 <h3>Field Summary</h3>
 <ul class="blockList">
-<li class="blockList"><a id="fields.inherited.from.class.com.google.android.exoplayer2.util.Clock">
+<li class="blockList"><a id="fields.inherited.from.class.com.readwise.android.exoplayer2.util.Clock">
 <!--   -->
 </a>
-<h3>Fields inherited from interface&nbsp;com.google.android.exoplayer2.util.<a href="../util/Clock.html" title="interface in com.google.android.exoplayer2.util">Clock</a></h3>
+<h3>Fields inherited from interface&nbsp;com.readwise.android.exoplayer2.util.<a href="../util/Clock.html" title="interface in com.readwise.android.exoplayer2.util">Clock</a></h3>
 <code><a href="../util/Clock.html#DEFAULT">DEFAULT</a></code></li>
 </ul>
 </li>
@@ -260,7 +260,7 @@ implements <a href="../util/Clock.html" title="interface in com.google.android.e
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>protected void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#addPendingHandlerMessage(com.google.android.exoplayer2.testutil.FakeClock.HandlerMessage)">addPendingHandlerMessage</a></span>&#8203;(<a href="FakeClock.HandlerMessage.html" title="class in com.google.android.exoplayer2.testutil">FakeClock.HandlerMessage</a>&nbsp;message)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#addPendingHandlerMessage(com.readwise.android.exoplayer2.testutil.FakeClock.HandlerMessage)">addPendingHandlerMessage</a></span>&#8203;(<a href="FakeClock.HandlerMessage.html" title="class in com.readwise.android.exoplayer2.testutil">FakeClock.HandlerMessage</a>&nbsp;message)</code></th>
 <td class="colLast">
 <div class="block">Adds a message to the list of pending messages.</div>
 </td>
@@ -269,15 +269,15 @@ implements <a href="../util/Clock.html" title="interface in com.google.android.e
 <td class="colFirst"><code>void</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#advanceTime(long)">advanceTime</a></span>&#8203;(long&nbsp;timeDiffMs)</code></th>
 <td class="colLast">
-<div class="block">Advance timestamp of <a href="FakeClock.html" title="class in com.google.android.exoplayer2.testutil"><code>FakeClock</code></a> by the specified duration.</div>
+<div class="block">Advance timestamp of <a href="FakeClock.html" title="class in com.readwise.android.exoplayer2.testutil"><code>FakeClock</code></a> by the specified duration.</div>
 </td>
 </tr>
 <tr id="i2" class="altColor">
-<td class="colFirst"><code><a href="../util/HandlerWrapper.html" title="interface in com.google.android.exoplayer2.util">HandlerWrapper</a></code></td>
+<td class="colFirst"><code><a href="../util/HandlerWrapper.html" title="interface in com.readwise.android.exoplayer2.util">HandlerWrapper</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#createHandler(android.os.Looper,android.os.Handler.Callback)">createHandler</a></span>&#8203;(<a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top">Looper</a>&nbsp;looper,
              <a href="https://developer.android.com/reference/android/os/Handler.Callback.html" title="class or interface in android.os" class="externalLink" target="_top">Handler.Callback</a>&nbsp;callback)</code></th>
 <td class="colLast">
-<div class="block">Creates a <a href="../util/HandlerWrapper.html" title="interface in com.google.android.exoplayer2.util"><code>HandlerWrapper</code></a> using a specified looper and a specified callback for handling
+<div class="block">Creates a <a href="../util/HandlerWrapper.html" title="interface in com.readwise.android.exoplayer2.util"><code>HandlerWrapper</code></a> using a specified looper and a specified callback for handling
  messages.</div>
 </td>
 </tr>
@@ -417,7 +417,7 @@ implements <a href="../util/Clock.html" title="interface in com.google.android.e
 <li class="blockList">
 <h4>advanceTime</h4>
 <pre class="methodSignature">public&nbsp;void&nbsp;advanceTime&#8203;(long&nbsp;timeDiffMs)</pre>
-<div class="block">Advance timestamp of <a href="FakeClock.html" title="class in com.google.android.exoplayer2.testutil"><code>FakeClock</code></a> by the specified duration.</div>
+<div class="block">Advance timestamp of <a href="FakeClock.html" title="class in com.readwise.android.exoplayer2.testutil"><code>FakeClock</code></a> by the specified duration.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>timeDiffMs</code> - The amount of time to add to the timestamp in milliseconds.</dd>
@@ -435,7 +435,7 @@ implements <a href="../util/Clock.html" title="interface in com.google.android.e
 <div class="block">Returns the current time in milliseconds since the Unix Epoch.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="../util/Clock.html#currentTimeMillis()">currentTimeMillis</a></code>&nbsp;in interface&nbsp;<code><a href="../util/Clock.html" title="interface in com.google.android.exoplayer2.util">Clock</a></code></dd>
+<dd><code><a href="../util/Clock.html#currentTimeMillis()">currentTimeMillis</a></code>&nbsp;in interface&nbsp;<code><a href="../util/Clock.html" title="interface in com.readwise.android.exoplayer2.util">Clock</a></code></dd>
 <dt><span class="seeLabel">See Also:</span></dt>
 <dd><a href="https://developer.android.com/reference/java/lang/System.html#currentTimeMillis()" title="class or interface in java.lang" class="externalLink" target="_top"><code>System.currentTimeMillis()</code></a></dd>
 </dl>
@@ -450,7 +450,7 @@ implements <a href="../util/Clock.html" title="interface in com.google.android.e
 <pre class="methodSignature">public&nbsp;long&nbsp;elapsedRealtime()</pre>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="../util/Clock.html#elapsedRealtime()">elapsedRealtime</a></code>&nbsp;in interface&nbsp;<code><a href="../util/Clock.html" title="interface in com.google.android.exoplayer2.util">Clock</a></code></dd>
+<dd><code><a href="../util/Clock.html#elapsedRealtime()">elapsedRealtime</a></code>&nbsp;in interface&nbsp;<code><a href="../util/Clock.html" title="interface in com.readwise.android.exoplayer2.util">Clock</a></code></dd>
 <dt><span class="seeLabel">See Also:</span></dt>
 <dd><a href="https://developer.android.com/reference/android/os/SystemClock.html#elapsedRealtime()" title="class or interface in android.os" class="externalLink" target="_top"><code>SystemClock.elapsedRealtime()</code></a></dd>
 </dl>
@@ -465,7 +465,7 @@ implements <a href="../util/Clock.html" title="interface in com.google.android.e
 <pre class="methodSignature">public&nbsp;long&nbsp;uptimeMillis()</pre>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="../util/Clock.html#uptimeMillis()">uptimeMillis</a></code>&nbsp;in interface&nbsp;<code><a href="../util/Clock.html" title="interface in com.google.android.exoplayer2.util">Clock</a></code></dd>
+<dd><code><a href="../util/Clock.html#uptimeMillis()">uptimeMillis</a></code>&nbsp;in interface&nbsp;<code><a href="../util/Clock.html" title="interface in com.readwise.android.exoplayer2.util">Clock</a></code></dd>
 <dt><span class="seeLabel">See Also:</span></dt>
 <dd><a href="https://developer.android.com/reference/android/os/SystemClock.html#uptimeMillis()" title="class or interface in android.os" class="externalLink" target="_top"><code>SystemClock.uptimeMillis()</code></a></dd>
 </dl>
@@ -477,15 +477,15 @@ implements <a href="../util/Clock.html" title="interface in com.google.android.e
 <ul class="blockList">
 <li class="blockList">
 <h4>createHandler</h4>
-<pre class="methodSignature">public&nbsp;<a href="../util/HandlerWrapper.html" title="interface in com.google.android.exoplayer2.util">HandlerWrapper</a>&nbsp;createHandler&#8203;(<a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top">Looper</a>&nbsp;looper,
+<pre class="methodSignature">public&nbsp;<a href="../util/HandlerWrapper.html" title="interface in com.readwise.android.exoplayer2.util">HandlerWrapper</a>&nbsp;createHandler&#8203;(<a href="https://developer.android.com/reference/android/os/Looper.html" title="class or interface in android.os" class="externalLink" target="_top">Looper</a>&nbsp;looper,
                                     @Nullable
                                     <a href="https://developer.android.com/reference/android/os/Handler.Callback.html" title="class or interface in android.os" class="externalLink" target="_top">Handler.Callback</a>&nbsp;callback)</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../util/Clock.html#createHandler(android.os.Looper,android.os.Handler.Callback)">Clock</a></code></span></div>
-<div class="block">Creates a <a href="../util/HandlerWrapper.html" title="interface in com.google.android.exoplayer2.util"><code>HandlerWrapper</code></a> using a specified looper and a specified callback for handling
+<div class="block">Creates a <a href="../util/HandlerWrapper.html" title="interface in com.readwise.android.exoplayer2.util"><code>HandlerWrapper</code></a> using a specified looper and a specified callback for handling
  messages.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="../util/Clock.html#createHandler(android.os.Looper,android.os.Handler.Callback)">createHandler</a></code>&nbsp;in interface&nbsp;<code><a href="../util/Clock.html" title="interface in com.google.android.exoplayer2.util">Clock</a></code></dd>
+<dd><code><a href="../util/Clock.html#createHandler(android.os.Looper,android.os.Handler.Callback)">createHandler</a></code>&nbsp;in interface&nbsp;<code><a href="../util/Clock.html" title="interface in com.readwise.android.exoplayer2.util">Clock</a></code></dd>
 <dt><span class="seeLabel">See Also:</span></dt>
 <dd><a href="https://developer.android.com/reference/android/os/Handler.html#%3Cinit%3E(android.os.Looper,android.os.Handler.Callback)" title="class or interface in android.os" class="externalLink" target="_top"><code>Handler(Looper, Handler.Callback)</code></a></dd>
 </dl>
@@ -505,17 +505,17 @@ implements <a href="../util/Clock.html" title="interface in com.google.android.e
  <p>Should be a no-op for all non-test cases.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="../util/Clock.html#onThreadBlocked()">onThreadBlocked</a></code>&nbsp;in interface&nbsp;<code><a href="../util/Clock.html" title="interface in com.google.android.exoplayer2.util">Clock</a></code></dd>
+<dd><code><a href="../util/Clock.html#onThreadBlocked()">onThreadBlocked</a></code>&nbsp;in interface&nbsp;<code><a href="../util/Clock.html" title="interface in com.readwise.android.exoplayer2.util">Clock</a></code></dd>
 </dl>
 </li>
 </ul>
-<a id="addPendingHandlerMessage(com.google.android.exoplayer2.testutil.FakeClock.HandlerMessage)">
+<a id="addPendingHandlerMessage(com.readwise.android.exoplayer2.testutil.FakeClock.HandlerMessage)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>addPendingHandlerMessage</h4>
-<pre class="methodSignature">protected&nbsp;void&nbsp;addPendingHandlerMessage&#8203;(<a href="FakeClock.HandlerMessage.html" title="class in com.google.android.exoplayer2.testutil">FakeClock.HandlerMessage</a>&nbsp;message)</pre>
+<pre class="methodSignature">protected&nbsp;void&nbsp;addPendingHandlerMessage&#8203;(<a href="FakeClock.HandlerMessage.html" title="class in com.readwise.android.exoplayer2.testutil">FakeClock.HandlerMessage</a>&nbsp;message)</pre>
 <div class="block">Adds a message to the list of pending messages.</div>
 </li>
 </ul>

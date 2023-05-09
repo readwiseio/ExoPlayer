@@ -13,21 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source;
+package com.readwise.android.exoplayer2.source;
 
 import android.os.Handler;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ExoPlayer;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.analytics.PlayerId;
-import com.google.android.exoplayer2.drm.DrmSessionEventListener;
-import com.google.android.exoplayer2.drm.DrmSessionManager;
-import com.google.android.exoplayer2.drm.DrmSessionManagerProvider;
-import com.google.android.exoplayer2.upstream.Allocator;
-import com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
-import com.google.android.exoplayer2.upstream.TransferListener;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ExoPlayer;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.analytics.PlayerId;
+import com.readwise.android.exoplayer2.drm.DrmSessionEventListener;
+import com.readwise.android.exoplayer2.drm.DrmSessionManager;
+import com.readwise.android.exoplayer2.drm.DrmSessionManagerProvider;
+import com.readwise.android.exoplayer2.upstream.Allocator;
+import com.readwise.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
+import com.readwise.android.exoplayer2.upstream.TransferListener;
 import java.io.IOException;
 
 /**
@@ -111,24 +111,24 @@ public interface MediaSource {
    * Identifier for a {@link MediaPeriod}.
    *
    * <p>Extends for backward-compatibility {@link
-   * com.google.android.exoplayer2.source.MediaPeriodId}.
+   * com.readwise.android.exoplayer2.source.MediaPeriodId}.
    */
-  final class MediaPeriodId extends com.google.android.exoplayer2.source.MediaPeriodId {
+  final class MediaPeriodId extends com.readwise.android.exoplayer2.source.MediaPeriodId {
 
-    /** See {@link com.google.android.exoplayer2.source.MediaPeriodId#MediaPeriodId(Object)}. */
+    /** See {@link com.readwise.android.exoplayer2.source.MediaPeriodId#MediaPeriodId(Object)}. */
     public MediaPeriodId(Object periodUid) {
       super(periodUid);
     }
 
     /**
-     * See {@link com.google.android.exoplayer2.source.MediaPeriodId#MediaPeriodId(Object, long)}.
+     * See {@link com.readwise.android.exoplayer2.source.MediaPeriodId#MediaPeriodId(Object, long)}.
      */
     public MediaPeriodId(Object periodUid, long windowSequenceNumber) {
       super(periodUid, windowSequenceNumber);
     }
 
     /**
-     * See {@link com.google.android.exoplayer2.source.MediaPeriodId#MediaPeriodId(Object, long,
+     * See {@link com.readwise.android.exoplayer2.source.MediaPeriodId#MediaPeriodId(Object, long,
      * int)}.
      */
     public MediaPeriodId(Object periodUid, long windowSequenceNumber, int nextAdGroupIndex) {
@@ -136,7 +136,7 @@ public interface MediaSource {
     }
 
     /**
-     * See {@link com.google.android.exoplayer2.source.MediaPeriodId#MediaPeriodId(Object, int, int,
+     * See {@link com.readwise.android.exoplayer2.source.MediaPeriodId#MediaPeriodId(Object, int, int,
      * long)}.
      */
     public MediaPeriodId(
@@ -144,12 +144,12 @@ public interface MediaSource {
       super(periodUid, adGroupIndex, adIndexInAdGroup, windowSequenceNumber);
     }
 
-    /** Wraps an {@link com.google.android.exoplayer2.source.MediaPeriodId} into a MediaPeriodId. */
-    public MediaPeriodId(com.google.android.exoplayer2.source.MediaPeriodId mediaPeriodId) {
+    /** Wraps an {@link com.readwise.android.exoplayer2.source.MediaPeriodId} into a MediaPeriodId. */
+    public MediaPeriodId(com.readwise.android.exoplayer2.source.MediaPeriodId mediaPeriodId) {
       super(mediaPeriodId);
     }
 
-    /** See {@link com.google.android.exoplayer2.source.MediaPeriodId#copyWithPeriodUid(Object)}. */
+    /** See {@link com.readwise.android.exoplayer2.source.MediaPeriodId#copyWithPeriodUid(Object)}. */
     @Override
     public MediaPeriodId copyWithPeriodUid(Object newPeriodUid) {
       return new MediaPeriodId(super.copyWithPeriodUid(newPeriodUid));
@@ -157,7 +157,7 @@ public interface MediaSource {
 
     /**
      * See {@link
-     * com.google.android.exoplayer2.source.MediaPeriodId#copyWithWindowSequenceNumber(long)}.
+     * com.readwise.android.exoplayer2.source.MediaPeriodId#copyWithWindowSequenceNumber(long)}.
      */
     @Override
     public MediaPeriodId copyWithWindowSequenceNumber(long windowSequenceNumber) {

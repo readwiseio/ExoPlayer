@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.ffmpeg;
+package com.readwise.android.exoplayer2.ext.ffmpeg;
 
-import com.google.android.exoplayer2.decoder.DecoderException;
+import com.readwise.android.exoplayer2.decoder.DecoderException;
 
 /** Thrown when an FFmpeg decoder error occurs. */
 public final class FfmpegDecoderException extends DecoderException {

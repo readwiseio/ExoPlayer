@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.media2;
+package com.readwise.android.exoplayer2.ext.media2;
 
-import com.google.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.MediaItem;
 
 /**
  * Converts between {@link androidx.media2.common.MediaItem Media2 MediaItem} and {@link MediaItem

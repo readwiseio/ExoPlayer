@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.metadata.mp4;
+package com.readwise.android.exoplayer2.metadata.mp4;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.metadata.Metadata;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.metadata.Metadata;
 import com.google.common.primitives.Floats;
 
 /**

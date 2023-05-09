@@ -16,7 +16,7 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.google.android.exoplayer2.core.test">
+    package="com.readwise.android.exoplayer2.core.test">
 
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
   <uses-permission android:name="android.permission.INTERNET"/>
@@ -29,7 +29,7 @@
       android:usesCleartextTraffic="true"/>
 
   <instrumentation
-      android:targetPackage="com.google.android.exoplayer2.core.test"
+      android:targetpackage="com.readwise.android.exoplayer2.core.test"
       android:name="androidx.test.runner.AndroidJUnitRunner"/>
 
 </manifest>

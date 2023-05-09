@@ -14,44 +14,44 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.transformer;
+package com.readwise.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.DefaultLoadControl.DEFAULT_BUFFER_FOR_PLAYBACK_AFTER_REBUFFER_MS;
-import static com.google.android.exoplayer2.DefaultLoadControl.DEFAULT_BUFFER_FOR_PLAYBACK_MS;
-import static com.google.android.exoplayer2.DefaultLoadControl.DEFAULT_MAX_BUFFER_MS;
-import static com.google.android.exoplayer2.DefaultLoadControl.DEFAULT_MIN_BUFFER_MS;
-import static com.google.android.exoplayer2.transformer.ExportException.ERROR_CODE_FAILED_RUNTIME_CHECK;
-import static com.google.android.exoplayer2.transformer.ExportException.ERROR_CODE_UNSPECIFIED;
-import static com.google.android.exoplayer2.transformer.Transformer.PROGRESS_STATE_AVAILABLE;
-import static com.google.android.exoplayer2.transformer.Transformer.PROGRESS_STATE_NOT_STARTED;
-import static com.google.android.exoplayer2.transformer.Transformer.PROGRESS_STATE_UNAVAILABLE;
-import static com.google.android.exoplayer2.transformer.Transformer.PROGRESS_STATE_WAITING_FOR_AVAILABILITY;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.DefaultLoadControl.DEFAULT_BUFFER_FOR_PLAYBACK_AFTER_REBUFFER_MS;
+import static com.readwise.android.exoplayer2.DefaultLoadControl.DEFAULT_BUFFER_FOR_PLAYBACK_MS;
+import static com.readwise.android.exoplayer2.DefaultLoadControl.DEFAULT_MAX_BUFFER_MS;
+import static com.readwise.android.exoplayer2.DefaultLoadControl.DEFAULT_MIN_BUFFER_MS;
+import static com.readwise.android.exoplayer2.transformer.ExportException.ERROR_CODE_FAILED_RUNTIME_CHECK;
+import static com.readwise.android.exoplayer2.transformer.ExportException.ERROR_CODE_UNSPECIFIED;
+import static com.readwise.android.exoplayer2.transformer.Transformer.PROGRESS_STATE_AVAILABLE;
+import static com.readwise.android.exoplayer2.transformer.Transformer.PROGRESS_STATE_NOT_STARTED;
+import static com.readwise.android.exoplayer2.transformer.Transformer.PROGRESS_STATE_UNAVAILABLE;
+import static com.readwise.android.exoplayer2.transformer.Transformer.PROGRESS_STATE_WAITING_FOR_AVAILABILITY;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
 import static java.lang.Math.min;
 
 import android.content.Context;
 import android.os.Handler;
 import android.os.Looper;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.DefaultLoadControl;
-import com.google.android.exoplayer2.ExoPlayer;
-import com.google.android.exoplayer2.PlaybackException;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Renderer;
-import com.google.android.exoplayer2.RenderersFactory;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.Tracks;
-import com.google.android.exoplayer2.audio.AudioRendererEventListener;
-import com.google.android.exoplayer2.extractor.DefaultExtractorsFactory;
-import com.google.android.exoplayer2.extractor.mp4.Mp4Extractor;
-import com.google.android.exoplayer2.metadata.MetadataOutput;
-import com.google.android.exoplayer2.source.DefaultMediaSourceFactory;
-import com.google.android.exoplayer2.source.MediaSource;
-import com.google.android.exoplayer2.text.TextOutput;
-import com.google.android.exoplayer2.trackselection.DefaultTrackSelector;
-import com.google.android.exoplayer2.util.Clock;
-import com.google.android.exoplayer2.video.VideoRendererEventListener;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.DefaultLoadControl;
+import com.readwise.android.exoplayer2.ExoPlayer;
+import com.readwise.android.exoplayer2.PlaybackException;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.Renderer;
+import com.readwise.android.exoplayer2.RenderersFactory;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.Tracks;
+import com.readwise.android.exoplayer2.audio.AudioRendererEventListener;
+import com.readwise.android.exoplayer2.extractor.DefaultExtractorsFactory;
+import com.readwise.android.exoplayer2.extractor.mp4.Mp4Extractor;
+import com.readwise.android.exoplayer2.metadata.MetadataOutput;
+import com.readwise.android.exoplayer2.source.DefaultMediaSourceFactory;
+import com.readwise.android.exoplayer2.source.MediaSource;
+import com.readwise.android.exoplayer2.text.TextOutput;
+import com.readwise.android.exoplayer2.trackselection.DefaultTrackSelector;
+import com.readwise.android.exoplayer2.util.Clock;
+import com.readwise.android.exoplayer2.video.VideoRendererEventListener;
 import com.google.common.collect.ImmutableMap;
 
 /** An {@link AssetLoader} implementation that uses an {@link ExoPlayer} to load samples. */

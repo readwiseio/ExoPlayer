@@ -13,33 +13,33 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.util;
+package com.readwise.android.exoplayer2.util;
 
-import static com.google.android.exoplayer2.util.Util.getFormatSupportString;
+import static com.readwise.android.exoplayer2.util.Util.getFormatSupportString;
 import static java.lang.Math.min;
 
 import android.os.SystemClock;
 import android.text.TextUtils;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.PlaybackException;
-import com.google.android.exoplayer2.PlaybackParameters;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Player.PlaybackSuppressionReason;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.Tracks;
-import com.google.android.exoplayer2.analytics.AnalyticsListener;
-import com.google.android.exoplayer2.audio.AudioAttributes;
-import com.google.android.exoplayer2.decoder.DecoderCounters;
-import com.google.android.exoplayer2.decoder.DecoderReuseEvaluation;
-import com.google.android.exoplayer2.drm.DrmSession;
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.source.LoadEventInfo;
-import com.google.android.exoplayer2.source.MediaLoadData;
-import com.google.android.exoplayer2.trackselection.MappingTrackSelector;
-import com.google.android.exoplayer2.video.VideoSize;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.PlaybackException;
+import com.readwise.android.exoplayer2.PlaybackParameters;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.Player.PlaybackSuppressionReason;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.Tracks;
+import com.readwise.android.exoplayer2.analytics.AnalyticsListener;
+import com.readwise.android.exoplayer2.audio.AudioAttributes;
+import com.readwise.android.exoplayer2.decoder.DecoderCounters;
+import com.readwise.android.exoplayer2.decoder.DecoderReuseEvaluation;
+import com.readwise.android.exoplayer2.drm.DrmSession;
+import com.readwise.android.exoplayer2.metadata.Metadata;
+import com.readwise.android.exoplayer2.source.LoadEventInfo;
+import com.readwise.android.exoplayer2.source.MediaLoadData;
+import com.readwise.android.exoplayer2.trackselection.MappingTrackSelector;
+import com.readwise.android.exoplayer2.video.VideoSize;
 import com.google.common.collect.ImmutableList;
 import java.io.IOException;
 import java.text.NumberFormat;

@@ -13,21 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.hls.offline;
+package com.readwise.android.exoplayer2.source.hls.offline;
 
 import android.net.Uri;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.offline.SegmentDownloader;
-import com.google.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist;
-import com.google.android.exoplayer2.source.hls.playlist.HlsMultivariantPlaylist;
-import com.google.android.exoplayer2.source.hls.playlist.HlsPlaylist;
-import com.google.android.exoplayer2.source.hls.playlist.HlsPlaylistParser;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.upstream.ParsingLoadable.Parser;
-import com.google.android.exoplayer2.upstream.cache.CacheDataSource;
-import com.google.android.exoplayer2.util.UriUtil;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.offline.SegmentDownloader;
+import com.readwise.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist;
+import com.readwise.android.exoplayer2.source.hls.playlist.HlsMultivariantPlaylist;
+import com.readwise.android.exoplayer2.source.hls.playlist.HlsPlaylist;
+import com.readwise.android.exoplayer2.source.hls.playlist.HlsPlaylistParser;
+import com.readwise.android.exoplayer2.upstream.DataSource;
+import com.readwise.android.exoplayer2.upstream.DataSpec;
+import com.readwise.android.exoplayer2.upstream.ParsingLoadable.Parser;
+import com.readwise.android.exoplayer2.upstream.cache.CacheDataSource;
+import com.readwise.android.exoplayer2.util.UriUtil;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashSet;

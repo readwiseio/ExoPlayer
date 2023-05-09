@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.offline;
+package com.readwise.android.exoplayer2.offline;
 
-import static com.google.android.exoplayer2.offline.Download.FAILURE_REASON_NONE;
-import static com.google.android.exoplayer2.offline.Download.FAILURE_REASON_UNKNOWN;
-import static com.google.android.exoplayer2.offline.Download.STATE_COMPLETED;
-import static com.google.android.exoplayer2.offline.Download.STATE_DOWNLOADING;
-import static com.google.android.exoplayer2.offline.Download.STATE_FAILED;
-import static com.google.android.exoplayer2.offline.Download.STATE_QUEUED;
-import static com.google.android.exoplayer2.offline.Download.STATE_REMOVING;
-import static com.google.android.exoplayer2.offline.Download.STATE_RESTARTING;
-import static com.google.android.exoplayer2.offline.Download.STATE_STOPPED;
-import static com.google.android.exoplayer2.offline.Download.STOP_REASON_NONE;
+import static com.readwise.android.exoplayer2.offline.Download.FAILURE_REASON_NONE;
+import static com.readwise.android.exoplayer2.offline.Download.FAILURE_REASON_UNKNOWN;
+import static com.readwise.android.exoplayer2.offline.Download.STATE_COMPLETED;
+import static com.readwise.android.exoplayer2.offline.Download.STATE_DOWNLOADING;
+import static com.readwise.android.exoplayer2.offline.Download.STATE_FAILED;
+import static com.readwise.android.exoplayer2.offline.Download.STATE_QUEUED;
+import static com.readwise.android.exoplayer2.offline.Download.STATE_REMOVING;
+import static com.readwise.android.exoplayer2.offline.Download.STATE_RESTARTING;
+import static com.readwise.android.exoplayer2.offline.Download.STATE_STOPPED;
+import static com.readwise.android.exoplayer2.offline.Download.STOP_REASON_NONE;
 import static java.lang.Math.min;
 
 import android.content.Context;
@@ -35,19 +35,19 @@ import android.os.Message;
 import androidx.annotation.CheckResult;
 import androidx.annotation.IntRange;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.database.DatabaseProvider;
-import com.google.android.exoplayer2.scheduler.Requirements;
-import com.google.android.exoplayer2.scheduler.RequirementsWatcher;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.DataSource.Factory;
-import com.google.android.exoplayer2.upstream.cache.Cache;
-import com.google.android.exoplayer2.upstream.cache.CacheDataSource;
-import com.google.android.exoplayer2.upstream.cache.CacheEvictor;
-import com.google.android.exoplayer2.upstream.cache.NoOpCacheEvictor;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.database.DatabaseProvider;
+import com.readwise.android.exoplayer2.scheduler.Requirements;
+import com.readwise.android.exoplayer2.scheduler.RequirementsWatcher;
+import com.readwise.android.exoplayer2.upstream.DataSource;
+import com.readwise.android.exoplayer2.upstream.DataSource.Factory;
+import com.readwise.android.exoplayer2.upstream.cache.Cache;
+import com.readwise.android.exoplayer2.upstream.cache.CacheDataSource;
+import com.readwise.android.exoplayer2.upstream.cache.CacheEvictor;
+import com.readwise.android.exoplayer2.upstream.cache.NoOpCacheEvictor;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;

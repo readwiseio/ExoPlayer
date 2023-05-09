@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.testutil;
+package com.readwise.android.exoplayer2.testutil;
 
 import static androidx.test.core.app.ApplicationProvider.getApplicationContext;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkStateNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkStateNotNull;
 import static com.google.common.truth.Truth.assertThat;
 import static java.lang.Math.round;
 
@@ -31,10 +31,10 @@ import android.media.MediaExtractor;
 import android.media.MediaFormat;
 import android.view.Surface;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.util.MediaFormatUtil;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.util.MediaFormatUtil;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 
@@ -224,7 +224,7 @@ public final class DecodeOneFrameUtil {
    * Returns the name of a decoder that supports this {@link MediaFormat}.
    *
    * <p>Capability check is similar to
-   * com.google.android.exoplayer2.transformer.EncoderUtil.java#findCodecForFormat().
+   * com.readwise.android.exoplayer2.transformer.EncoderUtil.java#findCodecForFormat().
    */
   @Nullable
   private static String getSupportedDecoderName(MediaFormat format) {

@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.upstream;
+package com.readwise.android.exoplayer2.upstream;
 
 import android.content.ContentResolver;
 import android.content.Context;
 import android.net.Uri;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -325,7 +325,7 @@ public final class DefaultDataSource implements DataSource {
   private DataSource getRtmpDataSource() {
     if (rtmpDataSource == null) {
       try {
-        Class<?> clazz = Class.forName("com.google.android.exoplayer2.ext.rtmp.RtmpDataSource");
+        Class<?> clazz = Class.forName("com.readwise.android.exoplayer2.ext.rtmp.RtmpDataSource");
         rtmpDataSource = (DataSource) clazz.getConstructor().newInstance();
         addListenersToDataSource(rtmpDataSource);
       } catch (ClassNotFoundException e) {

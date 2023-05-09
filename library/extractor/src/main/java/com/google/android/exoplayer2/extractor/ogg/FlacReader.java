@@ -13,22 +13,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.extractor.ogg;
+package com.readwise.android.exoplayer2.extractor.ogg;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.extractor.ExtractorInput;
-import com.google.android.exoplayer2.extractor.FlacFrameReader;
-import com.google.android.exoplayer2.extractor.FlacMetadataReader;
-import com.google.android.exoplayer2.extractor.FlacSeekTableSeekMap;
-import com.google.android.exoplayer2.extractor.FlacStreamMetadata;
-import com.google.android.exoplayer2.extractor.FlacStreamMetadata.SeekTable;
-import com.google.android.exoplayer2.extractor.SeekMap;
-import com.google.android.exoplayer2.extractor.flac.FlacConstants;
-import com.google.android.exoplayer2.util.ParsableByteArray;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.extractor.ExtractorInput;
+import com.readwise.android.exoplayer2.extractor.FlacFrameReader;
+import com.readwise.android.exoplayer2.extractor.FlacMetadataReader;
+import com.readwise.android.exoplayer2.extractor.FlacSeekTableSeekMap;
+import com.readwise.android.exoplayer2.extractor.FlacStreamMetadata;
+import com.readwise.android.exoplayer2.extractor.FlacStreamMetadata.SeekTable;
+import com.readwise.android.exoplayer2.extractor.SeekMap;
+import com.readwise.android.exoplayer2.extractor.flac.FlacConstants;
+import com.readwise.android.exoplayer2.util.ParsableByteArray;
+import com.readwise.android.exoplayer2.util.Util;
 import java.util.Arrays;
 import org.checkerframework.checker.nullness.qual.EnsuresNonNullIf;
 

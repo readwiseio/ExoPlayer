@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.transformer;
+package com.readwise.android.exoplayer2.transformer;
 
 import android.graphics.Bitmap;
 import android.view.Surface;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
-import com.google.android.exoplayer2.video.ColorInfo;
+import com.readwise.android.exoplayer2.decoder.DecoderInputBuffer;
+import com.readwise.android.exoplayer2.video.ColorInfo;
 
 /** Consumer of encoded media samples, raw audio or raw video frames. */
 public interface SampleConsumer {

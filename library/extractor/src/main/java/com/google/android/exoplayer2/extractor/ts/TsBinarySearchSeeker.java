@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.extractor.ts;
+package com.readwise.android.exoplayer2.extractor.ts;
 
 import static java.lang.Math.min;
 
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.extractor.BinarySearchSeeker;
-import com.google.android.exoplayer2.extractor.ExtractorInput;
-import com.google.android.exoplayer2.util.ParsableByteArray;
-import com.google.android.exoplayer2.util.TimestampAdjuster;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.extractor.BinarySearchSeeker;
+import com.readwise.android.exoplayer2.extractor.ExtractorInput;
+import com.readwise.android.exoplayer2.util.ParsableByteArray;
+import com.readwise.android.exoplayer2.util.TimestampAdjuster;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.IOException;
 
 /**

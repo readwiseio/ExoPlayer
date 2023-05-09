@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.drm</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.drm</a></div>
 <h2 title="Class LocalMediaDrmCallback" class="title">Class LocalMediaDrmCallback</h2>
 </div>
 <div class="contentContainer">
@@ -121,7 +121,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li><a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">java.lang.Object</a></li>
 <li>
 <ul class="inheritance">
-<li>com.google.android.exoplayer2.drm.LocalMediaDrmCallback</li>
+<li>com.readwise.android.exoplayer2.drm.LocalMediaDrmCallback</li>
 </ul>
 </li>
 </ul>
@@ -130,13 +130,13 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Implemented Interfaces:</dt>
-<dd><code><a href="MediaDrmCallback.html" title="interface in com.google.android.exoplayer2.drm">MediaDrmCallback</a></code></dd>
+<dd><code><a href="MediaDrmCallback.html" title="interface in com.readwise.android.exoplayer2.drm">MediaDrmCallback</a></code></dd>
 </dl>
 <hr>
 <pre>public final class <span class="typeNameLabel">LocalMediaDrmCallback</span>
 extends <a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">Object</a>
-implements <a href="MediaDrmCallback.html" title="interface in com.google.android.exoplayer2.drm">MediaDrmCallback</a></pre>
-<div class="block">A <a href="MediaDrmCallback.html" title="interface in com.google.android.exoplayer2.drm"><code>MediaDrmCallback</code></a> that provides a fixed response to key requests. Provisioning is not
+implements <a href="MediaDrmCallback.html" title="interface in com.readwise.android.exoplayer2.drm">MediaDrmCallback</a></pre>
+<div class="block">A <a href="MediaDrmCallback.html" title="interface in com.readwise.android.exoplayer2.drm"><code>MediaDrmCallback</code></a> that provides a fixed response to key requests. Provisioning is not
  supported. This implementation is primarily useful for providing locally stored keys to decrypt
  ClearKey protected content. It is not suitable for use with Widevine or PlayReady protected
  content.</div>
@@ -183,16 +183,16 @@ implements <a href="MediaDrmCallback.html" title="interface in com.google.androi
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>byte[]</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#executeKeyRequest(java.util.UUID,com.google.android.exoplayer2.drm.ExoMediaDrm.KeyRequest)">executeKeyRequest</a></span>&#8203;(<a href="https://developer.android.com/reference/java/util/UUID.html" title="class or interface in java.util" class="externalLink" target="_top">UUID</a>&nbsp;uuid,
-                 <a href="ExoMediaDrm.KeyRequest.html" title="class in com.google.android.exoplayer2.drm">ExoMediaDrm.KeyRequest</a>&nbsp;request)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#executeKeyRequest(java.util.UUID,com.readwise.android.exoplayer2.drm.ExoMediaDrm.KeyRequest)">executeKeyRequest</a></span>&#8203;(<a href="https://developer.android.com/reference/java/util/UUID.html" title="class or interface in java.util" class="externalLink" target="_top">UUID</a>&nbsp;uuid,
+                 <a href="ExoMediaDrm.KeyRequest.html" title="class in com.readwise.android.exoplayer2.drm">ExoMediaDrm.KeyRequest</a>&nbsp;request)</code></th>
 <td class="colLast">
 <div class="block">Executes a key request.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>byte[]</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#executeProvisionRequest(java.util.UUID,com.google.android.exoplayer2.drm.ExoMediaDrm.ProvisionRequest)">executeProvisionRequest</a></span>&#8203;(<a href="https://developer.android.com/reference/java/util/UUID.html" title="class or interface in java.util" class="externalLink" target="_top">UUID</a>&nbsp;uuid,
-                       <a href="ExoMediaDrm.ProvisionRequest.html" title="class in com.google.android.exoplayer2.drm">ExoMediaDrm.ProvisionRequest</a>&nbsp;request)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#executeProvisionRequest(java.util.UUID,com.readwise.android.exoplayer2.drm.ExoMediaDrm.ProvisionRequest)">executeProvisionRequest</a></span>&#8203;(<a href="https://developer.android.com/reference/java/util/UUID.html" title="class or interface in java.util" class="externalLink" target="_top">UUID</a>&nbsp;uuid,
+                       <a href="ExoMediaDrm.ProvisionRequest.html" title="class in com.readwise.android.exoplayer2.drm">ExoMediaDrm.ProvisionRequest</a>&nbsp;request)</code></th>
 <td class="colLast">
 <div class="block">Executes a provisioning request.</div>
 </td>
@@ -244,19 +244,19 @@ implements <a href="MediaDrmCallback.html" title="interface in com.google.androi
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="executeProvisionRequest(java.util.UUID,com.google.android.exoplayer2.drm.ExoMediaDrm.ProvisionRequest)">
+<a id="executeProvisionRequest(java.util.UUID,com.readwise.android.exoplayer2.drm.ExoMediaDrm.ProvisionRequest)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>executeProvisionRequest</h4>
 <pre class="methodSignature">public&nbsp;byte[]&nbsp;executeProvisionRequest&#8203;(<a href="https://developer.android.com/reference/java/util/UUID.html" title="class or interface in java.util" class="externalLink" target="_top">UUID</a>&nbsp;uuid,
-                                      <a href="ExoMediaDrm.ProvisionRequest.html" title="class in com.google.android.exoplayer2.drm">ExoMediaDrm.ProvisionRequest</a>&nbsp;request)</pre>
-<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="MediaDrmCallback.html#executeProvisionRequest(java.util.UUID,com.google.android.exoplayer2.drm.ExoMediaDrm.ProvisionRequest)">MediaDrmCallback</a></code></span></div>
+                                      <a href="ExoMediaDrm.ProvisionRequest.html" title="class in com.readwise.android.exoplayer2.drm">ExoMediaDrm.ProvisionRequest</a>&nbsp;request)</pre>
+<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="MediaDrmCallback.html#executeProvisionRequest(java.util.UUID,com.readwise.android.exoplayer2.drm.ExoMediaDrm.ProvisionRequest)">MediaDrmCallback</a></code></span></div>
 <div class="block">Executes a provisioning request.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="MediaDrmCallback.html#executeProvisionRequest(java.util.UUID,com.google.android.exoplayer2.drm.ExoMediaDrm.ProvisionRequest)">executeProvisionRequest</a></code>&nbsp;in interface&nbsp;<code><a href="MediaDrmCallback.html" title="interface in com.google.android.exoplayer2.drm">MediaDrmCallback</a></code></dd>
+<dd><code><a href="MediaDrmCallback.html#executeProvisionRequest(java.util.UUID,com.readwise.android.exoplayer2.drm.ExoMediaDrm.ProvisionRequest)">executeProvisionRequest</a></code>&nbsp;in interface&nbsp;<code><a href="MediaDrmCallback.html" title="interface in com.readwise.android.exoplayer2.drm">MediaDrmCallback</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>uuid</code> - The UUID of the content protection scheme.</dd>
 <dd><code>request</code> - The request.</dd>
@@ -265,19 +265,19 @@ implements <a href="MediaDrmCallback.html" title="interface in com.google.androi
 </dl>
 </li>
 </ul>
-<a id="executeKeyRequest(java.util.UUID,com.google.android.exoplayer2.drm.ExoMediaDrm.KeyRequest)">
+<a id="executeKeyRequest(java.util.UUID,com.readwise.android.exoplayer2.drm.ExoMediaDrm.KeyRequest)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>executeKeyRequest</h4>
 <pre class="methodSignature">public&nbsp;byte[]&nbsp;executeKeyRequest&#8203;(<a href="https://developer.android.com/reference/java/util/UUID.html" title="class or interface in java.util" class="externalLink" target="_top">UUID</a>&nbsp;uuid,
-                                <a href="ExoMediaDrm.KeyRequest.html" title="class in com.google.android.exoplayer2.drm">ExoMediaDrm.KeyRequest</a>&nbsp;request)</pre>
-<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="MediaDrmCallback.html#executeKeyRequest(java.util.UUID,com.google.android.exoplayer2.drm.ExoMediaDrm.KeyRequest)">MediaDrmCallback</a></code></span></div>
+                                <a href="ExoMediaDrm.KeyRequest.html" title="class in com.readwise.android.exoplayer2.drm">ExoMediaDrm.KeyRequest</a>&nbsp;request)</pre>
+<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="MediaDrmCallback.html#executeKeyRequest(java.util.UUID,com.readwise.android.exoplayer2.drm.ExoMediaDrm.KeyRequest)">MediaDrmCallback</a></code></span></div>
 <div class="block">Executes a key request.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="MediaDrmCallback.html#executeKeyRequest(java.util.UUID,com.google.android.exoplayer2.drm.ExoMediaDrm.KeyRequest)">executeKeyRequest</a></code>&nbsp;in interface&nbsp;<code><a href="MediaDrmCallback.html" title="interface in com.google.android.exoplayer2.drm">MediaDrmCallback</a></code></dd>
+<dd><code><a href="MediaDrmCallback.html#executeKeyRequest(java.util.UUID,com.readwise.android.exoplayer2.drm.ExoMediaDrm.KeyRequest)">executeKeyRequest</a></code>&nbsp;in interface&nbsp;<code><a href="MediaDrmCallback.html" title="interface in com.readwise.android.exoplayer2.drm">MediaDrmCallback</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>uuid</code> - The UUID of the content protection scheme.</dd>
 <dd><code>request</code> - The request.</dd>

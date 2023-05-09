@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.upstream.cache;
+package com.readwise.android.exoplayer2.upstream.cache;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Util.castNonNull;
 import static java.lang.Math.min;
 import static java.lang.annotation.ElementType.FIELD;
 import static java.lang.annotation.ElementType.LOCAL_VARIABLE;
@@ -27,20 +27,20 @@ import static java.lang.annotation.ElementType.TYPE_USE;
 import android.net.Uri;
 import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.PlaybackException;
-import com.google.android.exoplayer2.upstream.DataSink;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.DataSourceException;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.upstream.FileDataSource;
-import com.google.android.exoplayer2.upstream.PlaceholderDataSource;
-import com.google.android.exoplayer2.upstream.PriorityDataSource;
-import com.google.android.exoplayer2.upstream.TeeDataSource;
-import com.google.android.exoplayer2.upstream.TransferListener;
-import com.google.android.exoplayer2.upstream.cache.Cache.CacheException;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.PriorityTaskManager;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.PlaybackException;
+import com.readwise.android.exoplayer2.upstream.DataSink;
+import com.readwise.android.exoplayer2.upstream.DataSource;
+import com.readwise.android.exoplayer2.upstream.DataSourceException;
+import com.readwise.android.exoplayer2.upstream.DataSpec;
+import com.readwise.android.exoplayer2.upstream.FileDataSource;
+import com.readwise.android.exoplayer2.upstream.PlaceholderDataSource;
+import com.readwise.android.exoplayer2.upstream.PriorityDataSource;
+import com.readwise.android.exoplayer2.upstream.TeeDataSource;
+import com.readwise.android.exoplayer2.upstream.TransferListener;
+import com.readwise.android.exoplayer2.upstream.cache.Cache.CacheException;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.PriorityTaskManager;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.io.IOException;
 import java.io.InterruptedIOException;

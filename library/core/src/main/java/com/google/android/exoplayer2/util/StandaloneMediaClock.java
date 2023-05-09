@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.util;
+package com.readwise.android.exoplayer2.util;
 
-import com.google.android.exoplayer2.PlaybackParameters;
+import com.readwise.android.exoplayer2.PlaybackParameters;
 
 /**
  * A {@link MediaClock} whose position advances with real time based on the playback parameters when

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.text.ttml;
+package com.readwise.android.exoplayer2.text.ttml;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -21,9 +21,9 @@ import android.text.SpannableStringBuilder;
 import android.util.Base64;
 import android.util.Pair;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.text.Cue;
-import com.google.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.text.Cue;
+import com.readwise.android.exoplayer2.util.Assertions;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

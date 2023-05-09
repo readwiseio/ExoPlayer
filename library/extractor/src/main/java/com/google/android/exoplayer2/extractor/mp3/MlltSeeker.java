@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.extractor.mp3;
+package com.readwise.android.exoplayer2.extractor.mp3;
 
 import android.util.Pair;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.extractor.SeekPoint;
-import com.google.android.exoplayer2.metadata.id3.MlltFrame;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.extractor.SeekPoint;
+import com.readwise.android.exoplayer2.metadata.id3.MlltFrame;
+import com.readwise.android.exoplayer2.util.Util;
 
 /** MP3 seeker that uses metadata from an {@link MlltFrame}. */
 /* package */ final class MlltSeeker implements Seeker {

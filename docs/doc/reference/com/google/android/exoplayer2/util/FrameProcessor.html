@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.util</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.util</a></div>
 <h2 title="Interface FrameProcessor" class="title">Interface FrameProcessor</h2>
 </div>
 <div class="contentContainer">
@@ -122,16 +122,16 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Known Implementing Classes:</dt>
-<dd><code><a href="../effect/GlEffectsFrameProcessor.html" title="class in com.google.android.exoplayer2.effect">GlEffectsFrameProcessor</a></code></dd>
+<dd><code><a href="../effect/GlEffectsFrameProcessor.html" title="class in com.readwise.android.exoplayer2.effect">GlEffectsFrameProcessor</a></code></dd>
 </dl>
 <hr>
 <pre>public interface <span class="typeNameLabel">FrameProcessor</span></pre>
 <div class="block">Interface for a frame processor that applies changes to individual video frames.
 
- <p>The changes are specified by <a href="Effect.html" title="interface in com.google.android.exoplayer2.util"><code>Effect</code></a> instances passed to <a href="FrameProcessor.Factory.html#create(android.content.Context,com.google.android.exoplayer2.util.FrameProcessor.Listener,java.util.List,com.google.android.exoplayer2.util.DebugViewProvider,com.google.android.exoplayer2.video.ColorInfo,boolean)"><code>FrameProcessor.Factory.create(android.content.Context, com.google.android.exoplayer2.util.FrameProcessor.Listener, java.util.List&lt;com.google.android.exoplayer2.util.Effect&gt;, com.google.android.exoplayer2.util.DebugViewProvider, com.google.android.exoplayer2.video.ColorInfo, boolean)</code></a>.
+ <p>The changes are specified by <a href="Effect.html" title="interface in com.readwise.android.exoplayer2.util"><code>Effect</code></a> instances passed to <a href="FrameProcessor.Factory.html#create(android.content.Context,com.readwise.android.exoplayer2.util.FrameProcessor.Listener,java.util.List,com.readwise.android.exoplayer2.util.DebugViewProvider,com.readwise.android.exoplayer2.video.ColorInfo,boolean)"><code>FrameProcessor.Factory.create(android.content.Context, com.readwise.android.exoplayer2.util.FrameProcessor.Listener, java.util.List&lt;com.readwise.android.exoplayer2.util.Effect&gt;, com.readwise.android.exoplayer2.util.DebugViewProvider, com.readwise.android.exoplayer2.video.ColorInfo, boolean)</code></a>.
 
  <p>Manages its input <a href="https://developer.android.com/reference/android/view/Surface.html" title="class or interface in android.view" class="externalLink"><code>Surface</code></a>, which can be accessed via <a href="#getInputSurface()" target="_top"><code>getInputSurface()</code></a>. The
- output <a href="https://developer.android.com/reference/android/view/Surface.html" title="class or interface in android.view" class="externalLink"><code>Surface</code></a> must be set by the caller using <a href="#setOutputSurfaceInfo(com.google.android.exoplayer2.util.SurfaceInfo)" target="_top"><code>setOutputSurfaceInfo(SurfaceInfo)</code></a>.
+ output <a href="https://developer.android.com/reference/android/view/Surface.html" title="class or interface in android.view" class="externalLink"><code>Surface</code></a> must be set by the caller using <a href="#setOutputSurfaceInfo(com.readwise.android.exoplayer2.util.SurfaceInfo)" target="_top"><code>setOutputSurfaceInfo(SurfaceInfo)</code></a>.
 
  <p>The caller must <a href="#registerInputFrame()">register</a> input frames before rendering them
  to the input <a href="https://developer.android.com/reference/android/view/Surface.html" title="class or interface in android.view" class="externalLink" target="_top"><code>Surface</code></a>.</div>
@@ -157,14 +157,14 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static interface&nbsp;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="FrameProcessor.Factory.html" title="interface in com.google.android.exoplayer2.util">FrameProcessor.Factory</a></span></code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="FrameProcessor.Factory.html" title="interface in com.readwise.android.exoplayer2.util">FrameProcessor.Factory</a></span></code></th>
 <td class="colLast">
-<div class="block">A factory for <a href="FrameProcessor.html" title="interface in com.google.android.exoplayer2.util"><code>FrameProcessor</code></a> instances.</div>
+<div class="block">A factory for <a href="FrameProcessor.html" title="interface in com.readwise.android.exoplayer2.util"><code>FrameProcessor</code></a> instances.</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>static interface&nbsp;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="FrameProcessor.Listener.html" title="interface in com.google.android.exoplayer2.util">FrameProcessor.Listener</a></span></code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="FrameProcessor.Listener.html" title="interface in com.readwise.android.exoplayer2.util">FrameProcessor.Listener</a></span></code></th>
 <td class="colLast">
 <div class="block">Listener for asynchronous frame processing events.</div>
 </td>
@@ -224,7 +224,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <td class="colFirst"><code><a href="https://developer.android.com/reference/android/view/Surface.html" title="class or interface in android.view" class="externalLink" target="_top">Surface</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getInputSurface()">getInputSurface</a></span>()</code></th>
 <td class="colLast">
-<div class="block">Returns the input <a href="https://developer.android.com/reference/android/view/Surface.html" title="class or interface in android.view" class="externalLink"><code>Surface</code></a>, where <a href="FrameProcessor.html" title="interface in com.google.android.exoplayer2.util" target="_top"><code>FrameProcessor</code></a> consumes input frames from.</div>
+<div class="block">Returns the input <a href="https://developer.android.com/reference/android/view/Surface.html" title="class or interface in android.view" class="externalLink"><code>Surface</code></a>, where <a href="FrameProcessor.html" title="interface in com.readwise.android.exoplayer2.util" target="_top"><code>FrameProcessor</code></a> consumes input frames from.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
@@ -258,14 +258,14 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i5" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setInputFrameInfo(com.google.android.exoplayer2.util.FrameInfo)">setInputFrameInfo</a></span>&#8203;(<a href="FrameInfo.html" title="class in com.google.android.exoplayer2.util">FrameInfo</a>&nbsp;inputFrameInfo)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setInputFrameInfo(com.readwise.android.exoplayer2.util.FrameInfo)">setInputFrameInfo</a></span>&#8203;(<a href="FrameInfo.html" title="class in com.readwise.android.exoplayer2.util">FrameInfo</a>&nbsp;inputFrameInfo)</code></th>
 <td class="colLast">
 <div class="block">Sets information about the input frames.</div>
 </td>
 </tr>
 <tr id="i6" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setOutputSurfaceInfo(com.google.android.exoplayer2.util.SurfaceInfo)">setOutputSurfaceInfo</a></span>&#8203;(<a href="SurfaceInfo.html" title="class in com.google.android.exoplayer2.util">SurfaceInfo</a>&nbsp;outputSurfaceInfo)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setOutputSurfaceInfo(com.readwise.android.exoplayer2.util.SurfaceInfo)">setOutputSurfaceInfo</a></span>&#8203;(<a href="SurfaceInfo.html" title="class in com.readwise.android.exoplayer2.util">SurfaceInfo</a>&nbsp;outputSurfaceInfo)</code></th>
 <td class="colLast">
 <div class="block">Sets the output surface and supporting information.</div>
 </td>
@@ -305,7 +305,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
  invoked.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../../constant-values.html#com.google.android.exoplayer2.util.FrameProcessor.RELEASE_OUTPUT_FRAME_IMMEDIATELY">Constant Field Values</a></dd>
+<dd><a href="../../../../../constant-values.html#com.readwise.android.exoplayer2.util.FrameProcessor.RELEASE_OUTPUT_FRAME_IMMEDIATELY">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>
@@ -319,7 +319,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <div class="block">Indicates the frame should be dropped after <a href="#releaseOutputFrame(long)"><code>releaseOutputFrame(long)</code></a> is invoked.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../../constant-values.html#com.google.android.exoplayer2.util.FrameProcessor.DROP_OUTPUT_FRAME">Constant Field Values</a></dd>
+<dd><a href="../../../../../constant-values.html#com.readwise.android.exoplayer2.util.FrameProcessor.DROP_OUTPUT_FRAME">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>
@@ -340,16 +340,16 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <h4>getInputSurface</h4>
 <pre class="methodSignature"><a href="https://developer.android.com/reference/android/view/Surface.html" title="class or interface in android.view" class="externalLink" target="_top">Surface</a>&nbsp;getInputSurface()</pre>
-<div class="block">Returns the input <a href="https://developer.android.com/reference/android/view/Surface.html" title="class or interface in android.view" class="externalLink"><code>Surface</code></a>, where <a href="FrameProcessor.html" title="interface in com.google.android.exoplayer2.util" target="_top"><code>FrameProcessor</code></a> consumes input frames from.</div>
+<div class="block">Returns the input <a href="https://developer.android.com/reference/android/view/Surface.html" title="class or interface in android.view" class="externalLink"><code>Surface</code></a>, where <a href="FrameProcessor.html" title="interface in com.readwise.android.exoplayer2.util" target="_top"><code>FrameProcessor</code></a> consumes input frames from.</div>
 </li>
 </ul>
-<a id="setInputFrameInfo(com.google.android.exoplayer2.util.FrameInfo)">
+<a id="setInputFrameInfo(com.readwise.android.exoplayer2.util.FrameInfo)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>setInputFrameInfo</h4>
-<pre class="methodSignature">void&nbsp;setInputFrameInfo&#8203;(<a href="FrameInfo.html" title="class in com.google.android.exoplayer2.util">FrameInfo</a>&nbsp;inputFrameInfo)</pre>
+<pre class="methodSignature">void&nbsp;setInputFrameInfo&#8203;(<a href="FrameInfo.html" title="class in com.readwise.android.exoplayer2.util">FrameInfo</a>&nbsp;inputFrameInfo)</pre>
 <div class="block">Sets information about the input frames.
 
  <p>The new input information is applied from the next frame <a href="#registerInputFrame()">registered</a> onwards.
@@ -373,7 +373,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
  <p>Must be called before rendering a frame to the frame processor's input surface.</div>
 <dl>
 <dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="https://developer.android.com/reference/java/lang/IllegalStateException.html" title="class or interface in java.lang" class="externalLink">IllegalStateException</a></code> - If called after <a href="#signalEndOfInput()"><code>signalEndOfInput()</code></a> or before <a href="#setInputFrameInfo(com.google.android.exoplayer2.util.FrameInfo)" target="_top"><code>setInputFrameInfo(FrameInfo)</code></a>.</dd>
+<dd><code><a href="https://developer.android.com/reference/java/lang/IllegalStateException.html" title="class or interface in java.lang" class="externalLink">IllegalStateException</a></code> - If called after <a href="#signalEndOfInput()"><code>signalEndOfInput()</code></a> or before <a href="#setInputFrameInfo(com.readwise.android.exoplayer2.util.FrameInfo)" target="_top"><code>setInputFrameInfo(FrameInfo)</code></a>.</dd>
 </dl>
 </li>
 </ul>
@@ -388,22 +388,22 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
  but not processed off the <a href="#getInputSurface()">input surface</a> yet.</div>
 </li>
 </ul>
-<a id="setOutputSurfaceInfo(com.google.android.exoplayer2.util.SurfaceInfo)">
+<a id="setOutputSurfaceInfo(com.readwise.android.exoplayer2.util.SurfaceInfo)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>setOutputSurfaceInfo</h4>
 <pre class="methodSignature">void&nbsp;setOutputSurfaceInfo&#8203;(@Nullable
-                          <a href="SurfaceInfo.html" title="class in com.google.android.exoplayer2.util">SurfaceInfo</a>&nbsp;outputSurfaceInfo)</pre>
+                          <a href="SurfaceInfo.html" title="class in com.readwise.android.exoplayer2.util">SurfaceInfo</a>&nbsp;outputSurfaceInfo)</pre>
 <div class="block">Sets the output surface and supporting information. When output frames are released and not
- dropped, they will be rendered to this output <a href="SurfaceInfo.html" title="class in com.google.android.exoplayer2.util"><code>SurfaceInfo</code></a>.
+ dropped, they will be rendered to this output <a href="SurfaceInfo.html" title="class in com.readwise.android.exoplayer2.util"><code>SurfaceInfo</code></a>.
 
- <p>The new output <a href="SurfaceInfo.html" title="class in com.google.android.exoplayer2.util"><code>SurfaceInfo</code></a> is applied from the next output frame rendered onwards.
- If the output <a href="SurfaceInfo.html" title="class in com.google.android.exoplayer2.util"><code>SurfaceInfo</code></a> is <code>null</code>, the <code>FrameProcessor</code> will stop
- rendering pending frames and resume rendering once a non-null <a href="SurfaceInfo.html" title="class in com.google.android.exoplayer2.util"><code>SurfaceInfo</code></a> is set.
+ <p>The new output <a href="SurfaceInfo.html" title="class in com.readwise.android.exoplayer2.util"><code>SurfaceInfo</code></a> is applied from the next output frame rendered onwards.
+ If the output <a href="SurfaceInfo.html" title="class in com.readwise.android.exoplayer2.util"><code>SurfaceInfo</code></a> is <code>null</code>, the <code>FrameProcessor</code> will stop
+ rendering pending frames and resume rendering once a non-null <a href="SurfaceInfo.html" title="class in com.readwise.android.exoplayer2.util"><code>SurfaceInfo</code></a> is set.
 
- <p>If the dimensions given in <a href="SurfaceInfo.html" title="class in com.google.android.exoplayer2.util"><code>SurfaceInfo</code></a> do not match the <a href="FrameProcessor.Listener.html#onOutputSizeChanged(int,int)">output size after applying the final effect</a> the frames
+ <p>If the dimensions given in <a href="SurfaceInfo.html" title="class in com.readwise.android.exoplayer2.util"><code>SurfaceInfo</code></a> do not match the <a href="FrameProcessor.Listener.html#onOutputSizeChanged(int,int)">output size after applying the final effect</a> the frames
  are resized before rendering to the surface and letter/pillar-boxing is applied.
 
  <p>The caller is responsible for tracking the lifecycle of the <a href="SurfaceInfo.html#surface"><code>SurfaceInfo.surface</code></a>
@@ -420,11 +420,11 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <pre class="methodSignature">void&nbsp;releaseOutputFrame&#8203;(long&nbsp;releaseTimeNs)</pre>
 <div class="block">Releases the oldest unreleased output frame that has become <a href="FrameProcessor.Listener.html#onOutputFrameAvailable(long)">available</a> at the given <code>releaseTimeNs</code>.
 
- <p>This will either render the output frame to the <a href="#setOutputSurfaceInfo(com.google.android.exoplayer2.util.SurfaceInfo)">output
+ <p>This will either render the output frame to the <a href="#setOutputSurfaceInfo(com.readwise.android.exoplayer2.util.SurfaceInfo)">output
  surface</a>, or drop the frame, per <code>releaseTimeNs</code>.
 
  <p>This method must only be called if <code>releaseFramesAutomatically</code> was set to <code>
- false</code> using the <a href="FrameProcessor.Factory.html" title="interface in com.google.android.exoplayer2.util"><code>FrameProcessor.Factory</code></a> and should be called exactly once for each frame that becomes
+ false</code> using the <a href="FrameProcessor.Factory.html" title="interface in com.readwise.android.exoplayer2.util"><code>FrameProcessor.Factory</code></a> and should be called exactly once for each frame that becomes
  <a href="FrameProcessor.Listener.html#onOutputFrameAvailable(long)">available</a>.
 
  <p>The <code>releaseTimeNs</code> may be passed to <a href="https://developer.android.com/reference/android/opengl/EGLExt.html#eglPresentationTimeANDROID(android.opengl.EGLDisplay,android.opengl.EGLSurface,long)" title="class or interface in android.opengl" class="externalLink" target="_top"><code>EGLExt.eglPresentationTimeANDROID(android.opengl.EGLDisplay, android.opengl.EGLSurface, long)</code></a>

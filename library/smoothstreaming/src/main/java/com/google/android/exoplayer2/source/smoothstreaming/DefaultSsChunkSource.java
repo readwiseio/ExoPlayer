@@ -13,37 +13,37 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.smoothstreaming;
+package com.readwise.android.exoplayer2.source.smoothstreaming;
 
-import static com.google.android.exoplayer2.trackselection.TrackSelectionUtil.createFallbackOptions;
+import static com.readwise.android.exoplayer2.trackselection.TrackSelectionUtil.createFallbackOptions;
 
 import android.net.Uri;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.SeekParameters;
-import com.google.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor;
-import com.google.android.exoplayer2.extractor.mp4.Track;
-import com.google.android.exoplayer2.extractor.mp4.TrackEncryptionBox;
-import com.google.android.exoplayer2.source.BehindLiveWindowException;
-import com.google.android.exoplayer2.source.chunk.BaseMediaChunkIterator;
-import com.google.android.exoplayer2.source.chunk.BundledChunkExtractor;
-import com.google.android.exoplayer2.source.chunk.Chunk;
-import com.google.android.exoplayer2.source.chunk.ChunkExtractor;
-import com.google.android.exoplayer2.source.chunk.ChunkHolder;
-import com.google.android.exoplayer2.source.chunk.ContainerMediaChunk;
-import com.google.android.exoplayer2.source.chunk.MediaChunk;
-import com.google.android.exoplayer2.source.chunk.MediaChunkIterator;
-import com.google.android.exoplayer2.source.smoothstreaming.manifest.SsManifest;
-import com.google.android.exoplayer2.source.smoothstreaming.manifest.SsManifest.StreamElement;
-import com.google.android.exoplayer2.trackselection.ExoTrackSelection;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
-import com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy.FallbackSelection;
-import com.google.android.exoplayer2.upstream.LoaderErrorThrower;
-import com.google.android.exoplayer2.upstream.TransferListener;
-import com.google.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.SeekParameters;
+import com.readwise.android.exoplayer2.extractor.mp4.FragmentedMp4Extractor;
+import com.readwise.android.exoplayer2.extractor.mp4.Track;
+import com.readwise.android.exoplayer2.extractor.mp4.TrackEncryptionBox;
+import com.readwise.android.exoplayer2.source.BehindLiveWindowException;
+import com.readwise.android.exoplayer2.source.chunk.BaseMediaChunkIterator;
+import com.readwise.android.exoplayer2.source.chunk.BundledChunkExtractor;
+import com.readwise.android.exoplayer2.source.chunk.Chunk;
+import com.readwise.android.exoplayer2.source.chunk.ChunkExtractor;
+import com.readwise.android.exoplayer2.source.chunk.ChunkHolder;
+import com.readwise.android.exoplayer2.source.chunk.ContainerMediaChunk;
+import com.readwise.android.exoplayer2.source.chunk.MediaChunk;
+import com.readwise.android.exoplayer2.source.chunk.MediaChunkIterator;
+import com.readwise.android.exoplayer2.source.smoothstreaming.manifest.SsManifest;
+import com.readwise.android.exoplayer2.source.smoothstreaming.manifest.SsManifest.StreamElement;
+import com.readwise.android.exoplayer2.trackselection.ExoTrackSelection;
+import com.readwise.android.exoplayer2.upstream.DataSource;
+import com.readwise.android.exoplayer2.upstream.DataSpec;
+import com.readwise.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
+import com.readwise.android.exoplayer2.upstream.LoadErrorHandlingPolicy.FallbackSelection;
+import com.readwise.android.exoplayer2.upstream.LoaderErrorThrower;
+import com.readwise.android.exoplayer2.upstream.TransferListener;
+import com.readwise.android.exoplayer2.util.Assertions;
 import java.io.IOException;
 import java.util.List;
 

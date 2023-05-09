@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.video;
+package com.readwise.android.exoplayer2.video;
 
-import com.google.android.exoplayer2.decoder.VideoDecoderOutputBuffer;
+import com.readwise.android.exoplayer2.decoder.VideoDecoderOutputBuffer;
 
 /** Renders the {@link VideoDecoderOutputBuffer}. */
 public interface VideoDecoderOutputBufferRenderer {

@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.mediasession;
+package com.readwise.android.exoplayer2.ext.mediasession;
 
 import static androidx.media.utils.MediaConstants.PLAYBACK_STATE_EXTRAS_KEY_MEDIA_ID;
-import static com.google.android.exoplayer2.Player.COMMAND_SEEK_BACK;
-import static com.google.android.exoplayer2.Player.COMMAND_SEEK_FORWARD;
-import static com.google.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM;
-import static com.google.android.exoplayer2.Player.EVENT_IS_PLAYING_CHANGED;
-import static com.google.android.exoplayer2.Player.EVENT_PLAYBACK_PARAMETERS_CHANGED;
-import static com.google.android.exoplayer2.Player.EVENT_PLAYBACK_STATE_CHANGED;
-import static com.google.android.exoplayer2.Player.EVENT_PLAY_WHEN_READY_CHANGED;
-import static com.google.android.exoplayer2.Player.EVENT_REPEAT_MODE_CHANGED;
-import static com.google.android.exoplayer2.Player.EVENT_SHUFFLE_MODE_ENABLED_CHANGED;
+import static com.readwise.android.exoplayer2.Player.COMMAND_SEEK_BACK;
+import static com.readwise.android.exoplayer2.Player.COMMAND_SEEK_FORWARD;
+import static com.readwise.android.exoplayer2.Player.COMMAND_SEEK_IN_CURRENT_MEDIA_ITEM;
+import static com.readwise.android.exoplayer2.Player.EVENT_IS_PLAYING_CHANGED;
+import static com.readwise.android.exoplayer2.Player.EVENT_PLAYBACK_PARAMETERS_CHANGED;
+import static com.readwise.android.exoplayer2.Player.EVENT_PLAYBACK_STATE_CHANGED;
+import static com.readwise.android.exoplayer2.Player.EVENT_PLAY_WHEN_READY_CHANGED;
+import static com.readwise.android.exoplayer2.Player.EVENT_REPEAT_MODE_CHANGED;
+import static com.readwise.android.exoplayer2.Player.EVENT_SHUFFLE_MODE_ENABLED_CHANGED;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -44,15 +44,15 @@ import android.util.Pair;
 import android.view.KeyEvent;
 import androidx.annotation.LongDef;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ExoPlayerLibraryInfo;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.PlaybackException;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.ErrorMessageProvider;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ExoPlayerLibraryInfo;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.PlaybackException;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.ErrorMessageProvider;
+import com.readwise.android.exoplayer2.util.Util;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.util.ArrayList;

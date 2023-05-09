@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.offline;
+package com.readwise.android.exoplayer2.offline;
 
-import static com.google.android.exoplayer2.robolectric.RobolectricUtil.createRobolectricConditionVariable;
+import static com.readwise.android.exoplayer2.robolectric.RobolectricUtil.createRobolectricConditionVariable;
 import static com.google.common.truth.Truth.assertThat;
 import static java.util.Arrays.asList;
 
@@ -24,15 +24,15 @@ import androidx.annotation.GuardedBy;
 import androidx.annotation.Nullable;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.robolectric.TestDownloadManagerListener;
-import com.google.android.exoplayer2.scheduler.Requirements;
-import com.google.android.exoplayer2.testutil.DownloadBuilder;
-import com.google.android.exoplayer2.testutil.DummyMainThread;
-import com.google.android.exoplayer2.testutil.DummyMainThread.TestRunnable;
-import com.google.android.exoplayer2.testutil.TestUtil;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.ConditionVariable;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.robolectric.TestDownloadManagerListener;
+import com.readwise.android.exoplayer2.scheduler.Requirements;
+import com.readwise.android.exoplayer2.testutil.DownloadBuilder;
+import com.readwise.android.exoplayer2.testutil.DummyMainThread;
+import com.readwise.android.exoplayer2.testutil.DummyMainThread.TestRunnable;
+import com.readwise.android.exoplayer2.testutil.TestUtil;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.ConditionVariable;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;

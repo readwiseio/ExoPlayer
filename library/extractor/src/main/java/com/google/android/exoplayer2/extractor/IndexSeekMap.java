@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.extractor;
+package com.readwise.android.exoplayer2.extractor;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
+import static com.readwise.android.exoplayer2.util.Assertions.checkArgument;
 
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.util.Util;
 
 /**
  * A {@link SeekMap} implementation based on a mapping between times and positions in the input

@@ -16,7 +16,7 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.google.android.exoplayer2.ext.ima.test">
+    package="com.readwise.android.exoplayer2.ext.ima.test">
 
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
   <uses-permission android:name="android.permission.INTERNET"/>
@@ -27,13 +27,13 @@
       android:name="androidx.multidex.MultiDexApplication"
       android:allowBackup="false"
       tools:ignore="MissingApplicationIcon,HardcodedDebugMode">
-    <activity android:name="com.google.android.exoplayer2.testutil.HostActivity"
+    <activity android:name="com.readwise.android.exoplayer2.testutil.HostActivity"
         android:configChanges="keyboardHidden|orientation|screenSize"
         android:label="ExoPlayerTest"/>
   </application>
 
   <instrumentation
-      android:targetPackage="com.google.android.exoplayer2.ext.ima.test"
+      android:targetpackage="com.readwise.android.exoplayer2.ext.ima.test"
       android:name="androidx.test.runner.AndroidJUnitRunner"/>
 
 </manifest>

@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.util;
+package com.readwise.android.exoplayer2.util;
 
-import static com.google.android.exoplayer2.util.Assertions.checkIndex;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.util.Assertions.checkIndex;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
 
 import android.util.SparseBooleanArray;
 import androidx.annotation.Nullable;

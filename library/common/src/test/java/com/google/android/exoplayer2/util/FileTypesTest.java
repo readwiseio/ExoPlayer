@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.util;
+package com.readwise.android.exoplayer2.util;
 
-import static com.google.android.exoplayer2.util.FileTypes.HEADER_CONTENT_TYPE;
-import static com.google.android.exoplayer2.util.FileTypes.inferFileTypeFromMimeType;
-import static com.google.android.exoplayer2.util.FileTypes.inferFileTypeFromUri;
+import static com.readwise.android.exoplayer2.util.FileTypes.HEADER_CONTENT_TYPE;
+import static com.readwise.android.exoplayer2.util.FileTypes.inferFileTypeFromMimeType;
+import static com.readwise.android.exoplayer2.util.FileTypes.inferFileTypeFromUri;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.net.Uri;

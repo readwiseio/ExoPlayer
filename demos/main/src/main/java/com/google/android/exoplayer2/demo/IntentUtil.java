@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.demo;
+package com.readwise.android.exoplayer2.demo;
 
 import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.base.Preconditions.checkNotNull;
@@ -22,12 +22,12 @@ import static com.google.common.base.Preconditions.checkState;
 import android.content.Intent;
 import android.net.Uri;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.MediaItem.ClippingConfiguration;
-import com.google.android.exoplayer2.MediaItem.SubtitleConfiguration;
-import com.google.android.exoplayer2.MediaMetadata;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.MediaItem.ClippingConfiguration;
+import com.readwise.android.exoplayer2.MediaItem.SubtitleConfiguration;
+import com.readwise.android.exoplayer2.MediaMetadata;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import java.util.ArrayList;
 import java.util.HashMap;

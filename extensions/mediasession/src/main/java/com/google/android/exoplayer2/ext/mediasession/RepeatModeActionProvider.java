@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.mediasession;
+package com.readwise.android.exoplayer2.ext.mediasession;
 
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.media.session.PlaybackStateCompat;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.util.RepeatModeUtil;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.util.RepeatModeUtil;
 
 /** Provides a custom action for toggling repeat modes. */
 public final class RepeatModeActionProvider implements MediaSessionConnector.CustomActionProvider {

@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.util;
+package com.readwise.android.exoplayer2.util;
 
 import android.os.SystemClock;
 import androidx.annotation.GuardedBy;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.upstream.Loader;
-import com.google.android.exoplayer2.upstream.Loader.LoadErrorAction;
-import com.google.android.exoplayer2.upstream.Loader.Loadable;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.upstream.Loader;
+import com.readwise.android.exoplayer2.upstream.Loader.LoadErrorAction;
+import com.readwise.android.exoplayer2.upstream.Loader.Loadable;
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;

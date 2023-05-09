@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.audio;
+package com.readwise.android.exoplayer2.audio;
 
-import com.google.android.exoplayer2.PlaybackParameters;
+import com.readwise.android.exoplayer2.PlaybackParameters;
 
 /**
  * Provides a chain of audio processors, which are used for any user-defined processing and applying

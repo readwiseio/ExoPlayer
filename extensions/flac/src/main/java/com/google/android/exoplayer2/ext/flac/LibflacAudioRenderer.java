@@ -13,21 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.flac;
+package com.readwise.android.exoplayer2.ext.flac;
 
 import android.os.Handler;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.audio.AudioProcessor;
-import com.google.android.exoplayer2.audio.AudioRendererEventListener;
-import com.google.android.exoplayer2.audio.AudioSink;
-import com.google.android.exoplayer2.audio.DecoderAudioRenderer;
-import com.google.android.exoplayer2.decoder.CryptoConfig;
-import com.google.android.exoplayer2.extractor.FlacStreamMetadata;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.TraceUtil;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.audio.AudioProcessor;
+import com.readwise.android.exoplayer2.audio.AudioRendererEventListener;
+import com.readwise.android.exoplayer2.audio.AudioSink;
+import com.readwise.android.exoplayer2.audio.DecoderAudioRenderer;
+import com.readwise.android.exoplayer2.decoder.CryptoConfig;
+import com.readwise.android.exoplayer2.extractor.FlacStreamMetadata;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.TraceUtil;
+import com.readwise.android.exoplayer2.util.Util;
 
 /** Decodes and renders audio using the native Flac decoder. */
 public final class LibflacAudioRenderer extends DecoderAudioRenderer<FlacDecoder> {

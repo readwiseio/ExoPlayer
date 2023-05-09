@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.demo;
+package com.readwise.android.exoplayer2.demo;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
@@ -25,29 +25,29 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.fragment.app.FragmentManager;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.RenderersFactory;
-import com.google.android.exoplayer2.Tracks;
-import com.google.android.exoplayer2.drm.DrmInitData;
-import com.google.android.exoplayer2.drm.DrmSession;
-import com.google.android.exoplayer2.drm.DrmSessionEventListener;
-import com.google.android.exoplayer2.drm.OfflineLicenseHelper;
-import com.google.android.exoplayer2.offline.Download;
-import com.google.android.exoplayer2.offline.DownloadCursor;
-import com.google.android.exoplayer2.offline.DownloadHelper;
-import com.google.android.exoplayer2.offline.DownloadHelper.LiveContentUnsupportedException;
-import com.google.android.exoplayer2.offline.DownloadIndex;
-import com.google.android.exoplayer2.offline.DownloadManager;
-import com.google.android.exoplayer2.offline.DownloadRequest;
-import com.google.android.exoplayer2.offline.DownloadService;
-import com.google.android.exoplayer2.source.TrackGroup;
-import com.google.android.exoplayer2.source.TrackGroupArray;
-import com.google.android.exoplayer2.trackselection.MappingTrackSelector.MappedTrackInfo;
-import com.google.android.exoplayer2.trackselection.TrackSelectionParameters;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.RenderersFactory;
+import com.readwise.android.exoplayer2.Tracks;
+import com.readwise.android.exoplayer2.drm.DrmInitData;
+import com.readwise.android.exoplayer2.drm.DrmSession;
+import com.readwise.android.exoplayer2.drm.DrmSessionEventListener;
+import com.readwise.android.exoplayer2.drm.OfflineLicenseHelper;
+import com.readwise.android.exoplayer2.offline.Download;
+import com.readwise.android.exoplayer2.offline.DownloadCursor;
+import com.readwise.android.exoplayer2.offline.DownloadHelper;
+import com.readwise.android.exoplayer2.offline.DownloadHelper.LiveContentUnsupportedException;
+import com.readwise.android.exoplayer2.offline.DownloadIndex;
+import com.readwise.android.exoplayer2.offline.DownloadManager;
+import com.readwise.android.exoplayer2.offline.DownloadRequest;
+import com.readwise.android.exoplayer2.offline.DownloadService;
+import com.readwise.android.exoplayer2.source.TrackGroup;
+import com.readwise.android.exoplayer2.source.TrackGroupArray;
+import com.readwise.android.exoplayer2.trackselection.MappingTrackSelector.MappedTrackInfo;
+import com.readwise.android.exoplayer2.trackselection.TrackSelectionParameters;
+import com.readwise.android.exoplayer2.upstream.DataSource;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.concurrent.CopyOnWriteArraySet;

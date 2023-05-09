@@ -13,31 +13,31 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.analytics;
+package com.readwise.android.exoplayer2.analytics;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
 import static java.lang.Math.max;
 
 import android.os.SystemClock;
 import android.util.Pair;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.PlaybackException;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.Timeline.Period;
-import com.google.android.exoplayer2.Tracks;
-import com.google.android.exoplayer2.analytics.PlaybackStats.EventTimeAndException;
-import com.google.android.exoplayer2.analytics.PlaybackStats.EventTimeAndFormat;
-import com.google.android.exoplayer2.analytics.PlaybackStats.EventTimeAndPlaybackState;
-import com.google.android.exoplayer2.analytics.PlaybackStats.PlaybackState;
-import com.google.android.exoplayer2.source.LoadEventInfo;
-import com.google.android.exoplayer2.source.MediaLoadData;
-import com.google.android.exoplayer2.source.MediaSource.MediaPeriodId;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Util;
-import com.google.android.exoplayer2.video.VideoSize;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.PlaybackException;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.Timeline.Period;
+import com.readwise.android.exoplayer2.Tracks;
+import com.readwise.android.exoplayer2.analytics.PlaybackStats.EventTimeAndException;
+import com.readwise.android.exoplayer2.analytics.PlaybackStats.EventTimeAndFormat;
+import com.readwise.android.exoplayer2.analytics.PlaybackStats.EventTimeAndPlaybackState;
+import com.readwise.android.exoplayer2.analytics.PlaybackStats.PlaybackState;
+import com.readwise.android.exoplayer2.source.LoadEventInfo;
+import com.readwise.android.exoplayer2.source.MediaLoadData;
+import com.readwise.android.exoplayer2.source.MediaSource.MediaPeriodId;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.video.VideoSize;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.extractor.avi;
+package com.readwise.android.exoplayer2.extractor.avi;
 
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.ParsableByteArray;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.ParsableByteArray;
+import com.readwise.android.exoplayer2.util.Util;
 
 /** Parses and holds information from the AVISTREAMHEADER structure. */
 /* package */ final class AviStreamHeaderChunk implements AviChunk {

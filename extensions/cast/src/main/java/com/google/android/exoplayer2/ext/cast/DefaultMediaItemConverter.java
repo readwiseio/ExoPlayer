@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.cast;
+package com.readwise.android.exoplayer2.ext.cast;
 
 import android.net.Uri;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.MimeTypes;
 import com.google.android.gms.cast.MediaInfo;
 import com.google.android.gms.cast.MediaMetadata;
 import com.google.android.gms.cast.MediaQueueItem;
@@ -49,8 +49,8 @@ public final class DefaultMediaItemConverter implements MediaItemConverter {
   public MediaItem toMediaItem(MediaQueueItem mediaQueueItem) {
     @Nullable MediaInfo mediaInfo = mediaQueueItem.getMedia();
     Assertions.checkNotNull(mediaInfo);
-    com.google.android.exoplayer2.MediaMetadata.Builder metadataBuilder =
-        new com.google.android.exoplayer2.MediaMetadata.Builder();
+    com.readwise.android.exoplayer2.MediaMetadata.Builder metadataBuilder =
+        new com.readwise.android.exoplayer2.MediaMetadata.Builder();
     @Nullable MediaMetadata metadata = mediaInfo.getMetadata();
     if (metadata != null) {
       if (metadata.containsKey(MediaMetadata.KEY_TITLE)) {
@@ -143,7 +143,7 @@ public final class DefaultMediaItemConverter implements MediaItemConverter {
   // Deserialization.
 
   private static MediaItem getMediaItem(
-      JSONObject customData, com.google.android.exoplayer2.MediaMetadata mediaMetadata) {
+      JSONObject customData, com.readwise.android.exoplayer2.MediaMetadata mediaMetadata) {
     try {
       JSONObject mediaItemJson = customData.getJSONObject(KEY_MEDIA_ITEM);
       MediaItem.Builder builder =

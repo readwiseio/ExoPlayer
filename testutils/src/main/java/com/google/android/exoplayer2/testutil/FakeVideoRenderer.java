@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.testutil;
+package com.readwise.android.exoplayer2.testutil;
 
 import android.os.SystemClock;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ExoPlaybackException;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.Renderer;
-import com.google.android.exoplayer2.decoder.DecoderCounters;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.HandlerWrapper;
-import com.google.android.exoplayer2.video.VideoRendererEventListener;
-import com.google.android.exoplayer2.video.VideoSize;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ExoPlaybackException;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.Renderer;
+import com.readwise.android.exoplayer2.decoder.DecoderCounters;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.HandlerWrapper;
+import com.readwise.android.exoplayer2.video.VideoRendererEventListener;
+import com.readwise.android.exoplayer2.video.VideoSize;
 import org.checkerframework.checker.nullness.qual.MonotonicNonNull;
 
 /** A {@link FakeRenderer} that supports {@link C#TRACK_TYPE_VIDEO}. */

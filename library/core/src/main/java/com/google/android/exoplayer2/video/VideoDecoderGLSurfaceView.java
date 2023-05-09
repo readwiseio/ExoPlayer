@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.video;
+package com.readwise.android.exoplayer2.video;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
 
 import android.content.Context;
 import android.opengl.GLES20;
@@ -23,10 +23,10 @@ import android.opengl.GLSurfaceView;
 import android.util.AttributeSet;
 import android.util.Log;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.decoder.VideoDecoderOutputBuffer;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.GlProgram;
-import com.google.android.exoplayer2.util.GlUtil;
+import com.readwise.android.exoplayer2.decoder.VideoDecoderOutputBuffer;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.GlProgram;
+import com.readwise.android.exoplayer2.util.GlUtil;
 import java.nio.ByteBuffer;
 import java.nio.FloatBuffer;
 import java.util.concurrent.atomic.AtomicReference;

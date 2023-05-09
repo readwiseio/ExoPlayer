@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.okhttp;
+package com.readwise.android.exoplayer2.ext.okhttp;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.upstream.HttpDataSource;
-import com.google.android.exoplayer2.upstream.HttpDataSource.BaseFactory;
-import com.google.android.exoplayer2.upstream.TransferListener;
+import com.readwise.android.exoplayer2.upstream.HttpDataSource;
+import com.readwise.android.exoplayer2.upstream.HttpDataSource.BaseFactory;
+import com.readwise.android.exoplayer2.upstream.TransferListener;
 import okhttp3.CacheControl;
 import okhttp3.Call;
 

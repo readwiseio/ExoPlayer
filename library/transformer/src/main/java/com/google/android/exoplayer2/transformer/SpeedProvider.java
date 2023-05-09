@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.transformer;
+package com.readwise.android.exoplayer2.transformer;
 
-import com.google.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.C;
 
 /** A custom interface that determines the speed for media at specific timestamps. */
 /* package */ interface SpeedProvider {

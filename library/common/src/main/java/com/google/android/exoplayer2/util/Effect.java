@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.util;
+package com.readwise.android.exoplayer2.util;
 
 /** Marker interface for a video frame effect. */
 public interface Effect {}

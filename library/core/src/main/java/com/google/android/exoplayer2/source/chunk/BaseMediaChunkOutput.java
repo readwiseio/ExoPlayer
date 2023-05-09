@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.chunk;
+package com.readwise.android.exoplayer2.source.chunk;
 
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.extractor.DummyTrackOutput;
-import com.google.android.exoplayer2.extractor.TrackOutput;
-import com.google.android.exoplayer2.source.SampleQueue;
-import com.google.android.exoplayer2.source.chunk.ChunkExtractor.TrackOutputProvider;
-import com.google.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.extractor.DummyTrackOutput;
+import com.readwise.android.exoplayer2.extractor.TrackOutput;
+import com.readwise.android.exoplayer2.source.SampleQueue;
+import com.readwise.android.exoplayer2.source.chunk.ChunkExtractor.TrackOutputProvider;
+import com.readwise.android.exoplayer2.util.Log;
 
 /**
  * A {@link TrackOutputProvider} that provides {@link TrackOutput TrackOutputs} based on a

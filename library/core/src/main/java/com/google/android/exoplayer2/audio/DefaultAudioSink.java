@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.audio;
+package com.readwise.android.exoplayer2.audio;
 
-import static com.google.android.exoplayer2.audio.AudioCapabilities.DEFAULT_AUDIO_CAPABILITIES;
-import static com.google.android.exoplayer2.audio.AudioCapabilities.getCapabilities;
-import static com.google.android.exoplayer2.audio.AudioProcessor.EMPTY_BUFFER;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
-import static com.google.android.exoplayer2.util.Util.constrainValue;
+import static com.readwise.android.exoplayer2.audio.AudioCapabilities.DEFAULT_AUDIO_CAPABILITIES;
+import static com.readwise.android.exoplayer2.audio.AudioCapabilities.getCapabilities;
+import static com.readwise.android.exoplayer2.audio.AudioProcessor.EMPTY_BUFFER;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.util.Util.constrainValue;
 import static java.lang.Math.max;
 import static java.lang.Math.min;
 import static java.lang.annotation.ElementType.TYPE_USE;
@@ -42,18 +42,18 @@ import androidx.annotation.GuardedBy;
 import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ExoPlayer.AudioOffloadListener;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.PlaybackParameters;
-import com.google.android.exoplayer2.analytics.PlayerId;
-import com.google.android.exoplayer2.audio.AudioProcessor.UnhandledAudioFormatException;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Clock;
-import com.google.android.exoplayer2.util.ConditionVariable;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ExoPlayer.AudioOffloadListener;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.PlaybackParameters;
+import com.readwise.android.exoplayer2.analytics.PlayerId;
+import com.readwise.android.exoplayer2.audio.AudioProcessor.UnhandledAudioFormatException;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Clock;
+import com.readwise.android.exoplayer2.util.ConditionVariable;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.lang.annotation.Documented;
@@ -101,11 +101,11 @@ public final class DefaultAudioSink implements AudioSink {
   }
 
   /**
-   * @deprecated Use {@link com.google.android.exoplayer2.audio.AudioProcessorChain}.
+   * @deprecated Use {@link com.readwise.android.exoplayer2.audio.AudioProcessorChain}.
    */
   @Deprecated
   public interface AudioProcessorChain
-      extends com.google.android.exoplayer2.audio.AudioProcessorChain {}
+      extends com.readwise.android.exoplayer2.audio.AudioProcessorChain {}
 
   /**
    * The default audio processor chain, which applies a (possibly empty) chain of user-defined audio
@@ -219,7 +219,7 @@ public final class DefaultAudioSink implements AudioSink {
 
     @Nullable private final Context context;
     private AudioCapabilities audioCapabilities;
-    @Nullable private com.google.android.exoplayer2.audio.AudioProcessorChain audioProcessorChain;
+    @Nullable private com.readwise.android.exoplayer2.audio.AudioProcessorChain audioProcessorChain;
     private boolean enableFloatOutput;
     private boolean enableAudioTrackPlaybackParams;
     private int offloadMode;
@@ -277,7 +277,7 @@ public final class DefaultAudioSink implements AudioSink {
     }
 
     /**
-     * Sets the {@link com.google.android.exoplayer2.audio.AudioProcessorChain} to process audio
+     * Sets the {@link com.readwise.android.exoplayer2.audio.AudioProcessorChain} to process audio
      * before playback. The instance passed in must not be reused in other sinks. Processing chains
      * are only supported for PCM playback (not passthrough or offload).
      *
@@ -285,7 +285,7 @@ public final class DefaultAudioSink implements AudioSink {
      */
     @CanIgnoreReturnValue
     public Builder setAudioProcessorChain(
-        com.google.android.exoplayer2.audio.AudioProcessorChain audioProcessorChain) {
+        com.readwise.android.exoplayer2.audio.AudioProcessorChain audioProcessorChain) {
       checkNotNull(audioProcessorChain);
       this.audioProcessorChain = audioProcessorChain;
       return this;
@@ -475,7 +475,7 @@ public final class DefaultAudioSink implements AudioSink {
   private static int pendingReleaseCount;
 
   @Nullable private final Context context;
-  private final com.google.android.exoplayer2.audio.AudioProcessorChain audioProcessorChain;
+  private final com.readwise.android.exoplayer2.audio.AudioProcessorChain audioProcessorChain;
   private final boolean enableFloatOutput;
   private final ChannelMappingAudioProcessor channelMappingAudioProcessor;
   private final TrimmingAudioProcessor trimmingAudioProcessor;

@@ -13,23 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.testutil;
+package com.readwise.android.exoplayer2.testutil;
 
-import static com.google.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_OFF;
-import static com.google.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_ON;
-import static com.google.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_PREFER;
+import static com.readwise.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_OFF;
+import static com.readwise.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_ON;
+import static com.readwise.android.exoplayer2.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_PREFER;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.os.Handler;
 import android.os.Looper;
 import androidx.test.core.app.ApplicationProvider;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.DefaultRenderersFactory;
-import com.google.android.exoplayer2.Renderer;
-import com.google.android.exoplayer2.audio.AudioRendererEventListener;
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.text.CueGroup;
-import com.google.android.exoplayer2.video.VideoRendererEventListener;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.DefaultRenderersFactory;
+import com.readwise.android.exoplayer2.Renderer;
+import com.readwise.android.exoplayer2.audio.AudioRendererEventListener;
+import com.readwise.android.exoplayer2.metadata.Metadata;
+import com.readwise.android.exoplayer2.text.CueGroup;
+import com.readwise.android.exoplayer2.video.VideoRendererEventListener;
 
 /** Assertions for {@link DefaultRenderersFactory}. */
 public final class DefaultRenderersFactoryAsserts {

@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.effect</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.effect</a></div>
 <h2 title="Class SingleFrameGlTextureProcessor" class="title">Class SingleFrameGlTextureProcessor</h2>
 </div>
 <div class="contentContainer">
@@ -121,7 +121,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li><a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">java.lang.Object</a></li>
 <li>
 <ul class="inheritance">
-<li>com.google.android.exoplayer2.effect.SingleFrameGlTextureProcessor</li>
+<li>com.readwise.android.exoplayer2.effect.SingleFrameGlTextureProcessor</li>
 </ul>
 </li>
 </ul>
@@ -130,17 +130,17 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Implemented Interfaces:</dt>
-<dd><code><a href="GlTextureProcessor.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor</a></code></dd>
+<dd><code><a href="GlTextureProcessor.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor</a></code></dd>
 </dl>
 <hr>
 <pre>public abstract class <span class="typeNameLabel">SingleFrameGlTextureProcessor</span>
 extends <a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">Object</a>
-implements <a href="GlTextureProcessor.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor</a></pre>
+implements <a href="GlTextureProcessor.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor</a></pre>
 <div class="block">Manages a GLSL shader program for processing a frame. Implementations generally copy input pixels
  into an output frame, with changes to pixels specific to the implementation.
 
  <p><code>SingleFrameGlTextureProcessor</code> implementations must produce exactly one output frame
- per input frame with the same presentation timestamp. For more flexibility, implement <a href="GlTextureProcessor.html" title="interface in com.google.android.exoplayer2.effect"><code>GlTextureProcessor</code></a> directly.
+ per input frame with the same presentation timestamp. For more flexibility, implement <a href="GlTextureProcessor.html" title="interface in com.readwise.android.exoplayer2.effect"><code>GlTextureProcessor</code></a> directly.
 
  <p>All methods in this class must be called on the thread that owns the OpenGL context.</div>
 </li>
@@ -157,11 +157,11 @@ implements <a href="GlTextureProcessor.html" title="interface in com.google.andr
 </a>
 <h3>Nested Class Summary</h3>
 <ul class="blockList">
-<li class="blockList"><a id="nested.classes.inherited.from.class.com.google.android.exoplayer2.effect.GlTextureProcessor">
+<li class="blockList"><a id="nested.classes.inherited.from.class.com.readwise.android.exoplayer2.effect.GlTextureProcessor">
 <!--   -->
 </a>
-<h3>Nested classes/interfaces inherited from interface&nbsp;com.google.android.exoplayer2.effect.<a href="GlTextureProcessor.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor</a></h3>
-<code><a href="GlTextureProcessor.ErrorListener.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor.ErrorListener</a>, <a href="GlTextureProcessor.InputListener.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor.InputListener</a>, <a href="GlTextureProcessor.OutputListener.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor.OutputListener</a></code></li>
+<h3>Nested classes/interfaces inherited from interface&nbsp;com.readwise.android.exoplayer2.effect.<a href="GlTextureProcessor.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor</a></h3>
+<code><a href="GlTextureProcessor.ErrorListener.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor.ErrorListener</a>, <a href="GlTextureProcessor.InputListener.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor.InputListener</a>, <a href="GlTextureProcessor.OutputListener.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor.OutputListener</a></code></li>
 </ul>
 </li>
 </ul>
@@ -221,7 +221,7 @@ implements <a href="GlTextureProcessor.html" title="interface in com.google.andr
 </tr>
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#queueInputFrame(com.google.android.exoplayer2.effect.TextureInfo,long)">queueInputFrame</a></span>&#8203;(<a href="TextureInfo.html" title="class in com.google.android.exoplayer2.effect">TextureInfo</a>&nbsp;inputTexture,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#queueInputFrame(com.readwise.android.exoplayer2.effect.TextureInfo,long)">queueInputFrame</a></span>&#8203;(<a href="TextureInfo.html" title="class in com.readwise.android.exoplayer2.effect">TextureInfo</a>&nbsp;inputTexture,
                long&nbsp;presentationTimeUs)</code></th>
 <td class="colLast">
 <div class="block">Processes an input frame if possible.</div>
@@ -236,7 +236,7 @@ implements <a href="GlTextureProcessor.html" title="interface in com.google.andr
 </tr>
 <tr id="i4" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#releaseOutputFrame(com.google.android.exoplayer2.effect.TextureInfo)">releaseOutputFrame</a></span>&#8203;(<a href="TextureInfo.html" title="class in com.google.android.exoplayer2.effect">TextureInfo</a>&nbsp;outputTexture)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#releaseOutputFrame(com.readwise.android.exoplayer2.effect.TextureInfo)">releaseOutputFrame</a></span>&#8203;(<a href="TextureInfo.html" title="class in com.readwise.android.exoplayer2.effect">TextureInfo</a>&nbsp;outputTexture)</code></th>
 <td class="colLast">
 <div class="block">Notifies the texture processor that the frame on the given output texture is no longer used and
  can be overwritten.</div>
@@ -244,23 +244,23 @@ implements <a href="GlTextureProcessor.html" title="interface in com.google.andr
 </tr>
 <tr id="i5" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setErrorListener(com.google.android.exoplayer2.effect.GlTextureProcessor.ErrorListener)">setErrorListener</a></span>&#8203;(<a href="GlTextureProcessor.ErrorListener.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor.ErrorListener</a>&nbsp;errorListener)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setErrorListener(com.readwise.android.exoplayer2.effect.GlTextureProcessor.ErrorListener)">setErrorListener</a></span>&#8203;(<a href="GlTextureProcessor.ErrorListener.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor.ErrorListener</a>&nbsp;errorListener)</code></th>
 <td class="colLast">
-<div class="block">Sets the <a href="GlTextureProcessor.ErrorListener.html" title="interface in com.google.android.exoplayer2.effect"><code>GlTextureProcessor.ErrorListener</code></a>.</div>
+<div class="block">Sets the <a href="GlTextureProcessor.ErrorListener.html" title="interface in com.readwise.android.exoplayer2.effect"><code>GlTextureProcessor.ErrorListener</code></a>.</div>
 </td>
 </tr>
 <tr id="i6" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setInputListener(com.google.android.exoplayer2.effect.GlTextureProcessor.InputListener)">setInputListener</a></span>&#8203;(<a href="GlTextureProcessor.InputListener.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor.InputListener</a>&nbsp;inputListener)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setInputListener(com.readwise.android.exoplayer2.effect.GlTextureProcessor.InputListener)">setInputListener</a></span>&#8203;(<a href="GlTextureProcessor.InputListener.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor.InputListener</a>&nbsp;inputListener)</code></th>
 <td class="colLast">
-<div class="block">Sets the <a href="GlTextureProcessor.InputListener.html" title="interface in com.google.android.exoplayer2.effect"><code>GlTextureProcessor.InputListener</code></a>.</div>
+<div class="block">Sets the <a href="GlTextureProcessor.InputListener.html" title="interface in com.readwise.android.exoplayer2.effect"><code>GlTextureProcessor.InputListener</code></a>.</div>
 </td>
 </tr>
 <tr id="i7" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setOutputListener(com.google.android.exoplayer2.effect.GlTextureProcessor.OutputListener)">setOutputListener</a></span>&#8203;(<a href="GlTextureProcessor.OutputListener.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor.OutputListener</a>&nbsp;outputListener)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setOutputListener(com.readwise.android.exoplayer2.effect.GlTextureProcessor.OutputListener)">setOutputListener</a></span>&#8203;(<a href="GlTextureProcessor.OutputListener.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor.OutputListener</a>&nbsp;outputListener)</code></th>
 <td class="colLast">
-<div class="block">Sets the <a href="GlTextureProcessor.OutputListener.html" title="interface in com.google.android.exoplayer2.effect"><code>GlTextureProcessor.OutputListener</code></a>.</div>
+<div class="block">Sets the <a href="GlTextureProcessor.OutputListener.html" title="interface in com.readwise.android.exoplayer2.effect"><code>GlTextureProcessor.OutputListener</code></a>.</div>
 </td>
 </tr>
 <tr id="i8" class="altColor">
@@ -349,7 +349,7 @@ implements <a href="GlTextureProcessor.html" title="interface in com.google.andr
 <h4>drawFrame</h4>
 <pre class="methodSignature">public abstract&nbsp;void&nbsp;drawFrame&#8203;(int&nbsp;inputTexId,
                                long&nbsp;presentationTimeUs)
-                        throws <a href="../util/FrameProcessingException.html" title="class in com.google.android.exoplayer2.util">FrameProcessingException</a></pre>
+                        throws <a href="../util/FrameProcessingException.html" title="class in com.readwise.android.exoplayer2.util">FrameProcessingException</a></pre>
 <div class="block">Draws one frame.
 
  <p>This method may only be called after the texture processor has been <a href="#configure(int,int)"><code>configured</code></a>. The caller is responsible for focussing the correct render target before
@@ -362,92 +362,92 @@ implements <a href="GlTextureProcessor.html" title="interface in com.google.andr
 <dd><code>inputTexId</code> - Identifier of a 2D OpenGL texture containing the input frame.</dd>
 <dd><code>presentationTimeUs</code> - The presentation timestamp of the current frame, in microseconds.</dd>
 <dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="../util/FrameProcessingException.html" title="class in com.google.android.exoplayer2.util">FrameProcessingException</a></code> - If an error occurs while processing or drawing the frame.</dd>
+<dd><code><a href="../util/FrameProcessingException.html" title="class in com.readwise.android.exoplayer2.util">FrameProcessingException</a></code> - If an error occurs while processing or drawing the frame.</dd>
 </dl>
 </li>
 </ul>
-<a id="setInputListener(com.google.android.exoplayer2.effect.GlTextureProcessor.InputListener)">
+<a id="setInputListener(com.readwise.android.exoplayer2.effect.GlTextureProcessor.InputListener)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>setInputListener</h4>
-<pre class="methodSignature">public final&nbsp;void&nbsp;setInputListener&#8203;(<a href="GlTextureProcessor.InputListener.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor.InputListener</a>&nbsp;inputListener)</pre>
-<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="GlTextureProcessor.html#setInputListener(com.google.android.exoplayer2.effect.GlTextureProcessor.InputListener)">GlTextureProcessor</a></code></span></div>
-<div class="block">Sets the <a href="GlTextureProcessor.InputListener.html" title="interface in com.google.android.exoplayer2.effect"><code>GlTextureProcessor.InputListener</code></a>.</div>
+<pre class="methodSignature">public final&nbsp;void&nbsp;setInputListener&#8203;(<a href="GlTextureProcessor.InputListener.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor.InputListener</a>&nbsp;inputListener)</pre>
+<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="GlTextureProcessor.html#setInputListener(com.readwise.android.exoplayer2.effect.GlTextureProcessor.InputListener)">GlTextureProcessor</a></code></span></div>
+<div class="block">Sets the <a href="GlTextureProcessor.InputListener.html" title="interface in com.readwise.android.exoplayer2.effect"><code>GlTextureProcessor.InputListener</code></a>.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="GlTextureProcessor.html#setInputListener(com.google.android.exoplayer2.effect.GlTextureProcessor.InputListener)">setInputListener</a></code>&nbsp;in interface&nbsp;<code><a href="GlTextureProcessor.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor</a></code></dd>
+<dd><code><a href="GlTextureProcessor.html#setInputListener(com.readwise.android.exoplayer2.effect.GlTextureProcessor.InputListener)">setInputListener</a></code>&nbsp;in interface&nbsp;<code><a href="GlTextureProcessor.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor</a></code></dd>
 </dl>
 </li>
 </ul>
-<a id="setOutputListener(com.google.android.exoplayer2.effect.GlTextureProcessor.OutputListener)">
+<a id="setOutputListener(com.readwise.android.exoplayer2.effect.GlTextureProcessor.OutputListener)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>setOutputListener</h4>
-<pre class="methodSignature">public final&nbsp;void&nbsp;setOutputListener&#8203;(<a href="GlTextureProcessor.OutputListener.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor.OutputListener</a>&nbsp;outputListener)</pre>
-<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="GlTextureProcessor.html#setOutputListener(com.google.android.exoplayer2.effect.GlTextureProcessor.OutputListener)">GlTextureProcessor</a></code></span></div>
-<div class="block">Sets the <a href="GlTextureProcessor.OutputListener.html" title="interface in com.google.android.exoplayer2.effect"><code>GlTextureProcessor.OutputListener</code></a>.</div>
+<pre class="methodSignature">public final&nbsp;void&nbsp;setOutputListener&#8203;(<a href="GlTextureProcessor.OutputListener.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor.OutputListener</a>&nbsp;outputListener)</pre>
+<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="GlTextureProcessor.html#setOutputListener(com.readwise.android.exoplayer2.effect.GlTextureProcessor.OutputListener)">GlTextureProcessor</a></code></span></div>
+<div class="block">Sets the <a href="GlTextureProcessor.OutputListener.html" title="interface in com.readwise.android.exoplayer2.effect"><code>GlTextureProcessor.OutputListener</code></a>.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="GlTextureProcessor.html#setOutputListener(com.google.android.exoplayer2.effect.GlTextureProcessor.OutputListener)">setOutputListener</a></code>&nbsp;in interface&nbsp;<code><a href="GlTextureProcessor.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor</a></code></dd>
+<dd><code><a href="GlTextureProcessor.html#setOutputListener(com.readwise.android.exoplayer2.effect.GlTextureProcessor.OutputListener)">setOutputListener</a></code>&nbsp;in interface&nbsp;<code><a href="GlTextureProcessor.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor</a></code></dd>
 </dl>
 </li>
 </ul>
-<a id="setErrorListener(com.google.android.exoplayer2.effect.GlTextureProcessor.ErrorListener)">
+<a id="setErrorListener(com.readwise.android.exoplayer2.effect.GlTextureProcessor.ErrorListener)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>setErrorListener</h4>
-<pre class="methodSignature">public final&nbsp;void&nbsp;setErrorListener&#8203;(<a href="GlTextureProcessor.ErrorListener.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor.ErrorListener</a>&nbsp;errorListener)</pre>
-<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="GlTextureProcessor.html#setErrorListener(com.google.android.exoplayer2.effect.GlTextureProcessor.ErrorListener)">GlTextureProcessor</a></code></span></div>
-<div class="block">Sets the <a href="GlTextureProcessor.ErrorListener.html" title="interface in com.google.android.exoplayer2.effect"><code>GlTextureProcessor.ErrorListener</code></a>.</div>
+<pre class="methodSignature">public final&nbsp;void&nbsp;setErrorListener&#8203;(<a href="GlTextureProcessor.ErrorListener.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor.ErrorListener</a>&nbsp;errorListener)</pre>
+<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="GlTextureProcessor.html#setErrorListener(com.readwise.android.exoplayer2.effect.GlTextureProcessor.ErrorListener)">GlTextureProcessor</a></code></span></div>
+<div class="block">Sets the <a href="GlTextureProcessor.ErrorListener.html" title="interface in com.readwise.android.exoplayer2.effect"><code>GlTextureProcessor.ErrorListener</code></a>.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="GlTextureProcessor.html#setErrorListener(com.google.android.exoplayer2.effect.GlTextureProcessor.ErrorListener)">setErrorListener</a></code>&nbsp;in interface&nbsp;<code><a href="GlTextureProcessor.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor</a></code></dd>
+<dd><code><a href="GlTextureProcessor.html#setErrorListener(com.readwise.android.exoplayer2.effect.GlTextureProcessor.ErrorListener)">setErrorListener</a></code>&nbsp;in interface&nbsp;<code><a href="GlTextureProcessor.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor</a></code></dd>
 </dl>
 </li>
 </ul>
-<a id="queueInputFrame(com.google.android.exoplayer2.effect.TextureInfo,long)">
+<a id="queueInputFrame(com.readwise.android.exoplayer2.effect.TextureInfo,long)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>queueInputFrame</h4>
-<pre class="methodSignature">public final&nbsp;void&nbsp;queueInputFrame&#8203;(<a href="TextureInfo.html" title="class in com.google.android.exoplayer2.effect">TextureInfo</a>&nbsp;inputTexture,
+<pre class="methodSignature">public final&nbsp;void&nbsp;queueInputFrame&#8203;(<a href="TextureInfo.html" title="class in com.readwise.android.exoplayer2.effect">TextureInfo</a>&nbsp;inputTexture,
                                   long&nbsp;presentationTimeUs)</pre>
-<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="GlTextureProcessor.html#queueInputFrame(com.google.android.exoplayer2.effect.TextureInfo,long)">GlTextureProcessor</a></code></span></div>
+<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="GlTextureProcessor.html#queueInputFrame(com.readwise.android.exoplayer2.effect.TextureInfo,long)">GlTextureProcessor</a></code></span></div>
 <div class="block">Processes an input frame if possible.
 
- <p>The <code>GlTextureProcessor</code> owns the accepted frame until it calls <a href="GlTextureProcessor.InputListener.html#onInputFrameProcessed(com.google.android.exoplayer2.effect.TextureInfo)"><code>GlTextureProcessor.InputListener.onInputFrameProcessed(TextureInfo)</code></a>. The caller should not overwrite or release
+ <p>The <code>GlTextureProcessor</code> owns the accepted frame until it calls <a href="GlTextureProcessor.InputListener.html#onInputFrameProcessed(com.readwise.android.exoplayer2.effect.TextureInfo)"><code>GlTextureProcessor.InputListener.onInputFrameProcessed(TextureInfo)</code></a>. The caller should not overwrite or release
  the texture before the <code>GlTextureProcessor</code> has finished processing it.
 
  <p>This method must only be called when the <code>GlTextureProcessor</code> can <a href="GlTextureProcessor.InputListener.html#onReadyToAcceptInputFrame()">accept an input frame</a>.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="GlTextureProcessor.html#queueInputFrame(com.google.android.exoplayer2.effect.TextureInfo,long)">queueInputFrame</a></code>&nbsp;in interface&nbsp;<code><a href="GlTextureProcessor.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor</a></code></dd>
+<dd><code><a href="GlTextureProcessor.html#queueInputFrame(com.readwise.android.exoplayer2.effect.TextureInfo,long)">queueInputFrame</a></code>&nbsp;in interface&nbsp;<code><a href="GlTextureProcessor.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>inputTexture</code> - A <a href="TextureInfo.html" title="class in com.google.android.exoplayer2.effect"><code>TextureInfo</code></a> describing the texture containing the input frame.</dd>
+<dd><code>inputTexture</code> - A <a href="TextureInfo.html" title="class in com.readwise.android.exoplayer2.effect"><code>TextureInfo</code></a> describing the texture containing the input frame.</dd>
 <dd><code>presentationTimeUs</code> - The presentation timestamp of the input frame, in microseconds.</dd>
 </dl>
 </li>
 </ul>
-<a id="releaseOutputFrame(com.google.android.exoplayer2.effect.TextureInfo)">
+<a id="releaseOutputFrame(com.readwise.android.exoplayer2.effect.TextureInfo)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>releaseOutputFrame</h4>
-<pre class="methodSignature">public final&nbsp;void&nbsp;releaseOutputFrame&#8203;(<a href="TextureInfo.html" title="class in com.google.android.exoplayer2.effect">TextureInfo</a>&nbsp;outputTexture)</pre>
-<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="GlTextureProcessor.html#releaseOutputFrame(com.google.android.exoplayer2.effect.TextureInfo)">GlTextureProcessor</a></code></span></div>
+<pre class="methodSignature">public final&nbsp;void&nbsp;releaseOutputFrame&#8203;(<a href="TextureInfo.html" title="class in com.readwise.android.exoplayer2.effect">TextureInfo</a>&nbsp;outputTexture)</pre>
+<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="GlTextureProcessor.html#releaseOutputFrame(com.readwise.android.exoplayer2.effect.TextureInfo)">GlTextureProcessor</a></code></span></div>
 <div class="block">Notifies the texture processor that the frame on the given output texture is no longer used and
  can be overwritten.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="GlTextureProcessor.html#releaseOutputFrame(com.google.android.exoplayer2.effect.TextureInfo)">releaseOutputFrame</a></code>&nbsp;in interface&nbsp;<code><a href="GlTextureProcessor.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor</a></code></dd>
+<dd><code><a href="GlTextureProcessor.html#releaseOutputFrame(com.readwise.android.exoplayer2.effect.TextureInfo)">releaseOutputFrame</a></code>&nbsp;in interface&nbsp;<code><a href="GlTextureProcessor.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor</a></code></dd>
 </dl>
 </li>
 </ul>
@@ -467,7 +467,7 @@ implements <a href="GlTextureProcessor.html" title="interface in com.google.andr
  last frame of the previous input stream.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="GlTextureProcessor.html#signalEndOfCurrentInputStream()">signalEndOfCurrentInputStream</a></code>&nbsp;in interface&nbsp;<code><a href="GlTextureProcessor.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor</a></code></dd>
+<dd><code><a href="GlTextureProcessor.html#signalEndOfCurrentInputStream()">signalEndOfCurrentInputStream</a></code>&nbsp;in interface&nbsp;<code><a href="GlTextureProcessor.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor</a></code></dd>
 </dl>
 </li>
 </ul>
@@ -479,14 +479,14 @@ implements <a href="GlTextureProcessor.html" title="interface in com.google.andr
 <h4>release</h4>
 <pre class="methodSignature">@CallSuper
 public&nbsp;void&nbsp;release()
-             throws <a href="../util/FrameProcessingException.html" title="class in com.google.android.exoplayer2.util">FrameProcessingException</a></pre>
+             throws <a href="../util/FrameProcessingException.html" title="class in com.readwise.android.exoplayer2.util">FrameProcessingException</a></pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="GlTextureProcessor.html#release()">GlTextureProcessor</a></code></span></div>
 <div class="block">Releases all resources.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="GlTextureProcessor.html#release()">release</a></code>&nbsp;in interface&nbsp;<code><a href="GlTextureProcessor.html" title="interface in com.google.android.exoplayer2.effect">GlTextureProcessor</a></code></dd>
+<dd><code><a href="GlTextureProcessor.html#release()">release</a></code>&nbsp;in interface&nbsp;<code><a href="GlTextureProcessor.html" title="interface in com.readwise.android.exoplayer2.effect">GlTextureProcessor</a></code></dd>
 <dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="../util/FrameProcessingException.html" title="class in com.google.android.exoplayer2.util">FrameProcessingException</a></code> - If an error occurs while releasing resources.</dd>
+<dd><code><a href="../util/FrameProcessingException.html" title="class in com.readwise.android.exoplayer2.util">FrameProcessingException</a></code> - If an error occurs while releasing resources.</dd>
 </dl>
 </li>
 </ul>

@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.testutil;
+package com.readwise.android.exoplayer2.testutil;
 
 import android.net.Uri;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.offline.Download;
-import com.google.android.exoplayer2.offline.DownloadProgress;
-import com.google.android.exoplayer2.offline.DownloadRequest;
-import com.google.android.exoplayer2.offline.StreamKey;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.offline.Download;
+import com.readwise.android.exoplayer2.offline.DownloadProgress;
+import com.readwise.android.exoplayer2.offline.DownloadRequest;
+import com.readwise.android.exoplayer2.offline.StreamKey;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.util.Arrays;
 import java.util.Collections;

@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.offline;
+package com.readwise.android.exoplayer2.offline;
 
 import static com.google.common.truth.Truth.assertThat;
 
 import android.net.Uri;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.upstream.PlaceholderDataSource;
-import com.google.android.exoplayer2.upstream.cache.Cache;
-import com.google.android.exoplayer2.upstream.cache.CacheDataSource;
+import com.readwise.android.exoplayer2.upstream.PlaceholderDataSource;
+import com.readwise.android.exoplayer2.upstream.cache.Cache;
+import com.readwise.android.exoplayer2.upstream.cache.CacheDataSource;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mockito;

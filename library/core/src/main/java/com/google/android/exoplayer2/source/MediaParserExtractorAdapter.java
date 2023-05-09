@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source;
+package com.readwise.android.exoplayer2.source;
 
-import static com.google.android.exoplayer2.source.mediaparser.MediaParserUtil.PARAMETER_EAGERLY_EXPOSE_TRACK_TYPE;
-import static com.google.android.exoplayer2.source.mediaparser.MediaParserUtil.PARAMETER_INCLUDE_SUPPLEMENTAL_DATA;
-import static com.google.android.exoplayer2.source.mediaparser.MediaParserUtil.PARAMETER_IN_BAND_CRYPTO_INFO;
+import static com.readwise.android.exoplayer2.source.mediaparser.MediaParserUtil.PARAMETER_EAGERLY_EXPOSE_TRACK_TYPE;
+import static com.readwise.android.exoplayer2.source.mediaparser.MediaParserUtil.PARAMETER_INCLUDE_SUPPLEMENTAL_DATA;
+import static com.readwise.android.exoplayer2.source.mediaparser.MediaParserUtil.PARAMETER_IN_BAND_CRYPTO_INFO;
 
 import android.annotation.SuppressLint;
 import android.media.MediaParser;
@@ -25,16 +25,16 @@ import android.media.MediaParser.SeekPoint;
 import android.net.Uri;
 import android.util.Pair;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.analytics.PlayerId;
-import com.google.android.exoplayer2.extractor.Extractor;
-import com.google.android.exoplayer2.extractor.ExtractorOutput;
-import com.google.android.exoplayer2.extractor.PositionHolder;
-import com.google.android.exoplayer2.source.mediaparser.InputReaderAdapterV30;
-import com.google.android.exoplayer2.source.mediaparser.MediaParserUtil;
-import com.google.android.exoplayer2.source.mediaparser.OutputConsumerAdapterV30;
-import com.google.android.exoplayer2.upstream.DataReader;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.analytics.PlayerId;
+import com.readwise.android.exoplayer2.extractor.Extractor;
+import com.readwise.android.exoplayer2.extractor.ExtractorOutput;
+import com.readwise.android.exoplayer2.extractor.PositionHolder;
+import com.readwise.android.exoplayer2.source.mediaparser.InputReaderAdapterV30;
+import com.readwise.android.exoplayer2.source.mediaparser.MediaParserUtil;
+import com.readwise.android.exoplayer2.source.mediaparser.OutputConsumerAdapterV30;
+import com.readwise.android.exoplayer2.upstream.DataReader;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;

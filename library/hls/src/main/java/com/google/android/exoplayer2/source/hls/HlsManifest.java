@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.hls;
+package com.readwise.android.exoplayer2.source.hls;
 
-import com.google.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist;
-import com.google.android.exoplayer2.source.hls.playlist.HlsMultivariantPlaylist;
+import com.readwise.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist;
+import com.readwise.android.exoplayer2.source.hls.playlist.HlsMultivariantPlaylist;
 
 /** Holds a multivariant playlist along with a snapshot of one of its media playlists. */
 public final class HlsManifest {

@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
-import com.google.android.exoplayer2.MediaItem.LiveConfiguration;
+import com.readwise.android.exoplayer2.MediaItem.LiveConfiguration;
 
 /**
  * Controls the playback speed while playing live content in order to maintain a steady target live

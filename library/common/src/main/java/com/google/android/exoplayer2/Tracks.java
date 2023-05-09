@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
-import static com.google.android.exoplayer2.util.Assertions.checkArgument;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.BundleableUtil.toBundleArrayList;
+import static com.readwise.android.exoplayer2.util.Assertions.checkArgument;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.BundleableUtil.toBundleArrayList;
 
 import android.os.Bundle;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.source.TrackGroup;
-import com.google.android.exoplayer2.util.BundleableUtil;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.source.TrackGroup;
+import com.readwise.android.exoplayer2.util.BundleableUtil;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.base.MoreObjects;
 import com.google.common.collect.ImmutableList;
 import com.google.common.primitives.Booleans;

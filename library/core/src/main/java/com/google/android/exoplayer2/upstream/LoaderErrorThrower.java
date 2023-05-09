@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.upstream;
+package com.readwise.android.exoplayer2.upstream;
 
-import com.google.android.exoplayer2.upstream.Loader.Loadable;
+import com.readwise.android.exoplayer2.upstream.Loader.Loadable;
 import java.io.IOException;
 
 /** Conditionally throws errors affecting a {@link Loader}. */

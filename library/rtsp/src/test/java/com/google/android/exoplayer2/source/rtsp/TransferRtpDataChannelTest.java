@@ -13,14 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.rtsp;
+package com.readwise.android.exoplayer2.source.rtsp;
 
-import static com.google.android.exoplayer2.testutil.TestUtil.buildTestData;
+import static com.readwise.android.exoplayer2.testutil.TestUtil.buildTestData;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.C;
 import com.google.common.primitives.Bytes;
+import com.readwise.android.exoplayer2.source.rtsp.TransferRtpDataChannel;
 import java.util.Arrays;
 import org.junit.Test;
 import org.junit.runner.RunWith;

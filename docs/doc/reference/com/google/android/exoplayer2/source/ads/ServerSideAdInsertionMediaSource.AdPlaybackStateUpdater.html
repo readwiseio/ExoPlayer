@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.source.ads</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.source.ads</a></div>
 <h2 title="Interface ServerSideAdInsertionMediaSource.AdPlaybackStateUpdater" class="title">Interface ServerSideAdInsertionMediaSource.AdPlaybackStateUpdater</h2>
 </div>
 <div class="contentContainer">
@@ -122,11 +122,11 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>Enclosing class:</dt>
-<dd><a href="ServerSideAdInsertionMediaSource.html" title="class in com.google.android.exoplayer2.source.ads">ServerSideAdInsertionMediaSource</a></dd>
+<dd><a href="ServerSideAdInsertionMediaSource.html" title="class in com.readwise.android.exoplayer2.source.ads">ServerSideAdInsertionMediaSource</a></dd>
 </dl>
 <hr>
 <pre>public static interface <span class="typeNameLabel">ServerSideAdInsertionMediaSource.AdPlaybackStateUpdater</span></pre>
-<div class="block">Receives ad playback state update requests when the <a href="../../Timeline.html" title="class in com.google.android.exoplayer2"><code>Timeline</code></a> of the content media
+<div class="block">Receives ad playback state update requests when the <a href="../../Timeline.html" title="class in com.readwise.android.exoplayer2"><code>Timeline</code></a> of the content media
  source has changed.</div>
 </li>
 </ul>
@@ -150,7 +150,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>boolean</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onAdPlaybackStateUpdateRequested(com.google.android.exoplayer2.Timeline)">onAdPlaybackStateUpdateRequested</a></span>&#8203;(<a href="../../Timeline.html" title="class in com.google.android.exoplayer2">Timeline</a>&nbsp;contentTimeline)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onAdPlaybackStateUpdateRequested(com.readwise.android.exoplayer2.Timeline)">onAdPlaybackStateUpdateRequested</a></span>&#8203;(<a href="../../Timeline.html" title="class in com.readwise.android.exoplayer2">Timeline</a>&nbsp;contentTimeline)</code></th>
 <td class="colLast">
 <div class="block">Called when the content source has refreshed the timeline.</div>
 </td>
@@ -172,13 +172,13 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="onAdPlaybackStateUpdateRequested(com.google.android.exoplayer2.Timeline)">
+<a id="onAdPlaybackStateUpdateRequested(com.readwise.android.exoplayer2.Timeline)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>onAdPlaybackStateUpdateRequested</h4>
-<pre class="methodSignature">boolean&nbsp;onAdPlaybackStateUpdateRequested&#8203;(<a href="../../Timeline.html" title="class in com.google.android.exoplayer2">Timeline</a>&nbsp;contentTimeline)</pre>
+<pre class="methodSignature">boolean&nbsp;onAdPlaybackStateUpdateRequested&#8203;(<a href="../../Timeline.html" title="class in com.readwise.android.exoplayer2">Timeline</a>&nbsp;contentTimeline)</pre>
 <div class="block">Called when the content source has refreshed the timeline.
 
  <p>If true is returned the source refresh publication is deferred, to wait for an <a href="ServerSideAdInsertionMediaSource.html#setAdPlaybackStates(com.google.common.collect.ImmutableMap)"><code>ServerSideAdInsertionMediaSource.setAdPlaybackStates(ImmutableMap)</code></a> ad playback state update}. If false is returned, the
@@ -187,7 +187,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
  <p>Called on the playback thread.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>contentTimeline</code> - The <a href="../../Timeline.html" title="class in com.google.android.exoplayer2"><code>Timeline</code></a> of the wrapped content media source.</dd>
+<dd><code>contentTimeline</code> - The <a href="../../Timeline.html" title="class in com.readwise.android.exoplayer2"><code>Timeline</code></a> of the wrapped content media source.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>true to defer the source refresh publication, or false to immediately publish the
      source refresh.</dd>

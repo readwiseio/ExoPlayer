@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.extractor</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.extractor</a></div>
 <h2 title="Class ExtractorUtil" class="title">Class ExtractorUtil</h2>
 </div>
 <div class="contentContainer">
@@ -121,7 +121,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li><a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">java.lang.Object</a></li>
 <li>
 <ul class="inheritance">
-<li>com.google.android.exoplayer2.extractor.ExtractorUtil</li>
+<li>com.readwise.android.exoplayer2.extractor.ExtractorUtil</li>
 </ul>
 </li>
 </ul>
@@ -162,7 +162,7 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>static boolean</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#peekFullyQuietly(com.google.android.exoplayer2.extractor.ExtractorInput,byte%5B%5D,int,int,boolean)">peekFullyQuietly</a></span>&#8203;(<a href="ExtractorInput.html" title="interface in com.google.android.exoplayer2.extractor">ExtractorInput</a>&nbsp;input,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#peekFullyQuietly(com.readwise.android.exoplayer2.extractor.ExtractorInput,byte%5B%5D,int,int,boolean)">peekFullyQuietly</a></span>&#8203;(<a href="ExtractorInput.html" title="interface in com.readwise.android.exoplayer2.extractor">ExtractorInput</a>&nbsp;input,
                 byte[]&nbsp;output,
                 int&nbsp;offset,
                 int&nbsp;length,
@@ -173,7 +173,7 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 </tr>
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>static int</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#peekToLength(com.google.android.exoplayer2.extractor.ExtractorInput,byte%5B%5D,int,int)">peekToLength</a></span>&#8203;(<a href="ExtractorInput.html" title="interface in com.google.android.exoplayer2.extractor">ExtractorInput</a>&nbsp;input,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#peekToLength(com.readwise.android.exoplayer2.extractor.ExtractorInput,byte%5B%5D,int,int)">peekToLength</a></span>&#8203;(<a href="ExtractorInput.html" title="interface in com.readwise.android.exoplayer2.extractor">ExtractorInput</a>&nbsp;input,
             byte[]&nbsp;target,
             int&nbsp;offset,
             int&nbsp;length)</code></th>
@@ -184,7 +184,7 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 </tr>
 <tr id="i3" class="rowColor">
 <td class="colFirst"><code>static boolean</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#readFullyQuietly(com.google.android.exoplayer2.extractor.ExtractorInput,byte%5B%5D,int,int)">readFullyQuietly</a></span>&#8203;(<a href="ExtractorInput.html" title="interface in com.google.android.exoplayer2.extractor">ExtractorInput</a>&nbsp;input,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#readFullyQuietly(com.readwise.android.exoplayer2.extractor.ExtractorInput,byte%5B%5D,int,int)">readFullyQuietly</a></span>&#8203;(<a href="ExtractorInput.html" title="interface in com.readwise.android.exoplayer2.extractor">ExtractorInput</a>&nbsp;input,
                 byte[]&nbsp;output,
                 int&nbsp;offset,
                 int&nbsp;length)</code></th>
@@ -196,7 +196,7 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 </tr>
 <tr id="i4" class="altColor">
 <td class="colFirst"><code>static boolean</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#skipFullyQuietly(com.google.android.exoplayer2.extractor.ExtractorInput,int)">skipFullyQuietly</a></span>&#8203;(<a href="ExtractorInput.html" title="interface in com.google.android.exoplayer2.extractor">ExtractorInput</a>&nbsp;input,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#skipFullyQuietly(com.readwise.android.exoplayer2.extractor.ExtractorInput,int)">skipFullyQuietly</a></span>&#8203;(<a href="ExtractorInput.html" title="interface in com.readwise.android.exoplayer2.extractor">ExtractorInput</a>&nbsp;input,
                 int&nbsp;length)</code></th>
 <td class="colLast">
 <div class="block">Equivalent to <a href="ExtractorInput.html#skipFully(int)"><code>ExtractorInput.skipFully(int)</code></a> except that it returns <code>false</code>
@@ -238,21 +238,21 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 public static&nbsp;void&nbsp;checkContainerInput&#8203;(boolean&nbsp;expression,
                                        @Nullable
                                        <a href="https://developer.android.com/reference/java/lang/String.html" title="class or interface in java.lang" class="externalLink" target="_top">String</a>&nbsp;message)
-                                throws <a href="../ParserException.html" title="class in com.google.android.exoplayer2">ParserException</a></pre>
+                                throws <a href="../ParserException.html" title="class in com.readwise.android.exoplayer2">ParserException</a></pre>
 <div class="block">If <code>expression</code> is false, throws a <a href="../ParserException.html#createForMalformedContainer(java.lang.String,java.lang.Throwable)"><code>container malformed ParserException</code></a> with the given message. Otherwise, does nothing.</div>
 <dl>
 <dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="../ParserException.html" title="class in com.google.android.exoplayer2">ParserException</a></code></dd>
+<dd><code><a href="../ParserException.html" title="class in com.readwise.android.exoplayer2">ParserException</a></code></dd>
 </dl>
 </li>
 </ul>
-<a id="peekToLength(com.google.android.exoplayer2.extractor.ExtractorInput,byte[],int,int)">
+<a id="peekToLength(com.readwise.android.exoplayer2.extractor.ExtractorInput,byte[],int,int)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>peekToLength</h4>
-<pre class="methodSignature">public static&nbsp;int&nbsp;peekToLength&#8203;(<a href="ExtractorInput.html" title="interface in com.google.android.exoplayer2.extractor">ExtractorInput</a>&nbsp;input,
+<pre class="methodSignature">public static&nbsp;int&nbsp;peekToLength&#8203;(<a href="ExtractorInput.html" title="interface in com.readwise.android.exoplayer2.extractor">ExtractorInput</a>&nbsp;input,
                                byte[]&nbsp;target,
                                int&nbsp;offset,
                                int&nbsp;length)
@@ -274,13 +274,13 @@ public static&nbsp;void&nbsp;checkContainerInput&#8203;(boolean&nbsp;expression,
 </dl>
 </li>
 </ul>
-<a id="readFullyQuietly(com.google.android.exoplayer2.extractor.ExtractorInput,byte[],int,int)">
+<a id="readFullyQuietly(com.readwise.android.exoplayer2.extractor.ExtractorInput,byte[],int,int)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>readFullyQuietly</h4>
-<pre class="methodSignature">public static&nbsp;boolean&nbsp;readFullyQuietly&#8203;(<a href="ExtractorInput.html" title="interface in com.google.android.exoplayer2.extractor">ExtractorInput</a>&nbsp;input,
+<pre class="methodSignature">public static&nbsp;boolean&nbsp;readFullyQuietly&#8203;(<a href="ExtractorInput.html" title="interface in com.readwise.android.exoplayer2.extractor">ExtractorInput</a>&nbsp;input,
                                        byte[]&nbsp;output,
                                        int&nbsp;offset,
                                        int&nbsp;length)
@@ -294,13 +294,13 @@ public static&nbsp;void&nbsp;checkContainerInput&#8203;(boolean&nbsp;expression,
 </dl>
 </li>
 </ul>
-<a id="skipFullyQuietly(com.google.android.exoplayer2.extractor.ExtractorInput,int)">
+<a id="skipFullyQuietly(com.readwise.android.exoplayer2.extractor.ExtractorInput,int)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>skipFullyQuietly</h4>
-<pre class="methodSignature">public static&nbsp;boolean&nbsp;skipFullyQuietly&#8203;(<a href="ExtractorInput.html" title="interface in com.google.android.exoplayer2.extractor">ExtractorInput</a>&nbsp;input,
+<pre class="methodSignature">public static&nbsp;boolean&nbsp;skipFullyQuietly&#8203;(<a href="ExtractorInput.html" title="interface in com.readwise.android.exoplayer2.extractor">ExtractorInput</a>&nbsp;input,
                                        int&nbsp;length)
                                 throws <a href="https://developer.android.com/reference/java/io/IOException.html" title="class or interface in java.io" class="externalLink" target="_top">IOException</a></pre>
 <div class="block">Equivalent to <a href="ExtractorInput.html#skipFully(int)"><code>ExtractorInput.skipFully(int)</code></a> except that it returns <code>false</code>
@@ -312,13 +312,13 @@ public static&nbsp;void&nbsp;checkContainerInput&#8203;(boolean&nbsp;expression,
 </dl>
 </li>
 </ul>
-<a id="peekFullyQuietly(com.google.android.exoplayer2.extractor.ExtractorInput,byte[],int,int,boolean)">
+<a id="peekFullyQuietly(com.readwise.android.exoplayer2.extractor.ExtractorInput,byte[],int,int,boolean)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>peekFullyQuietly</h4>
-<pre class="methodSignature">public static&nbsp;boolean&nbsp;peekFullyQuietly&#8203;(<a href="ExtractorInput.html" title="interface in com.google.android.exoplayer2.extractor">ExtractorInput</a>&nbsp;input,
+<pre class="methodSignature">public static&nbsp;boolean&nbsp;peekFullyQuietly&#8203;(<a href="ExtractorInput.html" title="interface in com.readwise.android.exoplayer2.extractor">ExtractorInput</a>&nbsp;input,
                                        byte[]&nbsp;output,
                                        int&nbsp;offset,
                                        int&nbsp;length,

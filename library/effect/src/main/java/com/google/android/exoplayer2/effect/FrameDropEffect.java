@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.effect;
+package com.readwise.android.exoplayer2.effect;
 
 import android.content.Context;
-import com.google.android.exoplayer2.util.VideoFrameProcessingException;
+import com.readwise.android.exoplayer2.util.VideoFrameProcessingException;
 
 /** Drops frames to lower average frame rate to around {@code targetFrameRate}. */
 public class FrameDropEffect implements GlEffect {

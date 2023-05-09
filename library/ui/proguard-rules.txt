@@ -1,12 +1,12 @@
 # Proguard rules specific to the UI module.
 
 # Constructor method accessed via reflection in StyledPlayerView
--dontnote com.google.android.exoplayer2.video.spherical.SphericalGLSurfaceView
--keepclassmembers class com.google.android.exoplayer2.video.spherical.SphericalGLSurfaceView {
+-dontnote com.readwise.android.exoplayer2.video.spherical.SphericalGLSurfaceView
+-keepclassmembers class com.readwise.android.exoplayer2.video.spherical.SphericalGLSurfaceView {
   <init>(android.content.Context);
 }
--dontnote com.google.android.exoplayer2.video.VideoDecoderGLSurfaceView
--keepclassmembers class com.google.android.exoplayer2.video.VideoDecoderGLSurfaceView {
+-dontnote com.readwise.android.exoplayer2.video.VideoDecoderGLSurfaceView
+-keepclassmembers class com.readwise.android.exoplayer2.video.VideoDecoderGLSurfaceView {
   <init>(android.content.Context);
 }
 

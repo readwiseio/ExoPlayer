@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.scheduler;
+package com.readwise.android.exoplayer2.scheduler;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
 
 import android.app.job.JobInfo;
 import android.app.job.JobParameters;
@@ -27,8 +27,8 @@ import android.content.Intent;
 import android.os.PersistableBundle;
 import androidx.annotation.RequiresApi;
 import androidx.annotation.RequiresPermission;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.Util;
 
 /**
  * A {@link Scheduler} that uses {@link JobScheduler}. To use this scheduler, you must add {@link
@@ -38,7 +38,7 @@ import com.google.android.exoplayer2.util.Util;
  * <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
  * <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
  *
- * <service android:name="com.google.android.exoplayer2.scheduler.PlatformScheduler$PlatformSchedulerService"
+ * <service android:name="com.readwise.android.exoplayer2.scheduler.PlatformScheduler$PlatformSchedulerService"
  *     android:permission="android.permission.BIND_JOB_SERVICE"
  *     android:exported="true"/>
  * }</pre>

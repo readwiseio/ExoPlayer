@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.util</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.util</a></div>
 <h2 title="Class ConditionVariable" class="title">Class ConditionVariable</h2>
 </div>
 <div class="contentContainer">
@@ -121,7 +121,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li><a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">java.lang.Object</a></li>
 <li>
 <ul class="inheritance">
-<li>com.google.android.exoplayer2.util.ConditionVariable</li>
+<li>com.readwise.android.exoplayer2.util.ConditionVariable</li>
 </ul>
 </li>
 </ul>
@@ -138,7 +138,7 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
        intervals. <a href="https://developer.android.com/reference/android/os/ConditionVariable.html" title="class or interface in android.os" class="externalLink"><code>ConditionVariable</code></a> used <a href="https://developer.android.com/reference/java/lang/System.html?is-external=true#currentTimeMillis()" title="class or interface in java.lang" class="externalLink" target="_top"><code>System.currentTimeMillis()</code></a>
        prior to Android 10, which is not a correct clock to use for interval timing because it's
        not guaranteed to be monotonic.
-   <li>Support for injecting a custom <a href="Clock.html" title="interface in com.google.android.exoplayer2.util"><code>Clock</code></a>.
+   <li>Support for injecting a custom <a href="Clock.html" title="interface in com.readwise.android.exoplayer2.util"><code>Clock</code></a>.
    <li>The ability to query the variable's current state, by calling <a href="#isOpen()"><code>isOpen()</code></a>.
    <li><a href="#open()"><code>open()</code></a> and <a href="#close()"><code>close()</code></a> return whether they changed the variable's state.
  </ul></div>
@@ -168,7 +168,7 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 </td>
 </tr>
 <tr class="rowColor">
-<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(com.google.android.exoplayer2.util.Clock)">ConditionVariable</a></span>&#8203;(<a href="Clock.html" title="interface in com.google.android.exoplayer2.util">Clock</a>&nbsp;clock)</code></th>
+<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(com.readwise.android.exoplayer2.util.Clock)">ConditionVariable</a></span>&#8203;(<a href="Clock.html" title="interface in com.readwise.android.exoplayer2.util">Clock</a>&nbsp;clock)</code></th>
 <td class="colLast">
 <div class="block">Creates an instance, which starts closed.</div>
 </td>
@@ -267,17 +267,17 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 <div class="block">Creates an instance using <a href="Clock.html#DEFAULT"><code>Clock.DEFAULT</code></a>.</div>
 </li>
 </ul>
-<a id="&lt;init&gt;(com.google.android.exoplayer2.util.Clock)">
+<a id="&lt;init&gt;(com.readwise.android.exoplayer2.util.Clock)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>ConditionVariable</h4>
-<pre>public&nbsp;ConditionVariable&#8203;(<a href="Clock.html" title="interface in com.google.android.exoplayer2.util">Clock</a>&nbsp;clock)</pre>
+<pre>public&nbsp;ConditionVariable&#8203;(<a href="Clock.html" title="interface in com.readwise.android.exoplayer2.util">Clock</a>&nbsp;clock)</pre>
 <div class="block">Creates an instance, which starts closed.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>clock</code> - The <a href="Clock.html" title="interface in com.google.android.exoplayer2.util"><code>Clock</code></a> whose <a href="Clock.html#elapsedRealtime()"><code>Clock.elapsedRealtime()</code></a> method is used to
+<dd><code>clock</code> - The <a href="Clock.html" title="interface in com.readwise.android.exoplayer2.util"><code>Clock</code></a> whose <a href="Clock.html#elapsedRealtime()"><code>Clock.elapsedRealtime()</code></a> method is used to
      determine when <a href="#block(long)"><code>block(long)</code></a> should time out.</dd>
 </dl>
 </li>

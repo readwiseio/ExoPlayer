@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.util;
+package com.readwise.android.exoplayer2.util;
 
-import com.google.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.C;
 
 /** Contains information describing an OpenGL texture. */
 public final class GlTextureInfo {

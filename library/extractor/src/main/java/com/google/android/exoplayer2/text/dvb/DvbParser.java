@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.text.dvb;
+package com.readwise.android.exoplayer2.text.dvb;
 
 import static java.lang.Math.min;
 
@@ -25,10 +25,10 @@ import android.graphics.PorterDuff;
 import android.graphics.PorterDuffXfermode;
 import android.util.SparseArray;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.text.Cue;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.ParsableBitArray;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.text.Cue;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.ParsableBitArray;
+import com.readwise.android.exoplayer2.util.Util;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

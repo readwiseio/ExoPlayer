@@ -15,17 +15,17 @@
  */
 package androidx.media3.muxer;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Assertions.checkState;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkState;
 import static java.lang.Math.max;
 
 import android.media.MediaCodec;
 import android.media.MediaCodec.BufferInfo;
 import android.util.Pair;
 import androidx.media3.muxer.Mp4Muxer.TrackToken;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Range;
 import java.io.FileOutputStream;

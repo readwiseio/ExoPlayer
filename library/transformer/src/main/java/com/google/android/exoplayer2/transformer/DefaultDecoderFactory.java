@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.transformer;
+package com.readwise.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.MediaFormatUtil.createMediaFormatFromFormat;
-import static com.google.android.exoplayer2.util.Util.SDK_INT;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.MediaFormatUtil.createMediaFormatFromFormat;
+import static com.readwise.android.exoplayer2.util.Util.SDK_INT;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -27,14 +27,14 @@ import android.os.Build;
 import android.util.Pair;
 import android.view.Surface;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.mediacodec.MediaCodecInfo;
-import com.google.android.exoplayer2.mediacodec.MediaCodecUtil;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.MediaFormatUtil;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Util;
-import com.google.android.exoplayer2.video.ColorInfo;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.mediacodec.MediaCodecInfo;
+import com.readwise.android.exoplayer2.mediacodec.MediaCodecUtil;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.MediaFormatUtil;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.video.ColorInfo;
 import java.util.List;
 import org.checkerframework.checker.nullness.qual.RequiresNonNull;
 

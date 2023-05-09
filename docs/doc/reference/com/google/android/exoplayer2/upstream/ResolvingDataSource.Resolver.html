@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.upstream</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.upstream</a></div>
 <h2 title="Interface ResolvingDataSource.Resolver" class="title">Interface ResolvingDataSource.Resolver</h2>
 </div>
 <div class="contentContainer">
@@ -122,11 +122,11 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>Enclosing class:</dt>
-<dd><a href="ResolvingDataSource.html" title="class in com.google.android.exoplayer2.upstream">ResolvingDataSource</a></dd>
+<dd><a href="ResolvingDataSource.html" title="class in com.readwise.android.exoplayer2.upstream">ResolvingDataSource</a></dd>
 </dl>
 <hr>
 <pre>public static interface <span class="typeNameLabel">ResolvingDataSource.Resolver</span></pre>
-<div class="block">Resolves <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream"><code>DataSpecs</code></a>.</div>
+<div class="block">Resolves <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream"><code>DataSpecs</code></a>.</div>
 </li>
 </ul>
 </div>
@@ -148,10 +148,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <th class="colLast" scope="col">Description</th>
 </tr>
 <tr id="i0" class="altColor">
-<td class="colFirst"><code><a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream">DataSpec</a></code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#resolveDataSpec(com.google.android.exoplayer2.upstream.DataSpec)">resolveDataSpec</a></span>&#8203;(<a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec)</code></th>
+<td class="colFirst"><code><a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream">DataSpec</a></code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#resolveDataSpec(com.readwise.android.exoplayer2.upstream.DataSpec)">resolveDataSpec</a></span>&#8203;(<a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec)</code></th>
 <td class="colLast">
-<div class="block">Resolves a <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream"><code>DataSpec</code></a> before forwarding it to the wrapped <a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream"><code>DataSource</code></a>.</div>
+<div class="block">Resolves a <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream"><code>DataSpec</code></a> before forwarding it to the wrapped <a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream"><code>DataSource</code></a>.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
@@ -179,26 +179,26 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="resolveDataSpec(com.google.android.exoplayer2.upstream.DataSpec)">
+<a id="resolveDataSpec(com.readwise.android.exoplayer2.upstream.DataSpec)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>resolveDataSpec</h4>
-<pre class="methodSignature"><a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream">DataSpec</a>&nbsp;resolveDataSpec&#8203;(<a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec)
+<pre class="methodSignature"><a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream">DataSpec</a>&nbsp;resolveDataSpec&#8203;(<a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream">DataSpec</a>&nbsp;dataSpec)
                   throws <a href="https://developer.android.com/reference/java/io/IOException.html" title="class or interface in java.io" class="externalLink" target="_top">IOException</a></pre>
-<div class="block">Resolves a <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream"><code>DataSpec</code></a> before forwarding it to the wrapped <a href="DataSource.html" title="interface in com.google.android.exoplayer2.upstream"><code>DataSource</code></a>. This
- method is allowed to block until the <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream"><code>DataSpec</code></a> has been resolved.
+<div class="block">Resolves a <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream"><code>DataSpec</code></a> before forwarding it to the wrapped <a href="DataSource.html" title="interface in com.readwise.android.exoplayer2.upstream"><code>DataSource</code></a>. This
+ method is allowed to block until the <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream"><code>DataSpec</code></a> has been resolved.
 
  <p>Note that this method is called for every new connection, so caching of results is
  recommended, especially if network operations are involved.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>dataSpec</code> - The original <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream"><code>DataSpec</code></a>.</dd>
+<dd><code>dataSpec</code> - The original <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream"><code>DataSpec</code></a>.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>The resolved <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream"><code>DataSpec</code></a>.</dd>
+<dd>The resolved <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream"><code>DataSpec</code></a>.</dd>
 <dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="https://developer.android.com/reference/java/io/IOException.html" title="class or interface in java.io" class="externalLink">IOException</a></code> - If an <a href="https://developer.android.com/reference/java/io/IOException.html?is-external=true" title="class or interface in java.io" class="externalLink"><code>IOException</code></a> occurred while resolving the <a href="DataSpec.html" title="class in com.google.android.exoplayer2.upstream" target="_top"><code>DataSpec</code></a>.</dd>
+<dd><code><a href="https://developer.android.com/reference/java/io/IOException.html" title="class or interface in java.io" class="externalLink">IOException</a></code> - If an <a href="https://developer.android.com/reference/java/io/IOException.html?is-external=true" title="class or interface in java.io" class="externalLink"><code>IOException</code></a> occurred while resolving the <a href="DataSpec.html" title="class in com.readwise.android.exoplayer2.upstream" target="_top"><code>DataSpec</code></a>.</dd>
 </dl>
 </li>
 </ul>

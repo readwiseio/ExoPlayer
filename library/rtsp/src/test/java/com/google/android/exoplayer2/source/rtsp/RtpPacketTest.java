@@ -14,16 +14,17 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.source.rtsp;
+package com.readwise.android.exoplayer2.source.rtsp;
 
-import static com.google.android.exoplayer2.source.rtsp.RtpPacket.getNextSequenceNumber;
-import static com.google.android.exoplayer2.source.rtsp.RtpPacket.getPreviousSequenceNumber;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Util.getBytesFromHexString;
+import static com.readwise.android.exoplayer2.source.rtsp.RtpPacket.getNextSequenceNumber;
+import static com.readwise.android.exoplayer2.source.rtsp.RtpPacket.getPreviousSequenceNumber;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Util.getBytesFromHexString;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.source.rtsp.RtpPacket;
 import java.util.Arrays;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.transformer;
+package com.readwise.android.exoplayer2.transformer;
 
-import static com.google.android.exoplayer2.robolectric.RobolectricUtil.runLooperUntil;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.robolectric.RobolectricUtil.runLooperUntil;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
 
-import com.google.android.exoplayer2.robolectric.RobolectricUtil;
+import com.readwise.android.exoplayer2.robolectric.RobolectricUtil;
 import java.util.Objects;
 import java.util.concurrent.TimeoutException;
 import java.util.concurrent.atomic.AtomicReference;

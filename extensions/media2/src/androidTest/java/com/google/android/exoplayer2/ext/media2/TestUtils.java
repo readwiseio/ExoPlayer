@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.media2;
+package com.readwise.android.exoplayer2.ext.media2;
 
 import static androidx.media2.common.SessionPlayer.PlayerResult.RESULT_SUCCESS;
 import static com.google.common.truth.Truth.assertThat;
@@ -24,8 +24,8 @@ import androidx.media2.common.MediaMetadata;
 import androidx.media2.common.SessionPlayer;
 import androidx.media2.common.SessionPlayer.PlayerResult;
 import androidx.media2.common.UriMediaItem;
-import com.google.android.exoplayer2.ext.media2.test.R;
-import com.google.android.exoplayer2.upstream.RawResourceDataSource;
+import com.readwise.android.exoplayer2.ext.media2.test.R;
+import com.readwise.android.exoplayer2.upstream.RawResourceDataSource;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Future;

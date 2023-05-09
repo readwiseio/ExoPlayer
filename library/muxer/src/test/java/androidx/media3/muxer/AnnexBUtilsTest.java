@@ -15,7 +15,7 @@
  */
 package androidx.media3.muxer;
 
-import static com.google.android.exoplayer2.util.Util.getBytesFromHexString;
+import static com.readwise.android.exoplayer2.util.Util.getBytesFromHexString;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;

@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.text.ttml;
+package com.readwise.android.exoplayer2.text.ttml;
 
-import com.google.android.exoplayer2.text.Cue;
+import com.readwise.android.exoplayer2.text.Cue;
 
 /** Represents a TTML Region. */
 /* package */ final class TtmlRegion {

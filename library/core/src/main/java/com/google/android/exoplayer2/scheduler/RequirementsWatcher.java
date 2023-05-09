@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.scheduler;
+package com.readwise.android.exoplayer2.scheduler;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -29,7 +29,7 @@ import android.os.Looper;
 import android.os.PowerManager;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.util.Util;
 
 /**
  * Watches whether the {@link Requirements} are met and notifies the {@link Listener} on changes.

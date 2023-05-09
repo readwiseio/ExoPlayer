@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.robolectric;
+package com.readwise.android.exoplayer2.robolectric;
 
-import static com.google.android.exoplayer2.robolectric.RobolectricUtil.createRobolectricConditionVariable;
+import static com.readwise.android.exoplayer2.robolectric.RobolectricUtil.createRobolectricConditionVariable;
 import static com.google.common.truth.Truth.assertThat;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 import static org.junit.Assert.fail;
 
 import android.os.Handler;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.offline.Download;
-import com.google.android.exoplayer2.offline.DownloadManager;
-import com.google.android.exoplayer2.util.ConditionVariable;
+import com.readwise.android.exoplayer2.offline.Download;
+import com.readwise.android.exoplayer2.offline.DownloadManager;
+import com.readwise.android.exoplayer2.util.ConditionVariable;
 import java.util.HashMap;
 import java.util.concurrent.LinkedBlockingQueue;
 

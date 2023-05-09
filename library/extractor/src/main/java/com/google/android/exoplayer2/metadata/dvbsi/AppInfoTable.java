@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.metadata.dvbsi;
+package com.readwise.android.exoplayer2.metadata.dvbsi;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.metadata.Metadata;
+import com.readwise.android.exoplayer2.util.Assertions;
 
 /**
  * A representation of a DVB Application Information Table (AIT).

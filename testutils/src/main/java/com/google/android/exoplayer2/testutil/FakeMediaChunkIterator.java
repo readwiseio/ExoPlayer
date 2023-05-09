@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.testutil;
+package com.readwise.android.exoplayer2.testutil;
 
 import android.net.Uri;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.source.chunk.BaseMediaChunkIterator;
-import com.google.android.exoplayer2.source.chunk.MediaChunkIterator;
-import com.google.android.exoplayer2.upstream.DataSpec;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.source.chunk.BaseMediaChunkIterator;
+import com.readwise.android.exoplayer2.source.chunk.MediaChunkIterator;
+import com.readwise.android.exoplayer2.upstream.DataSpec;
 
 /** Fake {@link MediaChunkIterator}. */
 public final class FakeMediaChunkIterator extends BaseMediaChunkIterator {

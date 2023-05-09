@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.metadata;
+package com.readwise.android.exoplayer2.metadata;
 
 import static com.google.common.truth.Truth.assertThat;
 
 import android.os.Parcel;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.testutil.FakeMetadataEntry;
+import com.readwise.android.exoplayer2.testutil.FakeMetadataEntry;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

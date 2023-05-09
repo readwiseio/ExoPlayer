@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.dash;
+package com.readwise.android.exoplayer2.source.dash;
 
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.source.dash.manifest.RangedUri;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.source.dash.manifest.RangedUri;
 
 /** Indexes the segments within a media stream. */
 public interface DashSegmentIndex {

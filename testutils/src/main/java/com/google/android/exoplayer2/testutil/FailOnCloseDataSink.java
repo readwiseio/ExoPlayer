@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.testutil;
+package com.readwise.android.exoplayer2.testutil;
 
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.upstream.DataSink;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.upstream.cache.Cache;
-import com.google.android.exoplayer2.upstream.cache.CacheDataSink;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.upstream.DataSink;
+import com.readwise.android.exoplayer2.upstream.DataSpec;
+import com.readwise.android.exoplayer2.upstream.cache.Cache;
+import com.readwise.android.exoplayer2.upstream.cache.CacheDataSink;
 import java.io.IOException;
 import java.util.concurrent.atomic.AtomicBoolean;
 

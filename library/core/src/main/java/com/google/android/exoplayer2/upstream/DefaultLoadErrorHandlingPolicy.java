@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.upstream;
+package com.readwise.android.exoplayer2.upstream;
 
 import static java.lang.Math.min;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ParserException;
-import com.google.android.exoplayer2.upstream.HttpDataSource.CleartextNotPermittedException;
-import com.google.android.exoplayer2.upstream.HttpDataSource.InvalidResponseCodeException;
-import com.google.android.exoplayer2.upstream.Loader.UnexpectedLoaderException;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ParserException;
+import com.readwise.android.exoplayer2.upstream.HttpDataSource.CleartextNotPermittedException;
+import com.readwise.android.exoplayer2.upstream.HttpDataSource.InvalidResponseCodeException;
+import com.readwise.android.exoplayer2.upstream.Loader.UnexpectedLoaderException;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 

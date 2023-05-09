@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.dash.manifest;
+package com.readwise.android.exoplayer2.source.dash.manifest;
 
-import com.google.android.exoplayer2.metadata.emsg.EventMessage;
+import com.readwise.android.exoplayer2.metadata.emsg.EventMessage;
 
 /** A DASH in-MPD EventStream element, as defined by ISO/IEC 23009-1, 2nd edition, section 5.10. */
 public final class EventStream {

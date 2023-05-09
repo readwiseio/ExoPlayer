@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.e2etest;
+package com.readwise.android.exoplayer2.e2etest;
 
 import static com.google.common.truth.Truth.assertThat;
 import static java.lang.Integer.max;
@@ -22,15 +22,15 @@ import android.media.AudioFormat;
 import android.media.MediaFormat;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.ExoPlayer;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.mediacodec.MediaCodecUtil;
-import com.google.android.exoplayer2.robolectric.RandomizedMp3Decoder;
-import com.google.android.exoplayer2.robolectric.TestPlayerRunHelper;
-import com.google.android.exoplayer2.testutil.FakeClock;
-import com.google.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.ExoPlayer;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.mediacodec.MediaCodecUtil;
+import com.readwise.android.exoplayer2.robolectric.RandomizedMp3Decoder;
+import com.readwise.android.exoplayer2.robolectric.TestPlayerRunHelper;
+import com.readwise.android.exoplayer2.testutil.FakeClock;
+import com.readwise.android.exoplayer2.util.Assertions;
 import com.google.common.collect.ImmutableList;
 import com.google.common.primitives.Bytes;
 import java.io.ByteArrayOutputStream;

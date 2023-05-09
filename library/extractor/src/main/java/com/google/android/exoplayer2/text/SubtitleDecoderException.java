@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.text;
+package com.readwise.android.exoplayer2.text;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.decoder.DecoderException;
+import com.readwise.android.exoplayer2.decoder.DecoderException;
 
 /** Thrown when an error occurs decoding subtitle data. */
 public class SubtitleDecoderException extends DecoderException {

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.util;
+package com.readwise.android.exoplayer2.util;
 
 import static android.media.MediaCodecInfo.CodecProfileLevel.AACObjectHE;
 import static android.media.MediaCodecInfo.CodecProfileLevel.AACObjectXHE;
@@ -21,7 +21,7 @@ import static com.google.common.truth.Truth.assertThat;
 
 import androidx.annotation.Nullable;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.C;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

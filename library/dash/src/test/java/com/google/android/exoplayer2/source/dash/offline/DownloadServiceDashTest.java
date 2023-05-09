@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.dash.offline;
+package com.readwise.android.exoplayer2.source.dash.offline;
 
-import static com.google.android.exoplayer2.source.dash.offline.DashDownloadTestData.TEST_ID;
-import static com.google.android.exoplayer2.source.dash.offline.DashDownloadTestData.TEST_MPD;
-import static com.google.android.exoplayer2.source.dash.offline.DashDownloadTestData.TEST_MPD_URI;
-import static com.google.android.exoplayer2.testutil.CacheAsserts.assertCacheEmpty;
-import static com.google.android.exoplayer2.testutil.CacheAsserts.assertCachedData;
+import static com.readwise.android.exoplayer2.source.dash.offline.DashDownloadTestData.TEST_ID;
+import static com.readwise.android.exoplayer2.source.dash.offline.DashDownloadTestData.TEST_MPD;
+import static com.readwise.android.exoplayer2.source.dash.offline.DashDownloadTestData.TEST_MPD_URI;
+import static com.readwise.android.exoplayer2.testutil.CacheAsserts.assertCacheEmpty;
+import static com.readwise.android.exoplayer2.testutil.CacheAsserts.assertCachedData;
 
 import android.app.Notification;
 import android.content.Context;
@@ -27,27 +27,27 @@ import android.content.Intent;
 import androidx.annotation.Nullable;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.offline.DefaultDownloadIndex;
-import com.google.android.exoplayer2.offline.DefaultDownloaderFactory;
-import com.google.android.exoplayer2.offline.Download;
-import com.google.android.exoplayer2.offline.DownloadManager;
-import com.google.android.exoplayer2.offline.DownloadRequest;
-import com.google.android.exoplayer2.offline.DownloadService;
-import com.google.android.exoplayer2.offline.StreamKey;
-import com.google.android.exoplayer2.robolectric.TestDownloadManagerListener;
-import com.google.android.exoplayer2.scheduler.Requirements;
-import com.google.android.exoplayer2.scheduler.Scheduler;
-import com.google.android.exoplayer2.testutil.DummyMainThread;
-import com.google.android.exoplayer2.testutil.FakeDataSet;
-import com.google.android.exoplayer2.testutil.FakeDataSource;
-import com.google.android.exoplayer2.testutil.TestUtil;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.cache.CacheDataSource;
-import com.google.android.exoplayer2.upstream.cache.NoOpCacheEvictor;
-import com.google.android.exoplayer2.upstream.cache.SimpleCache;
-import com.google.android.exoplayer2.util.ConditionVariable;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.offline.DefaultDownloadIndex;
+import com.readwise.android.exoplayer2.offline.DefaultDownloaderFactory;
+import com.readwise.android.exoplayer2.offline.Download;
+import com.readwise.android.exoplayer2.offline.DownloadManager;
+import com.readwise.android.exoplayer2.offline.DownloadRequest;
+import com.readwise.android.exoplayer2.offline.DownloadService;
+import com.readwise.android.exoplayer2.offline.StreamKey;
+import com.readwise.android.exoplayer2.robolectric.TestDownloadManagerListener;
+import com.readwise.android.exoplayer2.scheduler.Requirements;
+import com.readwise.android.exoplayer2.scheduler.Scheduler;
+import com.readwise.android.exoplayer2.testutil.DummyMainThread;
+import com.readwise.android.exoplayer2.testutil.FakeDataSet;
+import com.readwise.android.exoplayer2.testutil.FakeDataSource;
+import com.readwise.android.exoplayer2.testutil.TestUtil;
+import com.readwise.android.exoplayer2.upstream.DataSource;
+import com.readwise.android.exoplayer2.upstream.cache.CacheDataSource;
+import com.readwise.android.exoplayer2.upstream.cache.NoOpCacheEvictor;
+import com.readwise.android.exoplayer2.upstream.cache.SimpleCache;
+import com.readwise.android.exoplayer2.util.ConditionVariable;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.leanback;
+package com.readwise.android.exoplayer2.ext.leanback;
 
 import android.content.Context;
 import android.os.Handler;
@@ -25,16 +25,16 @@ import androidx.leanback.R;
 import androidx.leanback.media.PlaybackGlueHost;
 import androidx.leanback.media.PlayerAdapter;
 import androidx.leanback.media.SurfaceHolderGlueHost;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ExoPlayerLibraryInfo;
-import com.google.android.exoplayer2.PlaybackException;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Player.DiscontinuityReason;
-import com.google.android.exoplayer2.Player.TimelineChangeReason;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.util.ErrorMessageProvider;
-import com.google.android.exoplayer2.util.Util;
-import com.google.android.exoplayer2.video.VideoSize;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ExoPlayerLibraryInfo;
+import com.readwise.android.exoplayer2.PlaybackException;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.Player.DiscontinuityReason;
+import com.readwise.android.exoplayer2.Player.TimelineChangeReason;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.util.ErrorMessageProvider;
+import com.readwise.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.video.VideoSize;
 
 /** Leanback {@code PlayerAdapter} implementation for {@link Player}. */
 public final class LeanbackPlayerAdapter extends PlayerAdapter implements Runnable {

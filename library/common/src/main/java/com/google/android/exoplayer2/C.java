@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
 import static java.lang.annotation.ElementType.FIELD;
 import static java.lang.annotation.ElementType.LOCAL_VARIABLE;
@@ -33,8 +33,8 @@ import android.net.Uri;
 import android.view.Surface;
 import androidx.annotation.IntDef;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.errorprone.annotations.InlineMe;
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;
@@ -1416,7 +1416,7 @@ public final class C {
    */
   @InlineMe(
       replacement = "Util.usToMs(timeUs)",
-      imports = {"com.google.android.exoplayer2.util.Util"})
+      imports = {"com.readwise.android.exoplayer2.util.Util"})
   @Deprecated
   public static long usToMs(long timeUs) {
     return Util.usToMs(timeUs);
@@ -1427,7 +1427,7 @@ public final class C {
    */
   @InlineMe(
       replacement = "Util.msToUs(timeMs)",
-      imports = {"com.google.android.exoplayer2.util.Util"})
+      imports = {"com.readwise.android.exoplayer2.util.Util"})
   @Deprecated
   public static long msToUs(long timeMs) {
     return Util.msToUs(timeMs);
@@ -1438,7 +1438,7 @@ public final class C {
    */
   @InlineMe(
       replacement = "Util.generateAudioSessionIdV21(context)",
-      imports = {"com.google.android.exoplayer2.util.Util"})
+      imports = {"com.readwise.android.exoplayer2.util.Util"})
   @Deprecated
   @RequiresApi(21)
   public static int generateAudioSessionIdV21(Context context) {
@@ -1450,7 +1450,7 @@ public final class C {
    */
   @InlineMe(
       replacement = "Util.getFormatSupportString(formatSupport)",
-      imports = {"com.google.android.exoplayer2.util.Util"})
+      imports = {"com.readwise.android.exoplayer2.util.Util"})
   @Deprecated
   public static String getFormatSupportString(@FormatSupport int formatSupport) {
     return Util.getFormatSupportString(formatSupport);
@@ -1461,7 +1461,7 @@ public final class C {
    */
   @InlineMe(
       replacement = "Util.getErrorCodeForMediaDrmErrorCode(mediaDrmErrorCode)",
-      imports = {"com.google.android.exoplayer2.util.Util"})
+      imports = {"com.readwise.android.exoplayer2.util.Util"})
   @Deprecated
   public static @PlaybackException.ErrorCode int getErrorCodeForMediaDrmErrorCode(
       int mediaDrmErrorCode) {

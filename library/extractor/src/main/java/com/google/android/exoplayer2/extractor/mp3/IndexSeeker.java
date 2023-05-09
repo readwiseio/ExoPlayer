@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.extractor.mp3;
+package com.readwise.android.exoplayer2.extractor.mp3;
 
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.extractor.SeekPoint;
-import com.google.android.exoplayer2.util.LongArray;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.extractor.SeekPoint;
+import com.readwise.android.exoplayer2.util.LongArray;
+import com.readwise.android.exoplayer2.util.Util;
 
 /** MP3 seeker that builds a time-to-byte mapping as the stream is read. */
 /* package */ final class IndexSeeker implements Seeker {

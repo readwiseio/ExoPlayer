@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.gldemo;
+package com.readwise.android.exoplayer2.gldemo;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
@@ -26,10 +26,10 @@ import android.graphics.Paint;
 import android.graphics.drawable.BitmapDrawable;
 import android.opengl.GLES20;
 import android.opengl.GLUtils;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.util.GlProgram;
-import com.google.android.exoplayer2.util.GlUtil;
-import com.google.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.util.GlProgram;
+import com.readwise.android.exoplayer2.util.GlUtil;
+import com.readwise.android.exoplayer2.util.Log;
 import java.io.IOException;
 import java.util.Locale;
 import javax.microedition.khronos.opengles.GL10;

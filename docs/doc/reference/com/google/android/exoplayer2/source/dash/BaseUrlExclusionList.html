@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.source.dash</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.source.dash</a></div>
 <h2 title="Class BaseUrlExclusionList" class="title">Class BaseUrlExclusionList</h2>
 </div>
 <div class="contentContainer">
@@ -121,7 +121,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li><a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">java.lang.Object</a></li>
 <li>
 <ul class="inheritance">
-<li>com.google.android.exoplayer2.source.dash.BaseUrlExclusionList</li>
+<li>com.readwise.android.exoplayer2.source.dash.BaseUrlExclusionList</li>
 </ul>
 </li>
 </ul>
@@ -131,7 +131,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <hr>
 <pre>public final class <span class="typeNameLabel">BaseUrlExclusionList</span>
 extends <a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">Object</a></pre>
-<div class="block">Holds the state of <a href="#exclude(com.google.android.exoplayer2.source.dash.manifest.BaseUrl,long)"><code>excluded</code></a> base URLs to be used to <a href="#selectBaseUrl(java.util.List)"><code>select</code></a> a base URL based on these exclusions.</div>
+<div class="block">Holds the state of <a href="#exclude(com.readwise.android.exoplayer2.source.dash.manifest.BaseUrl,long)"><code>excluded</code></a> base URLs to be used to <a href="#selectBaseUrl(java.util.List)"><code>select</code></a> a base URL based on these exclusions.</div>
 </li>
 </ul>
 </div>
@@ -177,7 +177,7 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#exclude(com.google.android.exoplayer2.source.dash.manifest.BaseUrl,long)">exclude</a></span>&#8203;(<a href="manifest/BaseUrl.html" title="class in com.google.android.exoplayer2.source.dash.manifest">BaseUrl</a>&nbsp;baseUrlToExclude,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#exclude(com.readwise.android.exoplayer2.source.dash.manifest.BaseUrl,long)">exclude</a></span>&#8203;(<a href="manifest/BaseUrl.html" title="class in com.readwise.android.exoplayer2.source.dash.manifest">BaseUrl</a>&nbsp;baseUrlToExclude,
        long&nbsp;exclusionDurationMs)</code></th>
 <td class="colLast">
 <div class="block">Excludes the given base URL.</div>
@@ -185,14 +185,14 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>static int</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getPriorityCount(java.util.List)">getPriorityCount</a></span>&#8203;(<a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="manifest/BaseUrl.html" title="class in com.google.android.exoplayer2.source.dash.manifest" target="_top">BaseUrl</a>&gt;&nbsp;baseUrls)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getPriorityCount(java.util.List)">getPriorityCount</a></span>&#8203;(<a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="manifest/BaseUrl.html" title="class in com.readwise.android.exoplayer2.source.dash.manifest" target="_top">BaseUrl</a>&gt;&nbsp;baseUrls)</code></th>
 <td class="colLast">
 <div class="block">Returns the number of priority levels of the given list of base URLs.</div>
 </td>
 </tr>
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>int</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getPriorityCountAfterExclusion(java.util.List)">getPriorityCountAfterExclusion</a></span>&#8203;(<a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="manifest/BaseUrl.html" title="class in com.google.android.exoplayer2.source.dash.manifest" target="_top">BaseUrl</a>&gt;&nbsp;baseUrls)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getPriorityCountAfterExclusion(java.util.List)">getPriorityCountAfterExclusion</a></span>&#8203;(<a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="manifest/BaseUrl.html" title="class in com.readwise.android.exoplayer2.source.dash.manifest" target="_top">BaseUrl</a>&gt;&nbsp;baseUrls)</code></th>
 <td class="colLast">
 <div class="block">Returns the number of priority levels for the given list of base URLs after exclusion.</div>
 </td>
@@ -205,8 +205,8 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 </td>
 </tr>
 <tr id="i4" class="altColor">
-<td class="colFirst"><code><a href="manifest/BaseUrl.html" title="class in com.google.android.exoplayer2.source.dash.manifest">BaseUrl</a></code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#selectBaseUrl(java.util.List)">selectBaseUrl</a></span>&#8203;(<a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="manifest/BaseUrl.html" title="class in com.google.android.exoplayer2.source.dash.manifest" target="_top">BaseUrl</a>&gt;&nbsp;baseUrls)</code></th>
+<td class="colFirst"><code><a href="manifest/BaseUrl.html" title="class in com.readwise.android.exoplayer2.source.dash.manifest">BaseUrl</a></code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#selectBaseUrl(java.util.List)">selectBaseUrl</a></span>&#8203;(<a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="manifest/BaseUrl.html" title="class in com.readwise.android.exoplayer2.source.dash.manifest" target="_top">BaseUrl</a>&gt;&nbsp;baseUrls)</code></th>
 <td class="colLast">
 <div class="block">Selects the base URL to use from the given list.</div>
 </td>
@@ -255,13 +255,13 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="exclude(com.google.android.exoplayer2.source.dash.manifest.BaseUrl,long)">
+<a id="exclude(com.readwise.android.exoplayer2.source.dash.manifest.BaseUrl,long)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>exclude</h4>
-<pre class="methodSignature">public&nbsp;void&nbsp;exclude&#8203;(<a href="manifest/BaseUrl.html" title="class in com.google.android.exoplayer2.source.dash.manifest">BaseUrl</a>&nbsp;baseUrlToExclude,
+<pre class="methodSignature">public&nbsp;void&nbsp;exclude&#8203;(<a href="manifest/BaseUrl.html" title="class in com.readwise.android.exoplayer2.source.dash.manifest">BaseUrl</a>&nbsp;baseUrlToExclude,
                     long&nbsp;exclusionDurationMs)</pre>
 <div class="block">Excludes the given base URL.</div>
 <dl>
@@ -278,15 +278,15 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 <li class="blockList">
 <h4>selectBaseUrl</h4>
 <pre class="methodSignature">@Nullable
-public&nbsp;<a href="manifest/BaseUrl.html" title="class in com.google.android.exoplayer2.source.dash.manifest">BaseUrl</a>&nbsp;selectBaseUrl&#8203;(<a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="manifest/BaseUrl.html" title="class in com.google.android.exoplayer2.source.dash.manifest" target="_top">BaseUrl</a>&gt;&nbsp;baseUrls)</pre>
+public&nbsp;<a href="manifest/BaseUrl.html" title="class in com.readwise.android.exoplayer2.source.dash.manifest">BaseUrl</a>&nbsp;selectBaseUrl&#8203;(<a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="manifest/BaseUrl.html" title="class in com.readwise.android.exoplayer2.source.dash.manifest" target="_top">BaseUrl</a>&gt;&nbsp;baseUrls)</pre>
 <div class="block">Selects the base URL to use from the given list.
 
  <p>The list is reduced by service location and priority of base URLs that have been passed to
- <a href="#exclude(com.google.android.exoplayer2.source.dash.manifest.BaseUrl,long)"><code>exclude(BaseUrl, long)</code></a>. The base URL to use is then selected from the remaining base
+ <a href="#exclude(com.readwise.android.exoplayer2.source.dash.manifest.BaseUrl,long)"><code>exclude(BaseUrl, long)</code></a>. The base URL to use is then selected from the remaining base
  URLs by priority and weight.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>baseUrls</code> - The list of <a href="manifest/BaseUrl.html" title="class in com.google.android.exoplayer2.source.dash.manifest"><code>base URLs</code></a> to select from.</dd>
+<dd><code>baseUrls</code> - The list of <a href="manifest/BaseUrl.html" title="class in com.readwise.android.exoplayer2.source.dash.manifest"><code>base URLs</code></a> to select from.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>The selected base URL after exclusion or null if all elements have been excluded.</dd>
 </dl>
@@ -298,7 +298,7 @@ public&nbsp;<a href="manifest/BaseUrl.html" title="class in com.google.android.e
 <ul class="blockList">
 <li class="blockList">
 <h4>getPriorityCountAfterExclusion</h4>
-<pre class="methodSignature">public&nbsp;int&nbsp;getPriorityCountAfterExclusion&#8203;(<a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="manifest/BaseUrl.html" title="class in com.google.android.exoplayer2.source.dash.manifest" target="_top">BaseUrl</a>&gt;&nbsp;baseUrls)</pre>
+<pre class="methodSignature">public&nbsp;int&nbsp;getPriorityCountAfterExclusion&#8203;(<a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="manifest/BaseUrl.html" title="class in com.readwise.android.exoplayer2.source.dash.manifest" target="_top">BaseUrl</a>&gt;&nbsp;baseUrls)</pre>
 <div class="block">Returns the number of priority levels for the given list of base URLs after exclusion.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -314,7 +314,7 @@ public&nbsp;<a href="manifest/BaseUrl.html" title="class in com.google.android.e
 <ul class="blockList">
 <li class="blockList">
 <h4>getPriorityCount</h4>
-<pre class="methodSignature">public static&nbsp;int&nbsp;getPriorityCount&#8203;(<a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="manifest/BaseUrl.html" title="class in com.google.android.exoplayer2.source.dash.manifest" target="_top">BaseUrl</a>&gt;&nbsp;baseUrls)</pre>
+<pre class="methodSignature">public static&nbsp;int&nbsp;getPriorityCount&#8203;(<a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="manifest/BaseUrl.html" title="class in com.readwise.android.exoplayer2.source.dash.manifest" target="_top">BaseUrl</a>&gt;&nbsp;baseUrls)</pre>
 <div class="block">Returns the number of priority levels of the given list of base URLs.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>

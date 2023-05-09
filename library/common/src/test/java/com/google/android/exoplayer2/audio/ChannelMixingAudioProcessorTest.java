@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.audio;
+package com.readwise.android.exoplayer2.audio;
 
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.audio.AudioProcessor.AudioFormat;
-import com.google.android.exoplayer2.audio.AudioProcessor.UnhandledAudioFormatException;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.audio.AudioProcessor.AudioFormat;
+import com.readwise.android.exoplayer2.audio.AudioProcessor.UnhandledAudioFormatException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import org.junit.Before;

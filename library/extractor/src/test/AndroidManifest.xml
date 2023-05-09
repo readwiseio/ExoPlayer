@@ -14,6 +14,6 @@
      limitations under the License.
 -->
 
-<manifest package="com.google.android.exoplayer2.extractor.test">
+<manifest package="com.readwise.android.exoplayer2.extractor.test">
   <uses-sdk/>
 </manifest>

@@ -13,20 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.effect;
+package com.readwise.android.exoplayer2.effect;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
 
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.opengl.GLES20;
 import android.opengl.GLUtils;
-import com.google.android.exoplayer2.upstream.DataSourceBitmapLoader;
-import com.google.android.exoplayer2.util.BitmapLoader;
-import com.google.android.exoplayer2.util.GlUtil;
-import com.google.android.exoplayer2.util.Size;
-import com.google.android.exoplayer2.util.VideoFrameProcessingException;
+import com.readwise.android.exoplayer2.upstream.DataSourceBitmapLoader;
+import com.readwise.android.exoplayer2.util.BitmapLoader;
+import com.readwise.android.exoplayer2.util.GlUtil;
+import com.readwise.android.exoplayer2.util.Size;
+import com.readwise.android.exoplayer2.util.VideoFrameProcessingException;
 import com.google.common.util.concurrent.ListenableFuture;
 import java.util.concurrent.ExecutionException;
 import org.checkerframework.checker.nullness.qual.MonotonicNonNull;

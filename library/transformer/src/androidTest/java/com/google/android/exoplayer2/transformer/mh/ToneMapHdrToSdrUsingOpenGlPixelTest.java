@@ -13,27 +13,27 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.transformer.mh;
+package com.readwise.android.exoplayer2.transformer.mh;
 
 import static androidx.test.core.app.ApplicationProvider.getApplicationContext;
-import static com.google.android.exoplayer2.testutil.BitmapPixelTestUtil.getBitmapAveragePixelAbsoluteDifferenceArgb8888;
-import static com.google.android.exoplayer2.testutil.BitmapPixelTestUtil.readBitmap;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_1080P_5_SECOND_HLG10_FORMAT;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_720P_4_SECOND_HDR10_FORMAT;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.recordTestSkipped;
-import static com.google.android.exoplayer2.transformer.AndroidTestUtil.skipAndLogIfFormatsUnsupported;
+import static com.readwise.android.exoplayer2.testutil.BitmapPixelTestUtil.getBitmapAveragePixelAbsoluteDifferenceArgb8888;
+import static com.readwise.android.exoplayer2.testutil.BitmapPixelTestUtil.readBitmap;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_1080P_5_SECOND_HLG10_FORMAT;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.MP4_ASSET_720P_4_SECOND_HDR10_FORMAT;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.recordTestSkipped;
+import static com.readwise.android.exoplayer2.transformer.AndroidTestUtil.skipAndLogIfFormatsUnsupported;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.graphics.Bitmap;
 import android.util.Log;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.effect.DefaultVideoFrameProcessor;
-import com.google.android.exoplayer2.testutil.DecodeOneFrameUtil;
-import com.google.android.exoplayer2.testutil.VideoFrameProcessorTestRunner;
-import com.google.android.exoplayer2.util.GlUtil;
-import com.google.android.exoplayer2.util.Util;
-import com.google.android.exoplayer2.video.ColorInfo;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.effect.DefaultVideoFrameProcessor;
+import com.readwise.android.exoplayer2.testutil.DecodeOneFrameUtil;
+import com.readwise.android.exoplayer2.testutil.VideoFrameProcessorTestRunner;
+import com.readwise.android.exoplayer2.util.GlUtil;
+import com.readwise.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.video.ColorInfo;
 import org.checkerframework.checker.nullness.qual.MonotonicNonNull;
 import org.junit.After;
 import org.junit.Test;

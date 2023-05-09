@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.smoothstreaming;
+package com.readwise.android.exoplayer2.source.smoothstreaming;
 
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.extractor.mp4.TrackEncryptionBox;
-import com.google.android.exoplayer2.source.smoothstreaming.manifest.SsManifest;
-import com.google.android.exoplayer2.source.smoothstreaming.manifest.SsManifest.ProtectionElement;
-import com.google.android.exoplayer2.source.smoothstreaming.manifest.SsManifest.StreamElement;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.extractor.mp4.TrackEncryptionBox;
+import com.readwise.android.exoplayer2.source.smoothstreaming.manifest.SsManifest;
+import com.readwise.android.exoplayer2.source.smoothstreaming.manifest.SsManifest.ProtectionElement;
+import com.readwise.android.exoplayer2.source.smoothstreaming.manifest.SsManifest.StreamElement;
 import java.util.Collections;
 
 /** Util methods for SmoothStreaming tests. */

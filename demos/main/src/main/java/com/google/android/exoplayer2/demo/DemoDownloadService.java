@@ -13,22 +13,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.demo;
+package com.readwise.android.exoplayer2.demo;
 
-import static com.google.android.exoplayer2.demo.DemoUtil.DOWNLOAD_NOTIFICATION_CHANNEL_ID;
+import static com.readwise.android.exoplayer2.demo.DemoUtil.DOWNLOAD_NOTIFICATION_CHANNEL_ID;
 
 import android.app.Notification;
 import android.content.Context;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.offline.Download;
-import com.google.android.exoplayer2.offline.DownloadManager;
-import com.google.android.exoplayer2.offline.DownloadService;
-import com.google.android.exoplayer2.scheduler.PlatformScheduler;
-import com.google.android.exoplayer2.scheduler.Requirements;
-import com.google.android.exoplayer2.scheduler.Scheduler;
-import com.google.android.exoplayer2.ui.DownloadNotificationHelper;
-import com.google.android.exoplayer2.util.NotificationUtil;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.offline.Download;
+import com.readwise.android.exoplayer2.offline.DownloadManager;
+import com.readwise.android.exoplayer2.offline.DownloadService;
+import com.readwise.android.exoplayer2.scheduler.PlatformScheduler;
+import com.readwise.android.exoplayer2.scheduler.Requirements;
+import com.readwise.android.exoplayer2.scheduler.Scheduler;
+import com.readwise.android.exoplayer2.ui.DownloadNotificationHelper;
+import com.readwise.android.exoplayer2.util.NotificationUtil;
+import com.readwise.android.exoplayer2.util.Util;
 import java.util.List;
 
 /** A service for downloading media. */

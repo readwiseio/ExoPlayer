@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.upstream.cache;
+package com.readwise.android.exoplayer2.upstream.cache;
 
-import static com.google.android.exoplayer2.testutil.CacheAsserts.assertCacheEmpty;
+import static com.readwise.android.exoplayer2.testutil.CacheAsserts.assertCacheEmpty;
 import static com.google.common.truth.Truth.assertThat;
 import static java.lang.Math.min;
 import static org.junit.Assert.fail;
@@ -24,15 +24,15 @@ import android.net.Uri;
 import androidx.annotation.Nullable;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.testutil.CacheAsserts;
-import com.google.android.exoplayer2.testutil.FakeDataSet.FakeData;
-import com.google.android.exoplayer2.testutil.FakeDataSource;
-import com.google.android.exoplayer2.testutil.TestUtil;
-import com.google.android.exoplayer2.upstream.DataSourceUtil;
-import com.google.android.exoplayer2.upstream.DataSpec;
-import com.google.android.exoplayer2.upstream.FileDataSource;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.testutil.CacheAsserts;
+import com.readwise.android.exoplayer2.testutil.FakeDataSet.FakeData;
+import com.readwise.android.exoplayer2.testutil.FakeDataSource;
+import com.readwise.android.exoplayer2.testutil.TestUtil;
+import com.readwise.android.exoplayer2.upstream.DataSourceUtil;
+import com.readwise.android.exoplayer2.upstream.DataSpec;
+import com.readwise.android.exoplayer2.upstream.FileDataSource;
+import com.readwise.android.exoplayer2.util.Util;
 import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;

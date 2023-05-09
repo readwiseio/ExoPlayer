@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.metadata;
+package com.readwise.android.exoplayer2.metadata;
 
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.metadata.dvbsi.AppInfoTableDecoder;
-import com.google.android.exoplayer2.metadata.emsg.EventMessageDecoder;
-import com.google.android.exoplayer2.metadata.icy.IcyDecoder;
-import com.google.android.exoplayer2.metadata.id3.Id3Decoder;
-import com.google.android.exoplayer2.metadata.scte35.SpliceInfoDecoder;
-import com.google.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.metadata.dvbsi.AppInfoTableDecoder;
+import com.readwise.android.exoplayer2.metadata.emsg.EventMessageDecoder;
+import com.readwise.android.exoplayer2.metadata.icy.IcyDecoder;
+import com.readwise.android.exoplayer2.metadata.id3.Id3Decoder;
+import com.readwise.android.exoplayer2.metadata.scte35.SpliceInfoDecoder;
+import com.readwise.android.exoplayer2.util.MimeTypes;
 
 /** A factory for {@link MetadataDecoder} instances. */
 public interface MetadataDecoderFactory {

@@ -13,38 +13,38 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.extractor.mp4;
+package com.readwise.android.exoplayer2.extractor.mp4;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.MimeTypes.getMimeTypeFromMp4ObjectType;
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.MimeTypes.getMimeTypeFromMp4ObjectType;
+import static com.readwise.android.exoplayer2.util.Util.castNonNull;
 import static java.lang.Math.max;
 
 import android.util.Pair;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.ParserException;
-import com.google.android.exoplayer2.audio.AacUtil;
-import com.google.android.exoplayer2.audio.Ac3Util;
-import com.google.android.exoplayer2.audio.Ac4Util;
-import com.google.android.exoplayer2.audio.OpusUtil;
-import com.google.android.exoplayer2.drm.DrmInitData;
-import com.google.android.exoplayer2.extractor.ExtractorUtil;
-import com.google.android.exoplayer2.extractor.GaplessInfoHolder;
-import com.google.android.exoplayer2.extractor.mp4.Atom.LeafAtom;
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.metadata.mp4.Mp4LocationData;
-import com.google.android.exoplayer2.metadata.mp4.SmtaMetadataEntry;
-import com.google.android.exoplayer2.util.CodecSpecificDataUtil;
-import com.google.android.exoplayer2.util.Log;
-import com.google.android.exoplayer2.util.MimeTypes;
-import com.google.android.exoplayer2.util.ParsableByteArray;
-import com.google.android.exoplayer2.util.Util;
-import com.google.android.exoplayer2.video.AvcConfig;
-import com.google.android.exoplayer2.video.ColorInfo;
-import com.google.android.exoplayer2.video.DolbyVisionConfig;
-import com.google.android.exoplayer2.video.HevcConfig;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.ParserException;
+import com.readwise.android.exoplayer2.audio.AacUtil;
+import com.readwise.android.exoplayer2.audio.Ac3Util;
+import com.readwise.android.exoplayer2.audio.Ac4Util;
+import com.readwise.android.exoplayer2.audio.OpusUtil;
+import com.readwise.android.exoplayer2.drm.DrmInitData;
+import com.readwise.android.exoplayer2.extractor.ExtractorUtil;
+import com.readwise.android.exoplayer2.extractor.GaplessInfoHolder;
+import com.readwise.android.exoplayer2.extractor.mp4.Atom.LeafAtom;
+import com.readwise.android.exoplayer2.metadata.Metadata;
+import com.readwise.android.exoplayer2.metadata.mp4.Mp4LocationData;
+import com.readwise.android.exoplayer2.metadata.mp4.SmtaMetadataEntry;
+import com.readwise.android.exoplayer2.util.CodecSpecificDataUtil;
+import com.readwise.android.exoplayer2.util.Log;
+import com.readwise.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.util.ParsableByteArray;
+import com.readwise.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.video.AvcConfig;
+import com.readwise.android.exoplayer2.video.ColorInfo;
+import com.readwise.android.exoplayer2.video.DolbyVisionConfig;
+import com.readwise.android.exoplayer2.video.HevcConfig;
 import com.google.common.base.Function;
 import com.google.common.collect.ImmutableList;
 import com.google.common.primitives.Ints;

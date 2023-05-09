@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.testutil;
+package com.readwise.android.exoplayer2.testutil;
 
-import static com.google.android.exoplayer2.testutil.WebServerDispatcher.getRequestPath;
+import static com.readwise.android.exoplayer2.testutil.WebServerDispatcher.getRequestPath;
 
 import android.net.Uri;
 import androidx.annotation.RequiresApi;
-import com.google.android.exoplayer2.upstream.HttpDataSource;
+import com.readwise.android.exoplayer2.upstream.HttpDataSource;
 import com.google.common.collect.ImmutableList;
 import java.io.IOException;
 import okhttp3.mockwebserver.Dispatcher;

@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.metadata.scte35;
+package com.readwise.android.exoplayer2.metadata.scte35;
 
-import com.google.android.exoplayer2.metadata.Metadata;
+import com.readwise.android.exoplayer2.metadata.Metadata;
 
 /** Superclass for SCTE35 splice commands. */
 public abstract class SpliceCommand implements Metadata.Entry {

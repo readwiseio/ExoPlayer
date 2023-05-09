@@ -15,14 +15,14 @@
  */
 package androidx.media3.muxer;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
 import static java.lang.annotation.ElementType.TYPE_USE;
 
 import android.media.MediaCodec.BufferInfo;
 import androidx.annotation.FloatRange;
 import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.Format;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.io.FileOutputStream;
 import java.io.IOException;

@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2;
+package com.readwise.android.exoplayer2;
 
 import android.os.Handler;
 import android.os.Looper;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.Renderer.MessageType;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Clock;
+import com.readwise.android.exoplayer2.Renderer.MessageType;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Clock;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import java.util.concurrent.TimeoutException;
 

@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.upstream.cache;
+package com.readwise.android.exoplayer2.upstream.cache;
 
-import com.google.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.C;
 
 /**
  * Evicts data from a {@link Cache}. Implementations should call {@link Cache#removeSpan(CacheSpan)}

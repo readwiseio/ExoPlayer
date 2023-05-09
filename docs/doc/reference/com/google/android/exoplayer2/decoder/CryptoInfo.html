@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.decoder</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.decoder</a></div>
 <h2 title="Class CryptoInfo" class="title">Class CryptoInfo</h2>
 </div>
 <div class="contentContainer">
@@ -121,7 +121,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li><a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">java.lang.Object</a></li>
 <li>
 <ul class="inheritance">
-<li>com.google.android.exoplayer2.decoder.CryptoInfo</li>
+<li>com.readwise.android.exoplayer2.decoder.CryptoInfo</li>
 </ul>
 </li>
 </ul>
@@ -179,7 +179,7 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 </td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code>@com.google.android.exoplayer2.C.CryptoMode int</code></td>
+<td class="colFirst"><code>@com.readwise.android.exoplayer2.C.CryptoMode int</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#mode">mode</a></span></code></th>
 <td class="colLast">
 <div class="block">The type of encryption that has been applied.</div>
@@ -261,12 +261,12 @@ extends <a href="https://developer.android.com/reference/java/lang/Object.html" 
 </tr>
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#set(int,int%5B%5D,int%5B%5D,byte%5B%5D,byte%5B%5D,@com.google.android.exoplayer2.C.CryptoModeint,int,int)">set</a></span>&#8203;(int&nbsp;numSubSamples,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#set(int,int%5B%5D,int%5B%5D,byte%5B%5D,byte%5B%5D,@com.readwise.android.exoplayer2.C.CryptoModeint,int,int)">set</a></span>&#8203;(int&nbsp;numSubSamples,
    int[]&nbsp;numBytesOfClearData,
    int[]&nbsp;numBytesOfEncryptedData,
    byte[]&nbsp;key,
    byte[]&nbsp;iv,
-   @com.google.android.exoplayer2.C.CryptoMode int&nbsp;mode,
+   @com.readwise.android.exoplayer2.C.CryptoMode int&nbsp;mode,
    int&nbsp;encryptedBlocks,
    int&nbsp;clearBlocks)</code></th>
 <td class="colLast">&nbsp;</td>
@@ -332,8 +332,8 @@ public&nbsp;byte[] key</pre>
 <ul class="blockList">
 <li class="blockList">
 <h4>mode</h4>
-<pre>public&nbsp;@com.google.android.exoplayer2.C.CryptoMode int mode</pre>
-<div class="block">The type of encryption that has been applied. Must be one of the <a href="../C.CryptoMode.html" title="annotation in com.google.android.exoplayer2"><code>C.CryptoMode</code></a> values.</div>
+<pre>public&nbsp;@com.readwise.android.exoplayer2.C.CryptoMode int mode</pre>
+<div class="block">The type of encryption that has been applied. Must be one of the <a href="../C.CryptoMode.html" title="annotation in com.readwise.android.exoplayer2"><code>C.CryptoMode</code></a> values.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
 <dd><a href="https://developer.android.com/reference/android/media/MediaCodec.CryptoInfo.html#mode" title="class or interface in android.media" class="externalLink" target="_top"><code>MediaCodec.CryptoInfo.mode</code></a></dd>
@@ -441,7 +441,7 @@ public&nbsp;int[] numBytesOfEncryptedData</pre>
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="set(int,int[],int[],byte[],byte[],@com.google.android.exoplayer2.C.CryptoModeint,int,int)">
+<a id="set(int,int[],int[],byte[],byte[],@com.readwise.android.exoplayer2.C.CryptoModeint,int,int)">
 <!--   -->
 </a>
 <ul class="blockList">
@@ -452,7 +452,7 @@ public&nbsp;int[] numBytesOfEncryptedData</pre>
                 int[]&nbsp;numBytesOfEncryptedData,
                 byte[]&nbsp;key,
                 byte[]&nbsp;iv,
-                @com.google.android.exoplayer2.C.CryptoMode int&nbsp;mode,
+                @com.readwise.android.exoplayer2.C.CryptoMode int&nbsp;mode,
                 int&nbsp;encryptedBlocks,
                 int&nbsp;clearBlocks)</pre>
 <dl>
@@ -470,8 +470,8 @@ public&nbsp;int[] numBytesOfEncryptedData</pre>
 <pre class="methodSignature">public&nbsp;<a href="https://developer.android.com/reference/android/media/MediaCodec.CryptoInfo.html" title="class or interface in android.media" class="externalLink" target="_top">MediaCodec.CryptoInfo</a>&nbsp;getFrameworkCryptoInfo()</pre>
 <div class="block">Returns an equivalent <a href="https://developer.android.com/reference/android/media/MediaCodec.CryptoInfo.html" title="class or interface in android.media" class="externalLink" target="_top"><code>MediaCodec.CryptoInfo</code></a> instance.
 
- <p>Successive calls to this method on a single <a href="CryptoInfo.html" title="class in com.google.android.exoplayer2.decoder"><code>CryptoInfo</code></a> will return the same
- instance. Changes to the <a href="CryptoInfo.html" title="class in com.google.android.exoplayer2.decoder"><code>CryptoInfo</code></a> will be reflected in the returned object. The
+ <p>Successive calls to this method on a single <a href="CryptoInfo.html" title="class in com.readwise.android.exoplayer2.decoder"><code>CryptoInfo</code></a> will return the same
+ instance. Changes to the <a href="CryptoInfo.html" title="class in com.readwise.android.exoplayer2.decoder"><code>CryptoInfo</code></a> will be reflected in the returned object. The
  return object should not be modified directly.</div>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>

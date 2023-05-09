@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source;
+package com.readwise.android.exoplayer2.source;
 
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
@@ -21,7 +21,7 @@ import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.verify;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.drm.DrmSessionManager.DrmSessionReference;
+import com.readwise.android.exoplayer2.drm.DrmSessionManager.DrmSessionReference;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;

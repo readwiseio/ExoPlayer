@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.extractor;
+package com.readwise.android.exoplayer2.extractor;
 
 import static java.lang.Math.max;
 import static java.lang.Math.min;
 
-import com.google.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.C;
 
 /**
  * A {@link SeekMap} implementation that assumes the stream has a constant bitrate and consists of

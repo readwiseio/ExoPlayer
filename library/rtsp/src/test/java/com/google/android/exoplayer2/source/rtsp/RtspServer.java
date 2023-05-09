@@ -13,19 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.rtsp;
+package com.readwise.android.exoplayer2.source.rtsp;
 
-import static com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_DESCRIBE;
-import static com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_OPTIONS;
-import static com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_PLAY;
-import static com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_SETUP;
-import static com.google.android.exoplayer2.source.rtsp.RtspRequest.METHOD_TEARDOWN;
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.source.rtsp.RtspRequest.METHOD_DESCRIBE;
+import static com.readwise.android.exoplayer2.source.rtsp.RtspRequest.METHOD_OPTIONS;
+import static com.readwise.android.exoplayer2.source.rtsp.RtspRequest.METHOD_PLAY;
+import static com.readwise.android.exoplayer2.source.rtsp.RtspRequest.METHOD_SETUP;
+import static com.readwise.android.exoplayer2.source.rtsp.RtspRequest.METHOD_TEARDOWN;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
 
 import android.net.Uri;
 import android.os.Handler;
 import android.os.Looper;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.source.rtsp.RtspHeaders;
+import com.readwise.android.exoplayer2.source.rtsp.RtspMessageChannel;
+import com.readwise.android.exoplayer2.source.rtsp.RtspMessageUtil;
+import com.readwise.android.exoplayer2.source.rtsp.RtspRequest;
+import com.readwise.android.exoplayer2.source.rtsp.RtspResponse;
 import java.io.Closeable;
 import java.io.IOException;
 import java.net.InetAddress;

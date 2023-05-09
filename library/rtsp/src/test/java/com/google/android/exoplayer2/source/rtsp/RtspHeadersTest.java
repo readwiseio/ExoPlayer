@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.rtsp;
+package com.readwise.android.exoplayer2.source.rtsp;
 
 import static com.google.common.truth.Truth.assertThat;
 
@@ -21,6 +21,7 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.ListMultimap;
+import com.readwise.android.exoplayer2.source.rtsp.RtspHeaders;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

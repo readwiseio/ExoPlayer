@@ -13,35 +13,35 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.hls.playlist;
+package com.readwise.android.exoplayer2.source.hls.playlist;
 
-import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
-import static com.google.android.exoplayer2.util.Util.castNonNull;
+import static com.readwise.android.exoplayer2.util.Assertions.checkNotNull;
+import static com.readwise.android.exoplayer2.util.Util.castNonNull;
 import static java.lang.Math.max;
 
 import android.net.Uri;
 import android.os.Handler;
 import android.os.SystemClock;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.ParserException;
-import com.google.android.exoplayer2.source.LoadEventInfo;
-import com.google.android.exoplayer2.source.MediaLoadData;
-import com.google.android.exoplayer2.source.MediaSourceEventListener.EventDispatcher;
-import com.google.android.exoplayer2.source.hls.HlsDataSourceFactory;
-import com.google.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Part;
-import com.google.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.RenditionReport;
-import com.google.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Segment;
-import com.google.android.exoplayer2.source.hls.playlist.HlsMultivariantPlaylist.Variant;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.HttpDataSource;
-import com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
-import com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy.LoadErrorInfo;
-import com.google.android.exoplayer2.upstream.Loader;
-import com.google.android.exoplayer2.upstream.Loader.LoadErrorAction;
-import com.google.android.exoplayer2.upstream.ParsingLoadable;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.ParserException;
+import com.readwise.android.exoplayer2.source.LoadEventInfo;
+import com.readwise.android.exoplayer2.source.MediaLoadData;
+import com.readwise.android.exoplayer2.source.MediaSourceEventListener.EventDispatcher;
+import com.readwise.android.exoplayer2.source.hls.HlsDataSourceFactory;
+import com.readwise.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Part;
+import com.readwise.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.RenditionReport;
+import com.readwise.android.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Segment;
+import com.readwise.android.exoplayer2.source.hls.playlist.HlsMultivariantPlaylist.Variant;
+import com.readwise.android.exoplayer2.upstream.DataSource;
+import com.readwise.android.exoplayer2.upstream.HttpDataSource;
+import com.readwise.android.exoplayer2.upstream.LoadErrorHandlingPolicy;
+import com.readwise.android.exoplayer2.upstream.LoadErrorHandlingPolicy.LoadErrorInfo;
+import com.readwise.android.exoplayer2.upstream.Loader;
+import com.readwise.android.exoplayer2.upstream.Loader.LoadErrorAction;
+import com.readwise.android.exoplayer2.upstream.ParsingLoadable;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.Iterables;
 import java.io.IOException;
 import java.util.HashMap;

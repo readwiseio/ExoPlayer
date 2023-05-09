@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ext.av1;
+package com.readwise.android.exoplayer2.ext.av1;
 
 import static androidx.annotation.VisibleForTesting.PACKAGE_PRIVATE;
 import static java.lang.Runtime.getRuntime;
@@ -21,11 +21,11 @@ import static java.lang.Runtime.getRuntime;
 import android.view.Surface;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
-import com.google.android.exoplayer2.decoder.SimpleDecoder;
-import com.google.android.exoplayer2.decoder.VideoDecoderOutputBuffer;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.decoder.DecoderInputBuffer;
+import com.readwise.android.exoplayer2.decoder.SimpleDecoder;
+import com.readwise.android.exoplayer2.decoder.VideoDecoderOutputBuffer;
+import com.readwise.android.exoplayer2.util.Util;
 import java.nio.ByteBuffer;
 
 /** Gav1 decoder. */

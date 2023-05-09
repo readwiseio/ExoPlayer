@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.drm;
+package com.readwise.android.exoplayer2.drm;
 
-import com.google.android.exoplayer2.drm.ExoMediaDrm.KeyRequest;
-import com.google.android.exoplayer2.drm.ExoMediaDrm.ProvisionRequest;
-import com.google.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.drm.ExoMediaDrm.KeyRequest;
+import com.readwise.android.exoplayer2.drm.ExoMediaDrm.ProvisionRequest;
+import com.readwise.android.exoplayer2.util.Assertions;
 import java.util.UUID;
 
 /**

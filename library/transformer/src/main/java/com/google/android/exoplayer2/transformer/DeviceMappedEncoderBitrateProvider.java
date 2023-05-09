@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.google.android.exoplayer2.transformer;
+package com.readwise.android.exoplayer2.transformer;
 
 import android.os.Build;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.util.Util;
 
 /** Provides encoder bitrates that should target 0.95 SSIM or higher, accounting for device used. */
 /* package */ class DeviceMappedEncoderBitrateProvider implements EncoderBitrateProvider {

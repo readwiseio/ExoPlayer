@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.offline;
+package com.readwise.android.exoplayer2.offline;
 
 import android.util.SparseArray;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.MediaItem;
-import com.google.android.exoplayer2.upstream.cache.CacheDataSource;
-import com.google.android.exoplayer2.util.Assertions;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.MediaItem;
+import com.readwise.android.exoplayer2.upstream.cache.CacheDataSource;
+import com.readwise.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.util.Util;
 import java.lang.reflect.Constructor;
 import java.util.concurrent.Executor;
 
@@ -113,7 +113,7 @@ public class DefaultDownloaderFactory implements DownloaderFactory {
       array.put(
           C.CONTENT_TYPE_DASH,
           getDownloaderConstructor(
-              Class.forName("com.google.android.exoplayer2.source.dash.offline.DashDownloader")));
+              Class.forName("com.readwise.android.exoplayer2.source.dash.offline.DashDownloader")));
     } catch (ClassNotFoundException e) {
       // Expected if the app was built without the DASH module.
     }
@@ -122,7 +122,7 @@ public class DefaultDownloaderFactory implements DownloaderFactory {
       array.put(
           C.CONTENT_TYPE_HLS,
           getDownloaderConstructor(
-              Class.forName("com.google.android.exoplayer2.source.hls.offline.HlsDownloader")));
+              Class.forName("com.readwise.android.exoplayer2.source.hls.offline.HlsDownloader")));
     } catch (ClassNotFoundException e) {
       // Expected if the app was built without the HLS module.
     }
@@ -131,7 +131,7 @@ public class DefaultDownloaderFactory implements DownloaderFactory {
           C.CONTENT_TYPE_SS,
           getDownloaderConstructor(
               Class.forName(
-                  "com.google.android.exoplayer2.source.smoothstreaming.offline.SsDownloader")));
+                  "com.readwise.android.exoplayer2.source.smoothstreaming.offline.SsDownloader")));
     } catch (ClassNotFoundException e) {
       // Expected if the app was built without the SmoothStreaming module.
     }

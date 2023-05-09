@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.ui;
+package com.readwise.android.exoplayer2.ui;
 
-import static com.google.android.exoplayer2.Player.COMMAND_GET_TRACKS;
-import static com.google.android.exoplayer2.Player.COMMAND_SET_TRACK_SELECTION_PARAMETERS;
+import static com.readwise.android.exoplayer2.Player.COMMAND_GET_TRACKS;
+import static com.readwise.android.exoplayer2.Player.COMMAND_SET_TRACK_SELECTION_PARAMETERS;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -26,13 +26,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import androidx.annotation.Nullable;
 import androidx.annotation.StyleRes;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Format;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.Tracks;
-import com.google.android.exoplayer2.source.TrackGroup;
-import com.google.android.exoplayer2.trackselection.TrackSelectionOverride;
-import com.google.android.exoplayer2.trackselection.TrackSelectionParameters;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Format;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.Tracks;
+import com.readwise.android.exoplayer2.source.TrackGroup;
+import com.readwise.android.exoplayer2.trackselection.TrackSelectionOverride;
+import com.readwise.android.exoplayer2.trackselection.TrackSelectionParameters;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
 import java.lang.reflect.Constructor;

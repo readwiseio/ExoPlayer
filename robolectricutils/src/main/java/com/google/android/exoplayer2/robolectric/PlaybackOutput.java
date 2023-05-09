@@ -13,32 +13,32 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.robolectric;
+package com.readwise.android.exoplayer2.robolectric;
 
 import static java.lang.Math.max;
 
 import android.graphics.Bitmap;
 import androidx.annotation.Nullable;
-import com.google.android.exoplayer2.ExoPlayer;
-import com.google.android.exoplayer2.Player;
-import com.google.android.exoplayer2.metadata.Metadata;
-import com.google.android.exoplayer2.metadata.dvbsi.AppInfoTable;
-import com.google.android.exoplayer2.metadata.emsg.EventMessage;
-import com.google.android.exoplayer2.metadata.flac.PictureFrame;
-import com.google.android.exoplayer2.metadata.icy.IcyHeaders;
-import com.google.android.exoplayer2.metadata.icy.IcyInfo;
-import com.google.android.exoplayer2.metadata.id3.Id3Frame;
-import com.google.android.exoplayer2.metadata.mp4.MdtaMetadataEntry;
-import com.google.android.exoplayer2.metadata.mp4.MotionPhotoMetadata;
-import com.google.android.exoplayer2.metadata.mp4.SlowMotionData;
-import com.google.android.exoplayer2.metadata.mp4.SmtaMetadataEntry;
-import com.google.android.exoplayer2.metadata.scte35.SpliceCommand;
-import com.google.android.exoplayer2.metadata.vorbis.VorbisComment;
-import com.google.android.exoplayer2.testutil.CapturingRenderersFactory;
-import com.google.android.exoplayer2.testutil.Dumper;
-import com.google.android.exoplayer2.text.Cue;
-import com.google.android.exoplayer2.text.CueGroup;
-import com.google.android.exoplayer2.util.Util;
+import com.readwise.android.exoplayer2.ExoPlayer;
+import com.readwise.android.exoplayer2.Player;
+import com.readwise.android.exoplayer2.metadata.Metadata;
+import com.readwise.android.exoplayer2.metadata.dvbsi.AppInfoTable;
+import com.readwise.android.exoplayer2.metadata.emsg.EventMessage;
+import com.readwise.android.exoplayer2.metadata.flac.PictureFrame;
+import com.readwise.android.exoplayer2.metadata.icy.IcyHeaders;
+import com.readwise.android.exoplayer2.metadata.icy.IcyInfo;
+import com.readwise.android.exoplayer2.metadata.id3.Id3Frame;
+import com.readwise.android.exoplayer2.metadata.mp4.MdtaMetadataEntry;
+import com.readwise.android.exoplayer2.metadata.mp4.MotionPhotoMetadata;
+import com.readwise.android.exoplayer2.metadata.mp4.SlowMotionData;
+import com.readwise.android.exoplayer2.metadata.mp4.SmtaMetadataEntry;
+import com.readwise.android.exoplayer2.metadata.scte35.SpliceCommand;
+import com.readwise.android.exoplayer2.metadata.vorbis.VorbisComment;
+import com.readwise.android.exoplayer2.testutil.CapturingRenderersFactory;
+import com.readwise.android.exoplayer2.testutil.Dumper;
+import com.readwise.android.exoplayer2.text.Cue;
+import com.readwise.android.exoplayer2.text.CueGroup;
+import com.readwise.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableList;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
@@ -146,7 +146,7 @@ public final class PlaybackOutput implements Dumper.Dumpable {
         || entry instanceof IcyHeaders
         || entry instanceof IcyInfo
         || entry instanceof SpliceCommand
-        || "com.google.android.exoplayer2.source.hls.HlsTrackMetadataEntry"
+        || "com.readwise.android.exoplayer2.source.hls.HlsTrackMetadataEntry"
             .equals(entry.getClass().getCanonicalName())) {
       return entry.toString();
     } else {

@@ -13,21 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.smoothstreaming.offline;
+package com.readwise.android.exoplayer2.source.smoothstreaming.offline;
 
 import static com.google.common.truth.Truth.assertThat;
 
 import android.net.Uri;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import com.google.android.exoplayer2.offline.DefaultDownloaderFactory;
-import com.google.android.exoplayer2.offline.DownloadRequest;
-import com.google.android.exoplayer2.offline.Downloader;
-import com.google.android.exoplayer2.offline.DownloaderFactory;
-import com.google.android.exoplayer2.offline.StreamKey;
-import com.google.android.exoplayer2.upstream.PlaceholderDataSource;
-import com.google.android.exoplayer2.upstream.cache.Cache;
-import com.google.android.exoplayer2.upstream.cache.CacheDataSource;
-import com.google.android.exoplayer2.util.MimeTypes;
+import com.readwise.android.exoplayer2.offline.DefaultDownloaderFactory;
+import com.readwise.android.exoplayer2.offline.DownloadRequest;
+import com.readwise.android.exoplayer2.offline.Downloader;
+import com.readwise.android.exoplayer2.offline.DownloaderFactory;
+import com.readwise.android.exoplayer2.offline.StreamKey;
+import com.readwise.android.exoplayer2.upstream.PlaceholderDataSource;
+import com.readwise.android.exoplayer2.upstream.cache.Cache;
+import com.readwise.android.exoplayer2.upstream.cache.CacheDataSource;
+import com.readwise.android.exoplayer2.util.MimeTypes;
 import java.util.Collections;
 import org.junit.Test;
 import org.junit.runner.RunWith;

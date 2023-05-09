@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.exoplayer2.source.ads;
+package com.readwise.android.exoplayer2.source.ads;
 
 import androidx.annotation.VisibleForTesting;
-import com.google.android.exoplayer2.C;
-import com.google.android.exoplayer2.Timeline;
-import com.google.android.exoplayer2.source.ForwardingTimeline;
-import com.google.android.exoplayer2.util.Assertions;
+import com.readwise.android.exoplayer2.C;
+import com.readwise.android.exoplayer2.Timeline;
+import com.readwise.android.exoplayer2.source.ForwardingTimeline;
+import com.readwise.android.exoplayer2.util.Assertions;
 
 /** A {@link Timeline} for sources that have ads. */
 @VisibleForTesting(otherwise = VisibleForTesting.PACKAGE_PRIVATE)

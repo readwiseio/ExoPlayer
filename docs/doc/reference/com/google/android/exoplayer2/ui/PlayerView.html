@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.ui</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.ui</a></div>
 <h2 title="Class PlayerView" class="title">Class PlayerView</h2>
 </div>
 <div class="contentContainer">
@@ -130,7 +130,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li><a href="https://developer.android.com/reference/android/widget/FrameLayout.html" title="class or interface in android.widget" class="externalLink" target="_top">android.widget.FrameLayout</a></li>
 <li>
 <ul class="inheritance">
-<li>com.google.android.exoplayer2.ui.PlayerView</li>
+<li>com.readwise.android.exoplayer2.ui.PlayerView</li>
 </ul>
 </li>
 </ul>
@@ -145,18 +145,18 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Implemented Interfaces:</dt>
-<dd><code><a href="https://developer.android.com/reference/android/graphics/drawable/Drawable.Callback.html" title="class or interface in android.graphics.drawable" class="externalLink">Drawable.Callback</a></code>, <code><a href="https://developer.android.com/reference/android/view/accessibility/AccessibilityEventSource.html?is-external=true" title="class or interface in android.view.accessibility" class="externalLink">AccessibilityEventSource</a></code>, <code><a href="https://developer.android.com/reference/android/view/KeyEvent.Callback.html?is-external=true" title="class or interface in android.view" class="externalLink">KeyEvent.Callback</a></code>, <code><a href="https://developer.android.com/reference/android/view/ViewManager.html?is-external=true" title="class or interface in android.view" class="externalLink">ViewManager</a></code>, <code><a href="https://developer.android.com/reference/android/view/ViewParent.html?is-external=true" title="class or interface in android.view" class="externalLink">ViewParent</a></code>, <code><a href="AdViewProvider.html" title="interface in com.google.android.exoplayer2.ui" target="_top">AdViewProvider</a></code></dd>
+<dd><code><a href="https://developer.android.com/reference/android/graphics/drawable/Drawable.Callback.html" title="class or interface in android.graphics.drawable" class="externalLink">Drawable.Callback</a></code>, <code><a href="https://developer.android.com/reference/android/view/accessibility/AccessibilityEventSource.html?is-external=true" title="class or interface in android.view.accessibility" class="externalLink">AccessibilityEventSource</a></code>, <code><a href="https://developer.android.com/reference/android/view/KeyEvent.Callback.html?is-external=true" title="class or interface in android.view" class="externalLink">KeyEvent.Callback</a></code>, <code><a href="https://developer.android.com/reference/android/view/ViewManager.html?is-external=true" title="class or interface in android.view" class="externalLink">ViewManager</a></code>, <code><a href="https://developer.android.com/reference/android/view/ViewParent.html?is-external=true" title="class or interface in android.view" class="externalLink">ViewParent</a></code>, <code><a href="AdViewProvider.html" title="interface in com.readwise.android.exoplayer2.ui" target="_top">AdViewProvider</a></code></dd>
 </dl>
 <hr>
 <pre><a href="https://developer.android.com/reference/java/lang/Deprecated.html" title="class or interface in java.lang" class="externalLink" target="_top">@Deprecated</a>
 public class <span class="typeNameLabel">PlayerView</span>
 extends <a href="https://developer.android.com/reference/android/widget/FrameLayout.html" title="class or interface in android.widget" class="externalLink" target="_top">FrameLayout</a>
-implements <a href="AdViewProvider.html" title="interface in com.google.android.exoplayer2.ui">AdViewProvider</a></pre>
+implements <a href="AdViewProvider.html" title="interface in com.readwise.android.exoplayer2.ui">AdViewProvider</a></pre>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span>
-<div class="deprecationComment">Use <a href="StyledPlayerView.html" title="class in com.google.android.exoplayer2.ui"><code>StyledPlayerView</code></a> instead.</div>
+<div class="deprecationComment">Use <a href="StyledPlayerView.html" title="class in com.readwise.android.exoplayer2.ui"><code>StyledPlayerView</code></a> instead.</div>
 </div>
-<div class="block">A high level view for <a href="../Player.html" title="interface in com.google.android.exoplayer2"><code>Player</code></a> media playbacks. It displays video, subtitles and album art
- during playback, and displays playback controls using a <a href="PlayerControlView.html" title="class in com.google.android.exoplayer2.ui"><code>PlayerControlView</code></a>.
+<div class="block">A high level view for <a href="../Player.html" title="interface in com.readwise.android.exoplayer2"><code>Player</code></a> media playbacks. It displays video, subtitles and album art
+ during playback, and displays playback controls using a <a href="PlayerControlView.html" title="class in com.readwise.android.exoplayer2.ui"><code>PlayerControlView</code></a>.
 
  <p>A PlayerView can be customized by setting attributes (or calling corresponding methods),
  overriding drawables, overriding the view's layout file, or by specifying a custom view layout
@@ -204,14 +204,14 @@ implements <a href="AdViewProvider.html" title="interface in com.google.android.
    <li><b><code>show_buffering</code></b> - Whether the buffering spinner is displayed when the player
        is buffering. Valid values are <code>never</code>, <code>when_playing</code> and <code>always</code>.
        <ul>
-         <li>Corresponding method: <a href="#setShowBuffering(@com.google.android.exoplayer2.ui.PlayerView.ShowBufferingint)"><code>setShowBuffering(int)</code></a>
+         <li>Corresponding method: <a href="#setShowBuffering(@com.readwise.android.exoplayer2.ui.PlayerView.ShowBufferingint)"><code>setShowBuffering(int)</code></a>
          <li>Default: <code>never</code>
        </ul>
    <li><b><code>resize_mode</code></b> - Controls how video and album art is resized within the view.
        Valid values are <code>fit</code>, <code>fixed_width</code>, <code>fixed_height</code>, <code>fill</code> and
        <code>zoom</code>.
        <ul>
-         <li>Corresponding method: <a href="#setResizeMode(@com.google.android.exoplayer2.ui.AspectRatioFrameLayout.ResizeModeint)"><code>setResizeMode(int)</code></a>
+         <li>Corresponding method: <a href="#setResizeMode(@com.readwise.android.exoplayer2.ui.AspectRatioFrameLayout.ResizeModeint)"><code>setResizeMode(int)</code></a>
          <li>Default: <code>fit</code>
        </ul>
    <li><b><code>surface_type</code></b> - The type of surface view used for video playbacks. Valid
@@ -243,20 +243,20 @@ implements <a href="AdViewProvider.html" title="interface in com.google.android.
          <li>Default: <code>R.layout.exo_player_view</code>
        </ul>
    <li><b><code>controller_layout_id</code></b> - Specifies the id of the layout resource to be
-       inflated by the child <a href="PlayerControlView.html" title="class in com.google.android.exoplayer2.ui"><code>PlayerControlView</code></a>. See below for more details.
+       inflated by the child <a href="PlayerControlView.html" title="class in com.readwise.android.exoplayer2.ui"><code>PlayerControlView</code></a>. See below for more details.
        <ul>
          <li>Corresponding method: None
          <li>Default: <code>R.layout.exo_player_control_view</code>
        </ul>
-   <li>All attributes that can be set on <a href="PlayerControlView.html" title="class in com.google.android.exoplayer2.ui"><code>PlayerControlView</code></a> and <a href="DefaultTimeBar.html" title="class in com.google.android.exoplayer2.ui"><code>DefaultTimeBar</code></a> can
-       also be set on a PlayerView, and will be propagated to the inflated <a href="PlayerControlView.html" title="class in com.google.android.exoplayer2.ui"><code>PlayerControlView</code></a> unless the layout is overridden to specify a custom <code>
+   <li>All attributes that can be set on <a href="PlayerControlView.html" title="class in com.readwise.android.exoplayer2.ui"><code>PlayerControlView</code></a> and <a href="DefaultTimeBar.html" title="class in com.readwise.android.exoplayer2.ui"><code>DefaultTimeBar</code></a> can
+       also be set on a PlayerView, and will be propagated to the inflated <a href="PlayerControlView.html" title="class in com.readwise.android.exoplayer2.ui"><code>PlayerControlView</code></a> unless the layout is overridden to specify a custom <code>
        exo_controller</code> (see below).
  </ul>
 
  <h2>Overriding drawables</h2>
 
- The drawables used by <a href="PlayerControlView.html" title="class in com.google.android.exoplayer2.ui"><code>PlayerControlView</code></a> (with its default layout file) can be overridden
- by drawables with the same names defined in your application. See the <a href="PlayerControlView.html" title="class in com.google.android.exoplayer2.ui"><code>PlayerControlView</code></a>
+ The drawables used by <a href="PlayerControlView.html" title="class in com.readwise.android.exoplayer2.ui"><code>PlayerControlView</code></a> (with its default layout file) can be overridden
+ by drawables with the same names defined in your application. See the <a href="PlayerControlView.html" title="class in com.readwise.android.exoplayer2.ui"><code>PlayerControlView</code></a>
  documentation for a list of drawables that can be overridden.
 
  <h2>Overriding the layout file</h2>
@@ -272,7 +272,7 @@ implements <a href="AdViewProvider.html" title="interface in com.google.android.
        or album art of the media being played, and the configured <code>resize_mode</code>. The video
        surface view is inflated into this frame as its first child.
        <ul>
-         <li>Type: <a href="AspectRatioFrameLayout.html" title="class in com.google.android.exoplayer2.ui"><code>AspectRatioFrameLayout</code></a>
+         <li>Type: <a href="AspectRatioFrameLayout.html" title="class in com.readwise.android.exoplayer2.ui"><code>AspectRatioFrameLayout</code></a>
        </ul>
    <li><b><code>exo_shutter</code></b> - A view that's made visible when video should be hidden. This
        view is typically an opaque view that covers the video surface, thereby obscuring it when
@@ -288,7 +288,7 @@ implements <a href="AdViewProvider.html" title="interface in com.google.android.
        </ul>
    <li><b><code>exo_subtitles</code></b> - Displays subtitles.
        <ul>
-         <li>Type: <a href="SubtitleView.html" title="class in com.google.android.exoplayer2.ui"><code>SubtitleView</code></a>
+         <li>Type: <a href="SubtitleView.html" title="class in com.readwise.android.exoplayer2.ui"><code>SubtitleView</code></a>
        </ul>
    <li><b><code>exo_artwork</code></b> - Displays album art.
        <ul>
@@ -299,16 +299,16 @@ implements <a href="AdViewProvider.html" title="interface in com.google.android.
          <li>Type: <a href="https://developer.android.com/reference/android/widget/TextView.html" title="class or interface in android.widget" class="externalLink" target="_top"><code>TextView</code></a>
        </ul>
    <li><b><code>exo_controller_placeholder</code></b> - A placeholder that's replaced with the inflated
-       <a href="PlayerControlView.html" title="class in com.google.android.exoplayer2.ui"><code>PlayerControlView</code></a>. Ignored if an <code>exo_controller</code> view exists.
+       <a href="PlayerControlView.html" title="class in com.readwise.android.exoplayer2.ui"><code>PlayerControlView</code></a>. Ignored if an <code>exo_controller</code> view exists.
        <ul>
          <li>Type: <a href="https://developer.android.com/reference/android/view/View.html" title="class or interface in android.view" class="externalLink" target="_top"><code>View</code></a>
        </ul>
-   <li><b><code>exo_controller</code></b> - An already inflated <a href="PlayerControlView.html" title="class in com.google.android.exoplayer2.ui"><code>PlayerControlView</code></a>. Allows use
-       of a custom extension of <a href="PlayerControlView.html" title="class in com.google.android.exoplayer2.ui"><code>PlayerControlView</code></a>. <a href="PlayerControlView.html" title="class in com.google.android.exoplayer2.ui"><code>PlayerControlView</code></a> and <a href="DefaultTimeBar.html" title="class in com.google.android.exoplayer2.ui"><code>DefaultTimeBar</code></a> attributes set on the PlayerView will not be automatically propagated
+   <li><b><code>exo_controller</code></b> - An already inflated <a href="PlayerControlView.html" title="class in com.readwise.android.exoplayer2.ui"><code>PlayerControlView</code></a>. Allows use
+       of a custom extension of <a href="PlayerControlView.html" title="class in com.readwise.android.exoplayer2.ui"><code>PlayerControlView</code></a>. <a href="PlayerControlView.html" title="class in com.readwise.android.exoplayer2.ui"><code>PlayerControlView</code></a> and <a href="DefaultTimeBar.html" title="class in com.readwise.android.exoplayer2.ui"><code>DefaultTimeBar</code></a> attributes set on the PlayerView will not be automatically propagated
        through to this instance. If a view exists with this id, any <code>
        exo_controller_placeholder</code> view will be ignored.
        <ul>
-         <li>Type: <a href="PlayerControlView.html" title="class in com.google.android.exoplayer2.ui"><code>PlayerControlView</code></a>
+         <li>Type: <a href="PlayerControlView.html" title="class in com.readwise.android.exoplayer2.ui"><code>PlayerControlView</code></a>
        </ul>
    <li><b><code>exo_ad_overlay</code></b> - A <a href="https://developer.android.com/reference/android/widget/FrameLayout.html" title="class or interface in android.widget" class="externalLink" target="_top"><code>FrameLayout</code></a> positioned on top of the player which
        is used to show ad UI (if applicable).
@@ -354,7 +354,7 @@ implements <a href="AdViewProvider.html" title="interface in com.google.android.
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static interface&nbsp;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="PlayerView.ShowBuffering.html" title="annotation in com.google.android.exoplayer2.ui">PlayerView.ShowBuffering</a></span></code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="PlayerView.ShowBuffering.html" title="annotation in com.readwise.android.exoplayer2.ui">PlayerView.ShowBuffering</a></span></code></th>
 <td class="colLast">
 <div class="block"><span class="deprecatedLabel">Deprecated.</span></div>
 <div class="block">Determines when the buffering view is shown.</div>
@@ -510,11 +510,11 @@ implements <a href="AdViewProvider.html" title="interface in com.google.android.
 </td>
 </tr>
 <tr id="i2" class="altColor">
-<td class="colFirst"><code><a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="AdOverlayInfo.html" title="class in com.google.android.exoplayer2.ui" target="_top">AdOverlayInfo</a>&gt;</code></td>
+<td class="colFirst"><code><a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="AdOverlayInfo.html" title="class in com.readwise.android.exoplayer2.ui" target="_top">AdOverlayInfo</a>&gt;</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getAdOverlayInfos()">getAdOverlayInfos</a></span>()</code></th>
 <td class="colLast">
 <div class="block"><span class="deprecatedLabel">Deprecated.</span></div>
-<div class="block">Returns a list of <a href="AdOverlayInfo.html" title="class in com.google.android.exoplayer2.ui"><code>AdOverlayInfo</code></a> instances describing views that are on top of the ad
+<div class="block">Returns a list of <a href="AdOverlayInfo.html" title="class in com.readwise.android.exoplayer2.ui"><code>AdOverlayInfo</code></a> instances describing views that are on top of the ad
  view group, but that are essential for controlling playback and should be excluded from ad
  viewability measurements.</div>
 </td>
@@ -571,7 +571,7 @@ implements <a href="AdViewProvider.html" title="interface in com.google.android.
 </td>
 </tr>
 <tr id="i9" class="rowColor">
-<td class="colFirst"><code><a href="../Player.html" title="interface in com.google.android.exoplayer2">Player</a></code></td>
+<td class="colFirst"><code><a href="../Player.html" title="interface in com.readwise.android.exoplayer2">Player</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getPlayer()">getPlayer</a></span>()</code></th>
 <td class="colLast">
 <div class="block"><span class="deprecatedLabel">Deprecated.</span></div>
@@ -579,19 +579,19 @@ implements <a href="AdViewProvider.html" title="interface in com.google.android.
 </td>
 </tr>
 <tr id="i10" class="altColor">
-<td class="colFirst"><code>@com.google.android.exoplayer2.ui.AspectRatioFrameLayout.ResizeMode int</code></td>
+<td class="colFirst"><code>@com.readwise.android.exoplayer2.ui.AspectRatioFrameLayout.ResizeMode int</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getResizeMode()">getResizeMode</a></span>()</code></th>
 <td class="colLast">
 <div class="block"><span class="deprecatedLabel">Deprecated.</span></div>
-<div class="block">Returns the <a href="AspectRatioFrameLayout.ResizeMode.html" title="annotation in com.google.android.exoplayer2.ui"><code>AspectRatioFrameLayout.ResizeMode</code></a>.</div>
+<div class="block">Returns the <a href="AspectRatioFrameLayout.ResizeMode.html" title="annotation in com.readwise.android.exoplayer2.ui"><code>AspectRatioFrameLayout.ResizeMode</code></a>.</div>
 </td>
 </tr>
 <tr id="i11" class="rowColor">
-<td class="colFirst"><code><a href="SubtitleView.html" title="class in com.google.android.exoplayer2.ui">SubtitleView</a></code></td>
+<td class="colFirst"><code><a href="SubtitleView.html" title="class in com.readwise.android.exoplayer2.ui">SubtitleView</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getSubtitleView()">getSubtitleView</a></span>()</code></th>
 <td class="colLast">
 <div class="block"><span class="deprecatedLabel">Deprecated.</span></div>
-<div class="block">Gets the <a href="SubtitleView.html" title="class in com.google.android.exoplayer2.ui"><code>SubtitleView</code></a>.</div>
+<div class="block">Gets the <a href="SubtitleView.html" title="class in com.readwise.android.exoplayer2.ui"><code>SubtitleView</code></a>.</div>
 </td>
 </tr>
 <tr id="i12" class="altColor">
@@ -636,7 +636,7 @@ implements <a href="AdViewProvider.html" title="interface in com.google.android.
 </tr>
 <tr id="i17" class="rowColor">
 <td class="colFirst"><code>protected void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onContentAspectRatioChanged(com.google.android.exoplayer2.ui.AspectRatioFrameLayout,float)">onContentAspectRatioChanged</a></span>&#8203;(<a href="AspectRatioFrameLayout.html" title="class in com.google.android.exoplayer2.ui">AspectRatioFrameLayout</a>&nbsp;contentFrame,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onContentAspectRatioChanged(com.readwise.android.exoplayer2.ui.AspectRatioFrameLayout,float)">onContentAspectRatioChanged</a></span>&#8203;(<a href="AspectRatioFrameLayout.html" title="class in com.readwise.android.exoplayer2.ui">AspectRatioFrameLayout</a>&nbsp;contentFrame,
                            float&nbsp;aspectRatio)</code></th>
 <td class="colLast">
 <div class="block"><span class="deprecatedLabel">Deprecated.</span></div>
@@ -677,10 +677,10 @@ implements <a href="AdViewProvider.html" title="interface in com.google.android.
 </tr>
 <tr id="i22" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setAspectRatioListener(com.google.android.exoplayer2.ui.AspectRatioFrameLayout.AspectRatioListener)">setAspectRatioListener</a></span>&#8203;(<a href="AspectRatioFrameLayout.AspectRatioListener.html" title="interface in com.google.android.exoplayer2.ui">AspectRatioFrameLayout.AspectRatioListener</a>&nbsp;listener)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setAspectRatioListener(com.readwise.android.exoplayer2.ui.AspectRatioFrameLayout.AspectRatioListener)">setAspectRatioListener</a></span>&#8203;(<a href="AspectRatioFrameLayout.AspectRatioListener.html" title="interface in com.readwise.android.exoplayer2.ui">AspectRatioFrameLayout.AspectRatioListener</a>&nbsp;listener)</code></th>
 <td class="colLast">
 <div class="block"><span class="deprecatedLabel">Deprecated.</span></div>
-<div class="block">Sets the <a href="AspectRatioFrameLayout.AspectRatioListener.html" title="interface in com.google.android.exoplayer2.ui"><code>AspectRatioFrameLayout.AspectRatioListener</code></a>.</div>
+<div class="block">Sets the <a href="AspectRatioFrameLayout.AspectRatioListener.html" title="interface in com.readwise.android.exoplayer2.ui"><code>AspectRatioFrameLayout.AspectRatioListener</code></a>.</div>
 </td>
 </tr>
 <tr id="i23" class="rowColor">
@@ -718,10 +718,10 @@ implements <a href="AdViewProvider.html" title="interface in com.google.android.
 </tr>
 <tr id="i27" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setControllerVisibilityListener(com.google.android.exoplayer2.ui.PlayerControlView.VisibilityListener)">setControllerVisibilityListener</a></span>&#8203;(<a href="PlayerControlView.VisibilityListener.html" title="interface in com.google.android.exoplayer2.ui">PlayerControlView.VisibilityListener</a>&nbsp;listener)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setControllerVisibilityListener(com.readwise.android.exoplayer2.ui.PlayerControlView.VisibilityListener)">setControllerVisibilityListener</a></span>&#8203;(<a href="PlayerControlView.VisibilityListener.html" title="interface in com.readwise.android.exoplayer2.ui">PlayerControlView.VisibilityListener</a>&nbsp;listener)</code></th>
 <td class="colLast">
 <div class="block"><span class="deprecatedLabel">Deprecated.</span></div>
-<div class="block">Sets the <a href="PlayerControlView.VisibilityListener.html" title="interface in com.google.android.exoplayer2.ui"><code>PlayerControlView.VisibilityListener</code></a>.</div>
+<div class="block">Sets the <a href="PlayerControlView.VisibilityListener.html" title="interface in com.readwise.android.exoplayer2.ui"><code>PlayerControlView.VisibilityListener</code></a>.</div>
 </td>
 </tr>
 <tr id="i28" class="altColor">
@@ -743,10 +743,10 @@ implements <a href="AdViewProvider.html" title="interface in com.google.android.
 </tr>
 <tr id="i30" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setErrorMessageProvider(com.google.android.exoplayer2.util.ErrorMessageProvider)">setErrorMessageProvider</a></span>&#8203;(<a href="../util/ErrorMessageProvider.html" title="interface in com.google.android.exoplayer2.util">ErrorMessageProvider</a>&lt;? super <a href="../PlaybackException.html" title="class in com.google.android.exoplayer2">PlaybackException</a>&gt;&nbsp;errorMessageProvider)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setErrorMessageProvider(com.readwise.android.exoplayer2.util.ErrorMessageProvider)">setErrorMessageProvider</a></span>&#8203;(<a href="../util/ErrorMessageProvider.html" title="interface in com.readwise.android.exoplayer2.util">ErrorMessageProvider</a>&lt;? super <a href="../PlaybackException.html" title="class in com.readwise.android.exoplayer2">PlaybackException</a>&gt;&nbsp;errorMessageProvider)</code></th>
 <td class="colLast">
 <div class="block"><span class="deprecatedLabel">Deprecated.</span></div>
-<div class="block">Sets the optional <a href="../util/ErrorMessageProvider.html" title="interface in com.google.android.exoplayer2.util"><code>ErrorMessageProvider</code></a>.</div>
+<div class="block">Sets the optional <a href="../util/ErrorMessageProvider.html" title="interface in com.readwise.android.exoplayer2.util"><code>ErrorMessageProvider</code></a>.</div>
 </td>
 </tr>
 <tr id="i31" class="rowColor">
@@ -770,15 +770,15 @@ implements <a href="AdViewProvider.html" title="interface in com.google.android.
 </tr>
 <tr id="i33" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setPlayer(com.google.android.exoplayer2.Player)">setPlayer</a></span>&#8203;(<a href="../Player.html" title="interface in com.google.android.exoplayer2">Player</a>&nbsp;player)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setPlayer(com.readwise.android.exoplayer2.Player)">setPlayer</a></span>&#8203;(<a href="../Player.html" title="interface in com.readwise.android.exoplayer2">Player</a>&nbsp;player)</code></th>
 <td class="colLast">
 <div class="block"><span class="deprecatedLabel">Deprecated.</span></div>
-<div class="block">Sets the <a href="../Player.html" title="interface in com.google.android.exoplayer2"><code>Player</code></a> to use.</div>
+<div class="block">Sets the <a href="../Player.html" title="interface in com.readwise.android.exoplayer2"><code>Player</code></a> to use.</div>
 </td>
 </tr>
 <tr id="i34" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setRepeatToggleModes(@com.google.android.exoplayer2.util.RepeatModeUtil.RepeatToggleModesint)">setRepeatToggleModes</a></span>&#8203;(@com.google.android.exoplayer2.util.RepeatModeUtil.RepeatToggleModes int&nbsp;repeatToggleModes)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setRepeatToggleModes(@com.readwise.android.exoplayer2.util.RepeatModeUtil.RepeatToggleModesint)">setRepeatToggleModes</a></span>&#8203;(@com.readwise.android.exoplayer2.util.RepeatModeUtil.RepeatToggleModes int&nbsp;repeatToggleModes)</code></th>
 <td class="colLast">
 <div class="block"><span class="deprecatedLabel">Deprecated.</span></div>
 <div class="block">Sets which repeat toggle modes are enabled.</div>
@@ -786,15 +786,15 @@ implements <a href="AdViewProvider.html" title="interface in com.google.android.
 </tr>
 <tr id="i35" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setResizeMode(@com.google.android.exoplayer2.ui.AspectRatioFrameLayout.ResizeModeint)">setResizeMode</a></span>&#8203;(@com.google.android.exoplayer2.ui.AspectRatioFrameLayout.ResizeMode int&nbsp;resizeMode)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setResizeMode(@com.readwise.android.exoplayer2.ui.AspectRatioFrameLayout.ResizeModeint)">setResizeMode</a></span>&#8203;(@com.readwise.android.exoplayer2.ui.AspectRatioFrameLayout.ResizeMode int&nbsp;resizeMode)</code></th>
 <td class="colLast">
 <div class="block"><span class="deprecatedLabel">Deprecated.</span></div>
-<div class="block">Sets the <a href="AspectRatioFrameLayout.ResizeMode.html" title="annotation in com.google.android.exoplayer2.ui"><code>AspectRatioFrameLayout.ResizeMode</code></a>.</div>
+<div class="block">Sets the <a href="AspectRatioFrameLayout.ResizeMode.html" title="annotation in com.readwise.android.exoplayer2.ui"><code>AspectRatioFrameLayout.ResizeMode</code></a>.</div>
 </td>
 </tr>
 <tr id="i36" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setShowBuffering(@com.google.android.exoplayer2.ui.PlayerView.ShowBufferingint)">setShowBuffering</a></span>&#8203;(@com.google.android.exoplayer2.ui.PlayerView.ShowBuffering int&nbsp;showBuffering)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setShowBuffering(@com.readwise.android.exoplayer2.ui.PlayerView.ShowBufferingint)">setShowBuffering</a></span>&#8203;(@com.readwise.android.exoplayer2.ui.PlayerView.ShowBuffering int&nbsp;showBuffering)</code></th>
 <td class="colLast">
 <div class="block"><span class="deprecatedLabel">Deprecated.</span></div>
 <div class="block">Sets whether a buffering spinner is displayed when the player is in the buffering state.</div>
@@ -889,12 +889,12 @@ implements <a href="AdViewProvider.html" title="interface in com.google.android.
 </tr>
 <tr id="i48" class="altColor">
 <td class="colFirst"><code>static void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#switchTargetView(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.ui.PlayerView,com.google.android.exoplayer2.ui.PlayerView)">switchTargetView</a></span>&#8203;(<a href="../Player.html" title="interface in com.google.android.exoplayer2">Player</a>&nbsp;player,
-                <a href="PlayerView.html" title="class in com.google.android.exoplayer2.ui">PlayerView</a>&nbsp;oldPlayerView,
-                <a href="PlayerView.html" title="class in com.google.android.exoplayer2.ui">PlayerView</a>&nbsp;newPlayerView)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#switchTargetView(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.ui.PlayerView,com.readwise.android.exoplayer2.ui.PlayerView)">switchTargetView</a></span>&#8203;(<a href="../Player.html" title="interface in com.readwise.android.exoplayer2">Player</a>&nbsp;player,
+                <a href="PlayerView.html" title="class in com.readwise.android.exoplayer2.ui">PlayerView</a>&nbsp;oldPlayerView,
+                <a href="PlayerView.html" title="class in com.readwise.android.exoplayer2.ui">PlayerView</a>&nbsp;newPlayerView)</code></th>
 <td class="colLast">
 <div class="block"><span class="deprecatedLabel">Deprecated.</span></div>
-<div class="block">Switches the view targeted by a given <a href="../Player.html" title="interface in com.google.android.exoplayer2"><code>Player</code></a>.</div>
+<div class="block">Switches the view targeted by a given <a href="../Player.html" title="interface in com.readwise.android.exoplayer2"><code>Player</code></a>.</div>
 </td>
 </tr>
 </table>
@@ -960,7 +960,7 @@ implements <a href="AdViewProvider.html" title="interface in com.google.android.
 <div class="block">The buffering view is never shown.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../../constant-values.html#com.google.android.exoplayer2.ui.PlayerView.SHOW_BUFFERING_NEVER">Constant Field Values</a></dd>
+<dd><a href="../../../../../constant-values.html#com.readwise.android.exoplayer2.ui.PlayerView.SHOW_BUFFERING_NEVER">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>
@@ -976,7 +976,7 @@ implements <a href="AdViewProvider.html" title="interface in com.google.android.
  state and <a href="../Player.html#getPlayWhenReady()"><code>playWhenReady</code></a> is <code>true</code>.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../../constant-values.html#com.google.android.exoplayer2.ui.PlayerView.SHOW_BUFFERING_WHEN_PLAYING">Constant Field Values</a></dd>
+<dd><a href="../../../../../constant-values.html#com.readwise.android.exoplayer2.ui.PlayerView.SHOW_BUFFERING_WHEN_PLAYING">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>
@@ -991,7 +991,7 @@ implements <a href="AdViewProvider.html" title="interface in com.google.android.
 <div class="block">The buffering view is always shown when the player is in the <a href="../Player.html#STATE_BUFFERING"><code>buffering</code></a> state.</div>
 <dl>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../../constant-values.html#com.google.android.exoplayer2.ui.PlayerView.SHOW_BUFFERING_ALWAYS">Constant Field Values</a></dd>
+<dd><a href="../../../../../constant-values.html#com.readwise.android.exoplayer2.ui.PlayerView.SHOW_BUFFERING_ALWAYS">Constant Field Values</a></dd>
 </dl>
 </li>
 </ul>
@@ -1050,19 +1050,19 @@ implements <a href="AdViewProvider.html" title="interface in com.google.android.
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="switchTargetView(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.ui.PlayerView,com.google.android.exoplayer2.ui.PlayerView)">
+<a id="switchTargetView(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.ui.PlayerView,com.readwise.android.exoplayer2.ui.PlayerView)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>switchTargetView</h4>
-<pre class="methodSignature">public static&nbsp;void&nbsp;switchTargetView&#8203;(<a href="../Player.html" title="interface in com.google.android.exoplayer2">Player</a>&nbsp;player,
+<pre class="methodSignature">public static&nbsp;void&nbsp;switchTargetView&#8203;(<a href="../Player.html" title="interface in com.readwise.android.exoplayer2">Player</a>&nbsp;player,
                                     @Nullable
-                                    <a href="PlayerView.html" title="class in com.google.android.exoplayer2.ui">PlayerView</a>&nbsp;oldPlayerView,
+                                    <a href="PlayerView.html" title="class in com.readwise.android.exoplayer2.ui">PlayerView</a>&nbsp;oldPlayerView,
                                     @Nullable
-                                    <a href="PlayerView.html" title="class in com.google.android.exoplayer2.ui">PlayerView</a>&nbsp;newPlayerView)</pre>
+                                    <a href="PlayerView.html" title="class in com.readwise.android.exoplayer2.ui">PlayerView</a>&nbsp;newPlayerView)</pre>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span></div>
-<div class="block">Switches the view targeted by a given <a href="../Player.html" title="interface in com.google.android.exoplayer2"><code>Player</code></a>.</div>
+<div class="block">Switches the view targeted by a given <a href="../Player.html" title="interface in com.readwise.android.exoplayer2"><code>Player</code></a>.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>player</code> - The player whose target view is being switched.</dd>
@@ -1078,30 +1078,30 @@ implements <a href="AdViewProvider.html" title="interface in com.google.android.
 <li class="blockList">
 <h4>getPlayer</h4>
 <pre class="methodSignature">@Nullable
-public&nbsp;<a href="../Player.html" title="interface in com.google.android.exoplayer2">Player</a>&nbsp;getPlayer()</pre>
+public&nbsp;<a href="../Player.html" title="interface in com.readwise.android.exoplayer2">Player</a>&nbsp;getPlayer()</pre>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span></div>
 <div class="block">Returns the player currently set on this view, or null if no player is set.</div>
 </li>
 </ul>
-<a id="setPlayer(com.google.android.exoplayer2.Player)">
+<a id="setPlayer(com.readwise.android.exoplayer2.Player)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>setPlayer</h4>
 <pre class="methodSignature">public&nbsp;void&nbsp;setPlayer&#8203;(@Nullable
-                      <a href="../Player.html" title="interface in com.google.android.exoplayer2">Player</a>&nbsp;player)</pre>
+                      <a href="../Player.html" title="interface in com.readwise.android.exoplayer2">Player</a>&nbsp;player)</pre>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span></div>
-<div class="block">Sets the <a href="../Player.html" title="interface in com.google.android.exoplayer2"><code>Player</code></a> to use.
+<div class="block">Sets the <a href="../Player.html" title="interface in com.readwise.android.exoplayer2"><code>Player</code></a> to use.
 
- <p>To transition a <a href="../Player.html" title="interface in com.google.android.exoplayer2"><code>Player</code></a> from targeting one view to another, it's recommended to use
- <a href="#switchTargetView(com.google.android.exoplayer2.Player,com.google.android.exoplayer2.ui.PlayerView,com.google.android.exoplayer2.ui.PlayerView)"><code>switchTargetView(Player, PlayerView, PlayerView)</code></a> rather than this method. If you do
+ <p>To transition a <a href="../Player.html" title="interface in com.readwise.android.exoplayer2"><code>Player</code></a> from targeting one view to another, it's recommended to use
+ <a href="#switchTargetView(com.readwise.android.exoplayer2.Player,com.readwise.android.exoplayer2.ui.PlayerView,com.readwise.android.exoplayer2.ui.PlayerView)"><code>switchTargetView(Player, PlayerView, PlayerView)</code></a> rather than this method. If you do
  wish to use this method directly, be sure to attach the player to the new view <em>before</em>
  calling <code>setPlayer(null)</code> to detach it from the old one. This ordering is significantly
  more efficient and may allow for more seamless transitions.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>player</code> - The <a href="../Player.html" title="interface in com.google.android.exoplayer2"><code>Player</code></a> to use, or <code>null</code> to detach the current player. Only
+<dd><code>player</code> - The <a href="../Player.html" title="interface in com.readwise.android.exoplayer2"><code>Player</code></a> to use, or <code>null</code> to detach the current player. Only
      players which are accessed on the main thread are supported (<code>
      player.getApplicationLooper() == Looper.getMainLooper()</code>).</dd>
 </dl>
@@ -1121,18 +1121,18 @@ public&nbsp;<a href="../Player.html" title="interface in com.google.android.exop
 </dl>
 </li>
 </ul>
-<a id="setResizeMode(@com.google.android.exoplayer2.ui.AspectRatioFrameLayout.ResizeModeint)">
+<a id="setResizeMode(@com.readwise.android.exoplayer2.ui.AspectRatioFrameLayout.ResizeModeint)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>setResizeMode</h4>
-<pre class="methodSignature">public&nbsp;void&nbsp;setResizeMode&#8203;(@com.google.android.exoplayer2.ui.AspectRatioFrameLayout.ResizeMode int&nbsp;resizeMode)</pre>
+<pre class="methodSignature">public&nbsp;void&nbsp;setResizeMode&#8203;(@com.readwise.android.exoplayer2.ui.AspectRatioFrameLayout.ResizeMode int&nbsp;resizeMode)</pre>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span></div>
-<div class="block">Sets the <a href="AspectRatioFrameLayout.ResizeMode.html" title="annotation in com.google.android.exoplayer2.ui"><code>AspectRatioFrameLayout.ResizeMode</code></a>.</div>
+<div class="block">Sets the <a href="AspectRatioFrameLayout.ResizeMode.html" title="annotation in com.readwise.android.exoplayer2.ui"><code>AspectRatioFrameLayout.ResizeMode</code></a>.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>resizeMode</code> - The <a href="AspectRatioFrameLayout.ResizeMode.html" title="annotation in com.google.android.exoplayer2.ui"><code>AspectRatioFrameLayout.ResizeMode</code></a>.</dd>
+<dd><code>resizeMode</code> - The <a href="AspectRatioFrameLayout.ResizeMode.html" title="annotation in com.readwise.android.exoplayer2.ui"><code>AspectRatioFrameLayout.ResizeMode</code></a>.</dd>
 </dl>
 </li>
 </ul>
@@ -1142,9 +1142,9 @@ public&nbsp;<a href="../Player.html" title="interface in com.google.android.exop
 <ul class="blockList">
 <li class="blockList">
 <h4>getResizeMode</h4>
-<pre class="methodSignature">public&nbsp;@com.google.android.exoplayer2.ui.AspectRatioFrameLayout.ResizeMode int&nbsp;getResizeMode()</pre>
+<pre class="methodSignature">public&nbsp;@com.readwise.android.exoplayer2.ui.AspectRatioFrameLayout.ResizeMode int&nbsp;getResizeMode()</pre>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span></div>
-<div class="block">Returns the <a href="AspectRatioFrameLayout.ResizeMode.html" title="annotation in com.google.android.exoplayer2.ui"><code>AspectRatioFrameLayout.ResizeMode</code></a>.</div>
+<div class="block">Returns the <a href="AspectRatioFrameLayout.ResizeMode.html" title="annotation in com.readwise.android.exoplayer2.ui"><code>AspectRatioFrameLayout.ResizeMode</code></a>.</div>
 </li>
 </ul>
 <a id="getUseArtwork()">
@@ -1258,7 +1258,7 @@ public&nbsp;<a href="https://developer.android.com/reference/android/graphics/dr
 <div class="block">Sets whether the currently displayed video frame or media artwork is kept visible when the
  player is reset. A player reset is defined to mean the player being re-prepared with different
  media, the player transitioning to unprepared media or an empty list of media items, or the
- player being replaced or cleared by calling <a href="#setPlayer(com.google.android.exoplayer2.Player)"><code>setPlayer(Player)</code></a>.
+ player being replaced or cleared by calling <a href="#setPlayer(com.readwise.android.exoplayer2.Player)"><code>setPlayer(Player)</code></a>.
 
  <p>If enabled, the currently displayed video frame or media artwork will be kept visible until
  the player set on the view has been successfully prepared with new media and loaded enough of
@@ -1276,13 +1276,13 @@ public&nbsp;<a href="https://developer.android.com/reference/android/graphics/dr
 </dl>
 </li>
 </ul>
-<a id="setShowBuffering(@com.google.android.exoplayer2.ui.PlayerView.ShowBufferingint)">
+<a id="setShowBuffering(@com.readwise.android.exoplayer2.ui.PlayerView.ShowBufferingint)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>setShowBuffering</h4>
-<pre class="methodSignature">public&nbsp;void&nbsp;setShowBuffering&#8203;(@com.google.android.exoplayer2.ui.PlayerView.ShowBuffering int&nbsp;showBuffering)</pre>
+<pre class="methodSignature">public&nbsp;void&nbsp;setShowBuffering&#8203;(@com.readwise.android.exoplayer2.ui.PlayerView.ShowBuffering int&nbsp;showBuffering)</pre>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span></div>
 <div class="block">Sets whether a buffering spinner is displayed when the player is in the buffering state. The
  buffering spinner is not displayed by default.</div>
@@ -1293,16 +1293,16 @@ public&nbsp;<a href="https://developer.android.com/reference/android/graphics/dr
 </dl>
 </li>
 </ul>
-<a id="setErrorMessageProvider(com.google.android.exoplayer2.util.ErrorMessageProvider)">
+<a id="setErrorMessageProvider(com.readwise.android.exoplayer2.util.ErrorMessageProvider)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>setErrorMessageProvider</h4>
 <pre class="methodSignature">public&nbsp;void&nbsp;setErrorMessageProvider&#8203;(@Nullable
-                                    <a href="../util/ErrorMessageProvider.html" title="interface in com.google.android.exoplayer2.util">ErrorMessageProvider</a>&lt;? super <a href="../PlaybackException.html" title="class in com.google.android.exoplayer2">PlaybackException</a>&gt;&nbsp;errorMessageProvider)</pre>
+                                    <a href="../util/ErrorMessageProvider.html" title="interface in com.readwise.android.exoplayer2.util">ErrorMessageProvider</a>&lt;? super <a href="../PlaybackException.html" title="class in com.readwise.android.exoplayer2">PlaybackException</a>&gt;&nbsp;errorMessageProvider)</pre>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span></div>
-<div class="block">Sets the optional <a href="../util/ErrorMessageProvider.html" title="interface in com.google.android.exoplayer2.util"><code>ErrorMessageProvider</code></a>.</div>
+<div class="block">Sets the optional <a href="../util/ErrorMessageProvider.html" title="interface in com.readwise.android.exoplayer2.util"><code>ErrorMessageProvider</code></a>.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>errorMessageProvider</code> - The error message provider.</dd>
@@ -1499,16 +1499,16 @@ public&nbsp;<a href="https://developer.android.com/reference/android/graphics/dr
 </dl>
 </li>
 </ul>
-<a id="setControllerVisibilityListener(com.google.android.exoplayer2.ui.PlayerControlView.VisibilityListener)">
+<a id="setControllerVisibilityListener(com.readwise.android.exoplayer2.ui.PlayerControlView.VisibilityListener)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>setControllerVisibilityListener</h4>
 <pre class="methodSignature">public&nbsp;void&nbsp;setControllerVisibilityListener&#8203;(@Nullable
-                                            <a href="PlayerControlView.VisibilityListener.html" title="interface in com.google.android.exoplayer2.ui">PlayerControlView.VisibilityListener</a>&nbsp;listener)</pre>
+                                            <a href="PlayerControlView.VisibilityListener.html" title="interface in com.readwise.android.exoplayer2.ui">PlayerControlView.VisibilityListener</a>&nbsp;listener)</pre>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span></div>
-<div class="block">Sets the <a href="PlayerControlView.VisibilityListener.html" title="interface in com.google.android.exoplayer2.ui"><code>PlayerControlView.VisibilityListener</code></a>.</div>
+<div class="block">Sets the <a href="PlayerControlView.VisibilityListener.html" title="interface in com.readwise.android.exoplayer2.ui"><code>PlayerControlView.VisibilityListener</code></a>.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>listener</code> - The listener to be notified about visibility changes, or null to remove the
@@ -1576,19 +1576,19 @@ public&nbsp;<a href="https://developer.android.com/reference/android/graphics/dr
 </dl>
 </li>
 </ul>
-<a id="setRepeatToggleModes(@com.google.android.exoplayer2.util.RepeatModeUtil.RepeatToggleModesint)">
+<a id="setRepeatToggleModes(@com.readwise.android.exoplayer2.util.RepeatModeUtil.RepeatToggleModesint)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>setRepeatToggleModes</h4>
-<pre class="methodSignature">public&nbsp;void&nbsp;setRepeatToggleModes&#8203;(<a href="../util/RepeatModeUtil.RepeatToggleModes.html" title="annotation in com.google.android.exoplayer2.util">@RepeatToggleModes</a>
-                                 @com.google.android.exoplayer2.util.RepeatModeUtil.RepeatToggleModes int&nbsp;repeatToggleModes)</pre>
+<pre class="methodSignature">public&nbsp;void&nbsp;setRepeatToggleModes&#8203;(<a href="../util/RepeatModeUtil.RepeatToggleModes.html" title="annotation in com.readwise.android.exoplayer2.util">@RepeatToggleModes</a>
+                                 @com.readwise.android.exoplayer2.util.RepeatModeUtil.RepeatToggleModes int&nbsp;repeatToggleModes)</pre>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span></div>
 <div class="block">Sets which repeat toggle modes are enabled.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>repeatToggleModes</code> - A set of <a href="../util/RepeatModeUtil.RepeatToggleModes.html" title="annotation in com.google.android.exoplayer2.util"><code>RepeatModeUtil.RepeatToggleModes</code></a>.</dd>
+<dd><code>repeatToggleModes</code> - A set of <a href="../util/RepeatModeUtil.RepeatToggleModes.html" title="annotation in com.readwise.android.exoplayer2.util"><code>RepeatModeUtil.RepeatToggleModes</code></a>.</dd>
 </dl>
 </li>
 </ul>
@@ -1645,16 +1645,16 @@ public&nbsp;<a href="https://developer.android.com/reference/android/graphics/dr
 </dl>
 </li>
 </ul>
-<a id="setAspectRatioListener(com.google.android.exoplayer2.ui.AspectRatioFrameLayout.AspectRatioListener)">
+<a id="setAspectRatioListener(com.readwise.android.exoplayer2.ui.AspectRatioFrameLayout.AspectRatioListener)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>setAspectRatioListener</h4>
 <pre class="methodSignature">public&nbsp;void&nbsp;setAspectRatioListener&#8203;(@Nullable
-                                   <a href="AspectRatioFrameLayout.AspectRatioListener.html" title="interface in com.google.android.exoplayer2.ui">AspectRatioFrameLayout.AspectRatioListener</a>&nbsp;listener)</pre>
+                                   <a href="AspectRatioFrameLayout.AspectRatioListener.html" title="interface in com.readwise.android.exoplayer2.ui">AspectRatioFrameLayout.AspectRatioListener</a>&nbsp;listener)</pre>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span></div>
-<div class="block">Sets the <a href="AspectRatioFrameLayout.AspectRatioListener.html" title="interface in com.google.android.exoplayer2.ui"><code>AspectRatioFrameLayout.AspectRatioListener</code></a>.</div>
+<div class="block">Sets the <a href="AspectRatioFrameLayout.AspectRatioListener.html" title="interface in com.readwise.android.exoplayer2.ui"><code>AspectRatioFrameLayout.AspectRatioListener</code></a>.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>listener</code> - The listener to be notified about aspect ratios changes of the video content or
@@ -1715,12 +1715,12 @@ public&nbsp;<a href="https://developer.android.com/reference/android/widget/Fram
 <li class="blockList">
 <h4>getSubtitleView</h4>
 <pre class="methodSignature">@Nullable
-public&nbsp;<a href="SubtitleView.html" title="class in com.google.android.exoplayer2.ui">SubtitleView</a>&nbsp;getSubtitleView()</pre>
+public&nbsp;<a href="SubtitleView.html" title="class in com.readwise.android.exoplayer2.ui">SubtitleView</a>&nbsp;getSubtitleView()</pre>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span></div>
-<div class="block">Gets the <a href="SubtitleView.html" title="class in com.google.android.exoplayer2.ui"><code>SubtitleView</code></a>.</div>
+<div class="block">Gets the <a href="SubtitleView.html" title="class in com.readwise.android.exoplayer2.ui"><code>SubtitleView</code></a>.</div>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>The <a href="SubtitleView.html" title="class in com.google.android.exoplayer2.ui"><code>SubtitleView</code></a>, or <code>null</code> if the layout has been customized and the
+<dd>The <a href="SubtitleView.html" title="class in com.readwise.android.exoplayer2.ui"><code>SubtitleView</code></a>, or <code>null</code> if the layout has been customized and the
      subtitle view is not present.</dd>
 </dl>
 </li>
@@ -1783,14 +1783,14 @@ public&nbsp;<a href="SubtitleView.html" title="class in com.google.android.exopl
  Activity.onPause()</code> for API versions &lt;= 23.</div>
 </li>
 </ul>
-<a id="onContentAspectRatioChanged(com.google.android.exoplayer2.ui.AspectRatioFrameLayout,float)">
+<a id="onContentAspectRatioChanged(com.readwise.android.exoplayer2.ui.AspectRatioFrameLayout,float)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onContentAspectRatioChanged</h4>
 <pre class="methodSignature">protected&nbsp;void&nbsp;onContentAspectRatioChanged&#8203;(@Nullable
-                                           <a href="AspectRatioFrameLayout.html" title="class in com.google.android.exoplayer2.ui">AspectRatioFrameLayout</a>&nbsp;contentFrame,
+                                           <a href="AspectRatioFrameLayout.html" title="class in com.readwise.android.exoplayer2.ui">AspectRatioFrameLayout</a>&nbsp;contentFrame,
                                            float&nbsp;aspectRatio)</pre>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span></div>
 <div class="block">Called when there's a change in the desired aspect ratio of the content frame. The default
@@ -1812,11 +1812,11 @@ public&nbsp;<a href="SubtitleView.html" title="class in com.google.android.exopl
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span></div>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="AdViewProvider.html#getAdViewGroup()">AdViewProvider</a></code></span></div>
 <div class="block">Returns the <a href="https://developer.android.com/reference/android/view/ViewGroup.html" title="class or interface in android.view" class="externalLink" target="_top"><code>ViewGroup</code></a> on top of the player that will show any ad UI, or <code>null</code> if
- playing audio-only ads. Any views on top of the returned view group must be described by <a href="AdOverlayInfo.html" title="class in com.google.android.exoplayer2.ui"><code>AdOverlayInfos</code></a> returned by <a href="AdViewProvider.html#getAdOverlayInfos()"><code>AdViewProvider.getAdOverlayInfos()</code></a>, for accurate
+ playing audio-only ads. Any views on top of the returned view group must be described by <a href="AdOverlayInfo.html" title="class in com.readwise.android.exoplayer2.ui"><code>AdOverlayInfos</code></a> returned by <a href="AdViewProvider.html#getAdOverlayInfos()"><code>AdViewProvider.getAdOverlayInfos()</code></a>, for accurate
  viewability measurement.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="AdViewProvider.html#getAdViewGroup()">getAdViewGroup</a></code>&nbsp;in interface&nbsp;<code><a href="AdViewProvider.html" title="interface in com.google.android.exoplayer2.ui">AdViewProvider</a></code></dd>
+<dd><code><a href="AdViewProvider.html#getAdViewGroup()">getAdViewGroup</a></code>&nbsp;in interface&nbsp;<code><a href="AdViewProvider.html" title="interface in com.readwise.android.exoplayer2.ui">AdViewProvider</a></code></dd>
 </dl>
 </li>
 </ul>
@@ -1826,10 +1826,10 @@ public&nbsp;<a href="SubtitleView.html" title="class in com.google.android.exopl
 <ul class="blockListLast">
 <li class="blockList">
 <h4>getAdOverlayInfos</h4>
-<pre class="methodSignature">public&nbsp;<a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="AdOverlayInfo.html" title="class in com.google.android.exoplayer2.ui" target="_top">AdOverlayInfo</a>&gt;&nbsp;getAdOverlayInfos()</pre>
+<pre class="methodSignature">public&nbsp;<a href="https://developer.android.com/reference/java/util/List.html" title="class or interface in java.util" class="externalLink">List</a>&lt;<a href="AdOverlayInfo.html" title="class in com.readwise.android.exoplayer2.ui" target="_top">AdOverlayInfo</a>&gt;&nbsp;getAdOverlayInfos()</pre>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span></div>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="AdViewProvider.html#getAdOverlayInfos()">AdViewProvider</a></code></span></div>
-<div class="block">Returns a list of <a href="AdOverlayInfo.html" title="class in com.google.android.exoplayer2.ui"><code>AdOverlayInfo</code></a> instances describing views that are on top of the ad
+<div class="block">Returns a list of <a href="AdOverlayInfo.html" title="class in com.readwise.android.exoplayer2.ui"><code>AdOverlayInfo</code></a> instances describing views that are on top of the ad
  view group, but that are essential for controlling playback and should be excluded from ad
  viewability measurements.
 
@@ -1839,7 +1839,7 @@ public&nbsp;<a href="SubtitleView.html" title="class in com.google.android.exopl
  information see the documentation for your ads loader.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="AdViewProvider.html#getAdOverlayInfos()">getAdOverlayInfos</a></code>&nbsp;in interface&nbsp;<code><a href="AdViewProvider.html" title="interface in com.google.android.exoplayer2.ui">AdViewProvider</a></code></dd>
+<dd><code><a href="AdViewProvider.html#getAdOverlayInfos()">getAdOverlayInfos</a></code>&nbsp;in interface&nbsp;<code><a href="AdViewProvider.html" title="interface in com.readwise.android.exoplayer2.ui">AdViewProvider</a></code></dd>
 </dl>
 </li>
 </ul>

@@ -113,7 +113,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.google.android.exoplayer2.extractor.ts</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.readwise.android.exoplayer2.extractor.ts</a></div>
 <h2 title="Class H264Reader" class="title">Class H264Reader</h2>
 </div>
 <div class="contentContainer">
@@ -121,7 +121,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li><a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">java.lang.Object</a></li>
 <li>
 <ul class="inheritance">
-<li>com.google.android.exoplayer2.extractor.ts.H264Reader</li>
+<li>com.readwise.android.exoplayer2.extractor.ts.H264Reader</li>
 </ul>
 </li>
 </ul>
@@ -130,12 +130,12 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Implemented Interfaces:</dt>
-<dd><code><a href="ElementaryStreamReader.html" title="interface in com.google.android.exoplayer2.extractor.ts">ElementaryStreamReader</a></code></dd>
+<dd><code><a href="ElementaryStreamReader.html" title="interface in com.readwise.android.exoplayer2.extractor.ts">ElementaryStreamReader</a></code></dd>
 </dl>
 <hr>
 <pre>public final class <span class="typeNameLabel">H264Reader</span>
 extends <a href="https://developer.android.com/reference/java/lang/Object.html" title="class or interface in java.lang" class="externalLink" target="_top">Object</a>
-implements <a href="ElementaryStreamReader.html" title="interface in com.google.android.exoplayer2.extractor.ts">ElementaryStreamReader</a></pre>
+implements <a href="ElementaryStreamReader.html" title="interface in com.readwise.android.exoplayer2.extractor.ts">ElementaryStreamReader</a></pre>
 <div class="block">Parses a continuous H264 byte stream and extracts individual frames.</div>
 </li>
 </ul>
@@ -157,7 +157,7 @@ implements <a href="ElementaryStreamReader.html" title="interface in com.google.
 <th class="colLast" scope="col">Description</th>
 </tr>
 <tr class="altColor">
-<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(com.google.android.exoplayer2.extractor.ts.SeiReader,boolean,boolean)">H264Reader</a></span>&#8203;(<a href="SeiReader.html" title="class in com.google.android.exoplayer2.extractor.ts">SeiReader</a>&nbsp;seiReader,
+<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(com.readwise.android.exoplayer2.extractor.ts.SeiReader,boolean,boolean)">H264Reader</a></span>&#8203;(<a href="SeiReader.html" title="class in com.readwise.android.exoplayer2.extractor.ts">SeiReader</a>&nbsp;seiReader,
           boolean&nbsp;allowNonIdrKeyframes,
           boolean&nbsp;detectAccessUnits)</code></th>
 <td class="colLast">&nbsp;</td>
@@ -182,15 +182,15 @@ implements <a href="ElementaryStreamReader.html" title="interface in com.google.
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#consume(com.google.android.exoplayer2.util.ParsableByteArray)">consume</a></span>&#8203;(<a href="../../util/ParsableByteArray.html" title="class in com.google.android.exoplayer2.util">ParsableByteArray</a>&nbsp;data)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#consume(com.readwise.android.exoplayer2.util.ParsableByteArray)">consume</a></span>&#8203;(<a href="../../util/ParsableByteArray.html" title="class in com.readwise.android.exoplayer2.util">ParsableByteArray</a>&nbsp;data)</code></th>
 <td class="colLast">
 <div class="block">Consumes (possibly partial) data from the current packet.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#createTracks(com.google.android.exoplayer2.extractor.ExtractorOutput,com.google.android.exoplayer2.extractor.ts.TsPayloadReader.TrackIdGenerator)">createTracks</a></span>&#8203;(<a href="../ExtractorOutput.html" title="interface in com.google.android.exoplayer2.extractor">ExtractorOutput</a>&nbsp;extractorOutput,
-            <a href="TsPayloadReader.TrackIdGenerator.html" title="class in com.google.android.exoplayer2.extractor.ts">TsPayloadReader.TrackIdGenerator</a>&nbsp;idGenerator)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#createTracks(com.readwise.android.exoplayer2.extractor.ExtractorOutput,com.readwise.android.exoplayer2.extractor.ts.TsPayloadReader.TrackIdGenerator)">createTracks</a></span>&#8203;(<a href="../ExtractorOutput.html" title="interface in com.readwise.android.exoplayer2.extractor">ExtractorOutput</a>&nbsp;extractorOutput,
+            <a href="TsPayloadReader.TrackIdGenerator.html" title="class in com.readwise.android.exoplayer2.extractor.ts">TsPayloadReader.TrackIdGenerator</a>&nbsp;idGenerator)</code></th>
 <td class="colLast">
 <div class="block">Initializes the reader by providing outputs and ids for the tracks.</div>
 </td>
@@ -204,8 +204,8 @@ implements <a href="ElementaryStreamReader.html" title="interface in com.google.
 </tr>
 <tr id="i3" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#packetStarted(long,@com.google.android.exoplayer2.extractor.ts.TsPayloadReader.Flagsint)">packetStarted</a></span>&#8203;(long&nbsp;pesTimeUs,
-             @com.google.android.exoplayer2.extractor.ts.TsPayloadReader.Flags int&nbsp;flags)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#packetStarted(long,@com.readwise.android.exoplayer2.extractor.ts.TsPayloadReader.Flagsint)">packetStarted</a></span>&#8203;(long&nbsp;pesTimeUs,
+             @com.readwise.android.exoplayer2.extractor.ts.TsPayloadReader.Flags int&nbsp;flags)</code></th>
 <td class="colLast">
 <div class="block">Called when a packet starts.</div>
 </td>
@@ -241,13 +241,13 @@ implements <a href="ElementaryStreamReader.html" title="interface in com.google.
 <!--   -->
 </a>
 <h3>Constructor Detail</h3>
-<a id="&lt;init&gt;(com.google.android.exoplayer2.extractor.ts.SeiReader,boolean,boolean)">
+<a id="&lt;init&gt;(com.readwise.android.exoplayer2.extractor.ts.SeiReader,boolean,boolean)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>H264Reader</h4>
-<pre>public&nbsp;H264Reader&#8203;(<a href="SeiReader.html" title="class in com.google.android.exoplayer2.extractor.ts">SeiReader</a>&nbsp;seiReader,
+<pre>public&nbsp;H264Reader&#8203;(<a href="SeiReader.html" title="class in com.readwise.android.exoplayer2.extractor.ts">SeiReader</a>&nbsp;seiReader,
                   boolean&nbsp;allowNonIdrKeyframes,
                   boolean&nbsp;detectAccessUnits)</pre>
 <dl>
@@ -281,61 +281,61 @@ implements <a href="ElementaryStreamReader.html" title="interface in com.google.
 <div class="block">Notifies the reader that a seek has occurred.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="ElementaryStreamReader.html#seek()">seek</a></code>&nbsp;in interface&nbsp;<code><a href="ElementaryStreamReader.html" title="interface in com.google.android.exoplayer2.extractor.ts">ElementaryStreamReader</a></code></dd>
+<dd><code><a href="ElementaryStreamReader.html#seek()">seek</a></code>&nbsp;in interface&nbsp;<code><a href="ElementaryStreamReader.html" title="interface in com.readwise.android.exoplayer2.extractor.ts">ElementaryStreamReader</a></code></dd>
 </dl>
 </li>
 </ul>
-<a id="createTracks(com.google.android.exoplayer2.extractor.ExtractorOutput,com.google.android.exoplayer2.extractor.ts.TsPayloadReader.TrackIdGenerator)">
+<a id="createTracks(com.readwise.android.exoplayer2.extractor.ExtractorOutput,com.readwise.android.exoplayer2.extractor.ts.TsPayloadReader.TrackIdGenerator)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>createTracks</h4>
-<pre class="methodSignature">public&nbsp;void&nbsp;createTracks&#8203;(<a href="../ExtractorOutput.html" title="interface in com.google.android.exoplayer2.extractor">ExtractorOutput</a>&nbsp;extractorOutput,
-                         <a href="TsPayloadReader.TrackIdGenerator.html" title="class in com.google.android.exoplayer2.extractor.ts">TsPayloadReader.TrackIdGenerator</a>&nbsp;idGenerator)</pre>
-<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="ElementaryStreamReader.html#createTracks(com.google.android.exoplayer2.extractor.ExtractorOutput,com.google.android.exoplayer2.extractor.ts.TsPayloadReader.TrackIdGenerator)">ElementaryStreamReader</a></code></span></div>
+<pre class="methodSignature">public&nbsp;void&nbsp;createTracks&#8203;(<a href="../ExtractorOutput.html" title="interface in com.readwise.android.exoplayer2.extractor">ExtractorOutput</a>&nbsp;extractorOutput,
+                         <a href="TsPayloadReader.TrackIdGenerator.html" title="class in com.readwise.android.exoplayer2.extractor.ts">TsPayloadReader.TrackIdGenerator</a>&nbsp;idGenerator)</pre>
+<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="ElementaryStreamReader.html#createTracks(com.readwise.android.exoplayer2.extractor.ExtractorOutput,com.readwise.android.exoplayer2.extractor.ts.TsPayloadReader.TrackIdGenerator)">ElementaryStreamReader</a></code></span></div>
 <div class="block">Initializes the reader by providing outputs and ids for the tracks.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="ElementaryStreamReader.html#createTracks(com.google.android.exoplayer2.extractor.ExtractorOutput,com.google.android.exoplayer2.extractor.ts.TsPayloadReader.TrackIdGenerator)">createTracks</a></code>&nbsp;in interface&nbsp;<code><a href="ElementaryStreamReader.html" title="interface in com.google.android.exoplayer2.extractor.ts">ElementaryStreamReader</a></code></dd>
+<dd><code><a href="ElementaryStreamReader.html#createTracks(com.readwise.android.exoplayer2.extractor.ExtractorOutput,com.readwise.android.exoplayer2.extractor.ts.TsPayloadReader.TrackIdGenerator)">createTracks</a></code>&nbsp;in interface&nbsp;<code><a href="ElementaryStreamReader.html" title="interface in com.readwise.android.exoplayer2.extractor.ts">ElementaryStreamReader</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>extractorOutput</code> - The <a href="../ExtractorOutput.html" title="interface in com.google.android.exoplayer2.extractor"><code>ExtractorOutput</code></a> that receives the extracted data.</dd>
-<dd><code>idGenerator</code> - A <a href="TsPayloadReader.TrackIdGenerator.html" title="class in com.google.android.exoplayer2.extractor.ts"><code>TsPayloadReader.TrackIdGenerator</code></a> that generates unique track ids for the
-     <a href="../TrackOutput.html" title="interface in com.google.android.exoplayer2.extractor"><code>TrackOutput</code></a>s.</dd>
+<dd><code>extractorOutput</code> - The <a href="../ExtractorOutput.html" title="interface in com.readwise.android.exoplayer2.extractor"><code>ExtractorOutput</code></a> that receives the extracted data.</dd>
+<dd><code>idGenerator</code> - A <a href="TsPayloadReader.TrackIdGenerator.html" title="class in com.readwise.android.exoplayer2.extractor.ts"><code>TsPayloadReader.TrackIdGenerator</code></a> that generates unique track ids for the
+     <a href="../TrackOutput.html" title="interface in com.readwise.android.exoplayer2.extractor"><code>TrackOutput</code></a>s.</dd>
 </dl>
 </li>
 </ul>
-<a id="packetStarted(long,@com.google.android.exoplayer2.extractor.ts.TsPayloadReader.Flagsint)">
+<a id="packetStarted(long,@com.readwise.android.exoplayer2.extractor.ts.TsPayloadReader.Flagsint)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>packetStarted</h4>
 <pre class="methodSignature">public&nbsp;void&nbsp;packetStarted&#8203;(long&nbsp;pesTimeUs,
-                          @com.google.android.exoplayer2.extractor.ts.TsPayloadReader.Flags int&nbsp;flags)</pre>
-<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="ElementaryStreamReader.html#packetStarted(long,@com.google.android.exoplayer2.extractor.ts.TsPayloadReader.Flagsint)">ElementaryStreamReader</a></code></span></div>
+                          @com.readwise.android.exoplayer2.extractor.ts.TsPayloadReader.Flags int&nbsp;flags)</pre>
+<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="ElementaryStreamReader.html#packetStarted(long,@com.readwise.android.exoplayer2.extractor.ts.TsPayloadReader.Flagsint)">ElementaryStreamReader</a></code></span></div>
 <div class="block">Called when a packet starts.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="ElementaryStreamReader.html#packetStarted(long,@com.google.android.exoplayer2.extractor.ts.TsPayloadReader.Flagsint)">packetStarted</a></code>&nbsp;in interface&nbsp;<code><a href="ElementaryStreamReader.html" title="interface in com.google.android.exoplayer2.extractor.ts">ElementaryStreamReader</a></code></dd>
+<dd><code><a href="ElementaryStreamReader.html#packetStarted(long,@com.readwise.android.exoplayer2.extractor.ts.TsPayloadReader.Flagsint)">packetStarted</a></code>&nbsp;in interface&nbsp;<code><a href="ElementaryStreamReader.html" title="interface in com.readwise.android.exoplayer2.extractor.ts">ElementaryStreamReader</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>pesTimeUs</code> - The timestamp associated with the packet.</dd>
-<dd><code>flags</code> - See <a href="TsPayloadReader.Flags.html" title="annotation in com.google.android.exoplayer2.extractor.ts"><code>TsPayloadReader.Flags</code></a>.</dd>
+<dd><code>flags</code> - See <a href="TsPayloadReader.Flags.html" title="annotation in com.readwise.android.exoplayer2.extractor.ts"><code>TsPayloadReader.Flags</code></a>.</dd>
 </dl>
 </li>
 </ul>
-<a id="consume(com.google.android.exoplayer2.util.ParsableByteArray)">
+<a id="consume(com.readwise.android.exoplayer2.util.ParsableByteArray)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>consume</h4>
-<pre class="methodSignature">public&nbsp;void&nbsp;consume&#8203;(<a href="../../util/ParsableByteArray.html" title="class in com.google.android.exoplayer2.util">ParsableByteArray</a>&nbsp;data)</pre>
-<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="ElementaryStreamReader.html#consume(com.google.android.exoplayer2.util.ParsableByteArray)">ElementaryStreamReader</a></code></span></div>
+<pre class="methodSignature">public&nbsp;void&nbsp;consume&#8203;(<a href="../../util/ParsableByteArray.html" title="class in com.readwise.android.exoplayer2.util">ParsableByteArray</a>&nbsp;data)</pre>
+<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="ElementaryStreamReader.html#consume(com.readwise.android.exoplayer2.util.ParsableByteArray)">ElementaryStreamReader</a></code></span></div>
 <div class="block">Consumes (possibly partial) data from the current packet.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="ElementaryStreamReader.html#consume(com.google.android.exoplayer2.util.ParsableByteArray)">consume</a></code>&nbsp;in interface&nbsp;<code><a href="ElementaryStreamReader.html" title="interface in com.google.android.exoplayer2.extractor.ts">ElementaryStreamReader</a></code></dd>
+<dd><code><a href="ElementaryStreamReader.html#consume(com.readwise.android.exoplayer2.util.ParsableByteArray)">consume</a></code>&nbsp;in interface&nbsp;<code><a href="ElementaryStreamReader.html" title="interface in com.readwise.android.exoplayer2.extractor.ts">ElementaryStreamReader</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>data</code> - The data to consume.</dd>
 </dl>
@@ -352,7 +352,7 @@ implements <a href="ElementaryStreamReader.html" title="interface in com.google.
 <div class="block">Called when a packet ends.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="ElementaryStreamReader.html#packetFinished()">packetFinished</a></code>&nbsp;in interface&nbsp;<code><a href="ElementaryStreamReader.html" title="interface in com.google.android.exoplayer2.extractor.ts">ElementaryStreamReader</a></code></dd>
+<dd><code><a href="ElementaryStreamReader.html#packetFinished()">packetFinished</a></code>&nbsp;in interface&nbsp;<code><a href="ElementaryStreamReader.html" title="interface in com.readwise.android.exoplayer2.extractor.ts">ElementaryStreamReader</a></code></dd>
 </dl>
 </li>
 </ul>
