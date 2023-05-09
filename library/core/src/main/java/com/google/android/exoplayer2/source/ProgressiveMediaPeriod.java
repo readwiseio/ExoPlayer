@@ -1082,6 +1082,7 @@ import org.checkerframework.checker.nullness.qual.MonotonicNonNull;
           .setUri(uri)
           .setPosition(position)
           .setKey(customCacheKey)
+          .setLength(720_000)
           .setFlags(
               DataSpec.FLAG_DONT_CACHE_IF_LENGTH_UNKNOWN | DataSpec.FLAG_ALLOW_CACHE_FRAGMENTATION)
           .setHttpRequestHeaders(ICY_METADATA_HEADERS)
